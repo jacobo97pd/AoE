@@ -1,0 +1,316 @@
+{
+  "id": "sultanate_camel_archer",
+  "entry": {
+    "id": "sultanate_camel_archer",
+    "name": "Arquero de camello",
+    "culture": "sultanate",
+    "factions": [
+      "sultanate"
+    ],
+    "unit": "camel_archer",
+    "role": "melee",
+    "rig": "quadruped",
+    "donor": "Alpaca",
+    "tailMargin": 0,
+    "tailDamp": 0.2,
+    "height": 2.8,
+    "gameHeight": 3.4,
+    "teamHues": [
+      [
+        155,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert mounted archer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, cream turban, a steel lamellar vest over a long cream robe, a turquoise cloak and sash, a recurved bow held upright in one hand, a tasselled turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Camel coat warm fawn (#B8966A). Robes and turban cream (#E3D8BE). Lamellar vest steel grey (#8A8C8E) with bronze edging (#B07A3A). Cloak, sash and saddle cloth saturated turquoise (#1E8C8C). Leather and bow dark brown (#4A3526). No text or logos.",
+    "cloth": true,
+    "belly": 0.25,
+    "tailClear": true
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3c6-73b3-71fc-9401-c7fe31fa0b98",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 297465841,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert mounted archer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, cream turban, a steel lamellar vest over a long cream robe, a turquoise cloak and sash, a recurved bow held upright in one hand, a tasselled turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790527830374,
+        "progress": 100,
+        "started_at": 1790527830381,
+        "finished_at": 1790527840939,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c6-73b3-71fc-9401-c7fe31fa0b98/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c6-73b3-71fc-9401-c7fe31fa0b98/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3c6-bf61-74b8-87c6-bc1727515994",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 297465841,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert mounted archer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, cream turban, a steel lamellar vest over a long cream robe, a turquoise cloak and sash, a recurved bow held upright in one hand, a tasselled turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Camel coat warm fawn (#B8966A). Robes and turban cream (#E3D8BE). Lamellar vest steel grey (#8A8C8E) with bronze edging (#B07A3A). Cloak, sash and saddle cloth saturated turquoise (#1E8C8C). Leather and bow dark brown (#4A3526). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790527850141,
+        "progress": 100,
+        "started_at": 1790527850149,
+        "finished_at": 1790527959605,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c6-bf61-74b8-87c6-bc1727515994/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c6-bf61-74b8-87c6-bc1727515994/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c6-bf61-74b8-87c6-bc1727515994/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c6-bf61-74b8-87c6-bc1727515994/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c6-bf61-74b8-87c6-bc1727515994/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c6-bf61-74b8-87c6-bc1727515994/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:52:40.843213+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_camel_archer_model.glb",
+      "bytes": 7663076,
+      "sha256": "0ed0c16de2bf7f1ca4aa391ef50ee16412c1a8e965a5e355214b55a4372db24d"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 85659,
+      "sha256": "661185ec103f7daccb17448d94a0d71e53061efc35600ea939fd642b2988e26f"
+    },
+    "texture_base_color": {
+      "file": "sultanate_camel_archer_base_color.png",
+      "bytes": 6598239,
+      "sha256": "c51e99d9f66a7380b2e4d548888b629637e11e1bfb6fc09f1892bb89da360aa6"
+    },
+    "texture_metallic": {
+      "file": "sultanate_camel_archer_metallic.png",
+      "bytes": 21281,
+      "sha256": "4034b1b42b8496d28776273fb769ecb98364f8587fc4b5a275febe13bcc40f72"
+    },
+    "texture_roughness": {
+      "file": "sultanate_camel_archer_roughness.png",
+      "bytes": 1237974,
+      "sha256": "865013a67ecaf5926db289fb6b89c0d5d78cb2fd8b67fba90f4a8b0b8a3608b9"
+    },
+    "texture_normal": {
+      "file": "sultanate_camel_archer_normal.png",
+      "bytes": 5190867,
+      "sha256": "bd43797e94cf09a800d968ac52b06d798b671a0b9458eecaf5bb46735dd55cf1"
+    }
+  },
+  "credits": 45,
+  "rejected_try1": {
+    "steps": {
+      "preview": {
+        "task": {
+          "id": "01a0e3c0-d64a-708b-b0cc-a43620cdc196",
+          "type": "text-to-3d-preview",
+          "mode": "preview",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 2276487798,
+          "prompt": "Low-poly game asset for a top-down strategy game: an armoured desert archer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, a steel helmet wrapped in a cream turban, a lamellar coat over cream robes, a turquoise sash, a recurved bow in one hand, a turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+          "texture_prompt": "",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790527462449,
+          "progress": 100,
+          "started_at": 1790527462455,
+          "finished_at": 1790527473101,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c0-d64a-708b-b0cc-a43620cdc196/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c0-d64a-708b-b0cc-a43620cdc196/output/preview.png",
+          "texture_urls": [],
+          "consumed_credits": 5
+        },
+        "credits": 5
+      },
+      "refine": {
+        "task": {
+          "id": "01a0e3c1-21fe-7494-9124-2f8f46ef6d2d",
+          "type": "text-to-3d-refine",
+          "mode": "refine",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 2276487798,
+          "prompt": "Low-poly game asset for a top-down strategy game: an armoured desert archer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, a steel helmet wrapped in a cream turban, a lamellar coat over cream robes, a turquoise sash, a recurved bow in one hand, a turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+          "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Camel coat warm fawn (#B8966A). Robes and turban cream (#E3D8BE). Lamellar and helmet steel (#8A8C8E) with bronze edging (#B07A3A). Sash and saddle cloth saturated turquoise (#1E8C8C). Leather and bow dark brown (#4A3526). No text or logos.",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790527481758,
+          "progress": 100,
+          "started_at": 1790527481764,
+          "finished_at": 1790527561193,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c1-21fe-7494-9124-2f8f46ef6d2d/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c1-21fe-7494-9124-2f8f46ef6d2d/output/preview.png",
+          "texture_urls": [
+            {
+              "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c1-21fe-7494-9124-2f8f46ef6d2d/output/texture_0.png",
+              "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c1-21fe-7494-9124-2f8f46ef6d2d/output/texture_0_metallic.png",
+              "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c1-21fe-7494-9124-2f8f46ef6d2d/output/texture_0_roughness.png",
+              "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c1-21fe-7494-9124-2f8f46ef6d2d/output/texture_0_normal.png"
+            }
+          ],
+          "consumed_credits": 10
+        },
+        "credits": 10,
+        "finished_utc": "2026-09-27T16:46:07.045591+00:00"
+      }
+    },
+    "prompt": "Low-poly game asset for a top-down strategy game: an armoured desert archer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, a steel helmet wrapped in a cream turban, a lamellar coat over cream robes, a turquoise sash, a recurved bow in one hand, a turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "why": "no turquoise cloth at all (team mask 0.2%), faceless cone-shaped turban head, a second barrel-like pack on the rump; review/sultanate/work/ca_try1.png"
+  },
+  "rejected_try2": {
+    "steps": {
+      "preview": {
+        "task": {
+          "id": "01a0e3c3-b47f-7615-8265-f4f32a999e8f",
+          "type": "text-to-3d-preview",
+          "mode": "preview",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 2176121150,
+          "prompt": "Low-poly game asset for a top-down strategy game: a desert camel archer on a tall one-humped dromedary, seated upright on the hump, bearded face visible under a cream turban, grey lamellar coat over cream robes, wide turquoise sash, a recurved bow held upright in one hand, a large turquoise saddle cloth over the hump and flanks, the camel's long neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+          "texture_prompt": "",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790527650465,
+          "progress": 100,
+          "started_at": 1790527650473,
+          "finished_at": 1790527658369,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-b47f-7615-8265-f4f32a999e8f/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-b47f-7615-8265-f4f32a999e8f/output/preview.png",
+          "texture_urls": [],
+          "consumed_credits": 5
+        },
+        "credits": 5
+      },
+      "refine": {
+        "task": {
+          "id": "01a0e3c3-df71-76b8-9233-c50abccb0fb4",
+          "type": "text-to-3d-refine",
+          "mode": "refine",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 2176121150,
+          "prompt": "Low-poly game asset for a top-down strategy game: a desert camel archer on a tall one-humped dromedary, seated upright on the hump, bearded face visible under a cream turban, grey lamellar coat over cream robes, wide turquoise sash, a recurved bow held upright in one hand, a large turquoise saddle cloth over the hump and flanks, the camel's long neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+          "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Camel coat warm fawn (#B8966A). Robes and turban cream (#E3D8BE). Lamellar steel grey (#8A8C8E) with bronze edging (#B07A3A). Saddle cloth and sash: large areas of saturated turquoise cloth (#1E8C8C). Skin warm brown (#8A5A3C). Leather and bow dark brown (#4A3526). No text or logos.",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790527661688,
+          "progress": 100,
+          "started_at": 1790527661693,
+          "finished_at": 1790527768018,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-df71-76b8-9233-c50abccb0fb4/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-df71-76b8-9233-c50abccb0fb4/output/preview.png",
+          "texture_urls": [
+            {
+              "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-df71-76b8-9233-c50abccb0fb4/output/texture_0.png",
+              "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-df71-76b8-9233-c50abccb0fb4/output/texture_0_metallic.png",
+              "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-df71-76b8-9233-c50abccb0fb4/output/texture_0_roughness.png",
+              "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-df71-76b8-9233-c50abccb0fb4/output/texture_0_normal.png"
+            }
+          ],
+          "consumed_credits": 10
+        },
+        "credits": 10,
+        "finished_utc": "2026-09-27T16:49:32.385749+00:00"
+      }
+    },
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert camel archer on a tall one-humped dromedary, seated upright on the hump, bearded face visible under a cream turban, grey lamellar coat over cream robes, wide turquoise sash, a recurved bow held upright in one hand, a large turquoise saddle cloth over the hump and flanks, the camel's long neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "why": "the archer stands on the ground in front of the camel instead of riding it, hiding its forelegs; cloth came out green-teal (hue 158-168); review/sultanate/work/ca_try2.png"
+  },
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5257,
+    "bones": 38,
+    "heightMetres": 1.0,
+    "walkMetresPerSecond": 0.292,
+    "runMetresPerSecond": 1.802,
+    "scale": [
+      5.147,
+      7.262,
+      6.385
+    ],
+    "riderVertices": 1117,
+    "donorBack": 3.218,
+    "saddle": 0.992,
+    "bellies": [
+      0.28,
+      0.426
+    ],
+    "pinned": {
+      "muzzle": [
+        0.014,
+        0.971,
+        -0.76
+      ]
+    },
+    "tailVertices": 348,
+    "thinnedVertices": 613,
+    "legThickness": 0.0626,
+    "tailFit": {
+      "turn": -30.2,
+      "stretch": 1.5
+    },
+    "fusedLegs": [],
+    "splitLegs": {},
+    "settled": {
+      "Idle": 0.005,
+      "Walk": 0.035,
+      "Run": 0.011
+    },
+    "grounded": {
+      "Attack": {
+        "lift": 0.0187
+      },
+      "Hit": {
+        "lift": 0.0121
+      }
+    },
+    "teamMaskCoverage": 0.1232,
+    "rig": "transplanted from the Quaternius Stag (CC0) by tools/art/transplant_rig.py"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "elven_tree_teal",
+  "entry": {
+    "id": "elven_tree_teal",
+    "role": "obstacle",
+    "kind": "thicket",
+    "lod0": 400,
+    "lod1": 160,
+    "farShell": true,
+    "height": 3.6,
+    "footprint": 1.6,
+    "size": 512,
+    "biome": "elven",
+    "priority": 6,
+    "polycount": 1000,
+    "fit": "box",
+    "prompt": "Tall elven poplar tree: a short smooth pale trunk under one tall solid teardrop-shaped crown made of three big fused rounded leaf masses, the crown reaching low and covering most of the tree's height, widest in its lower third and tapering to a rounded tip, about twice as tall as wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no needles, no thin branches, hard edges, flat faces. One tree about 3.6 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Canopy: soft teal green (#4F9585) with pale sea-green sunlit lobe tops (#7FB9A2) and deeper teal undersides (#2F6760). Trunk: smooth silver-white bark (#DAD6C8) with faint grey-teal streaks (#9FB0AA). Clean and luminous but not neon, cooler than the gold trees beside it. No flowers, no fruit, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75d-4958-73bf-8abe-806db71816d3",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3643891700,
+        "prompt": "Tall elven poplar tree: a short smooth pale trunk under one tall solid teardrop-shaped crown made of three big fused rounded leaf masses, the crown reaching low and covering most of the tree's height, widest in its lower third and tapering to a rounded tip, about twice as tall as wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no needles, no thin branches, hard edges, flat faces. One tree about 3.6 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319611856,
+        "progress": 100,
+        "started_at": 1790319611862,
+        "finished_at": 1790319621730,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75d-4958-73bf-8abe-806db71816d3/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75d-4958-73bf-8abe-806db71816d3/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:00:29.357652+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d75e-9021-75cd-84b8-302824e1d046",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3643891700,
+        "prompt": "Tall elven poplar tree: a short smooth pale trunk under one tall solid teardrop-shaped crown made of three big fused rounded leaf masses, the crown reaching low and covering most of the tree's height, widest in its lower third and tapering to a rounded tip, about twice as tall as wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no needles, no thin branches, hard edges, flat faces. One tree about 3.6 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Canopy: soft teal green (#4F9585) with pale sea-green sunlit lobe tops (#7FB9A2) and deeper teal undersides (#2F6760). Trunk: smooth silver-white bark (#DAD6C8) with faint grey-teal streaks (#9FB0AA). Clean and luminous but not neon, cooler than the gold trees beside it. No flowers, no fruit, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319695273,
+        "progress": 100,
+        "started_at": 1790319695280,
+        "finished_at": 1790319730230,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-9021-75cd-84b8-302824e1d046/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-9021-75cd-84b8-302824e1d046/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-9021-75cd-84b8-302824e1d046/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-9021-75cd-84b8-302824e1d046/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-9021-75cd-84b8-302824e1d046/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-9021-75cd-84b8-302824e1d046/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:02:18.205478+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 64647,
+      "sha256": "b660514b002eeb59f68c91bde19368262a419eda54016711e60d58e1f455a29d"
+    },
+    "model_glb": {
+      "file": "elven_tree_teal_model.glb",
+      "bytes": 6289008,
+      "sha256": "407519e4e10af95159170fa658e85ef7f2376fbe741dc2489a8b3847db42cc1c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 77100,
+      "sha256": "f6e6b1f7f644faa45791414c81438849e5660b2a2d42f7f011b75bc5bc1fb7e3"
+    },
+    "texture_base_color": {
+      "file": "elven_tree_teal_base_color.png",
+      "bytes": 5515003,
+      "sha256": "d3313c956cea968d62e43f3e3d94c6ea7725a3ac0eea30151610b883fc85ec27"
+    },
+    "texture_metallic": {
+      "file": "elven_tree_teal_metallic.png",
+      "bytes": 131711,
+      "sha256": "8b5449131daea38c72db3a867c8c249b428958bca97a09c14d80447a9dfe70c9"
+    },
+    "texture_roughness": {
+      "file": "elven_tree_teal_roughness.png",
+      "bytes": 1339853,
+      "sha256": "ff201b01fce31c0cb92e154c2225880a80d8d2d61fc0920d79baee45dfbd91d5"
+    },
+    "texture_normal": {
+      "file": "elven_tree_teal_normal.png",
+      "bytes": 4372127,
+      "sha256": "e6d826c6f08036db31a0bb5e57356fdbdd75499759deeace4b96838a3a95a07a"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 892,
+    "lod0": 400,
+    "lod1": 160,
+    "fittedMetres": [
+      1.569,
+      1.6,
+      3.6
+    ],
+    "teamMaskCoverage": 0.0,
+    "recoloured": [
+      {
+        "hues": [
+          100,
+          200
+        ],
+        "pixels": 0.998,
+        "from": "#a3cfbe",
+        "to": "#66AC9C"
+      }
+    ]
+  }
+}

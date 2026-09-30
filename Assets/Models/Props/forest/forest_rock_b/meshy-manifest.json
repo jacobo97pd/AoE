@@ -1,0 +1,130 @@
+{
+  "id": "forest_rock_b",
+  "entry": {
+    "id": "forest_rock_b",
+    "role": "obstacle",
+    "kind": "obstacle",
+    "lod0": 250,
+    "lod1": 0,
+    "height": 0.8,
+    "footprint": 1,
+    "size": 512,
+    "biome": "forest",
+    "priority": 1,
+    "prompt": "Low rounded granite boulder outcrop: one fused mass of two lumps with a flat mossy top, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Rock: pale grey-beige granite (#A9A698) with cool grey-teal shadows (#7E8F8C) echoing slate roofs, a few light cracks. Moss cap on top: muted green (#5E7A3A). No dirt streaks, no text or logos.",
+    "polycount": 600
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d409-7738-77f0-8ca9-6b44001f62b8",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1627773293,
+        "prompt": "Low rounded granite boulder outcrop: one fused mass of two lumps with a flat mossy top, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263785787,
+        "progress": 100,
+        "started_at": 1790263785795,
+        "finished_at": 1790263795704,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-7738-77f0-8ca9-6b44001f62b8/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-7738-77f0-8ca9-6b44001f62b8/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:30:03.239674+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d409-c035-766a-8c03-f83c7a891ca0",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1627773293,
+        "prompt": "Low rounded granite boulder outcrop: one fused mass of two lumps with a flat mossy top, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Rock: pale grey-beige granite (#A9A698) with cool grey-teal shadows (#7E8F8C) echoing slate roofs, a few light cracks. Moss cap on top: muted green (#5E7A3A). No dirt streaks, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263804002,
+        "progress": 100,
+        "started_at": 1790263804011,
+        "finished_at": 1790263851815,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-c035-766a-8c03-f83c7a891ca0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-c035-766a-8c03-f83c7a891ca0/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-c035-766a-8c03-f83c7a891ca0/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-c035-766a-8c03-f83c7a891ca0/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-c035-766a-8c03-f83c7a891ca0/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-c035-766a-8c03-f83c7a891ca0/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:30:55.392722+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 81901,
+      "sha256": "b1b20ae0a25bb7fcc03cdb19ad6b13115a4a23f79e3d559cd28fbb1ba1d33ece"
+    },
+    "model_glb": {
+      "file": "forest_rock_b_model.glb",
+      "bytes": 4550592,
+      "sha256": "4430a415d8d352e06ca1fdcdaafca790791b95637b12ec54a6bf5efa5fdd1d15"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 102025,
+      "sha256": "24102384ad36acd1fee1f78a3b6ccaf9542cf1f9c42e0fecf59e0670afb84e72"
+    },
+    "texture_base_color": {
+      "file": "forest_rock_b_base_color.png",
+      "bytes": 4802118,
+      "sha256": "4e19d749cf2b483f437756d7e26991f198145a4431d4c1383987d1f10f60e823"
+    },
+    "texture_metallic": {
+      "file": "forest_rock_b_metallic.png",
+      "bytes": 18397,
+      "sha256": "2bffda39489dfe91415ba69bd5db10fc721a6f3546a1c2a27a72ce97a19389c0"
+    },
+    "texture_roughness": {
+      "file": "forest_rock_b_roughness.png",
+      "bytes": 1107352,
+      "sha256": "b138a95b739aaece4ad4a86c5fc7ff07875cd43efb367969125bb779958f2968"
+    },
+    "texture_normal": {
+      "file": "forest_rock_b_normal.png",
+      "bytes": 3279759,
+      "sha256": "87573b39c0a63f785c44da5ccf75d34407b904aac9b5a0c6d8b67155b63fa04d"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 662,
+    "lod0": 400,
+    "lod1": 160,
+    "fittedMetres": [
+      0.992,
+      1.0,
+      0.564
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

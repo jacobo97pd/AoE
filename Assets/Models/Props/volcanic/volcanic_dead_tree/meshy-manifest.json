@@ -1,0 +1,131 @@
+{
+  "id": "volcanic_dead_tree",
+  "entry": {
+    "id": "volcanic_dead_tree",
+    "role": "obstacle",
+    "kind": "thicket",
+    "lod0": 400,
+    "lod1": 160,
+    "height": 3.2,
+    "footprint": 1.7,
+    "size": 512,
+    "biome": "volcanic",
+    "priority": 6,
+    "polycount": 1000,
+    "fit": "box",
+    "prompt": "Charred dead tree: a thick blackened trunk splitting into four stout crooked bare limbs that reach up and out, broken stubby branch ends, no leaves, a burnt hollow at the foot, taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid chunky closed volumes, thick limbs only, no twigs, hard edges, flat faces. One tree about 3.2 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Bark: charred charcoal grey-black (#35302E) with ash-grey highlights on the upper faces (#6E6660) so the limbs read against dark ground. Thin glowing ember-orange cracks (#E86A2A) in the trunk and the broken branch ends. No leaves, no flames, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d759-48d4-7290-9a6a-6ef0d8023479",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1633610056,
+        "prompt": "Charred dead tree: a thick blackened trunk splitting into four stout crooked bare limbs that reach up and out, broken stubby branch ends, no leaves, a burnt hollow at the foot, taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid chunky closed volumes, thick limbs only, no twigs, hard edges, flat faces. One tree about 3.2 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319350434,
+        "progress": 100,
+        "started_at": 1790319350438,
+        "finished_at": 1790319358773,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d759-48d4-7290-9a6a-6ef0d8023479/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d759-48d4-7290-9a6a-6ef0d8023479/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:55:59.452011+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d75b-ce66-76d4-ad8a-aedc5a0d907d",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1633610056,
+        "prompt": "Charred dead tree: a thick blackened trunk splitting into four stout crooked bare limbs that reach up and out, broken stubby branch ends, no leaves, a burnt hollow at the foot, taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid chunky closed volumes, thick limbs only, no twigs, hard edges, flat faces. One tree about 3.2 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Bark: charred charcoal grey-black (#35302E) with ash-grey highlights on the upper faces (#6E6660) so the limbs read against dark ground. Thin glowing ember-orange cracks (#E86A2A) in the trunk and the broken branch ends. No leaves, no flames, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319515303,
+        "progress": 100,
+        "started_at": 1790319515310,
+        "finished_at": 1790319550515,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-ce66-76d4-ad8a-aedc5a0d907d/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-ce66-76d4-ad8a-aedc5a0d907d/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-ce66-76d4-ad8a-aedc5a0d907d/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-ce66-76d4-ad8a-aedc5a0d907d/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-ce66-76d4-ad8a-aedc5a0d907d/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-ce66-76d4-ad8a-aedc5a0d907d/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T06:59:18.257765+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 82293,
+      "sha256": "81c682bfae69ddab0be041bc6dffd6f3ccafa8489f49cec8609409eb885091bc"
+    },
+    "model_glb": {
+      "file": "volcanic_dead_tree_model.glb",
+      "bytes": 5224492,
+      "sha256": "8597efa04e6b4a9bfcee50116e649284d173a6372e73422486180742749c2af2"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 88219,
+      "sha256": "3de5b550a49b8215c7d20420d341993be603c0450a47ece02236d6d45838b1a1"
+    },
+    "texture_base_color": {
+      "file": "volcanic_dead_tree_base_color.png",
+      "bytes": 3666883,
+      "sha256": "7fc69d64931e8b89b86044a6ab8e99aca062bf33063ea5bc6a6d87e2da76b9ed"
+    },
+    "texture_metallic": {
+      "file": "volcanic_dead_tree_metallic.png",
+      "bytes": 54527,
+      "sha256": "ac9bdf79714145a10d3b7d24e8e5c416f1ea0624e50907381ecd6293ba66be6f"
+    },
+    "texture_roughness": {
+      "file": "volcanic_dead_tree_roughness.png",
+      "bytes": 1065919,
+      "sha256": "f287a1e8cb3c2c6590aeba1c84806ed67089162c1190c75bc1b0b86f83e1f718"
+    },
+    "texture_normal": {
+      "file": "volcanic_dead_tree_normal.png",
+      "bytes": 3215302,
+      "sha256": "ba43e2ec0e0d20d23525c1e4b2027fb811a7b15c8f7f150c9c28ae07d784604c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 971,
+    "lod0": 400,
+    "lod1": 160,
+    "fittedMetres": [
+      1.7,
+      1.437,
+      3.2
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

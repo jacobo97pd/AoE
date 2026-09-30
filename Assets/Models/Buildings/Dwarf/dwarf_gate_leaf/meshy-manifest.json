@@ -1,0 +1,264 @@
+{
+  "id": "dwarf_gate_leaf",
+  "entry": {
+    "id": "dwarf_gate_leaf",
+    "style": "dwarf",
+    "building": "gate_leaf",
+    "size": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "height": 2.4,
+    "fit": "stretch",
+    "thin": true,
+    "triangles": 800,
+    "base": "dwarf_fortifications"
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        348,
+        360
+      ],
+      [
+        0,
+        10
+      ]
+    ],
+    "teamSaturation": 0.42,
+    "grade": 1.45
+  },
+  "steps": {
+    "retexture": {
+      "task": {
+        "id": "01a0d616-c823-777b-aad1-5cc12f544ed9",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls, blocks, pillars and teeth: huge dark warm granite blocks (#5E5852) with paler carved edges (#8A827A). Tooth caps, the band and the door jambs: burnished bronze (#B07A3A) with faint gold geometric runes (#C9A04A). Banners and the stripe across the door: flat saturated crimson red (#A0262A). Door: bronze plates, dark iron bands and rivets (#3E3E40). No text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790298213051,
+        "progress": 100,
+        "started_at": 1790298213061,
+        "finished_at": 1790298261909,
+        "expires_at": 1790557461909,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "dwarf_fortifications",
+      "paidBy": "dwarf_wall",
+      "finished_utc": "2026-09-25T01:04:24.458431+00:00",
+      "credits": 0
+    }
+  },
+  "credits": 30,
+  "rejectedPreviews": [
+    {
+      "task": "01a0d5ee-4769-7422-876f-4afc0a635554",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single flat rectangular slab door of burnished bronze with dark iron bands, deep geometric rune carvings and a crimson enamel band across the middle, one single loose flat panel, nearly twice as tall as it is wide, seen face-on. Burnished bronze, dark iron, crimson enamel. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Round 1: a plain door in a frame, 0.85 : 1 wide; stretch refused.",
+      "rejected_utc": "2026-09-25T00:25:28.161181+00:00"
+    },
+    {
+      "task": "01a0d5f0-b56c-754d-9e4d-4d2e277053ef",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single tall rectangular slab of burnished bronze, nearly twice as tall as it is wide, covered in deep geometric rune carvings, crossed by riveted dark iron bands, a crimson enamel stripe across the middle, one loose flat panel seen face-on. Burnished bronze, dark iron, crimson enamel. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Prompt probe L2: 0.37 as wide as tall; stretch refused.",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    },
+    {
+      "task": "01a0d5f1-e319-70b1-a688-f92542e4668d",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single heavy dwarven gate leaf: a flat rectangular burnished bronze plate a little more than half as wide as it is tall, edged with riveted dark iron bands, a big carved geometric rune pattern and a crimson enamel stripe across the middle, one loose flat panel seen face-on. Burnished bronze, dark iron, crimson enamel. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Prompt probe L3: wider than tall; stretch refused.",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    },
+    {
+      "task": "01a0d5f3-f0cf-71b1-86f1-3fede2bb86d3",
+      "credits": 5,
+      "reason": "Replaced by the leaf built from the dwarf_fortifications base: the Meshy leaf was a pointed kite shape that left holes at all four corners of the passage.",
+      "rejected_utc": "2026-09-25T01:08:16.409748+00:00",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single dwarven bronze gate leaf of burnished bronze covered in deep geometric rune carvings, riveted dark iron bands at top and bottom and a crimson enamel stripe across the middle, one single loose flat panel, nearly twice as tall as it is wide, seen face-on. Burnished bronze, dark iron, crimson enamel. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text."
+    }
+  ],
+  "finish": {
+    "sourceTriangles": 252,
+    "triangles": 252,
+    "fittedMetres": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.0,
+      1.0
+    ],
+    "thicknessScale": 1.0,
+    "teamMaskCoverage": 0.0769
+  },
+  "base": {
+    "id": "dwarf_gate_leaf",
+    "strip": [
+      0.897232,
+      0.102768
+    ],
+    "triangles": 252,
+    "bounds": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "cloth": [
+      [
+        [
+          0.21958,
+          0.68809
+        ],
+        [
+          0.2504,
+          0.68809
+        ],
+        [
+          0.2504,
+          0.94189
+        ],
+        [
+          0.21958,
+          0.94189
+        ]
+      ],
+      [
+        [
+          0.26458,
+          0.94189
+        ],
+        [
+          0.26458,
+          0.68809
+        ],
+        [
+          0.2954,
+          0.68809
+        ],
+        [
+          0.2954,
+          0.94189
+        ]
+      ],
+      [
+        [
+          0.07507,
+          0.53794
+        ],
+        [
+          0.07507,
+          0.79175
+        ],
+        [
+          0.00709,
+          0.79175
+        ],
+        [
+          0.00709,
+          0.53794
+        ]
+      ],
+      [
+        [
+          0.15723,
+          0.79175
+        ],
+        [
+          0.08925,
+          0.79175
+        ],
+        [
+          0.08925,
+          0.53794
+        ],
+        [
+          0.15723,
+          0.53794
+        ]
+      ],
+      [
+        [
+          0.44451,
+          0.9147
+        ],
+        [
+          0.44451,
+          0.84672
+        ],
+        [
+          0.47533,
+          0.84672
+        ],
+        [
+          0.47533,
+          0.9147
+        ]
+      ],
+      [
+        [
+          0.5235,
+          0.9147
+        ],
+        [
+          0.49268,
+          0.9147
+        ],
+        [
+          0.49268,
+          0.84672
+        ],
+        [
+          0.5235,
+          0.84672
+        ]
+      ]
+    ]
+  },
+  "rejectedRefines": [
+    {
+      "task": "01a0d5f5-fc23-700c-8e31-be6871caee79",
+      "credits": 10,
+      "reason": "Replaced by the leaf built from the dwarf_fortifications base: the Meshy leaf was a pointed kite shape that left holes at all four corners of the passage.",
+      "rejected_utc": "2026-09-25T01:08:16.409748+00:00",
+      "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos."
+    }
+  ],
+  "files": {}
+}

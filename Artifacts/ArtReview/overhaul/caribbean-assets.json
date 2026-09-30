@@ -1,0 +1,86 @@
+{
+    "biome": "Caribbean",
+    "status": "Baked; screenshots require visual review; desktop counts are not mobile timings.",
+    "sceneRenderers": 115,
+    "environmentMeshes": 30,
+    "environmentLODGroups": 40,
+    "uniqueMaterials": 3,
+    "units": [
+        {
+            "kind": "Worker",
+            "bones": 16,
+            "triangles": [
+                5858,
+                3304,
+                1038
+            ],
+            "vertices": [
+                7835,
+                4826,
+                1745
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Pirate",
+            "bones": 16,
+            "triangles": [
+                7270,
+                3932,
+                1204
+            ],
+            "vertices": [
+                8643,
+                5196,
+                1943
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Hero",
+            "bones": 16,
+            "triangles": [
+                7270,
+                3932,
+                1204
+            ],
+            "vertices": [
+                8643,
+                5196,
+                1943
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Warrior",
+            "bones": 16,
+            "triangles": [
+                9176,
+                5122,
+                1502
+            ],
+            "vertices": [
+                12343,
+                7723,
+                2567
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        }
+    ]
+}

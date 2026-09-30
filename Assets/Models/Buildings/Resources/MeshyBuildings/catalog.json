@@ -1,0 +1,1050 @@
+{
+    "entries": [
+        {
+            "id": "kingdom_hearth",
+            "style": "kingdom",
+            "building": "hearth",
+            "prefab": "MeshyBuildings/kingdom_hearth",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4488,
+            "farTriangles": 1794,
+            "height": 4.300000190734863
+        },
+        {
+            "id": "kingdom_muster_hall",
+            "style": "kingdom",
+            "building": "muster_hall",
+            "prefab": "MeshyBuildings/kingdom_muster_hall",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 3736,
+            "farTriangles": 1492,
+            "height": 3.4000000953674318
+        },
+        {
+            "id": "kingdom_shelter",
+            "style": "kingdom",
+            "building": "shelter",
+            "prefab": "MeshyBuildings/kingdom_shelter",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4245,
+            "farTriangles": 1695,
+            "height": 3.0
+        },
+        {
+            "id": "kingdom_storeyard",
+            "style": "kingdom",
+            "building": "storeyard",
+            "prefab": "MeshyBuildings/kingdom_storeyard",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4310,
+            "farTriangles": 1721,
+            "height": 3.0
+        },
+        {
+            "id": "kingdom_archive",
+            "style": "kingdom",
+            "building": "archive",
+            "prefab": "MeshyBuildings/kingdom_archive",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4506,
+            "farTriangles": 1801,
+            "height": 3.8499999046325685
+        },
+        {
+            "id": "kingdom_watchtower",
+            "style": "kingdom",
+            "building": "watchtower",
+            "prefab": "MeshyBuildings/kingdom_watchtower",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 5170,
+            "farTriangles": 2067,
+            "height": 4.0
+        },
+        {
+            "id": "kingdom_keep",
+            "style": "kingdom",
+            "building": "keep",
+            "prefab": "MeshyBuildings/kingdom_keep",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4496,
+            "farTriangles": 1796,
+            "height": 4.699999809265137
+        },
+        {
+            "id": "kingdom_beast_lodge",
+            "style": "kingdom",
+            "building": "beast_lodge",
+            "prefab": "MeshyBuildings/kingdom_beast_lodge",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4834,
+            "farTriangles": 1933,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "kingdom_siege_workshop",
+            "style": "kingdom",
+            "building": "siege_workshop",
+            "prefab": "MeshyBuildings/kingdom_siege_workshop",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4716,
+            "farTriangles": 1885,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "kingdom_supply_outpost",
+            "style": "kingdom",
+            "building": "supply_outpost",
+            "prefab": "MeshyBuildings/kingdom_supply_outpost",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 5067,
+            "farTriangles": 2025,
+            "height": 3.0
+        },
+        {
+            "id": "mountain_hearth",
+            "style": "mountain",
+            "building": "hearth",
+            "prefab": "MeshyBuildings/mountain_hearth",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4657,
+            "farTriangles": 1859,
+            "height": 4.300000190734863
+        },
+        {
+            "id": "mountain_shelter",
+            "style": "mountain",
+            "building": "shelter",
+            "prefab": "MeshyBuildings/mountain_shelter",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4960,
+            "farTriangles": 1982,
+            "height": 3.0
+        },
+        {
+            "id": "mountain_storeyard",
+            "style": "mountain",
+            "building": "storeyard",
+            "prefab": "MeshyBuildings/mountain_storeyard",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4831,
+            "farTriangles": 1927,
+            "height": 3.0
+        },
+        {
+            "id": "mountain_muster_hall",
+            "style": "mountain",
+            "building": "muster_hall",
+            "prefab": "MeshyBuildings/mountain_muster_hall",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4991,
+            "farTriangles": 1995,
+            "height": 3.4000000953674318
+        },
+        {
+            "id": "mountain_archive",
+            "style": "mountain",
+            "building": "archive",
+            "prefab": "MeshyBuildings/mountain_archive",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4616,
+            "farTriangles": 1836,
+            "height": 3.8499999046325685
+        },
+        {
+            "id": "mountain_watchtower",
+            "style": "mountain",
+            "building": "watchtower",
+            "prefab": "MeshyBuildings/mountain_watchtower",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4361,
+            "farTriangles": 1742,
+            "height": 4.0
+        },
+        {
+            "id": "mountain_keep",
+            "style": "mountain",
+            "building": "keep",
+            "prefab": "MeshyBuildings/mountain_keep",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4876,
+            "farTriangles": 1949,
+            "height": 4.699999809265137
+        },
+        {
+            "id": "mountain_beast_lodge",
+            "style": "mountain",
+            "building": "beast_lodge",
+            "prefab": "MeshyBuildings/mountain_beast_lodge",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4738,
+            "farTriangles": 1893,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "mountain_siege_workshop",
+            "style": "mountain",
+            "building": "siege_workshop",
+            "prefab": "MeshyBuildings/mountain_siege_workshop",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4990,
+            "farTriangles": 1995,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "dwarf_hearth",
+            "style": "dwarf",
+            "building": "hearth",
+            "prefab": "MeshyBuildings/dwarf_hearth",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4878,
+            "farTriangles": 1948,
+            "height": 4.300000190734863
+        },
+        {
+            "id": "dwarf_shelter",
+            "style": "dwarf",
+            "building": "shelter",
+            "prefab": "MeshyBuildings/dwarf_shelter",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4822,
+            "farTriangles": 1927,
+            "height": 3.0
+        },
+        {
+            "id": "dwarf_storeyard",
+            "style": "dwarf",
+            "building": "storeyard",
+            "prefab": "MeshyBuildings/dwarf_storeyard",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4854,
+            "farTriangles": 1939,
+            "height": 3.0
+        },
+        {
+            "id": "dwarf_muster_hall",
+            "style": "dwarf",
+            "building": "muster_hall",
+            "prefab": "MeshyBuildings/dwarf_muster_hall",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4719,
+            "farTriangles": 1885,
+            "height": 3.4000000953674318
+        },
+        {
+            "id": "dwarf_archive",
+            "style": "dwarf",
+            "building": "archive",
+            "prefab": "MeshyBuildings/dwarf_archive",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4930,
+            "farTriangles": 1971,
+            "height": 3.8499999046325685
+        },
+        {
+            "id": "dwarf_watchtower",
+            "style": "dwarf",
+            "building": "watchtower",
+            "prefab": "MeshyBuildings/dwarf_watchtower",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4808,
+            "farTriangles": 1923,
+            "height": 4.0
+        },
+        {
+            "id": "dwarf_keep",
+            "style": "dwarf",
+            "building": "keep",
+            "prefab": "MeshyBuildings/dwarf_keep",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4701,
+            "farTriangles": 1879,
+            "height": 4.699999809265137
+        },
+        {
+            "id": "dwarf_beast_lodge",
+            "style": "dwarf",
+            "building": "beast_lodge",
+            "prefab": "MeshyBuildings/dwarf_beast_lodge",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4489,
+            "farTriangles": 1791,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "dwarf_siege_workshop",
+            "style": "dwarf",
+            "building": "siege_workshop",
+            "prefab": "MeshyBuildings/dwarf_siege_workshop",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4793,
+            "farTriangles": 1916,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "elf_hearth",
+            "style": "elf",
+            "building": "hearth",
+            "prefab": "MeshyBuildings/elf_hearth",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4983,
+            "farTriangles": 1992,
+            "height": 4.300000190734863
+        },
+        {
+            "id": "elf_shelter",
+            "style": "elf",
+            "building": "shelter",
+            "prefab": "MeshyBuildings/elf_shelter",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4848,
+            "farTriangles": 1934,
+            "height": 3.0
+        },
+        {
+            "id": "elf_storeyard",
+            "style": "elf",
+            "building": "storeyard",
+            "prefab": "MeshyBuildings/elf_storeyard",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4761,
+            "farTriangles": 1902,
+            "height": 3.0
+        },
+        {
+            "id": "elf_muster_hall",
+            "style": "elf",
+            "building": "muster_hall",
+            "prefab": "MeshyBuildings/elf_muster_hall",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4961,
+            "farTriangles": 1982,
+            "height": 3.4000000953674318
+        },
+        {
+            "id": "elf_archive",
+            "style": "elf",
+            "building": "archive",
+            "prefab": "MeshyBuildings/elf_archive",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4811,
+            "farTriangles": 1923,
+            "height": 3.8499999046325685
+        },
+        {
+            "id": "elf_watchtower",
+            "style": "elf",
+            "building": "watchtower",
+            "prefab": "MeshyBuildings/elf_watchtower",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4766,
+            "farTriangles": 1906,
+            "height": 4.0
+        },
+        {
+            "id": "elf_keep",
+            "style": "elf",
+            "building": "keep",
+            "prefab": "MeshyBuildings/elf_keep",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4651,
+            "farTriangles": 1858,
+            "height": 4.699999809265137
+        },
+        {
+            "id": "elf_beast_lodge",
+            "style": "elf",
+            "building": "beast_lodge",
+            "prefab": "MeshyBuildings/elf_beast_lodge",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4866,
+            "farTriangles": 1945,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "elf_siege_workshop",
+            "style": "elf",
+            "building": "siege_workshop",
+            "prefab": "MeshyBuildings/elf_siege_workshop",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4733,
+            "farTriangles": 1887,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "orc_hearth",
+            "style": "orc",
+            "building": "hearth",
+            "prefab": "MeshyBuildings/orc_hearth",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4776,
+            "farTriangles": 1908,
+            "height": 4.300000190734863
+        },
+        {
+            "id": "orc_shelter",
+            "style": "orc",
+            "building": "shelter",
+            "prefab": "MeshyBuildings/orc_shelter",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 5027,
+            "farTriangles": 2011,
+            "height": 3.0
+        },
+        {
+            "id": "orc_storeyard",
+            "style": "orc",
+            "building": "storeyard",
+            "prefab": "MeshyBuildings/orc_storeyard",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 5038,
+            "farTriangles": 2013,
+            "height": 3.0
+        },
+        {
+            "id": "orc_muster_hall",
+            "style": "orc",
+            "building": "muster_hall",
+            "prefab": "MeshyBuildings/orc_muster_hall",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4709,
+            "farTriangles": 1880,
+            "height": 3.4000000953674318
+        },
+        {
+            "id": "orc_archive",
+            "style": "orc",
+            "building": "archive",
+            "prefab": "MeshyBuildings/orc_archive",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 5081,
+            "farTriangles": 2030,
+            "height": 3.8499999046325685
+        },
+        {
+            "id": "orc_watchtower",
+            "style": "orc",
+            "building": "watchtower",
+            "prefab": "MeshyBuildings/orc_watchtower",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4962,
+            "farTriangles": 1984,
+            "height": 4.0
+        },
+        {
+            "id": "orc_keep",
+            "style": "orc",
+            "building": "keep",
+            "prefab": "MeshyBuildings/orc_keep",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4378,
+            "farTriangles": 1750,
+            "height": 4.699999809265137
+        },
+        {
+            "id": "orc_beast_lodge",
+            "style": "orc",
+            "building": "beast_lodge",
+            "prefab": "MeshyBuildings/orc_beast_lodge",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4855,
+            "farTriangles": 1942,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "orc_siege_workshop",
+            "style": "orc",
+            "building": "siege_workshop",
+            "prefab": "MeshyBuildings/orc_siege_workshop",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4883,
+            "farTriangles": 1951,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "kingdom_wall",
+            "style": "kingdom",
+            "building": "wall",
+            "prefab": "MeshyBuildings/kingdom_wall",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 510,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "kingdom_gate",
+            "style": "kingdom",
+            "building": "gate",
+            "prefab": "MeshyBuildings/kingdom_gate",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 504,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "kingdom_gate_leaf",
+            "style": "kingdom",
+            "building": "gate_leaf",
+            "prefab": "MeshyBuildings/kingdom_gate_leaf",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 651,
+            "farTriangles": 0,
+            "height": 2.4000000953674318
+        },
+        {
+            "id": "mountain_wall",
+            "style": "mountain",
+            "building": "wall",
+            "prefab": "MeshyBuildings/mountain_wall",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 1282,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "mountain_gate",
+            "style": "mountain",
+            "building": "gate",
+            "prefab": "MeshyBuildings/mountain_gate",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 902,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "mountain_gate_leaf",
+            "style": "mountain",
+            "building": "gate_leaf",
+            "prefab": "MeshyBuildings/mountain_gate_leaf",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 798,
+            "farTriangles": 0,
+            "height": 2.4000000953674318
+        },
+        {
+            "id": "dwarf_wall",
+            "style": "dwarf",
+            "building": "wall",
+            "prefab": "MeshyBuildings/dwarf_wall",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 674,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "dwarf_gate",
+            "style": "dwarf",
+            "building": "gate",
+            "prefab": "MeshyBuildings/dwarf_gate",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 680,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "dwarf_gate_leaf",
+            "style": "dwarf",
+            "building": "gate_leaf",
+            "prefab": "MeshyBuildings/dwarf_gate_leaf",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 252,
+            "farTriangles": 0,
+            "height": 2.4000000953674318
+        },
+        {
+            "id": "elf_wall",
+            "style": "elf",
+            "building": "wall",
+            "prefab": "MeshyBuildings/elf_wall",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 1026,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "elf_gate",
+            "style": "elf",
+            "building": "gate",
+            "prefab": "MeshyBuildings/elf_gate",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 1060,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "elf_gate_leaf",
+            "style": "elf",
+            "building": "gate_leaf",
+            "prefab": "MeshyBuildings/elf_gate_leaf",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 800,
+            "farTriangles": 0,
+            "height": 2.4000000953674318
+        },
+        {
+            "id": "orc_wall",
+            "style": "orc",
+            "building": "wall",
+            "prefab": "MeshyBuildings/orc_wall",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 854,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "orc_gate",
+            "style": "orc",
+            "building": "gate",
+            "prefab": "MeshyBuildings/orc_gate",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 656,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "orc_gate_leaf",
+            "style": "orc",
+            "building": "gate_leaf",
+            "prefab": "MeshyBuildings/orc_gate_leaf",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 797,
+            "farTriangles": 0,
+            "height": 2.4000000953674318
+        },
+        {
+            "id": "sultanate_hearth",
+            "style": "sultanate",
+            "building": "hearth",
+            "prefab": "MeshyBuildings/sultanate_hearth",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4540,
+            "farTriangles": 1814,
+            "height": 4.300000190734863
+        },
+        {
+            "id": "sultanate_shelter",
+            "style": "sultanate",
+            "building": "shelter",
+            "prefab": "MeshyBuildings/sultanate_shelter",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4829,
+            "farTriangles": 1930,
+            "height": 3.0
+        },
+        {
+            "id": "sultanate_storeyard",
+            "style": "sultanate",
+            "building": "storeyard",
+            "prefab": "MeshyBuildings/sultanate_storeyard",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4756,
+            "farTriangles": 1900,
+            "height": 3.0
+        },
+        {
+            "id": "sultanate_muster_hall",
+            "style": "sultanate",
+            "building": "muster_hall",
+            "prefab": "MeshyBuildings/sultanate_muster_hall",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 2742,
+            "farTriangles": 1097,
+            "height": 3.4000000953674318
+        },
+        {
+            "id": "sultanate_archive",
+            "style": "sultanate",
+            "building": "archive",
+            "prefab": "MeshyBuildings/sultanate_archive",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4791,
+            "farTriangles": 1914,
+            "height": 3.8499999046325685
+        },
+        {
+            "id": "sultanate_watchtower",
+            "style": "sultanate",
+            "building": "watchtower",
+            "prefab": "MeshyBuildings/sultanate_watchtower",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4962,
+            "farTriangles": 1983,
+            "height": 4.0
+        },
+        {
+            "id": "sultanate_keep",
+            "style": "sultanate",
+            "building": "keep",
+            "prefab": "MeshyBuildings/sultanate_keep",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4728,
+            "farTriangles": 1887,
+            "height": 4.699999809265137
+        },
+        {
+            "id": "sultanate_beast_lodge",
+            "style": "sultanate",
+            "building": "beast_lodge",
+            "prefab": "MeshyBuildings/sultanate_beast_lodge",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4905,
+            "farTriangles": 1960,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "sultanate_siege_workshop",
+            "style": "sultanate",
+            "building": "siege_workshop",
+            "prefab": "MeshyBuildings/sultanate_siege_workshop",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 5316,
+            "farTriangles": 2126,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "sultanate_wall",
+            "style": "sultanate",
+            "building": "wall",
+            "prefab": "MeshyBuildings/sultanate_wall",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 1042,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "sultanate_gate",
+            "style": "sultanate",
+            "building": "gate",
+            "prefab": "MeshyBuildings/sultanate_gate",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 672,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "sultanate_gate_leaf",
+            "style": "sultanate",
+            "building": "gate_leaf",
+            "prefab": "MeshyBuildings/sultanate_gate_leaf",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 488,
+            "farTriangles": 0,
+            "height": 2.4000000953674318
+        },
+        {
+            "id": "sahel_hearth",
+            "style": "sahel",
+            "building": "hearth",
+            "prefab": "MeshyBuildings/sahel_hearth",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4767,
+            "farTriangles": 1905,
+            "height": 4.300000190734863
+        },
+        {
+            "id": "sahel_shelter",
+            "style": "sahel",
+            "building": "shelter",
+            "prefab": "MeshyBuildings/sahel_shelter",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4537,
+            "farTriangles": 1813,
+            "height": 3.0
+        },
+        {
+            "id": "sahel_storeyard",
+            "style": "sahel",
+            "building": "storeyard",
+            "prefab": "MeshyBuildings/sahel_storeyard",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4668,
+            "farTriangles": 1867,
+            "height": 3.0
+        },
+        {
+            "id": "sahel_muster_hall",
+            "style": "sahel",
+            "building": "muster_hall",
+            "prefab": "MeshyBuildings/sahel_muster_hall",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 5192,
+            "farTriangles": 2077,
+            "height": 3.4000000953674318
+        },
+        {
+            "id": "sahel_archive",
+            "style": "sahel",
+            "building": "archive",
+            "prefab": "MeshyBuildings/sahel_archive",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 5176,
+            "farTriangles": 2069,
+            "height": 3.8499999046325685
+        },
+        {
+            "id": "sahel_watchtower",
+            "style": "sahel",
+            "building": "watchtower",
+            "prefab": "MeshyBuildings/sahel_watchtower",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 5255,
+            "farTriangles": 2101,
+            "height": 4.0
+        },
+        {
+            "id": "sahel_keep",
+            "style": "sahel",
+            "building": "keep",
+            "prefab": "MeshyBuildings/sahel_keep",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4960,
+            "farTriangles": 1983,
+            "height": 4.699999809265137
+        },
+        {
+            "id": "sahel_beast_lodge",
+            "style": "sahel",
+            "building": "beast_lodge",
+            "prefab": "MeshyBuildings/sahel_beast_lodge",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4875,
+            "farTriangles": 1948,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "sahel_siege_workshop",
+            "style": "sahel",
+            "building": "siege_workshop",
+            "prefab": "MeshyBuildings/sahel_siege_workshop",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4898,
+            "farTriangles": 1957,
+            "height": 3.299999952316284
+        },
+        {
+            "id": "sahel_wall",
+            "style": "sahel",
+            "building": "wall",
+            "prefab": "MeshyBuildings/sahel_wall",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 570,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "sahel_gate",
+            "style": "sahel",
+            "building": "gate",
+            "prefab": "MeshyBuildings/sahel_gate",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 504,
+            "farTriangles": 0,
+            "height": 3.700000047683716
+        },
+        {
+            "id": "sahel_gate_leaf",
+            "style": "sahel",
+            "building": "gate_leaf",
+            "prefab": "MeshyBuildings/sahel_gate_leaf",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 360,
+            "farTriangles": 0,
+            "height": 2.4000000953674318
+        }
+    ]
+}

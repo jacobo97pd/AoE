@@ -1,0 +1,72 @@
+{
+  "name": "TreasureSeeker",
+  "sourceSha256": "966165df0518639ce9c7e23db7b150bb48aeb7ac397dcacdbadac24df7405012",
+  "fbxSha256": "5709a99ab4be1121dee71bc04387c2303aad63c483ab8e21fbe9cc7560a8eacc",
+  "bones": 28,
+  "heightMetres": 2.35,
+  "rig": "Fitted Generic rig on posed Meshy source; no facial rig",
+  "lods": [
+    {
+      "name": "TreasureSeeker_LOD0",
+      "vertices": 71310,
+      "triangles": 140000,
+      "weightedVertices": 71310,
+      "maxInfluences": 4
+    },
+    {
+      "name": "TreasureSeeker_LOD1",
+      "vertices": 23154,
+      "triangles": 45000,
+      "weightedVertices": 23154,
+      "maxInfluences": 4
+    },
+    {
+      "name": "TreasureSeeker_LOD2",
+      "vertices": 6268,
+      "triangles": 12000,
+      "weightedVertices": 6268,
+      "maxInfluences": 4
+    }
+  ],
+  "animations": [
+    {
+      "name": "Corsair_Idle",
+      "seconds": 3.0,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Walk",
+      "seconds": 1.0666666666666667,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Run",
+      "seconds": 0.6666666666666666,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Hit",
+      "seconds": 0.5,
+      "loop": false
+    },
+    {
+      "name": "Corsair_Death",
+      "seconds": 1.6,
+      "loop": false
+    },
+    {
+      "name": "Corsair_Attack",
+      "seconds": 0.9,
+      "loop": false
+    },
+    {
+      "name": "Corsair_Work",
+      "seconds": 1.0,
+      "loop": true
+    }
+  ],
+  "locomotion": {
+    "walkMetresPerSecond": 1.294,
+    "runMetresPerSecond": 2.489
+  }
+}

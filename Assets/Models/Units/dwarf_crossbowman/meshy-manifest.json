@@ -1,0 +1,294 @@
+{
+  "id": "dwarf_crossbowman",
+  "entry": {
+    "id": "dwarf_crossbowman",
+    "name": "Ballestero enano",
+    "culture": "dwarf",
+    "factions": [
+      "drakeforged"
+    ],
+    "unit": "stringwarden",
+    "role": "ranged",
+    "sheet": "Assets/Models/Units/dwarf_crossbowman/concept.png",
+    "height": 1.35,
+    "gameHeight": 1.86,
+    "teamHues": [
+      [
+        340,
+        360
+      ],
+      [
+        0,
+        18
+      ]
+    ],
+    "concept": {
+      "references": [
+        "dwarf_warrior",
+        "dwarf_miner"
+      ],
+      "prompt": "Same painted 3D game-art style and the same dwarf clan, with the same riveted bronze-and-steel plates and a crimson red tabard with gold runes, as these two figures: a stout dwarf crossbowman with a braided beard and an iron helm, a heavy steel crossbow and a bolt case slung on his back."
+    }
+  },
+  "steps": {
+    "model": {
+      "task": {
+        "id": "01a0d355-7c95-73aa-8ece-1b6dea6f5e09",
+        "type": "image-to-3d",
+        "name": "",
+        "art_style": "",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790251991704,
+        "progress": 100,
+        "started_at": 1790251991715,
+        "finished_at": 1790252087847,
+        "expires_at": 1790511287847,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d355-7c95-73aa-8ece-1b6dea6f5e09/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d355-7c95-73aa-8ece-1b6dea6f5e09/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d355-7c95-73aa-8ece-1b6dea6f5e09/output/model.fbx"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d355-7c95-73aa-8ece-1b6dea6f5e09/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d355-7c95-73aa-8ece-1b6dea6f5e09/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d355-7c95-73aa-8ece-1b6dea6f5e09/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d355-7c95-73aa-8ece-1b6dea6f5e09/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d355-7c95-73aa-8ece-1b6dea6f5e09/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 3371,
+      "finished_utc": "2026-09-24T12:14:57.786949+00:00"
+    },
+    "rig": {
+      "task": {
+        "id": "01a0d357-2570-76d3-b912-465a6b5766d5",
+        "type": "rig",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790252102344,
+        "progress": 100,
+        "started_at": 1790252102359,
+        "finished_at": 1790252135309,
+        "expires_at": 1790511335309,
+        "task_error": null,
+        "result": {
+          "rigged_character_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-2570-76d3-b912-465a6b5766d5/output/Character_output.fbx",
+          "rigged_character_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-2570-76d3-b912-465a6b5766d5/output/Character_output.glb",
+          "basic_animations": {
+            "walking_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-2570-76d3-b912-465a6b5766d5/output/Animation_Walking_withSkin.glb",
+            "walking_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-2570-76d3-b912-465a6b5766d5/output/Animation_Walking_withSkin.fbx",
+            "walking_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-2570-76d3-b912-465a6b5766d5/output/Animation_Walking_withSkin_armature.glb",
+            "running_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-2570-76d3-b912-465a6b5766d5/output/Animation_Running_withSkin.glb",
+            "running_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-2570-76d3-b912-465a6b5766d5/output/Animation_Running_withSkin.fbx",
+            "running_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-2570-76d3-b912-465a6b5766d5/output/Animation_Running_withSkin_armature.glb"
+          }
+        },
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3366,
+      "finished_utc": "2026-09-24T12:15:40.779038+00:00"
+    },
+    "animations": {
+      "task": {
+        "id": "01a0d357-cd4e-75cd-abcc-a8954b4cde99",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790252142184,
+        "progress": 100,
+        "started_at": 1790252142196,
+        "finished_at": 1790252163507,
+        "expires_at": 1790511363507,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-cd4e-75cd-abcc-a8954b4cde99/output/merged_animations.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d357-cd4e-75cd-abcc-a8954b4cde99/output/merged_animations.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 3351,
+      "finished_utc": "2026-09-24T12:16:09.484054+00:00"
+    },
+    "climb": {
+      "task": {
+        "id": "01a0d5bc-d7c7-747e-9876-a870967a8211",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292318581,
+        "progress": 100,
+        "started_at": 1790292318588,
+        "finished_at": 1790292325501,
+        "expires_at": 1790551525501,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-d7c7-747e-9876-a870967a8211/output/Animation_Ladder_Climb_Loop_withSkin.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-d7c7-747e-9876-a870967a8211/output/Animation_Ladder_Climb_Loop_withSkin.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 3
+      },
+      "credits": 3,
+      "balance_after": 1840,
+      "finished_utc": "2026-09-24T23:25:29.081456+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_crossbowman_model.glb",
+      "bytes": 8551684,
+      "sha256": "0c1ddd84143b995785045e6e1498cac8a7838ad107c3870bc9b025ead086279e"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 146013,
+      "sha256": "f9466f9b239b0262726a75fc607a65ba70057ec0a75c914ffa06a8032a22c305"
+    },
+    "texture_base_color": {
+      "file": "dwarf_crossbowman_base_color.png",
+      "bytes": 6213064,
+      "sha256": "06ac8c14275998663e5c9fe0325fc10860600c781b3d94b60b7c84f043e78f26"
+    },
+    "texture_metallic": {
+      "file": "dwarf_crossbowman_metallic.png",
+      "bytes": 1263951,
+      "sha256": "4bdae43e6dd3e979e7e038610d90f533ac19f100e3689be5eacfbd691bd53673"
+    },
+    "texture_roughness": {
+      "file": "dwarf_crossbowman_roughness.png",
+      "bytes": 1613054,
+      "sha256": "53c7809693b943dd026fe1a02f7a3def5471b158f71b4dbb31ecf43fb144dcfd"
+    },
+    "texture_normal": {
+      "file": "dwarf_crossbowman_normal.png",
+      "bytes": 5268550,
+      "sha256": "d3664741829dc0ef90a90f0d3af35f3b2201fabf83d82643d202ff39615ce101"
+    },
+    "rigged_character_fbx": {
+      "file": "dwarf_crossbowman_rigged_character.fbx",
+      "bytes": 6675820,
+      "sha256": "86ee93f145ac1bd0ef93e5ffb1397b78c8bc8df3a71580a8e1ac9675f9cb247d"
+    },
+    "rigged_character_glb": {
+      "file": "dwarf_crossbowman_rigged_character.glb",
+      "bytes": 6491264,
+      "sha256": "f27577da7e9540e640d76dcd71f3b7d828c4c58defeafbb830f3efff2e6afbdf"
+    },
+    "walking_glb": {
+      "file": "dwarf_crossbowman_walking.glb",
+      "bytes": 6504048,
+      "sha256": "29cdb06464d40d581e175f038997a57e22c932ce0a3840245cce1ad7a701f19c"
+    },
+    "walking_fbx": {
+      "file": "dwarf_crossbowman_walking.fbx",
+      "bytes": 6700268,
+      "sha256": "fba08e4d059aceed87a33e8a57430cf8474140b3387690c1714da0812413053b"
+    },
+    "walking_armature_glb": {
+      "file": "dwarf_crossbowman_walking_armature.glb",
+      "bytes": 65484,
+      "sha256": "25f3c23dedd957823af7af290c3af9e3f8607183bdbb32c21ad508c23df249aa"
+    },
+    "running_glb": {
+      "file": "dwarf_crossbowman_running.glb",
+      "bytes": 6499440,
+      "sha256": "e7f0ba7565aece3b7933d369a91c52c9418e7aa32c3077c2c8f131415d1b47a9"
+    },
+    "running_fbx": {
+      "file": "dwarf_crossbowman_running.fbx",
+      "bytes": 6691980,
+      "sha256": "3caeb542caaff3455f2d41002a2ba61ed4d39798eace1c4f2be97e977cdd768b"
+    },
+    "running_armature_glb": {
+      "file": "dwarf_crossbowman_running_armature.glb",
+      "bytes": 60876,
+      "sha256": "72874d342bf3eaf9c815e365ba19e5d0c7c5c923eb3faea02fde543a7ca199b0"
+    },
+    "animation_glb": {
+      "file": "dwarf_crossbowman_animation.glb",
+      "bytes": 6768292,
+      "sha256": "0c9a1a6b0626a2ffc0a0b357f05fb31fee466c05d50e7a67adab3e97a6904d7a"
+    },
+    "animation_fbx": {
+      "file": "dwarf_crossbowman_animation.fbx",
+      "bytes": 7457292,
+      "sha256": "f241cd561d878da9e8dbc9094c7214e43865fa0cc08a131d6c8f1ff67cc695ea"
+    },
+    "climb_glb": {
+      "file": "dwarf_crossbowman_climb.glb",
+      "bytes": 6511376,
+      "sha256": "9a49129b7cfaec680e5b4a778511f519707412bc1c1d4aa796e0928ce29e9bb0"
+    },
+    "climb_fbx": {
+      "file": "dwarf_crossbowman_climb.fbx",
+      "bytes": 6710812,
+      "sha256": "bff4803d7f08edd841941b8dd1d8ac8847925b75e9893dfd5d7b820ee577c4ad"
+    }
+  },
+  "credits": 38,
+  "clips": [
+    {
+      "state": "Idle",
+      "action_id": 0
+    },
+    {
+      "state": "Attack",
+      "action_id": 224
+    },
+    {
+      "state": "Aim",
+      "action_id": 231
+    },
+    {
+      "state": "Hit",
+      "action_id": 150
+    },
+    {
+      "state": "Death",
+      "action_id": 184
+    },
+    {
+      "state": "Climb",
+      "action_id": 438,
+      "step": "climb"
+    }
+  ],
+  "finish": {
+    "states": [
+      "Aim",
+      "Attack",
+      "Climb",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 4167,
+    "bones": 24,
+    "walkMetresPerSecond": 0.893,
+    "runMetresPerSecond": 2.355,
+    "climbMetresPerSecond": 0.254,
+    "heightMetres": 1.571,
+    "teamMaskCoverage": 0.2726
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "id": "sultanate_warrior",
+  "entry": {
+    "id": "sultanate_warrior",
+    "name": "Guerrero del sultanato",
+    "culture": "sultanate",
+    "factions": [
+      "sultanate"
+    ],
+    "unit": "reedguard",
+    "role": "melee",
+    "sheet": "Assets/Models/Units/sultanate_warrior/sheet.png",
+    "recolouredFrom": {
+      "sheet": "~/Downloads/ChatGPT Image 13 sept 2026, 14_40_17 (3).png",
+      "box": [
+        482,
+        140,
+        966,
+        905
+      ],
+      "change": "red team cloth shifted to turquoise (hue 182)"
+    },
+    "height": 1.8,
+    "gameHeight": 2.3,
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3
+  },
+  "steps": {
+    "model": {
+      "task": {
+        "id": "01a0e3ab-e75a-74f3-8541-64e211d7842a",
+        "type": "image-to-3d",
+        "name": "",
+        "art_style": "",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526090187,
+        "progress": 100,
+        "started_at": 1790526090194,
+        "finished_at": 1790526148824,
+        "expires_at": 1790785348824,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ab-e75a-74f3-8541-64e211d7842a/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ab-e75a-74f3-8541-64e211d7842a/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ab-e75a-74f3-8541-64e211d7842a/output/model.fbx"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ab-e75a-74f3-8541-64e211d7842a/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ab-e75a-74f3-8541-64e211d7842a/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ab-e75a-74f3-8541-64e211d7842a/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ab-e75a-74f3-8541-64e211d7842a/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ab-e75a-74f3-8541-64e211d7842a/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 960,
+      "finished_utc": "2026-09-27T16:22:33.703382+00:00"
+    },
+    "rig": {
+      "task": {
+        "id": "01a0e3ac-e748-74b9-b126-c9d0e28e2fd7",
+        "type": "rig",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526157816,
+        "progress": 100,
+        "started_at": 1790526157823,
+        "finished_at": 1790526202286,
+        "expires_at": 1790785402286,
+        "task_error": null,
+        "result": {
+          "rigged_character_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-e748-74b9-b126-c9d0e28e2fd7/output/Character_output.fbx",
+          "rigged_character_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-e748-74b9-b126-c9d0e28e2fd7/output/Character_output.glb",
+          "basic_animations": {
+            "walking_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-e748-74b9-b126-c9d0e28e2fd7/output/Animation_Walking_withSkin.glb",
+            "walking_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-e748-74b9-b126-c9d0e28e2fd7/output/Animation_Walking_withSkin.fbx",
+            "walking_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-e748-74b9-b126-c9d0e28e2fd7/output/Animation_Walking_withSkin_armature.glb",
+            "running_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-e748-74b9-b126-c9d0e28e2fd7/output/Animation_Running_withSkin.glb",
+            "running_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-e748-74b9-b126-c9d0e28e2fd7/output/Animation_Running_withSkin.fbx",
+            "running_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-e748-74b9-b126-c9d0e28e2fd7/output/Animation_Running_withSkin_armature.glb"
+          }
+        },
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 950,
+      "finished_utc": "2026-09-27T16:23:34.850132+00:00"
+    },
+    "animations": {
+      "task": {
+        "id": "01a0e3ad-d618-704a-b068-42051e80a82f",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526215949,
+        "progress": 100,
+        "started_at": 1790526215956,
+        "finished_at": 1790526241547,
+        "expires_at": 1790785441547,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-d618-704a-b068-42051e80a82f/output/merged_animations.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-d618-704a-b068-42051e80a82f/output/merged_animations.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 12
+      },
+      "credits": 12,
+      "balance_after": 926,
+      "finished_utc": "2026-09-27T16:24:04.024344+00:00"
+    },
+    "climb": {
+      "task": {
+        "id": "01a0e3ae-9bfd-716e-a595-62c4338783dd",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526266603,
+        "progress": 100,
+        "started_at": 1790526266610,
+        "finished_at": 1790526273743,
+        "expires_at": 1790785473743,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-9bfd-716e-a595-62c4338783dd/output/Animation_Ladder_Climb_Loop_withSkin.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-9bfd-716e-a595-62c4338783dd/output/Animation_Ladder_Climb_Loop_withSkin.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 3
+      },
+      "credits": 3,
+      "balance_after": 920,
+      "finished_utc": "2026-09-27T16:24:37.016917+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_warrior_model.glb",
+      "bytes": 8972472,
+      "sha256": "79905c60366fefc60f1840b7f86fb09ade704862a8e7a8813cc1615902c2a750"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 135727,
+      "sha256": "5fcdc59a4eccab06b7901e562808a6eb65a76b6ae1caf45eb5018075c86a47dc"
+    },
+    "texture_base_color": {
+      "file": "sultanate_warrior_base_color.png",
+      "bytes": 6902652,
+      "sha256": "91e963490a3bf7aaf2fabefa51bceff4ef1af5a6423b5bd2c4f6211129c3aa6e"
+    },
+    "texture_metallic": {
+      "file": "sultanate_warrior_metallic.png",
+      "bytes": 210006,
+      "sha256": "62789006f5ee08830e1e1679ddc1ef8531eea32e5f8a55c334906e7740d26bc5"
+    },
+    "texture_roughness": {
+      "file": "sultanate_warrior_roughness.png",
+      "bytes": 1544033,
+      "sha256": "15a6ae4bdec7128b7839adb5169378f10b2f92d4fd935d9f8477a5b661156e36"
+    },
+    "texture_normal": {
+      "file": "sultanate_warrior_normal.png",
+      "bytes": 5859650,
+      "sha256": "de347dc9c56b4905603cb7c9fa8e03d38f597e04dd736e8c7d8ef4c5974a4826"
+    },
+    "rigged_character_fbx": {
+      "file": "sultanate_warrior_rigged_character.fbx",
+      "bytes": 7353356,
+      "sha256": "c29178c748dd4be929b4ee3541c569badb89442496dffdb8ca84805cd2a56e5f"
+    },
+    "rigged_character_glb": {
+      "file": "sultanate_warrior_rigged_character.glb",
+      "bytes": 7176504,
+      "sha256": "daa39d1058488d3a8167b197cdb64fff392db4c2002cec7066b9893c46e8177f"
+    },
+    "walking_glb": {
+      "file": "sultanate_warrior_walking.glb",
+      "bytes": 7189272,
+      "sha256": "9832b18a18fb4506dc171e78a4d33715edcde24618ea94d314817fa5be4e941e"
+    },
+    "walking_fbx": {
+      "file": "sultanate_warrior_walking.fbx",
+      "bytes": 7378124,
+      "sha256": "5a88ebca5611baf025280ce9c20928304792b45037051c11fc3b5e8fa4f3f081"
+    },
+    "walking_armature_glb": {
+      "file": "sultanate_warrior_walking_armature.glb",
+      "bytes": 65436,
+      "sha256": "11b3d970cd74ad88c5512398f9563b480c38c6ffe5f815a35db4f75fcf265fb2"
+    },
+    "running_glb": {
+      "file": "sultanate_warrior_running.glb",
+      "bytes": 7184660,
+      "sha256": "123fb1181999743157463479497004b027c9aab9623186487af1cc81cbd5a86e"
+    },
+    "running_fbx": {
+      "file": "sultanate_warrior_running.fbx",
+      "bytes": 7369468,
+      "sha256": "a4c264d83e30dfe855bd405d77937c5e16241f5f8ee4d2322385b2876c464396"
+    },
+    "running_armature_glb": {
+      "file": "sultanate_warrior_running_armature.glb",
+      "bytes": 60824,
+      "sha256": "08d29a0b9252867fe90139cb7304f107958e6bd5ca5658e1d6dd00e3d87f4e31"
+    },
+    "animation_glb": {
+      "file": "sultanate_warrior_animation.glb",
+      "bytes": 7358884,
+      "sha256": "6acdf7de784fc028c71ef54aceda4bf65a84778e91b0e38bf238e4682bea8407"
+    },
+    "animation_fbx": {
+      "file": "sultanate_warrior_animation.fbx",
+      "bytes": 7907708,
+      "sha256": "7a6c93659186196fe8b9de70d5483a4cd86b98652e33f0864f46756669f859ab"
+    },
+    "climb_glb": {
+      "file": "sultanate_warrior_climb.glb",
+      "bytes": 7196604,
+      "sha256": "89e11063c66311896c020c7fbc5733d85c902517d4099bb51e1b3cf81a25461c"
+    },
+    "climb_fbx": {
+      "file": "sultanate_warrior_climb.fbx",
+      "bytes": 7388796,
+      "sha256": "e22b8b644c810056ecc700a68beaf310c9c59d2b77267f72bc6ba3f41ce56120"
+    }
+  },
+  "credits": 35,
+  "clips": [
+    {
+      "state": "Idle",
+      "action_id": 0
+    },
+    {
+      "state": "Attack",
+      "action_id": 4
+    },
+    {
+      "state": "Hit",
+      "action_id": 178
+    },
+    {
+      "state": "Death",
+      "action_id": 8
+    },
+    {
+      "state": "Climb",
+      "action_id": 438,
+      "step": "climb"
+    }
+  ],
+  "finish": {
+    "states": [
+      "Attack",
+      "Climb",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 4072,
+    "bones": 24,
+    "walkMetresPerSecond": 1.325,
+    "runMetresPerSecond": 3.502,
+    "climbMetresPerSecond": 0.397,
+    "heightMetres": 1.984,
+    "teamMaskCoverage": 0.2873
+  }
+}

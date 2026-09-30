@@ -1,0 +1,134 @@
+{
+  "id": "sahel_beast_lodge",
+  "entry": {
+    "id": "sahel_beast_lodge",
+    "style": "sahel",
+    "building": "beast_lodge",
+    "footprint": [
+      4,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a royal horse stable. One long, wide, low mud-brick stable, clearly wider than tall, a flat roof, a straw-mat shade on wooden posts along the front, two wide open stall doorways, a water trough, a hay pile and one indigo banner."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d5-d03e-70ef-8b2d-bbf3d551c304",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2423328016,
+        "prompt": "Low-poly game asset for a top-down strategy game: a royal horse stable. One long, wide, low mud-brick stable, clearly wider than tall, a flat roof, a straw-mat shade on wooden posts along the front, two wide open stall doorways, a water trough, a hay pile and one indigo banner. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528837291,
+        "progress": 100,
+        "started_at": 1790528837297,
+        "finished_at": 1790528847445,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-d03e-70ef-8b2d-bbf3d551c304/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-d03e-70ef-8b2d-bbf3d551c304/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:07:34.780575+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d6-1c7e-71be-b5d4-f0180aef79e1",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2423328016,
+        "prompt": "Low-poly game asset for a top-down strategy game: a royal horse stable. One long, wide, low mud-brick stable, clearly wider than tall, a flat roof, a straw-mat shade on wooden posts along the front, two wide open stall doorways, a water trough, a hay pile and one indigo banner. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528855204,
+        "progress": 100,
+        "started_at": 1790528855211,
+        "finished_at": 1790528897472,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-1c7e-71be-b5d4-f0180aef79e1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-1c7e-71be-b5d4-f0180aef79e1/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-1c7e-71be-b5d4-f0180aef79e1/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-1c7e-71be-b5d4-f0180aef79e1/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-1c7e-71be-b5d4-f0180aef79e1/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-1c7e-71be-b5d4-f0180aef79e1/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:08:18.136510+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_beast_lodge_model.glb",
+      "bytes": 5476680,
+      "sha256": "dbdfed32627d0bfa8497219c7af8451353728f6e8ce22cecfc5d742919f8d5aa"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 158746,
+      "sha256": "381ef69c9cd753009857d35245255b1856e08082f0086b2f5f172f5bf54e7307"
+    },
+    "texture_base_color": {
+      "file": "sahel_beast_lodge_base_color.png",
+      "bytes": 4834029,
+      "sha256": "7cb8872eda41383e7ec5590f2274b7b8ed5aae57cc5f6e9b93f7ff52d5844734"
+    },
+    "texture_metallic": {
+      "file": "sahel_beast_lodge_metallic.png",
+      "bytes": 18804,
+      "sha256": "e41e92b7284c60b6555aef4dedc4d72ead77a7c7a033450d8c4e0cdf33d798ca"
+    },
+    "texture_roughness": {
+      "file": "sahel_beast_lodge_roughness.png",
+      "bytes": 1239429,
+      "sha256": "018f14a148353028fce2b11d5b6acc082631fc4a1a2ba99a27eedd1176289dc8"
+    },
+    "texture_normal": {
+      "file": "sahel_beast_lodge_normal.png",
+      "bytes": 3428727,
+      "sha256": "13af843e563fee476ad2031443fd3f5880bebdf347eea64bbc0dec163e7a48e3"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4875,
+    "triangles": 4875,
+    "fittedMetres": [
+      2.88,
+      2.88,
+      1.097
+    ],
+    "teamMaskCoverage": 0.0112
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "BuildGuid": "35abc41770ce473f8606780a352eccaf",
+  "PlayerExeSha256": "56C28AFBA054092826B7A8A80BA3767DAA87967F182C0C562EB2F98799175B7A",
+  "Scope": "Sequential final-player acceptance. Retained economy/combat reports do not embed a build GUID; both were executed between GUID-verified runs without rebuilding the player. Expansion and render reports are separate artifacts.",
+  "Runs": [
+    {
+      "Report": "frontend-1280x720.json",
+      "Passed": true,
+      "BuildGuid": "35abc41770ce473f8606780a352eccaf"
+    },
+    {
+      "Report": "frontend-1440x1080.json",
+      "Passed": true,
+      "BuildGuid": "35abc41770ce473f8606780a352eccaf"
+    },
+    {
+      "Report": "faction-aven.txt",
+      "Passed": true,
+      "EmbedsBuildGuid": true
+    },
+    {
+      "Report": "faction-serevin.txt",
+      "Passed": true,
+      "EmbedsBuildGuid": true
+    },
+    {
+      "Report": "research.txt",
+      "Passed": true,
+      "EmbedsBuildGuid": true
+    },
+    {
+      "Report": "offline-conquest.txt",
+      "Passed": true,
+      "EmbedsBuildGuid": true
+    },
+    {
+      "Report": "offline-dominion.txt",
+      "Passed": true,
+      "EmbedsBuildGuid": true
+    },
+    {
+      "Report": "economy.txt",
+      "Passed": true,
+      "EmbedsBuildGuid": false
+    },
+    {
+      "Report": "combat.txt",
+      "Passed": true,
+      "EmbedsBuildGuid": false
+    },
+    {
+      "Report": "online-historical.json",
+      "Passed": true,
+      "BuildGuid": "35abc41770ce473f8606780a352eccaf"
+    },
+    {
+      "Report": "online-fantasy.json",
+      "Passed": true,
+      "BuildGuid": "35abc41770ce473f8606780a352eccaf"
+    }
+  ]
+}

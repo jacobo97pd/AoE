@@ -1,0 +1,130 @@
+{
+  "id": "forest_ruins",
+  "entry": {
+    "id": "forest_ruins",
+    "role": "landmark",
+    "kind": "ruins",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 2.5,
+    "footprint": 3,
+    "size": 1024,
+    "biome": "forest",
+    "priority": 2,
+    "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Stone: pale grey-beige blocks (#D4D4C4) with darker mortar (#9A9A8C) and cool grey-teal shadows (#7E9597). Small moss patches on the wall tops: muted green (#5E7A3A). No text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d416-e2a0-72a1-835a-f06a24af0366",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3225080195,
+        "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264666781,
+        "progress": 100,
+        "started_at": 1790264666790,
+        "finished_at": 1790264676144,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-e2a0-72a1-835a-f06a24af0366/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-e2a0-72a1-835a-f06a24af0366/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:44:44.289310+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d417-3206-7245-9fc9-56a55f7b07f9",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3225080195,
+        "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Stone: pale grey-beige blocks (#D4D4C4) with darker mortar (#9A9A8C) and cool grey-teal shadows (#7E9597). Small moss patches on the wall tops: muted green (#5E7A3A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264686646,
+        "progress": 100,
+        "started_at": 1790264686653,
+        "finished_at": 1790264731669,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-3206-7245-9fc9-56a55f7b07f9/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-3206-7245-9fc9-56a55f7b07f9/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-3206-7245-9fc9-56a55f7b07f9/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-3206-7245-9fc9-56a55f7b07f9/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-3206-7245-9fc9-56a55f7b07f9/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-3206-7245-9fc9-56a55f7b07f9/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:45:38.001022+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 144328,
+      "sha256": "a7e432f1d472c83492592a6b5b6993463fc3c699d9ad87bb2f2470cb1959343a"
+    },
+    "model_glb": {
+      "file": "forest_ruins_model.glb",
+      "bytes": 6898328,
+      "sha256": "943bb7653f156ed1426fae29efec72db25f97285a970b1704f12040aec5bdec1"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 173665,
+      "sha256": "ad4eb12521791c415088ef39e03201fec4149db92801becddbdb29ef32d55396"
+    },
+    "texture_base_color": {
+      "file": "forest_ruins_base_color.png",
+      "bytes": 4663956,
+      "sha256": "6784ab09a41508122276ce16ef3c2a2e303732a643aabe1acfaacde9306a610e"
+    },
+    "texture_metallic": {
+      "file": "forest_ruins_metallic.png",
+      "bytes": 26759,
+      "sha256": "521023fb4099c1dad85df8cc9e6d0a91f430ca08ab422bbca8933813fc551da6"
+    },
+    "texture_roughness": {
+      "file": "forest_ruins_roughness.png",
+      "bytes": 1378352,
+      "sha256": "b19d59f65839f486e59ac6bfa2879555db2daf554406d271cbda68164c412c4e"
+    },
+    "texture_normal": {
+      "file": "forest_ruins_normal.png",
+      "bytes": 4244224,
+      "sha256": "86d9cfca0ff27949d08486c02f171637b13447ca4880dc75b5921b0e2e525c84"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3880,
+    "lod0": 3500,
+    "lod1": 800,
+    "fittedMetres": [
+      3.0,
+      1.559,
+      2.473
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

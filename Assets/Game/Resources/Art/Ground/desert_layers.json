@@ -1,0 +1,121 @@
+{
+  "biome": "desert",
+  "layers": [
+    {
+      "name": "dune sand",
+      "task": {
+        "id": "01a0d411-9469-7752-8452-ace4f21df69a",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of fine warm desert sand with soft wind ripples, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790264317456,
+        "started_at": 1790264317464,
+        "finished_at": 1790264328920,
+        "expires_at": 1790523528920,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d411-9469-7752-8452-ace4f21df69a_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "desert_0.png",
+        "bytes": 1422105,
+        "sha256": "d653a954c55099ba69371fc79c58bb43d4621ddd932486f980f41d1d4b799d51"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of fine warm desert sand with soft wind ripples, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:38:55.244722+00:00",
+      "mean": "#D2A868"
+    },
+    {
+      "name": "hardpan",
+      "task": {
+        "id": "01a0d411-dd60-757e-9723-53a4d93f86b0",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of cracked dry clay hardpan with small flat plates, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790264336282,
+        "started_at": 1790264336290,
+        "finished_at": 1790264349257,
+        "expires_at": 1790523549257,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d411-dd60-757e-9723-53a4d93f86b0_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "desert_1.png",
+        "bytes": 1724128,
+        "sha256": "cedb7fae158da2a671bc9ba0c49143cb1f095b59ece321e1c58542fdd6bfdcf9"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of cracked dry clay hardpan with small flat plates, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:39:14.099669+00:00",
+      "mean": "#B89468"
+    },
+    {
+      "name": "oasis grass",
+      "task": {
+        "id": "01a0d412-270d-711f-a41c-cb0721dbc153",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of sparse dry oasis grass over sandy soil, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790264355177,
+        "started_at": 1790264355192,
+        "finished_at": 1790264369190,
+        "expires_at": 1790523569190,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d412-270d-711f-a41c-cb0721dbc153_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "desert_2.png",
+        "bytes": 1935238,
+        "sha256": "a8512e88b7bd2bd8c414cf2bb1fc7c5a6d1afcd56137b93405886ebd156b918f"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of sparse dry oasis grass over sandy soil, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:39:33.085999+00:00",
+      "mean": "#6E7F45"
+    },
+    {
+      "name": "sandstone gravel",
+      "task": {
+        "id": "01a0d412-7123-708b-b1eb-85c90cf21431",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of coarse sandstone gravel and broken flat stones on sand, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790264374093,
+        "started_at": 1790264374100,
+        "finished_at": 1790264388031,
+        "expires_at": 1790523588031,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d412-7123-708b-b1eb-85c90cf21431_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "desert_3.png",
+        "bytes": 1838438,
+        "sha256": "db5a6b18c88f0cdb906f569cddf9dac7b3de737513cca74f9496a0ca5f24304f"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of coarse sandstone gravel and broken flat stones on sand, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:39:51.969173+00:00",
+      "mean": "#A87E52"
+    }
+  ]
+}

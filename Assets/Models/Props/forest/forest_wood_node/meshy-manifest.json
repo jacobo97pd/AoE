@@ -1,0 +1,235 @@
+{
+  "id": "forest_wood_node",
+  "entry": {
+    "id": "forest_wood_node",
+    "role": "resource",
+    "kind": "Wood",
+    "lod0": 1500,
+    "lod1": 350,
+    "height": 3.6,
+    "footprint": 2,
+    "size": 512,
+    "biome": "forest",
+    "priority": 1,
+    "prompt": "Tall lone oak: a clearly visible thick trunk with flared roots and a big round crown of five chunky lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, hard edges, flat faces. About 3.5 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Crown: rich mid leaf green (#5E8A3E) with slightly lighter sunlit lobe tops (#7A9E4E), a little lighter and warmer than the dark forest around it, never yellow. Trunk and roots: warm mid-brown bark (#7A5E42) matching dark timber beams. No flowers, no fruit, no text or logos.",
+    "polycount": 2000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d47e-5ac6-7344-8e39-4ef8dbc1efc3",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4200446461,
+        "prompt": "Tall lone oak: one thick straight trunk that meets the ground cleanly with no visible roots, a big round crown of five chunky lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, no roots, hard edges, flat faces. About 3.5 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271447453,
+        "progress": 100,
+        "started_at": 1790271447461,
+        "finished_at": 1790271456217,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47e-5ac6-7344-8e39-4ef8dbc1efc3/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47e-5ac6-7344-8e39-4ef8dbc1efc3/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T17:37:36.488446+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d47e-8789-743e-881c-458d66110c64",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4200446461,
+        "prompt": "Tall lone oak: one thick straight trunk that meets the ground cleanly with no visible roots, a big round crown of five chunky lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, no roots, hard edges, flat faces. About 3.5 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Crown: rich mid leaf green (#5E8A3E) with slightly lighter sunlit lobe tops (#7A9E4E), a little lighter and warmer than the dark forest around it, never yellow. Trunk and roots: warm mid-brown bark (#7A5E42) matching dark timber beams. No flowers, no fruit, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271457824,
+        "progress": 100,
+        "started_at": 1790271457831,
+        "finished_at": 1790271518800,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47e-8789-743e-881c-458d66110c64/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47e-8789-743e-881c-458d66110c64/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47e-8789-743e-881c-458d66110c64/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47e-8789-743e-881c-458d66110c64/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47e-8789-743e-881c-458d66110c64/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47e-8789-743e-881c-458d66110c64/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:38:46.184206+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 67674,
+      "sha256": "eb8a18b9d384fb155d3a4651b4fd15c0ed0a7cf47d71cc4faca25310dced8974"
+    },
+    "model_glb": {
+      "file": "forest_wood_node_model.glb",
+      "bytes": 5298148,
+      "sha256": "709620642d2f23d4095df49d0255d78ff853e1cc8c49bd0be3344dd29756092c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 81429,
+      "sha256": "d9f0f95b217d0142661109b22b8aaac6205bfd435825a11bdddd8ff6b96c19ff"
+    },
+    "texture_base_color": {
+      "file": "forest_wood_node_base_color.png",
+      "bytes": 5047404,
+      "sha256": "37fc030e9b7b93ae79120edd0fc2534ad7d495a47eb8040e17e8c3c54895ef8c"
+    },
+    "texture_metallic": {
+      "file": "forest_wood_node_metallic.png",
+      "bytes": 21591,
+      "sha256": "c286e9f30f2173d47d1c82ab282aac6af22c9ceccf45a50e8b6dde44a5b66ec8"
+    },
+    "texture_roughness": {
+      "file": "forest_wood_node_roughness.png",
+      "bytes": 1184638,
+      "sha256": "1215ecb3db35fc7e2150c25c6760022c9308f1aea319ca53d7fba10b5a7694fc"
+    },
+    "texture_normal": {
+      "file": "forest_wood_node_normal.png",
+      "bytes": 3605996,
+      "sha256": "0f822f0bea221a90a7abfab5a435b9783e8042c053bb951dd804ed7d8143eccc"
+    }
+  },
+  "credits": 40,
+  "finish": {
+    "sourceTriangles": 2034,
+    "lod0": 1500,
+    "lod1": 350,
+    "fittedMetres": [
+      2.0,
+      1.909,
+      3.122
+    ],
+    "teamMaskCoverage": 0.0
+  },
+  "history": [
+    {
+      "refine": {
+        "task": {
+          "id": "01a0d406-d26d-72c5-a908-9c7d40346f2d",
+          "type": "text-to-3d-refine",
+          "mode": "refine",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 3782382334,
+          "prompt": "Tall lone oak: a clearly visible thick trunk with flared roots and a big round crown of five chunky lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, hard edges, flat faces. About 3.5 m tall. Isolated, no ground, no base plate, no text.",
+          "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Crown: bright warm leaf green (#6E9A45) with sunlit yellow-green lobe tops (#9DB85A), clearly lighter than the dark forest around it. Trunk and roots: warm mid-brown bark (#7A5E42) matching dark timber beams. No flowers, no fruit, no text or logos.",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790263613616,
+          "progress": 100,
+          "started_at": 1790263613625,
+          "finished_at": 1790263657693,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d406-d26d-72c5-a908-9c7d40346f2d/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d406-d26d-72c5-a908-9c7d40346f2d/output/preview.png",
+          "texture_urls": [
+            {
+              "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d406-d26d-72c5-a908-9c7d40346f2d/output/texture_0.png",
+              "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d406-d26d-72c5-a908-9c7d40346f2d/output/texture_0_metallic.png",
+              "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d406-d26d-72c5-a908-9c7d40346f2d/output/texture_0_roughness.png",
+              "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d406-d26d-72c5-a908-9c7d40346f2d/output/texture_0_normal.png"
+            }
+          ],
+          "consumed_credits": 10
+        },
+        "credits": 10,
+        "finished_utc": "2026-09-24T15:27:44.963372+00:00"
+      },
+      "reason": "crown came out lemon yellow; repainted greener"
+    },
+    {
+      "steps": {
+        "preview": {
+          "task": {
+            "id": "01a0d406-844e-774d-9c32-8fef1c6721a0",
+            "type": "text-to-3d-preview",
+            "mode": "preview",
+            "name": "",
+            "model_type": "smart-topology",
+            "seed": 3782382334,
+            "prompt": "Tall lone oak: a clearly visible thick trunk with flared roots and a big round crown of five chunky lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, hard edges, flat faces. About 3.5 m tall. Isolated, no ground, no base plate, no text.",
+            "texture_prompt": "",
+            "texture_image_url": "",
+            "status": "SUCCEEDED",
+            "created_at": 1790263593829,
+            "progress": 100,
+            "started_at": 1790263593835,
+            "finished_at": 1790263604087,
+            "task_error": null,
+            "model_urls": {
+              "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d406-844e-774d-9c32-8fef1c6721a0/output/model.glb"
+            },
+            "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d406-844e-774d-9c32-8fef1c6721a0/output/preview.png",
+            "texture_urls": [],
+            "consumed_credits": 5
+          },
+          "credits": 5,
+          "finished_utc": "2026-09-24T15:26:51.265432+00:00"
+        },
+        "refine": {
+          "task": {
+            "id": "01a0d411-9329-77af-bffb-d5e9b5012931",
+            "type": "text-to-3d-refine",
+            "mode": "refine",
+            "name": "",
+            "model_type": "smart-topology",
+            "seed": 3782382334,
+            "prompt": "Tall lone oak: a clearly visible thick trunk with flared roots and a big round crown of five chunky lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, hard edges, flat faces. About 3.5 m tall. Isolated, no ground, no base plate, no text.",
+            "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Crown: rich mid leaf green (#5E8A3E) with slightly lighter sunlit lobe tops (#7A9E4E), a little lighter and warmer than the dark forest around it, never yellow. Trunk and roots: warm mid-brown bark (#7A5E42) matching dark timber beams. No flowers, no fruit, no text or logos.",
+            "texture_image_url": "",
+            "status": "SUCCEEDED",
+            "created_at": 1790264318481,
+            "progress": 100,
+            "started_at": 1790264318491,
+            "finished_at": 1790264361658,
+            "task_error": null,
+            "model_urls": {
+              "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-9329-77af-bffb-d5e9b5012931/output/model.glb"
+            },
+            "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-9329-77af-bffb-d5e9b5012931/output/preview.png",
+            "texture_urls": [
+              {
+                "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-9329-77af-bffb-d5e9b5012931/output/texture_0.png",
+                "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-9329-77af-bffb-d5e9b5012931/output/texture_0_metallic.png",
+                "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-9329-77af-bffb-d5e9b5012931/output/texture_0_roughness.png",
+                "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-9329-77af-bffb-d5e9b5012931/output/texture_0_normal.png"
+              }
+            ],
+            "consumed_credits": 10
+          },
+          "credits": 10,
+          "finished_utc": "2026-09-24T15:39:29.845472+00:00"
+        }
+      },
+      "reason": "roots came out as spikes (2026-09-25)"
+    }
+  ]
+}

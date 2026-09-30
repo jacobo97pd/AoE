@@ -1,0 +1,170 @@
+{
+  "id": "elf_rider",
+  "entry": {
+    "id": "elf_rider",
+    "name": "Jinete élfico",
+    "culture": "elf",
+    "factions": [
+      "verdant"
+    ],
+    "unit": "strider",
+    "height": 2.5,
+    "gameHeight": 3.4,
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "prompt": "Low-poly game asset for a top-down strategy game: a slender elf ranger riding a tall white stag with wide branching antlers, a green hooded cloak with leaf trim, a royal blue sash, a curved bow slung on the back, a light saddle with a blue cloth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stag coat pale ivory (#E6DFCF) with grey antlers (#A89E8C). Cloak leaf green (#5E8A4A). Sash and saddle cloth saturated royal blue (#2B4FB0). Leather light brown (#8A6A48). No text or logos.",
+    "role": "melee",
+    "rig": "quadruped"
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d480-5ff9-70b6-9c4e-841a180ac1cf",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2911175646,
+        "prompt": "Low-poly game asset for a top-down strategy game: a slender elf ranger riding a tall white stag with wide branching antlers, a green hooded cloak with leaf trim, a royal blue sash, a curved bow slung on the back, a light saddle with a blue cloth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271579989,
+        "progress": 100,
+        "started_at": 1790271579999,
+        "finished_at": 1790271592005,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-5ff9-70b6-9c4e-841a180ac1cf/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-5ff9-70b6-9c4e-841a180ac1cf/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d480-ad41-7633-b411-841ca61e6e6e",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2911175646,
+        "prompt": "Low-poly game asset for a top-down strategy game: a slender elf ranger riding a tall white stag with wide branching antlers, a green hooded cloak with leaf trim, a royal blue sash, a curved bow slung on the back, a light saddle with a blue cloth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stag coat pale ivory (#E6DFCF) with grey antlers (#A89E8C). Cloak leaf green (#5E8A4A). Sash and saddle cloth saturated royal blue (#2B4FB0). Leather light brown (#8A6A48). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271599663,
+        "progress": 100,
+        "started_at": 1790271599671,
+        "finished_at": 1790271682529,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad41-7633-b411-841ca61e6e6e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad41-7633-b411-841ca61e6e6e/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad41-7633-b411-841ca61e6e6e/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad41-7633-b411-841ca61e6e6e/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad41-7633-b411-841ca61e6e6e/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad41-7633-b411-841ca61e6e6e/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:41:24.994852+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_rider_model.glb",
+      "bytes": 6792724,
+      "sha256": "5c762da414ac8c6d57894a4fa0b53b5f48f46149900025590f44aa1450bb0b93"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 87976,
+      "sha256": "869a821e9e8a0233d8cb7ea42bd3f36078c15fd171b28793fefae037617999eb"
+    },
+    "texture_base_color": {
+      "file": "elf_rider_base_color.png",
+      "bytes": 5820837,
+      "sha256": "1070770e973d5f0f73e4fe050e2912b1cfa6c7a4a7c79a11576d78d923c5aa15"
+    },
+    "texture_metallic": {
+      "file": "elf_rider_metallic.png",
+      "bytes": 28605,
+      "sha256": "65a8a563798d6047203592119dafcbff9d126af99b50a32d0580a402f5407861"
+    },
+    "texture_roughness": {
+      "file": "elf_rider_roughness.png",
+      "bytes": 1185666,
+      "sha256": "e5b034766007d758c9a876c8de91e8e07e791227ee4208b32a5d56aef92da745"
+    },
+    "texture_normal": {
+      "file": "elf_rider_normal.png",
+      "bytes": 4450258,
+      "sha256": "8d5e0188f54b2378fe1a6ead9684c6c2b32133b2b475f193f87835f165080ac8"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5283,
+    "bones": 38,
+    "heightMetres": 1.0,
+    "walkMetresPerSecond": 0.298,
+    "runMetresPerSecond": 1.827,
+    "scale": [
+      8.964,
+      5.768,
+      5.983
+    ],
+    "riderVertices": 1213,
+    "donorBack": 3.218,
+    "saddle": 1.0,
+    "bellies": [
+      0.299,
+      0.426
+    ],
+    "pinned": {
+      "muzzle": [
+        0.127,
+        -0.644,
+        0.084
+      ]
+    },
+    "tailVertices": 43,
+    "thinnedVertices": 167,
+    "legThickness": 0.0322,
+    "tailFit": {
+      "turn": -8.2,
+      "stretch": 1.5
+    },
+    "fusedLegs": [
+      "Front"
+    ],
+    "settled": {
+      "Idle": 0.006,
+      "Walk": 0.026,
+      "Run": 0.005
+    },
+    "teamMaskCoverage": 0.0951,
+    "rig": "transplanted from the Quaternius Stag (CC0) by tools/art/transplant_rig.py"
+  }
+}

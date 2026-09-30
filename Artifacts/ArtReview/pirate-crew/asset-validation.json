@@ -1,0 +1,361 @@
+{
+    "generatedUtc": "2026-09-13T23:01:28.6151566Z",
+    "unity": "6000.3.23f1",
+    "scene": "Assets/Game/Scenes/PirateCrew.unity",
+    "passed": true,
+    "characters": 4,
+    "animationStates": 26,
+    "roster": [
+        {
+            "id": "boarding_raider",
+            "name": "Saqueador de abordaje",
+            "lods": 3,
+            "passed": true,
+            "muzzle": false,
+            "meshes": [
+                {
+                    "name": "BoardingRaider_LOD0",
+                    "asset": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+                    "vertices": 18558,
+                    "triangles": 10291,
+                    "bones": 35,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                },
+                {
+                    "name": "BoardingRaider_LOD1",
+                    "asset": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+                    "vertices": 10507,
+                    "triangles": 5000,
+                    "bones": 35,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                },
+                {
+                    "name": "BoardingRaider_LOD2",
+                    "asset": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+                    "vertices": 4866,
+                    "triangles": 1999,
+                    "bones": 35,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                }
+            ],
+            "clips": [
+                {
+                    "state": "Idle",
+                    "name": "Corsair_Idle",
+                    "seconds": 3.0,
+                    "displacement": 0.0037094843573868276,
+                    "loop": true
+                },
+                {
+                    "state": "Walk",
+                    "name": "Corsair_Walk",
+                    "seconds": 1.0,
+                    "displacement": 0.6398784518241882,
+                    "loop": true
+                },
+                {
+                    "state": "Run",
+                    "name": "Corsair_Run",
+                    "seconds": 0.625,
+                    "displacement": 1.0669493675231934,
+                    "loop": true
+                },
+                {
+                    "state": "Attack",
+                    "name": "Corsair_Attack",
+                    "seconds": 1.0,
+                    "displacement": 1.2391244173049927,
+                    "loop": false
+                },
+                {
+                    "state": "Hit",
+                    "name": "Corsair_Hit",
+                    "seconds": 0.5,
+                    "displacement": 0.1423848271369934,
+                    "loop": false
+                },
+                {
+                    "state": "Death",
+                    "name": "Corsair_Death",
+                    "seconds": 3.4583334922790529,
+                    "displacement": 1.3253108263015748,
+                    "loop": false
+                }
+            ],
+            "errors": []
+        },
+        {
+            "id": "gunpowder_corsair",
+            "name": "Corsario de pólvora",
+            "lods": 3,
+            "passed": true,
+            "muzzle": true,
+            "meshes": [
+                {
+                    "name": "GunpowderCorsair_LOD0",
+                    "asset": "Assets/Game/PirateCrew/GunpowderCorsair/Model/GunpowderCorsair.fbx",
+                    "vertices": 87627,
+                    "triangles": 140000,
+                    "bones": 27,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                },
+                {
+                    "name": "GunpowderCorsair_LOD1",
+                    "asset": "Assets/Game/PirateCrew/GunpowderCorsair/Model/GunpowderCorsair.fbx",
+                    "vertices": 33334,
+                    "triangles": 45000,
+                    "bones": 27,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                },
+                {
+                    "name": "GunpowderCorsair_LOD2",
+                    "asset": "Assets/Game/PirateCrew/GunpowderCorsair/Model/GunpowderCorsair.fbx",
+                    "vertices": 11865,
+                    "triangles": 12000,
+                    "bones": 27,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                }
+            ],
+            "clips": [
+                {
+                    "state": "Idle",
+                    "name": "Corsair_Idle",
+                    "seconds": 3.000000238418579,
+                    "displacement": 0.033786337822675708,
+                    "loop": true
+                },
+                {
+                    "state": "Walk",
+                    "name": "Corsair_Walk",
+                    "seconds": 1.0666667222976685,
+                    "displacement": 0.42289453744888308,
+                    "loop": true
+                },
+                {
+                    "state": "Run",
+                    "name": "Corsair_Run",
+                    "seconds": 0.6666666865348816,
+                    "displacement": 0.5238968729972839,
+                    "loop": true
+                },
+                {
+                    "state": "Attack",
+                    "name": "Corsair_Attack",
+                    "seconds": 0.6000000238418579,
+                    "displacement": 0.0370589978992939,
+                    "loop": false
+                },
+                {
+                    "state": "Hit",
+                    "name": "Corsair_Hit",
+                    "seconds": 0.5,
+                    "displacement": 0.31567925214767458,
+                    "loop": false
+                },
+                {
+                    "state": "Death",
+                    "name": "Corsair_Death",
+                    "seconds": 1.6000001430511475,
+                    "displacement": 1.037274718284607,
+                    "loop": false
+                },
+                {
+                    "state": "Aim",
+                    "name": "Corsair_Aim",
+                    "seconds": 1.6000001430511475,
+                    "displacement": 0.007093480322510004,
+                    "loop": true
+                }
+            ],
+            "errors": []
+        },
+        {
+            "id": "treasure_seeker",
+            "name": "Buscadora de tesoros",
+            "lods": 3,
+            "passed": true,
+            "muzzle": false,
+            "meshes": [
+                {
+                    "name": "TreasureSeeker_LOD0",
+                    "asset": "Assets/Game/PirateCrew/TreasureSeeker/Model/TreasureSeeker.fbx",
+                    "vertices": 88592,
+                    "triangles": 140000,
+                    "bones": 28,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                },
+                {
+                    "name": "TreasureSeeker_LOD1",
+                    "asset": "Assets/Game/PirateCrew/TreasureSeeker/Model/TreasureSeeker.fbx",
+                    "vertices": 33348,
+                    "triangles": 45000,
+                    "bones": 28,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                },
+                {
+                    "name": "TreasureSeeker_LOD2",
+                    "asset": "Assets/Game/PirateCrew/TreasureSeeker/Model/TreasureSeeker.fbx",
+                    "vertices": 11922,
+                    "triangles": 12000,
+                    "bones": 28,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                }
+            ],
+            "clips": [
+                {
+                    "state": "Idle",
+                    "name": "Corsair_Idle",
+                    "seconds": 3.000000238418579,
+                    "displacement": 0.01189483143389225,
+                    "loop": true
+                },
+                {
+                    "state": "Walk",
+                    "name": "Corsair_Walk",
+                    "seconds": 1.0666667222976685,
+                    "displacement": 0.6292282342910767,
+                    "loop": true
+                },
+                {
+                    "state": "Run",
+                    "name": "Corsair_Run",
+                    "seconds": 0.6666666865348816,
+                    "displacement": 0.7741984724998474,
+                    "loop": true
+                },
+                {
+                    "state": "Attack",
+                    "name": "Corsair_Attack",
+                    "seconds": 0.9000000357627869,
+                    "displacement": 0.19475598633289338,
+                    "loop": false
+                },
+                {
+                    "state": "Hit",
+                    "name": "Corsair_Hit",
+                    "seconds": 0.5,
+                    "displacement": 0.15301769971847535,
+                    "loop": false
+                },
+                {
+                    "state": "Death",
+                    "name": "Corsair_Death",
+                    "seconds": 1.6000001430511475,
+                    "displacement": 0.9270378947257996,
+                    "loop": false
+                },
+                {
+                    "state": "Work",
+                    "name": "Corsair_Work",
+                    "seconds": 1.0,
+                    "displacement": 0.4434901773929596,
+                    "loop": true
+                }
+            ],
+            "errors": []
+        },
+        {
+            "id": "crimson_corsair",
+            "name": "Corsario Carmesí",
+            "lods": 3,
+            "passed": true,
+            "muzzle": false,
+            "meshes": [
+                {
+                    "name": "Corsair_LOD0",
+                    "asset": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+                    "vertices": 99054,
+                    "triangles": 140000,
+                    "bones": 27,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                },
+                {
+                    "name": "Corsair_LOD1",
+                    "asset": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+                    "vertices": 39045,
+                    "triangles": 45000,
+                    "bones": 27,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                },
+                {
+                    "name": "Corsair_LOD2",
+                    "asset": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+                    "vertices": 14898,
+                    "triangles": 12000,
+                    "bones": 27,
+                    "uv": true,
+                    "normals": true,
+                    "weights": true
+                }
+            ],
+            "clips": [
+                {
+                    "state": "Idle",
+                    "name": "Corsair_Idle",
+                    "seconds": 3.000000238418579,
+                    "displacement": 0.03986189514398575,
+                    "loop": true
+                },
+                {
+                    "state": "Walk",
+                    "name": "Corsair_Walk",
+                    "seconds": 1.0666667222976685,
+                    "displacement": 0.4877489507198334,
+                    "loop": true
+                },
+                {
+                    "state": "Run",
+                    "name": "Corsair_Run",
+                    "seconds": 0.6666666865348816,
+                    "displacement": 0.5998859405517578,
+                    "loop": true
+                },
+                {
+                    "state": "Attack",
+                    "name": "Corsair_Attack",
+                    "seconds": 0.9000000357627869,
+                    "displacement": 1.0539308786392213,
+                    "loop": false
+                },
+                {
+                    "state": "Hit",
+                    "name": "Corsair_Hit",
+                    "seconds": 0.5,
+                    "displacement": 0.3459533751010895,
+                    "loop": false
+                },
+                {
+                    "state": "Death",
+                    "name": "Corsair_Death",
+                    "seconds": 1.6000001430511475,
+                    "displacement": 1.14468252658844,
+                    "loop": false
+                }
+            ],
+            "errors": []
+        }
+    ],
+    "scope": "Persistent skinned assets, shared source atlas, three LODs per character and actual sampled deformation. Editor captures use temporary CPU-baked LOD0 poses; the native player uses the real animated skins."
+}

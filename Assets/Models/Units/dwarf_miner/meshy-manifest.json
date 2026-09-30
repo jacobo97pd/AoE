@@ -1,0 +1,242 @@
+{
+  "id": "dwarf_miner",
+  "entry": {
+    "id": "dwarf_miner",
+    "name": "Minero enano",
+    "culture": "dwarf",
+    "factions": [
+      "drakeforged"
+    ],
+    "unit": "tender",
+    "role": "worker",
+    "sheet": "~/Downloads/ChatGPT Image 13 sept 2026, 14_40_17 (8).png",
+    "box": [
+      520,
+      200,
+      935,
+      850
+    ],
+    "height": 1.35,
+    "gameHeight": 1.89,
+    "teamHues": []
+  },
+  "steps": {
+    "model": {
+      "task": {
+        "id": "01a0d317-ae5d-7768-acfb-a8658437c6dd",
+        "type": "image-to-3d",
+        "name": "",
+        "art_style": "",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790247940627,
+        "progress": 100,
+        "started_at": 1790247940635,
+        "finished_at": 1790247996366,
+        "expires_at": 1790507196366,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d317-ae5d-7768-acfb-a8658437c6dd/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d317-ae5d-7768-acfb-a8658437c6dd/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d317-ae5d-7768-acfb-a8658437c6dd/output/model.fbx"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d317-ae5d-7768-acfb-a8658437c6dd/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d317-ae5d-7768-acfb-a8658437c6dd/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d317-ae5d-7768-acfb-a8658437c6dd/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d317-ae5d-7768-acfb-a8658437c6dd/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d317-ae5d-7768-acfb-a8658437c6dd/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 3842,
+      "finished_utc": "2026-09-24T11:06:43.310721+00:00"
+    },
+    "rig": {
+      "task": {
+        "id": "01a0d318-ad14-73b1-b946-d4f182e067d1",
+        "type": "rig",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790248017738,
+        "progress": 100,
+        "started_at": 1790248017746,
+        "finished_at": 1790248062087,
+        "expires_at": 1790507262087,
+        "task_error": null,
+        "result": {
+          "rigged_character_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d318-ad14-73b1-b946-d4f182e067d1/output/Character_output.fbx",
+          "rigged_character_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d318-ad14-73b1-b946-d4f182e067d1/output/Character_output.glb",
+          "basic_animations": {
+            "walking_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d318-ad14-73b1-b946-d4f182e067d1/output/Animation_Walking_withSkin.glb",
+            "walking_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d318-ad14-73b1-b946-d4f182e067d1/output/Animation_Walking_withSkin.fbx",
+            "walking_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d318-ad14-73b1-b946-d4f182e067d1/output/Animation_Walking_withSkin_armature.glb",
+            "running_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d318-ad14-73b1-b946-d4f182e067d1/output/Animation_Running_withSkin.glb",
+            "running_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d318-ad14-73b1-b946-d4f182e067d1/output/Animation_Running_withSkin.fbx",
+            "running_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d318-ad14-73b1-b946-d4f182e067d1/output/Animation_Running_withSkin_armature.glb"
+          }
+        },
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3837,
+      "finished_utc": "2026-09-24T11:07:53.032938+00:00"
+    },
+    "animations": {
+      "task": {
+        "id": "01a0d319-bd67-7282-bb8d-424a4be9d0d2",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790248074918,
+        "progress": 100,
+        "started_at": 1790248074926,
+        "finished_at": 1790248117859,
+        "expires_at": 1790507317859,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d319-bd67-7282-bb8d-424a4be9d0d2/output/merged_animations.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d319-bd67-7282-bb8d-424a4be9d0d2/output/merged_animations.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 3822,
+      "finished_utc": "2026-09-24T11:08:47.943684+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_miner_model.glb",
+      "bytes": 8608204,
+      "sha256": "4a2cdd0cb919b23091f0fb0c6eb6aa04d28a56ed1a65c3a44befea7d302181ac"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 144738,
+      "sha256": "68ea276b64ae244c91c80326434b3210bbbd12fc124f6b05473c9d59fd2fee1e"
+    },
+    "texture_base_color": {
+      "file": "dwarf_miner_base_color.png",
+      "bytes": 6489543,
+      "sha256": "9289e80d2363b82b5f4d901e558aaadcaff24dda59e63a3a76ca5d56a52e02f7"
+    },
+    "texture_metallic": {
+      "file": "dwarf_miner_metallic.png",
+      "bytes": 609356,
+      "sha256": "8ebd6f0d577efdaf6fc1aacab7b697c0af63990016bdd80206ff1287b9d0975a"
+    },
+    "texture_roughness": {
+      "file": "dwarf_miner_roughness.png",
+      "bytes": 1677102,
+      "sha256": "8e28089d3d8be7607cf1a293f3e8f92ca796d827e73ca43d692474e5e1c09ee9"
+    },
+    "texture_normal": {
+      "file": "dwarf_miner_normal.png",
+      "bytes": 5454600,
+      "sha256": "ba7d521a105b8b24b36e16611329687e00255af21b2d612de34b40462c3aba56"
+    },
+    "rigged_character_fbx": {
+      "file": "dwarf_miner_rigged_character.fbx",
+      "bytes": 6960668,
+      "sha256": "800d3b7ea0c5c76495a437e1f20f9dc18505f43872fbe9cc6568cf3ca6ce0e22"
+    },
+    "rigged_character_glb": {
+      "file": "dwarf_miner_rigged_character.glb",
+      "bytes": 6772100,
+      "sha256": "932ce249b853f6a7bb0477fb9c7f5545a23afd04fa071cc5def57b44ebbfc877"
+    },
+    "walking_glb": {
+      "file": "dwarf_miner_walking.glb",
+      "bytes": 6784872,
+      "sha256": "669ccf03f0c57f8d73d58ead5a0e513a1fbbc958c59f8c5c65604ba1331ad114"
+    },
+    "walking_fbx": {
+      "file": "dwarf_miner_walking.fbx",
+      "bytes": 6985436,
+      "sha256": "cc9d0abc05c6d7948b4c7a2bdd4fea72e910d2a62bb184dfe8b50d3218c95c0f"
+    },
+    "walking_armature_glb": {
+      "file": "dwarf_miner_walking_armature.glb",
+      "bytes": 65372,
+      "sha256": "9167ecb8cf6a8612dba5640a9992b451544d427ab0c13815d31ba8bafc0dc258"
+    },
+    "running_glb": {
+      "file": "dwarf_miner_running.glb",
+      "bytes": 6780272,
+      "sha256": "964dff8bc614083c6bd646b18de9bd6514b1c57553643ea1550c44c5341881bb"
+    },
+    "running_fbx": {
+      "file": "dwarf_miner_running.fbx",
+      "bytes": 6976828,
+      "sha256": "371522133e46258153f526f0f5cd22af2f13e081df558deaed4320946147247a"
+    },
+    "running_armature_glb": {
+      "file": "dwarf_miner_running_armature.glb",
+      "bytes": 60768,
+      "sha256": "0788032a473847e95180cc3b81262090ff112d9dd1f36b33b6c0b1c89c3dc0ea"
+    },
+    "animation_glb": {
+      "file": "dwarf_miner_animation.glb",
+      "bytes": 7068988,
+      "sha256": "20240a1788ab2f42fe498047def0d5ab2ed85e5aa909018cfa37a2d00a22c1d5"
+    },
+    "animation_fbx": {
+      "file": "dwarf_miner_animation.fbx",
+      "bytes": 7757868,
+      "sha256": "68862ba189414d54e7ce017459054387302c65e2082e7e98bc84383fede58c34"
+    }
+  },
+  "credits": 35,
+  "clips": [
+    {
+      "state": "Idle",
+      "action_id": 0
+    },
+    {
+      "state": "Work",
+      "action_id": 237
+    },
+    {
+      "state": "Attack",
+      "action_id": 4
+    },
+    {
+      "state": "Hit",
+      "action_id": 178
+    },
+    {
+      "state": "Death",
+      "action_id": 8
+    }
+  ],
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk",
+      "Work"
+    ],
+    "triangles": 4036,
+    "bones": 24,
+    "walkMetresPerSecond": 0.948,
+    "runMetresPerSecond": 2.615,
+    "heightMetres": 1.523,
+    "teamMaskCoverage": 0.0
+  }
+}

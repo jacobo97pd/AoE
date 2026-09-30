@@ -1,0 +1,24 @@
+﻿{
+    "utc":  "2026-09-11T08:13:38.8199606Z",
+    "contentVersion":  "frontiers-4157ad1124bb505977eb559760d0af42448038663297879bb5b7a040e557e606",
+    "protocolVersion":  2,
+    "contentVerified":  true,
+    "authorityBuildPassed":  true,
+    "serverTests":  {
+                        "skipped":  0,
+                        "failed":  0,
+                        "passed":  25
+                    },
+    "authorityBuildLog":  "TestResults/Corsair/authority-build.log",
+    "serverTestLog":  "TestResults/Corsair/server-tests.log",
+    "heroSimulationTests":  {
+                                "passed":  13,
+                                "failed":  0,
+                                "report":  "TestResults/Corsair/hero-simulation-tests.json"
+                            },
+    "expansionRegression":  {
+                                "passed":  44,
+                                "failed":  0,
+                                "report":  "TestResults/Corsair/expansion-regression.json"
+                            }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "desert_rock_c",
+  "entry": {
+    "id": "desert_rock_c",
+    "role": "obstacle",
+    "kind": "desert_rock",
+    "lod0": 200,
+    "lod1": 0,
+    "height": 0.9,
+    "footprint": 1,
+    "size": 512,
+    "biome": "desert",
+    "priority": 2,
+    "prompt": "Wind-carved sandstone boulder: one fused block with flat layered strata, a slightly overhanging top and sloped sides, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no sand base, no plants, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Sandstone: warm ochre (#C99A5E) with pale sunlit tops (#E2C08A) and rust-orange shadowed strata lines (#9C6B3F). Sun-bleached and dry. No plants, no text or logos.",
+    "polycount": 600
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d415-a1e5-74ee-81c7-6c282d6c25c5",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1121991984,
+        "prompt": "Wind-carved sandstone boulder: one fused block with flat layered strata, a slightly overhanging top and sloped sides, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no sand base, no plants, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264582667,
+        "progress": 100,
+        "started_at": 1790264582675,
+        "finished_at": 1790264593434,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d415-a1e5-74ee-81c7-6c282d6c25c5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d415-a1e5-74ee-81c7-6c282d6c25c5/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:43:20.116773+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d415-e92b-7705-89dd-575003b923cc",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1121991984,
+        "prompt": "Wind-carved sandstone boulder: one fused block with flat layered strata, a slightly overhanging top and sloped sides, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no sand base, no plants, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Sandstone: warm ochre (#C99A5E) with pale sunlit tops (#E2C08A) and rust-orange shadowed strata lines (#9C6B3F). Sun-bleached and dry. No plants, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264600918,
+        "progress": 100,
+        "started_at": 1790264600929,
+        "finished_at": 1790264653059,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d415-e92b-7705-89dd-575003b923cc/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d415-e92b-7705-89dd-575003b923cc/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d415-e92b-7705-89dd-575003b923cc/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d415-e92b-7705-89dd-575003b923cc/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d415-e92b-7705-89dd-575003b923cc/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d415-e92b-7705-89dd-575003b923cc/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:44:20.847246+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 111831,
+      "sha256": "cfe7d6e29a778a6c93bb2ec161b55f4b2d4a454e2ff7b0d2022b39284e2fd18d"
+    },
+    "model_glb": {
+      "file": "desert_rock_c_model.glb",
+      "bytes": 4439044,
+      "sha256": "6c5d576f12d7e53aaf22a4dfa22deb38a8cf62cc89c3c66f11924e886d722169"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 162720,
+      "sha256": "19bce600047d330d3acb046e152350989cfacac0a75307be7370fd327b7bcf38"
+    },
+    "texture_base_color": {
+      "file": "desert_rock_c_base_color.png",
+      "bytes": 4504031,
+      "sha256": "8a85ba3fb01bd48d56519ac27272bf4a9b6fc1c60d3db7eac90a988ba6563d5e"
+    },
+    "texture_metallic": {
+      "file": "desert_rock_c_metallic.png",
+      "bytes": 18377,
+      "sha256": "9a05f4ad0dc1046e3731bf19b9c883b9bc0bc514192d02747cb7f205566bb84f"
+    },
+    "texture_roughness": {
+      "file": "desert_rock_c_roughness.png",
+      "bytes": 1059129,
+      "sha256": "4ea38ac2c5c295fa3cd20347b837ec054461cd0ea93380c55ee1ca6db8d60948"
+    },
+    "texture_normal": {
+      "file": "desert_rock_c_normal.png",
+      "bytes": 3067606,
+      "sha256": "1101e318ce35a796361083989b35822f8510d393e6e88f510d7120eb1a95e6b9"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 644,
+    "lod0": 400,
+    "lod1": 160,
+    "fittedMetres": [
+      1.0,
+      0.809,
+      0.77
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

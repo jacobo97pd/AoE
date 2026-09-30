@@ -1,0 +1,137 @@
+{
+  "id": "kingdom_shelter",
+  "entry": {
+    "id": "kingdom_shelter",
+    "style": "kingdom",
+    "building": "shelter",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset: a small medieval peasant cottage for a top-down strategy game. One small, fully enclosed single-storey house with a steep gable roof and a short stone chimney. One wooden door and one small window on the front. A small royal blue cloth awning over the door."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d328-e39a-7477-bb6e-9cdec06457aa",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1421266701,
+        "prompt": "Low-poly game asset: a small medieval peasant cottage for a top-down strategy game. One small, fully enclosed single-storey house with a steep gable roof and a short stone chimney. One wooden door and one small window on the front. A small royal blue cloth awning over the door. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249070154,
+        "progress": 100,
+        "started_at": 1790249070163,
+        "finished_at": 1790249080621,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d328-e39a-7477-bb6e-9cdec06457aa/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d328-e39a-7477-bb6e-9cdec06457aa/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3671,
+      "finished_utc": "2026-09-24T11:24:47.489576+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d329-380e-7449-aafd-ee5115264882",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1421266701,
+        "prompt": "Low-poly game asset: a small medieval peasant cottage for a top-down strategy game. One small, fully enclosed single-storey house with a steep gable roof and a short stone chimney. One wooden door and one small window on the front. A small royal blue cloth awning over the door. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249089090,
+        "progress": 100,
+        "started_at": 1790249089098,
+        "finished_at": 1790249146518,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d329-380e-7449-aafd-ee5115264882/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d329-380e-7449-aafd-ee5115264882/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d329-380e-7449-aafd-ee5115264882/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d329-380e-7449-aafd-ee5115264882/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d329-380e-7449-aafd-ee5115264882/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d329-380e-7449-aafd-ee5115264882/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "balance_after": 3661,
+      "finished_utc": "2026-09-24T11:25:48.798710+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_shelter_model.glb",
+      "bytes": 7133904,
+      "sha256": "7aaf8967332c87043e5e2a44d4d7cb1d3d7768f59acb2999d0fff8a9b9e9e0a1"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 265574,
+      "sha256": "2890344f8f8ae991adb34758153768e87b2c233d88cf552d7ed7028aff7bad61"
+    },
+    "texture_base_color": {
+      "file": "kingdom_shelter_base_color.png",
+      "bytes": 5731084,
+      "sha256": "1e137b2b51eb7e13e9e2521d02f2f43019f2d853820ad4aeacc98e0b05a4f4c3"
+    },
+    "texture_metallic": {
+      "file": "kingdom_shelter_metallic.png",
+      "bytes": 36369,
+      "sha256": "8524eb76c394bd1ffe2ee8dc6b957372b3122aded0a4bf40ceb919d62a92f013"
+    },
+    "texture_roughness": {
+      "file": "kingdom_shelter_roughness.png",
+      "bytes": 1501196,
+      "sha256": "3b077d16c98e58a2de0518c979e091c972a74b93387d399960167d3570bec311"
+    },
+    "texture_normal": {
+      "file": "kingdom_shelter_normal.png",
+      "bytes": 4296063,
+      "sha256": "d6f6632359cec8683ff7b44369e2e1c615ded7f9f0a0a99c7a38b388e8c6fa16"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4245,
+    "triangles": 4245,
+    "fittedMetres": [
+      1.92,
+      1.759,
+      1.789
+    ],
+    "teamMaskCoverage": 0.0378
+  }
+}

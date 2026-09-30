@@ -1,0 +1,137 @@
+{
+  "id": "orc_siege_workshop",
+  "entry": {
+    "id": "orc_siege_workshop",
+    "style": "orc",
+    "building": "siege_workshop",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: an orc siege workshop. A crude square log workshop with one open side under a hide lean-to roof, a rough log crane, scrap iron and a half-built spiked battering ram inside, a red rag banner on the crane."
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        350,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d442-7ee8-73fe-8a09-61d01afb2e50",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3791017726,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc siege workshop. A crude square log workshop with one open side under a hide lean-to roof, a rough log crane, scrap iron and a half-built spiked battering ram inside, a red rag banner on the crane. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267525015,
+        "progress": 100,
+        "started_at": 1790267525023,
+        "finished_at": 1790267534318,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-7ee8-73fe-8a09-61d01afb2e50/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-7ee8-73fe-8a09-61d01afb2e50/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:32:22.489866+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d442-cd8d-73f9-827f-9cd608778f27",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3791017726,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc siege workshop. A crude square log workshop with one open side under a hide lean-to roof, a rough log crane, scrap iron and a half-built spiked battering ram inside, a red rag banner on the crane. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267542968,
+        "progress": 100,
+        "started_at": 1790267542975,
+        "finished_at": 1790267600942,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-cd8d-73f9-827f-9cd608778f27/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-cd8d-73f9-827f-9cd608778f27/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-cd8d-73f9-827f-9cd608778f27/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-cd8d-73f9-827f-9cd608778f27/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-cd8d-73f9-827f-9cd608778f27/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-cd8d-73f9-827f-9cd608778f27/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:33:23.137559+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_siege_workshop_model.glb",
+      "bytes": 7200464,
+      "sha256": "61123d4d41187479c068e7af51409722798576764ab5dd9eb3e1f14aefe6b286"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 180379,
+      "sha256": "d5d57af53374617aeeec7d19295cb7d1c7ed74ca405bb82b9f7faa3e4ec84fe6"
+    },
+    "texture_base_color": {
+      "file": "orc_siege_workshop_base_color.png",
+      "bytes": 5157039,
+      "sha256": "7331fbe24149d87dd3d32da0812cb4a173245d3eb853a79a05fd752727bcd1f8"
+    },
+    "texture_metallic": {
+      "file": "orc_siege_workshop_metallic.png",
+      "bytes": 50461,
+      "sha256": "c754351d031fd5949a9478707cd281df8119ab18a9b520753bf8f534bb65f9d9"
+    },
+    "texture_roughness": {
+      "file": "orc_siege_workshop_roughness.png",
+      "bytes": 1343503,
+      "sha256": "31f5e8c2fd3c524a35cbdff131ad40119a68dbfd8a5abd6782ea24eab8f1ff50"
+    },
+    "texture_normal": {
+      "file": "orc_siege_workshop_normal.png",
+      "bytes": 4492528,
+      "sha256": "43049e0edcf6131499f88a7201b13210a54784dc2678a0ae02221303e92708d1"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4883,
+    "triangles": 4883,
+    "fittedMetres": [
+      2.88,
+      2.869,
+      2.064
+    ],
+    "teamMaskCoverage": 0.0012
+  }
+}

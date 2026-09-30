@@ -1,0 +1,131 @@
+{
+  "id": "metal_node_caribbean",
+  "entry": {
+    "id": "metal_node_caribbean",
+    "role": "resource",
+    "kind": "Metal",
+    "lod0": 1000,
+    "lod1": 250,
+    "height": 1.3,
+    "footprint": 1.8,
+    "size": 512,
+    "biome": "caribbean",
+    "priority": 3,
+    "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky gold ore veins and chunky nugget crystals breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+    "texture": "Stylized painted colours, even lighting, no baked shadows. Host rock: dark volcanic basalt (#3F4648) with grey edges (#5E6663), matte. Ore veins and nuggets: rich metallic gold (#D9A93A) with bright highlights, metallic and smooth, clearly readable from above. No text or logos.",
+    "polycount": 1500
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d41a-e209-74f2-bda4-4e2a32fc40ee",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4281386234,
+        "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky gold ore veins and chunky nugget crystals breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264926770,
+        "progress": 100,
+        "started_at": 1790264926777,
+        "finished_at": 1790264937616,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-e209-74f2-bda4-4e2a32fc40ee/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-e209-74f2-bda4-4e2a32fc40ee/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:49:04.258391+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d41b-2935-754e-8f2f-7c4f175a50ff",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4281386234,
+        "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky gold ore veins and chunky nugget crystals breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+        "texture_prompt": "Stylized painted colours, even lighting, no baked shadows. Host rock: dark volcanic basalt (#3F4648) with grey edges (#5E6663), matte. Ore veins and nuggets: rich metallic gold (#D9A93A) with bright highlights, metallic and smooth, clearly readable from above. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264946968,
+        "progress": 100,
+        "started_at": 1790264946976,
+        "finished_at": 1790265005231,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-2935-754e-8f2f-7c4f175a50ff/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-2935-754e-8f2f-7c4f175a50ff/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-2935-754e-8f2f-7c4f175a50ff/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-2935-754e-8f2f-7c4f175a50ff/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-2935-754e-8f2f-7c4f175a50ff/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-2935-754e-8f2f-7c4f175a50ff/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:50:06.828559+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 138185,
+      "sha256": "e7da0b97b94e1e45c25224960298b009f2f248c845df7922f021268c84b00861"
+    },
+    "model_glb": {
+      "file": "metal_node_caribbean_model.glb",
+      "bytes": 6437776,
+      "sha256": "fdf9853687be438edee806b754eaf2036b10543f82c8fb85b58362ba0e37db1a"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 188179,
+      "sha256": "e50a41576c8be51267a32506abcaf2e26f5b0bd52a598edb0a663787450b558f"
+    },
+    "texture_base_color": {
+      "file": "metal_node_caribbean_base_color.png",
+      "bytes": 4435481,
+      "sha256": "5e85933f0553a62564e964bf1891dc16ba44e8689b6969c57ea211ccdf213537"
+    },
+    "texture_metallic": {
+      "file": "metal_node_caribbean_metallic.png",
+      "bytes": 316632,
+      "sha256": "c357594d5db58f969f20785286558a6f51fc3f7cf181fce3f82caf5fcfe46872"
+    },
+    "texture_roughness": {
+      "file": "metal_node_caribbean_roughness.png",
+      "bytes": 1472050,
+      "sha256": "3c0075ef60b3711a9c4fa0b7d2e968b347345894da3de9b2ba281b72eb7a6eaf"
+    },
+    "texture_normal": {
+      "file": "metal_node_caribbean_normal.png",
+      "bytes": 3709948,
+      "sha256": "8d896b84b4263229f607766f36d569ffb30120d322b814bba42a8676b614fdd6"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1498,
+    "lod0": 1000,
+    "lod1": 250,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.616,
+      1.616,
+      1.3
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

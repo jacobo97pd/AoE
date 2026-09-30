@@ -1,0 +1,59 @@
+# Análisis de brechas frente a las referencias
+
+Fecha: 10 de septiembre de 2026. Corte auditado: `7ab2c89bbaadadf414c8042ea4743ef5cb0b1019`, laboratorio de dos unidades. Este análisis incorpora la nueva petición de cuatro escenas completas y nueve arquetipos; los objetivos que siguen están pendientes de implementación y comprobación visual.
+
+## Diagnóstico
+
+El laboratorio anterior mejora la alfa en volumen humano, equipo, articulación y respuesta de superficie. Su [comparación nativa](../../Artifacts/ArtReview/comparison.png) permite comprobar esa evolución. Aun así, presenta figuras de prueba sobre un suelo casi vacío y no transmite la riqueza de un RTS comercial sugerida por las láminas. La crítica del usuario describe una brecha visual real.
+
+El [informe de integridad](../../Artifacts/ArtReview/asset-validation.json) válido y las pruebas del [checkpoint anterior](ART_STYLE_CHECKPOINT_2.md) no contradicen esa crítica: verifican assets, animación básica y herramientas de revisión. No evalúan atractivo de proporciones, dirección de materiales, densidad ambiental o calidad compositiva.
+
+## Las siete críticas, con evidencia y corrección
+
+| Crítica del usuario | Evidencia en el corte actual | Rasgo que aportan las referencias | Intervención concreta y prueba esperada |
+| --- | --- | --- | --- |
+| **1. Los modelos son demasiado simples.** | En [Close](../../Artifacts/ArtReview/close.png), hombros casi esféricos, antebrazos cilíndricos, botas y manos poco resueltas. Casco, borde de ropa y escudo conservan pocos planos grandes. | R01/R03 presentan ropa solapada, codos, rodillas, botas, manos con agarre, bordes de armadura y herramientas con construcción material. | Rehacer perfiles anatómicos y uniones; añadir volumen real de puños, guantes, cuello, cinturón y placas; corregir contactos. Close debe enseñar construcción convincente sin depender de un mapa pintado que finja el volumen. |
+| **2. Las siluetas son débiles.** | Los dos modelos comparten postura vertical simétrica y masas de torso similares. En [RTS](../../Artifacts/ArtReview/rts.png) se distinguen sobre todo por sombrero/horca y casco/lanza/escudo. | R02/R04/R05/R06/R07/R08/R09 diferencian sombreros, capas, barbas, monturas, alas, colas, arcos y equipo de montaña; hay peso y asimetría controlada. | Diferenciar anchura, altura, postura, ropa y equipo por arquetipo; construir montura, enano compacto, elfo esbelto y dragón completos. RTS y Medium deben distinguirlos sin etiquetas ni limitarse a nueve recolores. |
+| **3. Los materiales son demasiado planos.** | El shader es PBR, pero una textura genérica de 1024² y superficies amplias dan tela uniforme y armadura de brillo redondo/plástico en [Close](../../Artifacts/ArtReview/close.png). Correas y mangos tienen poca variación. | R01/R03/R09 separan tejido mate, cuero gastado, madera, acero frío y latón/oro; R10–R13 diferencian terreno, piedra, agua y vegetación. | Atlas 4×4 de superficies, UV por pieza, color/material coherentes, rugosidad y metalicidad diferenciadas; variación de escala amplia y bordes contenidos. Close debe distinguir metal/tela/cuero/madera con luz común; RTS debe conservar masas limpias sin ruido brillante. |
+| **4. La iluminación parece de prototipo.** | Hay sol, ambiente y sombras reales, pero el plano beige y la ausencia de profundidad hacen que [RTS](../../Artifacts/ArtReview/rts.png) se lea como una prueba de shader. La sombra sola no crea atmósfera. | R10–R13 usan luz cálida/fría diferenciada, rebotes de agua, sombras agrupadas, separación entre planos y distancia suave. | Ajustar luz principal y ambiente por bioma, contacto, grading y niebla progresiva; reservar emisión/bloom para cristales, agua o luces donde proceda. La nueva Medium debe separar primer plano, actividad y fondo sin lavar el color de equipo ni ocultar errores con resplandor. |
+| **5. El entorno está vacío.** | En [RTS](../../Artifacts/ArtReview/rts.png) dominan suelo liso y peanas; solo un edificio de la alfa, dos árboles y muestras de color dan contexto. No hay asentamiento, relieve, río ni actividad ambiental. | R10–R13 organizan poblados, cultivos, embarcaderos, oasis, rutas, bosques, rocas y monumentos alrededor de agua y topografía. | Construir cuatro escenas 3D con terreno trabajado, rutas, vegetación, rocas, utilería, agua y un grupo de edificios coherente; añadir al menos tres unidades por escena. RTS debe mostrar un lugar habitable con zonas funcionales, no una fila de props sobre una plataforma. |
+| **6. La cámara no vende el estilo.** | Close elimina casi todo el contexto. RTS centra peanas y deja grandes áreas vacías; la variante [4:3](../../Artifacts/ArtReview/rts-tablet.png) recorta parte del edificio lateral. | R10–R13 conducen la mirada mediante diagonales de agua/camino, grupos de edificios, vistas elevadas y elementos que enmarcan sin tapar. | Autoría conjunta de suelo, edificios y tres cámaras. Close sitúa las figuras en el mundo; Medium relaciona actividad y arquitectura; RTS revela una composición completa. Revisar extremos de lanza/ala, tejados y márgenes en 16:9 y 4:3, registrando zoom y escala. |
+| **7. Los personajes no alcanzan la riqueza de los conceptos.** | La mejora geométrica está probada en [Comparison](../../Artifacts/ArtReview/comparison.png), pero faltan variedad corporal, vestuario específico, accesorios secundarios, gesto y relación con el oficio. En [Gather](../../Artifacts/ArtReview/gather.png) la horca roza visualmente el sombrero y la transferencia de peso es escasa. | R01–R09 asocian oficio/cultura a capas, correas, cargas, ornamentos, pelo, equipo y materiales, con jerarquía clara entre silueta y detalle. | Dar a cada uno de los nueve tipos cabeza/ropa/equipo propios y dos o tres rasgos secundarios de tamaño legible; mejorar agarres, pose y contacto. Close/Medium deben mostrar riqueza deliberada; RTS debe conservar su identidad. No basta un aumento de triángulos ni una lista de componentes. |
+
+Las críticas 1 y 7 se relacionan, pero no son equivalentes: la primera exige construir mejor las formas; la séptima exige diseñar personajes con vestuario, oficio y personalidad específicos. La crítica 2 evalúa el contorno y las masas a distancia, incluso sin textura.
+
+## Registro de las trece referencias
+
+Se inspeccionaron las trece imágenes aportadas. El [análisis individual anterior](REFERENCE_IMAGE_ANALYSIS.md) detalla proporción, paleta, materiales, silueta, escala de armas, ropa, accesorios, lenguaje de facción, estilo de render y lectura RTS. Este registro conserva el vínculo entre referencia y decisión de la ampliación.
+
+| ID | Archivo local aportado | Traducción al modelo o escena 3D |
+| --- | --- | --- |
+| R01 | [Recolectores](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (1).png>) | Sombrero ancho, camisa y tabardo en capas, correas, bolsas, herramienta grande y carga; variantes de tela y equipo según clima/oficio. |
+| R02 | [Piratas](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (2).png>) | Abrigo rojo/azul, bandana o tricornio, cintura marcada, cuerda, cuero y latón; silueta asimétrica de marinero/capitán. |
+| R03 | [Guerreros](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (3).png>) | Acero, tela de equipo, oro contenido, protección estratificada y escudo; Reedguard conserva lanza y escudo aunque la lámina humana lleve espada. |
+| R04 | [Enanos](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (4).png>) | Cuerpo bajo y ancho, manos fuertes, barba con masas trenzadas, herramienta pesada y equipo construido; no escalar uniformemente un humano. |
+| R05 | [Jinetes](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (5).png>) | Montura horizontal, piernas y cabeza propias, jinete elevado, silla, telas y arreos; arma/estandarte vertical de lectura táctica. |
+| R06 | [Dragones](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (6).png>) | Cuatro patas, dos alas, pecho elevado, cuello curvo y cola larga; placas y membranas amplias, variación de material/elemento controlada. |
+| R07 | [Elfos](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (7).png>) | Anatomía esbelta, orejas/cabello identificables, capa o falda larga, curvas vegetales, arco o bastón; verde, marfil, azul y metal claro. |
+| R08 | [Montañeses](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (8).png>) | Hombros con piel, capucha, cuerdas, mochila, equipo de altura y arma prominente; grises cálidos, cuero y acento frío. |
+| R09 | [Héroes](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_03_48 (9).png>) | Capa, corona/sombrero/penacho, metal decorado y pose con autoridad; riqueza selectiva, no solo tamaño superior. |
+| R10 | [Kingdom / Temperate](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_10_09 (3).png>) | Río diagonal y cascadas, puentes, castillo de piedra, aldea, granjas, molinos, bosque y canteras; relación entre ruta, agua y relieve. |
+| R11 | [Fantasy](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_10_09 (4).png>) | Árbol sagrado, arquitectura vertical elegante, raíces y arcos, agua cian, cristales, bosque y luces cálidas pequeñas. |
+| R12 | [Caribbean](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_10_08 (1).png>) | Bahía turquesa, playa clara, palmeras, muelles, torres, ruina/fortaleza y vegetación densa; madera salina y acentos náuticos. |
+| R13 | [Desert](<C:/Users/jacob/Downloads/ChatGPT Image 10 sept 2026, 18_10_09 (2).png>) | Oasis central, dunas, acantilados cálidos, ciudad de arenisca, mercado, obeliscos y rutas de caravana. |
+
+Las imágenes son conceptos con tratamiento pictórico y aspecto de render. Su densidad, acabado ilustrado y luz no acreditan triángulos, animación, navegación ni rendimiento de una escena real. Se trasladan proporciones, jerarquía y relaciones de materiales a diseño original. El rótulo «Crowns & Horizons» de las láminas no cambia el nombre del proyecto ni autoriza copiar personajes o emblemas reconocibles.
+
+## Diferencias que deben registrarse con honestidad
+
+El nuevo objetivo incluye nueve arquetipos visuales, pero no renombra las ocho facciones ni convierte a todos los miembros de una facción en una raza nueva. La separación histórico/fantástico permanece en gameplay. Un enano o elfo de presentación necesita integración de diseño propia si posteriormente se asigna al roster; una captura de la muestra no demuestra esa integración.
+
+La autoría C# nativa debe juzgarse por su resultado visible y por la calidad de las mallas. No se describe como escultura DCC final, texturizado manual completo o animación de producción. Tampoco se equipara una figura estática elaborada con un ejército animado bajo carga.
+
+La referencia de temperate tiene una ciudad y relieve mucho más extensos que la pequeña escena exigida ahora. La muestra puede reducir extensión y cantidad, conservando densidad local, relación espacial y riqueza; no debe reemplazarlos por un edificio aislado o por la propia imagen como fondo.
+
+## Evidencia prevista para cerrar la comparación
+
+Cada bioma debe tener tres archivos en `Artifacts/ArtReview/overhaul/`: `<biome>-close.png`, `<biome>-medium.png`, `<biome>-rts.png`, con `kingdom`, `caribbean`, `desert` y `fantasy`. Registrar escenas/cámaras empleadas, inventario real y límites pendientes junto a las capturas. Los archivos se enlazan en la galería cuando existen; este documento no presenta rutas previstas como evidencia ya producida.
+
+Para cada una de las siete filas, el informe final debe indicar **mejora observada**, **evidencia concreta** y **brecha restante**. «Compila», «se distingue», «tiene PBR» o «usa pocos polígonos» no sustituyen esa comparación. El objetivo es una aproximación visible al estilo premium solicitado; la paridad con las referencias y la aptitud de producción no se presuponen.

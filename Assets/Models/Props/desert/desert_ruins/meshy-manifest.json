@@ -1,0 +1,130 @@
+{
+  "id": "desert_ruins",
+  "entry": {
+    "id": "desert_ruins",
+    "role": "landmark",
+    "kind": "ruins",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 2.5,
+    "footprint": 3,
+    "size": 1024,
+    "biome": "desert",
+    "priority": 3,
+    "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: sun-bleached sandstone blocks (#D6B07A) with darker mortar (#A07A4E) and rust shadows (#8E6440). No moss, no text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d41c-854d-7164-bdbd-53ab9e880443",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1971055634,
+        "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790265034104,
+        "progress": 100,
+        "started_at": 1790265034112,
+        "finished_at": 1790265042968,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41c-854d-7164-bdbd-53ab9e880443/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41c-854d-7164-bdbd-53ab9e880443/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:50:43.102592+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d41c-ab65-73a3-b055-7e91f9327177",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1971055634,
+        "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: sun-bleached sandstone blocks (#D6B07A) with darker mortar (#A07A4E) and rust shadows (#8E6440). No moss, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790265045995,
+        "progress": 100,
+        "started_at": 1790265046003,
+        "finished_at": 1790265091612,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41c-ab65-73a3-b055-7e91f9327177/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41c-ab65-73a3-b055-7e91f9327177/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41c-ab65-73a3-b055-7e91f9327177/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41c-ab65-73a3-b055-7e91f9327177/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41c-ab65-73a3-b055-7e91f9327177/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41c-ab65-73a3-b055-7e91f9327177/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:51:37.406224+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 143226,
+      "sha256": "96a80285ba4b0d4e77f6dd023ac94c5ac041bc595e8f50e6f7d6a7aafb253ab8"
+    },
+    "model_glb": {
+      "file": "desert_ruins_model.glb",
+      "bytes": 5181244,
+      "sha256": "621eb10d2760ea01b87037f50f420f1629f8efb78ec97b9cd262fef5d6ec7658"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 171464,
+      "sha256": "adea612d76eec3845d7ffa614ada6fa0bdf7c7f7c757e27611480994221e4357"
+    },
+    "texture_base_color": {
+      "file": "desert_ruins_base_color.png",
+      "bytes": 4275935,
+      "sha256": "493564613fbb59ee698987f00969a740c80157a1aa4f901a96c2a5f64c8dac32"
+    },
+    "texture_metallic": {
+      "file": "desert_ruins_metallic.png",
+      "bytes": 24909,
+      "sha256": "d3751a636daf1202888c1c339a98787a7b1860e0ea386003ddd6d772f9723c31"
+    },
+    "texture_roughness": {
+      "file": "desert_ruins_roughness.png",
+      "bytes": 1307066,
+      "sha256": "0d268f262cf4ffedc6a03c4aaa410c595d3411c48b9ba269db30b20710c6cc0a"
+    },
+    "texture_normal": {
+      "file": "desert_ruins_normal.png",
+      "bytes": 3633023,
+      "sha256": "b5de571dac900a762caa76a7ec5097267c5f32e287b64c24aa876bb0556fde4c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4156,
+    "lod0": 3500,
+    "lod1": 800,
+    "fittedMetres": [
+      3.0,
+      1.365,
+      2.297
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

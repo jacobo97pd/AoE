@@ -1,0 +1,683 @@
+{
+    "generatedUtc": "2026-09-13T17:11:44.3336607Z",
+    "unity": "6000.3.23f1",
+    "scene": "Assets/Game/Scenes/CharacterCollection.unity",
+    "passed": true,
+    "characters": [
+        {
+            "id": "figure_01",
+            "name": "Corsario de pólvora",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_01.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 27,
+            "lods": 3,
+            "triangles": [
+                140000,
+                45000,
+                12000
+            ],
+            "clips": [
+                "Corsair_Attack",
+                "Corsair_Hit",
+                "Corsair_Run",
+                "Corsair_Walk",
+                "Corsair_Idle",
+                "Corsair_Aim",
+                "Corsair_Death"
+            ],
+            "fallbackStates": []
+        },
+        {
+            "id": "figure_02",
+            "name": "Capitán pirata",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_02.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 27,
+            "lods": 3,
+            "triangles": [
+                140000,
+                45000,
+                12000
+            ],
+            "clips": [
+                "Corsair_Death",
+                "Corsair_Run",
+                "Corsair_Walk",
+                "Corsair_Idle",
+                "Corsair_Hit",
+                "Corsair_Attack"
+            ],
+            "fallbackStates": []
+        },
+        {
+            "id": "figure_03",
+            "name": "Héroe del reino",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_03.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219747,
+                39751,
+                14388
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_04",
+            "name": "Héroe del desierto",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_04.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219986,
+                39988,
+                11822
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_05",
+            "name": "Héroe de montaña",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_05.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219986,
+                39988,
+                13808
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_06",
+            "name": "Dragón metálico",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_06.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 25,
+            "lods": 3,
+            "triangles": [
+                247308,
+                39999,
+                10999
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_07",
+            "name": "Dragón glacial",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_07.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 25,
+            "lods": 3,
+            "triangles": [
+                247308,
+                39999,
+                10999
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_08",
+            "name": "Dragón ígneo",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_08.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 25,
+            "lods": 3,
+            "triangles": [
+                247308,
+                39999,
+                10999
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_09",
+            "name": "Arquero del bosque",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_09.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219999,
+                39999,
+                11000
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_10",
+            "name": "Centinela élfico",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_10.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219983,
+                39983,
+                10983
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_11",
+            "name": "Mago élfico",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_11.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                220000,
+                40000,
+                10999
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_12",
+            "name": "Guerrero enano",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_12.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219986,
+                39988,
+                12580
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_13",
+            "name": "Minero enano",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_13.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                220000,
+                40000,
+                11000
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_14",
+            "name": "Thane enano",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_14.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219921,
+                39928,
+                12758
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_15",
+            "name": "Piquero de montaña",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_15.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219985,
+                39988,
+                13902
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_16",
+            "name": "Guerrero de montaña — veterano",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_16.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219986,
+                39987,
+                14010
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_17",
+            "name": "Cazador de montaña",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_17.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                220000,
+                40000,
+                11000
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_18",
+            "name": "Guerrero del reino",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_18.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219957,
+                39962,
+                14062
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_19",
+            "name": "Guerrero del desierto",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_19.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219985,
+                39988,
+                11828
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_20",
+            "name": "Guerrero de montaña — guardia",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_20.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219986,
+                39987,
+                14010
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_21",
+            "name": "Recolector del reino",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_21.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219920,
+                39919,
+                10919
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_22",
+            "name": "Recolector del desierto",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_22.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                220000,
+                40000,
+                10999
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_23",
+            "name": "Recolector de montaña",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_23.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219999,
+                39999,
+                10999
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_24",
+            "name": "Jinete del reino a pie",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_24.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219986,
+                39990,
+                12680
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_25",
+            "name": "Jinete del desierto a pie",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_25.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219986,
+                39988,
+                11738
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        },
+        {
+            "id": "figure_26",
+            "name": "Jinete de montaña a pie",
+            "prefab": "Assets/Game/ReferenceCharacters/Resources/ReferenceUnits/figure_26.prefab",
+            "validRig": true,
+            "materialMaps": true,
+            "runDeforms": true,
+            "fallDeforms": true,
+            "bones": 18,
+            "lods": 3,
+            "triangles": [
+                219985,
+                39988,
+                13902
+            ],
+            "clips": [
+                "Corsair_Run",
+                "Corsair_Idle",
+                "Corsair_Death"
+            ],
+            "fallbackStates": [
+                "Walk uses Corsair_Run at half speed",
+                "Attack uses Corsair_Idle (combat animation pending)",
+                "Hit uses Corsair_Idle (combat animation pending)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "highland_metal_node",
+  "entry": {
+    "id": "highland_metal_node",
+    "source": "metal_node",
+    "role": "resource",
+    "kind": "Metal",
+    "lod0": 1000,
+    "lod1": 250,
+    "farShell": true,
+    "height": 1.3,
+    "footprint": 1.8,
+    "size": 512,
+    "biome": "highland",
+    "priority": 6
+  },
+  "source": "metal_node",
+  "steps": {},
+  "files": {},
+  "credits": 0,
+  "finish": {
+    "sourceTriangles": 1456,
+    "lod0": 1000,
+    "lod1": 250,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.78,
+      1.707,
+      1.3
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

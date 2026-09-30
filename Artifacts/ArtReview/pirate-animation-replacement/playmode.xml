@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="19" result="Passed" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-13 14:48:45Z" end-time="2026-09-13 14:48:48Z" duration="3,3869765">
+  <test-suite type="TestSuite" id="1201" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="152" result="Passed" start-time="2026-09-13 14:48:45Z" end-time="2026-09-13 14:48:48Z" duration="3.386977" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1194" name="Emberfield.Tests.PlayMode.dll" fullname="D:/EmberfieldWorkingCache/AoE/PirateCrewBuildProject/Library/ScriptAssemblies/Emberfield.Tests.PlayMode.dll" runstate="Runnable" testcasecount="152" result="Passed" start-time="2026-09-13 14:48:45Z" end-time="2026-09-13 14:48:48Z" duration="3.373271" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="17116" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1195" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="152" result="Passed" start-time="2026-09-13 14:48:45Z" end-time="2026-09-13 14:48:48Z" duration="3.371020" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1196" name="Tests" fullname="Emberfield.Tests" runstate="Runnable" testcasecount="152" result="Passed" start-time="2026-09-13 14:48:45Z" end-time="2026-09-13 14:48:48Z" duration="3.369110" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1197" name="PlayMode" fullname="Emberfield.Tests.PlayMode" runstate="Runnable" testcasecount="151" result="Passed" start-time="2026-09-13 14:48:45Z" end-time="2026-09-13 14:48:48Z" duration="3.366910" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1038" name="ArmySelectionIntegrationTests" fullname="Emberfield.Tests.PlayMode.ArmySelectionIntegrationTests" classname="Emberfield.Tests.PlayMode.ArmySelectionIntegrationTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-13 14:48:45Z" end-time="2026-09-13 14:48:47Z" duration="2.348400" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1040" name="AshrunnerCountsAsCavalryAndItsActionCoexistsWithRoleFiltering" fullname="Emberfield.Tests.PlayMode.ArmySelectionIntegrationTests.AshrunnerCountsAsCavalryAndItsActionCoexistsWithRoleFiltering" methodname="AshrunnerCountsAsCavalryAndItsActionCoexistsWithRoleFiltering" classname="Emberfield.Tests.PlayMode.ArmySelectionIntegrationTests" runstate="Runnable" seed="1146374065" result="Passed" start-time="2026-09-13 14:48:45Z" end-time="2026-09-13 14:48:47Z" duration="1.898406" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1039" name="CategoryCountsFollowTheSelectedSubsetAndClicksNeverExpandIt" fullname="Emberfield.Tests.PlayMode.ArmySelectionIntegrationTests.CategoryCountsFollowTheSelectedSubsetAndClicksNeverExpandIt" methodname="CategoryCountsFollowTheSelectedSubsetAndClicksNeverExpandIt" classname="Emberfield.Tests.PlayMode.ArmySelectionIntegrationTests" runstate="Runnable" seed="2101275470" result="Passed" start-time="2026-09-13 14:48:47Z" end-time="2026-09-13 14:48:47Z" duration="0.436144" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1057" name="CorsairIntegrationTests" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-13 14:48:47Z" end-time="2026-09-13 14:48:48Z" duration="0.513572" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1059" name="ImportedPrefabHasSixAnimationsThatActuallyDeformItsSkinnedMesh" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests.ImportedPrefabHasSixAnimationsThatActuallyDeformItsSkinnedMesh" methodname="ImportedPrefabHasSixAnimationsThatActuallyDeformItsSkinnedMesh" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" seed="1510953817" result="Passed" start-time="2026-09-13 14:48:47Z" end-time="2026-09-13 14:48:48Z" duration="0.290320" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1061" name="LocalDeathDetachesOnlyVisualCorpseAndDisposingViewRemovesIt" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests.LocalDeathDetachesOnlyVisualCorpseAndDisposingViewRemovesIt" methodname="LocalDeathDetachesOnlyVisualCorpseAndDisposingViewRemovesIt" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" seed="112913622" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.083159" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1060" name="RealMovementAndAttacksDriveRigWhileRepeatedPresentationCannotAdvanceIt" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests.RealMovementAndAttacksDriveRigWhileRepeatedPresentationCannotAdvanceIt" methodname="RealMovementAndAttacksDriveRigWhileRepeatedPresentationCannotAdvanceIt" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" seed="153470532" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.076197" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1058" name="ShippedHeroIsOwnHistoricalDefinitionAndHearthRecruitNotAnInfantryReplacement" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests.ShippedHeroIsOwnHistoricalDefinitionAndHearthRecruitNotAnInfantryReplacement" methodname="ShippedHeroIsOwnHistoricalDefinitionAndHearthRecruitNotAnInfantryReplacement" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" seed="99148492" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.049313" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1165" name="PirateCrewIntegrationTests" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.495370" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="ParameterizedMethod" id="1169" name="CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.066642" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1166" name="CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources(&quot;boarding_raider&quot;,101)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources(&quot;boarding_raider&quot;,101)" methodname="CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1698105466" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.016241" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1167" name="CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources(&quot;gunpowder_corsair&quot;,101)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources(&quot;gunpowder_corsair&quot;,101)" methodname="CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1108514302" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.012135" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1168" name="CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources(&quot;treasure_seeker&quot;,100)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources(&quot;treasure_seeker&quot;,100)" methodname="CrewHasOwnHistoricalIdentityAndCanTrainSeveralWithOrdinaryResources" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1216620520" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.021425" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1174" name="CrewReviewShowsFourDistinctCharactersAndKeepsNormalStartsUnchanged" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.CrewReviewShowsFourDistinctCharactersAndKeepsNormalStartsUnchanged" methodname="CrewReviewShowsFourDistinctCharactersAndKeepsNormalStartsUnchanged" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="2065683740" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.016210" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1173" name="FantasySnapshotCannotIntroduceHistoricalCrew" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.FantasySnapshotCannotIntroduceHistoricalCrew" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.066920" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1170" name="FantasySnapshotCannotIntroduceHistoricalCrew(&quot;boarding_raider&quot;)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.FantasySnapshotCannotIntroduceHistoricalCrew(&quot;boarding_raider&quot;)" methodname="FantasySnapshotCannotIntroduceHistoricalCrew" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1327230750" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.016803" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1171" name="FantasySnapshotCannotIntroduceHistoricalCrew(&quot;gunpowder_corsair&quot;)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.FantasySnapshotCannotIntroduceHistoricalCrew(&quot;gunpowder_corsair&quot;)" methodname="FantasySnapshotCannotIntroduceHistoricalCrew" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1077005340" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.016550" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1172" name="FantasySnapshotCannotIntroduceHistoricalCrew(&quot;treasure_seeker&quot;)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.FantasySnapshotCannotIntroduceHistoricalCrew(&quot;treasure_seeker&quot;)" methodname="FantasySnapshotCannotIntroduceHistoricalCrew" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1664032560" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.016500" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1181" name="HiddenPistolShooterCannotCreateAnEnemyModelOrMuzzleFlash" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.HiddenPistolShooterCannotCreateAnEnemyModelOrMuzzleFlash" methodname="HiddenPistolShooterCannotCreateAnEnemyModelOrMuzzleFlash" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="574771984" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.011429" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1178" name="ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.277381" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1175" name="ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation(&quot;boarding_raider&quot;)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation(&quot;boarding_raider&quot;)" methodname="ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="159315107" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.052882" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1176" name="ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation(&quot;gunpowder_corsair&quot;)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation(&quot;gunpowder_corsair&quot;)" methodname="ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1600239380" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.075694" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1177" name="ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation(&quot;treasure_seeker&quot;)" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation(&quot;treasure_seeker&quot;)" methodname="ImportedCrewUsesItsOwnSkinnedLodsAndMovingAnimation" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1345320012" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.126707" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1179" name="PistolUsesTravelingBulletAndVisualDischargeBeforeOneDamageApplication" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.PistolUsesTravelingBulletAndVisualDischargeBeforeOneDamageApplication" methodname="PistolUsesTravelingBulletAndVisualDischargeBeforeOneDamageApplication" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1297678328" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.014758" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1180" name="SeekerHarvestsCarriesAndDepositsThroughTheOrdinaryWorkerSystem" fullname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests.SeekerHarvestsCarriesAndDepositsThroughTheOrdinaryWorkerSystem" methodname="SeekerHarvestsCarriesAndDepositsThroughTheOrdinaryWorkerSystem" classname="Emberfield.Tests.PlayMode.PirateCrewIntegrationTests" runstate="Runnable" seed="1965537786" result="Passed" start-time="2026-09-13 14:48:48Z" end-time="2026-09-13 14:48:48Z" duration="0.024879" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/jacob/AppData/LocalLow/Emberfield Project/Emberfield\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

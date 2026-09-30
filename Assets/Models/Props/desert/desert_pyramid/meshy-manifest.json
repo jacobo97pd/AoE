@@ -1,0 +1,130 @@
+{
+  "id": "desert_pyramid",
+  "entry": {
+    "id": "desert_pyramid",
+    "role": "landmark",
+    "kind": "pyramid",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 4.5,
+    "footprint": 5.6,
+    "size": 1024,
+    "biome": "desert",
+    "priority": 3,
+    "prompt": "Stepped sandstone pyramid: six stacked square terraces shrinking to a small flat top, a narrow stair running up the front face, a dark doorway at the foot. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky blocks, hard edges, flat faces. About 5.6 m wide and 4.5 m tall. Isolated, no ground, no sand, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Sandstone blocks: warm ochre (#D2A868) with pale sunlit tops (#E8CB93) and rust shadows (#9C6B3F). Doorway: dark umber (#4A3526). Weathered, no gold, no text, glyphs or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d41b-51a6-70b0-af35-ba334be3a0b0",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3259308160,
+        "prompt": "Stepped sandstone pyramid: six stacked square terraces shrinking to a small flat top, a narrow stair running up the front face, a dark doorway at the foot. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky blocks, hard edges, flat faces. About 5.6 m wide and 4.5 m tall. Isolated, no ground, no sand, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264957400,
+        "progress": 100,
+        "started_at": 1790264957408,
+        "finished_at": 1790264967735,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-51a6-70b0-af35-ba334be3a0b0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-51a6-70b0-af35-ba334be3a0b0/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:49:34.883556+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d41b-a0d3-73c1-9b6a-b6b17a61213d",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3259308160,
+        "prompt": "Stepped sandstone pyramid: six stacked square terraces shrinking to a small flat top, a narrow stair running up the front face, a dark doorway at the foot. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky blocks, hard edges, flat faces. About 5.6 m wide and 4.5 m tall. Isolated, no ground, no sand, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Sandstone blocks: warm ochre (#D2A868) with pale sunlit tops (#E8CB93) and rust shadows (#9C6B3F). Doorway: dark umber (#4A3526). Weathered, no gold, no text, glyphs or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264977256,
+        "progress": 100,
+        "started_at": 1790264977265,
+        "finished_at": 1790265021203,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-a0d3-73c1-9b6a-b6b17a61213d/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-a0d3-73c1-9b6a-b6b17a61213d/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-a0d3-73c1-9b6a-b6b17a61213d/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-a0d3-73c1-9b6a-b6b17a61213d/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-a0d3-73c1-9b6a-b6b17a61213d/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41b-a0d3-73c1-9b6a-b6b17a61213d/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:50:28.663732+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 123526,
+      "sha256": "ddec0a247da5dbe9b60bec7f64a977c778fb754883e7c6f190055d7eeaecf928"
+    },
+    "model_glb": {
+      "file": "desert_pyramid_model.glb",
+      "bytes": 6191888,
+      "sha256": "4f72d66664935122129381dbd4f33c03b3dead970022ece907e59f924f5bb6b6"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 169624,
+      "sha256": "d5c6510932893c28b21a1b2e2c5a6bb1fa136cbbc13b2bbbeeed8b738d771dc3"
+    },
+    "texture_base_color": {
+      "file": "desert_pyramid_base_color.png",
+      "bytes": 4727457,
+      "sha256": "2a40c717aad947db598d314a954454d9545680aed84123b649d221a4c5ad55ec"
+    },
+    "texture_metallic": {
+      "file": "desert_pyramid_metallic.png",
+      "bytes": 20652,
+      "sha256": "23276a7a6a7e5d5e95239c6a0410619534d0b892351826cfd75df5b48f4c24d3"
+    },
+    "texture_roughness": {
+      "file": "desert_pyramid_roughness.png",
+      "bytes": 1260925,
+      "sha256": "0fb855c634b531124f8dc27cf046c7cd35b56e76f1d2de024c2d831be052528a"
+    },
+    "texture_normal": {
+      "file": "desert_pyramid_normal.png",
+      "bytes": 3647367,
+      "sha256": "89ef1f9aff49226cad6a0b6295a965f29432af1b3150746446d98453a9e9d32d"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3398,
+    "lod0": 3398,
+    "lod1": 799,
+    "fittedMetres": [
+      5.6,
+      5.6,
+      3.664
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

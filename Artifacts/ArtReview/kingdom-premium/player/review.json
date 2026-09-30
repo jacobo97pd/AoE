@@ -1,0 +1,829 @@
+{
+    "status": "completed",
+    "buildGuid": "79363a377fe148bca74510c9cc90d7ad",
+    "unityVersion": "6000.3.23f1",
+    "generatedUtc": "2026-09-10T20:51:35.3035446Z",
+    "graphicsDevice": "NVIDIA GeForce RTX 3060 Ti",
+    "note": "Native Windows inspection of three static posed 3D characters. No animation, gameplay, frame-rate or mobile-performance claim. Runtime reports shared mesh/material names and geometry; asset GUID/path persistence requires editor validation. Screenshots use the active URP camera and RenderTexture, not the hidden window backbuffer.",
+    "passed": true,
+    "assetPersistenceVerifiedInPlayer": false,
+    "controlsFit": true,
+    "controlsBlockWorldInput": true,
+    "width": 1920,
+    "height": 1080,
+    "hudReservedLogicalPixels": 92.0,
+    "units": [
+        {
+            "key": "worker",
+            "name": "Worker",
+            "bounds": {
+                "m_Center": {
+                    "x": -2.1626415252685549,
+                    "y": 1.1876258850097657,
+                    "z": -3.0406365394592287
+                },
+                "m_Extent": {
+                    "x": 0.48337221145629885,
+                    "y": 1.1876628398895264,
+                    "z": 0.4136066436767578
+                }
+            },
+            "hasGeometry": true,
+            "meshes": [
+                {
+                    "name": "Worker_LOD0",
+                    "renderer": "Worker_LOD0",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 132998,
+                    "submeshes": 16,
+                    "triangles": 227654
+                },
+                {
+                    "name": "Worker_LOD1",
+                    "renderer": "Worker_LOD1",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 64627,
+                    "submeshes": 16,
+                    "triangles": 99999
+                },
+                {
+                    "name": "Worker_LOD2",
+                    "renderer": "Worker_LOD2",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 26708,
+                    "submeshes": 16,
+                    "triangles": 34999
+                }
+            ],
+            "materials": [
+                {
+                    "name": "Skin",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_skin_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_skin_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "EyeIvory",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "EyeIris",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "EyePupil",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "Hair",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: HairGrain 512x512",
+                        "_BaseMap: HairGrain 512x512"
+                    ]
+                },
+                {
+                    "name": "HairLight",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: HairGrain 512x512",
+                        "_BaseMap: HairGrain 512x512"
+                    ]
+                },
+                {
+                    "name": "SkinLips",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_skin_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_skin_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "IvoryCloth",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "LeatherLight",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_leather_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_leather_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Leather",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_leather_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_leather_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "SteelDark",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_metal_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_steel-dark_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "BlueCloth",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "StrawLight",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_straw_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_straw_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Steel",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_metal_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_steel_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Straw",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_straw_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_straw_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Wood",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_wood_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_wood_v1_metal-smooth 512x512"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "warrior",
+            "name": "Warrior",
+            "bounds": {
+                "m_Center": {
+                    "x": 0.11996513605117798,
+                    "y": 1.1662657260894776,
+                    "z": -3.137413263320923
+                },
+                "m_Extent": {
+                    "x": 0.6553706526756287,
+                    "y": 1.1663026809692383,
+                    "z": 0.38190412521362307
+                }
+            },
+            "hasGeometry": true,
+            "meshes": [
+                {
+                    "name": "Warrior_LOD0",
+                    "renderer": "Warrior_LOD0",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 157655,
+                    "submeshes": 15,
+                    "triangles": 274134
+                },
+                {
+                    "name": "Warrior_LOD1",
+                    "renderer": "Warrior_LOD1",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 66446,
+                    "submeshes": 15,
+                    "triangles": 100000
+                },
+                {
+                    "name": "Warrior_LOD2",
+                    "renderer": "Warrior_LOD2",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 27789,
+                    "submeshes": 15,
+                    "triangles": 34999
+                }
+            ],
+            "materials": [
+                {
+                    "name": "Skin",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_skin_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_skin_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Leather",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_leather_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_leather_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "EyeIvory",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "EyeIris",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "EyePupil",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "Hair",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: HairGrain 512x512",
+                        "_BaseMap: HairGrain 512x512"
+                    ]
+                },
+                {
+                    "name": "HairLight",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: HairGrain 512x512",
+                        "_BaseMap: HairGrain 512x512"
+                    ]
+                },
+                {
+                    "name": "SkinLips",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_skin_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_skin_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "SteelDark",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_metal_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_steel-dark_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "IvoryCloth",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Steel",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_metal_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_steel_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "LeatherLight",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_leather_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_leather_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "RoyalEmbroidery",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: RoyalEmbroidery 1024x1024",
+                        "_BaseMap: RoyalEmbroidery 1024x1024",
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Gold",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_metal_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_gold_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "BlueCloth",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "hero",
+            "name": "Hero",
+            "bounds": {
+                "m_Center": {
+                    "x": 2.4000000953674318,
+                    "y": 1.070757269859314,
+                    "z": -3.013639450073242
+                },
+                "m_Extent": {
+                    "x": 0.5741345882415772,
+                    "y": 1.070757269859314,
+                    "z": 0.4250755310058594
+                }
+            },
+            "hasGeometry": true,
+            "meshes": [
+                {
+                    "name": "Hero_LOD0",
+                    "renderer": "Hero_LOD0",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 174574,
+                    "submeshes": 20,
+                    "triangles": 292168
+                },
+                {
+                    "name": "Hero_LOD1",
+                    "renderer": "Hero_LOD1",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 71979,
+                    "submeshes": 20,
+                    "triangles": 100000
+                },
+                {
+                    "name": "Hero_LOD2",
+                    "renderer": "Hero_LOD2",
+                    "referenceKind": "sharedMesh",
+                    "vertices": 30887,
+                    "submeshes": 20,
+                    "triangles": 35000
+                }
+            ],
+            "materials": [
+                {
+                    "name": "Skin",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_skin_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_skin_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Leather",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_leather_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_leather_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "EyeIvory",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "EyeIris",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "EyePupil",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": []
+                },
+                {
+                    "name": "Hero_HairRoyal",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: HairGrain 512x512",
+                        "_BaseMap: HairGrain 512x512"
+                    ]
+                },
+                {
+                    "name": "HairLight",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: HairGrain 512x512",
+                        "_BaseMap: HairGrain 512x512"
+                    ]
+                },
+                {
+                    "name": "Hair",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: HairGrain 512x512",
+                        "_BaseMap: HairGrain 512x512"
+                    ]
+                },
+                {
+                    "name": "SkinLips",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_skin_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_skin_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Hero_HairSilver",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: HairGrain 512x512",
+                        "_BaseMap: HairGrain 512x512"
+                    ]
+                },
+                {
+                    "name": "SteelDark",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_metal_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_steel-dark_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "IvoryCloth",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Steel",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_metal_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_steel_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "LeatherLight",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_leather_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_leather_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Gold",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_metal_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_gold_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "RoyalEmbroidery",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_MainTex: RoyalEmbroidery 1024x1024",
+                        "_BaseMap: RoyalEmbroidery 1024x1024",
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "BlueCloth",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "CapeLining",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_cloth_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_cloth_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "Fur",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_fur_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_fur_v1_metal-smooth 512x512"
+                    ]
+                },
+                {
+                    "name": "FurSpot",
+                    "shader": "Universal Render Pipeline/Lit",
+                    "supported": true,
+                    "textures": [
+                        "_BumpMap: kp_fur_v1_normal 512x512",
+                        "_MetallicGlossMap: kp_fur_v1_metal-smooth 512x512"
+                    ]
+                }
+            ]
+        }
+    ],
+    "views": [
+        {
+            "id": "close",
+            "image": "close.png",
+            "hasPixels": true,
+            "hudVisible": false,
+            "hudFramingApplied": false,
+            "selectedBoundsInFreeArea": false,
+            "width": 1920,
+            "height": 1080,
+            "unitsOnScreen": 2,
+            "completeUnits": 1,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "orthographic": false,
+            "orthographicSize": 0.0,
+            "fieldOfView": 36.0,
+            "cameraPosition": {
+                "x": -1.4826993942260743,
+                "y": 1.553094744682312,
+                "z": -7.970216751098633
+            },
+            "cameraEuler": {
+                "x": 4.20041036605835,
+                "y": 352.1466979980469,
+                "z": -2.6752282167308296e-8
+            },
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "id": "medium",
+            "image": "medium.png",
+            "hasPixels": true,
+            "hudVisible": false,
+            "hudFramingApplied": false,
+            "selectedBoundsInFreeArea": false,
+            "width": 1920,
+            "height": 1080,
+            "unitsOnScreen": 3,
+            "completeUnits": 3,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "orthographic": false,
+            "orthographicSize": 0.0,
+            "fieldOfView": 43.0,
+            "cameraPosition": {
+                "x": 2.799999952316284,
+                "y": 2.9000000953674318,
+                "z": -9.699999809265137
+            },
+            "cameraEuler": {
+                "x": 13.176219940185547,
+                "y": 337.3194274902344,
+                "z": 2.1921454163020827e-7
+            },
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "id": "rts",
+            "image": "rts.png",
+            "hasPixels": true,
+            "hudVisible": false,
+            "hudFramingApplied": false,
+            "selectedBoundsInFreeArea": false,
+            "width": 1920,
+            "height": 1080,
+            "unitsOnScreen": 3,
+            "completeUnits": 3,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "orthographic": true,
+            "orthographicSize": 9.5,
+            "fieldOfView": 40.0,
+            "cameraPosition": {
+                "x": 12.0,
+                "y": 18.0,
+                "z": -20.0
+            },
+            "cameraEuler": {
+                "x": 32.96121597290039,
+                "y": 331.3895263671875,
+                "z": 0.0000010175612032981008
+            },
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "id": "worker",
+            "image": "worker.png",
+            "hasPixels": true,
+            "hudVisible": false,
+            "hudFramingApplied": false,
+            "selectedBoundsInFreeArea": false,
+            "width": 1920,
+            "height": 1080,
+            "unitsOnScreen": 2,
+            "completeUnits": 1,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "orthographic": false,
+            "orthographicSize": 0.0,
+            "fieldOfView": 36.0,
+            "cameraPosition": {
+                "x": -1.4826993942260743,
+                "y": 1.553094744682312,
+                "z": -7.970216751098633
+            },
+            "cameraEuler": {
+                "x": 4.20041036605835,
+                "y": 352.1466979980469,
+                "z": -2.6752282167308296e-8
+            },
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "id": "warrior",
+            "image": "warrior.png",
+            "hasPixels": true,
+            "hudVisible": false,
+            "hudFramingApplied": false,
+            "selectedBoundsInFreeArea": false,
+            "width": 1920,
+            "height": 1080,
+            "unitsOnScreen": 3,
+            "completeUnits": 2,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "orthographic": false,
+            "orthographicSize": 0.0,
+            "fieldOfView": 36.0,
+            "cameraPosition": {
+                "x": 0.7877908945083618,
+                "y": 1.5252220630645753,
+                "z": -7.97914981842041
+            },
+            "cameraEuler": {
+                "x": 4.20041036605835,
+                "y": 352.1466979980469,
+                "z": -2.6752282167308296e-8
+            },
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "id": "hero",
+            "image": "hero.png",
+            "hasPixels": true,
+            "hudVisible": false,
+            "hudFramingApplied": false,
+            "selectedBoundsInFreeArea": false,
+            "width": 1920,
+            "height": 1080,
+            "unitsOnScreen": 2,
+            "completeUnits": 1,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "orthographic": false,
+            "orthographicSize": 0.0,
+            "fieldOfView": 36.0,
+            "cameraPosition": {
+                "x": 3.0251662731170656,
+                "y": 1.406784176826477,
+                "z": -7.5460944175720219
+            },
+            "cameraEuler": {
+                "x": 4.20041036605835,
+                "y": 352.1466979980469,
+                "z": -2.6752282167308296e-8
+            },
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "id": "controls",
+            "image": "controls.png",
+            "hasPixels": true,
+            "hudVisible": true,
+            "hudFramingApplied": true,
+            "selectedBoundsInFreeArea": true,
+            "width": 1920,
+            "height": 1080,
+            "unitsOnScreen": 3,
+            "completeUnits": 3,
+            "centersInFreeArea": 3,
+            "boundsInFreeArea": 3,
+            "orthographic": true,
+            "orthographicSize": 10.714284896850586,
+            "fieldOfView": 40.0,
+            "cameraPosition": {
+                "x": 12.062030792236329,
+                "y": 17.800228118896486,
+                "z": -20.113723754882814
+            },
+            "cameraEuler": {
+                "x": 32.96121597290039,
+                "y": 331.3895263671875,
+                "z": 0.0000010175612032981008
+            },
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 8.0,
+                "y": 73.20000457763672,
+                "width": 1904.0,
+                "height": 957.6000366210938
+            }
+        }
+    ],
+    "problems": []
+}

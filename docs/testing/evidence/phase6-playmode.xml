@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="32" result="Passed" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:24Z" duration="3,4843999">
+  <test-suite type="TestSuite" id="1048" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:24Z" duration="3.484400" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1041" name="Emberfield.Tests.PlayMode.dll" fullname="C:/Users/jacob/Documents/AoE/Library/ScriptAssemblies/Emberfield.Tests.PlayMode.dll" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:24Z" duration="3.475527" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31644" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1042" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:24Z" duration="3.475063" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1043" name="Tests" fullname="Emberfield.Tests" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:24Z" duration="3.474843" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1044" name="PlayMode" fullname="Emberfield.Tests.PlayMode" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:24Z" duration="3.474545" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="CombatIntegrationTests" fullname="Emberfield.Tests.PlayMode.CombatIntegrationTests" classname="Emberfield.Tests.PlayMode.CombatIntegrationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.568459" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1002" name="AuthoredSandboxTrainsAndPresentsAllThreeMilitaryRoles" fullname="Emberfield.Tests.PlayMode.CombatIntegrationTests.AuthoredSandboxTrainsAndPresentsAllThreeMilitaryRoles" methodname="AuthoredSandboxTrainsAndPresentsAllThreeMilitaryRoles" classname="Emberfield.Tests.PlayMode.CombatIntegrationTests" runstate="Runnable" seed="245637916" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.370262" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="DeathRemovesSelectedEntityAndItsPresentationView" fullname="Emberfield.Tests.PlayMode.CombatIntegrationTests.DeathRemovesSelectedEntityAndItsPresentationView" methodname="DeathRemovesSelectedEntityAndItsPresentationView" classname="Emberfield.Tests.PlayMode.CombatIntegrationTests" runstate="Runnable" seed="1582840273" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.048703" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="EnemyTapRoutesAnAttackWithoutReplacingOwnedSelection" fullname="Emberfield.Tests.PlayMode.CombatIntegrationTests.EnemyTapRoutesAnAttackWithoutReplacingOwnedSelection" methodname="EnemyTapRoutesAnAttackWithoutReplacingOwnedSelection" classname="Emberfield.Tests.PlayMode.CombatIntegrationTests" runstate="Runnable" seed="2105300188" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.045355" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="RangedProjectileViewTravelsImpactsAndUpdatesHealthBar" fullname="Emberfield.Tests.PlayMode.CombatIntegrationTests.RangedProjectileViewTravelsImpactsAndUpdatesHealthBar" methodname="RangedProjectileViewTravelsImpactsAndUpdatesHealthBar" classname="Emberfield.Tests.PlayMode.CombatIntegrationTests" runstate="Runnable" seed="1153192981" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.041599" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="StopHoldsMeleeFireUntilAPlayerIssuesAnotherAttack" fullname="Emberfield.Tests.PlayMode.CombatIntegrationTests.StopHoldsMeleeFireUntilAPlayerIssuesAnotherAttack" methodname="StopHoldsMeleeFireUntilAPlayerIssuesAnotherAttack" classname="Emberfield.Tests.PlayMode.CombatIntegrationTests" runstate="Runnable" seed="698065523" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.049901" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1007" name="EconomyIntegrationTests" fullname="Emberfield.Tests.PlayMode.EconomyIntegrationTests" classname="Emberfield.Tests.PlayMode.EconomyIntegrationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.179405" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1011" name="InvalidPlacementAndCancelDoNotSpendOrCreateBuildings" fullname="Emberfield.Tests.PlayMode.EconomyIntegrationTests.InvalidPlacementAndCancelDoNotSpendOrCreateBuildings" methodname="InvalidPlacementAndCancelDoNotSpendOrCreateBuildings" classname="Emberfield.Tests.PlayMode.EconomyIntegrationTests" runstate="Runnable" seed="1356040866" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.041353" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="PlacementConstructionAndTrainingProduceASelectableSoldierView" fullname="Emberfield.Tests.PlayMode.EconomyIntegrationTests.PlacementConstructionAndTrainingProduceASelectableSoldierView" methodname="PlacementConstructionAndTrainingProduceASelectableSoldierView" classname="Emberfield.Tests.PlayMode.EconomyIntegrationTests" runstate="Runnable" seed="1875819564" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.040547" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="StoppedCarrierTappingOwnedDropOffDeliversThenRemainsIdle" fullname="Emberfield.Tests.PlayMode.EconomyIntegrationTests.StoppedCarrierTappingOwnedDropOffDeliversThenRemainsIdle" methodname="StoppedCarrierTappingOwnedDropOffDeliversThenRemainsIdle" classname="Emberfield.Tests.PlayMode.EconomyIntegrationTests" runstate="Runnable" seed="1281727284" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.042937" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="WorkerResourceTapGathersAndCreditsInventoryOnlyAfterReturn" fullname="Emberfield.Tests.PlayMode.EconomyIntegrationTests.WorkerResourceTapGathersAndCreditsInventoryOnlyAfterReturn" methodname="WorkerResourceTapGathersAndCreditsInventoryOnlyAfterReturn" classname="Emberfield.Tests.PlayMode.EconomyIntegrationTests" runstate="Runnable" seed="1283598482" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:21Z" duration="0.039697" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1012" name="FactionIntegrationTests" fullname="Emberfield.Tests.PlayMode.FactionIntegrationTests" classname="Emberfield.Tests.PlayMode.FactionIntegrationTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:22Z" duration="0.742968" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1013" name="BothFactionAssignmentsHaveEqualStartsAndExposeOnlyTheirOwnRecruitAndResearch" fullname="Emberfield.Tests.PlayMode.FactionIntegrationTests.BothFactionAssignmentsHaveEqualStartsAndExposeOnlyTheirOwnRecruitAndResearch" methodname="BothFactionAssignmentsHaveEqualStartsAndExposeOnlyTheirOwnRecruitAndResearch" classname="Emberfield.Tests.PlayMode.FactionIntegrationTests" runstate="Runnable" seed="60973467" result="Passed" start-time="2026-09-09 21:37:21Z" end-time="2026-09-09 21:37:22Z" duration="0.188308" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1014" name="FactionChooserInterceptsPointersAndBlocksWorldCommandsUntilReturnIsClicked" fullname="Emberfield.Tests.PlayMode.FactionIntegrationTests.FactionChooserInterceptsPointersAndBlocksWorldCommandsUntilReturnIsClicked" methodname="FactionChooserInterceptsPointersAndBlocksWorldCommandsUntilReturnIsClicked" classname="Emberfield.Tests.PlayMode.FactionIntegrationTests" runstate="Runnable" seed="1247010231" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:22Z" duration="0.098395" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="GroupedAshrunnerButtonActivatesBothUnitsAndRejectsMixedSelectionAtomically" fullname="Emberfield.Tests.PlayMode.FactionIntegrationTests.GroupedAshrunnerButtonActivatesBothUnitsAndRejectsMixedSelectionAtomically" methodname="GroupedAshrunnerButtonActivatesBothUnitsAndRejectsMixedSelectionAtomically" classname="Emberfield.Tests.PlayMode.FactionIntegrationTests" runstate="Runnable" seed="1117057769" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:22Z" duration="0.097220" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="PaidLogisticsButtonCompletesExactlyAndThreadkeeperButtonExtendsVisibleCoverage" fullname="Emberfield.Tests.PlayMode.FactionIntegrationTests.PaidLogisticsButtonCompletesExactlyAndThreadkeeperButtonExtendsVisibleCoverage" methodname="PaidLogisticsButtonCompletesExactlyAndThreadkeeperButtonExtendsVisibleCoverage" classname="Emberfield.Tests.PlayMode.FactionIntegrationTests" runstate="Runnable" seed="1381986059" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:22Z" duration="0.107644" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="PaidOutpostPackMoveAndDeployButtonsPreserveIdentityDamageStockAndPopulation" fullname="Emberfield.Tests.PlayMode.FactionIntegrationTests.PaidOutpostPackMoveAndDeployButtonsPreserveIdentityDamageStockAndPopulation" methodname="PaidOutpostPackMoveAndDeployButtonsPreserveIdentityDamageStockAndPopulation" classname="Emberfield.Tests.PlayMode.FactionIntegrationTests" runstate="Runnable" seed="1685620537" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:22Z" duration="0.127071" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="TransportDeathDuringDeploymentPreviewClearsGhostAndRestoresWorldTaps" fullname="Emberfield.Tests.PlayMode.FactionIntegrationTests.TransportDeathDuringDeploymentPreviewClearsGhostAndRestoresWorldTaps" methodname="TransportDeathDuringDeploymentPreviewClearsGhostAndRestoresWorldTaps" classname="Emberfield.Tests.PlayMode.FactionIntegrationTests" runstate="Runnable" seed="1921675801" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:22Z" duration="0.107267" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1019" name="FormationIntegrationTests" fullname="Emberfield.Tests.PlayMode.FormationIntegrationTests" classname="Emberfield.Tests.PlayMode.FormationIntegrationTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:22Z" duration="0.090467" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1020" name="SelectedFormationFlowsThroughTerrainTapIntoUnitOrders" fullname="Emberfield.Tests.PlayMode.FormationIntegrationTests.SelectedFormationFlowsThroughTerrainTapIntoUnitOrders" methodname="SelectedFormationFlowsThroughTerrainTapIntoUnitOrders" classname="Emberfield.Tests.PlayMode.FormationIntegrationTests" runstate="Runnable" seed="100262180" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:22Z" duration="0.074302" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1021" name="GreyboxIntegrationTests" fullname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests" classname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:23Z" duration="0.900282" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1026" name="CameraGroundCornersStayOnMapAtZoomExtremes" fullname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests.CameraGroundCornersStayOnMapAtZoomExtremes" methodname="CameraGroundCornersStayOnMapAtZoomExtremes" classname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests" runstate="Runnable" seed="1640932633" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:22Z" duration="0.066491" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="EnemyCannotBeSelectedAndStopDoesNotMove" fullname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests.EnemyCannotBeSelectedAndStopDoesNotMove" methodname="EnemyCannotBeSelectedAndStopDoesNotMove" classname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests" runstate="Runnable" seed="1767893629" result="Passed" start-time="2026-09-09 21:37:22Z" end-time="2026-09-09 21:37:23Z" duration="0.375196" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1025" name="HoldThenDragSelectsAndCancelNeverTaps" fullname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests.HoldThenDragSelectsAndCancelNeverTaps" methodname="HoldThenDragSelectsAndCancelNeverTaps" classname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests" runstate="Runnable" seed="348847735" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:23Z" duration="0.016427" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1024" name="PanDoesNotTurnIntoLongPressSelection" fullname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests.PanDoesNotTurnIntoLongPressSelection" methodname="PanDoesNotTurnIntoLongPressSelection" classname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests" runstate="Runnable" seed="143679663" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:23Z" duration="0.016834" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="TapSelectAndTerrainTapMoveThroughPresentation" fullname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests.TapSelectAndTerrainTapMoveThroughPresentation" methodname="TapSelectAndTerrainTapMoveThroughPresentation" classname="Emberfield.Tests.PlayMode.GreyboxIntegrationTests" runstate="Runnable" seed="1633797296" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:23Z" duration="0.408215" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1027" name="InputAdapterTests" fullname="Emberfield.Tests.PlayMode.InputAdapterTests" classname="Emberfield.Tests.PlayMode.InputAdapterTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:24Z" duration="0.425378" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1031" name="CancelWithNoContactsDoesNotBlockNextFreshPinch" fullname="Emberfield.Tests.PlayMode.InputAdapterTests.CancelWithNoContactsDoesNotBlockNextFreshPinch" methodname="CancelWithNoContactsDoesNotBlockNextFreshPinch" classname="Emberfield.Tests.PlayMode.InputAdapterTests" runstate="Runnable" seed="1864979777" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:23Z" duration="0.192875" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1028" name="MouseClickSelectsAndUiPreventsWorldOrder" fullname="Emberfield.Tests.PlayMode.InputAdapterTests.MouseClickSelectsAndUiPreventsWorldOrder" methodname="MouseClickSelectsAndUiPreventsWorldOrder" classname="Emberfield.Tests.PlayMode.InputAdapterTests" runstate="Runnable" seed="1860828836" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:23Z" duration="0.090644" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1030" name="PinchCancelsTapAndRemainingFingerCannotIssueOrder" fullname="Emberfield.Tests.PlayMode.InputAdapterTests.PinchCancelsTapAndRemainingFingerCannotIssueOrder" methodname="PinchCancelsTapAndRemainingFingerCannotIssueOrder" classname="Emberfield.Tests.PlayMode.InputAdapterTests" runstate="Runnable" seed="578028162" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:23Z" duration="0.041954" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1032" name="ThirdContactBlocksPinchUntilEveryFingerLifts" fullname="Emberfield.Tests.PlayMode.InputAdapterTests.ThirdContactBlocksPinchUntilEveryFingerLifts" methodname="ThirdContactBlocksPinchUntilEveryFingerLifts" classname="Emberfield.Tests.PlayMode.InputAdapterTests" runstate="Runnable" seed="1082268849" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:23Z" duration="0.041244" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1029" name="TouchTapSelectsButDraggingPansWithoutMovingUnit" fullname="Emberfield.Tests.PlayMode.InputAdapterTests.TouchTapSelectsButDraggingPansWithoutMovingUnit" methodname="TouchTapSelectsButDraggingPansWithoutMovingUnit" classname="Emberfield.Tests.PlayMode.InputAdapterTests" runstate="Runnable" seed="2037482617" result="Passed" start-time="2026-09-09 21:37:23Z" end-time="2026-09-09 21:37:24Z" duration="0.041499" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1033" name="MovementStressIntegrationTests" fullname="Emberfield.Tests.PlayMode.MovementStressIntegrationTests" classname="Emberfield.Tests.PlayMode.MovementStressIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-09 21:37:24Z" end-time="2026-09-09 21:37:24Z" duration="0.180561" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1035" name="RunOrdersAndTickWrapperReachObservedIdleGoalsWithMeasurements" fullname="Emberfield.Tests.PlayMode.MovementStressIntegrationTests.RunOrdersAndTickWrapperReachObservedIdleGoalsWithMeasurements" methodname="RunOrdersAndTickWrapperReachObservedIdleGoalsWithMeasurements" classname="Emberfield.Tests.PlayMode.MovementStressIntegrationTests" runstate="Runnable" seed="1798346672" result="Passed" start-time="2026-09-09 21:37:24Z" end-time="2026-09-09 21:37:24Z" duration="0.069100" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1034" name="StressSetupUsesRequestedScenarioCountAndCreatesEveryView" fullname="Emberfield.Tests.PlayMode.MovementStressIntegrationTests.StressSetupUsesRequestedScenarioCountAndCreatesEveryView" methodname="StressSetupUsesRequestedScenarioCountAndCreatesEveryView" classname="Emberfield.Tests.PlayMode.MovementStressIntegrationTests" runstate="Runnable" seed="429626466" result="Passed" start-time="2026-09-09 21:37:24Z" end-time="2026-09-09 21:37:24Z" duration="0.048158" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1036" name="TickWrapperAppliesScheduledFoundationAndSynchronizesItsView" fullname="Emberfield.Tests.PlayMode.MovementStressIntegrationTests.TickWrapperAppliesScheduledFoundationAndSynchronizesItsView" methodname="TickWrapperAppliesScheduledFoundationAndSynchronizesItsView" classname="Emberfield.Tests.PlayMode.MovementStressIntegrationTests" runstate="Runnable" seed="580708417" result="Passed" start-time="2026-09-09 21:37:24Z" end-time="2026-09-09 21:37:24Z" duration="0.046648" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1037" name="TechnologyIntegrationTests" fullname="Emberfield.Tests.PlayMode.TechnologyIntegrationTests" classname="Emberfield.Tests.PlayMode.TechnologyIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-09 21:37:24Z" end-time="2026-09-09 21:37:24Z" duration="0.385154" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1039" name="ActualResearchButtonChargesOnceAndCompletesOnTheConfiguredTick" fullname="Emberfield.Tests.PlayMode.TechnologyIntegrationTests.ActualResearchButtonChargesOnceAndCompletesOnTheConfiguredTick" methodname="ActualResearchButtonChargesOnceAndCompletesOnTheConfiguredTick" classname="Emberfield.Tests.PlayMode.TechnologyIntegrationTests" runstate="Runnable" seed="835699303" result="Passed" start-time="2026-09-09 21:37:24Z" end-time="2026-09-09 21:37:24Z" duration="0.094443" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1040" name="GatherConstructionAndResearchAdaptersReachAllFourErasUsingShippedCosts" fullname="Emberfield.Tests.PlayMode.TechnologyIntegrationTests.GatherConstructionAndResearchAdaptersReachAllFourErasUsingShippedCosts" methodname="GatherConstructionAndResearchAdaptersReachAllFourErasUsingShippedCosts" classname="Emberfield.Tests.PlayMode.TechnologyIntegrationTests" runstate="Runnable" seed="1200210285" result="Passed" start-time="2026-09-09 21:37:24Z" end-time="2026-09-09 21:37:24Z" duration="0.188970" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1038" name="PanelExplainsLocksInterceptsRaycastsAndBlocksWorldTapsUntilClosed" fullname="Emberfield.Tests.PlayMode.TechnologyIntegrationTests.PanelExplainsLocksInterceptsRaycastsAndBlocksWorldTapsUntilClosed" methodname="PanelExplainsLocksInterceptsRaycastsAndBlocksWorldTapsUntilClosed" classname="Emberfield.Tests.PlayMode.TechnologyIntegrationTests" runstate="Runnable" seed="2137100622" result="Passed" start-time="2026-09-09 21:37:24Z" end-time="2026-09-09 21:37:24Z" duration="0.090648" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/jacob/AppData/LocalLow/Emberfield Project/Emberfield\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

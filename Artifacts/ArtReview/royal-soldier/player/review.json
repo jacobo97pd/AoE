@@ -1,0 +1,15 @@
+{
+    "buildGuid": "280d23e1752e4746a3b05f37018a89a5",
+    "unity": "6000.3.23f1",
+    "graphicsDevice": "NVIDIA GeForce RTX 3060 Ti",
+    "width": 1920,
+    "height": 1080,
+    "units": 1,
+    "passed": true,
+    "scope": "One static 3D soldier. Camera captures do not certify artistic quality or frame rate.",
+    "images": [
+        "close",
+        "medium",
+        "rts"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "Utc":  "2026-09-09T22:54:42.0108667Z",
+    "Editor":  "D:\\Unity\\Editors\\6000.3.23f1\\Editor\\Unity.exe",
+    "Project":  "C:\\Users\\jacob\\Documents\\AoE",
+    "ModuleInstalled":  false,
+    "BundledSdkPresent":  false,
+    "BundledNdkPresent":  false,
+    "BundledJdkPresent":  false,
+    "Arm64Configured":  true,
+    "MinimumApi26Configured":  true,
+    "ApplicationIdConfigured":  true,
+    "ConnectedDevices":  [
+
+                         ],
+    "CanAttemptBundledDeviceBuild":  false,
+    "Blockers":  [
+                     "Matching Unity Android Build Support module is not installed.",
+                     "Bundled Android SDK is not installed.",
+                     "Bundled Android NDK is not installed.",
+                     "Bundled OpenJDK is not installed.",
+                     "No ready Android device was detected through the bundled adb."
+                 ],
+    "ChangedInstallations":  false
+}

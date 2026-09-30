@@ -1,0 +1,137 @@
+{
+  "id": "kingdom_supply_outpost",
+  "entry": {
+    "id": "kingdom_supply_outpost",
+    "style": "kingdom",
+    "building": "supply_outpost",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset: a small medieval supply depot for a top-down strategy game. A small square enclosure of short sharpened wooden palisade stakes around a canvas supply tent and stacked crates and barrels. A royal blue cloth flag on a pole at the entrance."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d333-036a-7560-89cd-63c611cbad39",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 645811556,
+        "prompt": "Low-poly game asset: a small medieval supply depot for a top-down strategy game. A small square enclosure of short sharpened wooden palisade stakes around a canvas supply tent and stacked crates and barrels. A royal blue cloth flag on a pole at the entrance. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249732696,
+        "progress": 100,
+        "started_at": 1790249732703,
+        "finished_at": 1790249741394,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d333-036a-7560-89cd-63c611cbad39/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d333-036a-7560-89cd-63c611cbad39/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3566,
+      "finished_utc": "2026-09-24T11:35:41.630916+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d333-32ce-719f-bced-af27a72c7490",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 645811556,
+        "prompt": "Low-poly game asset: a small medieval supply depot for a top-down strategy game. A small square enclosure of short sharpened wooden palisade stakes around a canvas supply tent and stacked crates and barrels. A royal blue cloth flag on a pole at the entrance. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249743095,
+        "progress": 100,
+        "started_at": 1790249743102,
+        "finished_at": 1790249815524,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d333-32ce-719f-bced-af27a72c7490/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d333-32ce-719f-bced-af27a72c7490/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d333-32ce-719f-bced-af27a72c7490/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d333-32ce-719f-bced-af27a72c7490/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d333-32ce-719f-bced-af27a72c7490/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d333-32ce-719f-bced-af27a72c7490/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "balance_after": 3556,
+      "finished_utc": "2026-09-24T11:36:59.920340+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_supply_outpost_model.glb",
+      "bytes": 6709124,
+      "sha256": "87a6dabc98521bc41c30ad01b92329c6168aa56234ccf80af264285252033ade"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 269634,
+      "sha256": "881d4faf5ce49efdaca0bd7aeb6bf99ba845464f8ad8958aa42e9dd86cc2d99b"
+    },
+    "texture_base_color": {
+      "file": "kingdom_supply_outpost_base_color.png",
+      "bytes": 5895570,
+      "sha256": "fc30a169106539eb48e0e622fac1185483b252a5a2b7004d9b77b919a63e439e"
+    },
+    "texture_metallic": {
+      "file": "kingdom_supply_outpost_metallic.png",
+      "bytes": 23062,
+      "sha256": "9bb5b0b58978afd1ef6042628effc1a9ec72ae1206e4d1b7e661abf08f34c338"
+    },
+    "texture_roughness": {
+      "file": "kingdom_supply_outpost_roughness.png",
+      "bytes": 1389126,
+      "sha256": "0bb606b97e0b876eb23eeb21f56df078a6d02aecf84401639887465baa963f2e"
+    },
+    "texture_normal": {
+      "file": "kingdom_supply_outpost_normal.png",
+      "bytes": 4155816,
+      "sha256": "10c8a0ed5838acd0829ee25549aa6ccb6482f960afec3056875d65ed1b8c1b01"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 5067,
+    "triangles": 5067,
+    "fittedMetres": [
+      1.92,
+      1.92,
+      1.481
+    ],
+    "teamMaskCoverage": 0.0219
+  }
+}

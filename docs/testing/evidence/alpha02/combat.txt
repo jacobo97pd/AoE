@@ -1,0 +1,18 @@
+Passed: True
+Scenario: CombatSandbox
+Unity: 6000.3.23f1
+Resolution: 1440x1080
+Graphics: NVIDIA GeForce RTX 3060 Ti
+AttackTapAccepted: True
+DamageObserved: True
+ProjectilesObserved: True
+PeakProjectiles: 2
+ReedguardAttacked: True
+StringwardenAttacked: True
+StriderAttacked: True
+Deaths: 3
+DeadViewsRemoved: True
+Tick: 123
+Entities: 25
+CombatTicksAccelerated: True
+ScreenshotCapturedDuringBattle: True

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2245037a994b5f344abf4dca7cf92bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Emberfield.Presentation::Emberfield.Presentation.ArtKitCatalog
+  SourceVersion: emberfield-original-faceted-v1
+  Material: {fileID: 2100000, guid: da05f74cd76027f44bab8aedf5d93c31, type: 2}
+  Units:
+  - Id: tender
+    Lod0: {fileID: 4300000, guid: 55b9d879517fac04a8d4b33aa28946b3, type: 2}
+    Lod1: {fileID: 4300000, guid: 6a366c5cf85fd644690444ac8efc0cdf, type: 2}
+  - Id: reedguard
+    Lod0: {fileID: 4300000, guid: 9568168fd77e54f469924ff756391a55, type: 2}
+    Lod1: {fileID: 4300000, guid: 4493199ae93fdec499013d9e42d4f3bb, type: 2}
+  - Id: stringwarden
+    Lod0: {fileID: 4300000, guid: 46f21939fedb8e742be3c24e7c34ecc2, type: 2}
+    Lod1: {fileID: 4300000, guid: b4c38492187918344905391bf437c568, type: 2}
+  - Id: strider
+    Lod0: {fileID: 4300000, guid: f501aedc1c2c22f4a96107c938c5860e, type: 2}
+    Lod1: {fileID: 4300000, guid: 459e5dbc9e6e201498108a3aaca0a5e4, type: 2}
+  Buildings:
+  - Id: hearth
+    Lod0: {fileID: 4300000, guid: 92d5770c452e54f4ea88b1915dbf2d94, type: 2}
+    Lod1: {fileID: 4300000, guid: 43cd4dda7bce14b4e92127fa68d2b327, type: 2}
+  - Id: shelter
+    Lod0: {fileID: 4300000, guid: 62054edfd7b087b46baa9946a6eabaa5, type: 2}
+    Lod1: {fileID: 4300000, guid: ab78ad54cb007ef42bf31ef32526e9f1, type: 2}
+  - Id: muster_hall
+    Lod0: {fileID: 4300000, guid: f1763cfac797b37428b219de2a3d78a6, type: 2}
+    Lod1: {fileID: 4300000, guid: d800104ca72984b46adba5da79ad2e76, type: 2}
+  Resources:
+  - Id: Food
+    Lod0: {fileID: 4300000, guid: 358268cf32bd2c1418e4ccec61cfa322, type: 2}
+    Lod1: {fileID: 4300000, guid: 717ad764addfc11499ef048673a2d4df, type: 2}
+  - Id: Wood
+    Lod0: {fileID: 4300000, guid: 1a808847553f42d4784f85b674e75740, type: 2}
+    Lod1: {fileID: 4300000, guid: e60bb2de6462de24eacd3c1e5412ea07, type: 2}
+  - Id: Metal
+    Lod0: {fileID: 4300000, guid: 5bbf5de151d8436468021da7185643af, type: 2}
+    Lod1: {fileID: 4300000, guid: e0ab0153d2cb8404b80310b3b0ff330d, type: 2}
+  - Id: Stone
+    Lod0: {fileID: 4300000, guid: a2260e0c0b09ba045a9ac4ac057b82f9, type: 2}
+    Lod1: {fileID: 4300000, guid: b42201e112345a84e82023029838d626, type: 2}

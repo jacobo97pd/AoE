@@ -1,0 +1,165 @@
+{
+    "Id":  "art_review",
+    "WidthCells":  48,
+    "HeightCells":  40,
+    "CellSizeMillimetres":  1000,
+    "PlayerFactions":  [
+                           {
+                               "PlayerId":  1,
+                               "FactionId":  "aven"
+                           },
+                           {
+                               "PlayerId":  2,
+                               "FactionId":  "aven"
+                           }
+                       ],
+    "BlockedCells":  [
+
+                     ],
+    "UnitSpawns":  [
+                       {
+                           "OwnerId":  1,
+                           "Position":  {
+                                            "Z":  18000,
+                                            "X":  12000
+                                        },
+                           "Id":  1,
+                           "DefinitionId":  "tender"
+                       },
+                       {
+                           "OwnerId":  1,
+                           "Position":  {
+                                            "Z":  18000,
+                                            "X":  18000
+                                        },
+                           "Id":  2,
+                           "DefinitionId":  "reedguard"
+                       },
+                       {
+                           "OwnerId":  1,
+                           "Position":  {
+                                            "Z":  18000,
+                                            "X":  24000
+                                        },
+                           "Id":  3,
+                           "DefinitionId":  "stringwarden"
+                       },
+                       {
+                           "OwnerId":  1,
+                           "Position":  {
+                                            "Z":  18000,
+                                            "X":  30000
+                                        },
+                           "Id":  4,
+                           "DefinitionId":  "strider"
+                       },
+                       {
+                           "OwnerId":  2,
+                           "Position":  {
+                                            "Z":  22000,
+                                            "X":  12000
+                                        },
+                           "Id":  11,
+                           "DefinitionId":  "tender"
+                       },
+                       {
+                           "OwnerId":  2,
+                           "Position":  {
+                                            "Z":  22000,
+                                            "X":  18000
+                                        },
+                           "Id":  12,
+                           "DefinitionId":  "reedguard"
+                       },
+                       {
+                           "OwnerId":  2,
+                           "Position":  {
+                                            "Z":  22000,
+                                            "X":  24000
+                                        },
+                           "Id":  13,
+                           "DefinitionId":  "stringwarden"
+                       },
+                       {
+                           "OwnerId":  2,
+                           "Position":  {
+                                            "Z":  22000,
+                                            "X":  30000
+                                        },
+                           "Id":  14,
+                           "DefinitionId":  "strider"
+                       }
+                   ],
+    "BuildingSpawns":  [
+                           {
+                               "OwnerId":  1,
+                               "Position":  {
+                                                "Z":  30000,
+                                                "X":  12000
+                                            },
+                               "Id":  100,
+                               "DefinitionId":  "hearth"
+                           },
+                           {
+                               "OwnerId":  1,
+                               "Position":  {
+                                                "Z":  30000,
+                                                "X":  18000
+                                            },
+                               "Id":  101,
+                               "DefinitionId":  "shelter"
+                           },
+                           {
+                               "OwnerId":  1,
+                               "Position":  {
+                                                "Z":  30500,
+                                                "X":  24500
+                                            },
+                               "Id":  102,
+                               "DefinitionId":  "muster_hall"
+                           },
+                           {
+                               "OwnerId":  2,
+                               "Position":  {
+                                                "Z":  30000,
+                                                "X":  30000
+                                            },
+                               "Id":  103,
+                               "DefinitionId":  "hearth"
+                           }
+                       ],
+    "ResourceSpawns":  [
+                           {
+                               "Position":  {
+                                                "Z":  13000,
+                                                "X":  12000
+                                            },
+                               "Id":  200,
+                               "DefinitionId":  "food_source"
+                           },
+                           {
+                               "Position":  {
+                                                "Z":  13000,
+                                                "X":  18000
+                                            },
+                               "Id":  201,
+                               "DefinitionId":  "wood_source"
+                           },
+                           {
+                               "Position":  {
+                                                "Z":  13000,
+                                                "X":  24000
+                                            },
+                               "Id":  202,
+                               "DefinitionId":  "metal_source"
+                           },
+                           {
+                               "Position":  {
+                                                "Z":  13000,
+                                                "X":  30000
+                                            },
+                               "Id":  203,
+                               "DefinitionId":  "stone_source"
+                           }
+                       ]
+}

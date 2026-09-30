@@ -1,0 +1,1770 @@
+{
+  "schema": 1,
+  "passed": true,
+  "generatedUtc": "2026-09-13T17:41:32.542846+00:00",
+  "buildGuid": "05a91cf2371d432293b419110de45b34",
+  "buildGuidEvidence": "Artifacts/ArtReview/reference-characters/player/collection-review.json",
+  "source": "Builds/Windows",
+  "sourceAccess": "Read only; no Unity, game process, server or asset changes.",
+  "verificationMode": "Existing archive independently compared against source before and after validation.",
+  "archive": "Artifacts/ArtReview/reference-characters/Emberfield-Windows.zip",
+  "archiveBytes": 392218550,
+  "archiveSha256": "8e69e0afbc2b34f65f9d59ffb25b811e15e289dd7523d5b169cfe1aa582b7684",
+  "rootDirectory": "Emberfield/",
+  "entryCount": 288,
+  "uncompressedBytes": 819878565,
+  "allEntriesCrcVerified": true,
+  "allEntriesSha256Verified": true,
+  "principalSourceHashesUnchanged": true,
+  "principalSourceHashesBefore": {
+    "Emberfield.exe": "56c28afba054092826b7a8a80ba3767daa87967f182c0c562eb2f98799175b7a",
+    "UnityPlayer.dll": "a56336022ab3c15ec474c09198f8389bd3448bb54d67c928eefe20b1c77686c2",
+    "Emberfield_Data/globalgamemanagers": "e7d46994ed81b1654abe9efcedff632169d0f9731ae77ca06ba262fa5b7df7f3",
+    "Emberfield_Data/Managed/Emberfield.Presentation.dll": "eb4aa7f0eab1d82f8ec3b830c60ee33d73ea624e8a0b2c4eee16c31d175d95ad"
+  },
+  "principalSourceHashesAfter": {
+    "Emberfield.exe": "56c28afba054092826b7a8a80ba3767daa87967f182c0c562eb2f98799175b7a",
+    "UnityPlayer.dll": "a56336022ab3c15ec474c09198f8389bd3448bb54d67c928eefe20b1c77686c2",
+    "Emberfield_Data/globalgamemanagers": "e7d46994ed81b1654abe9efcedff632169d0f9731ae77ca06ba262fa5b7df7f3",
+    "Emberfield_Data/Managed/Emberfield.Presentation.dll": "eb4aa7f0eab1d82f8ec3b830c60ee33d73ea624e8a0b2c4eee16c31d175d95ad"
+  },
+  "excluded": [
+    {
+      "path": "Emberfield_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt",
+      "reason": "DoNotShip directory"
+    }
+  ],
+  "readme": "Emberfield/LEEME.txt",
+  "onlineEndpoint": "https://characteristics-advocate-bass-paul.trycloudflare.com",
+  "onlineEndpointTemporary": true,
+  "entries": [
+    {
+      "path": "Emberfield/D3D12/D3D12Core.dll",
+      "bytes": 4725304,
+      "sha256": "625bd40005b1c3708695d5256ecf230d278e6b8edba5a88af70f3d91324f3052",
+      "crc32": "857c6a8c"
+    },
+    {
+      "path": "Emberfield/D3D12/d3d12SDKLayers.dll",
+      "bytes": 4930104,
+      "sha256": "c0730cc70d3250d3de19c04c17845ba9e70eecaf502d684d1409195ebc5b5959",
+      "crc32": "322b7fa1"
+    },
+    {
+      "path": "Emberfield/Emberfield.exe",
+      "bytes": 667136,
+      "sha256": "56c28afba054092826b7a8a80ba3767daa87967f182c0c562eb2f98799175b7a",
+      "crc32": "22017d1e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/app.info",
+      "bytes": 29,
+      "sha256": "bd5870e30522a6bc023e73df2422decaf10321881203202fc598e5455d5de1cb",
+      "crc32": "fdb87c63"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/boot.config",
+      "bytes": 391,
+      "sha256": "3eeed9fc5ab87a8b5ab6314db9b917ea6e7f601be19d08030977ec3999098420",
+      "crc32": "fd7fc365"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/globalgamemanagers",
+      "bytes": 335364,
+      "sha256": "e7d46994ed81b1654abe9efcedff632169d0f9731ae77ca06ba262fa5b7df7f3",
+      "crc32": "d32c6218"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/globalgamemanagers.assets",
+      "bytes": 832024,
+      "sha256": "84403c0946c2c89de5017392427de15179999359a6c0c6204c7f6657c8cf2dca",
+      "crc32": "757739f2"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/globalgamemanagers.assets.resS",
+      "bytes": 5718240,
+      "sha256": "9d5cd592a38d46bd823a36366b1f5b84cf0a2b3ace58dec6a6374ca0d50fe6ec",
+      "crc32": "d649e74d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/level0",
+      "bytes": 1196,
+      "sha256": "84ee2f8f1082ce4c7cc3cadd6fc96134529ecd2ac6f7e26d6b1d34f587f7e51a",
+      "crc32": "a73b58bf"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/level1",
+      "bytes": 1196,
+      "sha256": "84ee2f8f1082ce4c7cc3cadd6fc96134529ecd2ac6f7e26d6b1d34f587f7e51a",
+      "crc32": "a73b58bf"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/level2",
+      "bytes": 1200,
+      "sha256": "71f68102bac32885bb872bc2825dde58a3b6c4059ca9779b9be33bedef2ed624",
+      "crc32": "1270123e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/level3",
+      "bytes": 1196,
+      "sha256": "e33d59b0fee9349b2fa27e5be3e242dbec3d8a0b315d4eb872da8cc026f3bba1",
+      "crc32": "c25c63f9"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/level4",
+      "bytes": 4504,
+      "sha256": "0d73e4558dcbad4e409615b9586c898cedb98deecf9d32161001bf5f166be5ff",
+      "crc32": "611303f9"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Diagnostics.dll",
+      "bytes": 68096,
+      "sha256": "3325eff1e5014b3b762f957e9c22a65a6f07428579ce3f9dbb70de5997d2d72a",
+      "crc32": "679377ff"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Diagnostics.pdb",
+      "bytes": 36756,
+      "sha256": "8b0a53b52f550cbc38b663909f755494529f3fa7dba309c97864ccc67480784c",
+      "crc32": "b026d16e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Networking.dll",
+      "bytes": 15360,
+      "sha256": "172a254ad4f3c3ad004b13751d716c9c46db2eee6f2ba926d9a2204ce5933126",
+      "crc32": "98d4b310"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Networking.pdb",
+      "bytes": 15468,
+      "sha256": "693ebd8a85d1d3d3e7f0032e3f99a78b8d00d905576d472f221375c3a10b6b6d",
+      "crc32": "7c1d596b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Presentation.dll",
+      "bytes": 701952,
+      "sha256": "eb4aa7f0eab1d82f8ec3b830c60ee33d73ea624e8a0b2c4eee16c31d175d95ad",
+      "crc32": "0a35bb63"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Presentation.pdb",
+      "bytes": 238928,
+      "sha256": "4e757920c03767ce882db4c90f7987dbbaf59bd5f53e43af862b749c8bc1be01",
+      "crc32": "eea402bb"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Simulation.dll",
+      "bytes": 212992,
+      "sha256": "3403a50c2d4741d494b07fd487b6b36ee067682d2989d05a9f0da47fcf41277c",
+      "crc32": "888cfaa7"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Simulation.pdb",
+      "bytes": 100284,
+      "sha256": "e2469c48944eee49b83682409769187acfc6dacac7b61a0761b11805e94294a0",
+      "crc32": "12c45e9b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Voice.dll",
+      "bytes": 39936,
+      "sha256": "e8d393c1bb4d4d338a6d3c9dc31bf30a9f65952e6975359610198d0213da9af6",
+      "crc32": "33edf675"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Emberfield.Voice.pdb",
+      "bytes": 17528,
+      "sha256": "55a3cde885663f154c9f7592d0783b99879ad18e44f95272b10d7acd02f0cbe0",
+      "crc32": "96fd5b7d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Mono.Security.dll",
+      "bytes": 241152,
+      "sha256": "82df31404def10ffd69c09e3a8c454e76552f3a37675d1b7b8c743cfd3d1af6f",
+      "crc32": "f33e75e6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/mscorlib.dll",
+      "bytes": 4632064,
+      "sha256": "194417662b72e9fdc29df44aa07fb693a9cf2194d84e327231f3eeff1104ae0f",
+      "crc32": "15bcc16e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/netstandard.dll",
+      "bytes": 90112,
+      "sha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5",
+      "crc32": "975ffbbe"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.ComponentModel.Composition.dll",
+      "bytes": 257024,
+      "sha256": "9373a420101d4c674b9f74bce93a45c58ddb3548c130d9b65ab87235d0a4ed30",
+      "crc32": "ad9b4486"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Configuration.dll",
+      "bytes": 124928,
+      "sha256": "d3acb14b8ebaf7482d2d3e26e8c04685299e2b471a513a30508bd0cab8336354",
+      "crc32": "b21334bf"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Core.dll",
+      "bytes": 1113088,
+      "sha256": "ebf140bf5f8d49ccac20c14935625b0ae0a46c30aa4f90b2808f3b9678822470",
+      "crc32": "2bd0339b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Data.DataSetExtensions.dll",
+      "bytes": 29696,
+      "sha256": "79a01061129709358567a9254684ba52ba66371e01e0354e7fa4852a9f62e59f",
+      "crc32": "79c198cc"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Data.dll",
+      "bytes": 2125312,
+      "sha256": "5d0807269bfcf112aa844951232ef105bbb642abb1e14c2e78dd70fb9245e98a",
+      "crc32": "6d409774"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.dll",
+      "bytes": 2641920,
+      "sha256": "9e8a5190797e35428b1ae9bce6d47d39a1dbc3e974f14239e44678913dc6194a",
+      "crc32": "fab1dc9c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Drawing.dll",
+      "bytes": 489984,
+      "sha256": "76dca8fbe098c285b03de79369f9f2aa141dec44de99ebcc0478c7e762024204",
+      "crc32": "0cdfd4af"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.EnterpriseServices.dll",
+      "bytes": 44544,
+      "sha256": "d8a3d6c1929ec028793ff07df92781c03ebb38c63005d4c12c35e3116d04fcaf",
+      "crc32": "557cf39a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.IO.Compression.dll",
+      "bytes": 114688,
+      "sha256": "7370dc2d3a6f02dbda1a69ca596f2ae96fc464809b3bbca6071fc1fc1edfbb2d",
+      "crc32": "23e96389"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "bytes": 18432,
+      "sha256": "40ef91246d44d6c4d8a1505e1210b0c54963a12938ba0458959bb064d62f36f4",
+      "crc32": "59bebe84"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Net.Http.dll",
+      "bytes": 122880,
+      "sha256": "c46d5b5dc68af8ce1b34e8ace4372b157e2e85ab63d6b5eea938ca71dc7fb064",
+      "crc32": "0a260ac6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Numerics.dll",
+      "bytes": 119296,
+      "sha256": "74f6771aedd33262470e8e653fc0f4e04a659bcdadbeb44b2f8826fba7053f77",
+      "crc32": "f90b27a8"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Runtime.dll",
+      "bytes": 12288,
+      "sha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd",
+      "crc32": "58ae9f48"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Runtime.Serialization.dll",
+      "bytes": 934400,
+      "sha256": "2aa92fb930200ddb3c9c3ffaaff39bd6cdc6d689f19614f6c3b84a15060800f0",
+      "crc32": "f0387017"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Security.dll",
+      "bytes": 320000,
+      "sha256": "95a29120e164e5bdb7ff5dcb2cb4641e5ea0aca7c1ad0854b0e9b2b0ff5abe2d",
+      "crc32": "dd9d9511"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.ServiceModel.Internals.dll",
+      "bytes": 215040,
+      "sha256": "6738a31088136d38a50354371feb83a4fd1558acca2a5f8b165c34a859e08c47",
+      "crc32": "72ad1b0b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Transactions.dll",
+      "bytes": 35328,
+      "sha256": "cfac784408e3b7da6c6e94ec04c162c6d902372fab19353c02aeda3464ce185f",
+      "crc32": "edf95b5b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Xml.dll",
+      "bytes": 3160064,
+      "sha256": "f90799a0c38f3d45e390f9768ab467bf681a052e1b807f4c59fabef5f7edaffa",
+      "crc32": "b666cfd6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/System.Xml.Linq.dll",
+      "bytes": 136704,
+      "sha256": "ed219710472b837fddf45cc73c912e04b4d6b8ca833ea074ec1f73bc00157b05",
+      "crc32": "2ab4bfc7"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.Burst.dll",
+      "bytes": 327680,
+      "sha256": "02735cfce0e26418c1e8fe0710e9f1b834ba13d5892cbaf37e0407e066c2a392",
+      "crc32": "43bf149b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.Burst.pdb",
+      "bytes": 216244,
+      "sha256": "464023e616e63f3a7ca1bfddd9566f003660d300b8f3647dde2868ec48bb84af",
+      "crc32": "b9b61aea"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.Burst.Unsafe.dll",
+      "bytes": 5632,
+      "sha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2",
+      "crc32": "d504b969"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.Collections.dll",
+      "bytes": 478208,
+      "sha256": "f3eceef05c584c4c4387d65910ee29b21536747575e9007a276bd773fe378d97",
+      "crc32": "dfc18d36"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+      "bytes": 5120,
+      "sha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d",
+      "crc32": "254b34ea"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.Collections.pdb",
+      "bytes": 303184,
+      "sha256": "8ed3d363f6e29fd332fd5092c7e563c024da29a8a0921a2c86ac4a558070a951",
+      "crc32": "706dbc4b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.InputSystem.dll",
+      "bytes": 1220608,
+      "sha256": "95497b0760c2363f6e7f15aad6932e5fd898070003845df3e8790971cc4553fa",
+      "crc32": "bdabc35a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.InputSystem.ForUI.dll",
+      "bytes": 16384,
+      "sha256": "06d9d8c0859205ee2991de2b440c8e6bcc496a0fd6e96b01e06d95764fdb6880",
+      "crc32": "8fd31678"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.InputSystem.ForUI.pdb",
+      "bytes": 18828,
+      "sha256": "92effda21ff3363663b38464619e05aa473b2bd6fe38fceba3e536a8f17c134e",
+      "crc32": "eb0850af"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.InputSystem.pdb",
+      "bytes": 560252,
+      "sha256": "db39fa915628031ef33fcf69dc739210d9601ed56a16a815b9b61986fc75aaee",
+      "crc32": "1f184248"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.InternalAPIEngineBridge.004.dll",
+      "bytes": 4096,
+      "sha256": "69de424e79df4dbe0dfbdb5952ee5a3a4a16290d92060a454fa3f97d731eb4ca",
+      "crc32": "29ba3977"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.InternalAPIEngineBridge.004.pdb",
+      "bytes": 14276,
+      "sha256": "95c95eb30fbbc594ee83ed1c0940cb62c54fd356576e0fe7559825582882fed4",
+      "crc32": "9c62be26"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.Mathematics.dll",
+      "bytes": 871424,
+      "sha256": "95ed831af682f3949d2cb96d708c5517139104d0041f48bd50473be90bc4d846",
+      "crc32": "83143a4b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.Mathematics.pdb",
+      "bytes": 509068,
+      "sha256": "204bc5b3e90dddc0fe3f567f833ffafa197e8e9321a430ecf621bceaa7b2292e",
+      "crc32": "deea2d13"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "bytes": 7680,
+      "sha256": "e594557ee13f111aa0cef56d352a3b3b8d32fadd5fc936ce7ee6e8b388f53cbc",
+      "crc32": "39c43d17"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb",
+      "bytes": 14336,
+      "sha256": "bb1287b1232e3011d37010e0ba326b67c7b9a57cb5eac1a8d58cd1745e29f697",
+      "crc32": "60eb25fc"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+      "bytes": 1221120,
+      "sha256": "93b469d933306c8d275ec540a2f843954d34f4fa84d9e33003d42575c32bd661",
+      "crc32": "d31a12da"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb",
+      "bytes": 450604,
+      "sha256": "b5bcecc16c5f06a6f45c82643796b2e4c7651976c87bd08e25c42ebc93f7ea3d",
+      "crc32": "b3d7b67c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+      "bytes": 4608,
+      "sha256": "536722ea35ad35c738521407e09b20be42e127d56c277284e74c14f15b300117",
+      "crc32": "f8535c7b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.pdb",
+      "bytes": 14192,
+      "sha256": "fcb968ee84c8e2036d9b9da1507d9f3f650163759886dd612baf286d8e93cee0",
+      "crc32": "47fa0a7c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "bytes": 3584,
+      "sha256": "22a8801f5f75b670d4820e1f9b4c6d27128f6a3cee4a2cd4a16ecf260b87ed10",
+      "crc32": "78c74926"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb",
+      "bytes": 14036,
+      "sha256": "c868f0c68d9c61180672ebc3931a9b4b4e3ae0d1bf2837ff060127840f3617de",
+      "crc32": "bea6088f"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+      "bytes": 243712,
+      "sha256": "877c1d6a20b5b5bef10eb4559320ef63db4df4d3d4c1e60ce566d673297072fb",
+      "crc32": "54c454c3"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.pdb",
+      "bytes": 120436,
+      "sha256": "360bd6622480e1f096d22eaccd79c9c7e705354194e9443304b389701b1b929a",
+      "crc32": "efab1715"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "bytes": 3584,
+      "sha256": "ea2d4924f62c08e776b77329a45cb855bd7a196b1675deac4fb57b0317aacb37",
+      "crc32": "ae69851b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
+      "bytes": 14036,
+      "sha256": "80b957778e70bf0245e9e565142dbc3f9031a5b9e1133c2848b6b460698d50c6",
+      "crc32": "e45c4b05"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+      "bytes": 238592,
+      "sha256": "d459cfad4c6444f8cdd3a1e1317874cf599f2d94004f39822c8a5b5098f1f3fc",
+      "crc32": "b8ea2ec8"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.pdb",
+      "bytes": 146864,
+      "sha256": "27ff36e296763c188abc2ee5aa6442275b46e5f7da4ffb7901c932b8c71aeb8c",
+      "crc32": "3ef1c923"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+      "bytes": 4096,
+      "sha256": "9199aa9e0b6f8c96f33a4b2b3bad82060a76093cd86247b1c15324fc7b555d2b",
+      "crc32": "df5916a6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.pdb",
+      "bytes": 14116,
+      "sha256": "26584a7cde27a7eb372306666a87579f55e906f7529e056845862411a6e501a8",
+      "crc32": "e8df606a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+      "bytes": 738304,
+      "sha256": "f6f69a36a81295dc437a562fe5c21436faf8351c09a08b3374b291a775eeffe8",
+      "crc32": "cb371b60"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb",
+      "bytes": 298800,
+      "sha256": "8fba638d2859f70d125a274a65c7c1152f1af1f3226413aa84427476120e8fe0",
+      "crc32": "ee1e044c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+      "bytes": 3584,
+      "sha256": "742ddd88609e0154a5091cbde5f2a7326d579e8caa135ac9d0b67c3149b1353a",
+      "crc32": "a6d64eb3"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb",
+      "bytes": 14024,
+      "sha256": "c67a436050b15b3fa09be9d4a49d00b354b11292992bcecdd7939e126637f056",
+      "crc32": "a374472b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.TextMeshPro.dll",
+      "bytes": 496640,
+      "sha256": "809ec43d1cc0a8dbb9e932ce0f8d610270218144df0f4120c9685e605a383dbb",
+      "crc32": "69f74311"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.TextMeshPro.pdb",
+      "bytes": 249884,
+      "sha256": "75fdef59e58ac96e3afba473eb352a2b843124cd889e4e06cefb6d638197686d",
+      "crc32": "02d718e5"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+      "bytes": 97792,
+      "sha256": "1467e827b1f9c5fa077b02ef6c372465d5e079c0d87c15c47208fc5d0a2c0f70",
+      "crc32": "6090c69b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/Unity.UnifiedRayTracing.Runtime.pdb",
+      "bytes": 53072,
+      "sha256": "2c075411bbd51e94002e75751e983d2d8dbba008183ecd78fcf8975984a85d1f",
+      "crc32": "85fb3afb"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "bytes": 51120,
+      "sha256": "c8249b9ca23640f7959c529d61f2eed1c86b715d364ed17e494cfaa324001e4a",
+      "crc32": "9aec31cd"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AccessibilityModule.pdb",
+      "bytes": 23076,
+      "sha256": "2da85588671e8ba9eb32776b9fbce2a980adcb1d028b473223f0524552802dc1",
+      "crc32": "3f1561b8"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+      "bytes": 125352,
+      "sha256": "385cc1158fb02325535a6df613811204afeb7e3f240737a1fc2add0bd976b49e",
+      "crc32": "90d4be5a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AdaptivePerformanceModule.pdb",
+      "bytes": 53316,
+      "sha256": "b420b6386fa94fe71940e5b676e0fd5e3005e67dbb2423bbceb648759f8e6422",
+      "crc32": "61553db7"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AIModule.dll",
+      "bytes": 77224,
+      "sha256": "71f41d664d48128f5135884413f21ea9fa86b6ce9a4f053b5081bf286d7ccb99",
+      "crc32": "3216854b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AIModule.pdb",
+      "bytes": 20664,
+      "sha256": "9584a5ca5b4af549e737ae92f169effe0b5cb9f2b35b82ea1d5b76ef9e86477d",
+      "crc32": "988f7a05"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AMDModule.dll",
+      "bytes": 21928,
+      "sha256": "aa68b148f2e74c334ae8bd38ddeaff055730aeada6f809697521ebd8920ce988",
+      "crc32": "1f343b78"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AMDModule.pdb",
+      "bytes": 12032,
+      "sha256": "047c2d1e63b8887c2a28d7965f53d9757ed3cb52e1cd82b077c935e1e8b9454f",
+      "crc32": "d4e5cb2a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "bytes": 121776,
+      "sha256": "8e008a125f9cd1417f84780eeb7de840e0f2c749ef92a9d87910637f9b5f9b58",
+      "crc32": "e7f227fa"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
+      "bytes": 50232,
+      "sha256": "4bddb2c1c9f10d5a16dc0266f365ede06ae3896ef10758a37c4d50438697885c",
+      "crc32": "38383dac"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AnimationModule.dll",
+      "bytes": 225200,
+      "sha256": "e2952b9c0d9405a52f9b0e5cc72fcc14b63f23a20562e354c42ce2697c74836b",
+      "crc32": "d6f97608"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AnimationModule.pdb",
+      "bytes": 60776,
+      "sha256": "e8795a50f6ba64b19a16212b099ad9a4726e5c1544e7626a1961d17db43ddf6f",
+      "crc32": "1fdb0dc8"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ARModule.dll",
+      "bytes": 25520,
+      "sha256": "b36cde8f19c92faef74723bc362e69de210181323bd55f1c4acefe47f2cda4a4",
+      "crc32": "d9cd271f"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ARModule.pdb",
+      "bytes": 10012,
+      "sha256": "f98f6e3c28c373b343a6061d1a30b501b608ce92e6d43db33ef754476fd92535",
+      "crc32": "a88225a1"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "bytes": 41896,
+      "sha256": "8d542e27040bdd47d416a5d9d388059642a18da0dfbf18eb350e17597ca21bad",
+      "crc32": "6dbf68a7"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AssetBundleModule.pdb",
+      "bytes": 14152,
+      "sha256": "8d21e5f4db4dcec53b8fcc20882d9bd253563f85da71afe28fb4d2c443796b24",
+      "crc32": "ac927032"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AudioModule.dll",
+      "bytes": 142760,
+      "sha256": "e340de4e194c183136a86f45fb17df334435775ed0680679b4c5d8370def04d9",
+      "crc32": "4efec11d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.AudioModule.pdb",
+      "bytes": 35200,
+      "sha256": "9b3fd9aaa3986fb9e600fc559e396f2f22f2a647246a71809cd98d267cace665",
+      "crc32": "64190ee3"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ClothModule.dll",
+      "bytes": 36272,
+      "sha256": "1b33dd16fe1022981108455221d5d608df9c42f9875a673c1edb39b0a232c3df",
+      "crc32": "944dfe4d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ClothModule.pdb",
+      "bytes": 10580,
+      "sha256": "4ba5b31d1fa10d8e10e0682188099e9f03cf8bd6e1b458f2dfd0f38a85ab4755",
+      "crc32": "e29327fb"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "bytes": 28080,
+      "sha256": "a7fba2eab6ee716d637ecb0f377cefb16979c7c1d26592d48eaa0665d3640fb0",
+      "crc32": "464f3886"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ClusterInputModule.pdb",
+      "bytes": 9396,
+      "sha256": "c38265c655c20168144394cb8995e88a9114ade06ff22a536fcf374edfe4c027",
+      "crc32": "e3197acb"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "bytes": 26536,
+      "sha256": "d9dbf5f9ab23959510d457a7a263dce628aa6f85490717e322bbed4dacd39c74",
+      "crc32": "6de54c70"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
+      "bytes": 10004,
+      "sha256": "e1600f446b6328f988bf7ea757dc9b498b41e13586b2464da7cdb894a878ec50",
+      "crc32": "be196778"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "bytes": 32680,
+      "sha256": "b7292cd077c601278bac76b65efe15df43efc52c13ed4913f8fd9dcaac908016",
+      "crc32": "4049a44f"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ContentLoadModule.pdb",
+      "bytes": 11176,
+      "sha256": "2cd988e675b60f40cc926c830388f34d146883ab1ef8acfe41baa62236fe1bbe",
+      "crc32": "ef80221a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.CoreModule.dll",
+      "bytes": 1985968,
+      "sha256": "6e113749845967506284bc65e85d28b527a4c4c99af73f0433af9b4ed5abfbc8",
+      "crc32": "4c23bf3c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.CoreModule.pdb",
+      "bytes": 573696,
+      "sha256": "df5447d91297f05f50f50d0534b07f910b68bb940235635e62e457cb0a193bbe",
+      "crc32": "551b0dd9"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "bytes": 26544,
+      "sha256": "8b3141bdc0c6bbef38dc74fa71021c9e54af76b2b1a37b63e49b39cfc9271bd6",
+      "crc32": "c184e1de"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.CrashReportingModule.pdb",
+      "bytes": 10008,
+      "sha256": "8e423c0f7eacb205a9e4f072d6ead6def1faed071f5481b7e52c28e69f38eed8",
+      "crc32": "8269cebe"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.DirectorModule.dll",
+      "bytes": 41896,
+      "sha256": "ad25a8f620e97ec1962a5cb2d5369485108673922b47b2cadf0b4239c94ce647",
+      "crc32": "b3c20dd8"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.DirectorModule.pdb",
+      "bytes": 13920,
+      "sha256": "9d210f8da84c23fd755e099410676f86194ccef7447c68fb84c95502e2354387",
+      "crc32": "4d4a562e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.dll",
+      "bytes": 197544,
+      "sha256": "8f5656476f57134b88f230538fff8abb66eac6bf3ac087daa86d64d88d9d39eb",
+      "crc32": "2dcbe8b4"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "bytes": 31664,
+      "sha256": "688f7cbed6213df3bd5ce6a5c6dac92b0f3d0530841b88e82c69bce5a2c1827e",
+      "crc32": "9bf7fa20"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.DSPGraphModule.pdb",
+      "bytes": 9604,
+      "sha256": "4bf1d2d61c907ab2a4ae1194adafac725049ec687208df4f734e5e546d51bfe4",
+      "crc32": "f525ae6e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "bytes": 45992,
+      "sha256": "5bb7513b5b76e44f118323fdd27302df224db134bd9c6818f008a3dd6bf95534",
+      "crc32": "632d8637"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.GameCenterModule.pdb",
+      "bytes": 17488,
+      "sha256": "2c3fae70530f3dddd78f31ec2630bd538692087d7deb54d0c12bfe4fbe75c8e9",
+      "crc32": "5c9719b6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.GIModule.dll",
+      "bytes": 24488,
+      "sha256": "53d4bd69745ee83d5c4f0760f92b9efdb099489fdfc64528af9a1c95b0adfeb8",
+      "crc32": "e60e7e99"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.GIModule.pdb",
+      "bytes": 9276,
+      "sha256": "63dccf906f85380d2fde85e8c4612c6a11dfe5c734bf4b6a626e29532b65a145",
+      "crc32": "68408356"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+      "bytes": 14256,
+      "sha256": "86ea17b6e8515403416ddfa2a08f4658b27d956cc28585f488a85d3e8939a358",
+      "crc32": "9dc06d05"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.pdb",
+      "bytes": 9304,
+      "sha256": "e6fe3c5041d870d90d7ad7ce45d53b908ed5868f9ee76147d6d7281688118481",
+      "crc32": "82b9c6a6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.GridModule.dll",
+      "bytes": 30632,
+      "sha256": "aac2d49a3b8f3d853cd318f0d67cbd8cffbe0f5f8f9ce288aaec85f25f46c5db",
+      "crc32": "e3f6905b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.GridModule.pdb",
+      "bytes": 10132,
+      "sha256": "be97b83a737655f3644ed7948c8231bae5fcb4812ea1ed65bd471c7ebb643474",
+      "crc32": "fa34ec23"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+      "bytes": 109488,
+      "sha256": "bf800cc45f5c0354f9ad2ea22e0c1463bbfcc111c18247fea92c24baf4f45938",
+      "crc32": "e5269084"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.HierarchyCoreModule.pdb",
+      "bytes": 36440,
+      "sha256": "ba009ad2936554fe4fbb068b50bed3d1644b5979b4576cf5d48fc0949a8d95de",
+      "crc32": "c92282ee"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.HierarchyModule.dll",
+      "bytes": 102312,
+      "sha256": "6a5d008a26eaed4289ffee5deaf6628cd708211674b9fbd2c243c465b022f748",
+      "crc32": "802db6c2"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.HierarchyModule.pdb",
+      "bytes": 47660,
+      "sha256": "99cc02b0d57e372058bffff525a942d324bc2049199961403ac2b5670ef6ecf0",
+      "crc32": "21af156d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "bytes": 24488,
+      "sha256": "a58a336e1f65a20fdaa79ef547388367540203ab07d9211d0f322f9fbb202c66",
+      "crc32": "237acd44"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.HotReloadModule.pdb",
+      "bytes": 9276,
+      "sha256": "4c5e3e42f62e56dff41532d71d847ca1c1ef9a7656a75b463d8e9b19873647f3",
+      "crc32": "ce74e221"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.IdentifiersModule.dll",
+      "bytes": 16808,
+      "sha256": "9e32c80cb919fa932d33200fc1b840f028d9badd6bafdf540305ee51354d98d1",
+      "crc32": "cdc945b3"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.IdentifiersModule.pdb",
+      "bytes": 9760,
+      "sha256": "f29f897f33f4bca66d04114348edbada66d7c3a2829e655e99ced23fa5120fc6",
+      "crc32": "d4f7f425"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "bytes": 31152,
+      "sha256": "48deef77c0900f884d3a62530914188d6916519d415cd5196505a0dd2ba11b2d",
+      "crc32": "23365903"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ImageConversionModule.pdb",
+      "bytes": 10616,
+      "sha256": "95bc973fee3888bb8a6ecf9d786a9fb7935092dc6d28ae456bffb3aaa2f55b4b",
+      "crc32": "65ad656e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "bytes": 214448,
+      "sha256": "59079367d288ee1afc510ae174e6bd3373d44dffdcf39cd6a3d81f4ae72cc6a8",
+      "crc32": "e5198984"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.IMGUIModule.pdb",
+      "bytes": 90484,
+      "sha256": "cc5e04af14394a8020015da6c819d151a0bf7a6ae6234487e5e9da1ad24701ba",
+      "crc32": "b1bd9618"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.InputForUIModule.dll",
+      "bytes": 57768,
+      "sha256": "6b80e1f8e768de2769fe874111c1cb63ab21b8eb662fc0f208f9f45e7aa47625",
+      "crc32": "4276992b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.InputForUIModule.pdb",
+      "bytes": 26108,
+      "sha256": "9725a5009667c9df729bfe8f56679c93cfa6e0161532700a362d479691454c2c",
+      "crc32": "9b6d1386"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "bytes": 45488,
+      "sha256": "3fe0a3b1c2dcbf8430d053be5523c9db768601624069c593d981fe5d89262c41",
+      "crc32": "ac952496"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.InputLegacyModule.pdb",
+      "bytes": 15384,
+      "sha256": "6c04fbc424556f2f473125ff9911302ce158638527b6e935a3ff22b14c83df12",
+      "crc32": "6197bb35"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.InputModule.dll",
+      "bytes": 28584,
+      "sha256": "c7555f9e890b65d52806d11be2a18e79ad9e20dd3d9b7950c344b0e98269146b",
+      "crc32": "208b3d36"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.InputModule.pdb",
+      "bytes": 10644,
+      "sha256": "083b1a7f70f91b8e062af0ae569f30173f5f082422d345b3042031c0542b104d",
+      "crc32": "be35f9f9"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.InsightsModule.dll",
+      "bytes": 14256,
+      "sha256": "7823f02c0fd49945db4611a061f76f952f3bea5f1888e8a3ee32432a42564367",
+      "crc32": "9927a636"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.InsightsModule.pdb",
+      "bytes": 9600,
+      "sha256": "0cc18a40ee9d160604a710dd43c3acebc9bb90359d95e66d11c24d3cdfb1383d",
+      "crc32": "c81b7c00"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "bytes": 27056,
+      "sha256": "7d596dab3f41e563d3cadacff3f9259b662d764a1efcbfeae7ce680f7bb503bd",
+      "crc32": "6fa512f3"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
+      "bytes": 9900,
+      "sha256": "22857ab648d8d941a4171dd878b831f1e5f124056d48a249ca0db14fa8268fc0",
+      "crc32": "ee15347e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "bytes": 27056,
+      "sha256": "d37f7fc4d38c8ea2462194e69b4ea33f88be334a1e7ed222f200f2e707564bad",
+      "crc32": "fb30e244"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.LocalizationModule.pdb",
+      "bytes": 9696,
+      "sha256": "762386a83674bb7777beb37ac7302a40eda8b71ff6d7bddc32a4847da335b6fe",
+      "crc32": "83484ff6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.MarshallingModule.dll",
+      "bytes": 83888,
+      "sha256": "2424626f708e2abf2cc58f1fe5e5093805aace99cd4e9f90b52c84ddaec993b3",
+      "crc32": "d48b8907"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.MarshallingModule.pdb",
+      "bytes": 14288,
+      "sha256": "6fedcb922f34da7a029f69580a41714727a9f2741adcfe2ee6e828ac74466acb",
+      "crc32": "3ef26df1"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.MultiplayerModule.dll",
+      "bytes": 17832,
+      "sha256": "b0e7ca214c64d51d2fd6703aebdad36b2426e6f090ef93038b3bcf08ac7ecd58",
+      "crc32": "3e7dc5ea"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.MultiplayerModule.pdb",
+      "bytes": 10368,
+      "sha256": "1980cb440fa8530076d1a2479988ef070dc47b0a310b6c362d351229cc1ac6b0",
+      "crc32": "8889df4c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "bytes": 40880,
+      "sha256": "9401ce6e59d01797ddffc4db283dbd7cc8ed5e9d9516cf536e0ad9a4650d3bed",
+      "crc32": "ae055baf"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.NVIDIAModule.pdb",
+      "bytes": 16444,
+      "sha256": "810417bb3a8820b423fb4e6e2bd04990bda09d4b9c5a954b03a8a08afa730306",
+      "crc32": "93c12782"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "bytes": 171944,
+      "sha256": "ca47a718f791e2104377e7cfe218210314a957dc1bcfb70102417adb73b4a430",
+      "crc32": "2b45f9ac"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
+      "bytes": 40464,
+      "sha256": "4259a9e44175ae680a75604e848f3142c434cd3de726c757e657e3b9c5994e85",
+      "crc32": "c97471b2"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.pdb",
+      "bytes": 12676,
+      "sha256": "7f038b7bc68ca659396e5b929e85b48ff3087c40394f54879a007311d2b82b9a",
+      "crc32": "48b5c523"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "bytes": 25008,
+      "sha256": "35e66ed8f5d0fbd8b25479ae75625b4a17cd41519dbf605970db154757c254e2",
+      "crc32": "995e997f"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
+      "bytes": 9480,
+      "sha256": "71d64555e2c6fdbfdee431651efc9a859ea60a54481b510de7da2bcac46d9688",
+      "crc32": "3aa8eb4e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "bytes": 586664,
+      "sha256": "a13a44e7344ba20d6fcd5abde493d2a159dcd4010be1a016f6a0eb877f007766",
+      "crc32": "5f7423f3"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.Physics2DModule.pdb",
+      "bytes": 135156,
+      "sha256": "3cb1cbf9b94ca28bb38a56e369a00073b41b824074a2000d868f5b2ad2480cc6",
+      "crc32": "a54c2d27"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+      "bytes": 14256,
+      "sha256": "33ae23327a5d59ee0743ab0c5df0b0264ccf4f292d2f0807bc8cef40efb5a813",
+      "crc32": "a8e04c2b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.pdb",
+      "bytes": 9296,
+      "sha256": "00249e78260f203211d27c14a24f33a2ec90602a10f627be8a9e77a08d1eae8d",
+      "crc32": "6bd49e43"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "bytes": 183720,
+      "sha256": "6112016fb7df440b4af9ff6d1e05cdb1d7f5dae652cf19e3cbdc6a2ca4699d0a",
+      "crc32": "bfbaebdc"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.PhysicsModule.pdb",
+      "bytes": 46224,
+      "sha256": "3df315983e183a1ad58cdc009889fe8a15665a0b663433e6e401bc783864ca7d",
+      "crc32": "dabee61e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "bytes": 134064,
+      "sha256": "8063760df50b181d9f9c90db6fad2a34c06ef5fb02f26467384b3aec5d14dc76",
+      "crc32": "303dd55d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.PropertiesModule.pdb",
+      "bytes": 62772,
+      "sha256": "6fbdf3c9e812304c9e02a86b93ffeface96de6ff8541fef7f2cb531732417760",
+      "crc32": "6ffc8be8"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+      "bytes": 25520,
+      "sha256": "52c9a1536d88fedc62df201840d435a745c16b6448b86f6e22f91902e4d92c8b",
+      "crc32": "c7209637"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.RenderAs2DModule.pdb",
+      "bytes": 9324,
+      "sha256": "c3a58050f8816331edee37b30038f9671e337ed1304b496fbab5c9a2f1f94e99",
+      "crc32": "b5b2f1cc"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "bytes": 24488,
+      "sha256": "f59d4c5e3c08db5f532117e76b16f5d5c4d5219ba584ee94312bb7d54c399311",
+      "crc32": "691bdcf2"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
+      "bytes": 9336,
+      "sha256": "e6b0624094b6016ec2d841994c2960f84ab49ca0236fa87d0fb597350254cca5",
+      "crc32": "51085930"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "bytes": 26544,
+      "sha256": "f04cdf78234bf6387aabad5aacb327542f5a8bdcca533eff7401c6eee3206e36",
+      "crc32": "204a6f4c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
+      "bytes": 9880,
+      "sha256": "c3d54ae7dee235b3fe8c26beb76a3295c85e1facd74f930450bb583f4c428977",
+      "crc32": "74875247"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ShaderRuntimeModule.dll",
+      "bytes": 25512,
+      "sha256": "1396cb6600b39b593d0a58221c978d513dd289e1dff71a2eb2c6b2b60d1356e1",
+      "crc32": "062cf390"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ShaderRuntimeModule.pdb",
+      "bytes": 9316,
+      "sha256": "4625f8597e97412a65495463d7af15be3ce2e53a013f8823ffd25f8cc60d5ada",
+      "crc32": "41fa8406"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+      "bytes": 24488,
+      "sha256": "7a26b6fcc298b6d2251e551b7bc6fc4910cf029c9a0dc0c6cb412b722a7fcf5e",
+      "crc32": "1aee94ad"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.pdb",
+      "bytes": 9400,
+      "sha256": "9b4007f3d4e614d0011f572e93e5065e3e4ad1d98208691303e37466da081d0a",
+      "crc32": "cf698f9d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "bytes": 38320,
+      "sha256": "8db34acfc413aeb640d9a618cc65964e3c6be6c2dbe3f5f9eb3fa3156fbf34f3",
+      "crc32": "8fdee731"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SharedInternalsModule.pdb",
+      "bytes": 14288,
+      "sha256": "cc2f373b2a0b9b9c40d2fd1a75f24f1211d0dbf02d8a0fd65cdf7b847fe95dd8",
+      "crc32": "2d7e1b14"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "bytes": 28584,
+      "sha256": "c77d26f5ae1ee1cfd733d51fa9b3e44687f47ab49cb8a1e5f951fb326cfe498d",
+      "crc32": "713236b6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
+      "bytes": 9608,
+      "sha256": "733680f47faf0281fb766f347f99a7f59dbe157f35b30183761c0435254016e7",
+      "crc32": "e733479e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "bytes": 32688,
+      "sha256": "ad172378591dee76cc2d08d5a004a92ac4ce469fa1cc3a962854e29f04448cca",
+      "crc32": "e3da3a6d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
+      "bytes": 10932,
+      "sha256": "33dea112d2d96758da2c3d5c2d91478d5b848c59aeefc5235add606be2655dc3",
+      "crc32": "3d6aff10"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.StreamingModule.dll",
+      "bytes": 26024,
+      "sha256": "56877ff28757655ffefa1daf4a4255b668616277c3c84df8f51f0daeecbf4b92",
+      "crc32": "b14722a6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.StreamingModule.pdb",
+      "bytes": 9352,
+      "sha256": "7af0c0f2d4498f038748368c2e86d1bee74e99155f072d11546161be81dfa4b5",
+      "crc32": "7306f9d2"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "bytes": 29104,
+      "sha256": "aeddbe082d614d20f56d26a0cb415118c17e76763094cae3ed85567fd0f517ba",
+      "crc32": "90870933"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SubstanceModule.pdb",
+      "bytes": 11480,
+      "sha256": "a8518a761f5b1b11847ffa3bd464a20654ce65b9dd07828e0dd00743c31985a9",
+      "crc32": "b13c39fd"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "bytes": 41896,
+      "sha256": "1372e9608f65909baf934b33fb04a8eb55bb386ed9d88e56840fffe9bc7d8b19",
+      "crc32": "79247ce0"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.SubsystemsModule.pdb",
+      "bytes": 16020,
+      "sha256": "c83fa4ca5defdbefcbfb845a26cf48577c134a378d51271a340a3567e4c68bf1",
+      "crc32": "7c84b906"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TerrainModule.dll",
+      "bytes": 134056,
+      "sha256": "407e8d6c30c7fefbcc7d888e0086f5ef8743531bfcbbc04bb11762b12558a759",
+      "crc32": "913fbba5"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TerrainModule.pdb",
+      "bytes": 33988,
+      "sha256": "8f34b096fd6f9eb91e9c765ed234c0c63b9a188b4a952d1015a6c1b4b67b189b",
+      "crc32": "f6c52a1a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "bytes": 25520,
+      "sha256": "e8c19bd79f9d840b6ae34ad78adac43581c03dcb9cc375bfdbc682e8a349f4b2",
+      "crc32": "6c6ffa9e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
+      "bytes": 9740,
+      "sha256": "3763701b23c001fe265e2413a3016005a175856c132c07e8a0e890f314bfc620",
+      "crc32": "5d6c0aef"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "bytes": 81832,
+      "sha256": "1e9ec852583e53600d166d6688c62aa0e29d8ec26ceabfd9aab5319fd098203a",
+      "crc32": "b246ab23"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
+      "bytes": 29312,
+      "sha256": "29a659e37012fe16be9ba3ff1cfbfcd9d46460e85a37944f8d65d465e80a1e27",
+      "crc32": "4a32053b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "bytes": 334760,
+      "sha256": "4345d56bea3d26f7aba127754d95d6a1a9b754491ff5cd01d707e90219eede5b",
+      "crc32": "0d46853e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
+      "bytes": 153964,
+      "sha256": "eed9b5d70e39a8df78acd407f95575c37030a2a45610108434431e64868890b6",
+      "crc32": "c4cc8565"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "bytes": 39336,
+      "sha256": "41d9b82516a161f4e33b33ec54ccbf4ff520a546dfc0278d9d89342cf48e187f",
+      "crc32": "6efba47c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TextRenderingModule.pdb",
+      "bytes": 15380,
+      "sha256": "f1edfa86cf2cbcf822e894ca4e023002e623cdc3dac13b695f456fd0d698e625",
+      "crc32": "de2498e5"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TilemapModule.dll",
+      "bytes": 58800,
+      "sha256": "742b401342db4188a1d438cf42cff503d927f87182615e52d463ce13bb8d5aef",
+      "crc32": "2d5e71ba"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TilemapModule.pdb",
+      "bytes": 19112,
+      "sha256": "29dc479e3f6f5c98204e7bb6ba1ef8f9e2a4909a7bdeb8506bb9f3c5392de53d",
+      "crc32": "5eb818fa"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TLSModule.dll",
+      "bytes": 32176,
+      "sha256": "e824d1cf3bdf44ae67b05d795e3a64ca351b4e71f283e37ff55c8312f59692b7",
+      "crc32": "0bd61442"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.TLSModule.pdb",
+      "bytes": 9296,
+      "sha256": "0ef0c20d4e7c2f9f4b967bceac3c2f0787f4eb8ed6a01288d9b892485f53fe44",
+      "crc32": "3d08aa1a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UI.dll",
+      "bytes": 292864,
+      "sha256": "d40b52830e86b66c1380dd416c63d109565438d85572b676cd8cb077ad6ba04d",
+      "crc32": "e4dd0842"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UI.pdb",
+      "bytes": 178152,
+      "sha256": "3e401d0248593508d9062de356baa9c7fc005145ca94ad5b39a219fbcac0a6bd",
+      "crc32": "443a445a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "bytes": 2452392,
+      "sha256": "f791cdee383a20ef998be28112bb4c0600528945289f9138ff4a6d5352946e16",
+      "crc32": "12c3319c"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UIElementsModule.pdb",
+      "bytes": 1099896,
+      "sha256": "56d0c32d0295c04cc6374f64cf27428f8fe4db604f86343f04cd84845cb1bf17",
+      "crc32": "3b078e38"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UIModule.dll",
+      "bytes": 50088,
+      "sha256": "8490946ba29a169115bf4d3e549d42a0a5e9b1c4fb49b28d0dea97b19c21af99",
+      "crc32": "014fc815"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UIModule.pdb",
+      "bytes": 13980,
+      "sha256": "a57b3d2f66ea882fa998db4d4dd745367db8790478e70ce15d593f14a4722941",
+      "crc32": "72088ce2"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UmbraModule.dll",
+      "bytes": 24496,
+      "sha256": "1fe54406a037f8f8bf0e4b648137b5d796e92716ee16d9120ded96b023e47f64",
+      "crc32": "10bfff15"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UmbraModule.pdb",
+      "bytes": 9276,
+      "sha256": "aa7fb94403321fb41e91c7215892a6dce6d3d4fadf1b6bbeed0eefaf3349dbc9",
+      "crc32": "6c7bfd14"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "bytes": 35752,
+      "sha256": "903a192bf5d0cb1b7c99826ccfd67401161949ecc0eb6c07ee350216526e53c3",
+      "crc32": "0fb49cda"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
+      "bytes": 13756,
+      "sha256": "902b40875575b81a14cc833569cc04b8b4a2c8ae527abfd4f6314da27163adef",
+      "crc32": "50c7e268"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "bytes": 60848,
+      "sha256": "37c8de9c5b3b5014c491eb70db235bed73cb717c25d2c0a4438f3c9faddf009e",
+      "crc32": "95dc81c9"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
+      "bytes": 18000,
+      "sha256": "e45815dcf44fcf168772f65ffe0df612ec569b410921d0152d4a711ef8c6f6c0",
+      "crc32": "e8b5a2e6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "bytes": 27560,
+      "sha256": "d795553835cb0a6bbd2d13ba36799323bfbfbdf6dbe3ed709f490b80d8e8af5a",
+      "crc32": "7b87995b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityConnectModule.pdb",
+      "bytes": 9872,
+      "sha256": "77270eba77918654b142b440febadb774a1d92bfeda49ac20207cb9f5e781041",
+      "crc32": "49361227"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityConsentModule.dll",
+      "bytes": 16304,
+      "sha256": "8252eeef40749b9b8d1015569a3dd0148ee5b8c2445821781476165a82713af3",
+      "crc32": "c7317388"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityConsentModule.pdb",
+      "bytes": 9904,
+      "sha256": "c226072ae4e3c725af82756d08ca40b685761f4272516d72e429fbf87fa02157",
+      "crc32": "3594eff9"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "bytes": 26032,
+      "sha256": "4119615947f88d586ca33cc9b217fe2f81ada01e49214d2b9b73b186cd233e41",
+      "crc32": "f6dbed30"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityCurlModule.pdb",
+      "bytes": 9668,
+      "sha256": "ee9727b7a6c57ca8f90630864882913b022a2249273c5dc3f8c6087ddc896577",
+      "crc32": "305155c0"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "bytes": 28592,
+      "sha256": "f1498767358fa09c93691d7907f67300ee3bee396413b978e948c83b1e2cf48c",
+      "crc32": "418715d4"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
+      "bytes": 10848,
+      "sha256": "e8080653af27aeac0fe60dff4de0c6ddfbe3ccf9f78e36a609017f28b588c797",
+      "crc32": "8d3f3c34"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "bytes": 28592,
+      "sha256": "fd8d815a45915f17ec9f63fda402769746ea28251a408a5f439c62f4a8af2729",
+      "crc32": "18dc0827"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
+      "bytes": 10648,
+      "sha256": "9f6cb6a73dfc6e3b1bc24e48a173b42b8144dbc9149d5240f33d4549461707b1",
+      "crc32": "14c7fb03"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "bytes": 70064,
+      "sha256": "9d777e08bfe9b9c12ff69c5bba91a0ec67b6712c03aa62896eb892fa8fbb4009",
+      "crc32": "3d67d654"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
+      "bytes": 28484,
+      "sha256": "6e883c459428ac38886f17b30eb9ed5b768aa0b207582adad0842a39067df31e",
+      "crc32": "b580f4d5"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "bytes": 27560,
+      "sha256": "c983a36f4ecf311a8ac2f067a943612bdfdb04dd1d4b0902fe23b8c22b800caa",
+      "crc32": "5c1eba34"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
+      "bytes": 10816,
+      "sha256": "7505887d6071bd86b3d96145c9804284d2ad8384900341e20289c4c7d29ac1eb",
+      "crc32": "3aae6c9d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "bytes": 36776,
+      "sha256": "71a0dfa0aecd73f7935d58f90b24ea56adc8c7866495ef3528e1a128f1f36a14",
+      "crc32": "f3c32f3d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
+      "bytes": 13716,
+      "sha256": "4c4a1956fba5efd6e9f92cdf777c2ce009b29c7e034c48e297177db468c01874",
+      "crc32": "a79d78bb"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+      "bytes": 252840,
+      "sha256": "8d8aabf185a7238ac0e205c708305a9d1da2ba6160d497aaac70f439ee1671f6",
+      "crc32": "f55f2ce8"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VectorGraphicsModule.pdb",
+      "bytes": 143320,
+      "sha256": "95067f8a771845784a16148f033de3db7f9142e968c1fb6b6ba544e6fb23eceb",
+      "crc32": "516ffd0e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "bytes": 31656,
+      "sha256": "2946f811e0b6e3ee9748d39b916e78f418a70c4157177efa946b8aeca90ca86d",
+      "crc32": "6c1f2500"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VehiclesModule.pdb",
+      "bytes": 10516,
+      "sha256": "a3b25b709937d41e91ab01b330b9b999cbd936fad913acedb7e3d1ca15fd150d",
+      "crc32": "11e536c6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VFXModule.dll",
+      "bytes": 78248,
+      "sha256": "5c62f2e10b2559ae6333487dfb94c82c2e128a074f4777d9e69a74c8e522ae6e",
+      "crc32": "4b278158"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VFXModule.pdb",
+      "bytes": 18784,
+      "sha256": "43d8cf5a288a9d81cbc30532825bd6ad8ac336c332d7c97b21f4d2137de6e7e0",
+      "crc32": "b0f01e6e"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VideoModule.dll",
+      "bytes": 49072,
+      "sha256": "33e1f716564b7fc9169c7ad9b4b433b2e7ab3eaf760e83cc658c49bf216dbf51",
+      "crc32": "c11761ed"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VideoModule.pdb",
+      "bytes": 14164,
+      "sha256": "ddaa5334205e1fe942811190c494a9d996c8eaf8470ec786d31e70ce0bfc89c3",
+      "crc32": "3757abb6"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "bytes": 42920,
+      "sha256": "8a0e54d097692eb82c8863b1d3f2319e1794e43f57b9e4d77a0ea728711173f8",
+      "crc32": "ac568c18"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
+      "bytes": 13524,
+      "sha256": "9d8c25b853d56ec6a7a1ffd987c916ccb94b10c0c0472c5f11f85b135b4c259c",
+      "crc32": "09bbd20d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VRModule.dll",
+      "bytes": 31664,
+      "sha256": "881678fd43267960701bffe14b698fc40fbab28247b675c2e18c5578dcd6c0d2",
+      "crc32": "d0a16504"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.VRModule.pdb",
+      "bytes": 10404,
+      "sha256": "034e3228a06cb3317f84ae15e2bc45eddd558564e38fe0a2f7302ce9f6d93474",
+      "crc32": "fb359cc4"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.WindModule.dll",
+      "bytes": 26536,
+      "sha256": "3db21bbc42641b0dbfe8cc802045c623bb45ec725e84734114330ac59889c18f",
+      "crc32": "2e1bdff3"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.WindModule.pdb",
+      "bytes": 9412,
+      "sha256": "e067aa46fb82cbddb52fd0a768ee833e3b60c75347bace4c0236c19d85d13129",
+      "crc32": "04bb7b00"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.XRModule.dll",
+      "bytes": 88496,
+      "sha256": "b3f56678282a17a731c9328f1c32d1203f4388fba7188060d9f5cb9b44c198d7",
+      "crc32": "15f240f2"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Managed/UnityEngine.XRModule.pdb",
+      "bytes": 24288,
+      "sha256": "42e0eafc6976b62b4f6ba48bed18f55547eb033fdce6c02cfcf9301c6083285c",
+      "crc32": "102345c5"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "bytes": 482304,
+      "sha256": "dbf8af80efc9331631e046a77fbdb215910d64cd6df1f37b98ef57447b5a0b9f",
+      "crc32": "ddba3474"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Plugins/x86_64/lib_burst_generated.pdb",
+      "bytes": 2932736,
+      "sha256": "35e14393f4668c2b29f18a9d801488e578b30f698bd1f5ca495e5415d9710f26",
+      "crc32": "6bf0f181"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Resources/unity default resources",
+      "bytes": 5883716,
+      "sha256": "32b58bdb9cf090212b46a8ca7436dcdae89e4ef43e9d55a835233c21d1347734",
+      "crc32": "89fb7bdc"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/Resources/unity_builtin_extra",
+      "bytes": 403496,
+      "sha256": "cd24da683c4471b6cd0d38ae1c4f1a3cdc398e826972b68cc77ffc691267c876",
+      "crc32": "8f982314"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/resources.assets",
+      "bytes": 529539276,
+      "sha256": "3a4e3e2a770b50f869f161375d28ce73163836cd23e8547340b548b31f145529",
+      "crc32": "997c253a"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/resources.assets.resS",
+      "bytes": 117974864,
+      "sha256": "218005a8019e37a151fa28722620f083a548d59ab1bcf724f5c8598813fe2e20",
+      "crc32": "bc70541b"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/RuntimeInitializeOnLoads.json",
+      "bytes": 3779,
+      "sha256": "453ff191593d877fbeb29518843c276bab0cc17519fe56e0d0449d152019d3eb",
+      "crc32": "8c29fcf8"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/ScriptingAssemblies.json",
+      "bytes": 4151,
+      "sha256": "063c891b1b76e40dcbe8be98baa3f9d5f9a191feebcfda83d8ca5e5dc489d7a3",
+      "crc32": "56c24dd0"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/sharedassets0.assets",
+      "bytes": 7920,
+      "sha256": "d24a25dca875801c8c0c74247642f34afdd7fab6bd6edcc654ab87ed1bbac503",
+      "crc32": "697ffe42"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/sharedassets0.assets.resS",
+      "bytes": 524288,
+      "sha256": "393efe6399536384aa91bdfc4e64f244b4d3e1fbb6a4ff145c483ffee64ccb36",
+      "crc32": "382c9e8d"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/sharedassets1.assets",
+      "bytes": 361,
+      "sha256": "2a956781a4a135655fb0d1fccee6c32624d85d20ebc1c60d532d08f750d0bf70",
+      "crc32": "4a3f4cbf"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/sharedassets2.assets",
+      "bytes": 361,
+      "sha256": "2a956781a4a135655fb0d1fccee6c32624d85d20ebc1c60d532d08f750d0bf70",
+      "crc32": "4a3f4cbf"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/sharedassets3.assets",
+      "bytes": 361,
+      "sha256": "2a956781a4a135655fb0d1fccee6c32624d85d20ebc1c60d532d08f750d0bf70",
+      "crc32": "4a3f4cbf"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/sharedassets4.assets",
+      "bytes": 5008,
+      "sha256": "04804e5aa62d37558ecb601a980e637d15a73c1b8e9b9950f0335435e740a965",
+      "crc32": "2e2e5d30"
+    },
+    {
+      "path": "Emberfield/Emberfield_Data/sharedassets4.assets.resS",
+      "bytes": 8388768,
+      "sha256": "3c0f895bfecf5529fbd35e9979d34f9c2b2fe0857c160e743fd802f32b367a17",
+      "crc32": "1902f929"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "bytes": 7828904,
+      "sha256": "49fbad5379ffa912da6b9122da57f4d00d38660cdec5f6b5b8e2be6ff79a057c",
+      "crc32": "a1736871"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "bytes": 611248,
+      "sha256": "ca1013a9af2fb4a4e9e2b39c34281ba2e6416490071de0fdd022d02a6aad0d45",
+      "crc32": "afe23b96"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+      "crc32": "2e178a0b"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+      "crc32": "95f9d0b4"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "bytes": 29066,
+      "sha256": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30",
+      "crc32": "42543b8b"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "bytes": 2622,
+      "sha256": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2",
+      "crc32": "ad5340f9"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "bytes": 11635,
+      "sha256": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92",
+      "crc32": "1a75ebad"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+      "crc32": "2e178a0b"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+      "crc32": "95f9d0b4"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "bytes": 33598,
+      "sha256": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed",
+      "crc32": "86f603c4"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "bytes": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+      "crc32": "dc24a240"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "bytes": 18802,
+      "sha256": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492",
+      "crc32": "36d8ba3e"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741",
+      "crc32": "2e178a0b"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
+      "crc32": "95f9d0b4"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "bytes": 34056,
+      "sha256": "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c",
+      "crc32": "c446a9eb"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "bytes": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+      "crc32": "dc24a240"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "bytes": 18811,
+      "sha256": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824",
+      "crc32": "4f48bc13"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/browscap.ini",
+      "bytes": 311984,
+      "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e",
+      "crc32": "ce6c0ab3"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/config",
+      "bytes": 3815,
+      "sha256": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662",
+      "crc32": "88fa6d93"
+    },
+    {
+      "path": "Emberfield/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "bytes": 25817,
+      "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d",
+      "crc32": "80b2033a"
+    },
+    {
+      "path": "Emberfield/UnityCrashHandler64.exe",
+      "bytes": 1728936,
+      "sha256": "ae5db232862c121f59d77f30d4c6bbb7246a5ac5f48acc25a55ecca4ed5f7570",
+      "crc32": "f4ee58a9"
+    },
+    {
+      "path": "Emberfield/UnityPlayer.dll",
+      "bytes": 84343728,
+      "sha256": "a56336022ab3c15ec474c09198f8389bd3448bb54d67c928eefe20b1c77686c2",
+      "crc32": "60d2d268"
+    },
+    {
+      "path": "Emberfield/WinPixEventRuntime.dll",
+      "bytes": 58368,
+      "sha256": "81adcfd8253c3489be720da7e30f16004dc9a1f02a8b418c6c3aef4993032e6d",
+      "crc32": "60521ab0"
+    },
+    {
+      "path": "Emberfield/LEEME.txt",
+      "bytes": 1750,
+      "sha256": "07fb43b74d3dcbd8d79d4e8bebbf13b860cee2f8b1166f6e9d257eb22730cdb0",
+      "crc32": "5c31e30b"
+    }
+  ]
+}

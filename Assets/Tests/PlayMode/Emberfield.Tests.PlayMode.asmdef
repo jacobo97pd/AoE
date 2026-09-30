@@ -1,0 +1,5 @@
+{
+  "name": "Emberfield.Tests.PlayMode",
+  "references": ["Emberfield.Simulation", "Emberfield.Voice", "Emberfield.Localization", "Emberfield.Diagnostics", "Emberfield.Presentation", "Emberfield.Quality", "Emberfield.Networking", "Unity.InputSystem", "Unity.ugui", "Unity.RenderPipelines.Universal.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

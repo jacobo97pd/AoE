@@ -1,0 +1,130 @@
+{
+  "id": "coastal_rock_b",
+  "entry": {
+    "id": "coastal_rock_b",
+    "role": "obstacle",
+    "kind": "coastal_rock",
+    "lod0": 200,
+    "lod1": 0,
+    "height": 0.8,
+    "footprint": 1,
+    "size": 512,
+    "biome": "caribbean",
+    "priority": 3,
+    "prompt": "Rounded coastal boulder: one fused dark volcanic rock with two humps and a pitted top, low and wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no water, no shells, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Rock: dark warm grey basalt (#5E6461) with pale salt-bleached tops (#B9B4A2) and a band of pale limestone (#C9C2A8) at the foot. Small patches of green algae (#5E8A55). No text or logos.",
+    "polycount": 600
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d419-e3f9-703e-b182-8ca2c83caf16",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1118874185,
+        "prompt": "Rounded coastal boulder: one fused dark volcanic rock with two humps and a pitted top, low and wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no water, no shells, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264861735,
+        "progress": 100,
+        "started_at": 1790264861746,
+        "finished_at": 1790264870369,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d419-e3f9-703e-b182-8ca2c83caf16/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d419-e3f9-703e-b182-8ca2c83caf16/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:47:50.718464+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d41a-0a17-7669-a093-730be99116ee",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1118874185,
+        "prompt": "Rounded coastal boulder: one fused dark volcanic rock with two humps and a pitted top, low and wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no water, no shells, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Rock: dark warm grey basalt (#5E6461) with pale salt-bleached tops (#B9B4A2) and a band of pale limestone (#C9C2A8) at the foot. Small patches of green algae (#5E8A55). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264871493,
+        "progress": 100,
+        "started_at": 1790264871501,
+        "finished_at": 1790264917394,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-0a17-7669-a093-730be99116ee/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-0a17-7669-a093-730be99116ee/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-0a17-7669-a093-730be99116ee/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-0a17-7669-a093-730be99116ee/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-0a17-7669-a093-730be99116ee/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-0a17-7669-a093-730be99116ee/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:48:42.901846+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 97571,
+      "sha256": "bd2ad2a8a10470601b91683d5b1d5bfb8695b27d00e34a50b3a2941bf07b9cad"
+    },
+    "model_glb": {
+      "file": "coastal_rock_b_model.glb",
+      "bytes": 5056888,
+      "sha256": "98cde5b18fa4e8e058a2a79cc065e2ac464057310a2ebda4a267e6e144becffb"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 127299,
+      "sha256": "c6e0ba6c7f8cc7c3aaae488734c5c86720da1d83b7514859aca8e46e6b504b3f"
+    },
+    "texture_base_color": {
+      "file": "coastal_rock_b_base_color.png",
+      "bytes": 4820256,
+      "sha256": "b39fad42c886469c6f8eb2a839e39215a263718c2695bf52cc50cfa9415a7d8c"
+    },
+    "texture_metallic": {
+      "file": "coastal_rock_b_metallic.png",
+      "bytes": 18377,
+      "sha256": "9a05f4ad0dc1046e3731bf19b9c883b9bc0bc514192d02747cb7f205566bb84f"
+    },
+    "texture_roughness": {
+      "file": "coastal_rock_b_roughness.png",
+      "bytes": 1299210,
+      "sha256": "590448e40ae2802b4bdd6489504a792a944ff7d1f320540d01ec7be0f77a4466"
+    },
+    "texture_normal": {
+      "file": "coastal_rock_b_normal.png",
+      "bytes": 3416004,
+      "sha256": "376f5a99595af060ed9bc5dfa7aff42692a7d73b21f2c85129b179d425750bf5"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 662,
+    "lod0": 400,
+    "lod1": 160,
+    "fittedMetres": [
+      1.0,
+      0.945,
+      0.611
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

@@ -1,0 +1,1051 @@
+{
+  "name": "BoardingRaider",
+  "pipeline": "MeshyBiped",
+  "preparedSourceSha256": "9d7a69a1f96fe3bc182387adb02061331abc7ad9da5459d83a86c966fdf9435f",
+  "bones": 35,
+  "heightMetres": 2.35,
+  "rig": "Supplied Meshy biped with identity Root; no facial rig",
+  "lods": [
+    {
+      "name": "BoardingRaider_LOD0",
+      "vertices": 5064,
+      "triangles": 10291,
+      "weightedVertices": 5064,
+      "maxInfluences": 4
+    },
+    {
+      "name": "BoardingRaider_LOD1",
+      "vertices": 2418,
+      "triangles": 5000,
+      "weightedVertices": 2418,
+      "maxInfluences": 4
+    },
+    {
+      "name": "BoardingRaider_LOD2",
+      "vertices": 917,
+      "triangles": 1999,
+      "weightedVertices": 917,
+      "maxInfluences": 4
+    }
+  ],
+  "animations": [
+    {
+      "name": "Corsair_Idle",
+      "firstFrame": 1.0,
+      "lastFrame": 73.0,
+      "fps": 24,
+      "seconds": 3.0,
+      "loop": true,
+      "source": "Adapted fallback authored on supplied rig",
+      "curvesPreserved": false
+    },
+    {
+      "name": "Corsair_Walk",
+      "firstFrame": 1.0,
+      "lastFrame": 25.0,
+      "fps": 24,
+      "seconds": 1.0,
+      "loop": true,
+      "source": "Adapted fallback authored on supplied rig",
+      "curvesPreserved": false
+    },
+    {
+      "name": "Corsair_Run",
+      "firstFrame": 1.0,
+      "lastFrame": 16.0,
+      "fps": 24,
+      "seconds": 0.625,
+      "loop": true,
+      "source": "Meshy supplied",
+      "curvesPreserved": true
+    },
+    {
+      "name": "Corsair_Attack",
+      "firstFrame": 1.0,
+      "lastFrame": 25.0,
+      "fps": 24,
+      "seconds": 1.0,
+      "loop": false,
+      "source": "Adapted fallback authored on supplied rig",
+      "curvesPreserved": false
+    },
+    {
+      "name": "Corsair_Hit",
+      "firstFrame": 1.0,
+      "lastFrame": 13.0,
+      "fps": 24,
+      "seconds": 0.5,
+      "loop": false,
+      "source": "Adapted fallback authored on supplied rig",
+      "curvesPreserved": false
+    },
+    {
+      "name": "Corsair_Death",
+      "firstFrame": 1.0,
+      "lastFrame": 84.0,
+      "fps": 24,
+      "seconds": 3.4583333333333335,
+      "loop": false,
+      "source": "Meshy supplied",
+      "curvesPreserved": true
+    }
+  ],
+  "locomotion": {
+    "walkMetresPerSecond": 1.1996357440948486,
+    "runMetresPerSecond": 7.257414817810059
+  },
+  "locomotionMeasurement": {
+    "Walk": {
+      "metresPerSecond": 1.1996357440948486,
+      "method": "Median positive Blender-Y sole velocity; sole <= minimum+.06m and abs(verticalVelocity)<.65m/s, sampled at120Hz",
+      "stanceSamples": 110,
+      "min": 0.22101400792598724,
+      "max": 1.7037891149520874,
+      "contactSamples": [
+        {
+          "time": 0.008333333333333331,
+          "side": "Right",
+          "backwardSpeed": 0.22101400792598724,
+          "soleHeight": 0.07765611261129379,
+          "verticalSpeed": -0.2867848873138428
+        },
+        {
+          "time": 0.016666666666666663,
+          "side": "Right",
+          "backwardSpeed": 0.2211981862783432,
+          "soleHeight": 0.07526839524507523,
+          "verticalSpeed": -0.2862184941768646
+        },
+        {
+          "time": 0.025000000000000005,
+          "side": "Right",
+          "backwardSpeed": 0.22140829265117645,
+          "soleHeight": 0.07288580387830734,
+          "verticalSpeed": -0.28565746545791626
+        },
+        {
+          "time": 0.03333333333333333,
+          "side": "Right",
+          "backwardSpeed": 0.22157727181911469,
+          "soleHeight": 0.07050743699073792,
+          "verticalSpeed": -0.2851022481918335
+        },
+        {
+          "time": 0.041666666666666664,
+          "side": "Right",
+          "backwardSpeed": 0.4335996210575104,
+          "soleHeight": 0.06813409924507141,
+          "verticalSpeed": -0.1486220806837082
+        },
+        {
+          "time": 0.05000000000000001,
+          "side": "Right",
+          "backwardSpeed": 0.6463926434516907,
+          "soleHeight": 0.06803040206432343,
+          "verticalSpeed": -0.010007320903241634
+        },
+        {
+          "time": 0.05833333333333333,
+          "side": "Right",
+          "backwardSpeed": 0.6480055451393127,
+          "soleHeight": 0.06796731054782867,
+          "verticalSpeed": -0.005123912822455168
+        },
+        {
+          "time": 0.06666666666666667,
+          "side": "Right",
+          "backwardSpeed": 0.6495460271835327,
+          "soleHeight": 0.06794500350952148,
+          "verticalSpeed": -0.00024318693613167852
+        },
+        {
+          "time": 0.075,
+          "side": "Right",
+          "backwardSpeed": 0.6510292887687683,
+          "soleHeight": 0.06796325743198395,
+          "verticalSpeed": 0.004651844035834074
+        },
+        {
+          "time": 0.08333333333333333,
+          "side": "Right",
+          "backwardSpeed": 0.8380740284919739,
+          "soleHeight": 0.06802253425121307,
+          "verticalSpeed": -0.011084227822721004
+        },
+        {
+          "time": 0.09166666666666667,
+          "side": "Right",
+          "backwardSpeed": 1.0263829231262207,
+          "soleHeight": 0.06777852028608322,
+          "verticalSpeed": -0.02296551875770092
+        },
+        {
+          "time": 0.09999999999999999,
+          "side": "Right",
+          "backwardSpeed": 1.0302149057388306,
+          "soleHeight": 0.0676397755742073,
+          "verticalSpeed": -0.01030415203422308
+        },
+        {
+          "time": 0.10833333333333334,
+          "side": "Right",
+          "backwardSpeed": 1.0337640047073364,
+          "soleHeight": 0.06760678440332413,
+          "verticalSpeed": 0.0024336574133485556
+        },
+        {
+          "time": 0.11666666666666665,
+          "side": "Right",
+          "backwardSpeed": 1.037027359008789,
+          "soleHeight": 0.06768033653497696,
+          "verticalSpeed": 0.01524656917899847
+        },
+        {
+          "time": 0.125,
+          "side": "Right",
+          "backwardSpeed": 1.1860195398330688,
+          "soleHeight": 0.06786089390516281,
+          "verticalSpeed": -0.014032869599759579
+        },
+        {
+          "time": 0.13333333333333333,
+          "side": "Right",
+          "backwardSpeed": 1.3364888429641724,
+          "soleHeight": 0.06744645535945892,
+          "verticalSpeed": -0.038412805646657944
+        },
+        {
+          "time": 0.1416666666666667,
+          "side": "Right",
+          "backwardSpeed": 1.342207670211792,
+          "soleHeight": 0.06722068041563034,
+          "verticalSpeed": -0.01569986157119274
+        },
+        {
+          "time": 0.15,
+          "side": "Right",
+          "backwardSpeed": 1.3472377061843872,
+          "soleHeight": 0.06718479096889496,
+          "verticalSpeed": 0.007167309056967497
+        },
+        {
+          "time": 0.15833333333333333,
+          "side": "Right",
+          "backwardSpeed": 1.351588487625122,
+          "soleHeight": 0.06734013557434082,
+          "verticalSpeed": 0.030156074091792107
+        },
+        {
+          "time": 0.16666666666666666,
+          "side": "Right",
+          "backwardSpeed": 1.4537241458892822,
+          "soleHeight": 0.06768739223480225,
+          "verticalSpeed": -0.014729796908795834
+        },
+        {
+          "time": 0.17500000000000002,
+          "side": "Right",
+          "backwardSpeed": 1.557140827178955,
+          "soleHeight": 0.06709463894367218,
+          "verticalSpeed": -0.054228004068136215
+        },
+        {
+          "time": 0.18333333333333335,
+          "side": "Right",
+          "backwardSpeed": 1.5631269216537476,
+          "soleHeight": 0.0667835921049118,
+          "verticalSpeed": -0.020313261076807976
+        },
+        {
+          "time": 0.19166666666666665,
+          "side": "Right",
+          "backwardSpeed": 1.5679410696029663,
+          "soleHeight": 0.06675608456134796,
+          "verticalSpeed": 0.0137843182310462
+        },
+        {
+          "time": 0.19999999999999998,
+          "side": "Right",
+          "backwardSpeed": 1.5716007947921753,
+          "soleHeight": 0.06701333075761795,
+          "verticalSpeed": 0.04796191677451134
+        },
+        {
+          "time": 0.20833333333333334,
+          "side": "Right",
+          "backwardSpeed": 1.6229091882705688,
+          "soleHeight": 0.06755544990301132,
+          "verticalSpeed": -0.01420497801154852
+        },
+        {
+          "time": 0.21666666666666667,
+          "side": "Right",
+          "backwardSpeed": 1.67481529712677,
+          "soleHeight": 0.0667765811085701,
+          "verticalSpeed": -0.0702260360121727
+        },
+        {
+          "time": 0.225,
+          "side": "Right",
+          "backwardSpeed": 1.6782554388046265,
+          "soleHeight": 0.06638501584529877,
+          "verticalSpeed": -0.023701338097453117
+        },
+        {
+          "time": 0.2333333333333333,
+          "side": "Right",
+          "backwardSpeed": 1.6800549030303955,
+          "soleHeight": 0.0663815587759018,
+          "verticalSpeed": 0.02291679196059704
+        },
+        {
+          "time": 0.24166666666666667,
+          "side": "Right",
+          "backwardSpeed": 1.680227518081665,
+          "soleHeight": 0.06676696240901947,
+          "verticalSpeed": 0.0696091279387474
+        },
+        {
+          "time": 0.25,
+          "side": "Right",
+          "backwardSpeed": 1.6837409734725952,
+          "soleHeight": 0.0675417110323906,
+          "verticalSpeed": -0.019104478880763054
+        },
+        {
+          "time": 0.25833333333333336,
+          "side": "Right",
+          "backwardSpeed": 1.6855112314224243,
+          "soleHeight": 0.06644855439662933,
+          "verticalSpeed": -0.09688093513250351
+        },
+        {
+          "time": 0.26666666666666666,
+          "side": "Right",
+          "backwardSpeed": 1.680424451828003,
+          "soleHeight": 0.06592702865600586,
+          "verticalSpeed": -0.028258411213755608
+        },
+        {
+          "time": 0.27499999999999997,
+          "side": "Right",
+          "backwardSpeed": 1.6734533309936523,
+          "soleHeight": 0.06597758084535599,
+          "verticalSpeed": 0.04034086689352989
+        },
+        {
+          "time": 0.2833333333333333,
+          "side": "Right",
+          "backwardSpeed": 1.6646043062210083,
+          "soleHeight": 0.06659937649965286,
+          "verticalSpeed": 0.10883151739835739
+        },
+        {
+          "time": 0.2916666666666667,
+          "side": "Right",
+          "backwardSpeed": 1.5921180248260498,
+          "soleHeight": 0.06779143959283829,
+          "verticalSpeed": 0.013931392692029476
+        },
+        {
+          "time": 0.3,
+          "side": "Right",
+          "backwardSpeed": 1.5179004669189453,
+          "soleHeight": 0.0668315663933754,
+          "verticalSpeed": -0.08464782685041428
+        },
+        {
+          "time": 0.30833333333333335,
+          "side": "Right",
+          "backwardSpeed": 1.5039591789245605,
+          "soleHeight": 0.06638064235448837,
+          "verticalSpeed": -0.02366691641509533
+        },
+        {
+          "time": 0.31666666666666665,
+          "side": "Right",
+          "backwardSpeed": 1.4886455535888672,
+          "soleHeight": 0.06643711775541306,
+          "verticalSpeed": 0.03700375184416771
+        },
+        {
+          "time": 0.325,
+          "side": "Right",
+          "backwardSpeed": 1.4719685316085815,
+          "soleHeight": 0.06699737161397934,
+          "verticalSpeed": 0.0971876010298729
+        },
+        {
+          "time": 0.3333333333333333,
+          "side": "Right",
+          "backwardSpeed": 1.332662582397461,
+          "soleHeight": 0.06805691123008728,
+          "verticalSpeed": 0.04629224166274071
+        },
+        {
+          "time": 0.3416666666666666,
+          "side": "Right",
+          "backwardSpeed": 1.1996357440948486,
+          "soleHeight": 0.06776890903711319,
+          "verticalSpeed": -0.028477905318140984
+        },
+        {
+          "time": 0.35000000000000003,
+          "side": "Right",
+          "backwardSpeed": 1.1947576999664307,
+          "soleHeight": 0.06758227944374084,
+          "verticalSpeed": -0.01633867435157299
+        },
+        {
+          "time": 0.35833333333333334,
+          "side": "Right",
+          "backwardSpeed": 1.1896892786026,
+          "soleHeight": 0.06749659776687622,
+          "verticalSpeed": -0.0042611355893313885
+        },
+        {
+          "time": 0.3666666666666667,
+          "side": "Right",
+          "backwardSpeed": 1.184429407119751,
+          "soleHeight": 0.06751126050949097,
+          "verticalSpeed": 0.00772744370624423
+        },
+        {
+          "time": 0.375,
+          "side": "Right",
+          "backwardSpeed": 1.0392378568649292,
+          "soleHeight": 0.06762538850307465,
+          "verticalSpeed": 0.04783361777663231
+        },
+        {
+          "time": 0.3833333333333333,
+          "side": "Right",
+          "backwardSpeed": 0.8951514363288879,
+          "soleHeight": 0.06830848753452301,
+          "verticalSpeed": 0.08543237298727036
+        },
+        {
+          "time": 0.39166666666666666,
+          "side": "Right",
+          "backwardSpeed": 0.8919846415519714,
+          "soleHeight": 0.06904926151037216,
+          "verticalSpeed": 0.09233235567808151
+        },
+        {
+          "time": 0.39999999999999997,
+          "side": "Right",
+          "backwardSpeed": 0.8887338042259216,
+          "soleHeight": 0.06984736025333405,
+          "verticalSpeed": 0.09918897598981857
+        },
+        {
+          "time": 0.4083333333333334,
+          "side": "Right",
+          "backwardSpeed": 0.8854096531867981,
+          "soleHeight": 0.07070241123437881,
+          "verticalSpeed": 0.10601922124624252
+        },
+        {
+          "time": 0.4166666666666667,
+          "side": "Right",
+          "backwardSpeed": 0.7175891995429993,
+          "soleHeight": 0.0716143473982811,
+          "verticalSpeed": 0.24779005348682404
+        },
+        {
+          "time": 0.425,
+          "side": "Right",
+          "backwardSpeed": 0.5507808327674866,
+          "soleHeight": 0.0748322457075119,
+          "verticalSpeed": 0.3874812722206116
+        },
+        {
+          "time": 0.43333333333333335,
+          "side": "Right",
+          "backwardSpeed": 0.5494361519813538,
+          "soleHeight": 0.07807236909866333,
+          "verticalSpeed": 0.390142023563385
+        },
+        {
+          "time": 0.44166666666666665,
+          "side": "Right",
+          "backwardSpeed": 0.5480861067771912,
+          "soleHeight": 0.08133461326360703,
+          "verticalSpeed": 0.39279428124427795
+        },
+        {
+          "time": 0.45,
+          "side": "Right",
+          "backwardSpeed": 0.5467217564582825,
+          "soleHeight": 0.08461894094944,
+          "verticalSpeed": 0.3954384922981262
+        },
+        {
+          "time": 0.4583333333333333,
+          "side": "Right",
+          "backwardSpeed": 0.36578890681266785,
+          "soleHeight": 0.0879252552986145,
+          "verticalSpeed": 0.2533726096153259
+        },
+        {
+          "time": 0.5416666666666666,
+          "side": "Left",
+          "backwardSpeed": 0.3801405131816864,
+          "soleHeight": 0.07085549086332321,
+          "verticalSpeed": -0.0028060374315828085
+        },
+        {
+          "time": 0.5499999999999999,
+          "side": "Left",
+          "backwardSpeed": 0.5680274367332458,
+          "soleHeight": 0.07080426067113876,
+          "verticalSpeed": -0.004753767978399992
+        },
+        {
+          "time": 0.5583333333333333,
+          "side": "Left",
+          "backwardSpeed": 0.569354236125946,
+          "soleHeight": 0.07077626138925552,
+          "verticalSpeed": -0.0019642708357423544
+        },
+        {
+          "time": 0.5666666666666667,
+          "side": "Left",
+          "backwardSpeed": 0.5706416964530945,
+          "soleHeight": 0.07077152281999588,
+          "verticalSpeed": 0.000814497412648052
+        },
+        {
+          "time": 0.5750000000000001,
+          "side": "Left",
+          "backwardSpeed": 0.5719184279441833,
+          "soleHeight": 0.07078983634710312,
+          "verticalSpeed": 0.0035968420561403036
+        },
+        {
+          "time": 0.5833333333333334,
+          "side": "Left",
+          "backwardSpeed": 0.744445264339447,
+          "soleHeight": 0.07083147019147873,
+          "verticalSpeed": -0.0041435654275119305
+        },
+        {
+          "time": 0.5916666666666667,
+          "side": "Left",
+          "backwardSpeed": 0.9179484248161316,
+          "soleHeight": 0.07072077691555023,
+          "verticalSpeed": -0.00971630122512579
+        },
+        {
+          "time": 0.6,
+          "side": "Left",
+          "backwardSpeed": 0.9211098551750183,
+          "soleHeight": 0.07066953182220459,
+          "verticalSpeed": -0.0025512275751680136
+        },
+        {
+          "time": 0.6083333333333333,
+          "side": "Left",
+          "backwardSpeed": 0.9241854548454285,
+          "soleHeight": 0.07067825645208359,
+          "verticalSpeed": 0.004624127876013517
+        },
+        {
+          "time": 0.6166666666666667,
+          "side": "Left",
+          "backwardSpeed": 0.927168071269989,
+          "soleHeight": 0.07074660062789917,
+          "verticalSpeed": 0.01183971669524908
+        },
+        {
+          "time": 0.625,
+          "side": "Left",
+          "backwardSpeed": 1.075057864189148,
+          "soleHeight": 0.07087558507919312,
+          "verticalSpeed": -0.004726945888251066
+        },
+        {
+          "time": 0.6333333333333333,
+          "side": "Left",
+          "backwardSpeed": 1.2239598035812378,
+          "soleHeight": 0.0706678181886673,
+          "verticalSpeed": -0.018715111538767815
+        },
+        {
+          "time": 0.6416666666666666,
+          "side": "Left",
+          "backwardSpeed": 1.228873610496521,
+          "soleHeight": 0.0705636665225029,
+          "verticalSpeed": -0.006207972299307585
+        },
+        {
+          "time": 0.65,
+          "side": "Left",
+          "backwardSpeed": 1.233594298362732,
+          "soleHeight": 0.07056435197591782,
+          "verticalSpeed": 0.006370245944708586
+        },
+        {
+          "time": 0.6583333333333333,
+          "side": "Left",
+          "backwardSpeed": 1.238096833229065,
+          "soleHeight": 0.07066983729600906,
+          "verticalSpeed": 0.019009260460734367
+        },
+        {
+          "time": 0.6666666666666666,
+          "side": "Left",
+          "backwardSpeed": 1.380776047706604,
+          "soleHeight": 0.07088117301464081,
+          "verticalSpeed": -0.04757701978087425
+        },
+        {
+          "time": 0.6749999999999999,
+          "side": "Left",
+          "backwardSpeed": 1.5298675298690796,
+          "soleHeight": 0.06987688690423965,
+          "verticalSpeed": -0.09261711686849594
+        },
+        {
+          "time": 0.6833333333333332,
+          "side": "Left",
+          "backwardSpeed": 1.545570969581604,
+          "soleHeight": 0.06933755427598953,
+          "verticalSpeed": -0.03633766993880272
+        },
+        {
+          "time": 0.6916666666666668,
+          "side": "Left",
+          "backwardSpeed": 1.5581022500991821,
+          "soleHeight": 0.0692712590098381,
+          "verticalSpeed": 0.020866690203547478
+        },
+        {
+          "time": 0.7000000000000001,
+          "side": "Left",
+          "backwardSpeed": 1.5673969984054565,
+          "soleHeight": 0.06968533247709274,
+          "verticalSpeed": 0.07877647131681442
+        },
+        {
+          "time": 0.7083333333333334,
+          "side": "Left",
+          "backwardSpeed": 1.6301571130752563,
+          "soleHeight": 0.07058420032262802,
+          "verticalSpeed": -0.005557536613196135
+        },
+        {
+          "time": 0.7166666666666667,
+          "side": "Left",
+          "backwardSpeed": 1.6927205324172974,
+          "soleHeight": 0.06959270685911179,
+          "verticalSpeed": -0.09366049617528915
+        },
+        {
+          "time": 0.725,
+          "side": "Left",
+          "backwardSpeed": 1.6988002061843872,
+          "soleHeight": 0.06902319192886353,
+          "verticalSpeed": -0.04284917935729027
+        },
+        {
+          "time": 0.7333333333333334,
+          "side": "Left",
+          "backwardSpeed": 1.7024873495101929,
+          "soleHeight": 0.06887855380773544,
+          "verticalSpeed": 0.008256732486188412
+        },
+        {
+          "time": 0.7416666666666667,
+          "side": "Left",
+          "backwardSpeed": 1.7037891149520874,
+          "soleHeight": 0.06916080415248871,
+          "verticalSpeed": 0.059538330882787704
+        },
+        {
+          "time": 0.75,
+          "side": "Left",
+          "backwardSpeed": 1.7013858556747437,
+          "soleHeight": 0.06987085938453674,
+          "verticalSpeed": -0.006106942426413298
+        },
+        {
+          "time": 0.7583333333333333,
+          "side": "Left",
+          "backwardSpeed": 1.6987537145614624,
+          "soleHeight": 0.06905902177095413,
+          "verticalSpeed": -0.07867320626974106
+        },
+        {
+          "time": 0.7666666666666666,
+          "side": "Left",
+          "backwardSpeed": 1.6978346109390259,
+          "soleHeight": 0.06855963915586472,
+          "verticalSpeed": -0.041186656802892685
+        },
+        {
+          "time": 0.775,
+          "side": "Left",
+          "backwardSpeed": 1.6957210302352905,
+          "soleHeight": 0.06837257742881775,
+          "verticalSpeed": -0.0037747619207948446
+        },
+        {
+          "time": 0.7833333333333333,
+          "side": "Left",
+          "backwardSpeed": 1.6924129724502563,
+          "soleHeight": 0.06849672645330429,
+          "verticalSpeed": 0.033523138612508774
+        },
+        {
+          "time": 0.7916666666666666,
+          "side": "Left",
+          "backwardSpeed": 1.6386293172836304,
+          "soleHeight": 0.06893129646778107,
+          "verticalSpeed": -0.014760195277631283
+        },
+        {
+          "time": 0.7999999999999999,
+          "side": "Left",
+          "backwardSpeed": 1.5851317644119263,
+          "soleHeight": 0.06825072318315506,
+          "verticalSpeed": -0.06745576113462448
+        },
+        {
+          "time": 0.8083333333333332,
+          "side": "Left",
+          "backwardSpeed": 1.581501841545105,
+          "soleHeight": 0.06780703365802765,
+          "verticalSpeed": -0.03906726464629173
+        },
+        {
+          "time": 0.8166666666666668,
+          "side": "Left",
+          "backwardSpeed": 1.5771995782852173,
+          "soleHeight": 0.06759960204362869,
+          "verticalSpeed": -0.010835676454007626
+        },
+        {
+          "time": 0.8250000000000001,
+          "side": "Left",
+          "backwardSpeed": 1.5722285509109497,
+          "soleHeight": 0.06762643903493881,
+          "verticalSpeed": 0.01721709780395031
+        },
+        {
+          "time": 0.8333333333333334,
+          "side": "Left",
+          "backwardSpeed": 1.4664636850357056,
+          "soleHeight": 0.06788655370473862,
+          "verticalSpeed": -0.0159014742821455
+        },
+        {
+          "time": 0.8416666666666667,
+          "side": "Left",
+          "backwardSpeed": 1.3614104986190796,
+          "soleHeight": 0.06736141443252563,
+          "verticalSpeed": -0.053271349519491196
+        },
+        {
+          "time": 0.85,
+          "side": "Left",
+          "backwardSpeed": 1.3573871850967407,
+          "soleHeight": 0.06699869781732559,
+          "verticalSpeed": -0.033861543983221054
+        },
+        {
+          "time": 0.8583333333333334,
+          "side": "Left",
+          "backwardSpeed": 1.3530312776565552,
+          "soleHeight": 0.06679705530405045,
+          "verticalSpeed": -0.014583616517484188
+        },
+        {
+          "time": 0.8666666666666667,
+          "side": "Left",
+          "backwardSpeed": 1.3483248949050903,
+          "soleHeight": 0.06675563752651215,
+          "verticalSpeed": 0.004591047298163176
+        },
+        {
+          "time": 0.875,
+          "side": "Left",
+          "backwardSpeed": 1.1955426931381226,
+          "soleHeight": 0.06687357276678085,
+          "verticalSpeed": -0.01395642664283514
+        },
+        {
+          "time": 0.8833333333333333,
+          "side": "Left",
+          "backwardSpeed": 1.0437743663787842,
+          "soleHeight": 0.06652303040027618,
+          "verticalSpeed": -0.03658577427268028
+        },
+        {
+          "time": 0.8916666666666666,
+          "side": "Left",
+          "backwardSpeed": 1.040856122970581,
+          "soleHeight": 0.06626380980014801,
+          "verticalSpeed": -0.02564549259841442
+        },
+        {
+          "time": 0.9,
+          "side": "Left",
+          "backwardSpeed": 1.037794828414917,
+          "soleHeight": 0.06609560549259186,
+          "verticalSpeed": -0.014765112660825253
+        },
+        {
+          "time": 0.9083333333333333,
+          "side": "Left",
+          "backwardSpeed": 1.0346012115478516,
+          "soleHeight": 0.06601772457361221,
+          "verticalSpeed": -0.003949552308768034
+        },
+        {
+          "time": 0.9166666666666666,
+          "side": "Left",
+          "backwardSpeed": 0.8443450331687927,
+          "soleHeight": 0.06602977961301804,
+          "verticalSpeed": -0.010168700478971004
+        },
+        {
+          "time": 0.9249999999999999,
+          "side": "Left",
+          "backwardSpeed": 0.6550722718238831,
+          "soleHeight": 0.06584824621677399,
+          "verticalSpeed": -0.019694117829203606
+        },
+        {
+          "time": 0.9333333333333332,
+          "side": "Left",
+          "backwardSpeed": 0.6537794470787048,
+          "soleHeight": 0.06570154428482056,
+          "verticalSpeed": -0.015489756129682064
+        },
+        {
+          "time": 0.9416666666666668,
+          "side": "Left",
+          "backwardSpeed": 0.6524401307106018,
+          "soleHeight": 0.06559008359909058,
+          "verticalSpeed": -0.011281370185315609
+        },
+        {
+          "time": 0.9500000000000001,
+          "side": "Left",
+          "backwardSpeed": 0.6510704159736633,
+          "soleHeight": 0.06551352143287659,
+          "verticalSpeed": -0.007105171214789152
+        },
+        {
+          "time": 0.9583333333333334,
+          "side": "Left",
+          "backwardSpeed": 0.43671008944511414,
+          "soleHeight": 0.06547166407108307,
+          "verticalSpeed": -0.00533401919528842
+        },
+        {
+          "time": 0.9666666666666667,
+          "side": "Left",
+          "backwardSpeed": 0.22296665608882904,
+          "soleHeight": 0.06542462110519409,
+          "verticalSpeed": -0.0053898985497653484
+        },
+        {
+          "time": 0.975,
+          "side": "Left",
+          "backwardSpeed": 0.22280214726924896,
+          "soleHeight": 0.06538183242082596,
+          "verticalSpeed": -0.004909783136099577
+        },
+        {
+          "time": 0.9833333333333334,
+          "side": "Left",
+          "backwardSpeed": 0.22263585031032562,
+          "soleHeight": 0.06534279137849808,
+          "verticalSpeed": -0.00443994952365756
+        },
+        {
+          "time": 0.9916666666666667,
+          "side": "Left",
+          "backwardSpeed": 0.22247670590877533,
+          "soleHeight": 0.06530783325433731,
+          "verticalSpeed": -0.003961175214499235
+        }
+      ]
+    },
+    "Run": {
+      "metresPerSecond": 7.257414817810059,
+      "method": "Median positive Blender-Y sole velocity; sole <= minimum+.06m and abs(verticalVelocity)<.65m/s, sampled at120Hz",
+      "stanceSamples": 18,
+      "min": 6.612735748291016,
+      "max": 7.558874130249023,
+      "contactSamples": [
+        {
+          "time": 0.225,
+          "side": "Left",
+          "backwardSpeed": 7.217305660247803,
+          "soleHeight": 0.0463850200176239,
+          "verticalSpeed": -0.3318386375904083
+        },
+        {
+          "time": 0.2333333333333333,
+          "side": "Left",
+          "backwardSpeed": 7.149202346801758,
+          "soleHeight": 0.045098401606082916,
+          "verticalSpeed": 0.01976117305457592
+        },
+        {
+          "time": 0.24166666666666667,
+          "side": "Left",
+          "backwardSpeed": 7.0578765869140625,
+          "soleHeight": 0.04671437293291092,
+          "verticalSpeed": 0.36382150650024414
+        },
+        {
+          "time": 0.25,
+          "side": "Left",
+          "backwardSpeed": 7.132105827331543,
+          "soleHeight": 0.05116209387779236,
+          "verticalSpeed": 0.06195343658328056
+        },
+        {
+          "time": 0.25833333333333336,
+          "side": "Left",
+          "backwardSpeed": 7.274271011352539,
+          "soleHeight": 0.0477469302713871,
+          "verticalSpeed": -0.20216970145702362
+        },
+        {
+          "time": 0.26666666666666666,
+          "side": "Left",
+          "backwardSpeed": 7.286609172821045,
+          "soleHeight": 0.047792598605155945,
+          "verticalSpeed": 0.21470902860164642
+        },
+        {
+          "time": 0.27499999999999997,
+          "side": "Left",
+          "backwardSpeed": 7.257414817810059,
+          "soleHeight": 0.05132541432976723,
+          "verticalSpeed": 0.6325117945671082
+        },
+        {
+          "time": 0.2916666666666667,
+          "side": "Left",
+          "backwardSpeed": 7.161425590515137,
+          "soleHeight": 0.06876928359270096,
+          "verticalSpeed": 0.4524403512477875
+        },
+        {
+          "time": 0.3,
+          "side": "Left",
+          "backwardSpeed": 7.305014610290527,
+          "soleHeight": 0.06587513536214828,
+          "verticalSpeed": 0.0034314391668885946
+        },
+        {
+          "time": 0.5333333333333333,
+          "side": "Right",
+          "backwardSpeed": 6.612735748291016,
+          "soleHeight": 0.03571776673197746,
+          "verticalSpeed": -0.5715152025222778
+        },
+        {
+          "time": 0.5416666666666666,
+          "side": "Right",
+          "backwardSpeed": 7.077516078948975,
+          "soleHeight": 0.033584561198949814,
+          "verticalSpeed": -0.43958330154418945
+        },
+        {
+          "time": 0.5499999999999999,
+          "side": "Right",
+          "backwardSpeed": 7.558874130249023,
+          "soleHeight": 0.02839137800037861,
+          "verticalSpeed": -0.3752323091030121
+        },
+        {
+          "time": 0.5583333333333333,
+          "side": "Right",
+          "backwardSpeed": 7.466906547546387,
+          "soleHeight": 0.027330689132213593,
+          "verticalSpeed": 0.11509983986616135
+        },
+        {
+          "time": 0.5666666666666667,
+          "side": "Right",
+          "backwardSpeed": 7.329130172729492,
+          "soleHeight": 0.030309708788990974,
+          "verticalSpeed": 0.5920933485031128
+        },
+        {
+          "time": 0.5833333333333334,
+          "side": "Right",
+          "backwardSpeed": 7.136122226715088,
+          "soleHeight": 0.047831710427999496,
+          "verticalSpeed": 0.3972378075122833
+        },
+        {
+          "time": 0.5916666666666667,
+          "side": "Right",
+          "backwardSpeed": 7.2553300857543945,
+          "soleHeight": 0.04381954297423363,
+          "verticalSpeed": -0.27571654319763184
+        },
+        {
+          "time": 0.6,
+          "side": "Right",
+          "backwardSpeed": 7.291380882263184,
+          "soleHeight": 0.04323643445968628,
+          "verticalSpeed": 0.13790442049503326
+        },
+        {
+          "time": 0.6083333333333333,
+          "side": "Right",
+          "backwardSpeed": 7.280569553375244,
+          "soleHeight": 0.04611795023083687,
+          "verticalSpeed": 0.5528866052627563
+        }
+      ]
+    }
+  },
+  "textures": {
+    "BaseColor": {
+      "file": "Textures/BaseColor.png",
+      "sha256": "10eba17098780f8ddecb208be05aa107ce93a9ce008918afd144d16fb59c9966"
+    },
+    "Metallic": {
+      "file": "Textures/Metallic.png",
+      "sha256": "8b7f6d65871590a31f36e88005ccc56cfd066af1dec0ab198572d44e5fd1768a"
+    },
+    "Roughness": {
+      "file": "Textures/Roughness.png",
+      "sha256": "cca5a8d8df624341970ad8c9f4b819ea395d43efabb84653a027291df0a0c07e"
+    },
+    "Normal": {
+      "file": "Textures/Normal.png",
+      "sha256": "a1a363d2e65b62207bbbdae3a5dcc3990cc919b45d8a1df764b42cccba9eb86b"
+    }
+  },
+  "fallbackContactValidation": {
+    "Idle": {
+      "min": 0.006000001449137926,
+      "max": 0.006000001449137926
+    },
+    "Walk": {
+      "min": 0.0059998719953000546,
+      "max": 0.0060000671073794365
+    },
+    "Hit": {
+      "min": 0.006000001449137926,
+      "max": 0.006000001449137926
+    },
+    "Attack": {
+      "min": 0.006000001449137926,
+      "max": 0.006000001449137926
+    }
+  },
+  "attackPresentation": "Short body/hand strike; the supplied sword remains holstered. No supplied attack clip.",
+  "fbxSha256": "45b3d2bc2cd221097d94bf54aeeb8ed1ca854a36912c6237ee5853fa598b2d51"
+}

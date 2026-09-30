@@ -1,0 +1,619 @@
+{
+    "status": "completed",
+    "buildGuid": "95d270a8742e424d8d88e35c3fd0e12d",
+    "unity": "6000.3.23f1",
+    "generatedUtc": "2026-09-10T18:51:11.7090612Z",
+    "biome": "caribbean",
+    "scene": "ArtOverhaul_Caribbean",
+    "graphicsDevice": "NVIDIA GeForce RTX 3060 Ti",
+    "note": "Native Windows art-scene inspection. Screenshots submit the running URP camera into a RenderTexture with live skinning; HUD is camera-space only for its own capture. On-screen counts test transformed LOD0 mesh bounds/frustum and center. HUD captures additionally project unit centers and all eight bounds corners into the measured free screen area between panels; this tests panel overlap, not environment occlusion. Animation checks sample 30 live frames per state with culling temporarily AlwaysAnimate. Render counters sample three regular frames after two drain frames following explicit screenshot requests; HUD visibility is recorded per view. This is not calibrated frame timing, mobile FPS, physical-device testing or visual-parity evidence.",
+    "width": 1920,
+    "height": 1080,
+    "visibleControls": 18,
+    "teamChecks": 12,
+    "passed": true,
+    "controlsFit": true,
+    "controlsBlockWorldInput": true,
+    "units": [
+        {
+            "kind": "Worker",
+            "label": "Recolector",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0038449764251708986,
+                    "boneRotationDegrees": 0.6317980885505676,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0018396377563476563,
+                    "boneRotationDegrees": 1.6513361930847169,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00015032291412353516,
+                    "boneRotationDegrees": 0.9091295599937439,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Pirate",
+            "label": "Pirata",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00008535385131835938,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0005000829696655273,
+                    "boneRotationDegrees": 0.46646106243133547,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00014579296112060547,
+                    "boneRotationDegrees": 0.4545638859272003,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Hero",
+            "label": "Héroe",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00008189678192138672,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0005004405975341797,
+                    "boneRotationDegrees": 0.4681359529495239,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0001442432403564453,
+                    "boneRotationDegrees": 0.45110705494880679,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Warrior",
+            "label": "Guerrero",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00008344650268554688,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0005034208297729492,
+                    "boneRotationDegrees": 0.46980491280555727,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00014889240264892578,
+                    "boneRotationDegrees": 0.4647800922393799,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        }
+    ],
+    "views": [
+        {
+            "view": "close",
+            "image": "caribbean-close.png",
+            "countOnScreen": 2,
+            "fullyInFrame": 1,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 2.0999999046325685,
+            "cameraPosition": {
+                "x": -5.1966776847839359,
+                "y": 5.900163650512695,
+                "z": -15.94050407409668
+            },
+            "cameraEuler": {
+                "x": 22.000001907348634,
+                "y": 20.000001907348634,
+                "z": 0.0
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Pirate"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "medium",
+            "image": "caribbean-medium.png",
+            "countOnScreen": 4,
+            "fullyInFrame": 4,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 10.0,
+            "cameraPosition": {
+                "x": -24.759199142456056,
+                "y": 66.78516387939453,
+                "z": -39.34770202636719
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Pirate",
+                "Hero",
+                "Warrior"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "rts",
+            "image": "caribbean-rts.png",
+            "countOnScreen": 4,
+            "fullyInFrame": 4,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 22.0,
+            "cameraPosition": {
+                "x": -26.319198608398439,
+                "y": 67.03216552734375,
+                "z": -27.587703704833986
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Pirate",
+                "Hero",
+                "Warrior"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "action",
+            "image": "caribbean-action.png",
+            "countOnScreen": 2,
+            "fullyInFrame": 1,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 2.0999999046325685,
+            "cameraPosition": {
+                "x": -5.1966776847839359,
+                "y": 5.900163650512695,
+                "z": -15.94050407409668
+            },
+            "cameraEuler": {
+                "x": 22.000001907348634,
+                "y": 20.000001907348634,
+                "z": 0.0
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Pirate"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "controls",
+            "image": "caribbean-controls.png",
+            "countOnScreen": 4,
+            "fullyInFrame": 4,
+            "hasPixels": true,
+            "hudVisible": true,
+            "orthographicSize": 31.747730255126954,
+            "cameraPosition": {
+                "x": -27.297061920166017,
+                "y": 65.83841705322266,
+                "z": -28.984237670898439
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Pirate",
+                "Hero",
+                "Warrior"
+            ],
+            "hudFramingApplied": true,
+            "hudPanelMeasurementValid": true,
+            "selectedCenterInFreeArea": true,
+            "selectedBoundsInFreeArea": true,
+            "centersInFreeArea": 4,
+            "boundsInFreeArea": 4,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 8.0,
+                "y": 201.20001220703126,
+                "width": 1904.0,
+                "height": 748.3999633789063
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 957.5999755859375,
+                "width": 1920.0,
+                "height": 122.4000244140625
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1920.0,
+                "height": 193.20001220703126
+            },
+            "unitsInFreeArea": [
+                "Worker",
+                "Pirate",
+                "Hero",
+                "Warrior"
+            ],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        }
+    ],
+    "screenshots": [
+        "caribbean-close.png",
+        "caribbean-medium.png",
+        "caribbean-rts.png",
+        "caribbean-action.png",
+        "caribbean-controls.png"
+    ],
+    "problems": [],
+    "metricsDrawCalls": {
+        "name": "Draw Calls Count",
+        "unit": "Count",
+        "reason": "Unavailable: all observed render samples were zero.",
+        "available": false,
+        "samples": 3,
+        "mean": -1.0,
+        "minimum": -1,
+        "maximum": -1
+    },
+    "metricsTriangles": {
+        "name": "Triangles Count",
+        "unit": "Count",
+        "reason": "Unavailable: all observed render samples were zero.",
+        "available": false,
+        "samples": 3,
+        "mean": -1.0,
+        "minimum": -1,
+        "maximum": -1
+    }
+}

@@ -1,0 +1,139 @@
+{
+  "id": "pirate_sloop",
+  "entry": {
+    "id": "pirate_sloop",
+    "role": "landmark",
+    "kind": "ship",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 5.0,
+    "footprint": 4.5,
+    "size": 1024,
+    "biome": "caribbean",
+    "teamHues": [
+      [
+        0,
+        15
+      ]
+    ],
+    "factions": [
+      "pirates"
+    ],
+    "priority": 4,
+    "prompt": "Low-poly game asset: a pirate sloop for a top-down strategy game. A single-masted raked hull with a low freeboard and a small raised quarterdeck at the stern, one angled mast with a full triangular sail, a bowsprit. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 1.6 m wide, 4.5 m long, 5 m tall. Isolated, no ground, no water, no crew, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Weathered dark timber hull (#5E4632), pale patched sail (#D8C7A0) with a saturated dark-red patch and pennant (#8A2A22). No skulls, no text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3a5-e2c0-7006-88e4-cc431c7e5fb8",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2516738293,
+        "prompt": "Low-poly game asset: a pirate sloop for a top-down strategy game. A single-masted raked hull with a low freeboard and a small raised quarterdeck at the stern, one angled mast with a full triangular sail, a bowsprit. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 1.6 m wide, 4.5 m long, 5 m tall. Isolated, no ground, no water, no crew, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790525699030,
+        "progress": 100,
+        "started_at": 1790525699046,
+        "finished_at": 1790525706396,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a5-e2c0-7006-88e4-cc431c7e5fb8/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a5-e2c0-7006-88e4-cc431c7e5fb8/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T16:15:08.056426+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3a6-1994-711a-9af3-81a455169f50",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2516738293,
+        "prompt": "Low-poly game asset: a pirate sloop for a top-down strategy game. A single-masted raked hull with a low freeboard and a small raised quarterdeck at the stern, one angled mast with a full triangular sail, a bowsprit. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 1.6 m wide, 4.5 m long, 5 m tall. Isolated, no ground, no water, no crew, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Weathered dark timber hull (#5E4632), pale patched sail (#D8C7A0) with a saturated dark-red patch and pennant (#8A2A22). No skulls, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790525710081,
+        "progress": 100,
+        "started_at": 1790525710095,
+        "finished_at": 1790525751512,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a6-1994-711a-9af3-81a455169f50/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a6-1994-711a-9af3-81a455169f50/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a6-1994-711a-9af3-81a455169f50/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a6-1994-711a-9af3-81a455169f50/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a6-1994-711a-9af3-81a455169f50/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a6-1994-711a-9af3-81a455169f50/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:15:52.999340+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 85947,
+      "sha256": "8ea61d41f3e01e84e68bd3b198df119ad3292086873d462ec1aa71993edde7e3"
+    },
+    "model_glb": {
+      "file": "pirate_sloop_model.glb",
+      "bytes": 5904744,
+      "sha256": "a7f0372815bf8b66c31ded2866c1cb615abeb57c8df124d2867939f54943f076"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 106221,
+      "sha256": "fb8460d11337c0452cbcfbc377726a850a0f2421844c03db42cc15e1b66f92fd"
+    },
+    "texture_base_color": {
+      "file": "pirate_sloop_base_color.png",
+      "bytes": 4484112,
+      "sha256": "e0f28aa0b501de37c02f2af8e58d6cc57faf126eaf863e6a04a5d439f5dab191"
+    },
+    "texture_metallic": {
+      "file": "pirate_sloop_metallic.png",
+      "bytes": 36880,
+      "sha256": "f5ca9ccbc3c49a1b16a23f9e1e90d19e02d765fe6803a1235ef60767261b3b2b"
+    },
+    "texture_roughness": {
+      "file": "pirate_sloop_roughness.png",
+      "bytes": 1153982,
+      "sha256": "ffd5bbbe9ddcb101c2bc3fb024465d061305fe14bf562db1bd204a34977038b5"
+    },
+    "texture_normal": {
+      "file": "pirate_sloop_normal.png",
+      "bytes": 3563007,
+      "sha256": "8709d25c5d5e49c269cb7ea3b4b7a37861c60284d9e577efb3b392165381bcd1"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3868,
+    "lod0": 3499,
+    "lod1": 800,
+    "fittedMetres": [
+      1.709,
+      4.5,
+      4.5
+    ],
+    "teamMaskCoverage": 0.0051
+  }
+}

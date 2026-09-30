@@ -1,0 +1,56 @@
+[
+  {
+    "role": "death",
+    "archive": "C:\\Users\\jacob\\Downloads\\Meshy_AI_Red_Tide_Corsair_biped (1).zip",
+    "sha256": "c734ee928cd486f9d0c34783c9a1ba58889adb32346ff1ed29f044d011929e17",
+    "files": [
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_Animation_Fall_Dead_from_Abdominal_Injury_withSkin.fbx",
+        "bytes": 14221020
+      },
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_texture_0.png",
+        "bytes": 7018664
+      },
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_texture_0_metallic.png",
+        "bytes": 2413447
+      },
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_texture_0_normal.png",
+        "bytes": 4684280
+      },
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_texture_0_roughness.png",
+        "bytes": 3716391
+      }
+    ]
+  },
+  {
+    "role": "run",
+    "archive": "C:\\Users\\jacob\\Downloads\\Meshy_AI_Red_Tide_Corsair_biped.zip",
+    "sha256": "445ff34a9c10b1ee9c701926737cc83137107239e18d13450a3766b58ecefe3a",
+    "files": [
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_Animation_Running_withSkin.fbx",
+        "bytes": 14184204
+      },
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_texture_0.png",
+        "bytes": 7018664
+      },
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_texture_0_metallic.png",
+        "bytes": 2413447
+      },
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_texture_0_normal.png",
+        "bytes": 4684280
+      },
+      {
+        "name": "Meshy_AI_Red_Tide_Corsair_biped/Meshy_AI_Red_Tide_Corsair_biped_texture_0_roughness.png",
+        "bytes": 3716391
+      }
+    ]
+  }
+]

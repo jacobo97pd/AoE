@@ -1,0 +1,133 @@
+{
+  "id": "mountain_storeyard",
+  "entry": {
+    "id": "mountain_storeyard",
+    "style": "mountain",
+    "building": "storeyard",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan storehouse. A small square timber shed open on the front under a steep lean-to thatch roof, filled with barrels, grain sacks and rolled furs, a blue cloth awning over the opening."
+  },
+  "style": {
+    "factions": [
+      "skeld"
+    ],
+    "suffix": "Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        200,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43a-5d13-70d9-9aef-405e36b8738e",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3206501360,
+        "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan storehouse. A small square timber shed open on the front under a steep lean-to thatch roof, filled with barrels, grain sacks and rolled furs, a blue cloth awning over the opening. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266994163,
+        "progress": 100,
+        "started_at": 1790266994170,
+        "finished_at": 1790267007140,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-5d13-70d9-9aef-405e36b8738e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-5d13-70d9-9aef-405e36b8738e/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:23:31.630715+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43a-b3de-7294-b2ee-00951de0a424",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3206501360,
+        "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan storehouse. A small square timber shed open on the front under a steep lean-to thatch roof, filled with barrels, grain sacks and rolled furs, a blue cloth awning over the opening. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267012100,
+        "progress": 100,
+        "started_at": 1790267012107,
+        "finished_at": 1790267085155,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-b3de-7294-b2ee-00951de0a424/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-b3de-7294-b2ee-00951de0a424/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-b3de-7294-b2ee-00951de0a424/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-b3de-7294-b2ee-00951de0a424/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-b3de-7294-b2ee-00951de0a424/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-b3de-7294-b2ee-00951de0a424/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:24:48.970695+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "mountain_storeyard_model.glb",
+      "bytes": 5890400,
+      "sha256": "14a9679ece5717efa2101f32cd96cf40a0fb88483402f9b704e795949a650de9"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 214424,
+      "sha256": "d3a6a04adae3a474893a74465c853e61b9b0ff4811100b26b3a5cf40a1110dcb"
+    },
+    "texture_base_color": {
+      "file": "mountain_storeyard_base_color.png",
+      "bytes": 4891400,
+      "sha256": "9d6f55d137fb77fd9ec537c39e774ba55ecbcb4ec8cc7729dc045127d90f0161"
+    },
+    "texture_metallic": {
+      "file": "mountain_storeyard_metallic.png",
+      "bytes": 22932,
+      "sha256": "42f633a8f4560275f70d64c9b53d3676c3421d3ebdebc9c4f104662e4b2da850"
+    },
+    "texture_roughness": {
+      "file": "mountain_storeyard_roughness.png",
+      "bytes": 1338730,
+      "sha256": "8d08c0ca06491779516e07c66e336c4655084711f004c5f41b1dc41916ff74e8"
+    },
+    "texture_normal": {
+      "file": "mountain_storeyard_normal.png",
+      "bytes": 3498432,
+      "sha256": "e96a25481007d112d64c1e1649c65feefa88220af04050098ba96375cc7d305f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4831,
+    "triangles": 4831,
+    "fittedMetres": [
+      1.853,
+      1.92,
+      1.47
+    ],
+    "teamMaskCoverage": 0.3223
+  }
+}

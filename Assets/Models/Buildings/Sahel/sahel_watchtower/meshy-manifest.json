@@ -1,0 +1,134 @@
+{
+  "id": "sahel_watchtower",
+  "entry": {
+    "id": "sahel_watchtower",
+    "style": "sahel",
+    "building": "watchtower",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 4.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a lookout tower. One tall, slim, slightly tapering square tower of mud-brick, clearly taller than wide, a few wooden beam ends sticking out, a small open wooden lookout platform under a pointed conical thatch roof at the top and an indigo pennant."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d1-f802-71d4-89df-b9d24545d463",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1994878892,
+        "prompt": "Low-poly game asset for a top-down strategy game: a lookout tower. One tall, slim, slightly tapering square tower of mud-brick, clearly taller than wide, a few wooden beam ends sticking out, a small open wooden lookout platform under a pointed conical thatch roof at the top and an indigo pennant. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528585286,
+        "progress": 100,
+        "started_at": 1790528585292,
+        "finished_at": 1790528595037,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-f802-71d4-89df-b9d24545d463/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-f802-71d4-89df-b9d24545d463/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:03:22.776669+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d2-4427-7491-b3a5-0c311fa9afb8",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1994878892,
+        "prompt": "Low-poly game asset for a top-down strategy game: a lookout tower. One tall, slim, slightly tapering square tower of mud-brick, clearly taller than wide, a few wooden beam ends sticking out, a small open wooden lookout platform under a pointed conical thatch roof at the top and an indigo pennant. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528603219,
+        "progress": 100,
+        "started_at": 1790528603225,
+        "finished_at": 1790528650693,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-4427-7491-b3a5-0c311fa9afb8/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-4427-7491-b3a5-0c311fa9afb8/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-4427-7491-b3a5-0c311fa9afb8/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-4427-7491-b3a5-0c311fa9afb8/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-4427-7491-b3a5-0c311fa9afb8/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-4427-7491-b3a5-0c311fa9afb8/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:04:14.600042+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_watchtower_model.glb",
+      "bytes": 5381872,
+      "sha256": "80c1915762aeb584ac3e2e8b3f8daf1e7d346f02edac5f833332de8e08084f86"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 61556,
+      "sha256": "b6a1b8a258f840da5fc7b96b7a0b30b8fac48407003145bd49ac93fdaa3f69f4"
+    },
+    "texture_base_color": {
+      "file": "sahel_watchtower_base_color.png",
+      "bytes": 4327011,
+      "sha256": "e53983650b4d1836dca2e25137ba71fe524971214984010719f98873b85a58b3"
+    },
+    "texture_metallic": {
+      "file": "sahel_watchtower_metallic.png",
+      "bytes": 36706,
+      "sha256": "b11009a6f2756a75345dd4daf088eee8d9363fb3170fbf62dd9240d1be0d2dfa"
+    },
+    "texture_roughness": {
+      "file": "sahel_watchtower_roughness.png",
+      "bytes": 1118218,
+      "sha256": "14ce5ce1d63224090552ecd76c072ca814e7d96c092b4f390a105a869b2a0ef4"
+    },
+    "texture_normal": {
+      "file": "sahel_watchtower_normal.png",
+      "bytes": 3200298,
+      "sha256": "8c979d0a1e1679fefba1693773321258ac357469c3a18abd1890acf7584a6e0d"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 5255,
+    "triangles": 5255,
+    "fittedMetres": [
+      1.652,
+      1.48,
+      4.0
+    ],
+    "teamMaskCoverage": 0.0121
+  }
+}

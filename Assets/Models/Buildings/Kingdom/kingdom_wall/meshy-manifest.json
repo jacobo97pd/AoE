@@ -1,0 +1,430 @@
+{
+  "id": "kingdom_wall",
+  "entry": {
+    "id": "kingdom_wall",
+    "style": "kingdom",
+    "building": "wall",
+    "footprint": [
+      3,
+      1
+    ],
+    "height": 3.7,
+    "fit": "stretch",
+    "triangles": 3000,
+    "base": "kingdom_fortifications"
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "retexture": {
+      "task": {
+        "id": "01a0d614-f40e-708f-9efe-c72e8cc32f89",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls, merlons, pillars and walkway: pale grey-beige dressed ashlar blocks (#D4D4C4) with thin darker joints. Plinth, corbels and the door surround: slightly darker grey stone (#B8B6A8). Arrow slits: dark (#3A3F44). Banners: plain saturated royal blue cloth (#2B4FB0) with a small gold (#C9A650) fleur-de-lis. Rods: dark iron (#3E3E40). No dirt, moss, rust, text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790298093075,
+        "progress": 100,
+        "started_at": 1790298093089,
+        "finished_at": 1790298145213,
+        "expires_at": 1790557345213,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d614-f40e-708f-9efe-c72e8cc32f89/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "kingdom_fortifications",
+      "paidBy": "kingdom_wall",
+      "finished_utc": "2026-09-25T01:02:32.948826+00:00",
+      "credits": 10
+    }
+  },
+  "files": {},
+  "credits": 45,
+  "rejectedPreviews": [
+    {
+      "task": "01a0d5e9-9b12-7175-a1b2-96acfe70fef2",
+      "prompt": "Low-poly game asset for a top-down strategy game: one straight section of a medieval castle curtain wall: a solid block of dressed stone, a bit taller than long, three times longer than thick, flat vertical cut ends to join the next section seamlessly. A flat walkway on top at four fifths of the height, square crenellated battlements along both long edges. No towers, no corners. A royal blue fleur-de-lis banner hangs on the front face. Pale cream dressed stone blocks, grey stone base course, dark iron details. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Two towers with a gate between them, long and low (1 : 0.46 : 0.67); stretch refused (height x2.2).",
+      "rejected_utc": "2026-09-25T00:19:10.980432+00:00"
+    },
+    {
+      "task": "01a0d5ee-4766-7697-a23a-4977959b829c",
+      "prompt": "Low-poly game asset for a top-down strategy game: a medieval castle wall of pale dressed stone blocks: one straight modular wall piece, an upright rectangular slab slightly taller than long and a third as thick, like a slice cut from a long straight wall, both ends cut flat. A narrow walkway along the top at four fifths of the height between two rows of square crenellated battlements. A royal blue fleur-de-lis banner hangs from the top of the front face. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Round 2: a cube-deep block (1 : 0.99 : 0.89) with a tower on top; stretch refused.",
+      "rejected_utc": "2026-09-25T00:25:27.996179+00:00"
+    },
+    {
+      "task": "01a0d5f3-efda-75b6-a462-7ab0abeaea9f",
+      "prompt": "Low-poly game asset for a top-down strategy game: a medieval town wall of pale dressed stone blocks: one modular wall piece, an upright solid slab slightly taller than wide and a third as thick, like a slice cut from a long straight wall, both ends cut flat. Square crenellated battlements along the top edge with a narrow walkway behind them. A small royal blue fleur-de-lis banner on the face. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Round 3: a tower on one end, depth 0.62 of height; stretch refused [1.261, 0.417, 1.576].",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    },
+    {
+      "task": "01a0d5f0-b4d0-758a-9366-c3206f3f648a",
+      "prompt": "Low-poly game asset for a top-down strategy game: a thin straight town wall segment of pale dressed stone blocks from a modular kit. From the front it is a plain upright rectangle slightly taller than wide, square merlons along its top edge; from above it is a narrow strip three times longer than deep, a walkway between a front and a back row of merlons. Both ends cut flat. A royal blue fleur-de-lis banner hangs down the middle of the front. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Prompt probe W1: cube-deep (1 : 0.99 : 0.80); stretch refused.",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    },
+    {
+      "task": "01a0d5f0-b509-709e-b215-038955b388a9",
+      "prompt": "Low-poly game asset for a top-down strategy game: one straight panel of a tall, thin medieval town rampart of pale dressed stone blocks, like a piece cut out of a long city wall: slightly taller than long, only a third as deep as it is long, plain flat ends on both sides. Along the top a narrow walkway between two low rows of square merlons. A royal blue fleur-de-lis banner hangs down the middle of the front face. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Prompt probe W2: narrow and deep (0.49 : 0.42 : 1); stretch refused.",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    },
+    {
+      "task": "01a0d5f1-e2d6-749a-9dce-f2d1df1ef6bd",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single thick flat stone wall panel seen face-on, pale dressed stone blocks, a bit taller than it is wide and a quarter as thick as it is tall. Its top is a flat walkway with a row of square merlons along the front edge and another along the back edge. Straight flat left and right sides. A royal blue fleur-de-lis banner hangs down the middle of the face. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Prompt probe W3: came back as the banner alone.",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    },
+    {
+      "task": "01a0d5f5-fc82-7046-9851-93c823147a1a",
+      "prompt": "Low-poly game asset for a top-down strategy game: a medieval town wall of pale dressed stone blocks: one modular wall piece, a plain upright solid slab slightly taller than wide and a third as thick, like a slice cut from a long straight wall, both ends cut flat. Square crenellated battlements along its top edge. A small royal blue fleur-de-lis banner on the face. Low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Prompt probe W6: a tower on one end, depth 0.84; stretch refused.",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    }
+  ],
+  "base": {
+    "id": "kingdom_wall",
+    "strip": [
+      0.0,
+      0.635485
+    ],
+    "triangles": 510,
+    "bounds": [
+      3.0,
+      0.9,
+      3.7
+    ],
+    "cloth": [
+      [
+        [
+          0.43084,
+          0.71849
+        ],
+        [
+          0.40511,
+          0.70011
+        ],
+        [
+          0.37937,
+          0.71849
+        ],
+        [
+          0.37937,
+          0.59258
+        ],
+        [
+          0.43084,
+          0.59258
+        ]
+      ],
+      [
+        [
+          0.44731,
+          0.59258
+        ],
+        [
+          0.49877,
+          0.59258
+        ],
+        [
+          0.49877,
+          0.71849
+        ],
+        [
+          0.47304,
+          0.70011
+        ],
+        [
+          0.44731,
+          0.71849
+        ]
+      ],
+      [
+        [
+          0.97031,
+          0.08352
+        ],
+        [
+          0.97168,
+          0.08352
+        ],
+        [
+          0.97168,
+          0.10926
+        ],
+        [
+          0.97031,
+          0.10926
+        ]
+      ],
+      [
+        [
+          0.97031,
+          0.10926
+        ],
+        [
+          0.97168,
+          0.10926
+        ],
+        [
+          0.97168,
+          0.13499
+        ],
+        [
+          0.97031,
+          0.13499
+        ]
+      ],
+      [
+        [
+          0.36209,
+          0.6707
+        ],
+        [
+          0.36071,
+          0.6707
+        ],
+        [
+          0.36071,
+          0.54479
+        ],
+        [
+          0.36209,
+          0.54479
+        ]
+      ],
+      [
+        [
+          0.97116,
+          0.30041
+        ],
+        [
+          0.97254,
+          0.30041
+        ],
+        [
+          0.97254,
+          0.35187
+        ],
+        [
+          0.97116,
+          0.35187
+        ]
+      ],
+      [
+        [
+          0.65112,
+          0.59258
+        ],
+        [
+          0.6525,
+          0.59258
+        ],
+        [
+          0.6525,
+          0.71849
+        ],
+        [
+          0.65112,
+          0.71849
+        ]
+      ],
+      [
+        [
+          0.56671,
+          0.71849
+        ],
+        [
+          0.54098,
+          0.70011
+        ],
+        [
+          0.51525,
+          0.71849
+        ],
+        [
+          0.51525,
+          0.59258
+        ],
+        [
+          0.56671,
+          0.59258
+        ]
+      ],
+      [
+        [
+          0.58318,
+          0.59258
+        ],
+        [
+          0.63465,
+          0.59258
+        ],
+        [
+          0.63465,
+          0.71849
+        ],
+        [
+          0.60891,
+          0.70011
+        ],
+        [
+          0.58318,
+          0.71849
+        ]
+      ],
+      [
+        [
+          0.97213,
+          0.59258
+        ],
+        [
+          0.97351,
+          0.59258
+        ],
+        [
+          0.97351,
+          0.61832
+        ],
+        [
+          0.97213,
+          0.61832
+        ]
+      ],
+      [
+        [
+          0.97213,
+          0.61832
+        ],
+        [
+          0.97351,
+          0.61832
+        ],
+        [
+          0.97351,
+          0.64405
+        ],
+        [
+          0.97213,
+          0.64405
+        ]
+      ],
+      [
+        [
+          0.36209,
+          0.81307
+        ],
+        [
+          0.36071,
+          0.81307
+        ],
+        [
+          0.36071,
+          0.68717
+        ],
+        [
+          0.36209,
+          0.68717
+        ]
+      ],
+      [
+        [
+          0.97213,
+          0.66052
+        ],
+        [
+          0.97351,
+          0.66052
+        ],
+        [
+          0.97351,
+          0.71199
+        ],
+        [
+          0.97213,
+          0.71199
+        ]
+      ],
+      [
+        [
+          0.54084,
+          0.73496
+        ],
+        [
+          0.54222,
+          0.73496
+        ],
+        [
+          0.54222,
+          0.86086
+        ],
+        [
+          0.54084,
+          0.86086
+        ]
+      ]
+    ]
+  },
+  "finish": {
+    "sourceTriangles": 510,
+    "triangles": 510,
+    "fittedMetres": [
+      3.0,
+      0.9,
+      3.7
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teamMaskCoverage": 0.0542
+  }
+}

@@ -1,0 +1,33 @@
+﻿{
+    "generatedUtc":  "2026-09-11T08:21:23.9196073Z",
+    "passed":  true,
+    "unity":  "6000.3.23f1",
+    "playerBuildGuid":  "c631611ca3494c648976a8dfc7eea009",
+    "contentVersion":  "frontiers-4157ad1124bb505977eb559760d0af42448038663297879bb5b7a040e557e606",
+    "sourceFbxSha256":  "23aabd8e64dc8d05c72e1926b51ee06794dac8046e4ffa4a8bf0059b56f54ce9",
+    "buildReport":  "../build.txt",
+    "nativeAnimationReport":  "../player/review.json",
+    "nativeGameplayReport":  "../game/gameplay-review.json",
+    "unityPlayMode":  {
+                          "report":  "playmode.xml",
+                          "failed":  0,
+                          "passed":  15
+                      },
+    "heroSimulation":  {
+                           "report":  "hero-simulation-tests.json",
+                           "failed":  0,
+                           "passed":  13
+                       },
+    "expansionRegression":  {
+                                "passed":  44,
+                                "failed":  0,
+                                "report":  "expansion-regression.json"
+                            },
+    "server":  {
+                   "skipped":  0,
+                   "failed":  0,
+                   "passed":  25
+               },
+    "authorityBuildPassed":  true,
+    "scope":  "Imported character and historical hero integration. Native animation and deterministic local combat reviews passed. No mobile frame-rate or competitive balance certification."
+}

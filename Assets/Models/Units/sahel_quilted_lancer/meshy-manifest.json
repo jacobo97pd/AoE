@@ -1,0 +1,176 @@
+{
+  "id": "sahel_quilted_lancer",
+  "entry": {
+    "id": "sahel_quilted_lancer",
+    "name": "Lancero acolchado",
+    "culture": "sahel",
+    "factions": [
+      "sahel"
+    ],
+    "unit": "quilted_lancer",
+    "role": "melee",
+    "rig": "quadruped",
+    "donor": "Horse",
+    "tailDamp": 0.3,
+    "cloth": true,
+    "height": 2.6,
+    "gameHeight": 3.3,
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.14,
+    "prompt": "Low-poly game asset for a top-down strategy game: a West African heavy cavalryman on a pale grey warhorse standing still, all four hooves flat on the ground, legs straight, head up, tail hanging clear of the ground. The rider sits upright in a thick quilted cream cotton war-coat and an indigo turban wound over a quilted cap, a long lance held straight up. The horse wears thick quilted cotton armour in broad indigo-blue and cream stripes over its body and neck, ending above the knees. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Horse coat pale grey (#B8B2A6), dark hooves. Quilted horse armour in broad stripes of saturated indigo blue (#2E3F8F) and cream (#E3D8BE). Rider's war-coat cream (#E3D8BE), turban saturated indigo blue (#2E3F8F). Leather dark brown (#4A3526). Lance iron grey (#8A8C8E). Skin deep brown (#5A3A28). No text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3c3-9afc-7496-b9fe-ec1f40e150f5",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3169368272,
+        "prompt": "Low-poly game asset for a top-down strategy game: a West African heavy cavalryman on a pale grey warhorse standing still, all four hooves flat on the ground, legs straight, head up, tail hanging clear of the ground. The rider sits upright in a thick quilted cream cotton war-coat and an indigo turban wound over a quilted cap, a long lance held straight up. The horse wears thick quilted cotton armour in broad indigo-blue and cream stripes over its body and neck, ending above the knees. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790527644043,
+        "progress": 100,
+        "started_at": 1790527644050,
+        "finished_at": 1790527652180,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-9afc-7496-b9fe-ec1f40e150f5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-9afc-7496-b9fe-ec1f40e150f5/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3c3-c65f-71f3-8b9f-92adaa331570",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3169368272,
+        "prompt": "Low-poly game asset for a top-down strategy game: a West African heavy cavalryman on a pale grey warhorse standing still, all four hooves flat on the ground, legs straight, head up, tail hanging clear of the ground. The rider sits upright in a thick quilted cream cotton war-coat and an indigo turban wound over a quilted cap, a long lance held straight up. The horse wears thick quilted cotton armour in broad indigo-blue and cream stripes over its body and neck, ending above the knees. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Horse coat pale grey (#B8B2A6), dark hooves. Quilted horse armour in broad stripes of saturated indigo blue (#2E3F8F) and cream (#E3D8BE). Rider's war-coat cream (#E3D8BE), turban saturated indigo blue (#2E3F8F). Leather dark brown (#4A3526). Lance iron grey (#8A8C8E). Skin deep brown (#5A3A28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790527655874,
+        "progress": 100,
+        "started_at": 1790527655877,
+        "finished_at": 1790527751384,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-c65f-71f3-8b9f-92adaa331570/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-c65f-71f3-8b9f-92adaa331570/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-c65f-71f3-8b9f-92adaa331570/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-c65f-71f3-8b9f-92adaa331570/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-c65f-71f3-8b9f-92adaa331570/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3c3-c65f-71f3-8b9f-92adaa331570/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:49:18.065815+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_quilted_lancer_model.glb",
+      "bytes": 7886916,
+      "sha256": "ef282f82a79049247f3def6e7289e90444c99f3beeb0ed40bcb7c10c469c3e81"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 80977,
+      "sha256": "01f096b406d39b0e408729ac00f7ed6f5f781e2bf17407a15d4616113096c70d"
+    },
+    "texture_base_color": {
+      "file": "sahel_quilted_lancer_base_color.png",
+      "bytes": 5821217,
+      "sha256": "0648447cf335105f98f0fb95fae99e7cbce6449da73054406250f259482e51b9"
+    },
+    "texture_metallic": {
+      "file": "sahel_quilted_lancer_metallic.png",
+      "bytes": 110226,
+      "sha256": "d9f0bc27537fe05a9cd01bf10d5717f346cf5204bedd8c42a61a87546e9fbe1b"
+    },
+    "texture_roughness": {
+      "file": "sahel_quilted_lancer_roughness.png",
+      "bytes": 1235251,
+      "sha256": "1880941feb84a198fd3b50374aaf06e2effe55f53ec8aff6ee0e8fa5772e96bd"
+    },
+    "texture_normal": {
+      "file": "sahel_quilted_lancer_normal.png",
+      "bytes": 5186181,
+      "sha256": "5e0c7165d42f8355c301fd2c8f0baf21cd9cca6bf0e9990f130c1eca6c6daf15"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5293,
+    "bones": 50,
+    "heightMetres": 1.0,
+    "walkMetresPerSecond": 0.287,
+    "runMetresPerSecond": 1.473,
+    "scale": [
+      7.1,
+      7.833,
+      7.17
+    ],
+    "riderVertices": 868,
+    "donorBack": 3.577,
+    "saddle": 1.0,
+    "bellies": [
+      0.28,
+      0.418
+    ],
+    "pinned": {
+      "muzzle": [
+        0.038,
+        0.24,
+        0.217
+      ]
+    },
+    "tailVertices": 174,
+    "thinnedVertices": 725,
+    "legThickness": 0.0458,
+    "tailFit": {
+      "turn": 25.9,
+      "stretch": 1.5
+    },
+    "fusedLegs": [],
+    "splitLegs": {},
+    "settled": {
+      "Walk": 0.024
+    },
+    "grounded": {
+      "Attack": {
+        "lift": 0.0144
+      }
+    },
+    "teamMaskCoverage": 0.1026,
+    "rig": "transplanted from the Quaternius Horse (CC0) by tools/art/transplant_rig.py"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "caribbean_lighthouse",
+  "entry": {
+    "id": "caribbean_lighthouse",
+    "role": "landmark",
+    "kind": "lighthouse",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 7.9,
+    "footprint": 3.4,
+    "size": 1024,
+    "biome": "caribbean",
+    "priority": 4,
+    "prompt": "Tall round stone lighthouse: a tapering cylindrical tower on a wide round stone base, two painted bands, a lantern room with a railing walkway and a conical cap on top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3.4 m wide and 7 m tall. Isolated, no ground, no rocks, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Tower: whitewashed stone (#E9E4D6) with two faded brick-red bands (#A8483A). Base: grey stone (#A9A698). Lantern: dark iron (#4D5F61) with warm yellow glass (#F2D27A). Cap: grey-teal slate (#7E9597). No text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d438-903a-7334-96c4-8e01296d11fe",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1009066014,
+        "prompt": "Tall round stone lighthouse: a tapering cylindrical tower on a wide round stone base, two painted bands, a lantern room with a railing walkway and a conical cap on top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3.4 m wide and 7 m tall. Isolated, no ground, no rocks, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266873751,
+        "progress": 100,
+        "started_at": 1790266873758,
+        "finished_at": 1790266883296,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-903a-7334-96c4-8e01296d11fe/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-903a-7334-96c4-8e01296d11fe/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:21:31.241854+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d438-de84-74b8-ad6e-fea9d2e0808c",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1009066014,
+        "prompt": "Tall round stone lighthouse: a tapering cylindrical tower on a wide round stone base, two painted bands, a lantern room with a railing walkway and a conical cap on top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3.4 m wide and 7 m tall. Isolated, no ground, no rocks, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Tower: whitewashed stone (#E9E4D6) with two faded brick-red bands (#A8483A). Base: grey stone (#A9A698). Lantern: dark iron (#4D5F61) with warm yellow glass (#F2D27A). Cap: grey-teal slate (#7E9597). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266894625,
+        "progress": 100,
+        "started_at": 1790266894633,
+        "finished_at": 1790266941851,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-de84-74b8-ad6e-fea9d2e0808c/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-de84-74b8-ad6e-fea9d2e0808c/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-de84-74b8-ad6e-fea9d2e0808c/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-de84-74b8-ad6e-fea9d2e0808c/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-de84-74b8-ad6e-fea9d2e0808c/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-de84-74b8-ad6e-fea9d2e0808c/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:22:26.030494+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 48495,
+      "sha256": "aa800dcaea1e2b4f6b7935e92219f86f353cc65f4f5a11013d31da4b225d2ea2"
+    },
+    "model_glb": {
+      "file": "caribbean_lighthouse_model.glb",
+      "bytes": 6758636,
+      "sha256": "ecbc4a05edcb806419cfd87ab35c9383e355e09c6cfab8f92a70a45cd89f84e6"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 52463,
+      "sha256": "aea02e7ac681a004647567f749d98e3cbaaf80332426e025c935b5f0b2026595"
+    },
+    "texture_base_color": {
+      "file": "caribbean_lighthouse_base_color.png",
+      "bytes": 4717058,
+      "sha256": "14cd74ad2bfae6b9e7a79ac3b9f2c7498c5e738d08ff14c3d7edc3ffdb6f4c16"
+    },
+    "texture_metallic": {
+      "file": "caribbean_lighthouse_metallic.png",
+      "bytes": 222588,
+      "sha256": "52ad33081c1fba59c5cb451ad207389217fa3b437156a7afe48fda9ebb7a9ebb"
+    },
+    "texture_roughness": {
+      "file": "caribbean_lighthouse_roughness.png",
+      "bytes": 1116640,
+      "sha256": "7c9022488308c4db8d2883464c921267b3c9758ce76e43abc5ea8e59ad68322d"
+    },
+    "texture_normal": {
+      "file": "caribbean_lighthouse_normal.png",
+      "bytes": 4097253,
+      "sha256": "035a1a2669a5f3cc59fce7c910c8bef1e60ca3b5731ad28f6fe55d27865a88aa"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3835,
+    "lod0": 3500,
+    "lod1": 800,
+    "fittedMetres": [
+      3.317,
+      3.31,
+      7.9
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

@@ -1,0 +1,48 @@
+# Phase 8 — mobile UX
+
+**Implementation, final Unity verification, Windows build and all packaged checks passed.** Final combined verification passed **347 EditMode + 66 PlayMode tests (413 total)**. Physical-device comfort and the Android artifact remain unverified because this workstation has no Android Build Support, bundled SDK/NDK/JDK or connected device. No installation was attempted. [Current status](CURRENT_PHASE.md) owns the combined release ledger.
+
+## Interaction and layout
+
+The complete offline match uses visible controls for starting, selecting, gathering, construction, production, rally placement, research, faction mechanics, surrender and restart. No keyboard binding is required. **Select** toggles a dedicated selection gesture: tap an owned entity or drag a group immediately. Turning Select off restores tap orders and drag camera movement. Double-tap selects the visible type; the previous hold-and-drag and desktop equivalents remain supported. Beginning construction, rally placement or Outpost deployment exits selection mode. Current-selection role filters display counts and narrow the selected group by combat tags; cavalry includes Ashrunners. They do not add matching units from elsewhere on the map.
+
+Two-finger movement combines translation and zoom around the ground point below the fingers' centre. Touch cancellation, lost focus, application pause, a third finger, replaced pinch contacts, UI-origin gestures, screen changes and a modal opened during a gesture cancel pending world actions. A consumed session stays blocked until every contact lifts; a remaining finger cannot accidentally issue an order. Focus loss and application-pause callbacks pause offline matches. UI panels intercept both pointer raycasts and world input.
+
+`MobileInputSettings` scales gesture thresholds with screen height. `MobileHudLayout.Resolve` computes safe-area-aware logical sizes and wrapped action rows. Wide landscapes use a 720-unit reference height; tablet-like aspects use 1080. Main actions are 52 units tall and context actions 60, with eight-unit gaps and width-aware wrapping. The safe area is accounted for once. Actual renderers reflow only when geometry or child counts change. The selection rectangle maps through the full Canvas for overlay and camera rendering.
+
+An offline minimap shows explored terrain, owned entities, currently visible enemies/resources, public Dominion beacons and the camera footprint. Tap or drag it to move the camera without changing selection or unit orders. It uses one reusable texture (maximum side 192 pixels), a reusable pixel buffer and a five-Hz repaint limit. Display area is 180×135 logical units on phones and 220×165 on tablets. Hidden enemy movement does not update its markers. Modal/focus interruption also consumes minimap drags.
+
+## Architecture and changed files
+
+The simulation still accepts ordinary commands; input and layout introduce no alternate gameplay authority. Key additions are `MobileInputSettings.cs`, `MobileHudLayout.cs`, `MinimapView.cs`, and the PlayMode suites `MobileInputTests`, `MobileHudLayoutTests`, `MinimapIntegrationTests`, `ArmySelectionIntegrationTests`. Integration changes are in `GestureTracker`, `RtsInput`, `RtsCamera`, `MatchController`, `MatchHud`, and contextual placement controls. Phase 7's menu/result UI is reused. `tools/Test-AndroidReadiness.ps1` records module/toolchain/device readiness without changing installations.
+
+## Verification
+
+The final frozen run passed **66/66 Unity PlayMode tests**, including **22 Phase 8 cases**: nine queued Input System touch cases, nine geometry/layout cases, two minimap integrations and two current-selection army role integrations. Tests cover 1280×720, 2340×1080, 2048×1536 and 1024×768 layouts, asymmetric/rotated safe insets, dense context rows, repeated reflow, minimum target bounds, actual modal input, focus and pause interruption, reveal/hide information boundaries and camera-only minimap clicks. Role tests verify live counts for the selected subset, clicks that never expand that subset and Ashrunner's cavalry membership alongside its Reposition action. These are synthetic desktop input and geometry checks, not a physical comfort study. Fixtures wait for the Canvas frame and rebuild the actual grid controllers before checking the frontmost button raycast; no assertions were weakened. Evidence: [final PlayMode XML](../testing/evidence/phase10-playmode.xml).
+
+The combined final ledger also passed [347 EditMode tests](../testing/evidence/phase10-editmode.xml), [12 common counter probes](../testing/evidence/phase10-combat-balance.md), [8 faction counter probes](../testing/evidence/phase10-faction-counters.md), [4 natural matches](../testing/evidence/phase7-offline-matches.md), and the required gates in the [30-case movement matrix](../testing/evidence/phase10-movement.md). These totals are shared across Phases 7–10 and do not count the same cases as separate phase deliveries.
+
+The final Windows build passed with GUID **`d1b7b1cbc28740e994945476895e1295`**, size **163,954,032 bytes**, duration **13.820391 seconds**, and **zero errors/warnings**. The [build summary](../testing/evidence/phase10-build.txt) and [19/19 packaged functional matrix](../testing/evidence/phase10-player-matrix.md) retain the delivery evidence. All eight offline combinations of faction, mode and 1280×720/1440×1080 viewport passed, alongside four faction, two technology, two combat, one economy and two art-gallery checks. Runtime and shader logs were checked, reports were freshly generated, and emitted GUIDs and delivered assembly hashes identify the executable.
+
+Final presentation corrections order fog before public labels and both before the opaque UI, restrict defeat cues under fog to owned losses, and refine current-selection role filtering. The final 66-case PlayMode run passed after these corrections; repeated final-player checks and inspected result captures also passed. Screenshots and accelerated AI drivers establish presentation/functionality, not human touch ergonomics or real-time FPS; the distinct profiling methodology belongs to [Phase 10](PHASE_10_REPORT.md).
+
+## Packaged captures
+
+These final-executable captures come from the Dominion runs. They show actual fog, minimap, start/battle state, public objectives, pause menu and the clean result panel at both viewport shapes. Capture inspection does not substitute for physical-device reach, readability or comfort testing.
+
+| Faction / viewport | Start | Battle | Objective | Menu | Result |
+| --- | --- | --- | --- | --- | --- |
+| Aven / 1280×720 | [PNG](../testing/evidence/phase8-offline-aven-start-1280x720.png) | [PNG](../testing/evidence/phase8-offline-aven-battle-1280x720.png) | [PNG](../testing/evidence/phase8-offline-aven-objective-1280x720.png) | [PNG](../testing/evidence/phase8-offline-aven-menu-1280x720.png) | [PNG](../testing/evidence/phase8-offline-aven-result-1280x720.png) |
+| Aven / 1440×1080 | [PNG](../testing/evidence/phase8-offline-aven-start-1440x1080.png) | [PNG](../testing/evidence/phase8-offline-aven-battle-1440x1080.png) | [PNG](../testing/evidence/phase8-offline-aven-objective-1440x1080.png) | [PNG](../testing/evidence/phase8-offline-aven-menu-1440x1080.png) | [PNG](../testing/evidence/phase8-offline-aven-result-1440x1080.png) |
+| Serevin / 1280×720 | [PNG](../testing/evidence/phase8-offline-serevin-start-1280x720.png) | [PNG](../testing/evidence/phase8-offline-serevin-battle-1280x720.png) | [PNG](../testing/evidence/phase8-offline-serevin-objective-1280x720.png) | [PNG](../testing/evidence/phase8-offline-serevin-menu-1280x720.png) | [PNG](../testing/evidence/phase8-offline-serevin-result-1280x720.png) |
+| Serevin / 1440×1080 | [PNG](../testing/evidence/phase8-offline-serevin-start-1440x1080.png) | [PNG](../testing/evidence/phase8-offline-serevin-battle-1440x1080.png) | [PNG](../testing/evidence/phase8-offline-serevin-objective-1440x1080.png) | [PNG](../testing/evidence/phase8-offline-serevin-menu-1440x1080.png) | [PNG](../testing/evidence/phase8-offline-serevin-result-1440x1080.png) |
+
+## Android readiness and unresolved acceptance
+
+The pinned editor is Unity 6000.3.23f1. Android settings remain IL2CPP, ARM64, minimum API 26, landscape autorotation and `com.emberfield.prototype`. The [read-only readiness evidence](../testing/evidence/phase8-android-readiness.json) reports Android module, bundled SDK, NDK and JDK absent, no connected device, and `CanAttemptBundledDeviceBuild: false`. No target device model has been recorded. An APK cannot be produced from the installed toolchain. iOS delivery also requires a suitable macOS/Xcode environment.
+
+On a provisioned device, build with `tools/Build-Unity.ps1 -Target Android`; play a full match from the chooser through result/restart, checking pinch interruptions, selection during battle, notches in both landscape orientations, research scrolling, touch reach, thermal behaviour and audio. This remains an outstanding human/device acceptance gate. Do not infer comfortable play from automated tests.
+
+## Performance and debt
+
+Layout calculations are change-driven; minimap storage is reused and painting capped. Phase 10 measures their combined cost with the actual world presentation. No standalone mobile performance benefit is inferred. Persistent army groups, expanded accessibility settings and a guided tutorial remain future work. Defeat cues under fog are limited to owned losses because the view cannot establish visibility of every enemy death between updates. The bounded art slice and measured optimization are documented in [Phase 9](PHASE_9_REPORT.md) and [Phase 10](PHASE_10_REPORT.md); Phase 11 is not started.

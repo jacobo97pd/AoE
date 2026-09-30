@@ -1,0 +1,379 @@
+{
+    "UnityVersion": "6000.3.23f1",
+    "RulesSha256": "6F100B25035E54E4144761F51885F52E45051EBD6562EF6024AFC37601CB63C2",
+    "MapSha256": "3EF7E44A71AE3C76C74C3DC04BD0BA7E8EFE43AA0BDC500AD2450487D493D072",
+    "UtcTime": "2026-09-10T00:12:40.8671085Z",
+    "Method": "Ordinary shipped-data AI versus AI; accelerated fixed ticks; no grants, forced result, hidden observations or activated handicap. These are pacing/progression proxies, not human fun, competitive balance or rendered performance measurements.",
+    "DeadlineSeconds": 1800,
+    "Passed": true,
+    "Cases": [
+        {
+            "Mode": "Conquest",
+            "LocalFaction": "aven",
+            "Reason": "Conquest",
+            "FinalStateSha256": "6994109BC5C59F5A2EF90A9573CDF11BEBAFFC850E89D1F6DCC8D200B102F1E2",
+            "Finished": true,
+            "Passed": true,
+            "WinnerId": 1,
+            "Deaths": 36,
+            "ObjectiveOwnershipChanges": 0,
+            "Ticks": 8396,
+            "SimulatedSeconds": 419.8,
+            "RunnerWallSeconds": 2.6196558999999999,
+            "Players": [
+                {
+                    "PlayerId": 1,
+                    "Units": 32,
+                    "Workers": 12,
+                    "Buildings": 16,
+                    "EraTier": 4,
+                    "ResearchCount": 9,
+                    "Commands": 726,
+                    "Accepted": 725,
+                    "Rejected": 1,
+                    "GatherOrders": 66,
+                    "BuildingsStarted": 15,
+                    "UnitsQueued": 45,
+                    "ResearchStarted": 10,
+                    "Attacks": 32,
+                    "Scouts": 42,
+                    "Retreats": 9,
+                    "FactionId": "aven",
+                    "Stock": {
+                        "Food": 42,
+                        "Wood": 56,
+                        "Metal": 64,
+                        "Stone": 180
+                    },
+                    "Spent": {
+                        "Food": 4270,
+                        "Wood": 2640,
+                        "Metal": 980,
+                        "Stone": 280
+                    },
+                    "Deposited": {
+                        "Food": 4192,
+                        "Wood": 2616,
+                        "Metal": 1044,
+                        "Stone": 420
+                    },
+                    "PeakMajorityHoldTicks": 0
+                },
+                {
+                    "PlayerId": 2,
+                    "Units": 14,
+                    "Workers": 12,
+                    "Buildings": 9,
+                    "EraTier": 3,
+                    "ResearchCount": 7,
+                    "Commands": 670,
+                    "Accepted": 670,
+                    "Rejected": 0,
+                    "GatherOrders": 61,
+                    "BuildingsStarted": 9,
+                    "UnitsQueued": 32,
+                    "ResearchStarted": 7,
+                    "Attacks": 30,
+                    "Scouts": 45,
+                    "Retreats": 8,
+                    "FactionId": "serevin",
+                    "Stock": {
+                        "Food": 1340,
+                        "Wood": 540,
+                        "Metal": 290,
+                        "Stone": 310
+                    },
+                    "Spent": {
+                        "Food": 2780,
+                        "Wood": 1680,
+                        "Metal": 240,
+                        "Stone": 60
+                    },
+                    "Deposited": {
+                        "Food": 4000,
+                        "Wood": 2140,
+                        "Metal": 530,
+                        "Stone": 330
+                    },
+                    "PeakMajorityHoldTicks": 0
+                }
+            ]
+        },
+        {
+            "Mode": "Conquest",
+            "LocalFaction": "serevin",
+            "Reason": "Conquest",
+            "FinalStateSha256": "9433413A6928E2059D5F8BF069DB3B0CDE253A47B54DD7CCB8AAEE5C668B703D",
+            "Finished": true,
+            "Passed": true,
+            "WinnerId": 2,
+            "Deaths": 78,
+            "ObjectiveOwnershipChanges": 0,
+            "Ticks": 12184,
+            "SimulatedSeconds": 609.2,
+            "RunnerWallSeconds": 4.0571116,
+            "Players": [
+                {
+                    "PlayerId": 1,
+                    "Units": 7,
+                    "Workers": 5,
+                    "Buildings": 11,
+                    "EraTier": 4,
+                    "ResearchCount": 8,
+                    "Commands": 1009,
+                    "Accepted": 1008,
+                    "Rejected": 1,
+                    "GatherOrders": 59,
+                    "BuildingsStarted": 11,
+                    "UnitsQueued": 46,
+                    "ResearchStarted": 8,
+                    "Attacks": 78,
+                    "Scouts": 52,
+                    "Retreats": 13,
+                    "FactionId": "serevin",
+                    "Stock": {
+                        "Food": 0,
+                        "Wood": 780,
+                        "Metal": 48,
+                        "Stone": 650
+                    },
+                    "Spent": {
+                        "Food": 4230,
+                        "Wood": 2060,
+                        "Metal": 540,
+                        "Stone": 280
+                    },
+                    "Deposited": {
+                        "Food": 4110,
+                        "Wood": 2760,
+                        "Metal": 588,
+                        "Stone": 890
+                    },
+                    "PeakMajorityHoldTicks": 0
+                },
+                {
+                    "PlayerId": 2,
+                    "Units": 42,
+                    "Workers": 12,
+                    "Buildings": 16,
+                    "EraTier": 4,
+                    "ResearchCount": 10,
+                    "Commands": 1101,
+                    "Accepted": 1101,
+                    "Rejected": 0,
+                    "GatherOrders": 87,
+                    "BuildingsStarted": 15,
+                    "UnitsQueued": 72,
+                    "ResearchStarted": 10,
+                    "Attacks": 61,
+                    "Scouts": 44,
+                    "Retreats": 76,
+                    "FactionId": "aven",
+                    "Stock": {
+                        "Food": 392,
+                        "Wood": 2422,
+                        "Metal": 616,
+                        "Stone": 198
+                    },
+                    "Spent": {
+                        "Food": 5860,
+                        "Wood": 3210,
+                        "Metal": 980,
+                        "Stone": 280
+                    },
+                    "Deposited": {
+                        "Food": 6132,
+                        "Wood": 5552,
+                        "Metal": 1596,
+                        "Stone": 438
+                    },
+                    "PeakMajorityHoldTicks": 0
+                }
+            ]
+        },
+        {
+            "Mode": "Dominion",
+            "LocalFaction": "aven",
+            "Reason": "Dominion",
+            "FinalStateSha256": "982EE059F121A6651A62B77DCF129EE96A99479A13FDA060CBD9CF65DBF1DC87",
+            "Finished": true,
+            "Passed": true,
+            "WinnerId": 1,
+            "Deaths": 63,
+            "ObjectiveOwnershipChanges": 3,
+            "Ticks": 19081,
+            "SimulatedSeconds": 954.05,
+            "RunnerWallSeconds": 6.1168512999999999,
+            "Players": [
+                {
+                    "PlayerId": 1,
+                    "Units": 44,
+                    "Workers": 12,
+                    "Buildings": 16,
+                    "EraTier": 4,
+                    "ResearchCount": 10,
+                    "Commands": 2063,
+                    "Accepted": 2062,
+                    "Rejected": 1,
+                    "GatherOrders": 137,
+                    "BuildingsStarted": 15,
+                    "UnitsQueued": 41,
+                    "ResearchStarted": 10,
+                    "Attacks": 52,
+                    "Scouts": 0,
+                    "Retreats": 278,
+                    "FactionId": "aven",
+                    "Stock": {
+                        "Food": 3362,
+                        "Wood": 5918,
+                        "Metal": 640,
+                        "Stone": 600
+                    },
+                    "Spent": {
+                        "Food": 4020,
+                        "Wood": 2570,
+                        "Metal": 980,
+                        "Stone": 280
+                    },
+                    "Deposited": {
+                        "Food": 7262,
+                        "Wood": 8408,
+                        "Metal": 1620,
+                        "Stone": 840
+                    },
+                    "PeakMajorityHoldTicks": 9600
+                },
+                {
+                    "PlayerId": 2,
+                    "Units": 3,
+                    "Workers": 0,
+                    "Buildings": 10,
+                    "EraTier": 4,
+                    "ResearchCount": 8,
+                    "Commands": 408,
+                    "Accepted": 408,
+                    "Rejected": 0,
+                    "GatherOrders": 75,
+                    "BuildingsStarted": 9,
+                    "UnitsQueued": 61,
+                    "ResearchStarted": 8,
+                    "Attacks": 79,
+                    "Scouts": 7,
+                    "Retreats": 22,
+                    "FactionId": "serevin",
+                    "Stock": {
+                        "Food": 10,
+                        "Wood": 2100,
+                        "Metal": 200,
+                        "Stone": 112
+                    },
+                    "Spent": {
+                        "Food": 4770,
+                        "Wood": 2540,
+                        "Metal": 540,
+                        "Stone": 260
+                    },
+                    "Deposited": {
+                        "Food": 4660,
+                        "Wood": 4560,
+                        "Metal": 740,
+                        "Stone": 332
+                    },
+                    "PeakMajorityHoldTicks": 0
+                }
+            ]
+        },
+        {
+            "Mode": "Dominion",
+            "LocalFaction": "serevin",
+            "Reason": "Dominion",
+            "FinalStateSha256": "E16488E30597E88787E113D05038AABF6C6E16F51D7EC13329C6BC13776B0EFB",
+            "Finished": true,
+            "Passed": true,
+            "WinnerId": 2,
+            "Deaths": 86,
+            "ObjectiveOwnershipChanges": 3,
+            "Ticks": 22540,
+            "SimulatedSeconds": 1127.0,
+            "RunnerWallSeconds": 7.413892199999999,
+            "Players": [
+                {
+                    "PlayerId": 1,
+                    "Units": 3,
+                    "Workers": 0,
+                    "Buildings": 10,
+                    "EraTier": 4,
+                    "ResearchCount": 10,
+                    "Commands": 910,
+                    "Accepted": 910,
+                    "Rejected": 0,
+                    "GatherOrders": 121,
+                    "BuildingsStarted": 10,
+                    "UnitsQueued": 82,
+                    "ResearchStarted": 10,
+                    "Attacks": 80,
+                    "Scouts": 29,
+                    "Retreats": 36,
+                    "FactionId": "serevin",
+                    "Stock": {
+                        "Food": 16,
+                        "Wood": 4006,
+                        "Metal": 260,
+                        "Stone": 160
+                    },
+                    "Spent": {
+                        "Food": 6090,
+                        "Wood": 2850,
+                        "Metal": 920,
+                        "Stone": 260
+                    },
+                    "Deposited": {
+                        "Food": 5986,
+                        "Wood": 6776,
+                        "Metal": 1180,
+                        "Stone": 380
+                    },
+                    "PeakMajorityHoldTicks": 0
+                },
+                {
+                    "PlayerId": 2,
+                    "Units": 43,
+                    "Workers": 12,
+                    "Buildings": 16,
+                    "EraTier": 4,
+                    "ResearchCount": 10,
+                    "Commands": 3568,
+                    "Accepted": 3563,
+                    "Rejected": 5,
+                    "GatherOrders": 119,
+                    "BuildingsStarted": 15,
+                    "UnitsQueued": 41,
+                    "ResearchStarted": 10,
+                    "Attacks": 71,
+                    "Scouts": 24,
+                    "Retreats": 497,
+                    "FactionId": "aven",
+                    "Stock": {
+                        "Food": 2270,
+                        "Wood": 6544,
+                        "Metal": 220,
+                        "Stone": 120
+                    },
+                    "Spent": {
+                        "Food": 3850,
+                        "Wood": 2740,
+                        "Metal": 980,
+                        "Stone": 280
+                    },
+                    "Deposited": {
+                        "Food": 6000,
+                        "Wood": 9204,
+                        "Metal": 1200,
+                        "Stone": 360
+                    },
+                    "PeakMajorityHoldTicks": 9600
+                }
+            ]
+        }
+    ]
+}

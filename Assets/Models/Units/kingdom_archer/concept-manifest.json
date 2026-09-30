@@ -1,0 +1,35 @@
+{
+  "id": "kingdom_archer",
+  "concept": {
+    "references": [
+      "kingdom_warrior",
+      "kingdom_worker"
+    ],
+    "prompt": "Same painted 3D game-art style, same kingdom culture and the same blue-and-cream tabard with a gold fleur-de-lis as these two figures: a medieval longbowman in a padded gambeson and a simple steel kettle hat, a longbow and a quiver of arrows slung on his back."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0d334-b964-7331-a860-c8abfd383856",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same painted 3D game-art style, same kingdom culture and the same blue-and-cream tabard with a gold fleur-de-lis as these two figures: a medieval longbowman in a padded gambeson and a simple steel kettle hat, a longbow and a quiver of arrows slung on his back. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790249843858,
+    "started_at": 1790249843865,
+    "finished_at": 1790249983853,
+    "expires_at": 1790509183853,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d334-b964-7331-a860-c8abfd383856_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 3550,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1285554,
+    "sha256": "f7d8ff9baa0ff8a97efac872ca05c350f6c09eb235dff92e48a18f3cef20a6e1"
+  },
+  "finished_utc": "2026-09-24T11:39:49.698908+00:00"
+}

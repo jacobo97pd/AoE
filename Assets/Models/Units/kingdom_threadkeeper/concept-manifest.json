@@ -1,0 +1,35 @@
+{
+  "id": "kingdom_threadkeeper",
+  "concept": {
+    "references": [
+      "kingdom_worker",
+      "kingdom_warrior"
+    ],
+    "prompt": "Same painted 3D game-art style, same kingdom culture and the same blue-and-cream tabard with a gold fleur-de-lis as these two figures: a travelling quartermaster in a padded coat and a soft blue cap, a tall wooden A-frame pack of lashed bundles and rolled cloth on his back with a small blue pennant on top, a coil of rope and a ledger case on his belt."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0d412-07b8-725b-aadb-db0cf0b9220e",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same painted 3D game-art style, same kingdom culture and the same blue-and-cream tabard with a gold fleur-de-lis as these two figures: a travelling quartermaster in a padded coat and a soft blue cap, a tall wooden A-frame pack of lashed bundles and rolled cloth on his back with a small blue pennant on top, a coil of rope and a ledger case on his belt. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790264347505,
+    "started_at": 1790264347515,
+    "finished_at": 1790264385563,
+    "expires_at": 1790523585563,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d412-07b8-725b-aadb-db0cf0b9220e_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 3112,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1157256,
+    "sha256": "bb0711fa53a5b6802989a56584b17b45c51e04e585cc864e025fe1e5eb11e38b"
+  },
+  "finished_utc": "2026-09-24T15:39:51.378153+00:00"
+}

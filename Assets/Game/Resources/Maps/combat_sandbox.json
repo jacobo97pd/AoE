@@ -1,0 +1,266 @@
+{
+  "Id": "combat_sandbox",
+  "WidthCells": 64,
+  "HeightCells": 56,
+  "CellSizeMillimetres": 1000,
+  "BlockedCells": [
+    {
+      "X": 32,
+      "Z": 17
+    },
+    {
+      "X": 32,
+      "Z": 38
+    }
+  ],
+  "UnitSpawns": [
+    {
+      "Id": 1,
+      "OwnerId": 1,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 16500,
+        "Z": 22500
+      }
+    },
+    {
+      "Id": 2,
+      "OwnerId": 2,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 46500,
+        "Z": 36500
+      }
+    },
+    {
+      "Id": 10,
+      "OwnerId": 1,
+      "DefinitionId": "reedguard",
+      "Position": {
+        "X": 26500,
+        "Z": 26500
+      }
+    },
+    {
+      "Id": 11,
+      "OwnerId": 1,
+      "DefinitionId": "reedguard",
+      "Position": {
+        "X": 26500,
+        "Z": 28500
+      }
+    },
+    {
+      "Id": 12,
+      "OwnerId": 1,
+      "DefinitionId": "stringwarden",
+      "Position": {
+        "X": 23500,
+        "Z": 26500
+      }
+    },
+    {
+      "Id": 13,
+      "OwnerId": 1,
+      "DefinitionId": "stringwarden",
+      "Position": {
+        "X": 23500,
+        "Z": 28500
+      }
+    },
+    {
+      "Id": 14,
+      "OwnerId": 1,
+      "DefinitionId": "strider",
+      "Position": {
+        "X": 25500,
+        "Z": 31500
+      }
+    },
+    {
+      "Id": 15,
+      "OwnerId": 1,
+      "DefinitionId": "strider",
+      "Position": {
+        "X": 27500,
+        "Z": 31500
+      }
+    },
+    {
+      "Id": 20,
+      "OwnerId": 2,
+      "DefinitionId": "reedguard",
+      "Position": {
+        "X": 37500,
+        "Z": 26500
+      }
+    },
+    {
+      "Id": 21,
+      "OwnerId": 2,
+      "DefinitionId": "reedguard",
+      "Position": {
+        "X": 37500,
+        "Z": 28500
+      }
+    },
+    {
+      "Id": 22,
+      "OwnerId": 2,
+      "DefinitionId": "stringwarden",
+      "Position": {
+        "X": 40500,
+        "Z": 26500
+      }
+    },
+    {
+      "Id": 23,
+      "OwnerId": 2,
+      "DefinitionId": "stringwarden",
+      "Position": {
+        "X": 40500,
+        "Z": 28500
+      }
+    },
+    {
+      "Id": 24,
+      "OwnerId": 2,
+      "DefinitionId": "strider",
+      "Position": {
+        "X": 38500,
+        "Z": 31500
+      }
+    },
+    {
+      "Id": 25,
+      "OwnerId": 2,
+      "DefinitionId": "strider",
+      "Position": {
+        "X": 36500,
+        "Z": 31500
+      }
+    }
+  ],
+  "BuildingSpawns": [
+    {
+      "Id": 100,
+      "OwnerId": 1,
+      "DefinitionId": "hearth",
+      "Position": {
+        "X": 16000,
+        "Z": 16000
+      }
+    },
+    {
+      "Id": 101,
+      "OwnerId": 2,
+      "DefinitionId": "hearth",
+      "Position": {
+        "X": 48000,
+        "Z": 42000
+      }
+    },
+    {
+      "Id": 102,
+      "OwnerId": 1,
+      "DefinitionId": "muster_hall",
+      "Position": {
+        "X": 20500,
+        "Z": 18500
+      }
+    },
+    {
+      "Id": 103,
+      "OwnerId": 2,
+      "DefinitionId": "muster_hall",
+      "Position": {
+        "X": 42500,
+        "Z": 37500
+      }
+    },
+    {
+      "Id": 104,
+      "OwnerId": 1,
+      "DefinitionId": "shelter",
+      "Position": {
+        "X": 20000,
+        "Z": 14000
+      }
+    },
+    {
+      "Id": 105,
+      "OwnerId": 2,
+      "DefinitionId": "shelter",
+      "Position": {
+        "X": 44000,
+        "Z": 44000
+      }
+    }
+  ],
+  "ResourceSpawns": [
+    {
+      "Id": 200,
+      "DefinitionId": "food_source",
+      "Position": {
+        "X": 13500,
+        "Z": 22500
+      }
+    },
+    {
+      "Id": 201,
+      "DefinitionId": "wood_source",
+      "Position": {
+        "X": 22500,
+        "Z": 22500
+      }
+    },
+    {
+      "Id": 202,
+      "DefinitionId": "metal_source",
+      "Position": {
+        "X": 14500,
+        "Z": 26500
+      }
+    },
+    {
+      "Id": 203,
+      "DefinitionId": "stone_source",
+      "Position": {
+        "X": 18500,
+        "Z": 27500
+      }
+    },
+    {
+      "Id": 204,
+      "DefinitionId": "food_source",
+      "Position": {
+        "X": 50500,
+        "Z": 33500
+      }
+    },
+    {
+      "Id": 205,
+      "DefinitionId": "wood_source",
+      "Position": {
+        "X": 41500,
+        "Z": 33500
+      }
+    },
+    {
+      "Id": 206,
+      "DefinitionId": "metal_source",
+      "Position": {
+        "X": 49500,
+        "Z": 29500
+      }
+    },
+    {
+      "Id": 207,
+      "DefinitionId": "stone_source",
+      "Position": {
+        "X": 45500,
+        "Z": 28500
+      }
+    }
+  ]
+}

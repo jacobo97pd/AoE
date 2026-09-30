@@ -1,0 +1,3626 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-09-13T22:48:35.420019+00:00",
+  "sourceWorkspace": "C:\\Users\\jacob\\Documents\\AoE",
+  "freezeRoot": "D:\\EmberfieldWorkingCache\\AoE\\FactionGroupsSourceFreeze",
+  "purpose": "Light source freeze for an isolated faction-groups build while display localization is unfinished in the shared workspace.",
+  "workspaceModifiedByThisOperation": false,
+  "copiedFolders": [
+    "Assets/Game/Simulation",
+    "Assets/Game/Networking",
+    "Assets/Game/Presentation",
+    "Assets/Game/Diagnostics",
+    "Assets/Game/Editor",
+    "Assets/Game/Voice",
+    "Assets/Tests"
+  ],
+  "excludedDirectories": [
+    "Assets/Game/Localization"
+  ],
+  "excludedFiles": [
+    "Assets/Game/Presentation/UiLocalization.cs",
+    "Assets/Game/Presentation/UiLocalization.cs.meta"
+  ],
+  "modifiedInFreeze": [
+    "Assets/Game/Presentation/AlphaControls.cs",
+    "Assets/Game/Presentation/AlphaPanel.cs",
+    "Assets/Game/Presentation/Emberfield.Presentation.asmdef",
+    "Assets/Tests/EditMode/Emberfield.Tests.EditMode.asmdef",
+    "Assets/Tests/PlayMode/Emberfield.Tests.PlayMode.asmdef"
+  ],
+  "decisions": [
+    "Only AlphaControls.cs and AlphaPanel.cs differ in C# source: remove unfinished display-language hook/button; preserve all voice controls and voice settings application.",
+    "Remove only Emberfield.Localization from the Presentation, EditMode test and PlayMode test assembly references; retain Emberfield.Voice and all other references.",
+    "Keep the inert AlphaSettings.Language integer and normalization to minimize source differences and preserve settings compatibility.",
+    "Keep all faction, naval-map, pirate-worker, online, voice and regression changes, including the var scene-handle fix.",
+    "No Unity process, Library, Builds, artwork junction or shared-workspace file changed. This is not a standalone Unity project until the coordinator supplies assets and project configuration."
+  ],
+  "catalogsAtStart": {
+    "SpanishCatalog.cs": false,
+    "EnglishCatalog.cs": false
+  },
+  "catalogsAtEnd": {
+    "SpanishCatalog.cs": false,
+    "EnglishCatalog.cs": false
+  },
+  "sourceChangesDetectedDuringCapture": [],
+  "sourceChangesDetectedAtEnd": [],
+  "copiedFileCount": 510,
+  "totalBytes": 2999117,
+  "allUnmodifiedCopiesMatchSourceHash": true,
+  "noLocalizationReferencesRemain": true,
+  "voiceReferencesPreserved": true,
+  "sceneHandleVarFixPreserved": true,
+  "entries": [
+    {
+      "path": "Assets/Game/Diagnostics/Emberfield.Diagnostics.asmdef",
+      "sourceSha256": "6985eac01de59269004f15a811bccfec84ac193ed4377ec6325357126b0d9a6a",
+      "freezeSha256": "6985eac01de59269004f15a811bccfec84ac193ed4377ec6325357126b0d9a6a",
+      "bytes": 209,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/Emberfield.Diagnostics.asmdef.meta",
+      "sourceSha256": "99c460562d5ac4ab96515b64bd76f551f86e7b70e69590a1c16ae59f5a30b9dc",
+      "freezeSha256": "99c460562d5ac4ab96515b64bd76f551f86e7b70e69590a1c16ae59f5a30b9dc",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/MovementBenchmark.cs",
+      "sourceSha256": "d24eeb4195c1f2d31330b4d4600dd0f1ff80780e97e1f59ae15faf782fe24254",
+      "freezeSha256": "d24eeb4195c1f2d31330b4d4600dd0f1ff80780e97e1f59ae15faf782fe24254",
+      "bytes": 13048,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/MovementBenchmark.cs.meta",
+      "sourceSha256": "67fe161e8ada3b834cc89ac7830916dc3ba91683202bb69d1ac24035af259d10",
+      "freezeSha256": "67fe161e8ada3b834cc89ac7830916dc3ba91683202bb69d1ac24035af259d10",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/MovementObserver.cs",
+      "sourceSha256": "b086cd84026361f9554cf5471e7828ec1fdd65463c3efa15d7e847c83795c2bf",
+      "freezeSha256": "b086cd84026361f9554cf5471e7828ec1fdd65463c3efa15d7e847c83795c2bf",
+      "bytes": 9280,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/MovementObserver.cs.meta",
+      "sourceSha256": "1b0fefa8d00e810c55fcfa45f6596e27e41dcd198157196937d424aff29d43dd",
+      "freezeSha256": "1b0fefa8d00e810c55fcfa45f6596e27e41dcd198157196937d424aff29d43dd",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/MovementScenarioFactory.cs",
+      "sourceSha256": "13d77237931b94384c420f939a003828e7af55419321a40d785c62ae310f14be",
+      "freezeSha256": "13d77237931b94384c420f939a003828e7af55419321a40d785c62ae310f14be",
+      "bytes": 7484,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/MovementScenarioFactory.cs.meta",
+      "sourceSha256": "693dd9ede0f50aa83a155866d56ccaccf31bc811aebb2671d459565246fb12a8",
+      "freezeSha256": "693dd9ede0f50aa83a155866d56ccaccf31bc811aebb2671d459565246fb12a8",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/OfflinePerformanceBenchmark.cs",
+      "sourceSha256": "a07ac54cfaa4c50923e6ff7f33ea96b170b14de7c23304bab88b5abacad9ef9c",
+      "freezeSha256": "a07ac54cfaa4c50923e6ff7f33ea96b170b14de7c23304bab88b5abacad9ef9c",
+      "bytes": 31257,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/OfflinePerformanceBenchmark.cs.meta",
+      "sourceSha256": "6ae635f4f991433d620dff4ac78668e1b8240f617a3dbdffe45a78069440fb04",
+      "freezeSha256": "6ae635f4f991433d620dff4ac78668e1b8240f617a3dbdffe45a78069440fb04",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/ScriptedCommander.cs",
+      "sourceSha256": "ec6ae5443fa5ee6e41709bf4ef5f7f5018ed206449393b7981c16d6adcd80c04",
+      "freezeSha256": "ec6ae5443fa5ee6e41709bf4ef5f7f5018ed206449393b7981c16d6adcd80c04",
+      "bytes": 38410,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics/ScriptedCommander.cs.meta",
+      "sourceSha256": "a11c8f373b60417f616911725c83434ed964ed33b687871628177d8480fbbcb4",
+      "freezeSha256": "a11c8f373b60417f616911725c83434ed964ed33b687871628177d8480fbbcb4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Diagnostics.meta",
+      "sourceSha256": "3a394f181f9a5d635b207acce747080553cbca5f3ecf905e7273f98d8ad6c4ec",
+      "freezeSha256": "3a394f181f9a5d635b207acce747080553cbca5f3ecf905e7273f98d8ad6c4ec",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/AlphaAssetImport.cs",
+      "sourceSha256": "af115a87f2ab488fedf3fb7b89470b8a66ee5ad4e8895404510ed32282cf54ba",
+      "freezeSha256": "af115a87f2ab488fedf3fb7b89470b8a66ee5ad4e8895404510ed32282cf54ba",
+      "bytes": 1834,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/AlphaAssetImport.cs.meta",
+      "sourceSha256": "e258e7eb2bb2460da2ee99e4a730fd53911b58c3e08622454d5ea10727667692",
+      "freezeSha256": "e258e7eb2bb2460da2ee99e4a730fd53911b58c3e08622454d5ea10727667692",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtAssetValidator.cs",
+      "sourceSha256": "d1115ff94cca387bd15f838e3a21925615fe9c0b7c80ce870f7ec6a5142d085c",
+      "freezeSha256": "d1115ff94cca387bd15f838e3a21925615fe9c0b7c80ce870f7ec6a5142d085c",
+      "bytes": 19936,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtAssetValidator.cs.meta",
+      "sourceSha256": "6934f3df198cb08623d8519429e7cc3f67edb5dfcf9e403fc0a763c5c0fad036",
+      "freezeSha256": "6934f3df198cb08623d8519429e7cc3f67edb5dfcf9e403fc0a763c5c0fad036",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtKitBaker.cs",
+      "sourceSha256": "74224795e094d316022440a1c09ec1bbb3c61dcb6a742467edbc97b23944d383",
+      "freezeSha256": "74224795e094d316022440a1c09ec1bbb3c61dcb6a742467edbc97b23944d383",
+      "bytes": 5910,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtKitBaker.cs.meta",
+      "sourceSha256": "14248cb881d235b53d1e93ddc08482884edf04e1b89c9076d2f4d772ec382644",
+      "freezeSha256": "14248cb881d235b53d1e93ddc08482884edf04e1b89c9076d2f4d772ec382644",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulBaker.cs",
+      "sourceSha256": "d78cb70fa20ee9c8b4331895c6337039e3d431a3ff68dd26dd8d87a9d5aa473f",
+      "freezeSha256": "d78cb70fa20ee9c8b4331895c6337039e3d431a3ff68dd26dd8d87a9d5aa473f",
+      "bytes": 33297,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulBaker.cs.meta",
+      "sourceSha256": "a935cc2d06625ad32fc364789a3983821e9489f35e967ab917479ae167785878",
+      "freezeSha256": "a935cc2d06625ad32fc364789a3983821e9489f35e967ab917479ae167785878",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulCharacterMeshes.cs",
+      "sourceSha256": "ef7d4d8f89a50fc43f62a1b451c08ec4f4dc302a0cd8629a98a381bb8e3694f8",
+      "freezeSha256": "ef7d4d8f89a50fc43f62a1b451c08ec4f4dc302a0cd8629a98a381bb8e3694f8",
+      "bytes": 24915,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulCharacterMeshes.cs.meta",
+      "sourceSha256": "feb6e10f70adc885af06c9d1d33463b35fb943a0e83e5d351cf6d1ea5ffd9767",
+      "freezeSha256": "feb6e10f70adc885af06c9d1d33463b35fb943a0e83e5d351cf6d1ea5ffd9767",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulCharacters.cs",
+      "sourceSha256": "7315973a822dd5f2aa8d8d2db2f2c979a4220647ef6d2ab254af1fe6ac4b69a8",
+      "freezeSha256": "7315973a822dd5f2aa8d8d2db2f2c979a4220647ef6d2ab254af1fe6ac4b69a8",
+      "bytes": 75283,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulCharacters.cs.meta",
+      "sourceSha256": "e0401ab888a6559d201f9e038d868f4dafd970fce0abdc3ff6e653c9fbf97964",
+      "freezeSha256": "e0401ab888a6559d201f9e038d868f4dafd970fce0abdc3ff6e653c9fbf97964",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulEnvironment.cs",
+      "sourceSha256": "9e2288f2673cfb40bd4a91fe29043ff534167d5dad358283348ed2cc48852759",
+      "freezeSha256": "9e2288f2673cfb40bd4a91fe29043ff534167d5dad358283348ed2cc48852759",
+      "bytes": 80063,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulEnvironment.cs.meta",
+      "sourceSha256": "f4c4388cf515b95ede8067ccc57fcfc345b3e4327606dd9eb4664dad85545cba",
+      "freezeSha256": "f4c4388cf515b95ede8067ccc57fcfc345b3e4327606dd9eb4664dad85545cba",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulEnvironmentMeshes.cs",
+      "sourceSha256": "e518e231304c474727d23f7681ee4334fe00a18bad2af8cbdd6cd6456d21ee2f",
+      "freezeSha256": "e518e231304c474727d23f7681ee4334fe00a18bad2af8cbdd6cd6456d21ee2f",
+      "bytes": 10938,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulEnvironmentMeshes.cs.meta",
+      "sourceSha256": "f4a4e405355e9c84204865635c01339a680110e2dd708c29294e4069498650d9",
+      "freezeSha256": "f4a4e405355e9c84204865635c01339a680110e2dd708c29294e4069498650d9",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulValidator.cs",
+      "sourceSha256": "e264a94ab5e7f90641338e3be19024143a76234b2f006e141bd0b3faa99d2b48",
+      "freezeSha256": "e264a94ab5e7f90641338e3be19024143a76234b2f006e141bd0b3faa99d2b48",
+      "bytes": 36819,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtOverhaulValidator.cs.meta",
+      "sourceSha256": "c60ad4adea77f4cc6142c0da4f13c8f5bb30befa81a2cfd0c0b21cc01d37dd5e",
+      "freezeSha256": "c60ad4adea77f4cc6142c0da4f13c8f5bb30befa81a2cfd0c0b21cc01d37dd5e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtStyleLabBaker.cs",
+      "sourceSha256": "7fbf27f0029fa6ef3582c14f048eca4492983b14a79b42d66acec754c817572d",
+      "freezeSha256": "7fbf27f0029fa6ef3582c14f048eca4492983b14a79b42d66acec754c817572d",
+      "bytes": 31610,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtStyleLabBaker.cs.meta",
+      "sourceSha256": "c08b177da3ba9aca52f5b28d4eafba01e9e29428494b3e390ce1f68d5246e8be",
+      "freezeSha256": "c08b177da3ba9aca52f5b28d4eafba01e9e29428494b3e390ce1f68d5246e8be",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtStylePrototypeGeometry.cs",
+      "sourceSha256": "3c01e127254c1630844515ba8b328963d94fa5e4edf68b35ab9629d9d5852996",
+      "freezeSha256": "3c01e127254c1630844515ba8b328963d94fa5e4edf68b35ab9629d9d5852996",
+      "bytes": 47758,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ArtStylePrototypeGeometry.cs.meta",
+      "sourceSha256": "76068e3ff0b91bcc42b5840a28b86477192bb75317d3dc98e2222f6d067de867",
+      "freezeSha256": "76068e3ff0b91bcc42b5840a28b86477192bb75317d3dc98e2222f6d067de867",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/CombatVerification.cs",
+      "sourceSha256": "7b61256ddac21941f152ca80f9086eb17f1d6124ef870b7d8f115971326c3db8",
+      "freezeSha256": "7b61256ddac21941f152ca80f9086eb17f1d6124ef870b7d8f115971326c3db8",
+      "bytes": 4639,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/CombatVerification.cs.meta",
+      "sourceSha256": "6d1c4ea0d6179366c9fd66072d3b15deec169ee040e6780686837449dfe03298",
+      "freezeSha256": "6d1c4ea0d6179366c9fd66072d3b15deec169ee040e6780686837449dfe03298",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/CrimsonCorsairBaker.cs",
+      "sourceSha256": "e57c26f6a5130c31eae54a64576776579e5f2f8fbc7fe8354fc65b7c3972ee72",
+      "freezeSha256": "e57c26f6a5130c31eae54a64576776579e5f2f8fbc7fe8354fc65b7c3972ee72",
+      "bytes": 35416,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/CrimsonCorsairBaker.cs.meta",
+      "sourceSha256": "44679f895669e9b8f4fd6227464ed21ea541c5e414b816f1c2f239e80f00ad3b",
+      "freezeSha256": "44679f895669e9b8f4fd6227464ed21ea541c5e414b816f1c2f239e80f00ad3b",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/Emberfield.Editor.asmdef",
+      "sourceSha256": "222bfa6c9eebac1b9085060952cd6feaafc6067d6ed03de9bab7f2b4f0c74a28",
+      "freezeSha256": "222bfa6c9eebac1b9085060952cd6feaafc6067d6ed03de9bab7f2b4f0c74a28",
+      "bytes": 285,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/Emberfield.Editor.asmdef.meta",
+      "sourceSha256": "fe61a0f8012bc08c6ab9b247d83d648939c73b7b38d6921d5e5ff28142bc7c4a",
+      "freezeSha256": "fe61a0f8012bc08c6ab9b247d83d648939c73b7b38d6921d5e5ff28142bc7c4a",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/FactionVerification.cs",
+      "sourceSha256": "9ae0951cf4a283c3d63774b302592d7bc8861e4d07516eff28140a30e46adfea",
+      "freezeSha256": "9ae0951cf4a283c3d63774b302592d7bc8861e4d07516eff28140a30e46adfea",
+      "bytes": 8062,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/FactionVerification.cs.meta",
+      "sourceSha256": "4c0df6bf0f5083ebbfb3d07a74f5310716a69621423ed66da2e75a4b26c66916",
+      "freezeSha256": "4c0df6bf0f5083ebbfb3d07a74f5310716a69621423ed66da2e75a4b26c66916",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/KingdomPremiumBaker.cs",
+      "sourceSha256": "dc1f4609a7fcb14d3542d95bb42e36230477d1fe7fb68cf30b8c346bcfab9bdf",
+      "freezeSha256": "dc1f4609a7fcb14d3542d95bb42e36230477d1fe7fb68cf30b8c346bcfab9bdf",
+      "bytes": 33528,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/KingdomPremiumBaker.cs.meta",
+      "sourceSha256": "f480e4afa26370d9c0a0cd5359dac5eec7af595415902b6d6fe305beed204bd7",
+      "freezeSha256": "f480e4afa26370d9c0a0cd5359dac5eec7af595415902b6d6fe305beed204bd7",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/KingdomPremiumSurfaceDetail.cs",
+      "sourceSha256": "62887b65ce150fa9a91db0d2f8d6907a8346a507788e2a25be0eee3bdfd92bc6",
+      "freezeSha256": "62887b65ce150fa9a91db0d2f8d6907a8346a507788e2a25be0eee3bdfd92bc6",
+      "bytes": 16122,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/KingdomPremiumSurfaceDetail.cs.meta",
+      "sourceSha256": "5d7d20d1200780a6baa0a7498f652504b0225047f98e4ae97357dd668f1c9f63",
+      "freezeSha256": "5d7d20d1200780a6baa0a7498f652504b0225047f98e4ae97357dd668f1c9f63",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/MovementVerification.cs",
+      "sourceSha256": "a656c99d6edbfb716ef6e2c51e972e9cb5cb71ce79cb446fe684ab07829c00e1",
+      "freezeSha256": "a656c99d6edbfb716ef6e2c51e972e9cb5cb71ce79cb446fe684ab07829c00e1",
+      "bytes": 12233,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/MovementVerification.cs.meta",
+      "sourceSha256": "f67a8d2dce0f31325ea4ed251b1f9c31d5cd960591110f4581e49f97d3b6ccb0",
+      "freezeSha256": "f67a8d2dce0f31325ea4ed251b1f9c31d5cd960591110f4581e49f97d3b6ccb0",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/OfflineMatchVerification.cs",
+      "sourceSha256": "282fbba4b677a62cbbb478376dae4057fc9e3cbff174dea9fd6e8f058e145158",
+      "freezeSha256": "282fbba4b677a62cbbb478376dae4057fc9e3cbff174dea9fd6e8f058e145158",
+      "bytes": 12242,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/OfflineMatchVerification.cs.meta",
+      "sourceSha256": "a5d11ecafc73ab1569af2d58f5bdf6f3e2c0d05cb064e14218c0ff1cc6aed563",
+      "freezeSha256": "a5d11ecafc73ab1569af2d58f5bdf6f3e2c0d05cb064e14218c0ff1cc6aed563",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/OfflinePerformanceVerification.cs",
+      "sourceSha256": "9d5f00eb9400a5486b402c1c8d373775bd85b4948b6b8a7342082f5bc04bb0f3",
+      "freezeSha256": "9d5f00eb9400a5486b402c1c8d373775bd85b4948b6b8a7342082f5bc04bb0f3",
+      "bytes": 16406,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/OfflinePerformanceVerification.cs.meta",
+      "sourceSha256": "1cb1b6f60375498ef70a811d93c0341873b67aad3a287eedfa9834ff12144cce",
+      "freezeSha256": "1cb1b6f60375498ef70a811d93c0341873b67aad3a287eedfa9834ff12144cce",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/PirateAnimationReplacement.cs",
+      "sourceSha256": "9e440e8edf96ff532cd7a88b9413e48064ed15e1b2d0cb3dc6ca4195620de5d6",
+      "freezeSha256": "9e440e8edf96ff532cd7a88b9413e48064ed15e1b2d0cb3dc6ca4195620de5d6",
+      "bytes": 42275,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/PirateAnimationReplacement.cs.meta",
+      "sourceSha256": "3af970ee25b0ee97e4daeb3adb541160219064643de1a7697de7556e0aed5bf9",
+      "freezeSha256": "3af970ee25b0ee97e4daeb3adb541160219064643de1a7697de7556e0aed5bf9",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/PirateCharacterAssetImport.cs",
+      "sourceSha256": "4a93a728b467217bacf29e9aed2a57539cb8171b2efc78211ba5d91734c811ea",
+      "freezeSha256": "4a93a728b467217bacf29e9aed2a57539cb8171b2efc78211ba5d91734c811ea",
+      "bytes": 13945,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/PirateCharacterAssetImport.cs.meta",
+      "sourceSha256": "620c29e141161c54ffdebd0350b1e715eb963a04844578ce080aeb6d7d433028",
+      "freezeSha256": "620c29e141161c54ffdebd0350b1e715eb963a04844578ce080aeb6d7d433028",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/PirateCrewBaker.cs",
+      "sourceSha256": "5f475979ff11165918b1f7fa9638305f6b23eb1f268e2d6cd6bab7c508d13e3e",
+      "freezeSha256": "5f475979ff11165918b1f7fa9638305f6b23eb1f268e2d6cd6bab7c508d13e3e",
+      "bytes": 16238,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/PirateCrewBaker.cs.meta",
+      "sourceSha256": "7a56fc3b45614f13eb43459a3d325107fcdfb5a6449a2d991137eb4875906f65",
+      "freezeSha256": "7a56fc3b45614f13eb43459a3d325107fcdfb5a6449a2d991137eb4875906f65",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ProjectTools.cs",
+      "sourceSha256": "d1daefed8392d8c73073464445d1fe2880ac3e65852bd73b91452f37e14661db",
+      "freezeSha256": "d1daefed8392d8c73073464445d1fe2880ac3e65852bd73b91452f37e14661db",
+      "bytes": 7292,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ProjectTools.cs.meta",
+      "sourceSha256": "737dada90bb9f6a4f69f8fa705e9c8bc795315a733cbe2d950637048af0a6e06",
+      "freezeSha256": "737dada90bb9f6a4f69f8fa705e9c8bc795315a733cbe2d950637048af0a6e06",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ReferenceCharacterBaker.cs",
+      "sourceSha256": "4461cee13bfa6aa35f2480a3c4e0a6afd0df5a9b07ede456f724cf994a6e4367",
+      "freezeSha256": "4461cee13bfa6aa35f2480a3c4e0a6afd0df5a9b07ede456f724cf994a6e4367",
+      "bytes": 20649,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/ReferenceCharacterBaker.cs.meta",
+      "sourceSha256": "c51395a51c81ede5a6f6a0ff3d3b9d913b5f44fe0f060269910de881c5e985c2",
+      "freezeSha256": "c51395a51c81ede5a6f6a0ff3d3b9d913b5f44fe0f060269910de881c5e985c2",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/RoyalSoldierBaker.cs",
+      "sourceSha256": "22e41312f748a791c7683b80c35bcda6ae3cbb2f23b064594b03671d34089744",
+      "freezeSha256": "22e41312f748a791c7683b80c35bcda6ae3cbb2f23b064594b03671d34089744",
+      "bytes": 20303,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/RoyalSoldierBaker.cs.meta",
+      "sourceSha256": "42f77475372946082759d6502e192c71c4cca7781cea90e1c333bb02026c068e",
+      "freezeSha256": "42f77475372946082759d6502e192c71c4cca7781cea90e1c333bb02026c068e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/VisualAssetAtlas.cs",
+      "sourceSha256": "26d56e3f59be70d041b98ecf5a683e14521521c4c5e25c866cf4da27f4a1bed8",
+      "freezeSha256": "26d56e3f59be70d041b98ecf5a683e14521521c4c5e25c866cf4da27f4a1bed8",
+      "bytes": 24780,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/VisualAssetAtlas.cs.meta",
+      "sourceSha256": "f8c6fc7bcf38ccd34cc4c54407298f5eab6eba903e11f338f2a89f1c83fa8cd2",
+      "freezeSha256": "f8c6fc7bcf38ccd34cc4c54407298f5eab6eba903e11f338f2a89f1c83fa8cd2",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/VisualMapAtlas.cs",
+      "sourceSha256": "ae262a91fe651c1fdbc0b47837e9775e8d70a7cdc2e3ca5c3b7df502ef81c489",
+      "freezeSha256": "ae262a91fe651c1fdbc0b47837e9775e8d70a7cdc2e3ca5c3b7df502ef81c489",
+      "bytes": 16584,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor/VisualMapAtlas.cs.meta",
+      "sourceSha256": "41df933a44735a69c7c56402a693d467557be978ca30e31f5a760833b0922c71",
+      "freezeSha256": "41df933a44735a69c7c56402a693d467557be978ca30e31f5a760833b0922c71",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Editor.meta",
+      "sourceSha256": "9a6a9b8d12e43c47691aee691cd587aee3bbde74a8261599ccfa53bcebdc70ce",
+      "freezeSha256": "9a6a9b8d12e43c47691aee691cd587aee3bbde74a8261599ccfa53bcebdc70ce",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking/Emberfield.Networking.asmdef",
+      "sourceSha256": "963549364b374f0a23fd8eb34df3f233d3afa06f765d9693a5c17c52cdc51704",
+      "freezeSha256": "963549364b374f0a23fd8eb34df3f233d3afa06f765d9693a5c17c52cdc51704",
+      "bytes": 374,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking/Emberfield.Networking.asmdef.meta",
+      "sourceSha256": "fe7625df21593e945cdd3fd4931abfba7397662219cea3bb52bd60e359ff8727",
+      "freezeSha256": "fe7625df21593e945cdd3fd4931abfba7397662219cea3bb52bd60e359ff8727",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking/MatchContracts.cs",
+      "sourceSha256": "516d791d3244e791c2c99a8a462b0f28f6693b5c0f5bcd9260e0f307198fd6b4",
+      "freezeSha256": "516d791d3244e791c2c99a8a462b0f28f6693b5c0f5bcd9260e0f307198fd6b4",
+      "bytes": 1565,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking/MatchContracts.cs.meta",
+      "sourceSha256": "e2c3c7d065ef0ce1d1e1df2d1eedfd0ef78cd3d60f64e1166738d0af1e205b68",
+      "freezeSha256": "e2c3c7d065ef0ce1d1e1df2d1eedfd0ef78cd3d60f64e1166738d0af1e205b68",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking/NetworkBuild.cs",
+      "sourceSha256": "e25c7515fba364fd6b5fd6df7feee569cb6820fb8e8183ec964d84ae3f91be26",
+      "freezeSha256": "e25c7515fba364fd6b5fd6df7feee569cb6820fb8e8183ec964d84ae3f91be26",
+      "bytes": 376,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking/NetworkBuild.cs.meta",
+      "sourceSha256": "223b2f9a22b1adb27ab91ed9d480b13752690a23a82b36e92e7563926812aa55",
+      "freezeSha256": "223b2f9a22b1adb27ab91ed9d480b13752690a23a82b36e92e7563926812aa55",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking/NetworkProtocol.cs",
+      "sourceSha256": "1909286be8e577bba837220704d32ca660176b1f27fbde5ef2a430db69b7e5f2",
+      "freezeSha256": "1909286be8e577bba837220704d32ca660176b1f27fbde5ef2a430db69b7e5f2",
+      "bytes": 17350,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking/NetworkProtocol.cs.meta",
+      "sourceSha256": "0a5786f3dc8119cb6d3c8fdcfe1eb9035c5fdfceb40cdf66c9ef1504b2ba5e84",
+      "freezeSha256": "0a5786f3dc8119cb6d3c8fdcfe1eb9035c5fdfceb40cdf66c9ef1504b2ba5e84",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Networking.meta",
+      "sourceSha256": "26e161a3bee3eae196f2d63e08a6bafc3cc0639bbc52e9d22ab8852ee918884b",
+      "freezeSha256": "26e161a3bee3eae196f2d63e08a6bafc3cc0639bbc52e9d22ab8852ee918884b",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaBiomeGeometry.cs",
+      "sourceSha256": "6c2961eeeec623e7b0ea6d3405891015bdb9c641a388ca67f9f15402d4a5a3f1",
+      "freezeSha256": "6c2961eeeec623e7b0ea6d3405891015bdb9c641a388ca67f9f15402d4a5a3f1",
+      "bytes": 12736,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaBiomeGeometry.cs.meta",
+      "sourceSha256": "749b1b558bf1f110500a338e15429db664f31ff08844fcbba7317e01b9836694",
+      "freezeSha256": "749b1b558bf1f110500a338e15429db664f31ff08844fcbba7317e01b9836694",
+      "bytes": 62,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaControls.cs",
+      "sourceSha256": "4b06f279dd6d4fc70d2f3f88357c1483b054d6ac79bca667bc1140590c2c3ed9",
+      "freezeSha256": "0af37d03b5257875e7a95b982d1eaf7683b67a06ce67334346a3c7ab833972c0",
+      "bytes": 10798,
+      "changedInFreeze": true
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaControls.cs.meta",
+      "sourceSha256": "b330612f005a885a7b8a5093a841c3cf9f05545fed3345f1200a199ff651cb5a",
+      "freezeSha256": "b330612f005a885a7b8a5093a841c3cf9f05545fed3345f1200a199ff651cb5a",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaDiagnostics.cs",
+      "sourceSha256": "5856d3e75495a6675000ffc5cabafd75140ab5001c2358ec046b07d79b3acd7c",
+      "freezeSha256": "5856d3e75495a6675000ffc5cabafd75140ab5001c2358ec046b07d79b3acd7c",
+      "bytes": 5144,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaDiagnostics.cs.meta",
+      "sourceSha256": "0ef634cee98f1e3b7f769050022948e0a4d50f719e87d2c1b64166cc61c56d4c",
+      "freezeSha256": "0ef634cee98f1e3b7f769050022948e0a4d50f719e87d2c1b64166cc61c56d4c",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaEnvironment.cs",
+      "sourceSha256": "505fdd95c15e08f9748d8da1f4e43e1194aa1ee7b29b47b1376fc8ba774eac51",
+      "freezeSha256": "505fdd95c15e08f9748d8da1f4e43e1194aa1ee7b29b47b1376fc8ba774eac51",
+      "bytes": 18935,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaEnvironment.cs.meta",
+      "sourceSha256": "fa467bdd83c5f8331a719a54052b78856f5e0391c71a2d14b824194170f754a4",
+      "freezeSha256": "fa467bdd83c5f8331a719a54052b78856f5e0391c71a2d14b824194170f754a4",
+      "bytes": 243,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaExpandedGeometry.cs",
+      "sourceSha256": "e99ee3a4db9ee0782e89abd27ef2b26e08d77c13fc7681d3dddf699ec9ae5cee",
+      "freezeSha256": "e99ee3a4db9ee0782e89abd27ef2b26e08d77c13fc7681d3dddf699ec9ae5cee",
+      "bytes": 28974,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaExpandedGeometry.cs.meta",
+      "sourceSha256": "246795184cb8b3916979e8c990229473de7de0e72d17c4a46a302230824c875b",
+      "freezeSha256": "246795184cb8b3916979e8c990229473de7de0e72d17c4a46a302230824c875b",
+      "bytes": 62,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaIcon.cs",
+      "sourceSha256": "e9c34a11fa65bc1512f75f6a8374db384a99905b86fa1468029b1f0a55aea412",
+      "freezeSha256": "e9c34a11fa65bc1512f75f6a8374db384a99905b86fa1468029b1f0a55aea412",
+      "bytes": 7571,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaIcon.cs.meta",
+      "sourceSha256": "b56cba139072f51ca11c6b78499c89ac60a0295b3df7e92f0a8ecab7e77a15e6",
+      "freezeSha256": "b56cba139072f51ca11c6b78499c89ac60a0295b3df7e92f0a8ecab7e77a15e6",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaLighting.cs",
+      "sourceSha256": "bf8d0a2528e4b062f154f4f1c451205a6369173dad2cc2917ba780ee615dd084",
+      "freezeSha256": "bf8d0a2528e4b062f154f4f1c451205a6369173dad2cc2917ba780ee615dd084",
+      "bytes": 3120,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaLighting.cs.meta",
+      "sourceSha256": "a27ed3ec33b2da9a6f9370f9b69454231647f7388413e4c183e9f7a8bf050799",
+      "freezeSha256": "a27ed3ec33b2da9a6f9370f9b69454231647f7388413e4c183e9f7a8bf050799",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaMatchMetrics.cs",
+      "sourceSha256": "de60a5c872272f61d724ef62144e339dda6d31eb777230cd7d2db4221c3b589d",
+      "freezeSha256": "de60a5c872272f61d724ef62144e339dda6d31eb777230cd7d2db4221c3b589d",
+      "bytes": 12910,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaMatchMetrics.cs.meta",
+      "sourceSha256": "a293f4e171a784fee789bbc4ee85bec9dcaf7e7ab0790ba5d0439cb164487c66",
+      "freezeSha256": "a293f4e171a784fee789bbc4ee85bec9dcaf7e7ab0790ba5d0439cb164487c66",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaMeshBuilder.cs",
+      "sourceSha256": "19c2cb391d60e3d97fee5f6732b41361410f7a2e5e19baccc43c624c80686690",
+      "freezeSha256": "19c2cb391d60e3d97fee5f6732b41361410f7a2e5e19baccc43c624c80686690",
+      "bytes": 5850,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaMeshBuilder.cs.meta",
+      "sourceSha256": "ca666b7957a42dbeffa37da711f321f12e1296dc6e21853067621d8da047ea0c",
+      "freezeSha256": "ca666b7957a42dbeffa37da711f321f12e1296dc6e21853067621d8da047ea0c",
+      "bytes": 243,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaPanel.cs",
+      "sourceSha256": "cdc239d49e62a2bd213d5c3be625a21511d6f2fd5140fde6bd3e6240631c68e9",
+      "freezeSha256": "855bda25cb9ca898b6c478c0416d99ce68f958762a0f7b07179aaf5115b60b8b",
+      "bytes": 12266,
+      "changedInFreeze": true
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaPanel.cs.meta",
+      "sourceSha256": "c3f7a63bd9436e2bb6184994733e52811c1c8092c11a99e2c66b6d0ed9f9e8f0",
+      "freezeSha256": "c3f7a63bd9436e2bb6184994733e52811c1c8092c11a99e2c66b6d0ed9f9e8f0",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaPanelDecor.cs",
+      "sourceSha256": "890b421d2bd2952e9f70ef573311678bae9f2ebd09b641553a5a44b043c7dc8a",
+      "freezeSha256": "890b421d2bd2952e9f70ef573311678bae9f2ebd09b641553a5a44b043c7dc8a",
+      "bytes": 1366,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaPanelDecor.cs.meta",
+      "sourceSha256": "95f8f2bda432a1d6314c9236221546416e3c142a5a69a719ccd29b51405a6d84",
+      "freezeSha256": "95f8f2bda432a1d6314c9236221546416e3c142a5a69a719ccd29b51405a6d84",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaSettings.cs",
+      "sourceSha256": "e03dc41cfa77729afa91ab5a3fa43969c32217758bbaf9e5e934e4ff9a0cb450",
+      "freezeSha256": "e03dc41cfa77729afa91ab5a3fa43969c32217758bbaf9e5e934e4ff9a0cb450",
+      "bytes": 4809,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaSettings.cs.meta",
+      "sourceSha256": "ac9798b527bad3204a891bfa4ae4ad70003de5e4e3b104f4cbdf4854a0c38575",
+      "freezeSha256": "ac9798b527bad3204a891bfa4ae4ad70003de5e4e3b104f4cbdf4854a0c38575",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaSiegeEffects.cs",
+      "sourceSha256": "cbd13d9c04c65e5669ed3d1ccbe88268727287ae198b7352146f5a826ddc2693",
+      "freezeSha256": "cbd13d9c04c65e5669ed3d1ccbe88268727287ae198b7352146f5a826ddc2693",
+      "bytes": 3607,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaSiegeEffects.cs.meta",
+      "sourceSha256": "e88d59b2d04a456f1ce3f43a48194dd38d604bc069b6f2829edb962df585cff2",
+      "freezeSha256": "e88d59b2d04a456f1ce3f43a48194dd38d604bc069b6f2829edb962df585cff2",
+      "bytes": 65,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaSiegeVisuals.cs",
+      "sourceSha256": "b4acfa73a9de22ec2dfd00e198c3e36baa2b79ddd9afaa434dc91fdd0b54be8d",
+      "freezeSha256": "b4acfa73a9de22ec2dfd00e198c3e36baa2b79ddd9afaa434dc91fdd0b54be8d",
+      "bytes": 1629,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaSiegeVisuals.cs.meta",
+      "sourceSha256": "1eb72d8655c9a761d7d5d08c51e441b6bacaa696c71584137b12582e6a7bc11b",
+      "freezeSha256": "1eb72d8655c9a761d7d5d08c51e441b6bacaa696c71584137b12582e6a7bc11b",
+      "bytes": 65,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaTextContrast.cs",
+      "sourceSha256": "f18939659dbbabd9aedd2a68a8037b6dc26f4357c9c42aaf8b620d634358d847",
+      "freezeSha256": "f18939659dbbabd9aedd2a68a8037b6dc26f4357c9c42aaf8b620d634358d847",
+      "bytes": 2185,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaTextContrast.cs.meta",
+      "sourceSha256": "620e053d3de860354f0f7a21c36ab1422a4e18e1cb1186ce6fa9e44b45647a4b",
+      "freezeSha256": "620e053d3de860354f0f7a21c36ab1422a4e18e1cb1186ce6fa9e44b45647a4b",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaTheme.cs",
+      "sourceSha256": "b2e9c24cd6f109daae1a22e9ec4c752f0ea21a32cfbc7a81574ea446ac3ce59f",
+      "freezeSha256": "b2e9c24cd6f109daae1a22e9ec4c752f0ea21a32cfbc7a81574ea446ac3ce59f",
+      "bytes": 4144,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaTheme.cs.meta",
+      "sourceSha256": "8ba7e3ae0f8520090fcf69b12a8cbba478927a40ab093eb3aa74ac8bdacd6c99",
+      "freezeSha256": "8ba7e3ae0f8520090fcf69b12a8cbba478927a40ab093eb3aa74ac8bdacd6c99",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaTutorial.cs",
+      "sourceSha256": "b8c0d443673cd5aede61b0b8bdea6796a05b5472d09c90bce6bf5ee340699917",
+      "freezeSha256": "b8c0d443673cd5aede61b0b8bdea6796a05b5472d09c90bce6bf5ee340699917",
+      "bytes": 7621,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaTutorial.cs.meta",
+      "sourceSha256": "d3b79978b6f482309b805445a62f10b876c3145796cdbb43f1d3e552140c716d",
+      "freezeSha256": "d3b79978b6f482309b805445a62f10b876c3145796cdbb43f1d3e552140c716d",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaWorldArt.cs",
+      "sourceSha256": "3ed9329de4feed2c83dcbc4c0b4462d6435a0cdde86018742d3cb72d12cfcd5d",
+      "freezeSha256": "3ed9329de4feed2c83dcbc4c0b4462d6435a0cdde86018742d3cb72d12cfcd5d",
+      "bytes": 7976,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaWorldArt.cs.meta",
+      "sourceSha256": "1360d6432309e666807d49401ded2dca909cc67291610856b9f49de131cd48f5",
+      "freezeSha256": "1360d6432309e666807d49401ded2dca909cc67291610856b9f49de131cd48f5",
+      "bytes": 243,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaWorldGeometry.cs",
+      "sourceSha256": "4ac7f5e7e7bedbc953b95b052502a7b13ed67605d90e4707e372bb592361af94",
+      "freezeSha256": "4ac7f5e7e7bedbc953b95b052502a7b13ed67605d90e4707e372bb592361af94",
+      "bytes": 25089,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AlphaWorldGeometry.cs.meta",
+      "sourceSha256": "acfa788507fd01640f9c69d51d6f31b0ad3958fd039baef2de5e2b9ecee7b298",
+      "freezeSha256": "acfa788507fd01640f9c69d51d6f31b0ad3958fd039baef2de5e2b9ecee7b298",
+      "bytes": 243,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AmberBiome.cs",
+      "sourceSha256": "59f2deda781f48f608a13d4af67475242c3f6b575fcfdc48250d933b946c78a1",
+      "freezeSha256": "59f2deda781f48f608a13d4af67475242c3f6b575fcfdc48250d933b946c78a1",
+      "bytes": 5013,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/AmberBiome.cs.meta",
+      "sourceSha256": "015d1ad1c704bbd462361f3af248d6b3af3ef2effd79a897f6a7a2023b38b35d",
+      "freezeSha256": "015d1ad1c704bbd462361f3af248d6b3af3ef2effd79a897f6a7a2023b38b35d",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtKit.cs",
+      "sourceSha256": "1ac36e5f97249ad9e1a4474bd1306c2ecc5ab9a7741673bafa4aace55a55f193",
+      "freezeSha256": "1ac36e5f97249ad9e1a4474bd1306c2ecc5ab9a7741673bafa4aace55a55f193",
+      "bytes": 3483,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtKit.cs.meta",
+      "sourceSha256": "481518b11ac638690b60ba201fe6343dc352bf8f41b3bc8c6326eeb2034de9ee",
+      "freezeSha256": "481518b11ac638690b60ba201fe6343dc352bf8f41b3bc8c6326eeb2034de9ee",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtKitCatalog.cs",
+      "sourceSha256": "e74545efdbe0c7cf8a64d4da56c5f637ef9677c4e9c0d6727de8ae7a8f152ba2",
+      "freezeSha256": "e74545efdbe0c7cf8a64d4da56c5f637ef9677c4e9c0d6727de8ae7a8f152ba2",
+      "bytes": 561,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtKitCatalog.cs.meta",
+      "sourceSha256": "ad0ac15d55927be7c03de854993938ed8f618ffbb7c7c141f2bcaf0ee0c5b220",
+      "freezeSha256": "ad0ac15d55927be7c03de854993938ed8f618ffbb7c7c141f2bcaf0ee0c5b220",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtKitGeometry.cs",
+      "sourceSha256": "e6c0ad5dd5451c847d4ed2a1a4fdd4a53bc991275a8e6cc04d85bcea7f5dbe5a",
+      "freezeSha256": "e6c0ad5dd5451c847d4ed2a1a4fdd4a53bc991275a8e6cc04d85bcea7f5dbe5a",
+      "bytes": 19850,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtKitGeometry.cs.meta",
+      "sourceSha256": "d38d08cd46d049a1adcb956aba984ca798ed9d4afd9f7f06ebe43bc4e414a1b4",
+      "freezeSha256": "d38d08cd46d049a1adcb956aba984ca798ed9d4afd9f7f06ebe43bc4e414a1b4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtOverhaulController.cs",
+      "sourceSha256": "7e4ffb006e36742d1e9137690f8f1a27411631574fbf60fcc833900410ee1e54",
+      "freezeSha256": "7e4ffb006e36742d1e9137690f8f1a27411631574fbf60fcc833900410ee1e54",
+      "bytes": 48529,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtOverhaulController.cs.meta",
+      "sourceSha256": "05c02e28e9a5667e7886f13deb6f6339a4d5f7c4302ca6df4f8cc73d2bf1817f",
+      "freezeSha256": "05c02e28e9a5667e7886f13deb6f6339a4d5f7c4302ca6df4f8cc73d2bf1817f",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtOverhaulTypes.cs",
+      "sourceSha256": "dd02af8d7ac301fb7e42b8b00ac3d9c146e1b13ee15ee446897df175d60cda9c",
+      "freezeSha256": "dd02af8d7ac301fb7e42b8b00ac3d9c146e1b13ee15ee446897df175d60cda9c",
+      "bytes": 308,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtOverhaulTypes.cs.meta",
+      "sourceSha256": "1518a4c49f44aa820190a72b233aa634d8b1c2f1940cfbed1f2b6e2124e913b6",
+      "freezeSha256": "1518a4c49f44aa820190a72b233aa634d8b1c2f1940cfbed1f2b6e2124e913b6",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtOverhaulUnit.cs",
+      "sourceSha256": "7f22795af0f22f62d06ae13c48c803e2b47fac131e266e15d3d964f8e7583369",
+      "freezeSha256": "7f22795af0f22f62d06ae13c48c803e2b47fac131e266e15d3d964f8e7583369",
+      "bytes": 1323,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtOverhaulUnit.cs.meta",
+      "sourceSha256": "afbeb3eb0aea4547e5d0db80829b2f908f72175c008692eb3f795fcf99ab7088",
+      "freezeSha256": "afbeb3eb0aea4547e5d0db80829b2f908f72175c008692eb3f795fcf99ab7088",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtReviewSmoke.cs",
+      "sourceSha256": "d5495010bfb4cc98f3f69d26679f184f8823e93fc9040fd6e17b623eae05949b",
+      "freezeSha256": "d5495010bfb4cc98f3f69d26679f184f8823e93fc9040fd6e17b623eae05949b",
+      "bytes": 4655,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtReviewSmoke.cs.meta",
+      "sourceSha256": "3a3cbf54817bb85de570e0d78933da233a819c337cc2fd032beb7bdc17b891cc",
+      "freezeSha256": "3a3cbf54817bb85de570e0d78933da233a819c337cc2fd032beb7bdc17b891cc",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtStyleLabController.cs",
+      "sourceSha256": "7e2bef597557ef81c1804186125bb5c7d5b6ce3eb66f9478331146c4b201132a",
+      "freezeSha256": "7e2bef597557ef81c1804186125bb5c7d5b6ce3eb66f9478331146c4b201132a",
+      "bytes": 24152,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtStyleLabController.cs.meta",
+      "sourceSha256": "20dc70a7dffea1e0509a2a57573d396958b0575265c6af083536162f9a782fb4",
+      "freezeSha256": "20dc70a7dffea1e0509a2a57573d396958b0575265c6af083536162f9a782fb4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtStyleUnit.cs",
+      "sourceSha256": "b1a62628036915502af98cc2880b68f4c11d9d40dc9ecc698be216aa1c1163f0",
+      "freezeSha256": "b1a62628036915502af98cc2880b68f4c11d9d40dc9ecc698be216aa1c1163f0",
+      "bytes": 2066,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ArtStyleUnit.cs.meta",
+      "sourceSha256": "a7b5fe62357b7bcc68d12a94e71ccc3dbc7ee164c9cc6c1c8bdd095579ac35e3",
+      "freezeSha256": "a7b5fe62357b7bcc68d12a94e71ccc3dbc7ee164c9cc6c1c8bdd095579ac35e3",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CombatPlayerSmoke.cs",
+      "sourceSha256": "14458845affecc1bf2adc36498fb7ff37c7b972a498159fb0cafbebd985da9e0",
+      "freezeSha256": "14458845affecc1bf2adc36498fb7ff37c7b972a498159fb0cafbebd985da9e0",
+      "bytes": 4309,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CombatPlayerSmoke.cs.meta",
+      "sourceSha256": "59cca0ba108b02b2261f63e5ca54dd10adc897c4ce4e154a2a08314ea476a158",
+      "freezeSha256": "59cca0ba108b02b2261f63e5ca54dd10adc897c4ce4e154a2a08314ea476a158",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CorsairAnimationDriver.cs",
+      "sourceSha256": "0c371973f6b6d4167afd8da8f89e58f08c9b217afddc40eb361b7262cfe7ed65",
+      "freezeSha256": "0c371973f6b6d4167afd8da8f89e58f08c9b217afddc40eb361b7262cfe7ed65",
+      "bytes": 9229,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CorsairAnimationDriver.cs.meta",
+      "sourceSha256": "41af8e8600f203591b70d12c5db9fc227c124ed1d176f705f69df4afa0213d4f",
+      "freezeSha256": "41af8e8600f203591b70d12c5db9fc227c124ed1d176f705f69df4afa0213d4f",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CorsairGameSmoke.cs",
+      "sourceSha256": "af675cb258a69286a796f17fa595f5cc758db3ebaf4d3f653b7b729b1287bde3",
+      "freezeSha256": "af675cb258a69286a796f17fa595f5cc758db3ebaf4d3f653b7b729b1287bde3",
+      "bytes": 15324,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CorsairGameSmoke.cs.meta",
+      "sourceSha256": "b8aba884e5983e16e2ef43e141931c3cabc32f71887b3e6314b7b05cfceaf158",
+      "freezeSha256": "b8aba884e5983e16e2ef43e141931c3cabc32f71887b3e6314b7b05cfceaf158",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CorsairHeroScenario.cs",
+      "sourceSha256": "b2d72d8e878625f40c8a778295eb05be26b1964a611b26af4cfddf7eb2a38c86",
+      "freezeSha256": "b2d72d8e878625f40c8a778295eb05be26b1964a611b26af4cfddf7eb2a38c86",
+      "bytes": 4989,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CorsairHeroScenario.cs.meta",
+      "sourceSha256": "b718d5d344d7ac3c013201a58098dd5610b8d64f256d6f1f56fe7c58d54a57d0",
+      "freezeSha256": "b718d5d344d7ac3c013201a58098dd5610b8d64f256d6f1f56fe7c58d54a57d0",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CosmeticLoadout.cs",
+      "sourceSha256": "d58450b708f54de75c15a8653fb4e6c7dedd2d8f3eb732c1e9116ad890b72dc5",
+      "freezeSha256": "d58450b708f54de75c15a8653fb4e6c7dedd2d8f3eb732c1e9116ad890b72dc5",
+      "bytes": 7394,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CosmeticLoadout.cs.meta",
+      "sourceSha256": "bdd41a709075ec801bb1afcf62761ffcea9c07219c58e312a5606fa959ca7614",
+      "freezeSha256": "bdd41a709075ec801bb1afcf62761ffcea9c07219c58e312a5606fa959ca7614",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CosmeticModelPreview.cs",
+      "sourceSha256": "1e172da5023df9276dec4d278ed99d8970c2bfb2c65f9c65791c9fa9e095a7ec",
+      "freezeSha256": "1e172da5023df9276dec4d278ed99d8970c2bfb2c65f9c65791c9fa9e095a7ec",
+      "bytes": 7006,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CosmeticModelPreview.cs.meta",
+      "sourceSha256": "13906a0824ffb980e7c69ab38d16032a3b823bfb41b359d8f5671fb11c058b3e",
+      "freezeSha256": "13906a0824ffb980e7c69ab38d16032a3b823bfb41b359d8f5671fb11c058b3e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CosmeticSkinDefinition.cs",
+      "sourceSha256": "311953410f1ac8dec3718483983df5171b131922b58dccf6b00c77b5ec53f30f",
+      "freezeSha256": "311953410f1ac8dec3718483983df5171b131922b58dccf6b00c77b5ec53f30f",
+      "bytes": 590,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CosmeticSkinDefinition.cs.meta",
+      "sourceSha256": "e10cd623b51d53fc9e4dff97a533c6bcc692feec0dd63a762315551d151a42d2",
+      "freezeSha256": "e10cd623b51d53fc9e4dff97a533c6bcc692feec0dd63a762315551d151a42d2",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CosmeticStoreShell.cs",
+      "sourceSha256": "da7c0af455ebd1063eabe1743425a9c7c416408adb32059e2ed0fe124a6bdf1c",
+      "freezeSha256": "da7c0af455ebd1063eabe1743425a9c7c416408adb32059e2ed0fe124a6bdf1c",
+      "bytes": 9525,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CosmeticStoreShell.cs.meta",
+      "sourceSha256": "43492dfb1f7bb78bbd71967dbb383e761602b85d8988c820736416a7620438cf",
+      "freezeSha256": "43492dfb1f7bb78bbd71967dbb383e761602b85d8988c820736416a7620438cf",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CrimsonCorsairReview.cs",
+      "sourceSha256": "4c84731c9646cb18d671c2b3bf1d27def3749492a79c562ea7e0d585ae23ae69",
+      "freezeSha256": "4c84731c9646cb18d671c2b3bf1d27def3749492a79c562ea7e0d585ae23ae69",
+      "bytes": 17682,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/CrimsonCorsairReview.cs.meta",
+      "sourceSha256": "f34cc4e3d62f15f87430dd53deb1b45ead220a3336bc5815275db87fc5120b82",
+      "freezeSha256": "f34cc4e3d62f15f87430dd53deb1b45ead220a3336bc5815275db87fc5120b82",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/DefinitionLoader.cs",
+      "sourceSha256": "77d630762446e4855f4f4c7e9f3fbf168b0e086314139958cab6e4b062db7b98",
+      "freezeSha256": "77d630762446e4855f4f4c7e9f3fbf168b0e086314139958cab6e4b062db7b98",
+      "bytes": 3352,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/DefinitionLoader.cs.meta",
+      "sourceSha256": "faa6831bca0cce8a4d6b2e32003508434d80f261292b0104dfd996b7b011d916",
+      "freezeSha256": "faa6831bca0cce8a4d6b2e32003508434d80f261292b0104dfd996b7b011d916",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/EconomyControls.cs",
+      "sourceSha256": "6ef4b14584f7ab09166bc08a0b0ac8c6a26825e653907520cbf6218c55534f72",
+      "freezeSha256": "6ef4b14584f7ab09166bc08a0b0ac8c6a26825e653907520cbf6218c55534f72",
+      "bytes": 8307,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/EconomyControls.cs.meta",
+      "sourceSha256": "f925cad651847bf3afef60f65a83934da3bb55f0f26d9a886aa90e5d4bc78fe0",
+      "freezeSha256": "f925cad651847bf3afef60f65a83934da3bb55f0f26d9a886aa90e5d4bc78fe0",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/Emberfield.Presentation.asmdef",
+      "sourceSha256": "fdd26c039535af0638585382027b1a112c4648330f93e3d6036418ac10683017",
+      "freezeSha256": "4ab3846925524d0c8d34a1b5d4c339a23edee3c27d5a8dceef92eec68b7e16ee",
+      "bytes": 342,
+      "changedInFreeze": true
+    },
+    {
+      "path": "Assets/Game/Presentation/Emberfield.Presentation.asmdef.meta",
+      "sourceSha256": "02c8f5450fd921583890f19662699eefbe600e9c457d8d400eb0180206e283fd",
+      "freezeSha256": "02c8f5450fd921583890f19662699eefbe600e9c457d8d400eb0180206e283fd",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ExpansionPlayerSmoke.cs",
+      "sourceSha256": "99135e612d7b414cf68f7272f68ce3410c5d03f62eee9c707a9aecc8b4ffce49",
+      "freezeSha256": "99135e612d7b414cf68f7272f68ce3410c5d03f62eee9c707a9aecc8b4ffce49",
+      "bytes": 11763,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ExpansionPlayerSmoke.cs.meta",
+      "sourceSha256": "43384ea652e2e2691729979c25848ad47f75e8038433f0d9a1223efabdb1b888",
+      "freezeSha256": "43384ea652e2e2691729979c25848ad47f75e8038433f0d9a1223efabdb1b888",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionControls.cs",
+      "sourceSha256": "ba0e1ece9596259925b96fe5b3e90d251fdd748dd3ce0039ea587d8c5d30c0b4",
+      "freezeSha256": "ba0e1ece9596259925b96fe5b3e90d251fdd748dd3ce0039ea587d8c5d30c0b4",
+      "bytes": 7490,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionControls.cs.meta",
+      "sourceSha256": "8eab2cffa354e640772862819bf20ea131e5edd20373e396a8641161867ee077",
+      "freezeSha256": "8eab2cffa354e640772862819bf20ea131e5edd20373e396a8641161867ee077",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionHud.cs",
+      "sourceSha256": "c5468c8fe5a0a2adf7f4925832eb3618dc75f0afa113854dad25fa1db8fe6f09",
+      "freezeSha256": "c5468c8fe5a0a2adf7f4925832eb3618dc75f0afa113854dad25fa1db8fe6f09",
+      "bytes": 6848,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionHud.cs.meta",
+      "sourceSha256": "456e2800b439857961b35149b7e67be583a0d16c26c70321eaa22e1cdc2bd068",
+      "freezeSha256": "456e2800b439857961b35149b7e67be583a0d16c26c70321eaa22e1cdc2bd068",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionPanel.cs",
+      "sourceSha256": "0e674f8b4a23443afa81f3852c75296bf46cb564b9a038d8f5eb1e03248dc3d8",
+      "freezeSha256": "0e674f8b4a23443afa81f3852c75296bf46cb564b9a038d8f5eb1e03248dc3d8",
+      "bytes": 10062,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionPanel.cs.meta",
+      "sourceSha256": "98e0d28247632cd18eab961db4e86d823f74aaab08c98ac989a1a0897f501ffd",
+      "freezeSha256": "98e0d28247632cd18eab961db4e86d823f74aaab08c98ac989a1a0897f501ffd",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionPlayerSmoke.cs",
+      "sourceSha256": "cb40943c27fb1a240bacddcae7c2fa6d2d90704f3900fb329f5bb21bc3b6441a",
+      "freezeSha256": "cb40943c27fb1a240bacddcae7c2fa6d2d90704f3900fb329f5bb21bc3b6441a",
+      "bytes": 20673,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionPlayerSmoke.cs.meta",
+      "sourceSha256": "2ac59c0eef72aa5a7e52ccdfd8ebc70c339707c60f6357e6df233fced4a6656a",
+      "freezeSha256": "2ac59c0eef72aa5a7e52ccdfd8ebc70c339707c60f6357e6df233fced4a6656a",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionVisualDefinition.cs",
+      "sourceSha256": "02d9f5aec9551cee75d4138e180fb5af3a7f68d1d675bba1376266792ee6797b",
+      "freezeSha256": "02d9f5aec9551cee75d4138e180fb5af3a7f68d1d675bba1376266792ee6797b",
+      "bytes": 722,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionVisualDefinition.cs.meta",
+      "sourceSha256": "65450ed312a5dfe7d53d778b942b1648210112825927a5eb9be3f095c0cda44f",
+      "freezeSha256": "65450ed312a5dfe7d53d778b942b1648210112825927a5eb9be3f095c0cda44f",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionWorldView.cs",
+      "sourceSha256": "46290c20a38ed9ab2d2dfa3925238896019f461a3225ca6fbc32572f2de82398",
+      "freezeSha256": "46290c20a38ed9ab2d2dfa3925238896019f461a3225ca6fbc32572f2de82398",
+      "bytes": 11172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FactionWorldView.cs.meta",
+      "sourceSha256": "d916cbff0ac8ba5b0f2cc8521b877baeebb82ebfc155de39188606f8da3d5958",
+      "freezeSha256": "d916cbff0ac8ba5b0f2cc8521b877baeebb82ebfc155de39188606f8da3d5958",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FogView.cs",
+      "sourceSha256": "c8d7167e0888872f1df9df54ca266ea0b40e78e0b0abde923b60ca97aa35bd74",
+      "freezeSha256": "c8d7167e0888872f1df9df54ca266ea0b40e78e0b0abde923b60ca97aa35bd74",
+      "bytes": 2744,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FogView.cs.meta",
+      "sourceSha256": "3c72e09aaa222bc3184bb1a2a5772f83a5a59025b14ef99a4e0807429a6cd894",
+      "freezeSha256": "3c72e09aaa222bc3184bb1a2a5772f83a5a59025b14ef99a4e0807429a6cd894",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FrontierAmbience.cs",
+      "sourceSha256": "3f067d2d43f08a827146f98512cf90f8fc9eefb92950430c5bbfddd3fe1bad19",
+      "freezeSha256": "3f067d2d43f08a827146f98512cf90f8fc9eefb92950430c5bbfddd3fe1bad19",
+      "bytes": 2203,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FrontierAmbience.cs.meta",
+      "sourceSha256": "1d4d23e5ca8d7b21dd01f360e820d6f4523754125eb4c1cac32cb54b8eab883e",
+      "freezeSha256": "1d4d23e5ca8d7b21dd01f360e820d6f4523754125eb4c1cac32cb54b8eab883e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FrontierCodex.cs",
+      "sourceSha256": "a4c2e237c95bcb35ac708a7bf8b60a679b15add73e5c7160e407482dc97e771a",
+      "freezeSha256": "a4c2e237c95bcb35ac708a7bf8b60a679b15add73e5c7160e407482dc97e771a",
+      "bytes": 6242,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FrontierCodex.cs.meta",
+      "sourceSha256": "ce9b61b62440d7020997970772ee5dbc69fc2d01d162dcc956290a0d91220fc4",
+      "freezeSha256": "ce9b61b62440d7020997970772ee5dbc69fc2d01d162dcc956290a0d91220fc4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FrontierShell.cs",
+      "sourceSha256": "6cb1023c1a65d5b633b9d16689d22efa8f267b49ae817b3baa8462183ea658ab",
+      "freezeSha256": "6cb1023c1a65d5b633b9d16689d22efa8f267b49ae817b3baa8462183ea658ab",
+      "bytes": 6094,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FrontierShell.cs.meta",
+      "sourceSha256": "c176feb6db82acf02b20a085d422ae2a4c9c4e48dfcc7109c93a5bb500c5aafa",
+      "freezeSha256": "c176feb6db82acf02b20a085d422ae2a4c9c4e48dfcc7109c93a5bb500c5aafa",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FullMatchRecording.cs",
+      "sourceSha256": "768ec4df57b31cf47fe018f2ce2cc32002500514eb340e7ed6be9659a017e651",
+      "freezeSha256": "768ec4df57b31cf47fe018f2ce2cc32002500514eb340e7ed6be9659a017e651",
+      "bytes": 13800,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/FullMatchRecording.cs.meta",
+      "sourceSha256": "867295a65c76aa6f3a1a05fa73352bbdfdbcc342c8b6ffb8c7ad7ba7a528f501",
+      "freezeSha256": "867295a65c76aa6f3a1a05fa73352bbdfdbcc342c8b6ffb8c7ad7ba7a528f501",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/GestureTracker.cs",
+      "sourceSha256": "dacba7c1a40e16dfdfff027edc6429eb86e15ddd9f68b5510d43b3eb52ad6f29",
+      "freezeSha256": "dacba7c1a40e16dfdfff027edc6429eb86e15ddd9f68b5510d43b3eb52ad6f29",
+      "bytes": 1664,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/GestureTracker.cs.meta",
+      "sourceSha256": "db3e470a5bf891f50329b4737e1ed9f12cfc62d4421996e303fb25d868eba781",
+      "freezeSha256": "db3e470a5bf891f50329b4737e1ed9f12cfc62d4421996e303fb25d868eba781",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/HudChrome.cs",
+      "sourceSha256": "3509b4676d06999005d9bf0227851a839fdf6fbe895881b3905f7349804827cf",
+      "freezeSha256": "3509b4676d06999005d9bf0227851a839fdf6fbe895881b3905f7349804827cf",
+      "bytes": 8988,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/HudChrome.cs.meta",
+      "sourceSha256": "68bb43aa3c064c4f1faa47685e7f2ec236a60968f63ac13046badcc2954fbb18",
+      "freezeSha256": "68bb43aa3c064c4f1faa47685e7f2ec236a60968f63ac13046badcc2954fbb18",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ImportedCharacterVisuals.cs",
+      "sourceSha256": "6d2cb211417ba23003bfbc7121b0fea452c7e15b11f411c96e5a6177ce49b07b",
+      "freezeSha256": "6d2cb211417ba23003bfbc7121b0fea452c7e15b11f411c96e5a6177ce49b07b",
+      "bytes": 4194,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ImportedCharacterVisuals.cs.meta",
+      "sourceSha256": "b9005685a625958d1c5c3657c078319049893b3d15e03a72bf649ae2cd919717",
+      "freezeSha256": "b9005685a625958d1c5c3657c078319049893b3d15e03a72bf649ae2cd919717",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/KingdomPremiumReview.cs",
+      "sourceSha256": "25b9c7c5cd015ab81bbe56b3f058ff051c1a4be7b5e0e206dfaa1c2006916f64",
+      "freezeSha256": "25b9c7c5cd015ab81bbe56b3f058ff051c1a4be7b5e0e206dfaa1c2006916f64",
+      "bytes": 31126,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/KingdomPremiumReview.cs.meta",
+      "sourceSha256": "14eff6e2d564fab16e162f738c6417be345b3c643351db57f87432122297db63",
+      "freezeSha256": "14eff6e2d564fab16e162f738c6417be345b3c643351db57f87432122297db63",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MatchController.cs",
+      "sourceSha256": "d4b1f368b31a811f24fd83055fbc2436dc5bdaa3835845842493619990032b63",
+      "freezeSha256": "d4b1f368b31a811f24fd83055fbc2436dc5bdaa3835845842493619990032b63",
+      "bytes": 19660,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MatchController.cs.meta",
+      "sourceSha256": "675c16f800e44b0fa5609b223e3a2ebedfe403348a45bc77481a540657ad5d30",
+      "freezeSha256": "675c16f800e44b0fa5609b223e3a2ebedfe403348a45bc77481a540657ad5d30",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MatchHud.cs",
+      "sourceSha256": "55e7024d40ffa7461f899be290a0922f92e039b75b8fc6c3800fa446b0110f41",
+      "freezeSha256": "55e7024d40ffa7461f899be290a0922f92e039b75b8fc6c3800fa446b0110f41",
+      "bytes": 32714,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MatchHud.cs.meta",
+      "sourceSha256": "f0dee56c0f6526ddbd87638862be0f4ee2291b791b55498417e482de7de56504",
+      "freezeSha256": "f0dee56c0f6526ddbd87638862be0f4ee2291b791b55498417e482de7de56504",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MinimapView.cs",
+      "sourceSha256": "e545ea71dea989a3e7b8dffdee2f6f14dc660e071a6e8158bbd83a202a869c40",
+      "freezeSha256": "e545ea71dea989a3e7b8dffdee2f6f14dc660e071a6e8158bbd83a202a869c40",
+      "bytes": 11656,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MinimapView.cs.meta",
+      "sourceSha256": "7176e42c0c986fa0e19e253d898a8f4e369e51531a5f28e47fe8618d61f37171",
+      "freezeSha256": "7176e42c0c986fa0e19e253d898a8f4e369e51531a5f28e47fe8618d61f37171",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MobileHudLayout.cs",
+      "sourceSha256": "dbb586a8379b71c54b992f58f8db845102a7553ce3c158f86939183e93a701d8",
+      "freezeSha256": "dbb586a8379b71c54b992f58f8db845102a7553ce3c158f86939183e93a701d8",
+      "bytes": 6600,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MobileHudLayout.cs.meta",
+      "sourceSha256": "e1380abf695d1c2dbb072ac3171a27428e606ddccc5810680c25a09b3b161d7a",
+      "freezeSha256": "e1380abf695d1c2dbb072ac3171a27428e606ddccc5810680c25a09b3b161d7a",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MobileInputSettings.cs",
+      "sourceSha256": "a36146cbd4f91061578d9f5730e6d0d8a9254ed6db4d36e87b322dba41eb379a",
+      "freezeSha256": "a36146cbd4f91061578d9f5730e6d0d8a9254ed6db4d36e87b322dba41eb379a",
+      "bytes": 582,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MobileInputSettings.cs.meta",
+      "sourceSha256": "e3e02c87da0f3c9f1fad1d7dedf2c8405d42f67be1b36f01776dd750694bfec3",
+      "freezeSha256": "e3e02c87da0f3c9f1fad1d7dedf2c8405d42f67be1b36f01776dd750694bfec3",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MovementPlayerProbe.cs",
+      "sourceSha256": "cbdee477a86077c10ce5de0ff8ae0c68f0dc571525cb8bd98a60d379e02772dd",
+      "freezeSha256": "cbdee477a86077c10ce5de0ff8ae0c68f0dc571525cb8bd98a60d379e02772dd",
+      "bytes": 9363,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MovementPlayerProbe.cs.meta",
+      "sourceSha256": "9439d71170db607c2d7b5d550d73785e61bc2c5fc56e9921fe4eca76e2f53f74",
+      "freezeSha256": "9439d71170db607c2d7b5d550d73785e61bc2c5fc56e9921fe4eca76e2f53f74",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MovementStressSession.cs",
+      "sourceSha256": "170d9e94964c249c927f0619987a09e0df3d5a745f7db02425a7937f1d9696d4",
+      "freezeSha256": "170d9e94964c249c927f0619987a09e0df3d5a745f7db02425a7937f1d9696d4",
+      "bytes": 7581,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/MovementStressSession.cs.meta",
+      "sourceSha256": "3edd7ff5eafce08a5b4f18af4364e32ef06db9ef2b6f7312c0e48cf3b1bf3986",
+      "freezeSha256": "3edd7ff5eafce08a5b4f18af4364e32ef06db9ef2b6f7312c0e48cf3b1bf3986",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ObjectiveView.cs",
+      "sourceSha256": "45f2ca392de23a98a4a3458eace5d62962c75119b2a9edb7dbfee63a55d51280",
+      "freezeSha256": "45f2ca392de23a98a4a3458eace5d62962c75119b2a9edb7dbfee63a55d51280",
+      "bytes": 5344,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ObjectiveView.cs.meta",
+      "sourceSha256": "977276f8b1e0b1558cbd0438f2eb13e124ad9aeaa9a6b33491cf937b0e18bf93",
+      "freezeSha256": "977276f8b1e0b1558cbd0438f2eb13e124ad9aeaa9a6b33491cf937b0e18bf93",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflineControls.cs",
+      "sourceSha256": "0d6c13cde51f0cc6d33cabf6f4d342342fa3b1959ace930f1ef9171f4c8f408e",
+      "freezeSha256": "0d6c13cde51f0cc6d33cabf6f4d342342fa3b1959ace930f1ef9171f4c8f408e",
+      "bytes": 7481,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflineControls.cs.meta",
+      "sourceSha256": "f7f0803c16bdf1f9f9c7284a7cc225d8b7e0ac353a527917fd65aa9b87b1cbd2",
+      "freezeSha256": "f7f0803c16bdf1f9f9c7284a7cc225d8b7e0ac353a527917fd65aa9b87b1cbd2",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflineHud.cs",
+      "sourceSha256": "006b96502fe3a60778ab3005331ddacfd4ef625321886cff1da1b9981d110d78",
+      "freezeSha256": "006b96502fe3a60778ab3005331ddacfd4ef625321886cff1da1b9981d110d78",
+      "bytes": 1697,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflineHud.cs.meta",
+      "sourceSha256": "c118592c97b46a73f9f63abc1cd7b54110bb84f73114adfe9141da3c9e98c9da",
+      "freezeSha256": "c118592c97b46a73f9f63abc1cd7b54110bb84f73114adfe9141da3c9e98c9da",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflinePanel.cs",
+      "sourceSha256": "54eb6421476ae5d102788f6697efd176d97c8ee049a85ae524d625e1b3f461ed",
+      "freezeSha256": "54eb6421476ae5d102788f6697efd176d97c8ee049a85ae524d625e1b3f461ed",
+      "bytes": 11401,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflinePanel.cs.meta",
+      "sourceSha256": "32e6a7b3f12ffedc42436e4cc645cad23d3ade2e32ef171a18912040af7f693e",
+      "freezeSha256": "32e6a7b3f12ffedc42436e4cc645cad23d3ade2e32ef171a18912040af7f693e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflinePlayerSmoke.cs",
+      "sourceSha256": "0772eb4223845f4a0be4c94b0dc194a776bcd18c5a4d76e5303d7fd5626fc1d6",
+      "freezeSha256": "0772eb4223845f4a0be4c94b0dc194a776bcd18c5a4d76e5303d7fd5626fc1d6",
+      "bytes": 7995,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflinePlayerSmoke.cs.meta",
+      "sourceSha256": "1a381f79b29526e7a8855fafeebb8f84b3029005c61b2d6bb01266eaa233f16a",
+      "freezeSha256": "1a381f79b29526e7a8855fafeebb8f84b3029005c61b2d6bb01266eaa233f16a",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflineRenderProbe.cs",
+      "sourceSha256": "cd237bfcdb431a193ff872cedcbd878abb6cddbb652a6055a83844fba475a8d2",
+      "freezeSha256": "cd237bfcdb431a193ff872cedcbd878abb6cddbb652a6055a83844fba475a8d2",
+      "bytes": 29480,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OfflineRenderProbe.cs.meta",
+      "sourceSha256": "bd8c9c79e0937a912e801863a4588a76af26efd2f5d2f5f3cbc0cd579a5bccbd",
+      "freezeSha256": "bd8c9c79e0937a912e801863a4588a76af26efd2f5d2f5f3cbc0cd579a5bccbd",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OnlineControls.cs",
+      "sourceSha256": "f074e2e85d4b990aa3ed45dc975ec2914db4a583ad691d27ed5ad0d76b13a437",
+      "freezeSha256": "f074e2e85d4b990aa3ed45dc975ec2914db4a583ad691d27ed5ad0d76b13a437",
+      "bytes": 21406,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OnlineControls.cs.meta",
+      "sourceSha256": "929556eccd54b3cbc79bda9e5be4f8789e607864cfc6273fc84f7acbdd78d408",
+      "freezeSha256": "929556eccd54b3cbc79bda9e5be4f8789e607864cfc6273fc84f7acbdd78d408",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OnlinePanel.cs",
+      "sourceSha256": "86f26fdfabcfc0d21b042c62b6d2b99b219564f053d789e421891ee2d4ec1f7b",
+      "freezeSha256": "86f26fdfabcfc0d21b042c62b6d2b99b219564f053d789e421891ee2d4ec1f7b",
+      "bytes": 15195,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OnlinePanel.cs.meta",
+      "sourceSha256": "92098bca7f6644de3ad22279835ff5fd54309c668479c23d3a880be646dcab2d",
+      "freezeSha256": "92098bca7f6644de3ad22279835ff5fd54309c668479c23d3a880be646dcab2d",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OnlinePlayerSmoke.cs",
+      "sourceSha256": "b2ed4bdc01439d72a7026cedfcc5d8764465ef1b7738e5c3e692d5808e544c6c",
+      "freezeSha256": "b2ed4bdc01439d72a7026cedfcc5d8764465ef1b7738e5c3e692d5808e544c6c",
+      "bytes": 32541,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OnlinePlayerSmoke.cs.meta",
+      "sourceSha256": "df8ce347e4b7c2b0d70677595e8f724bc266deca97053174a724bb389fa64f1a",
+      "freezeSha256": "df8ce347e4b7c2b0d70677595e8f724bc266deca97053174a724bb389fa64f1a",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OnlineService.cs",
+      "sourceSha256": "ccd75a7a4e5889064c970fd8f367e3cf05d2354e718f6837462596d9741ea295",
+      "freezeSha256": "ccd75a7a4e5889064c970fd8f367e3cf05d2354e718f6837462596d9741ea295",
+      "bytes": 17000,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/OnlineService.cs.meta",
+      "sourceSha256": "910fa7bf0fc19ec4797c9430370dfe738739de1bf3ec3869c2d35fd9b65088f5",
+      "freezeSha256": "910fa7bf0fc19ec4797c9430370dfe738739de1bf3ec3869c2d35fd9b65088f5",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/PirateCrewGameSmoke.cs",
+      "sourceSha256": "5ad8fb9255b262ce78c3e90de452bdfaddce36c2797091b40d8f5f36b2494c0e",
+      "freezeSha256": "5ad8fb9255b262ce78c3e90de452bdfaddce36c2797091b40d8f5f36b2494c0e",
+      "bytes": 39379,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/PirateCrewGameSmoke.cs.meta",
+      "sourceSha256": "5a1ce60a23c4584f9f819c74075106b5609c3f22ef334d19230f475c91a8ea33",
+      "freezeSha256": "5a1ce60a23c4584f9f819c74075106b5609c3f22ef334d19230f475c91a8ea33",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/PirateCrewScenario.cs",
+      "sourceSha256": "017c1447ab781a18da10c13e98c3874d1e47188d3f692262f29978e3e8b5a9ef",
+      "freezeSha256": "017c1447ab781a18da10c13e98c3874d1e47188d3f692262f29978e3e8b5a9ef",
+      "bytes": 3611,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/PirateCrewScenario.cs.meta",
+      "sourceSha256": "0040e4aab2657abb324c19a25a67abb98de5f36fd45d65e95785d2c2da925d48",
+      "freezeSha256": "0040e4aab2657abb324c19a25a67abb98de5f36fd45d65e95785d2c2da925d48",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/PlayerSmoke.cs",
+      "sourceSha256": "dbb54d0203e1c81a253262bd52aba57f0983fb15b2e2f30c8e32d8003dac7638",
+      "freezeSha256": "dbb54d0203e1c81a253262bd52aba57f0983fb15b2e2f30c8e32d8003dac7638",
+      "bytes": 10425,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/PlayerSmoke.cs.meta",
+      "sourceSha256": "89c40abb5a8f5964c5f74539f4402fc00256d428a9efb97b566ef522e33d41f4",
+      "freezeSha256": "89c40abb5a8f5964c5f74539f4402fc00256d428a9efb97b566ef522e33d41f4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ProductShell.cs",
+      "sourceSha256": "ff80b3a1f859be7ba2fc1670d407d3e852b38230de84cab3b1e290d90b8019cc",
+      "freezeSha256": "ff80b3a1f859be7ba2fc1670d407d3e852b38230de84cab3b1e290d90b8019cc",
+      "bytes": 16489,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ProductShell.cs.meta",
+      "sourceSha256": "f8f5e2158d1698eb3c1b245ae2365d88b0a88ad69f056e7bc655214841a1d4fa",
+      "freezeSha256": "f8f5e2158d1698eb3c1b245ae2365d88b0a88ad69f056e7bc655214841a1d4fa",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ProductShellSmoke.cs",
+      "sourceSha256": "b83f887e878c2868cbdb7c80cda75eacd5198639a5a533ca543270bf445dd9b1",
+      "freezeSha256": "b83f887e878c2868cbdb7c80cda75eacd5198639a5a533ca543270bf445dd9b1",
+      "bytes": 9888,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ProductShellSmoke.cs.meta",
+      "sourceSha256": "84b8feff837f39e1f3212ac41599f12ac697c624c2dbcb8826a5a30f76c35128",
+      "freezeSha256": "84b8feff837f39e1f3212ac41599f12ac697c624c2dbcb8826a5a30f76c35128",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ReferenceCharacterReview.cs",
+      "sourceSha256": "c9eadd7c959b41d60374341eda63726e88ea6c6d015f47e291fe21aa3ecc116b",
+      "freezeSha256": "c9eadd7c959b41d60374341eda63726e88ea6c6d015f47e291fe21aa3ecc116b",
+      "bytes": 13736,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ReferenceCharacterReview.cs.meta",
+      "sourceSha256": "584cce324c7b7eefc837ca1c8f269d8a4ea1501453f282478b2f1fc20c61ae8a",
+      "freezeSha256": "584cce324c7b7eefc837ca1c8f269d8a4ea1501453f282478b2f1fc20c61ae8a",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ReferenceCharacterVisuals.cs",
+      "sourceSha256": "de2c981bc0fa67cb7ea29fd38e5be25f02fe5a87551c078fc4aa1becae703bf7",
+      "freezeSha256": "de2c981bc0fa67cb7ea29fd38e5be25f02fe5a87551c078fc4aa1becae703bf7",
+      "bytes": 4632,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ReferenceCharacterVisuals.cs.meta",
+      "sourceSha256": "63f7b1603aa66b89eb8e9201e64c8f28f36f052c963d8b8b4288caaaa0052275",
+      "freezeSha256": "63f7b1603aa66b89eb8e9201e64c8f28f36f052c963d8b8b4288caaaa0052275",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ResearchControls.cs",
+      "sourceSha256": "f05332db403721c0d962a068e2532df298fe1db1fddd3614187cc2d53132cef7",
+      "freezeSha256": "f05332db403721c0d962a068e2532df298fe1db1fddd3614187cc2d53132cef7",
+      "bytes": 6844,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ResearchControls.cs.meta",
+      "sourceSha256": "8bb8f7e893948dfe34a4df4d23e5d647bbd39bea9033a79dac2f7009695b071b",
+      "freezeSha256": "8bb8f7e893948dfe34a4df4d23e5d647bbd39bea9033a79dac2f7009695b071b",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ResearchPanel.cs",
+      "sourceSha256": "3c414dc0a7cbf84323590ba64ef4c26d2120224a2722b0eded250101a04580dd",
+      "freezeSha256": "3c414dc0a7cbf84323590ba64ef4c26d2120224a2722b0eded250101a04580dd",
+      "bytes": 12526,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/ResearchPanel.cs.meta",
+      "sourceSha256": "e14e5697fa0083c3b6e166427c14ca58faa5df87571a2f3c65b9544fda7e3af4",
+      "freezeSha256": "e14e5697fa0083c3b6e166427c14ca58faa5df87571a2f3c65b9544fda7e3af4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/RoyalSoldierReview.cs",
+      "sourceSha256": "513b24b1537dbb640b7fed1f450765ae33e239061d8128cd63b2388a479cb2fa",
+      "freezeSha256": "513b24b1537dbb640b7fed1f450765ae33e239061d8128cd63b2388a479cb2fa",
+      "bytes": 5892,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/RoyalSoldierReview.cs.meta",
+      "sourceSha256": "54a691f7748842331d1b4e5677066303ba6bee6fa495e5278c90ea92f03376fb",
+      "freezeSha256": "54a691f7748842331d1b4e5677066303ba6bee6fa495e5278c90ea92f03376fb",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/RtsCamera.cs",
+      "sourceSha256": "7d2a915b1e325644784211f20207368edbb3fba9d3d0198ead1af908aff4c0a4",
+      "freezeSha256": "7d2a915b1e325644784211f20207368edbb3fba9d3d0198ead1af908aff4c0a4",
+      "bytes": 4399,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/RtsCamera.cs.meta",
+      "sourceSha256": "faad3338f1ccd4ae234752590f4ba8c4e9a454784b240f336444c9aff0c7cd56",
+      "freezeSha256": "faad3338f1ccd4ae234752590f4ba8c4e9a454784b240f336444c9aff0c7cd56",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/RtsInput.cs",
+      "sourceSha256": "5202db9cd96717d50cbc1660ecca6a0e5d40a9a2606832975a37f80be3390077",
+      "freezeSha256": "5202db9cd96717d50cbc1660ecca6a0e5d40a9a2606832975a37f80be3390077",
+      "bytes": 11018,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/RtsInput.cs.meta",
+      "sourceSha256": "e943fbaafd69eceb9984f5d40411adb3281938beba4e34c039f8e3d44ad4d356",
+      "freezeSha256": "e943fbaafd69eceb9984f5d40411adb3281938beba4e34c039f8e3d44ad4d356",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/SafeQuit.cs",
+      "sourceSha256": "d6aae196bfae29a460dcd791d62c9df3da6bc6ba62946263142ddd568076ad9f",
+      "freezeSha256": "d6aae196bfae29a460dcd791d62c9df3da6bc6ba62946263142ddd568076ad9f",
+      "bytes": 929,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/SafeQuit.cs.meta",
+      "sourceSha256": "8cc0519f923937943a7e978ea2b37de8af04b658b5f36fc6576e7594f4c928c0",
+      "freezeSha256": "8cc0519f923937943a7e978ea2b37de8af04b658b5f36fc6576e7594f4c928c0",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/SiegeControls.cs",
+      "sourceSha256": "cdade71f2aa763ebc2cd5be1223ea8e34cbe40059074bd633bb665cbc9c84e91",
+      "freezeSha256": "cdade71f2aa763ebc2cd5be1223ea8e34cbe40059074bd633bb665cbc9c84e91",
+      "bytes": 3904,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/SiegeControls.cs.meta",
+      "sourceSha256": "133bb43d7f10eb5274c6c3a8f7003ec535ce2d1ca21f29ade8a11a4de510dac3",
+      "freezeSha256": "133bb43d7f10eb5274c6c3a8f7003ec535ce2d1ca21f29ade8a11a4de510dac3",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/SiegeHud.cs",
+      "sourceSha256": "abb1dc93691eb6999ee05c2def012d00d8a8fda23030012033706c6415eb5075",
+      "freezeSha256": "abb1dc93691eb6999ee05c2def012d00d8a8fda23030012033706c6415eb5075",
+      "bytes": 1792,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/SiegeHud.cs.meta",
+      "sourceSha256": "07708fd5339103e73f0de04e9a62f9a23ab5511de81c185d80642bd8e4d594a4",
+      "freezeSha256": "07708fd5339103e73f0de04e9a62f9a23ab5511de81c185d80642bd8e4d594a4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/SliceFeedback.cs",
+      "sourceSha256": "782d6222b1351fcc6b7439afb5ff7e890d57d99ff49803d431594d9a66d84ea1",
+      "freezeSha256": "782d6222b1351fcc6b7439afb5ff7e890d57d99ff49803d431594d9a66d84ea1",
+      "bytes": 7004,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/SliceFeedback.cs.meta",
+      "sourceSha256": "e9a518698869f2a08c3cb283a3bc75112682fdf884552b8fcb85f1c2dfdc56d3",
+      "freezeSha256": "e9a518698869f2a08c3cb283a3bc75112682fdf884552b8fcb85f1c2dfdc56d3",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/TechnologyPlayerSmoke.cs",
+      "sourceSha256": "6dd46748a34f6b4f190f01c5c73255eff3308b6360e7b23920d1ec8f9744be2e",
+      "freezeSha256": "6dd46748a34f6b4f190f01c5c73255eff3308b6360e7b23920d1ec8f9744be2e",
+      "bytes": 12325,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/TechnologyPlayerSmoke.cs.meta",
+      "sourceSha256": "1839530256371f00a719017a315b6599db0bfd4c38881f140326ccda8bf24930",
+      "freezeSha256": "1839530256371f00a719017a315b6599db0bfd4c38881f140326ccda8bf24930",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/UnitVisualDefinition.cs",
+      "sourceSha256": "a764ff95bd69b25bce168c4f8b7a39a09e2b4d203985de2ac010d30abb8f9542",
+      "freezeSha256": "a764ff95bd69b25bce168c4f8b7a39a09e2b4d203985de2ac010d30abb8f9542",
+      "bytes": 409,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/UnitVisualDefinition.cs.meta",
+      "sourceSha256": "32bd7d81588424b61baffbdfb3044fd534f40191585ced050817ebf3d1f14042",
+      "freezeSha256": "32bd7d81588424b61baffbdfb3044fd534f40191585ced050817ebf3d1f14042",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/VoiceControls.cs",
+      "sourceSha256": "598d98773163d0740c55cf77f9b93cc863553fe474b17aa301c3a8052c45426d",
+      "freezeSha256": "598d98773163d0740c55cf77f9b93cc863553fe474b17aa301c3a8052c45426d",
+      "bytes": 38962,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/VoiceControls.cs.meta",
+      "sourceSha256": "32997ec36637d86e0c405a7362c434c194582d098d48a43be1829837075f06a4",
+      "freezeSha256": "32997ec36637d86e0c405a7362c434c194582d098d48a43be1829837075f06a4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/VoicePanel.cs",
+      "sourceSha256": "44c8baf19217803289c59fc4eff33c09d6819e75c106a1984c0716366ddf946d",
+      "freezeSha256": "44c8baf19217803289c59fc4eff33c09d6819e75c106a1984c0716366ddf946d",
+      "bytes": 4889,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/VoicePanel.cs.meta",
+      "sourceSha256": "6226fc731f47369e5bfd158cbb16b164558b289e69fb73e77df58a5cb335e27f",
+      "freezeSha256": "6226fc731f47369e5bfd158cbb16b164558b289e69fb73e77df58a5cb335e27f",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/VoiceRecognizers.cs",
+      "sourceSha256": "acabaa2a8aaa01b1d38532841b30e995a03039815ef9c0de57ddeeec81c55f42",
+      "freezeSha256": "acabaa2a8aaa01b1d38532841b30e995a03039815ef9c0de57ddeeec81c55f42",
+      "bytes": 5949,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/VoiceRecognizers.cs.meta",
+      "sourceSha256": "ecd2c1ae5fd915072904a24acfa47d705723957526602ccbe10d86233301962c",
+      "freezeSha256": "ecd2c1ae5fd915072904a24acfa47d705723957526602ccbe10d86233301962c",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/VoiceSmoke.cs",
+      "sourceSha256": "6f673effa97c0f29bcd1e86c0377f58f4a61b4ab0f66ded348eb0ad455f3fcf1",
+      "freezeSha256": "6f673effa97c0f29bcd1e86c0377f58f4a61b4ab0f66ded348eb0ad455f3fcf1",
+      "bytes": 10355,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/VoiceSmoke.cs.meta",
+      "sourceSha256": "5f1ad643c04073e36d175a54e5b77cbd8da66fb2795153d6e0f31a723c4f060e",
+      "freezeSha256": "5f1ad643c04073e36d175a54e5b77cbd8da66fb2795153d6e0f31a723c4f060e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/WorldView.cs",
+      "sourceSha256": "2fb56cb55f3b4011011e0afe91b284b8645ef1b6747249fa3e91bfc086895ca7",
+      "freezeSha256": "2fb56cb55f3b4011011e0afe91b284b8645ef1b6747249fa3e91bfc086895ca7",
+      "bytes": 40696,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/WorldView.cs.meta",
+      "sourceSha256": "cf9c3f7c6fdb86c393b1c57cacb620fabbed79b8642c16230abbe4de74ea538a",
+      "freezeSha256": "cf9c3f7c6fdb86c393b1c57cacb620fabbed79b8642c16230abbe4de74ea538a",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/WorldView.PirateEffects.cs",
+      "sourceSha256": "b3c75ef141fccb6c99ecd52307d13efeee11947e09ee58b46a57852f2f09a4ec",
+      "freezeSha256": "b3c75ef141fccb6c99ecd52307d13efeee11947e09ee58b46a57852f2f09a4ec",
+      "bytes": 4720,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation/WorldView.PirateEffects.cs.meta",
+      "sourceSha256": "4012fdeb03ee0d4c5a293141015630101a3c4aec70b5d302c12c79c9bcad3fba",
+      "freezeSha256": "4012fdeb03ee0d4c5a293141015630101a3c4aec70b5d302c12c79c9bcad3fba",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Presentation.meta",
+      "sourceSha256": "275907eebd415afbca4d3a11fe2a262934c19a223281d0a25cbf8007bf40b4a7",
+      "freezeSha256": "275907eebd415afbca4d3a11fe2a262934c19a223281d0a25cbf8007bf40b4a7",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/AttackCommand.cs",
+      "sourceSha256": "72e8f8d1f121c2e5b818a6d57690ed6258322ee801708515a67cae00fb93b532",
+      "freezeSha256": "72e8f8d1f121c2e5b818a6d57690ed6258322ee801708515a67cae00fb93b532",
+      "bytes": 450,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/AttackCommand.cs.meta",
+      "sourceSha256": "43daab1edb537046a80176dcb2ca56c3a210975c5bc7ec9eef2fb8fd4949aafe",
+      "freezeSha256": "43daab1edb537046a80176dcb2ca56c3a210975c5bc7ec9eef2fb8fd4949aafe",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/CombatDefinitions.cs",
+      "sourceSha256": "595b0102de370b0a92880cea3c5d82e6a3ded930749c1b535acd76b45512c9be",
+      "freezeSha256": "595b0102de370b0a92880cea3c5d82e6a3ded930749c1b535acd76b45512c9be",
+      "bytes": 891,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/CombatDefinitions.cs.meta",
+      "sourceSha256": "c2aeaae358ff02c22e4379d6c13de9a23522afe2c1069a4b156231ebf97837e3",
+      "freezeSha256": "c2aeaae358ff02c22e4379d6c13de9a23522afe2c1069a4b156231ebf97837e3",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/CombatSystem.cs",
+      "sourceSha256": "05000f6ea2b2d8aa606937b8565465b4aa6aabe1206e35300274b9f417899ccc",
+      "freezeSha256": "05000f6ea2b2d8aa606937b8565465b4aa6aabe1206e35300274b9f417899ccc",
+      "bytes": 20461,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/CombatSystem.cs.meta",
+      "sourceSha256": "f5108547177d5af7c3dc6fcd617e8bef4689c5301df6f778251354fcbe2d6b4f",
+      "freezeSha256": "f5108547177d5af7c3dc6fcd617e8bef4689c5301df6f778251354fcbe2d6b4f",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/Commands.cs",
+      "sourceSha256": "dd0c9a98d978849e5fe898579b8b43704cf520c67c92a621e66730ae8a0923af",
+      "freezeSha256": "dd0c9a98d978849e5fe898579b8b43704cf520c67c92a621e66730ae8a0923af",
+      "bytes": 2588,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/Commands.cs.meta",
+      "sourceSha256": "e61f5d1f61f6c8081abc3171f9081f5cc3388b21b6148ce1fe09cfe097b5bb73",
+      "freezeSha256": "e61f5d1f61f6c8081abc3171f9081f5cc3388b21b6148ce1fe09cfe097b5bb73",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ConstructionSystem.cs",
+      "sourceSha256": "7f1bbc3e1d2bff512b000a5101122f6b3a9c7434a9d6d6f187ef25844cdbf846",
+      "freezeSha256": "7f1bbc3e1d2bff512b000a5101122f6b3a9c7434a9d6d6f187ef25844cdbf846",
+      "bytes": 9110,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ConstructionSystem.cs.meta",
+      "sourceSha256": "db37f565d5046eafb8f8842930a503a95a607795ca18b04c29673442e62a2e65",
+      "freezeSha256": "db37f565d5046eafb8f8842930a503a95a607795ca18b04c29673442e62a2e65",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ContentRealms.cs",
+      "sourceSha256": "0be608d5bb5ade058546d93e2608d0d9c3147e109da9679016c1f0ce459c7a46",
+      "freezeSha256": "0be608d5bb5ade058546d93e2608d0d9c3147e109da9679016c1f0ce459c7a46",
+      "bytes": 3639,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ContentRealms.cs.meta",
+      "sourceSha256": "13fdd5ea9e45738732a88085627f1b71e11bf50c275d3dda44462720646624d3",
+      "freezeSha256": "13fdd5ea9e45738732a88085627f1b71e11bf50c275d3dda44462720646624d3",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/Definitions.cs",
+      "sourceSha256": "8a581d31b7c907288b2c69e5aba1a31922884778121d2695b8eecfe9eef6ca20",
+      "freezeSha256": "8a581d31b7c907288b2c69e5aba1a31922884778121d2695b8eecfe9eef6ca20",
+      "bytes": 4777,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/Definitions.cs.meta",
+      "sourceSha256": "defff9dddacb6bbeddde05a5a865c3ff87595dcdde7d9a8bc0d8a4591dc718d5",
+      "freezeSha256": "defff9dddacb6bbeddde05a5a865c3ff87595dcdde7d9a8bc0d8a4591dc718d5",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/DefinitionValidation.cs",
+      "sourceSha256": "19f3be200f59f87447ca310140662e7fd063526f12b58efe16d2b3107d5bf86d",
+      "freezeSha256": "19f3be200f59f87447ca310140662e7fd063526f12b58efe16d2b3107d5bf86d",
+      "bytes": 6563,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/DefinitionValidation.cs.meta",
+      "sourceSha256": "418c037451aed3e42ac910f4b782a85d94085338e457976d23660b12b2c34b66",
+      "freezeSha256": "418c037451aed3e42ac910f4b782a85d94085338e457976d23660b12b2c34b66",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/EconomyCommands.cs",
+      "sourceSha256": "75efb6656e586fc212a096713b7f4dd694a227b2e6fb0d6d9b0a012043cd92be",
+      "freezeSha256": "75efb6656e586fc212a096713b7f4dd694a227b2e6fb0d6d9b0a012043cd92be",
+      "bytes": 2591,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/EconomyCommands.cs.meta",
+      "sourceSha256": "df935d7812ff220b2a10cd8f015508aa3d1263f6d3d044d104caca8ba388a78b",
+      "freezeSha256": "df935d7812ff220b2a10cd8f015508aa3d1263f6d3d044d104caca8ba388a78b",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/EconomySystem.cs",
+      "sourceSha256": "649e6f15a67097990c28c9f3ab9e4df44a49cc6f894e61fc11e069273f632137",
+      "freezeSha256": "649e6f15a67097990c28c9f3ab9e4df44a49cc6f894e61fc11e069273f632137",
+      "bytes": 11322,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/EconomySystem.cs.meta",
+      "sourceSha256": "d2ca0ee995d0e914aed6cc25c2d66fcfc3e8899da178d6fcaf166e42ea3485ef",
+      "freezeSha256": "d2ca0ee995d0e914aed6cc25c2d66fcfc3e8899da178d6fcaf166e42ea3485ef",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/Emberfield.Simulation.asmdef",
+      "sourceSha256": "19de536b71faa86a60388bfad54d9b203ec5259e616cc3fb7388a8e0b1764cff",
+      "freezeSha256": "19de536b71faa86a60388bfad54d9b203ec5259e616cc3fb7388a8e0b1764cff",
+      "bytes": 351,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/Emberfield.Simulation.asmdef.meta",
+      "sourceSha256": "3d5ca5f38471334adbcfa621523d9dd2484729ed98ee6b609f83e2f6db963dc0",
+      "freezeSha256": "3d5ca5f38471334adbcfa621523d9dd2484729ed98ee6b609f83e2f6db963dc0",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/EntityStates.cs",
+      "sourceSha256": "a27781d8da52e36a509333f47f7a389350273c788446d62e2b92bebfe931f26d",
+      "freezeSha256": "a27781d8da52e36a509333f47f7a389350273c788446d62e2b92bebfe931f26d",
+      "bytes": 8171,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/EntityStates.cs.meta",
+      "sourceSha256": "eb865fee078b880cce35201960d844bd5ad1a2ce4747b31f046d1717b749f99f",
+      "freezeSha256": "eb865fee078b880cce35201960d844bd5ad1a2ce4747b31f046d1717b749f99f",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FactionCatalog.cs",
+      "sourceSha256": "789e89f9e9471b3b84adadf8fbd4faba7865e096a923332c330cc61d1b3c352c",
+      "freezeSha256": "789e89f9e9471b3b84adadf8fbd4faba7865e096a923332c330cc61d1b3c352c",
+      "bytes": 13705,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FactionCatalog.cs.meta",
+      "sourceSha256": "89420d3ed323b1696a49831130752289c5e109378eb6648e31a038d8aaf72d5a",
+      "freezeSha256": "89420d3ed323b1696a49831130752289c5e109378eb6648e31a038d8aaf72d5a",
+      "bytes": 62,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FactionDefinitions.cs",
+      "sourceSha256": "e9c4f7109ce702d38aad61bfb893cff358081e196a576f3593016d9797fd7cc6",
+      "freezeSha256": "e9c4f7109ce702d38aad61bfb893cff358081e196a576f3593016d9797fd7cc6",
+      "bytes": 3756,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FactionDefinitions.cs.meta",
+      "sourceSha256": "6a02c106f828ef5e207ac188ef33102ea6fdccab6d63e97078c3705d504ccacc",
+      "freezeSha256": "6a02c106f828ef5e207ac188ef33102ea6fdccab6d63e97078c3705d504ccacc",
+      "bytes": 62,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FactionSystem.cs",
+      "sourceSha256": "8db6f285375395096e6a7098489a4ac517dc650d2144343cada8115034d46fa9",
+      "freezeSha256": "8db6f285375395096e6a7098489a4ac517dc650d2144343cada8115034d46fa9",
+      "bytes": 24050,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FactionSystem.cs.meta",
+      "sourceSha256": "673f4dd71d22e648427ee404aa0cfc2e96c4346378dffe805cda5147e64ddad6",
+      "freezeSha256": "673f4dd71d22e648427ee404aa0cfc2e96c4346378dffe805cda5147e64ddad6",
+      "bytes": 62,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FogOfWarSystem.cs",
+      "sourceSha256": "6d42d981a04275834757d9c785b3ce4f498793a9adf777227d1485706102f903",
+      "freezeSha256": "6d42d981a04275834757d9c785b3ce4f498793a9adf777227d1485706102f903",
+      "bytes": 9521,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FogOfWarSystem.cs.meta",
+      "sourceSha256": "aabf442d52c8ad115b631c0b3acb3fcddba64248b70bce7c05ad0ef773fa3ed7",
+      "freezeSha256": "aabf442d52c8ad115b631c0b3acb3fcddba64248b70bce7c05ad0ef773fa3ed7",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FormationPlanner.cs",
+      "sourceSha256": "59acaa88e56c860bfdee5bb2ed551695d9d132aad68380001223021adabfa9e9",
+      "freezeSha256": "59acaa88e56c860bfdee5bb2ed551695d9d132aad68380001223021adabfa9e9",
+      "bytes": 8012,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/FormationPlanner.cs.meta",
+      "sourceSha256": "807d08a74125d4b022f17f81bdb7cf9fcd77a6da8eefc596c6da408089809557",
+      "freezeSha256": "807d08a74125d4b022f17f81bdb7cf9fcd77a6da8eefc596c6da408089809557",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/InteractionSearch.cs",
+      "sourceSha256": "e14c9f2ef15dadff7c910c2c79ece47b6efd444fe0940fa64ceba87daf1e23b7",
+      "freezeSha256": "e14c9f2ef15dadff7c910c2c79ece47b6efd444fe0940fa64ceba87daf1e23b7",
+      "bytes": 7521,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/InteractionSearch.cs.meta",
+      "sourceSha256": "cfa6ace710ed519c5d806548c05afad006390581edd0b2c5ec03f1ea68372270",
+      "freezeSha256": "cfa6ace710ed519c5d806548c05afad006390581edd0b2c5ec03f1ea68372270",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/MovementGeometry.cs",
+      "sourceSha256": "3c3b28e925a68d5c433d0263cd63fcd43fd248b60269e9ac692afa7577315539",
+      "freezeSha256": "3c3b28e925a68d5c433d0263cd63fcd43fd248b60269e9ac692afa7577315539",
+      "bytes": 4365,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/MovementGeometry.cs.meta",
+      "sourceSha256": "6c194739e9cd3cb2953197ffdb009c8bf60fe9f987b34e69b5950bbcccc6dcad",
+      "freezeSha256": "6c194739e9cd3cb2953197ffdb009c8bf60fe9f987b34e69b5950bbcccc6dcad",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/MovementSystem.cs",
+      "sourceSha256": "246df714cfff0b2f402ea7817e0b9dd682958d5ee9582e65924edc00041d03b4",
+      "freezeSha256": "246df714cfff0b2f402ea7817e0b9dd682958d5ee9582e65924edc00041d03b4",
+      "bytes": 15063,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/MovementSystem.cs.meta",
+      "sourceSha256": "b2c3296c7c7dd0ee65689ef6da8623c06d7d5fef50b671cd2f15ab88d7a75303",
+      "freezeSha256": "b2c3296c7c7dd0ee65689ef6da8623c06d7d5fef50b671cd2f15ab88d7a75303",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/Navigation.cs",
+      "sourceSha256": "e4b758f0d06f19905074980942c318d2486f2c41c43920804b376e51ddbc55c0",
+      "freezeSha256": "e4b758f0d06f19905074980942c318d2486f2c41c43920804b376e51ddbc55c0",
+      "bytes": 21611,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/Navigation.cs.meta",
+      "sourceSha256": "f7d1ff92e1f0dfe544ead8f0b690b786e0f25f19a0707c9b4710a50c44d0046c",
+      "freezeSha256": "f7d1ff92e1f0dfe544ead8f0b690b786e0f25f19a0707c9b4710a50c44d0046c",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/NavigationMetrics.cs",
+      "sourceSha256": "18ad006ecef7b1e4fee9beed95489a4f5187998026de6f9e38ce5a41e023e0cd",
+      "freezeSha256": "18ad006ecef7b1e4fee9beed95489a4f5187998026de6f9e38ce5a41e023e0cd",
+      "bytes": 4134,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/NavigationMetrics.cs.meta",
+      "sourceSha256": "b718e5f29d9c4e0ddb53540b395460824981c1b8c476227ca67453378a4522dc",
+      "freezeSha256": "b718e5f29d9c4e0ddb53540b395460824981c1b8c476227ca67453378a4522dc",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/NetworkObservation.cs",
+      "sourceSha256": "d58fd2ef3b9136c855ab2d65147d5af8c6aa3e3b23678b97fcfead4a219a2527",
+      "freezeSha256": "d58fd2ef3b9136c855ab2d65147d5af8c6aa3e3b23678b97fcfead4a219a2527",
+      "bytes": 15400,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/NetworkObservation.cs.meta",
+      "sourceSha256": "709c0faa68512851166fde171da943a876266b499d9cbc958216fb5161f2da04",
+      "freezeSha256": "709c0faa68512851166fde171da943a876266b499d9cbc958216fb5161f2da04",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/NetworkReplica.cs",
+      "sourceSha256": "27aa86de64b6ce27a64785ca32f40ece26ba68aa5b01a9b9806db90e907e0450",
+      "freezeSha256": "27aa86de64b6ce27a64785ca32f40ece26ba68aa5b01a9b9806db90e907e0450",
+      "bytes": 26594,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/NetworkReplica.cs.meta",
+      "sourceSha256": "72846af2360676fea130ce3c8135a98de04391feb01b725808d04501a0c16760",
+      "freezeSha256": "72846af2360676fea130ce3c8135a98de04391feb01b725808d04501a0c16760",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/OfflineAi.cs",
+      "sourceSha256": "3bb08cb1c75bc181f86f87aa02381e7412e4961921eb71ef42f4455d427e6660",
+      "freezeSha256": "3bb08cb1c75bc181f86f87aa02381e7412e4961921eb71ef42f4455d427e6660",
+      "bytes": 47286,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/OfflineAi.cs.meta",
+      "sourceSha256": "7feef8fd9d5ac86e4a426cdd36a948558c29077b63f3f9e3aa9e20cd5582c777",
+      "freezeSha256": "7feef8fd9d5ac86e4a426cdd36a948558c29077b63f3f9e3aa9e20cd5582c777",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/OfflineAiObservation.cs",
+      "sourceSha256": "d763c10ec665af640c35829056ba952ca607686eda6e01562f2548ff767be713",
+      "freezeSha256": "d763c10ec665af640c35829056ba952ca607686eda6e01562f2548ff767be713",
+      "bytes": 4773,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/OfflineAiObservation.cs.meta",
+      "sourceSha256": "d8757c07a8290165321f6cd37663af240bce48cd9944383031e8ab87b81d9b75",
+      "freezeSha256": "d8757c07a8290165321f6cd37663af240bce48cd9944383031e8ab87b81d9b75",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/OfflineMatchDefinitions.cs",
+      "sourceSha256": "1f96d8c80d7ee2dcbbd382b6fdcc44f84ae58e8306fa801c1c564c0ca5a97055",
+      "freezeSha256": "1f96d8c80d7ee2dcbbd382b6fdcc44f84ae58e8306fa801c1c564c0ca5a97055",
+      "bytes": 1298,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/OfflineMatchDefinitions.cs.meta",
+      "sourceSha256": "7f97ce8786b512e09b6a3885e73006576dfb030bf045a33a11342cced23a61a1",
+      "freezeSha256": "7f97ce8786b512e09b6a3885e73006576dfb030bf045a33a11342cced23a61a1",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/OfflineMatchState.cs",
+      "sourceSha256": "14d256e3d22decf7b4316d3c6d79ad7067ab41260485ff4f5bcb073fb7d259f1",
+      "freezeSha256": "14d256e3d22decf7b4316d3c6d79ad7067ab41260485ff4f5bcb073fb7d259f1",
+      "bytes": 9823,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/OfflineMatchState.cs.meta",
+      "sourceSha256": "e79ad94bdeebce5e08f40c447972a62be4ca7d746f9d01d1a9c984137f62cf72",
+      "freezeSha256": "e79ad94bdeebce5e08f40c447972a62be4ca7d746f9d01d1a9c984137f62cf72",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/PlayerState.cs",
+      "sourceSha256": "e9507f1ac0efbc8f8cef7c62109511f7831c636ec4dadb7f1f36da55f89b89a4",
+      "freezeSha256": "e9507f1ac0efbc8f8cef7c62109511f7831c636ec4dadb7f1f36da55f89b89a4",
+      "bytes": 4109,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/PlayerState.cs.meta",
+      "sourceSha256": "43d9e9a3e7fc5270c3b068ce04d291accdb02061da0201bba3a358fc820d2b42",
+      "freezeSha256": "43d9e9a3e7fc5270c3b068ce04d291accdb02061da0201bba3a358fc820d2b42",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ProductionSystem.cs",
+      "sourceSha256": "9ea0082ed8ce6b5e4fa9952210afa4277227eb7370f434bbccbb9adc5a32010e",
+      "freezeSha256": "9ea0082ed8ce6b5e4fa9952210afa4277227eb7370f434bbccbb9adc5a32010e",
+      "bytes": 6645,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ProductionSystem.cs.meta",
+      "sourceSha256": "df2bddd1551dca1174d07253a26e3d209ea402ef9d5a5090fa4aa015972b4c7d",
+      "freezeSha256": "df2bddd1551dca1174d07253a26e3d209ea402ef9d5a5090fa4aa015972b4c7d",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ProjectileState.cs",
+      "sourceSha256": "ebb3acab290ff8cba859f7f8dc799fe309583d82fad53ca6a439145eb21ad170",
+      "freezeSha256": "ebb3acab290ff8cba859f7f8dc799fe309583d82fad53ca6a439145eb21ad170",
+      "bytes": 1519,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ProjectileState.cs.meta",
+      "sourceSha256": "bc6aec634929ab68a5bd714c2176abfac950572b3d78751605f28fc9c933f7f5",
+      "freezeSha256": "bc6aec634929ab68a5bd714c2176abfac950572b3d78751605f28fc9c933f7f5",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ResearchSystem.cs",
+      "sourceSha256": "42cc735d6308436839d349df66a98df884cabbde12b48d13092e0835a3911bae",
+      "freezeSha256": "42cc735d6308436839d349df66a98df884cabbde12b48d13092e0835a3911bae",
+      "bytes": 10227,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/ResearchSystem.cs.meta",
+      "sourceSha256": "bbe19f3a7f97656e1fd40d2dc9175eb98ce1659f23c15503da95802db54b9af5",
+      "freezeSha256": "bbe19f3a7f97656e1fd40d2dc9175eb98ce1659f23c15503da95802db54b9af5",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/SiegeCommands.cs",
+      "sourceSha256": "fa9ab51bf2bbd9f81bce480e82f28f8aedd62c281805dadf2299918470125bc1",
+      "freezeSha256": "fa9ab51bf2bbd9f81bce480e82f28f8aedd62c281805dadf2299918470125bc1",
+      "bytes": 1395,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/SiegeCommands.cs.meta",
+      "sourceSha256": "4d23a48aadd2bd964cbfad8e5703322db4e770f698452aaaf02004596da2e667",
+      "freezeSha256": "4d23a48aadd2bd964cbfad8e5703322db4e770f698452aaaf02004596da2e667",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/SiegeSystem.cs",
+      "sourceSha256": "95670e9d25905c25945abae44fc93842bcf95976d02a82f120bd9f71f02a1169",
+      "freezeSha256": "95670e9d25905c25945abae44fc93842bcf95976d02a82f120bd9f71f02a1169",
+      "bytes": 14506,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/SiegeSystem.cs.meta",
+      "sourceSha256": "c7c9f851e1e8c5a1c0eae41c8642e82da8ded7e3615e62cf17ca559028f29576",
+      "freezeSha256": "c7c9f851e1e8c5a1c0eae41c8642e82da8ded7e3615e62cf17ca559028f29576",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/SimPoint.cs",
+      "sourceSha256": "3c5b48b634df5e12dda35d877404f1a6a606db252d20a334a1fd0f1558ae6803",
+      "freezeSha256": "3c5b48b634df5e12dda35d877404f1a6a606db252d20a334a1fd0f1558ae6803",
+      "bytes": 1507,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/SimPoint.cs.meta",
+      "sourceSha256": "7da901594fb0a4cff3395d0bc1a14d7bc07c1933f165c90bab09cf6ece4a3be6",
+      "freezeSha256": "7da901594fb0a4cff3395d0bc1a14d7bc07c1933f165c90bab09cf6ece4a3be6",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/TargetGeometry.cs",
+      "sourceSha256": "cb10bf91ef248e11f08f04317e2294a3b0370e55be0e3276b75dc839f07d80b2",
+      "freezeSha256": "cb10bf91ef248e11f08f04317e2294a3b0370e55be0e3276b75dc839f07d80b2",
+      "bytes": 3028,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/TargetGeometry.cs.meta",
+      "sourceSha256": "1cb61ac6cd7ba30fb10bfb3c558e1cd64f6c1f8bcac71e4f66a4dd7d46153b4b",
+      "freezeSha256": "1cb61ac6cd7ba30fb10bfb3c558e1cd64f6c1f8bcac71e4f66a4dd7d46153b4b",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/TechnologyCatalog.cs",
+      "sourceSha256": "90e6d15296b1fc44956f3950733c8f0c702bbd8a9258896cedb7d957146d55d9",
+      "freezeSha256": "90e6d15296b1fc44956f3950733c8f0c702bbd8a9258896cedb7d957146d55d9",
+      "bytes": 10733,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/TechnologyCatalog.cs.meta",
+      "sourceSha256": "0911569d273dafe4c1b84fbd0e5a2444ce847e29a9b157ad61b9fd6cfba28aed",
+      "freezeSha256": "0911569d273dafe4c1b84fbd0e5a2444ce847e29a9b157ad61b9fd6cfba28aed",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/TechnologyDefinitions.cs",
+      "sourceSha256": "340177f83838e56b3ee7f0e6dd98be5c074c95857b4fa8bd2a0e4a7107b0cd02",
+      "freezeSha256": "340177f83838e56b3ee7f0e6dd98be5c074c95857b4fa8bd2a0e4a7107b0cd02",
+      "bytes": 1845,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/TechnologyDefinitions.cs.meta",
+      "sourceSha256": "0ca9ae3462df51f2208b379a8bd38b7ccbf7ecf396fd22fbef3d8085062d2821",
+      "freezeSha256": "0ca9ae3462df51f2208b379a8bd38b7ccbf7ecf396fd22fbef3d8085062d2821",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/UnitRecruitment.cs",
+      "sourceSha256": "622faa7d653452664058e7cee7d9f28a006a90ab42db1d26261968cc09acdb54",
+      "freezeSha256": "622faa7d653452664058e7cee7d9f28a006a90ab42db1d26261968cc09acdb54",
+      "bytes": 3759,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/UnitRecruitment.cs.meta",
+      "sourceSha256": "8baa15f9502543009994f955f529706b47d1df333fdcb17685efc34fac1bd9d8",
+      "freezeSha256": "8baa15f9502543009994f955f529706b47d1df333fdcb17685efc34fac1bd9d8",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/UnitSpatialGrid.cs",
+      "sourceSha256": "4623573d9f5cb42656579b3bd598792ccdf03d3f066c06e74b902838f86b9738",
+      "freezeSha256": "4623573d9f5cb42656579b3bd598792ccdf03d3f066c06e74b902838f86b9738",
+      "bytes": 2808,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/UnitSpatialGrid.cs.meta",
+      "sourceSha256": "d7b9d1eda9a9b9befc29b51807dafb57513bde6cc8d71e579c379e767719ac8d",
+      "freezeSha256": "d7b9d1eda9a9b9befc29b51807dafb57513bde6cc8d71e579c379e767719ac8d",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/World.cs",
+      "sourceSha256": "1366c74256ff6e687c572642f0db7cd3403c4692d16867016f34e77b11003887",
+      "freezeSha256": "1366c74256ff6e687c572642f0db7cd3403c4692d16867016f34e77b11003887",
+      "bytes": 24152,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation/World.cs.meta",
+      "sourceSha256": "72af99a7c73d001a1f261b68703faac4eaaff356712fd3061ee427ecbd0b0ef6",
+      "freezeSha256": "72af99a7c73d001a1f261b68703faac4eaaff356712fd3061ee427ecbd0b0ef6",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Simulation.meta",
+      "sourceSha256": "a183e4fe5ad68f8c8969d71ddba16b089f5ca23f6ed17d55d9b2315acbebcfa9",
+      "freezeSha256": "a183e4fe5ad68f8c8969d71ddba16b089f5ca23f6ed17d55d9b2315acbebcfa9",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/Emberfield.Voice.asmdef",
+      "sourceSha256": "b8d7d04dd1e3ee2968bed92b8a92099c2a302c37d5d38d3b7c4c035ccacd51f0",
+      "freezeSha256": "b8d7d04dd1e3ee2968bed92b8a92099c2a302c37d5d38d3b7c4c035ccacd51f0",
+      "bytes": 364,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/Emberfield.Voice.asmdef.meta",
+      "sourceSha256": "a76f16a90fcc9dfc5dde61b9726e1957b274cd1017870fbcb49ee01cd2b8fd96",
+      "freezeSha256": "a76f16a90fcc9dfc5dde61b9726e1957b274cd1017870fbcb49ee01cd2b8fd96",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/VoiceCommandParser.cs",
+      "sourceSha256": "6f6efc22ec0fb68ad3fb330abf60bace519e218ca03e640cf2a2064f32cffa44",
+      "freezeSha256": "6f6efc22ec0fb68ad3fb330abf60bace519e218ca03e640cf2a2064f32cffa44",
+      "bytes": 4416,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/VoiceCommandParser.cs.meta",
+      "sourceSha256": "86efe1c5692d45e223f1557cd901fe35f1892d9f69da3d05d85dcddd139b0b8c",
+      "freezeSha256": "86efe1c5692d45e223f1557cd901fe35f1892d9f69da3d05d85dcddd139b0b8c",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/VoiceIntent.cs",
+      "sourceSha256": "c60f2421d41f92a7186dcca65848bf124f1218e609ceceb628d3062a16303e5b",
+      "freezeSha256": "c60f2421d41f92a7186dcca65848bf124f1218e609ceceb628d3062a16303e5b",
+      "bytes": 2611,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/VoiceIntent.cs.meta",
+      "sourceSha256": "a78ecdc8cf8d560b36aac9b0f0ccff525513fb8c252d661f826d9c352b41080d",
+      "freezeSha256": "a78ecdc8cf8d560b36aac9b0f0ccff525513fb8c252d661f826d9c352b41080d",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/VoiceText.cs",
+      "sourceSha256": "2339f5ae3c8944f6a79f5c35df40b98ea821b2953124b04f3e32212f699af027",
+      "freezeSha256": "2339f5ae3c8944f6a79f5c35df40b98ea821b2953124b04f3e32212f699af027",
+      "bytes": 2844,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/VoiceText.cs.meta",
+      "sourceSha256": "ebd6b36e06274670ebfaaa9f85c56fe4a058e5887c8156c4137dc7fdada65290",
+      "freezeSha256": "ebd6b36e06274670ebfaaa9f85c56fe4a058e5887c8156c4137dc7fdada65290",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/VoiceVocabulary.cs",
+      "sourceSha256": "20cbb9c5c37d653a7d9980eef5aea1fdcf8a54e54f5c56c5004f19eb9a3c9de8",
+      "freezeSha256": "20cbb9c5c37d653a7d9980eef5aea1fdcf8a54e54f5c56c5004f19eb9a3c9de8",
+      "bytes": 29385,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice/VoiceVocabulary.cs.meta",
+      "sourceSha256": "0486697e474a415805d530abd3cbfe6df637a6cde5ae1f8a2b05e63a3f880378",
+      "freezeSha256": "0486697e474a415805d530abd3cbfe6df637a6cde5ae1f8a2b05e63a3f880378",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game/Voice.meta",
+      "sourceSha256": "a9d97befafb78128814d05afbf76b8f4d341bb2152c1d0f3f8495ac092caf154",
+      "freezeSha256": "a9d97befafb78128814d05afbf76b8f4d341bb2152c1d0f3f8495ac092caf154",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Game.meta",
+      "sourceSha256": "99768ec43937d277808ed1b150e7937a10fcf7cb06a7846520f5cb2bd0e58220",
+      "freezeSha256": "99768ec43937d277808ed1b150e7937a10fcf7cb06a7846520f5cb2bd0e58220",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/ArtStyleLab/ArtStyleLabAssetTests.cs",
+      "sourceSha256": "653d27f5757ffa241bb12c33a22c825b82e4670256ae9ba203f4c5a83091af4c",
+      "freezeSha256": "653d27f5757ffa241bb12c33a22c825b82e4670256ae9ba203f4c5a83091af4c",
+      "bytes": 9010,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/ArtStyleLab/ArtStyleLabAssetTests.cs.meta",
+      "sourceSha256": "153da551055470bbb81033b7b92a343f0844d969ef8b3b7c54a61ca37bb43336",
+      "freezeSha256": "153da551055470bbb81033b7b92a343f0844d969ef8b3b7c54a61ca37bb43336",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/ArtStyleLab/Emberfield.Tests.ArtStyleLab.asmdef",
+      "sourceSha256": "5edc7b9a62d60e09d6ab30d90854f489cec2f7d9b0fa802897d98dab37a45868",
+      "freezeSha256": "5edc7b9a62d60e09d6ab30d90854f489cec2f7d9b0fa802897d98dab37a45868",
+      "bytes": 297,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/ArtStyleLab/Emberfield.Tests.ArtStyleLab.asmdef.meta",
+      "sourceSha256": "faadc862228e4f7937a0459c2bef8537e2eb48300d82bba15caf9e95e01a48fc",
+      "freezeSha256": "faadc862228e4f7937a0459c2bef8537e2eb48300d82bba15caf9e95e01a48fc",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/ArtStyleLab.meta",
+      "sourceSha256": "e87063f5f1a69f1b877a3e1fecfff6fbba83060b374d24e5019e307ea2552eaf",
+      "freezeSha256": "e87063f5f1a69f1b877a3e1fecfff6fbba83060b374d24e5019e307ea2552eaf",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/CombatTests.cs",
+      "sourceSha256": "681944c403dd7cd22c53e16706deac29a7c02b581eb2f91f27137f1196432933",
+      "freezeSha256": "681944c403dd7cd22c53e16706deac29a7c02b581eb2f91f27137f1196432933",
+      "bytes": 29465,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/CombatTests.cs.meta",
+      "sourceSha256": "b4ccc6623741e35c50fa31feb60359dfa3da274e187518a6419c975f7a7b0691",
+      "freezeSha256": "b4ccc6623741e35c50fa31feb60359dfa3da274e187518a6419c975f7a7b0691",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/CombatTestWorldFactory.cs",
+      "sourceSha256": "35722a801bba8a6213d76039b810cd5bea4df568d2b9eda43d443c09fee2fb7c",
+      "freezeSha256": "35722a801bba8a6213d76039b810cd5bea4df568d2b9eda43d443c09fee2fb7c",
+      "bytes": 8080,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/CombatTestWorldFactory.cs.meta",
+      "sourceSha256": "058af6981d8dd91362eb633c7e053a9c83ecd1fbdd89ad91df942c74bb62c2d5",
+      "freezeSha256": "058af6981d8dd91362eb633c7e053a9c83ecd1fbdd89ad91df942c74bb62c2d5",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/CommandValidationTests.cs",
+      "sourceSha256": "de9e6f51a80765ec8b74bdddd888414b326b74fc5a722d41ca2b212479b82dbe",
+      "freezeSha256": "de9e6f51a80765ec8b74bdddd888414b326b74fc5a722d41ca2b212479b82dbe",
+      "bytes": 5360,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/CommandValidationTests.cs.meta",
+      "sourceSha256": "02a80dee48c242e2aec3a4af2af85615e22f12f02eb2840e816d929ab9becb6b",
+      "freezeSha256": "02a80dee48c242e2aec3a4af2af85615e22f12f02eb2840e816d929ab9becb6b",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/DefinitionTests.cs",
+      "sourceSha256": "30d2076f8eb0ad22771e9c995ea1a7fe3b238995368f4abef2f58249bdffa26d",
+      "freezeSha256": "30d2076f8eb0ad22771e9c995ea1a7fe3b238995368f4abef2f58249bdffa26d",
+      "bytes": 3629,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/DefinitionTests.cs.meta",
+      "sourceSha256": "8cba7850c0897758b9ff061db45e2812d4ea6a324b1dfd6653fc2c10b716e02e",
+      "freezeSha256": "8cba7850c0897758b9ff061db45e2812d4ea6a324b1dfd6653fc2c10b716e02e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/EconomyTests.cs",
+      "sourceSha256": "935bdf25bd41e364893427269e57584c99e2d63fbb18726b9b21ffec86a87702",
+      "freezeSha256": "935bdf25bd41e364893427269e57584c99e2d63fbb18726b9b21ffec86a87702",
+      "bytes": 45037,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/EconomyTests.cs.meta",
+      "sourceSha256": "c48eb2d5bf386eb8c2e6a7e32345cd773f2ce73c221ed69c8456cc9ece7cb442",
+      "freezeSha256": "c48eb2d5bf386eb8c2e6a7e32345cd773f2ce73c221ed69c8456cc9ece7cb442",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/EconomyTestWorldFactory.cs",
+      "sourceSha256": "3cd392573545679ca5f63eff1a63894df6d189c554458c6ace3499036cf233e8",
+      "freezeSha256": "3cd392573545679ca5f63eff1a63894df6d189c554458c6ace3499036cf233e8",
+      "bytes": 7122,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/EconomyTestWorldFactory.cs.meta",
+      "sourceSha256": "def39449acd7d22d5df42e581d35d3fe97d88b7394f1308e5dd68f05ea123171",
+      "freezeSha256": "def39449acd7d22d5df42e581d35d3fe97d88b7394f1308e5dd68f05ea123171",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/Emberfield.Tests.EditMode.asmdef",
+      "sourceSha256": "cfe0eb615b05676caf174f55089d5dcd6fc8d1e6761d7cac23a001244b8bd95e",
+      "freezeSha256": "9f6733a034ddb03b747dcc4f8b7a57f46cd06f7b3e8f63b8057745ec4676a093",
+      "bytes": 460,
+      "changedInFreeze": true
+    },
+    {
+      "path": "Assets/Tests/EditMode/Emberfield.Tests.EditMode.asmdef.meta",
+      "sourceSha256": "55f6a9e8c7bc3838747c480005ca10bdb18138ea6d000f42d7a203da66192ac6",
+      "freezeSha256": "55f6a9e8c7bc3838747c480005ca10bdb18138ea6d000f42d7a203da66192ac6",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/ExpansionSimulationTests.cs",
+      "sourceSha256": "9f5de99c11002865e5138359dfa3a41c039909501a70f70cb471f47abb410fb4",
+      "freezeSha256": "9f5de99c11002865e5138359dfa3a41c039909501a70f70cb471f47abb410fb4",
+      "bytes": 21539,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/ExpansionSimulationTests.cs.meta",
+      "sourceSha256": "5d217ece10afba6da608cc4a713d3f56a043b19397b7f726ac3ef060e6d04177",
+      "freezeSha256": "5d217ece10afba6da608cc4a713d3f56a043b19397b7f726ac3ef060e6d04177",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/FactionTests.cs",
+      "sourceSha256": "0bf706eb5731b669a30530a39839493517aba491518226e5f442c3172ac7b368",
+      "freezeSha256": "0bf706eb5731b669a30530a39839493517aba491518226e5f442c3172ac7b368",
+      "bytes": 42573,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/FactionTests.cs.meta",
+      "sourceSha256": "665517ea7064f17c4ec7ec2d848577414bb6903656c5c8fe64665cd133ccb5e9",
+      "freezeSha256": "665517ea7064f17c4ec7ec2d848577414bb6903656c5c8fe64665cd133ccb5e9",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/FactionTestWorldFactory.cs",
+      "sourceSha256": "39c7e32fd3d555ea7c708032dd746ddb16b26b28b910cf7060a30806bf1a673a",
+      "freezeSha256": "39c7e32fd3d555ea7c708032dd746ddb16b26b28b910cf7060a30806bf1a673a",
+      "bytes": 10372,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/FactionTestWorldFactory.cs.meta",
+      "sourceSha256": "25d25b2f081caba7c0e853bf37ef9da83b9aefceeb8a6a1885d0eea5e66d9ed9",
+      "freezeSha256": "25d25b2f081caba7c0e853bf37ef9da83b9aefceeb8a6a1885d0eea5e66d9ed9",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/FogOracleTests.cs",
+      "sourceSha256": "0e02f54319eb134f8f5f0c21c23a1e253ad60e0e703f616065ccf050c02f8f90",
+      "freezeSha256": "0e02f54319eb134f8f5f0c21c23a1e253ad60e0e703f616065ccf050c02f8f90",
+      "bytes": 10599,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/FogOracleTests.cs.meta",
+      "sourceSha256": "7a51aa88c1116c83240d6b914fc5cef7c1b6158dab2327fb8b17ed7038570ece",
+      "freezeSha256": "7a51aa88c1116c83240d6b914fc5cef7c1b6158dab2327fb8b17ed7038570ece",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/FormationTests.cs",
+      "sourceSha256": "6c8e81205e6bb7dc8ac86ec5b150a755f99fa56e6ea17e3a105939ec20514f9e",
+      "freezeSha256": "6c8e81205e6bb7dc8ac86ec5b150a755f99fa56e6ea17e3a105939ec20514f9e",
+      "bytes": 9129,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/FormationTests.cs.meta",
+      "sourceSha256": "8f28f4b2cce7c4085c9f7de29e637a33a106b97afa11bae4acbd837115ffdfdb",
+      "freezeSha256": "8f28f4b2cce7c4085c9f7de29e637a33a106b97afa11bae4acbd837115ffdfdb",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/GroupMovementTests.cs",
+      "sourceSha256": "6eba80889a8568b7f053042e6be9e9984fb37d96c6174a1fe9d2984ee1b514af",
+      "freezeSha256": "6eba80889a8568b7f053042e6be9e9984fb37d96c6174a1fe9d2984ee1b514af",
+      "bytes": 24514,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/GroupMovementTests.cs.meta",
+      "sourceSha256": "fea6dfa22754a4c11b5bccfea86c0a27260a41cf2557061b1656219fce27ae30",
+      "freezeSha256": "fea6dfa22754a4c11b5bccfea86c0a27260a41cf2557061b1656219fce27ae30",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/HeroRecruitmentTests.cs",
+      "sourceSha256": "47c59498455189a667dc336e6b29d0f8d1a5669f78b162dc2d1a42cfa82bc81c",
+      "freezeSha256": "47c59498455189a667dc336e6b29d0f8d1a5669f78b162dc2d1a42cfa82bc81c",
+      "bytes": 9976,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/HeroRecruitmentTests.cs.meta",
+      "sourceSha256": "9fd7bbb135f2be95991097943ab2ef982cfa55688f43b1333f0ef41d536c0ee9",
+      "freezeSha256": "9fd7bbb135f2be95991097943ab2ef982cfa55688f43b1333f0ef41d536c0ee9",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/MovementTests.cs",
+      "sourceSha256": "212c81d5dc666a60543244df6305f336bad596bc57b480de6e40e8c9a2eece0c",
+      "freezeSha256": "212c81d5dc666a60543244df6305f336bad596bc57b480de6e40e8c9a2eece0c",
+      "bytes": 7155,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/MovementTests.cs.meta",
+      "sourceSha256": "e0d9545902b34c0bfeb2a044b37731210453897990c2aedb64e92261d02d27ab",
+      "freezeSha256": "e0d9545902b34c0bfeb2a044b37731210453897990c2aedb64e92261d02d27ab",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/NetworkObservationTests.cs",
+      "sourceSha256": "15a7057c559046465b079cc9499f8ef834b5de9d881a9e14cbeddd7627dbc678",
+      "freezeSha256": "15a7057c559046465b079cc9499f8ef834b5de9d881a9e14cbeddd7627dbc678",
+      "bytes": 17371,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/NetworkObservationTests.cs.meta",
+      "sourceSha256": "bb67e572a502b13dc7c76d723179256b221d65ea0a937e8942eeb4510edbe131",
+      "freezeSha256": "bb67e572a502b13dc7c76d723179256b221d65ea0a937e8942eeb4510edbe131",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/NetworkSiegeObservationTests.cs",
+      "sourceSha256": "f86698041d70bbcab44f60e654773b46f74f5565efca61e752232334358908a2",
+      "freezeSha256": "f86698041d70bbcab44f60e654773b46f74f5565efca61e752232334358908a2",
+      "bytes": 5158,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/NetworkSiegeObservationTests.cs.meta",
+      "sourceSha256": "d8ee22e30c42baaaa479a827a457a930747c6e6f0dde6e1ff29fa28baffc5b4f",
+      "freezeSha256": "d8ee22e30c42baaaa479a827a457a930747c6e6f0dde6e1ff29fa28baffc5b4f",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/OfflineAiTests.cs",
+      "sourceSha256": "e1a5cf7b33a201f39366941e2a57456b4e950036c4721db6f584ddc1658fac0d",
+      "freezeSha256": "e1a5cf7b33a201f39366941e2a57456b4e950036c4721db6f584ddc1658fac0d",
+      "bytes": 13256,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/OfflineAiTests.cs.meta",
+      "sourceSha256": "9a3e9bb1e82a48c7ff645ca6dc46c93822df1230692c29966461a736d28634ea",
+      "freezeSha256": "9a3e9bb1e82a48c7ff645ca6dc46c93822df1230692c29966461a736d28634ea",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/OfflineAiTestWorldFactory.cs",
+      "sourceSha256": "737c2d77ae7c9927cf81db73d564a8b20cf92bbcf5d005554e9859b8a7183b53",
+      "freezeSha256": "737c2d77ae7c9927cf81db73d564a8b20cf92bbcf5d005554e9859b8a7183b53",
+      "bytes": 4470,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/OfflineAiTestWorldFactory.cs.meta",
+      "sourceSha256": "89ace72b3d7ea5ef63b65a581b8e4908834ff85982e416fd804f857f6a224f4c",
+      "freezeSha256": "89ace72b3d7ea5ef63b65a581b8e4908834ff85982e416fd804f857f6a224f4c",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/OfflineMatchTests.cs",
+      "sourceSha256": "1177872d01854c5bd622c76456f8d3ebbf68f951518e9874aba56bc341fa3ba8",
+      "freezeSha256": "1177872d01854c5bd622c76456f8d3ebbf68f951518e9874aba56bc341fa3ba8",
+      "bytes": 23997,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/OfflineMatchTests.cs.meta",
+      "sourceSha256": "76db56c3a578d69595a01f460a92815aa4b671c125ceb75e5d714018d86dbb7a",
+      "freezeSha256": "76db56c3a578d69595a01f460a92815aa4b671c125ceb75e5d714018d86dbb7a",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/OfflineMatchTestWorldFactory.cs",
+      "sourceSha256": "461d04422293ac8d2299380f2b289bbab6b49f258ea41cbecb4b07d08251108a",
+      "freezeSha256": "461d04422293ac8d2299380f2b289bbab6b49f258ea41cbecb4b07d08251108a",
+      "bytes": 6407,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/OfflineMatchTestWorldFactory.cs.meta",
+      "sourceSha256": "5fa6307a061773b458bceb3e6dec0fd4a6f13bb62d045249e5bfcfcf2719078b",
+      "freezeSha256": "5fa6307a061773b458bceb3e6dec0fd4a6f13bb62d045249e5bfcfcf2719078b",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/TechnologyTests.cs",
+      "sourceSha256": "441e17f8b485c7059f6779b8009dc5cf049c7b114daf3b0d375d6dfcfd45a00f",
+      "freezeSha256": "441e17f8b485c7059f6779b8009dc5cf049c7b114daf3b0d375d6dfcfd45a00f",
+      "bytes": 28259,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/TechnologyTests.cs.meta",
+      "sourceSha256": "8d28262d5e1569de2ec91d4b3132a53d813b59a47a4d841fa81034e5c61fcdc2",
+      "freezeSha256": "8d28262d5e1569de2ec91d4b3132a53d813b59a47a4d841fa81034e5c61fcdc2",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/TechnologyTestWorldFactory.cs",
+      "sourceSha256": "f65bcf17980ce1439884a89dba6bb6d8bae912563786c3852ede2192ead3af63",
+      "freezeSha256": "f65bcf17980ce1439884a89dba6bb6d8bae912563786c3852ede2192ead3af63",
+      "bytes": 7614,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/TechnologyTestWorldFactory.cs.meta",
+      "sourceSha256": "d85a474478ac86536ae5880abd5f29e66e9d8d1703a5cd9d4999c83eaa87996b",
+      "freezeSha256": "d85a474478ac86536ae5880abd5f29e66e9d8d1703a5cd9d4999c83eaa87996b",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestWorldFactory.cs",
+      "sourceSha256": "fc6cb65f314d6ac65b1c4d31a9a76fe073c6fcb91f84db09101962d4141a1a77",
+      "freezeSha256": "fc6cb65f314d6ac65b1c4d31a9a76fe073c6fcb91f84db09101962d4141a1a77",
+      "bytes": 2382,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestWorldFactory.cs.meta",
+      "sourceSha256": "084bfddfeae7b069fc427f41b9d46d26402167bbf78f7643ce750c8319c64c47",
+      "freezeSha256": "084bfddfeae7b069fc427f41b9d46d26402167bbf78f7643ce750c8319c64c47",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/VoiceCommandParserTests.cs",
+      "sourceSha256": "23157b714953c45d4750b2a811392d1241cc718dfa4aacbe8e867b2094d4330a",
+      "freezeSha256": "23157b714953c45d4750b2a811392d1241cc718dfa4aacbe8e867b2094d4330a",
+      "bytes": 15609,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/VoiceCommandParserTests.cs.meta",
+      "sourceSha256": "c8fd1601c2ebf10c43d6d022dcc478e5b5b9e253fa6c270b74d9efab26f6ca8e",
+      "freezeSha256": "c8fd1601c2ebf10c43d6d022dcc478e5b5b9e253fa6c270b74d9efab26f6ca8e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/WorkerInteractionRecoveryTests.cs",
+      "sourceSha256": "3946bfa43e85768761a88b55a13cfccc90e170fae67a4f6548a4c718e042e6c9",
+      "freezeSha256": "3946bfa43e85768761a88b55a13cfccc90e170fae67a4f6548a4c718e042e6c9",
+      "bytes": 10297,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode/WorkerInteractionRecoveryTests.cs.meta",
+      "sourceSha256": "8b92a7d836da422ee81fefa6d64a0bdadc5aea6244105f5cb974f13c8b813149",
+      "freezeSha256": "8b92a7d836da422ee81fefa6d64a0bdadc5aea6244105f5cb974f13c8b813149",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/EditMode.meta",
+      "sourceSha256": "ecc5aedf75186e6953460d58e6989b6091dfff0ec5054f41444cad3dfc6ee153",
+      "freezeSha256": "ecc5aedf75186e6953460d58e6989b6091dfff0ec5054f41444cad3dfc6ee153",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/Networking/Emberfield.Tests.Networking.asmdef",
+      "sourceSha256": "f67d59e3df72355f83e02a87d8a6a2ac6905010d13a5569c0f6f99ee159d6cfd",
+      "freezeSha256": "f67d59e3df72355f83e02a87d8a6a2ac6905010d13a5569c0f6f99ee159d6cfd",
+      "bytes": 470,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/Networking/Emberfield.Tests.Networking.asmdef.meta",
+      "sourceSha256": "fca88a6575db0780a3001d5d9e065b1d1ab8c1c59b86c6ad88de19fca43bf365",
+      "freezeSha256": "fca88a6575db0780a3001d5d9e065b1d1ab8c1c59b86c6ad88de19fca43bf365",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/Networking/NetworkCommandTests.cs",
+      "sourceSha256": "ce9a2d43d2c6c3ac4ed9cdc947097746dc4b2747db18cbe496770c5161258a5b",
+      "freezeSha256": "ce9a2d43d2c6c3ac4ed9cdc947097746dc4b2747db18cbe496770c5161258a5b",
+      "bytes": 16922,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/Networking/NetworkCommandTests.cs.meta",
+      "sourceSha256": "f2be4317b0a3a21b27e7de87f9de2b876b3d692377c2912eb56443d13a304278",
+      "freezeSha256": "f2be4317b0a3a21b27e7de87f9de2b876b3d692377c2912eb56443d13a304278",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/Networking.meta",
+      "sourceSha256": "ff7a2f9dc7a673f43fef1e00ef32183fc4cb127a2e1db969a3bf99bb01841ef8",
+      "freezeSha256": "ff7a2f9dc7a673f43fef1e00ef32183fc4cb127a2e1db969a3bf99bb01841ef8",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/AlphaMatchMetricsTests.cs",
+      "sourceSha256": "d8f70e430c7519228d95adfa76ffce87798136ed7e5837ea3fc6e27cd821f8a8",
+      "freezeSha256": "d8f70e430c7519228d95adfa76ffce87798136ed7e5837ea3fc6e27cd821f8a8",
+      "bytes": 7693,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/AlphaMatchMetricsTests.cs.meta",
+      "sourceSha256": "c767e45f893255b9a8ade13814ecad8a47648e86420edc481612ffeeaf83ea71",
+      "freezeSha256": "c767e45f893255b9a8ade13814ecad8a47648e86420edc481612ffeeaf83ea71",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/AlphaProductTests.cs",
+      "sourceSha256": "21536e39c8cbc89bac562bb901281a39794c7f0d15c9cb400ac2df723247825a",
+      "freezeSha256": "21536e39c8cbc89bac562bb901281a39794c7f0d15c9cb400ac2df723247825a",
+      "bytes": 12069,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/AlphaProductTests.cs.meta",
+      "sourceSha256": "4adeb554401ef34da0befecc2effa4a6975660e3f2c6df22657da51cf09d641e",
+      "freezeSha256": "4adeb554401ef34da0befecc2effa4a6975660e3f2c6df22657da51cf09d641e",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/AlphaWorldArtTests.cs",
+      "sourceSha256": "744ff8f87598e56f7c54e8634de78a20412059c3b6d8eea7df4e3f3d473767e4",
+      "freezeSha256": "744ff8f87598e56f7c54e8634de78a20412059c3b6d8eea7df4e3f3d473767e4",
+      "bytes": 10340,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/AlphaWorldArtTests.cs.meta",
+      "sourceSha256": "02d25b08db32a3875653fbc281693515ba63c96a3074202da0f09cb477d6b474",
+      "freezeSha256": "02d25b08db32a3875653fbc281693515ba63c96a3074202da0f09cb477d6b474",
+      "bytes": 243,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ArmySelectionIntegrationTests.cs",
+      "sourceSha256": "488f583970d2f70088b3c6db1ca7c2c022df73e3d04719444a950813796cff8d",
+      "freezeSha256": "488f583970d2f70088b3c6db1ca7c2c022df73e3d04719444a950813796cff8d",
+      "bytes": 9130,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ArmySelectionIntegrationTests.cs.meta",
+      "sourceSha256": "bdf78736987359710830c2eaf393924248a282ce79a18e7ba9ea84dee27f9f01",
+      "freezeSha256": "bdf78736987359710830c2eaf393924248a282ce79a18e7ba9ea84dee27f9f01",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ArtKitTests.cs",
+      "sourceSha256": "fed4e961e3bbbfd98a96db46051724e6ea3a8cc071d108ea57b26f4bd4b4c52b",
+      "freezeSha256": "fed4e961e3bbbfd98a96db46051724e6ea3a8cc071d108ea57b26f4bd4b4c52b",
+      "bytes": 8301,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ArtKitTests.cs.meta",
+      "sourceSha256": "f7e5e65e1ddd79fdf2d0bdac01edb2dc07b3c64728b5ab97c95fd24ac62c096e",
+      "freezeSha256": "f7e5e65e1ddd79fdf2d0bdac01edb2dc07b3c64728b5ab97c95fd24ac62c096e",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CameraRotationTests.cs",
+      "sourceSha256": "665885ae3f89c48c982f533ce5bba38e8b20003878d050f396fd12099a378580",
+      "freezeSha256": "665885ae3f89c48c982f533ce5bba38e8b20003878d050f396fd12099a378580",
+      "bytes": 4053,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CameraRotationTests.cs.meta",
+      "sourceSha256": "5d76b22025b29db3c97538d07cab4f4bbca0a7633651dc703facc82402de501b",
+      "freezeSha256": "5d76b22025b29db3c97538d07cab4f4bbca0a7633651dc703facc82402de501b",
+      "bytes": 65,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CombatIntegrationTests.cs",
+      "sourceSha256": "1baf4c4c7c9d360f72be8b8291f8036a2238dda3474be1e2fa6b6b560458f303",
+      "freezeSha256": "1baf4c4c7c9d360f72be8b8291f8036a2238dda3474be1e2fa6b6b560458f303",
+      "bytes": 11023,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CombatIntegrationTests.cs.meta",
+      "sourceSha256": "82e429139a70b56194e282a7176fbc2f122ea6f02ac33d5c549752bfe6bf4da0",
+      "freezeSha256": "82e429139a70b56194e282a7176fbc2f122ea6f02ac33d5c549752bfe6bf4da0",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CorsairIntegrationTests.cs",
+      "sourceSha256": "6bcef442a5eeb27b753a1fb9d118e870b1749183273429c708904f08d6c8084c",
+      "freezeSha256": "6bcef442a5eeb27b753a1fb9d118e870b1749183273429c708904f08d6c8084c",
+      "bytes": 8993,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CorsairIntegrationTests.cs.meta",
+      "sourceSha256": "bce36ddb267fad54aa9b98e332a2c13b15dbc5db1a722aad7610d31731cec1b4",
+      "freezeSha256": "bce36ddb267fad54aa9b98e332a2c13b15dbc5db1a722aad7610d31731cec1b4",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CosmeticShaderRenderTests.cs",
+      "sourceSha256": "9a121e1321a24c8b207eb3c9a624da906960e9e5acef48bf1a305c86372fb14b",
+      "freezeSha256": "9a121e1321a24c8b207eb3c9a624da906960e9e5acef48bf1a305c86372fb14b",
+      "bytes": 5431,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CosmeticShaderRenderTests.cs.meta",
+      "sourceSha256": "c38e77c32ad800b1c760e4ccb63645c09fd25cb0d2603ac1eff829a71da40c16",
+      "freezeSha256": "c38e77c32ad800b1c760e4ccb63645c09fd25cb0d2603ac1eff829a71da40c16",
+      "bytes": 65,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/EconomyIntegrationTests.cs",
+      "sourceSha256": "6b0cb224a5dea612ec377423294cbee82ea43e0b76eb54620d62f85c27fb8b97",
+      "freezeSha256": "6b0cb224a5dea612ec377423294cbee82ea43e0b76eb54620d62f85c27fb8b97",
+      "bytes": 10257,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/EconomyIntegrationTests.cs.meta",
+      "sourceSha256": "13b203d542ee9ce471c3ff6ea529ec132e892570bc7d2f3f6621973f263d31e0",
+      "freezeSha256": "13b203d542ee9ce471c3ff6ea529ec132e892570bc7d2f3f6621973f263d31e0",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/Emberfield.Tests.PlayMode.asmdef",
+      "sourceSha256": "ebb6e450f48d64910bd8630658ab5faa4d7780aaa643058f354da3c8850214e8",
+      "freezeSha256": "3d1c3061f14cd75a61771a86fa3c9b4287d612d23759e7d9f740c92b7542bbc7",
+      "bytes": 267,
+      "changedInFreeze": true
+    },
+    {
+      "path": "Assets/Tests/PlayMode/Emberfield.Tests.PlayMode.asmdef.meta",
+      "sourceSha256": "5735bd0323e94924abb0fe8890295fca93a5db1234a9357c058ce8699c5cea0a",
+      "freezeSha256": "5735bd0323e94924abb0fe8890295fca93a5db1234a9357c058ce8699c5cea0a",
+      "bytes": 166,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FactionIntegrationTests.cs",
+      "sourceSha256": "607c0f572d9da949ab810fa4149eaed3e591901ac8cd86a4d7dc1d3b5cb044d6",
+      "freezeSha256": "607c0f572d9da949ab810fa4149eaed3e591901ac8cd86a4d7dc1d3b5cb044d6",
+      "bytes": 32443,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FactionIntegrationTests.cs.meta",
+      "sourceSha256": "1d2ebb95cca4326a61d48f309afa5242a4825edad8f107030442586692ad5377",
+      "freezeSha256": "1d2ebb95cca4326a61d48f309afa5242a4825edad8f107030442586692ad5377",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FactionRealmIntegrationTests.cs",
+      "sourceSha256": "d083a3518671813482faf0630ce2b9c19e0e3c3863d0d8d24c922e4dc8b37d57",
+      "freezeSha256": "d083a3518671813482faf0630ce2b9c19e0e3c3863d0d8d24c922e4dc8b37d57",
+      "bytes": 4545,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FactionRealmIntegrationTests.cs.meta",
+      "sourceSha256": "822971ee87580e1ae68c9fe3905bf9443e82f7e1b96b3bdf82d2223a27c545b8",
+      "freezeSha256": "822971ee87580e1ae68c9fe3905bf9443e82f7e1b96b3bdf82d2223a27c545b8",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FogPresentationRegressionTests.cs",
+      "sourceSha256": "0c4d8fa8af8f3ed329be9ef779efd11b3a2bf599890431d40f81b6df01933497",
+      "freezeSha256": "0c4d8fa8af8f3ed329be9ef779efd11b3a2bf599890431d40f81b6df01933497",
+      "bytes": 9904,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FogPresentationRegressionTests.cs.meta",
+      "sourceSha256": "144925aa7fcc7371e9121e402d741d2746971ed1b9fc1dfc13d4f15cd0ee3751",
+      "freezeSha256": "144925aa7fcc7371e9121e402d741d2746971ed1b9fc1dfc13d4f15cd0ee3751",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FormationIntegrationTests.cs",
+      "sourceSha256": "03ebc3fc924649d925d57aa7e479f0b99f8cbd7bc35c9c84d00dbb27f79d4382",
+      "freezeSha256": "03ebc3fc924649d925d57aa7e479f0b99f8cbd7bc35c9c84d00dbb27f79d4382",
+      "bytes": 2584,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FormationIntegrationTests.cs.meta",
+      "sourceSha256": "9ff5c982bc15ed97519ccd3f6e3e6bd4295086b6f58681d6cf1da68de1408411",
+      "freezeSha256": "9ff5c982bc15ed97519ccd3f6e3e6bd4295086b6f58681d6cf1da68de1408411",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FrontierBiomeArtTests.cs",
+      "sourceSha256": "10fa8d8ea5c2b6a20fb1964c48340aa2b254922f9d96709b340d54c9004dffe2",
+      "freezeSha256": "10fa8d8ea5c2b6a20fb1964c48340aa2b254922f9d96709b340d54c9004dffe2",
+      "bytes": 8181,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FrontierBiomeArtTests.cs.meta",
+      "sourceSha256": "324ff4d6bf946bbd1d63b24335b96ad78ab86cdd5552b47898737b2a597b19f8",
+      "freezeSha256": "324ff4d6bf946bbd1d63b24335b96ad78ab86cdd5552b47898737b2a597b19f8",
+      "bytes": 65,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FrontierPresentationTests.cs",
+      "sourceSha256": "0117003469aaa710ecd0b36aa1110a73a104667b142c049d7953381188ecce73",
+      "freezeSha256": "0117003469aaa710ecd0b36aa1110a73a104667b142c049d7953381188ecce73",
+      "bytes": 6833,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FrontierPresentationTests.cs.meta",
+      "sourceSha256": "54f3c16e9dc64f0cae3d3bede71133ddb21a08c3d0080790a8e59687649ff1c2",
+      "freezeSha256": "54f3c16e9dc64f0cae3d3bede71133ddb21a08c3d0080790a8e59687649ff1c2",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FrontierSecurityTests.cs",
+      "sourceSha256": "cf34a977385b47d0af35b86998be4fe3b90de8fb6a4c7ff8a6d0d6ec46a40971",
+      "freezeSha256": "cf34a977385b47d0af35b86998be4fe3b90de8fb6a4c7ff8a6d0d6ec46a40971",
+      "bytes": 9000,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/FrontierSecurityTests.cs.meta",
+      "sourceSha256": "8776a12dea77dbb3ba39c6a90ead9a0f4b1267238533e32f1f824d83d4579100",
+      "freezeSha256": "8776a12dea77dbb3ba39c6a90ead9a0f4b1267238533e32f1f824d83d4579100",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/GreyboxIntegrationTests.cs",
+      "sourceSha256": "624d8965b77c4093f37dc9a88223bd656bcabb42c224c0bf0a89ffb6caec0bee",
+      "freezeSha256": "624d8965b77c4093f37dc9a88223bd656bcabb42c224c0bf0a89ffb6caec0bee",
+      "bytes": 4136,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/GreyboxIntegrationTests.cs.meta",
+      "sourceSha256": "b02e4c54cac2107c63dca51443290606b40b066e707f6065814b437bb796a39c",
+      "freezeSha256": "b02e4c54cac2107c63dca51443290606b40b066e707f6065814b437bb796a39c",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/InputAdapterTests.cs",
+      "sourceSha256": "361046812aa2622b93e0b0e3e317b24dcdf89d279b9ef2f74b75c6f53e61f635",
+      "freezeSha256": "361046812aa2622b93e0b0e3e317b24dcdf89d279b9ef2f74b75c6f53e61f635",
+      "bytes": 11456,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/InputAdapterTests.cs.meta",
+      "sourceSha256": "471153e6adf04a4ecf9edb93082f2fa137197b483361e3aa0f258163f4b5bd04",
+      "freezeSha256": "471153e6adf04a4ecf9edb93082f2fa137197b483361e3aa0f258163f4b5bd04",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/MinimapIntegrationTests.cs",
+      "sourceSha256": "f354f0e88505fe723473a96ca7c36aa22385bd79d851b33dcd6be0d7ad2b5d67",
+      "freezeSha256": "f354f0e88505fe723473a96ca7c36aa22385bd79d851b33dcd6be0d7ad2b5d67",
+      "bytes": 8968,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/MinimapIntegrationTests.cs.meta",
+      "sourceSha256": "877adb582946c0cba1a17ff524c8babe6b7a68a433f4b9784794a0026a1147c5",
+      "freezeSha256": "877adb582946c0cba1a17ff524c8babe6b7a68a433f4b9784794a0026a1147c5",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/MobileHudLayoutTests.cs",
+      "sourceSha256": "6b8a46f849c80fcc236d2e883b24fa2eaf587c3482b6b391b77880692ee540c8",
+      "freezeSha256": "6b8a46f849c80fcc236d2e883b24fa2eaf587c3482b6b391b77880692ee540c8",
+      "bytes": 12082,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/MobileHudLayoutTests.cs.meta",
+      "sourceSha256": "62ca897943517def439af2aa6b8b07f8f0309d864be14272fe69806cd21b2575",
+      "freezeSha256": "62ca897943517def439af2aa6b8b07f8f0309d864be14272fe69806cd21b2575",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/MobileInputTests.cs",
+      "sourceSha256": "53d3af8f2084250edce5e5ed46b578234f2a86ab31ffe772b11eb612e24404c0",
+      "freezeSha256": "53d3af8f2084250edce5e5ed46b578234f2a86ab31ffe772b11eb612e24404c0",
+      "bytes": 16781,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/MobileInputTests.cs.meta",
+      "sourceSha256": "3c5c68272e824fcb379a48d997e1065b3c6957504b3fe9fa30439b49fcb124f0",
+      "freezeSha256": "3c5c68272e824fcb379a48d997e1065b3c6957504b3fe9fa30439b49fcb124f0",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/MovementStressIntegrationTests.cs",
+      "sourceSha256": "336f2e134651453f121bdad85a554153c6d68aa708db5a8768f587df3a46bbf8",
+      "freezeSha256": "336f2e134651453f121bdad85a554153c6d68aa708db5a8768f587df3a46bbf8",
+      "bytes": 6151,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/MovementStressIntegrationTests.cs.meta",
+      "sourceSha256": "f844bcfbc0c151972c4bec91d3aedf776056a246b23e477749590aefd5e7c7f8",
+      "freezeSha256": "f844bcfbc0c151972c4bec91d3aedf776056a246b23e477749590aefd5e7c7f8",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/OfflineMatchIntegrationTests.cs",
+      "sourceSha256": "0a8e3eae2fdda13077c7c2e7b95a4b113303b452fa80702256c44a2fe2e898db",
+      "freezeSha256": "0a8e3eae2fdda13077c7c2e7b95a4b113303b452fa80702256c44a2fe2e898db",
+      "bytes": 9458,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/OfflineMatchIntegrationTests.cs.meta",
+      "sourceSha256": "d4344c34de90d99e189dc87ba24c141c2588efd9c6308fdb825ebe9a117f1d25",
+      "freezeSha256": "d4344c34de90d99e189dc87ba24c141c2588efd9c6308fdb825ebe9a117f1d25",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/OnlineReadRetryTests.cs",
+      "sourceSha256": "cc552ccf9595d4de363c6fc3e2964a3605f7baa07435ece46fd27ea488d9d472",
+      "freezeSha256": "cc552ccf9595d4de363c6fc3e2964a3605f7baa07435ece46fd27ea488d9d472",
+      "bytes": 11206,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/OnlineReadRetryTests.cs.meta",
+      "sourceSha256": "21e660928eb88bd4569e2157255c8f351ea1340d91d2540dd2aeb1294f9ec55a",
+      "freezeSha256": "21e660928eb88bd4569e2157255c8f351ea1340d91d2540dd2aeb1294f9ec55a",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/OnlineRecoveryTests.cs",
+      "sourceSha256": "dbebb0ebe6fa298e12d8ec8264c472a156a49a0b50e19d3ef77d703bd4860539",
+      "freezeSha256": "dbebb0ebe6fa298e12d8ec8264c472a156a49a0b50e19d3ef77d703bd4860539",
+      "bytes": 16561,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/OnlineRecoveryTests.cs.meta",
+      "sourceSha256": "701834602369e776512b4ca7cdaef31bc77604d0d13a7671fdddfdd657d5adfa",
+      "freezeSha256": "701834602369e776512b4ca7cdaef31bc77604d0d13a7671fdddfdd657d5adfa",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/OnlineUiTests.cs",
+      "sourceSha256": "17af6ed0a8eefb307b4b57722741d2d7f65b369806dcfd4d8ba684be679e0e35",
+      "freezeSha256": "17af6ed0a8eefb307b4b57722741d2d7f65b369806dcfd4d8ba684be679e0e35",
+      "bytes": 3721,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/OnlineUiTests.cs.meta",
+      "sourceSha256": "6df360a53217e2e309d06e7f08bcac7ca1628f843fea98b0b317713bdbfb5c5e",
+      "freezeSha256": "6df360a53217e2e309d06e7f08bcac7ca1628f843fea98b0b317713bdbfb5c5e",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PirateCrewIntegrationTests.cs",
+      "sourceSha256": "369436b92b611e0084c9147cd52f08b36ae775f201f5d0ccf2457a23ccf0e943",
+      "freezeSha256": "369436b92b611e0084c9147cd52f08b36ae775f201f5d0ccf2457a23ccf0e943",
+      "bytes": 17028,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PirateCrewIntegrationTests.cs.meta",
+      "sourceSha256": "a6e87c40712310b18ee226a09511b48be9165187368442c7bdf6069dabf34f86",
+      "freezeSha256": "a6e87c40712310b18ee226a09511b48be9165187368442c7bdf6069dabf34f86",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ProductShellTests.cs",
+      "sourceSha256": "4a3edf8815cbb2c61ebee92beb53fe51debe71f78e188053b0850059e297f572",
+      "freezeSha256": "4a3edf8815cbb2c61ebee92beb53fe51debe71f78e188053b0850059e297f572",
+      "bytes": 3793,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ProductShellTests.cs.meta",
+      "sourceSha256": "b96a4bfdbccb548981f02fc7c4dcccdfc47e4d28125515874dd16aff89c77e40",
+      "freezeSha256": "b96a4bfdbccb548981f02fc7c4dcccdfc47e4d28125515874dd16aff89c77e40",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ReferenceCharacterIntegrationTests.cs",
+      "sourceSha256": "a370bc98ca0c635ba7d7ef127d036950bb683a5a1425ed248059ae3c9ad1096b",
+      "freezeSha256": "a370bc98ca0c635ba7d7ef127d036950bb683a5a1425ed248059ae3c9ad1096b",
+      "bytes": 23725,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ReferenceCharacterIntegrationTests.cs.meta",
+      "sourceSha256": "32de5225bd0eb90449f0f97026da417bdd4119dcc89a024000e21d664f2ec353",
+      "freezeSha256": "32de5225bd0eb90449f0f97026da417bdd4119dcc89a024000e21d664f2ec353",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ReferenceCharacterNavigationTests.cs",
+      "sourceSha256": "ff1240f85a8b188761f687937ff057ad25f930e20135b89b6829e0b70a69a6c2",
+      "freezeSha256": "ff1240f85a8b188761f687937ff057ad25f930e20135b89b6829e0b70a69a6c2",
+      "bytes": 4082,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ReferenceCharacterNavigationTests.cs.meta",
+      "sourceSha256": "72808db0c3a37dfb4c4802f9af79b0bfc1ce90dd29092dfba04d8b8b89338cfa",
+      "freezeSha256": "72808db0c3a37dfb4c4802f9af79b0bfc1ce90dd29092dfba04d8b8b89338cfa",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SiegeInputTests.cs",
+      "sourceSha256": "2831285bc46e07cb0f8e7d4c99d4aaf74ecab674f4bbfa06b4f866e9fd68bf3d",
+      "freezeSha256": "2831285bc46e07cb0f8e7d4c99d4aaf74ecab674f4bbfa06b4f866e9fd68bf3d",
+      "bytes": 7180,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SiegeInputTests.cs.meta",
+      "sourceSha256": "a5443d0723390f77ec29424b13d95b11dfee5d00d04dc1715d39a90668c82032",
+      "freezeSha256": "a5443d0723390f77ec29424b13d95b11dfee5d00d04dc1715d39a90668c82032",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SlicePresentationTests.cs",
+      "sourceSha256": "cf91adda8ddbb7396d675081093c9c94d78ff22274340675d1c2c9f72ba0fec4",
+      "freezeSha256": "cf91adda8ddbb7396d675081093c9c94d78ff22274340675d1c2c9f72ba0fec4",
+      "bytes": 2789,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SlicePresentationTests.cs.meta",
+      "sourceSha256": "95e55a9ac34ddcbd69c03ca8280c879c5787fd76a7d5555aeae4bc2a207b4f5b",
+      "freezeSha256": "95e55a9ac34ddcbd69c03ca8280c879c5787fd76a7d5555aeae4bc2a207b4f5b",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/TechnologyIntegrationTests.cs",
+      "sourceSha256": "b7f026ff820923bd3a7d89f6e4374604581f7003c10a93a658a9c7e0d087c17d",
+      "freezeSha256": "b7f026ff820923bd3a7d89f6e4374604581f7003c10a93a658a9c7e0d087c17d",
+      "bytes": 14174,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/TechnologyIntegrationTests.cs.meta",
+      "sourceSha256": "3500eab3b888150a4371ab6839d9e29eb966d6762ddf0e39ccd8b8f98e4130a0",
+      "freezeSha256": "3500eab3b888150a4371ab6839d9e29eb966d6762ddf0e39ccd8b8f98e4130a0",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ThreeRealmSelectorTests.cs",
+      "sourceSha256": "80e7e5186860f3402d2418e5f1c57a0efd97e60ea82de8d2ccb6b0ad8114a5be",
+      "freezeSha256": "80e7e5186860f3402d2418e5f1c57a0efd97e60ea82de8d2ccb6b0ad8114a5be",
+      "bytes": 7806,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/ThreeRealmSelectorTests.cs.meta",
+      "sourceSha256": "5f6ca88813582f9aaf5324bd31b9207a670b95db02df660a79699bc1a57cb9d1",
+      "freezeSha256": "5f6ca88813582f9aaf5324bd31b9207a670b95db02df660a79699bc1a57cb9d1",
+      "bytes": 60,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/VoiceControlsIntegrationTests.cs",
+      "sourceSha256": "da49077b495b7ce4d6ac0c37f3b48608345e674b4421ab2add547a1638c5aa30",
+      "freezeSha256": "da49077b495b7ce4d6ac0c37f3b48608345e674b4421ab2add547a1638c5aa30",
+      "bytes": 10242,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode/VoiceControlsIntegrationTests.cs.meta",
+      "sourceSha256": "263ef0f9dea4e93544f8f60a80b50aba5e8d772a20ac0553bfea6ee2d483fe02",
+      "freezeSha256": "263ef0f9dea4e93544f8f60a80b50aba5e8d772a20ac0553bfea6ee2d483fe02",
+      "bytes": 59,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests/PlayMode.meta",
+      "sourceSha256": "6b939f5509814e566a4085959b4962e2ff0b5f958638943245617bfcdbf8b424",
+      "freezeSha256": "6b939f5509814e566a4085959b4962e2ff0b5f958638943245617bfcdbf8b424",
+      "bytes": 172,
+      "changedInFreeze": false
+    },
+    {
+      "path": "Assets/Tests.meta",
+      "sourceSha256": "0444eff0d14b1d1bf8d76ad0b8fb54fd9caa1c3f8f8732b9e1d24bbc9520af09",
+      "freezeSha256": "0444eff0d14b1d1bf8d76ad0b8fb54fd9caa1c3f8f8732b9e1d24bbc9520af09",
+      "bytes": 172,
+      "changedInFreeze": false
+    }
+  ]
+}

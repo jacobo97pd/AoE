@@ -1,0 +1,36 @@
+{
+  "id": "elven_food_node",
+  "entry": {
+    "id": "elven_food_node",
+    "role": "resource",
+    "kind": "Food",
+    "lod0": 1200,
+    "lod1": 300,
+    "farShell": true,
+    "height": 1.1,
+    "footprint": 1.6,
+    "size": 512,
+    "biome": "elven",
+    "priority": 6,
+    "polycount": 1500,
+    "prompt": "Wide low elven fruit bush: a dome of three fused chunky rounded lobes, wider than tall, studded all over its top and sides with about twenty big round fruits like golden plums, each a clear separate smooth sphere half sunk into the foliage and easy to see from above. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, hard edges, flat faces. About 1.6 m wide and 1.1 m tall. Isolated, no ground, no basket, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Foliage: deep blue-teal (#2F6F6A) with lighter teal lobe tops (#5E9E92), darker and bluer than the green lawn around it. Fruits: luminous pale gold (#F2D46A) with warm white highlights, the brightest colour on the model and clearly visible from above. No flowers, no text or logos.",
+    "source": "forest_food_node"
+  },
+  "source": "forest_food_node",
+  "steps": {},
+  "files": {},
+  "credits": 0,
+  "finish": {
+    "sourceTriangles": 1067,
+    "lod0": 1067,
+    "lod1": 300,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.319,
+      1.322,
+      1.1
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

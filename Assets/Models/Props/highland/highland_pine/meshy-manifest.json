@@ -1,0 +1,33 @@
+{
+  "id": "highland_pine",
+  "entry": {
+    "id": "highland_pine",
+    "source": "forest_pine_a",
+    "role": "obstacle",
+    "kind": "thicket",
+    "lod0": 400,
+    "lod1": 160,
+    "farShell": true,
+    "height": 3.4,
+    "footprint": 1.3,
+    "size": 512,
+    "biome": "highland",
+    "priority": 6
+  },
+  "source": "forest_pine_a",
+  "steps": {},
+  "files": {},
+  "credits": 0,
+  "finish": {
+    "sourceTriangles": 595,
+    "lod0": 399,
+    "lod1": 160,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.3,
+      1.284,
+      3.295
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

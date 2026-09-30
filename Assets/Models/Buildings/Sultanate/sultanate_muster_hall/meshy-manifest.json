@@ -1,0 +1,136 @@
+{
+  "id": "sultanate_muster_hall",
+  "entry": {
+    "id": "sultanate_muster_hall",
+    "style": "sultanate",
+    "building": "muster_hall",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.4,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert barracks. One long, low, fully enclosed flat-roofed hall with a stepped parapet, a wide horseshoe-arch doorway in the middle of the long side, a rack of spears and round shields beside the door and one turquoise cloth banner."
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d0-1fca-7545-a7cc-d8c183e20897",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 47281294,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert barracks. One long, low, fully enclosed flat-roofed hall with a stepped parapet, a wide horseshoe-arch doorway in the middle of the long side, a rack of spears and round shields beside the door and one turquoise cloth banner. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528464166,
+        "progress": 100,
+        "started_at": 1790528464171,
+        "finished_at": 1790528475027,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-1fca-7545-a7cc-d8c183e20897/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-1fca-7545-a7cc-d8c183e20897/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:01:21.658145+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d0-6afa-7660-b2a1-36bb5642616e",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 47281294,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert barracks. One long, low, fully enclosed flat-roofed hall with a stepped parapet, a wide horseshoe-arch doorway in the middle of the long side, a rack of spears and round shields beside the door and one turquoise cloth banner. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528482084,
+        "progress": 100,
+        "started_at": 1790528482091,
+        "finished_at": 1790528535960,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-6afa-7660-b2a1-36bb5642616e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-6afa-7660-b2a1-36bb5642616e/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-6afa-7660-b2a1-36bb5642616e/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-6afa-7660-b2a1-36bb5642616e/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-6afa-7660-b2a1-36bb5642616e/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-6afa-7660-b2a1-36bb5642616e/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:02:21.938998+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_muster_hall_model.glb",
+      "bytes": 6440948,
+      "sha256": "ee7ae05b6af3d82bf19e28022254840d180257a56ac0e3d97ad061f442d2d404"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 180198,
+      "sha256": "3a66fd4bca0da32bb801cf6c2c14083ad316e882d9b4f30ddcd9364e1882c345"
+    },
+    "texture_base_color": {
+      "file": "sultanate_muster_hall_base_color.png",
+      "bytes": 4264593,
+      "sha256": "7c2ec31f8da8dc499d5b638a3c39988ab524f4844234720ab5e3fe09074e35af"
+    },
+    "texture_metallic": {
+      "file": "sultanate_muster_hall_metallic.png",
+      "bytes": 30789,
+      "sha256": "c4f9b36215c6314966cf9b8e53700246684cd81bcae784656dc45ee4790d5efe"
+    },
+    "texture_roughness": {
+      "file": "sultanate_muster_hall_roughness.png",
+      "bytes": 1184729,
+      "sha256": "89135277ae24bf7e7cc448fab5f457c3f502f90c86b26f4284e91cf9e6f5f9f9"
+    },
+    "texture_normal": {
+      "file": "sultanate_muster_hall_normal.png",
+      "bytes": 3716796,
+      "sha256": "67e24b729a68062259e1951fc1ab2d9732e9c2b6c88b327f434be871610c74a5"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 2742,
+    "triangles": 2742,
+    "fittedMetres": [
+      2.88,
+      2.852,
+      1.918
+    ],
+    "teamMaskCoverage": 0.0312
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "orc_archer",
+  "concept": {
+    "references": [
+      "orc_warrior"
+    ],
+    "prompt": "Same rendering style, same green-skinned orc people and the same crude leather, bone and iron gear as this warrior: a lean orc hunter in fur and leather, a crude horn recurve bow and a quiver of black-fletched arrows slung on his back."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0d339-2063-7540-a467-623d00881efa",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same rendering style, same green-skinned orc people and the same crude leather, bone and iron gear as this warrior: a lean orc hunter in fur and leather, a crude horn recurve bow and a quiver of black-fletched arrows slung on his back. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790250132604,
+    "started_at": 1790250132609,
+    "finished_at": 1790250216708,
+    "expires_at": 1790509416708,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d339-2063-7540-a467-623d00881efa_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 3538,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1028086,
+    "sha256": "d7c96f0a5480c6323e7e2d5f5e6e15c34a8fd009492288857335902075949a15"
+  },
+  "finished_utc": "2026-09-24T11:43:38.350678+00:00"
+}

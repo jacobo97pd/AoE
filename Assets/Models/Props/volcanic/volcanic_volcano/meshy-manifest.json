@@ -1,0 +1,134 @@
+{
+  "id": "volcanic_volcano",
+  "entry": {
+    "id": "volcanic_volcano",
+    "role": "landmark",
+    "kind": "volcano",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 5,
+    "footprint": 10,
+    "size": 1024,
+    "biome": "volcanic",
+    "priority": 7,
+    "polycount": 4000,
+    "prompt": "Small volcano: one single broad cone with smooth steep flanks built of big flat faceted rock planes, a wide round crater bowl sunk into the flat top, two deep grooves running down one side from the crater lip to the foot. One solid closed mass, no loose boulders, no chimney, no pool at the foot. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces. About 10 m wide and 5 m tall. Isolated, no ground plate, no smoke, no text.",
+    "texture": "Stylized painted colours, even lighting, no baked shadows. Rock: dark ash-grey basalt (#4A423E) with lighter weathered upper faces (#7A6E68) and deep red-brown bands (#5C3530), matte. Crater pool and lava streams: glowing molten orange (#F07A2E) with hot yellow centres (#FFC24A) and dark red edges (#A8321E), the brightest parts. No smoke, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d78f-606d-718a-bd7e-0bd515568814",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3887480685,
+        "prompt": "Small volcano: one single broad cone with smooth steep flanks built of big flat faceted rock planes, a wide round crater bowl sunk into the flat top, two deep grooves running down one side from the crater lip to the foot. One solid closed mass, no loose boulders, no chimney, no pool at the foot. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces. About 10 m wide and 5 m tall. Isolated, no ground plate, no smoke, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790322896079,
+        "progress": 100,
+        "started_at": 1790322896086,
+        "finished_at": 1790322906208,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78f-606d-718a-bd7e-0bd515568814/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78f-606d-718a-bd7e-0bd515568814/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:55:13.608084+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d790-1f91-71b9-bcdf-2e72b1524054",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3887480685,
+        "prompt": "Small volcano: one single broad cone with smooth steep flanks built of big flat faceted rock planes, a wide round crater bowl sunk into the flat top, two deep grooves running down one side from the crater lip to the foot. One solid closed mass, no loose boulders, no chimney, no pool at the foot. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces. About 10 m wide and 5 m tall. Isolated, no ground plate, no smoke, no text.",
+        "texture_prompt": "Stylized painted colours, even lighting, no baked shadows. Rock: dark ash-grey basalt (#4A423E) with lighter weathered upper faces (#7A6E68) and deep red-brown bands (#5C3530), matte. Crater pool and lava streams: glowing molten orange (#F07A2E) with hot yellow centres (#FFC24A) and dark red edges (#A8321E), the brightest parts. No smoke, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790322944147,
+        "progress": 100,
+        "started_at": 1790322944153,
+        "finished_at": 1790322993951,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d790-1f91-71b9-bcdf-2e72b1524054/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d790-1f91-71b9-bcdf-2e72b1524054/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d790-1f91-71b9-bcdf-2e72b1524054/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d790-1f91-71b9-bcdf-2e72b1524054/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d790-1f91-71b9-bcdf-2e72b1524054/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d790-1f91-71b9-bcdf-2e72b1524054/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:56:35.523967+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 104140,
+      "sha256": "615398ec99827b527fb5aa5cc5effd2bd84c7a1edce8dbc404c5f1748dd219bc"
+    },
+    "model_glb": {
+      "file": "volcanic_volcano_model.glb",
+      "bytes": 5943268,
+      "sha256": "caa343fc85a22af84cfda31e73b7c07d11695b7db448518244dcfa25747336a7"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 126478,
+      "sha256": "f3c755aa8bdf05fa9f2bb67cc0a02a7f5f25a94d1a6e8658bd7510cde5f1e01c"
+    },
+    "texture_base_color": {
+      "file": "volcanic_volcano_base_color.png",
+      "bytes": 5257745,
+      "sha256": "5f96f0e007c9ec6dc8487401b18ebce785c4b8a357006fffc23323e0612ccc68"
+    },
+    "texture_metallic": {
+      "file": "volcanic_volcano_metallic.png",
+      "bytes": 38133,
+      "sha256": "40f8aee5dde15f9749dadb7e7a0807029094d50314dfafe108fdc31ca265f3b3"
+    },
+    "texture_roughness": {
+      "file": "volcanic_volcano_roughness.png",
+      "bytes": 1248421,
+      "sha256": "4006c58e0e8e5d53b5dbe0a360d7025c4a3226fa81342b7982afd4cd70a9143d"
+    },
+    "texture_normal": {
+      "file": "volcanic_volcano_normal.png",
+      "bytes": 4153548,
+      "sha256": "276aa404ba84751579e94e25c8e3366a2b4b21fa5f7d44d382d2e3897f68ede4"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4210,
+    "lod0": 3500,
+    "lod1": 800,
+    "fittedMetres": [
+      9.481,
+      9.481,
+      5.0
+    ],
+    "teamMaskCoverage": 0.0,
+    "crater": {
+      "faces": 170,
+      "painted": 0.0347
+    }
+  }
+}

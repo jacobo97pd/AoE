@@ -1,0 +1,133 @@
+{
+  "id": "elf_watchtower",
+  "entry": {
+    "id": "elf_watchtower",
+    "style": "elf",
+    "building": "watchtower",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 4.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: an elven watchtower. One tall slender round tower of pale stone, clearly taller than wide, a curved leaf-shaped spire roof, a small balcony near the top and a blue pennant."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43e-64e6-755b-9fe3-bfbbfbd92882",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3116202967,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven watchtower. One tall slender round tower of pale stone, clearly taller than wide, a curved leaf-shaped spire roof, a small balcony near the top and a blue pennant. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267255963,
+        "progress": 100,
+        "started_at": 1790267255970,
+        "finished_at": 1790267264176,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-64e6-755b-9fe3-bfbbfbd92882/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-64e6-755b-9fe3-bfbbfbd92882/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:27:44.949750+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43e-9161-75fc-9322-2885e4f5b433",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3116202967,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven watchtower. One tall slender round tower of pale stone, clearly taller than wide, a curved leaf-shaped spire roof, a small balcony near the top and a blue pennant. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267265414,
+        "progress": 100,
+        "started_at": 1790267265421,
+        "finished_at": 1790267312388,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-9161-75fc-9322-2885e4f5b433/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-9161-75fc-9322-2885e4f5b433/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-9161-75fc-9322-2885e4f5b433/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-9161-75fc-9322-2885e4f5b433/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-9161-75fc-9322-2885e4f5b433/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-9161-75fc-9322-2885e4f5b433/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:28:36.817787+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_watchtower_model.glb",
+      "bytes": 7070076,
+      "sha256": "824157cab881d431fa838d350a571caa48e1811ca31363a804cb09c18ca5e329"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 54338,
+      "sha256": "7df0549b917e801bf7b17eac6280a2e439001d11793183ff7f6122aab7265c6b"
+    },
+    "texture_base_color": {
+      "file": "elf_watchtower_base_color.png",
+      "bytes": 5178860,
+      "sha256": "10fee6f196ab18df264cf65700821c9f8ea20fcb9091918aa0f62d1faba6c74b"
+    },
+    "texture_metallic": {
+      "file": "elf_watchtower_metallic.png",
+      "bytes": 98066,
+      "sha256": "1b0b5e08bae53be91e8a058888b3918233e023d59f960d1beaf52215e0cdfb74"
+    },
+    "texture_roughness": {
+      "file": "elf_watchtower_roughness.png",
+      "bytes": 1232401,
+      "sha256": "7861aff2fb855c5c7b24ddbb8d069a0e3309cb2c26e58ebced1334791490fb01"
+    },
+    "texture_normal": {
+      "file": "elf_watchtower_normal.png",
+      "bytes": 4482533,
+      "sha256": "38e7322b859886c7995e95963ddd6747e79b176c3fdd20aa56edb1fa46bc9d2d"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4766,
+    "triangles": 4766,
+    "fittedMetres": [
+      1.164,
+      1.012,
+      4.0
+    ],
+    "teamMaskCoverage": 0.0084
+  }
+}

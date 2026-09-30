@@ -1,0 +1,182 @@
+{
+    "generatedUtc": "2026-09-10T17:00:57.3004249Z",
+    "unityVersion": "6000.3.23f1",
+    "scope": "Two ArtStyleLab candidate prefabs. Asset integrity and authoring budgets only; no physical-device performance or visual-parity result.",
+    "passed": true,
+    "materialCount": 1,
+    "textureCount": 1,
+    "visualDefinitionCount": 2,
+    "cosmeticDefinitionCount": 2,
+    "prefabs": [
+        {
+            "path": "Assets/Game/ArtStyleLab/Prefabs/KingdomWorker.prefab",
+            "gameplayId": "tender",
+            "passed": true,
+            "rendererCount": 3,
+            "materialCount": 1,
+            "lods": [
+                {
+                    "level": 0,
+                    "triangles": 5446,
+                    "vertices": 7196,
+                    "bones": 16,
+                    "bindposes": 16,
+                    "weightedVertices": 7196,
+                    "teamVertices": 514,
+                    "neutralVertices": 6682,
+                    "screenRelativeHeight": 0.14000000059604646,
+                    "maxWeightError": 0.0,
+                    "maxRestMatrixError": 0.0,
+                    "mesh": "Assets/Game/ArtStyleLab/Models/KingdomWorker_LOD0.asset",
+                    "material": "Assets/Game/ArtStyleLab/Materials/StylizedArmy.mat",
+                    "shader": "Emberfield/Stylized Army PBR"
+                },
+                {
+                    "level": 1,
+                    "triangles": 2960,
+                    "vertices": 4440,
+                    "bones": 16,
+                    "bindposes": 16,
+                    "weightedVertices": 4440,
+                    "teamVertices": 302,
+                    "neutralVertices": 4138,
+                    "screenRelativeHeight": 0.05999999865889549,
+                    "maxWeightError": 0.0,
+                    "maxRestMatrixError": 0.0,
+                    "mesh": "Assets/Game/ArtStyleLab/Models/KingdomWorker_LOD1.asset",
+                    "material": "Assets/Game/ArtStyleLab/Materials/StylizedArmy.mat",
+                    "shader": "Emberfield/Stylized Army PBR"
+                },
+                {
+                    "level": 2,
+                    "triangles": 940,
+                    "vertices": 1577,
+                    "bones": 16,
+                    "bindposes": 16,
+                    "weightedVertices": 1577,
+                    "teamVertices": 160,
+                    "neutralVertices": 1417,
+                    "screenRelativeHeight": 0.00800000037997961,
+                    "maxWeightError": 0.0,
+                    "maxRestMatrixError": 0.0,
+                    "mesh": "Assets/Game/ArtStyleLab/Models/KingdomWorker_LOD2.asset",
+                    "material": "Assets/Game/ArtStyleLab/Materials/StylizedArmy.mat",
+                    "shader": "Emberfield/Stylized Army PBR"
+                }
+            ],
+            "clips": [
+                {
+                    "name": "Idle",
+                    "length": 2.0,
+                    "boneBindings": 65,
+                    "changingBoneBindings": 5
+                },
+                {
+                    "name": "Walk",
+                    "length": 0.8999999761581421,
+                    "boneBindings": 65,
+                    "changingBoneBindings": 15
+                },
+                {
+                    "name": "Gather",
+                    "length": 1.2999999523162842,
+                    "boneBindings": 64,
+                    "changingBoneBindings": 8
+                }
+            ],
+            "problems": [],
+            "warnings": []
+        },
+        {
+            "path": "Assets/Game/ArtStyleLab/Prefabs/KingdomWarrior.prefab",
+            "gameplayId": "reedguard",
+            "passed": true,
+            "rendererCount": 3,
+            "materialCount": 1,
+            "lods": [
+                {
+                    "level": 0,
+                    "triangles": 6440,
+                    "vertices": 8744,
+                    "bones": 16,
+                    "bindposes": 16,
+                    "weightedVertices": 8744,
+                    "teamVertices": 201,
+                    "neutralVertices": 8543,
+                    "screenRelativeHeight": 0.14000000059604646,
+                    "maxWeightError": 0.0,
+                    "maxRestMatrixError": 0.0,
+                    "mesh": "Assets/Game/ArtStyleLab/Models/KingdomWarrior_LOD0.asset",
+                    "material": "Assets/Game/ArtStyleLab/Materials/StylizedArmy.mat",
+                    "shader": "Emberfield/Stylized Army PBR"
+                },
+                {
+                    "level": 1,
+                    "triangles": 3348,
+                    "vertices": 5119,
+                    "bones": 16,
+                    "bindposes": 16,
+                    "weightedVertices": 5119,
+                    "teamVertices": 117,
+                    "neutralVertices": 5002,
+                    "screenRelativeHeight": 0.05999999865889549,
+                    "maxWeightError": 0.0,
+                    "maxRestMatrixError": 0.0,
+                    "mesh": "Assets/Game/ArtStyleLab/Models/KingdomWarrior_LOD1.asset",
+                    "material": "Assets/Game/ArtStyleLab/Materials/StylizedArmy.mat",
+                    "shader": "Emberfield/Stylized Army PBR"
+                },
+                {
+                    "level": 2,
+                    "triangles": 968,
+                    "vertices": 1672,
+                    "bones": 16,
+                    "bindposes": 16,
+                    "weightedVertices": 1672,
+                    "teamVertices": 75,
+                    "neutralVertices": 1597,
+                    "screenRelativeHeight": 0.00800000037997961,
+                    "maxWeightError": 0.0,
+                    "maxRestMatrixError": 0.0,
+                    "mesh": "Assets/Game/ArtStyleLab/Models/KingdomWarrior_LOD2.asset",
+                    "material": "Assets/Game/ArtStyleLab/Materials/StylizedArmy.mat",
+                    "shader": "Emberfield/Stylized Army PBR"
+                }
+            ],
+            "clips": [
+                {
+                    "name": "Idle",
+                    "length": 2.0,
+                    "boneBindings": 65,
+                    "changingBoneBindings": 5
+                },
+                {
+                    "name": "Walk",
+                    "length": 0.8999999761581421,
+                    "boneBindings": 65,
+                    "changingBoneBindings": 15
+                },
+                {
+                    "name": "Attack01",
+                    "length": 1.2999999523162842,
+                    "boneBindings": 64,
+                    "changingBoneBindings": 8
+                }
+            ],
+            "problems": [],
+            "warnings": [
+                "LOD0 is outside the suggested authoring band 3000–6000; review silhouette and cost.",
+                "LOD1 is outside the suggested authoring band 1500–3000; review silhouette and cost."
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "path": "Assets/Game/ArtStyleLab/Materials/SharedSurface.png",
+            "name": "SharedSurface",
+            "width": 1024,
+            "height": 1024
+        }
+    ],
+    "problems": []
+}

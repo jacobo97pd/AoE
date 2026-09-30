@@ -1,0 +1,205 @@
+{
+  "id": "dwarf_beast_lodge",
+  "entry": {
+    "id": "dwarf_beast_lodge",
+    "style": "dwarf",
+    "building": "beast_lodge",
+    "footprint": [
+      4,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a dwarf beast stable. One long, low, wide stone hall, clearly twice as wide as it is tall, with a flat stepped stone roof, two big arched iron-barred stall gates side by side along the long front wall, iron rings and chains on the wall, one crimson banner."
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        345,
+        360
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d47b-3e6f-738e-b8c6-52dbdabb4bb0",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3142205794,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf beast stable. One long, low, wide stone hall, clearly twice as wide as it is tall, with a flat stepped stone roof, two big arched iron-barred stall gates side by side along the long front wall, iron rings and chains on the wall, one crimson banner. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271243520,
+        "progress": 100,
+        "started_at": 1790271243528,
+        "finished_at": 1790271255630,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47b-3e6f-738e-b8c6-52dbdabb4bb0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47b-3e6f-738e-b8c6-52dbdabb4bb0/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T17:34:21.009013+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d47b-8b08-739d-b54d-4adb42e9f682",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3142205794,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf beast stable. One long, low, wide stone hall, clearly twice as wide as it is tall, with a flat stepped stone roof, two big arched iron-barred stall gates side by side along the long front wall, iron rings and chains on the wall, one crimson banner. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271262062,
+        "progress": 100,
+        "started_at": 1790271262070,
+        "finished_at": 1790271335295,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47b-8b08-739d-b54d-4adb42e9f682/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47b-8b08-739d-b54d-4adb42e9f682/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47b-8b08-739d-b54d-4adb42e9f682/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47b-8b08-739d-b54d-4adb42e9f682/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47b-8b08-739d-b54d-4adb42e9f682/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47b-8b08-739d-b54d-4adb42e9f682/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:35:38.950993+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_beast_lodge_model.glb",
+      "bytes": 4847340,
+      "sha256": "8f6b5ea4e8647d13d492b6101e6c265ada4b22ece4ebdb3f84e6c1b562bdf912"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 220971,
+      "sha256": "2561b0d58992547571891a2b99ad1f9e2ed5d199f22f61f629da1650d690ec0e"
+    },
+    "texture_base_color": {
+      "file": "dwarf_beast_lodge_base_color.png",
+      "bytes": 3496530,
+      "sha256": "241499360e45d8c1f5c474ad30b1202d2bcaba86e95dfee68685848792e685b1"
+    },
+    "texture_metallic": {
+      "file": "dwarf_beast_lodge_metallic.png",
+      "bytes": 67298,
+      "sha256": "ff91ada8a9bc9c283468af46e1b9c53d1e415c8eff75f280ee987348d3df8c7d"
+    },
+    "texture_roughness": {
+      "file": "dwarf_beast_lodge_roughness.png",
+      "bytes": 1092945,
+      "sha256": "b172322540177b3ab494b66e166d903baa3bf139c2defc9a043832a244fa8dba"
+    },
+    "texture_normal": {
+      "file": "dwarf_beast_lodge_normal.png",
+      "bytes": 2478291,
+      "sha256": "17b4f623260abe3d56a35578e9b985c2ba5b0008ed488ec9135b70f40f4c26df"
+    }
+  },
+  "credits": 30,
+  "finish": {
+    "sourceTriangles": 4489,
+    "triangles": 4489,
+    "fittedMetres": [
+      2.88,
+      2.88,
+      1.946
+    ],
+    "teamMaskCoverage": 0.029
+  },
+  "history": [
+    {
+      "steps": {
+        "preview": {
+          "task": {
+            "id": "01a0d440-e6b1-73af-8c34-d02c3f60f7a2",
+            "type": "text-to-3d-preview",
+            "mode": "preview",
+            "name": "",
+            "model_type": "smart-topology",
+            "seed": 1379846044,
+            "prompt": "Low-poly game asset for a top-down strategy game: a dwarf drake roost. One long, wide, low stone hall, wider than tall, with two big arched iron-barred gates on the long side, heavy chains, a scorched stone front and one crimson banner. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+            "texture_prompt": "",
+            "texture_image_url": "",
+            "status": "SUCCEEDED",
+            "created_at": 1790267420087,
+            "progress": 100,
+            "started_at": 1790267420102,
+            "finished_at": 1790267431597,
+            "task_error": null,
+            "model_urls": {
+              "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-e6b1-73af-8c34-d02c3f60f7a2/output/model.glb"
+            },
+            "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-e6b1-73af-8c34-d02c3f60f7a2/output/preview.png",
+            "texture_urls": [],
+            "consumed_credits": 5
+          },
+          "credits": 5,
+          "finished_utc": "2026-09-24T16:30:37.587069+00:00"
+        },
+        "refine": {
+          "task": {
+            "id": "01a0d441-33e1-74bc-b589-cf06d6008da1",
+            "type": "text-to-3d-refine",
+            "mode": "refine",
+            "name": "",
+            "model_type": "smart-topology",
+            "seed": 1379846044,
+            "prompt": "Low-poly game asset for a top-down strategy game: a dwarf drake roost. One long, wide, low stone hall, wider than tall, with two big arched iron-barred gates on the long side, heavy chains, a scorched stone front and one crimson banner. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+            "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+            "texture_image_url": "",
+            "status": "SUCCEEDED",
+            "created_at": 1790267438098,
+            "progress": 100,
+            "started_at": 1790267438108,
+            "finished_at": 1790267513823,
+            "task_error": null,
+            "model_urls": {
+              "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-33e1-74bc-b589-cf06d6008da1/output/model.glb"
+            },
+            "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-33e1-74bc-b589-cf06d6008da1/output/preview.png",
+            "texture_urls": [
+              {
+                "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-33e1-74bc-b589-cf06d6008da1/output/texture_0.png",
+                "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-33e1-74bc-b589-cf06d6008da1/output/texture_0_metallic.png",
+                "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-33e1-74bc-b589-cf06d6008da1/output/texture_0_roughness.png",
+                "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-33e1-74bc-b589-cf06d6008da1/output/texture_0_normal.png"
+              }
+            ],
+            "consumed_credits": 10
+          },
+          "credits": 10,
+          "finished_utc": "2026-09-24T16:31:54.961292+00:00"
+        }
+      },
+      "reason": "silhouette missed the brief (2026-09-25)"
+    }
+  ]
+}

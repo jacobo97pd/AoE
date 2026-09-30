@@ -1,0 +1,160 @@
+{
+  "id": "mountain_gate_leaf",
+  "entry": {
+    "id": "mountain_gate_leaf",
+    "style": "mountain",
+    "building": "gate_leaf",
+    "size": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "height": 2.4,
+    "fit": "stretch",
+    "thin": true,
+    "triangles": 800,
+    "suffix": "Weathered dark timber, black iron straps, woad blue shield. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+    "prompt": "Low-poly game asset for a top-down strategy game: a single heavy gate door leaf of vertical dark timber planks held by three black iron straps with big rivets and a round woad blue painted shield nailed at the centre, one single loose flat panel, nearly twice as tall as it is wide, seen face-on.",
+    "texture": "Stylized matte painted colours, even lighting. Planks: weathered dark brown timber (#5E4632). Straps and rivets: black iron (#2E2E30). The shield nailed at the centre: bright saturated woad blue (#2F4E9C) paint over its whole face with a thin iron rim. No text."
+  },
+  "style": {
+    "factions": [
+      "skeld"
+    ],
+    "suffix": "Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        200,
+        250
+      ],
+      [
+        50,
+        95
+      ]
+    ],
+    "teamSaturation": 0.2,
+    "teamWeight": 0.65
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d5ee-4784-7603-b1f5-559c7b12f02d",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2153175533,
+        "prompt": "Low-poly game asset for a top-down strategy game: a single heavy gate door leaf of vertical dark timber planks held by three black iron straps with big rivets and a round woad blue painted shield nailed at the centre, one single loose flat panel, nearly twice as tall as it is wide, seen face-on. Weathered dark timber, black iron straps, woad blue shield. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790295559550,
+        "progress": 100,
+        "started_at": 1790295559556,
+        "finished_at": 1790295568136,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5ee-4784-7603-b1f5-559c7b12f02d/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5ee-4784-7603-b1f5-559c7b12f02d/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T00:19:28.593275+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d61c-e359-74f4-a046-d4619caa3339",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2153175533,
+        "prompt": "Low-poly game asset for a top-down strategy game: a single heavy gate door leaf of vertical dark timber planks held by three black iron straps with big rivets and a round woad blue painted shield nailed at the centre, one single loose flat panel, nearly twice as tall as it is wide, seen face-on. Weathered dark timber, black iron straps, woad blue shield. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting. Planks: weathered dark brown timber (#5E4632). Straps and rivets: black iron (#2E2E30). The shield nailed at the centre: bright saturated woad blue (#2F4E9C) paint over its whole face with a thin iron rim. No text.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790298615076,
+        "progress": 100,
+        "started_at": 1790298615084,
+        "finished_at": 1790298655557,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61c-e359-74f4-a046-d4619caa3339/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61c-e359-74f4-a046-d4619caa3339/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61c-e359-74f4-a046-d4619caa3339/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61c-e359-74f4-a046-d4619caa3339/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61c-e359-74f4-a046-d4619caa3339/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61c-e359-74f4-a046-d4619caa3339/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T01:10:58.031020+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "mountain_gate_leaf_model.glb",
+      "bytes": 4860436,
+      "sha256": "ea92aaae2e76e24df9cc65f57b929ba8df0cdcb2aaedce68985670c8a0bb16bb"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 121426,
+      "sha256": "ed5d3ae94cba8525528dc1c0ffb7ecaa193cb24fde305cd6d60542205dec1ab4"
+    },
+    "texture_base_color": {
+      "file": "mountain_gate_leaf_base_color.png",
+      "bytes": 3696737,
+      "sha256": "806c663e8ad0fe6e817190d791f9d525cfd459f79cb7703ee81117e594772d05"
+    },
+    "texture_metallic": {
+      "file": "mountain_gate_leaf_metallic.png",
+      "bytes": 1017469,
+      "sha256": "604efd8ca319706bd089785911089777a85cd83bf92b4b4d4f0a53b38aa0148f"
+    },
+    "texture_roughness": {
+      "file": "mountain_gate_leaf_roughness.png",
+      "bytes": 1103962,
+      "sha256": "8972bffe6ef94469803f03fbf2fe40db75f2f3fa107cad381c4428e5d47cc4dd"
+    },
+    "texture_normal": {
+      "file": "mountain_gate_leaf_normal.png",
+      "bytes": 2683450,
+      "sha256": "41b34a252ef99d20b31820a3e34f805d6fa9cb995515f27a7dae3a7ce81c3284"
+    }
+  },
+  "credits": 25,
+  "finish": {
+    "sourceTriangles": 798,
+    "triangles": 798,
+    "fittedMetres": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.035,
+      0.966
+    ],
+    "thicknessScale": 0.592,
+    "teamMaskCoverage": 0.1454
+  },
+  "rejectedRefines": [
+    {
+      "task": "01a0d5f4-1700-70eb-a079-660cd224177f",
+      "credits": 10,
+      "reason": "Reviewer: no usable owner colour (coverage 0.003); the shield came out brown wood under the style's house texture prompt. Refined again with the entry's own texture.",
+      "rejected_utc": "2026-09-25T01:08:16.216636+00:00",
+      "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos."
+    }
+  ]
+}

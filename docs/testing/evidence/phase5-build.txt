@@ -1,0 +1,6 @@
+Result: Succeeded
+Errors: 0
+Warnings: 0
+Size: 163094640
+Duration: 00:00:13.3849585
+Output: C:/Users/jacob/Documents/AoE/Builds/Windows/Emberfield.exe

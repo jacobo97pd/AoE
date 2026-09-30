@@ -1,0 +1,131 @@
+{
+  "id": "forest_food_node",
+  "entry": {
+    "id": "forest_food_node",
+    "role": "resource",
+    "kind": "Food",
+    "lod0": 1200,
+    "lod1": 300,
+    "height": 1,
+    "footprint": 1.6,
+    "size": 512,
+    "biome": "forest",
+    "priority": 1,
+    "prompt": "Wide low berry bush: a dome of three fused chunky rounded lobes, wider than tall, studded with clusters of big round red berries on its top and sides. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, hard edges, flat faces. About 1.6 m wide and 1 m tall. Isolated, no ground, no basket, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Foliage: fresh mid green (#5F8A3F) with lighter lobe tops (#86A955). Berries: saturated red (#B5352F) with small highlights, the brightest colour on the model and clearly visible from above. No flowers, no text or logos.",
+    "polycount": 1500
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d405-02a6-71e2-bb2c-5cf2d0506b86",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1424304521,
+        "prompt": "Wide low berry bush: a dome of three fused chunky rounded lobes, wider than tall, studded with clusters of big round red berries on its top and sides. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, hard edges, flat faces. About 1.6 m wide and 1 m tall. Isolated, no ground, no basket, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263496084,
+        "progress": 100,
+        "started_at": 1790263496091,
+        "finished_at": 1790263505807,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-02a6-71e2-bb2c-5cf2d0506b86/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-02a6-71e2-bb2c-5cf2d0506b86/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:25:13.569560+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d405-5481-720c-b7d0-2497edc58ad5",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1424304521,
+        "prompt": "Wide low berry bush: a dome of three fused chunky rounded lobes, wider than tall, studded with clusters of big round red berries on its top and sides. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, hard edges, flat faces. About 1.6 m wide and 1 m tall. Isolated, no ground, no basket, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Foliage: fresh mid green (#5F8A3F) with lighter lobe tops (#86A955). Berries: saturated red (#B5352F) with small highlights, the brightest colour on the model and clearly visible from above. No flowers, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263516630,
+        "progress": 100,
+        "started_at": 1790263516638,
+        "finished_at": 1790263583513,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-5481-720c-b7d0-2497edc58ad5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-5481-720c-b7d0-2497edc58ad5/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-5481-720c-b7d0-2497edc58ad5/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-5481-720c-b7d0-2497edc58ad5/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-5481-720c-b7d0-2497edc58ad5/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-5481-720c-b7d0-2497edc58ad5/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:26:24.965044+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 169630,
+      "sha256": "7fa6701786028c171eab1e1e8b43471ea29f475d3f0f47e0d3ed0c758d403da9"
+    },
+    "model_glb": {
+      "file": "forest_food_node_model.glb",
+      "bytes": 6715796,
+      "sha256": "b53fa8f015b45c111292c50e730cebdd01e81d0fd1c218af786df2e24168c8d0"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 232919,
+      "sha256": "7deaed13883169febbb6c86ea3f8e013ada01425e9bb532099cca3baddc5ddd9"
+    },
+    "texture_base_color": {
+      "file": "forest_food_node_base_color.png",
+      "bytes": 4896541,
+      "sha256": "b2fa06eece4c03c25f7abac051c1592618db0773a198b9724db19238828806f1"
+    },
+    "texture_metallic": {
+      "file": "forest_food_node_metallic.png",
+      "bytes": 24431,
+      "sha256": "de8a75b381a5a9cb638354e5634fa949d578f4c90a7342c83f75a5aa69b5831c"
+    },
+    "texture_roughness": {
+      "file": "forest_food_node_roughness.png",
+      "bytes": 1569067,
+      "sha256": "de9d273c9247936c114f59066c4a5ea54679adccad39c2e0002af751028037e0"
+    },
+    "texture_normal": {
+      "file": "forest_food_node_normal.png",
+      "bytes": 3953832,
+      "sha256": "dd986bb6b567feb91462a9e0d30b59646d1b52e2fbf703066539eed4b3a2b38c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1067,
+    "lod0": 1067,
+    "lod1": 300,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.2,
+      1.202,
+      1.0
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

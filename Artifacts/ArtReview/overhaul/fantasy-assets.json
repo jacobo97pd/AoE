@@ -1,0 +1,86 @@
+{
+    "biome": "Fantasy",
+    "status": "Baked; screenshots require visual review; desktop counts are not mobile timings.",
+    "sceneRenderers": 103,
+    "environmentMeshes": 25,
+    "environmentLODGroups": 30,
+    "uniqueMaterials": 4,
+    "units": [
+        {
+            "kind": "Elf",
+            "bones": 16,
+            "triangles": [
+                5954,
+                3294,
+                1108
+            ],
+            "vertices": [
+                8348,
+                5172,
+                2018
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Dwarf",
+            "bones": 16,
+            "triangles": [
+                8040,
+                4326,
+                1474
+            ],
+            "vertices": [
+                10631,
+                6484,
+                2618
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Dragon",
+            "bones": 24,
+            "triangles": [
+                16080,
+                7908,
+                3576
+            ],
+            "vertices": [
+                18338,
+                10718,
+                5517
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Hero",
+            "bones": 16,
+            "triangles": [
+                9834,
+                5436,
+                1690
+            ],
+            "vertices": [
+                13428,
+                8452,
+                3100
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        }
+    ]
+}

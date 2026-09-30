@@ -1,0 +1,136 @@
+{
+  "id": "sultanate_watchtower",
+  "entry": {
+    "id": "sultanate_watchtower",
+    "style": "sultanate",
+    "building": "watchtower",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 4.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert watchtower. One tall, slim, square mudbrick tower, clearly taller than it is wide and slightly tapering, a projecting timber lookout balcony near the top, a flat roof with stepped merlons, a narrow arched door at the base and a turquoise cloth pennant on a pole."
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d2-6ee4-7601-b76a-38e1ec2f71b7",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3787511620,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert watchtower. One tall, slim, square mudbrick tower, clearly taller than it is wide and slightly tapering, a projecting timber lookout balcony near the top, a flat roof with stepped merlons, a narrow arched door at the base and a turquoise cloth pennant on a pole. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528616032,
+        "progress": 100,
+        "started_at": 1790528616038,
+        "finished_at": 1790528623835,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-6ee4-7601-b76a-38e1ec2f71b7/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-6ee4-7601-b76a-38e1ec2f71b7/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:03:45.066599+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d2-9b36-7083-8236-03accdf437e1",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3787511620,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert watchtower. One tall, slim, square mudbrick tower, clearly taller than it is wide and slightly tapering, a projecting timber lookout balcony near the top, a flat roof with stepped merlons, a narrow arched door at the base and a turquoise cloth pennant on a pole. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528625507,
+        "progress": 100,
+        "started_at": 1790528625515,
+        "finished_at": 1790528677035,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-9b36-7083-8236-03accdf437e1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-9b36-7083-8236-03accdf437e1/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-9b36-7083-8236-03accdf437e1/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-9b36-7083-8236-03accdf437e1/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-9b36-7083-8236-03accdf437e1/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d2-9b36-7083-8236-03accdf437e1/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:04:45.353481+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_watchtower_model.glb",
+      "bytes": 5735376,
+      "sha256": "ebbee11d61f2ae88872342c8421796f271482018825ad1e1a55855c034791578"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 70505,
+      "sha256": "85d9e9c88025c919c80903b90cc4b93c2beb052b3302491fc48d9fbf565fb83b"
+    },
+    "texture_base_color": {
+      "file": "sultanate_watchtower_base_color.png",
+      "bytes": 5259480,
+      "sha256": "f6096080d6f7c044897ef4d63ca7393e30f4bc11c46bb77077fd438469ab2ef4"
+    },
+    "texture_metallic": {
+      "file": "sultanate_watchtower_metallic.png",
+      "bytes": 23251,
+      "sha256": "dc12f94c25616bd382f83e676b90449236cb6f84b4ecaa0e9be708b815aba3b9"
+    },
+    "texture_roughness": {
+      "file": "sultanate_watchtower_roughness.png",
+      "bytes": 1085472,
+      "sha256": "da49b85b7b6c68931bde3a43526ef6fa6f1edf5f95d674c3b0941e6734ca9035"
+    },
+    "texture_normal": {
+      "file": "sultanate_watchtower_normal.png",
+      "bytes": 3525307,
+      "sha256": "9943f614711e1f91e8ca2deb22ff499cb25816bd2a2babe1f47e8c01a4c1d5f1"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4962,
+    "triangles": 4962,
+    "fittedMetres": [
+      1.434,
+      1.578,
+      4.0
+    ],
+    "teamMaskCoverage": 0.0534
+  }
+}

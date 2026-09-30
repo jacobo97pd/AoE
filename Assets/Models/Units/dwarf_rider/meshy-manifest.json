@@ -1,0 +1,172 @@
+{
+  "id": "dwarf_rider",
+  "entry": {
+    "id": "dwarf_rider",
+    "name": "Jinete enano",
+    "culture": "dwarf",
+    "factions": [
+      "drakeforged"
+    ],
+    "unit": "strider",
+    "height": 1.9,
+    "gameHeight": 2.6,
+    "teamHues": [
+      [
+        348,
+        360
+      ],
+      [
+        0,
+        10
+      ]
+    ],
+    "teamSaturation": 0.42,
+    "prompt": "Low-poly game asset for a top-down strategy game: a stout armoured dwarf with a braided red beard riding a big war ram with thick curled horns, bronze plate armour, a warhammer held upright, a crimson saddle cloth with gold runes. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Ram fleece cream (#D8CDB4), horns grey (#8A8276). Armour burnished bronze (#B07A3A) and steel (#8E9294). Saddle cloth saturated crimson (#A0262A) with gold (#C9A04A). No text or logos.",
+    "role": "melee",
+    "rig": "quadruped"
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d480-5ffe-7374-83e5-0fddd7240848",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1693310990,
+        "prompt": "Low-poly game asset for a top-down strategy game: a stout armoured dwarf with a braided red beard riding a big war ram with thick curled horns, bronze plate armour, a warhammer held upright, a crimson saddle cloth with gold runes. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271579966,
+        "progress": 100,
+        "started_at": 1790271579975,
+        "finished_at": 1790271591127,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-5ffe-7374-83e5-0fddd7240848/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-5ffe-7374-83e5-0fddd7240848/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d480-ad42-73d0-a68a-9300cb429d68",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1693310990,
+        "prompt": "Low-poly game asset for a top-down strategy game: a stout armoured dwarf with a braided red beard riding a big war ram with thick curled horns, bronze plate armour, a warhammer held upright, a crimson saddle cloth with gold runes. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Ram fleece cream (#D8CDB4), horns grey (#8A8276). Armour burnished bronze (#B07A3A) and steel (#8E9294). Saddle cloth saturated crimson (#A0262A) with gold (#C9A04A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271599650,
+        "progress": 100,
+        "started_at": 1790271599657,
+        "finished_at": 1790271685817,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad42-73d0-a68a-9300cb429d68/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad42-73d0-a68a-9300cb429d68/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad42-73d0-a68a-9300cb429d68/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad42-73d0-a68a-9300cb429d68/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad42-73d0-a68a-9300cb429d68/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ad42-73d0-a68a-9300cb429d68/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:41:33.524404+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_rider_model.glb",
+      "bytes": 7787608,
+      "sha256": "add896ad5747b8a0f690eab5960368503f73058c0e7628731baad51c90e0ec3a"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 108966,
+      "sha256": "41fa4b9cb521e47d96751caf46d988b636d99bdae5ca5f96601fd3243ae18f0d"
+    },
+    "texture_base_color": {
+      "file": "dwarf_rider_base_color.png",
+      "bytes": 6172487,
+      "sha256": "7ed1e4d52f842b447f03fa1caa9874879ef820d5bb19c56f12201b133c53ffa6"
+    },
+    "texture_metallic": {
+      "file": "dwarf_rider_metallic.png",
+      "bytes": 964484,
+      "sha256": "57b8bf0dd30b8ab6bbf4d74747e3512ef5617c0ff64bf83706ec4d73083b2cb4"
+    },
+    "texture_roughness": {
+      "file": "dwarf_rider_roughness.png",
+      "bytes": 1490355,
+      "sha256": "0b16a46c6d36b124ab4a2fbe72cdb130e796dcb4d580c7b12939366c1c43f207"
+    },
+    "texture_normal": {
+      "file": "dwarf_rider_normal.png",
+      "bytes": 4933956,
+      "sha256": "7d53ac0bee71e9d8dddcb74e17b429281ea2958caa81f4b39e29d772eed8ffec"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5194,
+    "bones": 42,
+    "heightMetres": 1.0,
+    "walkMetresPerSecond": 0.223,
+    "runMetresPerSecond": 1.281,
+    "scale": [
+      12.593,
+      11.614,
+      9.166
+    ],
+    "riderVertices": 1206,
+    "donorBack": 4.426,
+    "saddle": 1.035,
+    "bellies": [
+      0.227,
+      0.458
+    ],
+    "pinned": {
+      "muzzle": [
+        0.011,
+        0.778,
+        -1.101
+      ]
+    },
+    "tailVertices": 153,
+    "thinnedVertices": 817,
+    "legThickness": 0.0547,
+    "tailFit": {
+      "turn": 24.9,
+      "stretch": 1.2
+    },
+    "fusedLegs": [],
+    "settled": {
+      "Walk": 0.046,
+      "Run": 0.018
+    },
+    "teamMaskCoverage": 0.1188,
+    "rig": "transplanted from the Quaternius Bull (CC0) by tools/art/transplant_rig.py"
+  }
+}

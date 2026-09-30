@@ -1,0 +1,136 @@
+{
+  "id": "supply_cart",
+  "entry": {
+    "id": "supply_cart",
+    "role": "siege",
+    "kind": "supply_cart",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 1.65,
+    "footprint": 2.2,
+    "size": 1024,
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "biome": "all",
+    "priority": 4,
+    "prompt": "Covered two-wheeled supply cart: a boxy timber cart bed under a rounded royal blue canvas cover on hoops, two large solid wheels, a short pair of shafts in front, a lashed crate at the back. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The shafts point forward. Isolated, no ground, no horse, no characters, no text.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Timber: warm mid-brown wood (#8E765F) with darker grain (#6B563F). Iron fittings and wheel rims: dark blue-grey iron (#4D5F61). Cloth: plain saturated royal blue (#2B4FB0), no emblem. Rope: pale hemp (#C9B98F). No dirt, rust, blood, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43d-ba55-7739-9412-ab514473574a",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2125661526,
+        "prompt": "Covered two-wheeled supply cart: a boxy timber cart bed under a rounded royal blue canvas cover on hoops, two large solid wheels, a short pair of shafts in front, a lashed crate at the back. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The shafts point forward. Isolated, no ground, no horse, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267212152,
+        "progress": 100,
+        "started_at": 1790267212159,
+        "finished_at": 1790267220393,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43d-ba55-7739-9412-ab514473574a/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43d-ba55-7739-9412-ab514473574a/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:27:01.168843+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43d-e730-7194-983b-220a08766f55",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2125661526,
+        "prompt": "Covered two-wheeled supply cart: a boxy timber cart bed under a rounded royal blue canvas cover on hoops, two large solid wheels, a short pair of shafts in front, a lashed crate at the back. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The shafts point forward. Isolated, no ground, no horse, no characters, no text.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Timber: warm mid-brown wood (#8E765F) with darker grain (#6B563F). Iron fittings and wheel rims: dark blue-grey iron (#4D5F61). Cloth: plain saturated royal blue (#2B4FB0), no emblem. Rope: pale hemp (#C9B98F). No dirt, rust, blood, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267221857,
+        "progress": 100,
+        "started_at": 1790267221866,
+        "finished_at": 1790267274094,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43d-e730-7194-983b-220a08766f55/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43d-e730-7194-983b-220a08766f55/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43d-e730-7194-983b-220a08766f55/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43d-e730-7194-983b-220a08766f55/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43d-e730-7194-983b-220a08766f55/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43d-e730-7194-983b-220a08766f55/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:28:01.752469+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 112559,
+      "sha256": "1760aac2e633fe28236d152bcab5b82ecb6094abd345e14d953b300a0fd9bb9f"
+    },
+    "model_glb": {
+      "file": "supply_cart_model.glb",
+      "bytes": 6240388,
+      "sha256": "ccf1ae9519c8713904014e9680f0bd3bbbb957f31b4d2c5b23011d70889499de"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 131956,
+      "sha256": "d5cedc1d372fddb82ff7f9ca4efa512038e156e9ee9878649feffc79e33c315e"
+    },
+    "texture_base_color": {
+      "file": "supply_cart_base_color.png",
+      "bytes": 4350563,
+      "sha256": "2f43611d6d11ae98bc769545e6275c14b88faac5cef215b2d44fb7f8a7c99615"
+    },
+    "texture_metallic": {
+      "file": "supply_cart_metallic.png",
+      "bytes": 162973,
+      "sha256": "826ddfc2a3e8f1a6c29356573a669d716a9ae55fb1b8ee9e9ee4a4fa4f93f938"
+    },
+    "texture_roughness": {
+      "file": "supply_cart_roughness.png",
+      "bytes": 1181587,
+      "sha256": "cbda114972679efe02b44796fc665aba2caa26a070077bf1693c7fac8ba62690"
+    },
+    "texture_normal": {
+      "file": "supply_cart_normal.png",
+      "bytes": 3605505,
+      "sha256": "f495ebcf4b2fceaa4bb91da7f4be2f9848fce37f3f865274c1432d848141c5c8"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4218,
+    "lod0": 3499,
+    "lod1": 899,
+    "fittedMetres": [
+      2.2,
+      1.134,
+      1.598
+    ],
+    "teamMaskCoverage": 0.2823
+  }
+}

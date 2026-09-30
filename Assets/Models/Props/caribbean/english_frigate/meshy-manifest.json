@@ -1,0 +1,139 @@
+{
+  "id": "english_frigate",
+  "entry": {
+    "id": "english_frigate",
+    "role": "landmark",
+    "kind": "ship",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 6.5,
+    "footprint": 6.5,
+    "size": 1024,
+    "biome": "caribbean",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "factions": [
+      "english"
+    ],
+    "priority": 4,
+    "prompt": "Low-poly game asset: an English navy frigate for a top-down strategy game. A long two-masted hull with a raised stern deck and a bowsprit, square-rigged sails furled on their yards, a row of small gunport squares along the hull side. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 2.2 m wide, 6.5 m long, 6.5 m tall. Isolated, no ground, no water, no crew, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Oak-brown hull (#6B563F) with a black gunport band (#2E2E30), cream furled sails (#EDE7D0), a saturated royal-blue pennant (#2B4FB0). No text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3a6-db12-70dd-ae8c-38290d00427c",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 380901510,
+        "prompt": "Low-poly game asset: an English navy frigate for a top-down strategy game. A long two-masted hull with a raised stern deck and a bowsprit, square-rigged sails furled on their yards, a row of small gunport squares along the hull side. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 2.2 m wide, 6.5 m long, 6.5 m tall. Isolated, no ground, no water, no crew, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790525760163,
+        "progress": 100,
+        "started_at": 1790525760177,
+        "finished_at": 1790525771075,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a6-db12-70dd-ae8c-38290d00427c/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a6-db12-70dd-ae8c-38290d00427c/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T16:16:17.628894+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3a7-298e-725a-9917-2fcc7d566aeb",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 380901510,
+        "prompt": "Low-poly game asset: an English navy frigate for a top-down strategy game. A long two-masted hull with a raised stern deck and a bowsprit, square-rigged sails furled on their yards, a row of small gunport squares along the hull side. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 2.2 m wide, 6.5 m long, 6.5 m tall. Isolated, no ground, no water, no crew, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Oak-brown hull (#6B563F) with a black gunport band (#2E2E30), cream furled sails (#EDE7D0), a saturated royal-blue pennant (#2B4FB0). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790525780258,
+        "progress": 100,
+        "started_at": 1790525780274,
+        "finished_at": 1790525822902,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a7-298e-725a-9917-2fcc7d566aeb/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a7-298e-725a-9917-2fcc7d566aeb/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a7-298e-725a-9917-2fcc7d566aeb/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a7-298e-725a-9917-2fcc7d566aeb/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a7-298e-725a-9917-2fcc7d566aeb/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a7-298e-725a-9917-2fcc7d566aeb/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:17:03.180870+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 114398,
+      "sha256": "247a493676ff3d2bc75847a916863506841d92afccacaeddb511c09f6294db0e"
+    },
+    "model_glb": {
+      "file": "english_frigate_model.glb",
+      "bytes": 6357944,
+      "sha256": "65b035649581357ed0df42937d7255933ae8394d39672fcac1b2579fe1fe36b1"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 136886,
+      "sha256": "540a78fdf9b97e6c39aae10f9a614e221a7897571453b721a21bf750ac44f3e3"
+    },
+    "texture_base_color": {
+      "file": "english_frigate_base_color.png",
+      "bytes": 4533198,
+      "sha256": "a4c9ee07fac4eb2ebcfb1180568e633e911ae6586199e5746d9d9c75b15cdafb"
+    },
+    "texture_metallic": {
+      "file": "english_frigate_metallic.png",
+      "bytes": 264864,
+      "sha256": "3659433d1dc0b79d22181b44e8e6ded256e92324938be1c84d9141165cf32b10"
+    },
+    "texture_roughness": {
+      "file": "english_frigate_roughness.png",
+      "bytes": 1224570,
+      "sha256": "547f0d2e78b2c3f502b4b2ab7e73edf51670e4166629916348b70a6251c8fb57"
+    },
+    "texture_normal": {
+      "file": "english_frigate_normal.png",
+      "bytes": 3533278,
+      "sha256": "e96d00c9b13dcf8e3781f1efa321e3d2c99cea93fd9332a78ed444dbc74d8245"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3650,
+    "lod0": 3500,
+    "lod1": 800,
+    "fittedMetres": [
+      3.364,
+      6.5,
+      5.243
+    ],
+    "teamMaskCoverage": 0.0037
+  }
+}

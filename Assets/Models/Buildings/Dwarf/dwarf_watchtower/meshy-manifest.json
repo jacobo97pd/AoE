@@ -1,0 +1,137 @@
+{
+  "id": "dwarf_watchtower",
+  "entry": {
+    "id": "dwarf_watchtower",
+    "style": "dwarf",
+    "building": "watchtower",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 4.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a dwarf watchtower. One tall, thick, square stone tower, clearly taller than wide, with bronze-capped battlements, arrow slits and a crimson pennant on top."
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        345,
+        360
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43e-5ec8-7203-8e1d-69c83555cddf",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 857693310,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf watchtower. One tall, thick, square stone tower, clearly taller than wide, with bronze-capped battlements, arrow slits and a crimson pennant on top. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267258088,
+        "progress": 100,
+        "started_at": 1790267258096,
+        "finished_at": 1790267265583,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-5ec8-7203-8e1d-69c83555cddf/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-5ec8-7203-8e1d-69c83555cddf/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:27:47.086667+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43e-99ad-77e5-a8e1-b689d4f025be",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 857693310,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf watchtower. One tall, thick, square stone tower, clearly taller than wide, with bronze-capped battlements, arrow slits and a crimson pennant on top. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267267544,
+        "progress": 100,
+        "started_at": 1790267267551,
+        "finished_at": 1790267317588,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-99ad-77e5-a8e1-b689d4f025be/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-99ad-77e5-a8e1-b689d4f025be/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-99ad-77e5-a8e1-b689d4f025be/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-99ad-77e5-a8e1-b689d4f025be/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-99ad-77e5-a8e1-b689d4f025be/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-99ad-77e5-a8e1-b689d4f025be/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:28:38.922418+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_watchtower_model.glb",
+      "bytes": 7108840,
+      "sha256": "63e474ae848deb206b60bb50d4679be45589dbd12f3a2fe064b070c790a3016e"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 78058,
+      "sha256": "5b0efcc7a8f2793d0d505cac8610c64640ea0cd43b6ddd3e4a16dc595d582594"
+    },
+    "texture_base_color": {
+      "file": "dwarf_watchtower_base_color.png",
+      "bytes": 5763451,
+      "sha256": "7669b5eb3276ff1249c08593eab0c9466845f6f9a0987a6219cda9e3b7c010fb"
+    },
+    "texture_metallic": {
+      "file": "dwarf_watchtower_metallic.png",
+      "bytes": 575383,
+      "sha256": "2a7705fede7bff71188af4e5a0590c37f016db7acf640d8f11ef78eb97a4e99e"
+    },
+    "texture_roughness": {
+      "file": "dwarf_watchtower_roughness.png",
+      "bytes": 1269543,
+      "sha256": "6d4c1543822370cce086b55d581365832d9c7ccfbbc4869d841f2ae1f216c3b6"
+    },
+    "texture_normal": {
+      "file": "dwarf_watchtower_normal.png",
+      "bytes": 4698842,
+      "sha256": "210ae271a0b45567bd0d41f991db1ee94a3ac5e8648bc5824cf4366f876ca158"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4808,
+    "triangles": 4808,
+    "fittedMetres": [
+      1.645,
+      1.66,
+      4.0
+    ],
+    "teamMaskCoverage": 0.0276
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "character": "Hero",
+  "source": "Blender Studio Human Base Meshes v1.4.1 / Body Male - Realistic / Dan Ulrich",
+  "license": "CC0",
+  "sourceUrl": "https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip",
+  "sourceSha256": "811f43accbb31a88266d932f8f5563b2d13586fca0ba2693aad1f5fe582b3515",
+  "authoring": "Original tailored wardrobe, equipment and static pose; anatomically complete CC0 base mesh retained for face and hands. No rig or animation is claimed.",
+  "coordinates": "Blender Z-up / front -Y; existing FBX axis_forward Z, axis_up Y. Native Unity integration requires root yaw 180 degrees for final Y-up / front -Z / feet Y0.",
+  "unitScaleMetres": 1,
+  "lods": [
+    {
+      "name": "Hero_LOD0",
+      "vertices": 149757,
+      "triangles": 292168,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "materials": 20,
+      "beforeFbxReimport": {
+        "vertices": 149757,
+        "triangles": 292168,
+        "materials": 20
+      },
+      "countScope": "Actual FBX mesh reimported in Blender; beforeFbxReimport records authoring topology."
+    },
+    {
+      "name": "Hero_LOD1",
+      "vertices": 52575,
+      "triangles": 100000,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "materials": 20,
+      "beforeFbxReimport": {
+        "vertices": 52575,
+        "triangles": 100000,
+        "materials": 20
+      },
+      "countScope": "Actual FBX mesh reimported in Blender; beforeFbxReimport records authoring topology."
+    },
+    {
+      "name": "Hero_LOD2",
+      "vertices": 19735,
+      "triangles": 34829,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "materials": 20,
+      "beforeFbxReimport": {
+        "vertices": 19735,
+        "triangles": 35000,
+        "materials": 20
+      },
+      "countScope": "Actual FBX mesh reimported in Blender; beforeFbxReimport records authoring topology."
+    }
+  ],
+  "materials": [
+    {
+      "name": "Skin",
+      "baseColor": [
+        0.38,
+        0.205,
+        0.125,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.36,
+      "surface": "Skin"
+    },
+    {
+      "name": "SkinLips",
+      "baseColor": [
+        0.32,
+        0.145,
+        0.1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.4,
+      "surface": "Skin"
+    },
+    {
+      "name": "EyeIvory",
+      "baseColor": [
+        0.57,
+        0.53,
+        0.43,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.7,
+      "surface": "EyeIvory"
+    },
+    {
+      "name": "EyeIris",
+      "baseColor": [
+        0.09,
+        0.048,
+        0.017,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.6599999999999999,
+      "surface": "EyeIris"
+    },
+    {
+      "name": "EyePupil",
+      "baseColor": [
+        0.004,
+        0.004,
+        0.003,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.79,
+      "surface": "EyePupil"
+    },
+    {
+      "name": "Steel",
+      "baseColor": [
+        0.22,
+        0.275,
+        0.31,
+        1
+      ],
+      "metallic": 0.82,
+      "smoothness": 0.5800000000000001,
+      "surface": "Steel"
+    },
+    {
+      "name": "SteelDark",
+      "baseColor": [
+        0.095,
+        0.12,
+        0.15,
+        1
+      ],
+      "metallic": 0.72,
+      "smoothness": 0.52,
+      "surface": "SteelDark"
+    },
+    {
+      "name": "Gold",
+      "baseColor": [
+        0.52,
+        0.3,
+        0.075,
+        1
+      ],
+      "metallic": 0.78,
+      "smoothness": 0.6599999999999999,
+      "surface": "Gold"
+    },
+    {
+      "name": "BlueCloth",
+      "baseColor": [
+        0.025,
+        0.095,
+        0.28,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.12,
+      "surface": "BlueCloth"
+    },
+    {
+      "name": "RoyalEmbroidery",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.19999999999999996,
+      "surface": "RoyalEmbroidery",
+      "texture": "Assets/Game/KingdomPremium/Textures/RoyalEmbroidery.png",
+      "textureMultipliesBaseColor": false
+    },
+    {
+      "name": "IvoryCloth",
+      "baseColor": [
+        0.62,
+        0.56,
+        0.43,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.050000000000000044,
+      "surface": "IvoryCloth"
+    },
+    {
+      "name": "Leather",
+      "baseColor": [
+        0.13,
+        0.062,
+        0.024,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.28,
+      "surface": "Leather"
+    },
+    {
+      "name": "LeatherLight",
+      "baseColor": [
+        0.26,
+        0.135,
+        0.054,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.27,
+      "surface": "LeatherLight"
+    },
+    {
+      "name": "Hair",
+      "baseColor": [
+        0.038,
+        0.023,
+        0.015,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.13,
+      "surface": "Hair",
+      "texture": "Assets/Game/KingdomPremium/Characters/Textures/HairGrain.png",
+      "textureMultipliesBaseColor": true
+    },
+    {
+      "name": "HairLight",
+      "baseColor": [
+        0.07,
+        0.038,
+        0.022,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.14,
+      "surface": "HairLight",
+      "texture": "Assets/Game/KingdomPremium/Characters/Textures/HairGrain.png",
+      "textureMultipliesBaseColor": true
+    },
+    {
+      "name": "Wood",
+      "baseColor": [
+        0.24,
+        0.115,
+        0.035,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.14,
+      "surface": "Wood"
+    },
+    {
+      "name": "HairRoyal",
+      "baseColor": [
+        0.066,
+        0.052,
+        0.041,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.09999999999999998,
+      "surface": "HairRoyal",
+      "texture": "Assets/Game/KingdomPremium/Characters/Textures/HairGrain.png",
+      "textureMultipliesBaseColor": true
+    },
+    {
+      "name": "HairSilver",
+      "baseColor": [
+        0.2,
+        0.185,
+        0.16,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.08999999999999997,
+      "surface": "HairSilver",
+      "texture": "Assets/Game/KingdomPremium/Characters/Textures/HairGrain.png",
+      "textureMultipliesBaseColor": true
+    },
+    {
+      "name": "Straw",
+      "baseColor": [
+        0.53,
+        0.32,
+        0.09,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.06000000000000005,
+      "surface": "Straw"
+    },
+    {
+      "name": "StrawLight",
+      "baseColor": [
+        0.68,
+        0.47,
+        0.16,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.06000000000000005,
+      "surface": "StrawLight"
+    },
+    {
+      "name": "Fur",
+      "baseColor": [
+        0.71,
+        0.67,
+        0.56,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.050000000000000044,
+      "surface": "Fur"
+    },
+    {
+      "name": "FurSpot",
+      "baseColor": [
+        0.026,
+        0.023,
+        0.022,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.040000000000000036,
+      "surface": "FurSpot"
+    },
+    {
+      "name": "CapeLining",
+      "baseColor": [
+        0.21,
+        0.028,
+        0.03,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.13,
+      "surface": "CapeLining"
+    }
+  ],
+  "fbxBytes": 12153660,
+  "lodPolicy": {
+    "lod0GlobalDecimation": false,
+    "authoredTrianglesBeforeCleanup": 293198,
+    "visibleLod0AfterCleanup": 292168,
+    "lod0Maximum": 300000,
+    "lod1Target": 100000,
+    "lod2Target": 35000
+  },
+  "unityImport": {
+    "rootYawDegrees": 180,
+    "finalSceneUp": "+Y",
+    "finalSceneForward": "-Z",
+    "groundY": 0,
+    "verification": "Native Unity inspection found the imported characters facing backwards; retain the exporter and apply yaw 180 degrees to each Unity root, as for the environment. Blender axisFront alone does not validate Unity import orientation."
+  },
+  "fbxSha256": "b93a0fcaa7a6a3481ad6a3457cb71020f8b8e2241bb489376ce2c682bcdea234",
+  "fbxReimportValidated": true
+}

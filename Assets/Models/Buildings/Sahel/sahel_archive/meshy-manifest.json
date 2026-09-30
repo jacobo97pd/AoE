@@ -1,0 +1,134 @@
+{
+  "id": "sahel_archive",
+  "entry": {
+    "id": "sahel_archive",
+    "style": "sahel",
+    "building": "archive",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.85,
+    "prompt": "Low-poly game asset for a top-down strategy game: a hall of master smiths and scholars. One square, fully enclosed mud-brick hall with a flat roof and a raised central roof block with small windows, round bronze discs set in the front wall, a clay furnace with a short chimney beside the door and one indigo banner."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d4-249f-72a1-8cce-d01f8b0b235b",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4173959941,
+        "prompt": "Low-poly game asset for a top-down strategy game: a hall of master smiths and scholars. One square, fully enclosed mud-brick hall with a flat roof and a raised central roof block with small windows, round bronze discs set in the front wall, a clay furnace with a short chimney beside the door and one indigo banner. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528728545,
+        "progress": 100,
+        "started_at": 1790528728551,
+        "finished_at": 1790528739635,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-249f-72a1-8cce-d01f8b0b235b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-249f-72a1-8cce-d01f8b0b235b/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:05:46.067972+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d4-73d6-765a-b371-c7b640db7de2",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4173959941,
+        "prompt": "Low-poly game asset for a top-down strategy game: a hall of master smiths and scholars. One square, fully enclosed mud-brick hall with a flat roof and a raised central roof block with small windows, round bronze discs set in the front wall, a clay furnace with a short chimney beside the door and one indigo banner. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528746494,
+        "progress": 100,
+        "started_at": 1790528746506,
+        "finished_at": 1790528797816,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-73d6-765a-b371-c7b640db7de2/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-73d6-765a-b371-c7b640db7de2/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-73d6-765a-b371-c7b640db7de2/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-73d6-765a-b371-c7b640db7de2/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-73d6-765a-b371-c7b640db7de2/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-73d6-765a-b371-c7b640db7de2/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:06:46.355124+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_archive_model.glb",
+      "bytes": 5871796,
+      "sha256": "bd8f7073a29983fac7a296ef2c619867acd4d0b6af5af309283d666f2cdcf55e"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 204671,
+      "sha256": "7915b8f14c5c27c83f763b5cf2f307c1c054e23bb6045cc096e690e470aa45c9"
+    },
+    "texture_base_color": {
+      "file": "sahel_archive_base_color.png",
+      "bytes": 5741316,
+      "sha256": "0c084e56aa12f51a51c058279caa977edd43621ba8b7ddfcf9944da492fb7646"
+    },
+    "texture_metallic": {
+      "file": "sahel_archive_metallic.png",
+      "bytes": 18822,
+      "sha256": "0236b64c03dec426ba8b79bb233cbcef26fd1e734ec338a11c9553b59d7d0031"
+    },
+    "texture_roughness": {
+      "file": "sahel_archive_roughness.png",
+      "bytes": 1301284,
+      "sha256": "01d007a0ddd54ed2549a5b26daf83e47cabf71a79fe2c1acdf5c46feb6886935"
+    },
+    "texture_normal": {
+      "file": "sahel_archive_normal.png",
+      "bytes": 3852766,
+      "sha256": "f75bfcfe785ceaad4534256f64df5a0dd16fdc0ec550ef564112e4ce6fd74401"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 5176,
+    "triangles": 5176,
+    "fittedMetres": [
+      2.88,
+      2.273,
+      2.059
+    ],
+    "teamMaskCoverage": 0.0282
+  }
+}

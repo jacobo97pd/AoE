@@ -1,0 +1,133 @@
+{
+  "id": "elf_beast_lodge",
+  "entry": {
+    "id": "elf_beast_lodge",
+    "style": "elf",
+    "building": "beast_lodge",
+    "footprint": [
+      4,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: an elven stag stable. One long, wide, low open pavilion of curved living wood, wider than tall, with a sweeping leaf-shaped roof, two open arched bays on the long side, a trough and one blue banner."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d440-d8cc-7361-86e2-a300f7af7eda",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4106716703,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven stag stable. One long, wide, low open pavilion of curved living wood, wider than tall, with a sweeping leaf-shaped roof, two open arched bays on the long side, a trough and one blue banner. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267417921,
+        "progress": 100,
+        "started_at": 1790267417929,
+        "finished_at": 1790267429736,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-d8cc-7361-86e2-a300f7af7eda/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-d8cc-7361-86e2-a300f7af7eda/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:30:35.388840+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d441-2b24-76a9-a54f-926326969343",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4106716703,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven stag stable. One long, wide, low open pavilion of curved living wood, wider than tall, with a sweeping leaf-shaped roof, two open arched bays on the long side, a trough and one blue banner. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267435859,
+        "progress": 100,
+        "started_at": 1790267435870,
+        "finished_at": 1790267506842,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-2b24-76a9-a54f-926326969343/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-2b24-76a9-a54f-926326969343/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-2b24-76a9-a54f-926326969343/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-2b24-76a9-a54f-926326969343/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-2b24-76a9-a54f-926326969343/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-2b24-76a9-a54f-926326969343/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:31:52.691954+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_beast_lodge_model.glb",
+      "bytes": 7560748,
+      "sha256": "4da5ac5558a9171f78e81f8a7ecc9c987ed73fed7d1f1de4bfd95a57aeab0ce4"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 198188,
+      "sha256": "86be234a1c8a3dde4a02925b307a6b52d23924fbaf589901fd1c3d8af3d8190a"
+    },
+    "texture_base_color": {
+      "file": "elf_beast_lodge_base_color.png",
+      "bytes": 5880025,
+      "sha256": "96dc909ce338313548bc106d3f65343364940203daefa178bb75376a3b1d3ee6"
+    },
+    "texture_metallic": {
+      "file": "elf_beast_lodge_metallic.png",
+      "bytes": 25437,
+      "sha256": "d7822191fada6be05035232cb641516df3c4de52ada91d70a97b86ccc8012b59"
+    },
+    "texture_roughness": {
+      "file": "elf_beast_lodge_roughness.png",
+      "bytes": 1496343,
+      "sha256": "02d25bcf8a8789f8b6060bc202fd72011e4b48e6a8da01d7756b01652a94b050"
+    },
+    "texture_normal": {
+      "file": "elf_beast_lodge_normal.png",
+      "bytes": 4800414,
+      "sha256": "fccdff5dd08f4b924a79601aad9c78d672ce6b39b1e75fb56f3193ca942c7fcb"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4866,
+    "triangles": 4866,
+    "fittedMetres": [
+      2.812,
+      2.88,
+      1.755
+    ],
+    "teamMaskCoverage": 0.0022
+  }
+}

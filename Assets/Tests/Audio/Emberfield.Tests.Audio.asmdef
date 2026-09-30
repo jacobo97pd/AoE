@@ -1,0 +1,8 @@
+{
+  "name": "Emberfield.Tests.Audio",
+  "rootNamespace": "Emberfield.Tests.Audio",
+  "references": ["Emberfield.Editor", "Emberfield.Presentation", "Emberfield.Simulation"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

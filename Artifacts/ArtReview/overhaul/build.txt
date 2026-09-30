@@ -1,0 +1,6 @@
+Result: Succeeded
+Errors: 0
+Warnings: 2
+Bytes: 322482123
+Duration: 00:00:18.3408564
+Scenes: Assets/Game/Scenes/ArtOverhaul_Kingdom.unity, Assets/Game/Scenes/ArtOverhaul_Caribbean.unity, Assets/Game/Scenes/ArtOverhaul_Desert.unity, Assets/Game/Scenes/ArtOverhaul_Fantasy.unity

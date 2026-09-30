@@ -1,0 +1,252 @@
+{
+    "SourceVersion": "emberfield-original-faceted-v1",
+    "Provenance": "Original geometry and palettes authored in ArtKitGeometry.cs for Emberfield; no external meshes, textures, reference-image tracing or generative bitmap assets.",
+    "RecipeSha256": "e6c0ad5dd5451c847d4ed2a1a4fdd4a53bc991275a8e6cc04d85bcea7f5dbe5a",
+    "Shader": "Emberfield/Faceted Team",
+    "SharedMaterials": 1,
+    "SharedMeshes": 22,
+    "Assets": [
+        {
+            "Category": "unit",
+            "Id": "tender",
+            "Lod0Path": "Assets/Game/Resources/Art/unit_tender_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/unit_tender_lod1.asset",
+            "Lod0Triangles": 252,
+            "Lod1Triangles": 188,
+            "Lod0VertexCount": 756,
+            "Lod1VertexCount": 564,
+            "Lod0TriangleBudget": 1500,
+            "Lod1TriangleBudget": 900,
+            "BoundsMin": {
+                "x": -0.4515824615955353,
+                "y": 0.009999990463256836,
+                "z": -0.46000000834465029
+            },
+            "BoundsMax": {
+                "x": 0.6649999618530273,
+                "y": 1.649999976158142,
+                "z": 0.2800000011920929
+            }
+        },
+        {
+            "Category": "unit",
+            "Id": "reedguard",
+            "Lod0Path": "Assets/Game/Resources/Art/unit_reedguard_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/unit_reedguard_lod1.asset",
+            "Lod0Triangles": 248,
+            "Lod1Triangles": 172,
+            "Lod0VertexCount": 744,
+            "Lod1VertexCount": 516,
+            "Lod0TriangleBudget": 1500,
+            "Lod1TriangleBudget": 900,
+            "BoundsMin": {
+                "x": -0.5499999523162842,
+                "y": 0.009999990463256836,
+                "z": -0.2199999839067459
+            },
+            "BoundsMax": {
+                "x": 0.5007107257843018,
+                "y": 2.140000104904175,
+                "z": 0.3050000071525574
+            }
+        },
+        {
+            "Category": "unit",
+            "Id": "stringwarden",
+            "Lod0Path": "Assets/Game/Resources/Art/unit_stringwarden_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/unit_stringwarden_lod1.asset",
+            "Lod0Triangles": 300,
+            "Lod1Triangles": 176,
+            "Lod0VertexCount": 900,
+            "Lod1VertexCount": 528,
+            "Lod0TriangleBudget": 1500,
+            "Lod1TriangleBudget": 900,
+            "BoundsMin": {
+                "x": -0.5673980712890625,
+                "y": 0.009999990463256836,
+                "z": -0.375
+            },
+            "BoundsMax": {
+                "x": 0.5673980712890625,
+                "y": 1.649999976158142,
+                "z": 0.6899272203445435
+            }
+        },
+        {
+            "Category": "unit",
+            "Id": "strider",
+            "Lod0Path": "Assets/Game/Resources/Art/unit_strider_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/unit_strider_lod1.asset",
+            "Lod0Triangles": 360,
+            "Lod1Triangles": 280,
+            "Lod0VertexCount": 1080,
+            "Lod1VertexCount": 840,
+            "Lod0TriangleBudget": 1500,
+            "Lod1TriangleBudget": 900,
+            "BoundsMin": {
+                "x": -0.49971550703048708,
+                "y": 0.009999990463256836,
+                "z": -0.8683215379714966
+            },
+            "BoundsMax": {
+                "x": 0.5350000262260437,
+                "y": 2.1649999618530275,
+                "z": 1.1885298490524293
+            }
+        },
+        {
+            "Category": "building",
+            "Id": "hearth",
+            "Lod0Path": "Assets/Game/Resources/Art/building_hearth_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/building_hearth_lod1.asset",
+            "Lod0Triangles": 176,
+            "Lod1Triangles": 104,
+            "Lod0VertexCount": 528,
+            "Lod1VertexCount": 312,
+            "Lod0TriangleBudget": 2000,
+            "Lod1TriangleBudget": 1000,
+            "BoundsMin": {
+                "x": -0.47999998927116396,
+                "y": 0.0,
+                "z": -0.4950000047683716
+            },
+            "BoundsMax": {
+                "x": 0.47999998927116396,
+                "y": 2.205000162124634,
+                "z": 0.48500001430511477
+            }
+        },
+        {
+            "Category": "building",
+            "Id": "shelter",
+            "Lod0Path": "Assets/Game/Resources/Art/building_shelter_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/building_shelter_lod1.asset",
+            "Lod0Triangles": 100,
+            "Lod1Triangles": 64,
+            "Lod0VertexCount": 300,
+            "Lod1VertexCount": 192,
+            "Lod0TriangleBudget": 2000,
+            "Lod1TriangleBudget": 1000,
+            "BoundsMin": {
+                "x": -0.47999998927116396,
+                "y": 0.0,
+                "z": -0.48000001907348635
+            },
+            "BoundsMax": {
+                "x": 0.47999998927116396,
+                "y": 1.7350000143051148,
+                "z": 0.4950000047683716
+            }
+        },
+        {
+            "Category": "building",
+            "Id": "muster_hall",
+            "Lod0Path": "Assets/Game/Resources/Art/building_muster_hall_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/building_muster_hall_lod1.asset",
+            "Lod0Triangles": 196,
+            "Lod1Triangles": 112,
+            "Lod0VertexCount": 588,
+            "Lod1VertexCount": 336,
+            "Lod0TriangleBudget": 2000,
+            "Lod1TriangleBudget": 1000,
+            "BoundsMin": {
+                "x": -0.47999998927116396,
+                "y": 0.0,
+                "z": -0.48500001430511477
+            },
+            "BoundsMax": {
+                "x": 0.47999998927116396,
+                "y": 1.8399999141693116,
+                "z": 0.48000001907348635
+            }
+        },
+        {
+            "Category": "resource",
+            "Id": "Food",
+            "Lod0Path": "Assets/Game/Resources/Art/resource_Food_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/resource_Food_lod1.asset",
+            "Lod0Triangles": 336,
+            "Lod1Triangles": 124,
+            "Lod0VertexCount": 1008,
+            "Lod1VertexCount": 372,
+            "Lod0TriangleBudget": 1000,
+            "Lod1TriangleBudget": 500,
+            "BoundsMin": {
+                "x": -0.5849999785423279,
+                "y": 0.0,
+                "z": -0.550000011920929
+            },
+            "BoundsMax": {
+                "x": 0.5849999785423279,
+                "y": 0.6349999904632568,
+                "z": 0.550000011920929
+            }
+        },
+        {
+            "Category": "resource",
+            "Id": "Wood",
+            "Lod0Path": "Assets/Game/Resources/Art/resource_Wood_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/resource_Wood_lod1.asset",
+            "Lod0Triangles": 84,
+            "Lod1Triangles": 48,
+            "Lod0VertexCount": 252,
+            "Lod1VertexCount": 144,
+            "Lod0TriangleBudget": 1000,
+            "Lod1TriangleBudget": 500,
+            "BoundsMin": {
+                "x": -0.55425626039505,
+                "y": 0.0,
+                "z": -0.5299999713897705
+            },
+            "BoundsMax": {
+                "x": 0.5542563796043396,
+                "y": 2.430000066757202,
+                "z": 0.5299999713897705
+            }
+        },
+        {
+            "Category": "resource",
+            "Id": "Metal",
+            "Lod0Path": "Assets/Game/Resources/Art/resource_Metal_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/resource_Metal_lod1.asset",
+            "Lod0Triangles": 192,
+            "Lod1Triangles": 80,
+            "Lod0VertexCount": 576,
+            "Lod1VertexCount": 240,
+            "Lod0TriangleBudget": 1000,
+            "Lod1TriangleBudget": 500,
+            "BoundsMin": {
+                "x": -0.48810887336730959,
+                "y": 0.0,
+                "z": -0.5607999563217163
+            },
+            "BoundsMax": {
+                "x": 0.5488269329071045,
+                "y": 0.8899999856948853,
+                "z": 0.4886000156402588
+            }
+        },
+        {
+            "Category": "resource",
+            "Id": "Stone",
+            "Lod0Path": "Assets/Game/Resources/Art/resource_Stone_lod0.asset",
+            "Lod1Path": "Assets/Game/Resources/Art/resource_Stone_lod1.asset",
+            "Lod0Triangles": 144,
+            "Lod1Triangles": 64,
+            "Lod0VertexCount": 432,
+            "Lod1VertexCount": 192,
+            "Lod0TriangleBudget": 1000,
+            "Lod1TriangleBudget": 500,
+            "BoundsMin": {
+                "x": -0.48810887336730959,
+                "y": 0.0,
+                "z": -0.5607999563217163
+            },
+            "BoundsMax": {
+                "x": 0.5488269329071045,
+                "y": 0.699999988079071,
+                "z": 0.4886000156402588
+            }
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "mountain_rider",
+  "entry": {
+    "id": "mountain_rider",
+    "name": "Jinete montañés",
+    "culture": "mountain",
+    "factions": [
+      "skeld"
+    ],
+    "unit": "strider",
+    "height": 2.1,
+    "gameHeight": 2.8,
+    "teamHues": [
+      [
+        200,
+        250
+      ]
+    ],
+    "teamSaturation": 0.14,
+    "prompt": "Low-poly game asset for a top-down strategy game: a bearded mountain clansman riding a stocky shaggy pony, a heavy fur cloak, a woad blue tunic, a long axe held upright, the pony thick-maned with feathered hooves and a blue saddle blanket. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Pony coat dun brown (#8A6A48) with a dark mane (#3E2E22). Furs cream and grey (#CFC5AE). Tunic and blanket woad blue (#2F4E9C). Leather dark brown (#4A3526). No text or logos.",
+    "role": "melee",
+    "rig": "quadruped"
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d480-5ff3-7799-8ccc-39712073c818",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 648342763,
+        "prompt": "Low-poly game asset for a top-down strategy game: a bearded mountain clansman riding a stocky shaggy pony, a heavy fur cloak, a woad blue tunic, a long axe held upright, the pony thick-maned with feathered hooves and a blue saddle blanket. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271580340,
+        "progress": 100,
+        "started_at": 1790271580350,
+        "finished_at": 1790271590160,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-5ff3-7799-8ccc-39712073c818/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-5ff3-7799-8ccc-39712073c818/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d480-aed0-7599-b69c-6f3557efe0c2",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 648342763,
+        "prompt": "Low-poly game asset for a top-down strategy game: a bearded mountain clansman riding a stocky shaggy pony, a heavy fur cloak, a woad blue tunic, a long axe held upright, the pony thick-maned with feathered hooves and a blue saddle blanket. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Pony coat dun brown (#8A6A48) with a dark mane (#3E2E22). Furs cream and grey (#CFC5AE). Tunic and blanket woad blue (#2F4E9C). Leather dark brown (#4A3526). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271600276,
+        "progress": 100,
+        "started_at": 1790271600284,
+        "finished_at": 1790271676512,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-aed0-7599-b69c-6f3557efe0c2/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-aed0-7599-b69c-6f3557efe0c2/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-aed0-7599-b69c-6f3557efe0c2/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-aed0-7599-b69c-6f3557efe0c2/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-aed0-7599-b69c-6f3557efe0c2/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-aed0-7599-b69c-6f3557efe0c2/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:41:17.161043+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "mountain_rider_model.glb",
+      "bytes": 5235440,
+      "sha256": "7d0ecd171448f6a66ed50468050e7c702af187c0d667d91ec7c2f3371ec91c1c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 99206,
+      "sha256": "bc17d44fd8cbf88dc3de9524e4c12732f804d14cbe117e1070b56681932ee84f"
+    },
+    "texture_base_color": {
+      "file": "mountain_rider_base_color.png",
+      "bytes": 4076044,
+      "sha256": "3a0ed572cd98ce71b9b0695a92dc390195340162cb8dab7caf1ed449f5d110d1"
+    },
+    "texture_metallic": {
+      "file": "mountain_rider_metallic.png",
+      "bytes": 98028,
+      "sha256": "c101e3c44387d9246e52c38044c4e4ab29b8c16e38dd759b6fe6710a152788d2"
+    },
+    "texture_roughness": {
+      "file": "mountain_rider_roughness.png",
+      "bytes": 1103325,
+      "sha256": "eb51b3b3f9cd6f1236bb3ec1c153d6a2945e52d9ddcbcccf40560d8eed0160c9"
+    },
+    "texture_normal": {
+      "file": "mountain_rider_normal.png",
+      "bytes": 2980629,
+      "sha256": "34438ffa3eb24d13135b38db4e3fdb8e6cef3d2a7de3d03d23af3b38267eb89f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5149,
+    "bones": 50,
+    "heightMetres": 0.928,
+    "walkMetresPerSecond": 0.29,
+    "runMetresPerSecond": 1.714,
+    "scale": [
+      10.425,
+      5.934,
+      7.103
+    ],
+    "riderVertices": 1592,
+    "donorBack": 2.864,
+    "saddle": 1.0,
+    "bellies": [
+      0.229,
+      0.382
+    ],
+    "pinned": {
+      "muzzle": [
+        -0.016,
+        -0.431,
+        -0.104
+      ]
+    },
+    "tailVertices": 182,
+    "thinnedVertices": 147,
+    "legThickness": 0.0464,
+    "tailFit": {
+      "turn": 34.6,
+      "stretch": 1.5
+    },
+    "fusedLegs": [
+      "Front"
+    ],
+    "settled": {
+      "Walk": 0.02
+    },
+    "teamMaskCoverage": 0.2731,
+    "rig": "transplanted from the Quaternius Donkey (CC0) by tools/art/transplant_rig.py"
+  }
+}

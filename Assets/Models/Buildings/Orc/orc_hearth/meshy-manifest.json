@@ -1,0 +1,137 @@
+{
+  "id": "orc_hearth",
+  "entry": {
+    "id": "orc_hearth",
+    "style": "orc",
+    "building": "hearth",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: the war chief's hall of an orc camp. One big, crude, fully enclosed hall of rough logs and stretched hides, clearly the biggest building, with a tall spiked roof ridge, a huge horned skull over the door and two red rag banners on spiked poles."
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        350,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d437-4c69-7515-a626-777a6128014a",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1803226515,
+        "prompt": "Low-poly game asset for a top-down strategy game: the war chief's hall of an orc camp. One big, crude, fully enclosed hall of rough logs and stretched hides, clearly the biggest building, with a tall spiked roof ridge, a huge horned skull over the door and two red rag banners on spiked poles. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266792447,
+        "progress": 100,
+        "started_at": 1790266792454,
+        "finished_at": 1790266802957,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c69-7515-a626-777a6128014a/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c69-7515-a626-777a6128014a/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:20:09.912047+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d437-9fed-7443-bbcb-5ea8ee6e56c2",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1803226515,
+        "prompt": "Low-poly game asset for a top-down strategy game: the war chief's hall of an orc camp. One big, crude, fully enclosed hall of rough logs and stretched hides, clearly the biggest building, with a tall spiked roof ridge, a huge horned skull over the door and two red rag banners on spiked poles. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266812532,
+        "progress": 100,
+        "started_at": 1790266812539,
+        "finished_at": 1790266863904,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9fed-7443-bbcb-5ea8ee6e56c2/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9fed-7443-bbcb-5ea8ee6e56c2/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9fed-7443-bbcb-5ea8ee6e56c2/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9fed-7443-bbcb-5ea8ee6e56c2/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9fed-7443-bbcb-5ea8ee6e56c2/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9fed-7443-bbcb-5ea8ee6e56c2/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:21:12.395356+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_hearth_model.glb",
+      "bytes": 5372196,
+      "sha256": "3067ff9a477e4da402a0ed8cb32d1d0730eab934e8bf4918c5679fe2d638a35e"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 192926,
+      "sha256": "66f83e7b8dfd4e01450fa9c068308c0d60d5b89ba26e1943c462f12203383ec2"
+    },
+    "texture_base_color": {
+      "file": "orc_hearth_base_color.png",
+      "bytes": 4649163,
+      "sha256": "726e1f578902bec18304044841a5188c7f3815a4b0f995ca49b43e53ac73a7db"
+    },
+    "texture_metallic": {
+      "file": "orc_hearth_metallic.png",
+      "bytes": 23446,
+      "sha256": "15719a1f288c8ef379f700db53857cb23d76373970a872202dab4ae90bf8ee6e"
+    },
+    "texture_roughness": {
+      "file": "orc_hearth_roughness.png",
+      "bytes": 1366887,
+      "sha256": "fa76f386b7b1807c8c8326dac0ee0d31d0bc358cc948dce8d7417b040da53362"
+    },
+    "texture_normal": {
+      "file": "orc_hearth_normal.png",
+      "bytes": 3205243,
+      "sha256": "4d90c12d2e3c07d86fd85ed3bb99be114e8c888b2a0723d7d9e045253eb0fb5f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4776,
+    "triangles": 4776,
+    "fittedMetres": [
+      3.84,
+      3.81,
+      2.878
+    ],
+    "teamMaskCoverage": 0.1651
+  }
+}

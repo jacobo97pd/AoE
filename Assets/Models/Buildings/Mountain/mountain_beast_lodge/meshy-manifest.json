@@ -1,0 +1,133 @@
+{
+  "id": "mountain_beast_lodge",
+  "entry": {
+    "id": "mountain_beast_lodge",
+    "style": "mountain",
+    "building": "beast_lodge",
+    "footprint": [
+      4,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a mountain pony stable. One long, wide, low log barn, wider than tall, with a steep turf roof, two open stall doorways on the long side, a hay loft door and a wooden hitching rail, one blue banner."
+  },
+  "style": {
+    "factions": [
+      "skeld"
+    ],
+    "suffix": "Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        200,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d441-3e44-7601-9c05-bc9e09e250f4",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3217320266,
+        "prompt": "Low-poly game asset for a top-down strategy game: a mountain pony stable. One long, wide, low log barn, wider than tall, with a steep turf roof, two open stall doorways on the long side, a hay loft door and a wooden hitching rail, one blue banner. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267447500,
+        "progress": 100,
+        "started_at": 1790267447506,
+        "finished_at": 1790267460016,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-3e44-7601-9c05-bc9e09e250f4/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-3e44-7601-9c05-bc9e09e250f4/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:31:04.975106+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d441-9ebb-7643-98e2-2322105ffd1c",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3217320266,
+        "prompt": "Low-poly game asset for a top-down strategy game: a mountain pony stable. One long, wide, low log barn, wider than tall, with a steep turf roof, two open stall doorways on the long side, a hay loft door and a wooden hitching rail, one blue banner. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267465447,
+        "progress": 100,
+        "started_at": 1790267465455,
+        "finished_at": 1790267543568,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-9ebb-7643-98e2-2322105ffd1c/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-9ebb-7643-98e2-2322105ffd1c/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-9ebb-7643-98e2-2322105ffd1c/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-9ebb-7643-98e2-2322105ffd1c/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-9ebb-7643-98e2-2322105ffd1c/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-9ebb-7643-98e2-2322105ffd1c/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:32:30.765615+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "mountain_beast_lodge_model.glb",
+      "bytes": 6616188,
+      "sha256": "90a08665b75d86126e7cd1d0da63c7e69317405ff8d4e87562717670ae3743e2"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 205743,
+      "sha256": "227ecee24286db8a452c79933f675dbf96c5dc5f44523543efca1e21d6c97257"
+    },
+    "texture_base_color": {
+      "file": "mountain_beast_lodge_base_color.png",
+      "bytes": 5842988,
+      "sha256": "65cacd436eac1286641b6095c1e2557ab86dbc071af6aca5572835fc7b213b57"
+    },
+    "texture_metallic": {
+      "file": "mountain_beast_lodge_metallic.png",
+      "bytes": 19605,
+      "sha256": "28469b89fff815ccc582de6d7a78ec47cc77eaa7a97566950c708612a94fadc7"
+    },
+    "texture_roughness": {
+      "file": "mountain_beast_lodge_roughness.png",
+      "bytes": 1505207,
+      "sha256": "92e7a15a989c55d48b9c535adc09d7188e2729b3d05e131f99ada42d5e3227d3"
+    },
+    "texture_normal": {
+      "file": "mountain_beast_lodge_normal.png",
+      "bytes": 4273687,
+      "sha256": "33cbe153b68707537dbf6599a221407180702105e0cd4c868c708f6761ce7bd4"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4738,
+    "triangles": 4738,
+    "fittedMetres": [
+      2.88,
+      2.88,
+      1.862
+    ],
+    "teamMaskCoverage": 0.1312
+  }
+}

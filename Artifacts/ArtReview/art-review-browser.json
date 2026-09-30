@@ -1,0 +1,428 @@
+{
+  "schema": 1,
+  "scope": "Offline gallery browser behavior, image loading, local documentation links and responsive layout. No art acceptance or Unity/mobile performance result.",
+  "startedUtc": "2026-09-10T17:06:05.344Z",
+  "page": "C:\\Users\\jacob\\Documents\\AoE\\Artifacts\\ArtReview\\index.html",
+  "checks": [
+    {
+      "name": "Gallery initializes from a local file with networking disabled",
+      "passed": true
+    },
+    {
+      "name": "Every manifest image loads offline at its declared dimensions",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "images": [
+          {
+            "key": "rts",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "mid",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "close",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "comparison",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "gather",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "attack",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "reference-worker",
+            "width": 1122,
+            "height": 1402,
+            "passed": true
+          },
+          {
+            "key": "reference-warrior",
+            "width": 1122,
+            "height": 1402,
+            "passed": true
+          },
+          {
+            "key": "player-rts",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "player-mid",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "player-close",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "player-controls",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "player-gather",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "player-walk",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "player-attack",
+            "width": 1920,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "player-controls-phone",
+            "width": 1280,
+            "height": 720,
+            "passed": true
+          },
+          {
+            "key": "player-controls-tablet",
+            "width": 1440,
+            "height": 1080,
+            "passed": true
+          },
+          {
+            "key": "rts-phone",
+            "width": 1280,
+            "height": 720,
+            "passed": true
+          },
+          {
+            "key": "rts-tablet",
+            "width": 1440,
+            "height": 1080,
+            "passed": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visible page images decode offline",
+      "passed": true
+    },
+    {
+      "name": "Camera tab selects close",
+      "passed": true
+    },
+    {
+      "name": "Camera tab selects mid",
+      "passed": true
+    },
+    {
+      "name": "Camera tab selects rts",
+      "passed": true
+    },
+    {
+      "name": "Camera tab selects comparison",
+      "passed": true
+    },
+    {
+      "name": "Concept comparison selects reference-warrior",
+      "passed": true
+    },
+    {
+      "name": "Concept comparison selects reference-worker",
+      "passed": true
+    },
+    {
+      "name": "Concept opens in enlarged viewer",
+      "passed": true
+    },
+    {
+      "name": "Viewer next button changes the image",
+      "passed": true
+    },
+    {
+      "name": "Viewer previous button restores the image",
+      "passed": true
+    },
+    {
+      "name": "Keyboard right arrow advances the viewer",
+      "passed": true
+    },
+    {
+      "name": "Keyboard left arrow restores the viewer",
+      "passed": true
+    },
+    {
+      "name": "Escape closes the enlarged viewer",
+      "passed": true
+    },
+    {
+      "name": "Close button dismisses enlarged render",
+      "passed": true
+    },
+    {
+      "name": "All local documentation and report links exist",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "links": [
+          {
+            "name": "Auditoría de la alfa",
+            "url": "file:///C:/Users/jacob/Documents/AoE/docs/art/current-art-audit.md",
+            "passed": true
+          },
+          {
+            "name": "Análisis de las 13 referencias",
+            "url": "file:///C:/Users/jacob/Documents/AoE/docs/art/REFERENCE_IMAGE_ANALYSIS.md",
+            "passed": true
+          },
+          {
+            "name": "Objetivo de estilo y aceptación",
+            "url": "file:///C:/Users/jacob/Documents/AoE/docs/art/ART_STYLE_TARGET.md",
+            "passed": true
+          },
+          {
+            "name": "Entrega y límites del checkpoint 2",
+            "url": "file:///C:/Users/jacob/Documents/AoE/docs/art/ART_STYLE_CHECKPOINT_2.md",
+            "passed": true
+          },
+          {
+            "name": "Tamaño proyectado en píxeles",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/readability.json",
+            "passed": true
+          },
+          {
+            "name": "Resumen de verificación",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/verification.json",
+            "passed": true
+          },
+          {
+            "name": "Resultados NUnit",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/art-style-tests.xml",
+            "passed": true
+          },
+          {
+            "name": "Recorrido del player a 720p",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-phone-review.json",
+            "passed": true
+          },
+          {
+            "name": "Recorrido del player en 4:3",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-tablet-review.json",
+            "passed": true
+          },
+          {
+            "name": "Informe de assets · JSON",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/asset-validation.json",
+            "passed": true
+          },
+          {
+            "name": "Notas de esta revisión",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/README.md",
+            "passed": true
+          },
+          {
+            "name": "Informe del ejecutable · JSON",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-review.json",
+            "passed": true
+          },
+          {
+            "name": "Resultado de compilación",
+            "url": "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/build.txt",
+            "passed": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop page has no horizontal overflow",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "width": 1425,
+        "innerWidth": 1440,
+        "scrollWidth": 1425,
+        "documentHeight": 8071
+      }
+    },
+    {
+      "name": "desktop enlarged viewer fits the viewport",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "width": 1389,
+        "height": 851,
+        "scrollWidth": 1387,
+        "clientWidth": 1387
+      }
+    },
+    {
+      "name": "tablet page has no horizontal overflow",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "width": 1024,
+        "innerWidth": 1024,
+        "scrollWidth": 1024,
+        "documentHeight": 7355
+      }
+    },
+    {
+      "name": "tablet enlarged viewer fits the viewport",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "width": 988,
+        "height": 1107.1875,
+        "scrollWidth": 986,
+        "clientWidth": 986
+      }
+    },
+    {
+      "name": "phone page has no horizontal overflow",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "width": 390,
+        "innerWidth": 390,
+        "scrollWidth": 390,
+        "documentHeight": 10573
+      }
+    },
+    {
+      "name": "phone enlarged viewer fits the viewport",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "width": 354,
+        "height": 709.90625,
+        "scrollWidth": 352,
+        "clientWidth": 352
+      }
+    },
+    {
+      "name": "Gallery does not request remote resources",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "remote": []
+      }
+    },
+    {
+      "name": "No JavaScript runtime exceptions",
+      "passed": true
+    },
+    {
+      "name": "Gallery source stayed unchanged throughout this browser check",
+      "passed": true
+    }
+  ],
+  "browserErrors": [],
+  "networkRequests": [
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/index.html",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/rts.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/references/worker-reference.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/close.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/gather.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/attack.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-rts.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-mid.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-close.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-controls.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-gather.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-walk.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-attack.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-controls-phone.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/player-controls-tablet.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/rts-phone.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/rts-tablet.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/mid.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/comparison.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/references/warrior-reference.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/mid.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/rts.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/comparison.png",
+    "file:///C:/Users/jacob/Documents/AoE/Artifacts/ArtReview/references/warrior-reference.png"
+  ],
+  "screenshots": [
+    "art-review-browser-desktop.png",
+    "art-review-browser-tablet.png",
+    "art-review-browser-phone.png"
+  ],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1425,
+      "height": 1000,
+      "mobile": false,
+      "passed": true,
+      "innerWidth": 1440,
+      "scrollWidth": 1425,
+      "documentHeight": 8071
+    },
+    {
+      "name": "tablet",
+      "width": 1024,
+      "height": 1366,
+      "mobile": true,
+      "passed": true,
+      "innerWidth": 1024,
+      "scrollWidth": 1024,
+      "documentHeight": 7355
+    },
+    {
+      "name": "phone",
+      "width": 390,
+      "height": 844,
+      "mobile": true,
+      "passed": true,
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "documentHeight": 10573
+    }
+  ],
+  "passed": true,
+  "pageSha256": "365260bd239e8437107940910b803b2d0ef1ebed18f379effc4b883971ae9343",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/152.0.7977.76",
+    "revision": "@0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+    "jsVersion": "15.2.124.19"
+  },
+  "loadedEvidence": {
+    "galleryImageCount": 19,
+    "assetValidationPassed": true,
+    "assetReportGeneratedUtc": "2026-09-10T17:00:57.3004249Z",
+    "playerReportPresent": true,
+    "galleryWarnings": []
+  },
+  "completedUtc": "2026-09-10T17:06:09.152Z"
+}

@@ -1,0 +1,756 @@
+{
+  "id": "mountain_gate",
+  "entry": {
+    "id": "mountain_gate",
+    "style": "mountain",
+    "building": "gate",
+    "footprint": [
+      2,
+      1
+    ],
+    "height": 3.7,
+    "fit": "stretch",
+    "triangles": 3000,
+    "base": "mountain_fortifications"
+  },
+  "style": {
+    "factions": [
+      "skeld"
+    ],
+    "suffix": "Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        200,
+        250
+      ],
+      [
+        50,
+        95
+      ]
+    ],
+    "teamSaturation": 0.2,
+    "teamWeight": 0.65
+  },
+  "steps": {
+    "retexture": {
+      "task": {
+        "id": "01a0d616-c76f-706d-a5a6-4b4e971bcf23",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Lower wall and footings: cool grey rounded fieldstones (#8C8A82) with dark mortar. Upright logs, posts and beams: weathered dark brown timber (#5E4632) with paler cut ends (#8A6E4E). Walkway planks and crossed beam ends: carved paler timber (#8A6E4E). Round shields: bright saturated woad blue paint (#2F4E9C) over the whole face, dark iron boss (#2E2E30). No text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790298212964,
+        "progress": 100,
+        "started_at": 1790298212971,
+        "finished_at": 1790298254960,
+        "expires_at": 1790557454960,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c76f-706d-a5a6-4b4e971bcf23/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "mountain_fortifications",
+      "paidBy": "mountain_wall",
+      "finished_utc": "2026-09-25T01:04:15.902628+00:00",
+      "credits": 0
+    }
+  },
+  "files": {},
+  "credits": 5,
+  "rejectedPreviews": [
+    {
+      "task": "01a0d5f3-f08c-70d1-bd66-4c909d59a11f",
+      "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan gateway of rough grey fieldstone under a carved timber lintel: one modular gateway piece, an upright slab nearly twice as tall as wide and a third as thick, like a slice cut from a long wall, both ends cut flat, with one big empty square timber-framed archway through it that you can see through, two thirds as wide as the slab and two thirds as tall. Upright pointed dark timber log stakes along the top edge. A woad blue banner above the opening. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Round 3: deep and low (1 : 0.96 : 0.83), opening 0.56 x 1.74 m; stretch refused [0.74, 0.29, 3.041].",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    }
+  ],
+  "base": {
+    "id": "mountain_gate",
+    "strip": [
+      0.678358,
+      0.321642
+    ],
+    "triangles": 902,
+    "bounds": [
+      2.0,
+      0.9,
+      3.701
+    ],
+    "cloth": [
+      [
+        [
+          0.60787,
+          0.17858
+        ],
+        [
+          0.60787,
+          0.18824
+        ],
+        [
+          0.60614,
+          0.18824
+        ],
+        [
+          0.60614,
+          0.17858
+        ]
+      ],
+      [
+        [
+          0.60787,
+          0.18824
+        ],
+        [
+          0.60787,
+          0.19531
+        ],
+        [
+          0.60614,
+          0.19531
+        ],
+        [
+          0.60614,
+          0.18824
+        ]
+      ],
+      [
+        [
+          0.60826,
+          0.11714
+        ],
+        [
+          0.60826,
+          0.1268
+        ],
+        [
+          0.60653,
+          0.1268
+        ],
+        [
+          0.60653,
+          0.11714
+        ]
+      ],
+      [
+        [
+          0.60826,
+          0.1268
+        ],
+        [
+          0.60826,
+          0.13645
+        ],
+        [
+          0.60653,
+          0.13645
+        ],
+        [
+          0.60653,
+          0.1268
+        ]
+      ],
+      [
+        [
+          0.44223,
+          0.58772
+        ],
+        [
+          0.44223,
+          0.59479
+        ],
+        [
+          0.4405,
+          0.59479
+        ],
+        [
+          0.4405,
+          0.58772
+        ]
+      ],
+      [
+        [
+          0.44223,
+          0.59479
+        ],
+        [
+          0.44223,
+          0.60445
+        ],
+        [
+          0.4405,
+          0.60445
+        ],
+        [
+          0.4405,
+          0.59479
+        ]
+      ],
+      [
+        [
+          0.44223,
+          0.60445
+        ],
+        [
+          0.44223,
+          0.6141
+        ],
+        [
+          0.4405,
+          0.6141
+        ],
+        [
+          0.4405,
+          0.60445
+        ]
+      ],
+      [
+        [
+          0.44223,
+          0.6141
+        ],
+        [
+          0.44223,
+          0.62117
+        ],
+        [
+          0.4405,
+          0.62117
+        ],
+        [
+          0.4405,
+          0.6141
+        ]
+      ],
+      [
+        [
+          0.4405,
+          0.71357
+        ],
+        [
+          0.4405,
+          0.70392
+        ],
+        [
+          0.44223,
+          0.70392
+        ],
+        [
+          0.44223,
+          0.71357
+        ]
+      ],
+      [
+        [
+          0.4405,
+          0.70392
+        ],
+        [
+          0.4405,
+          0.69426
+        ],
+        [
+          0.44223,
+          0.69426
+        ],
+        [
+          0.44223,
+          0.70392
+        ]
+      ],
+      [
+        [
+          0.60787,
+          0.16186
+        ],
+        [
+          0.60787,
+          0.16893
+        ],
+        [
+          0.60614,
+          0.16893
+        ],
+        [
+          0.60614,
+          0.16186
+        ]
+      ],
+      [
+        [
+          0.60787,
+          0.16893
+        ],
+        [
+          0.60787,
+          0.17858
+        ],
+        [
+          0.60614,
+          0.17858
+        ],
+        [
+          0.60614,
+          0.16893
+        ]
+      ],
+      [
+        [
+          0.4608,
+          0.18551
+        ],
+        [
+          0.4558,
+          0.19417
+        ],
+        [
+          0.44714,
+          0.19917
+        ],
+        [
+          0.43715,
+          0.19917
+        ],
+        [
+          0.42849,
+          0.19417
+        ],
+        [
+          0.42349,
+          0.18551
+        ],
+        [
+          0.42349,
+          0.17551
+        ],
+        [
+          0.42849,
+          0.16686
+        ],
+        [
+          0.43715,
+          0.16186
+        ],
+        [
+          0.44714,
+          0.16186
+        ],
+        [
+          0.4558,
+          0.16686
+        ],
+        [
+          0.4608,
+          0.17551
+        ]
+      ],
+      [
+        [
+          0.34654,
+          0.17551
+        ],
+        [
+          0.34654,
+          0.18551
+        ],
+        [
+          0.34155,
+          0.19417
+        ],
+        [
+          0.33289,
+          0.19917
+        ],
+        [
+          0.32289,
+          0.19917
+        ],
+        [
+          0.31424,
+          0.19417
+        ],
+        [
+          0.30924,
+          0.18551
+        ],
+        [
+          0.30924,
+          0.17551
+        ],
+        [
+          0.31424,
+          0.16686
+        ],
+        [
+          0.32289,
+          0.16186
+        ],
+        [
+          0.33289,
+          0.16186
+        ],
+        [
+          0.34155,
+          0.16686
+        ]
+      ],
+      [
+        [
+          0.4405,
+          0.65772
+        ],
+        [
+          0.4405,
+          0.64806
+        ],
+        [
+          0.44223,
+          0.64806
+        ],
+        [
+          0.44223,
+          0.65772
+        ]
+      ],
+      [
+        [
+          0.4405,
+          0.64806
+        ],
+        [
+          0.4405,
+          0.64099
+        ],
+        [
+          0.44223,
+          0.64099
+        ],
+        [
+          0.44223,
+          0.64806
+        ]
+      ],
+      [
+        [
+          0.44696,
+          0.79244
+        ],
+        [
+          0.44696,
+          0.80209
+        ],
+        [
+          0.44523,
+          0.80209
+        ],
+        [
+          0.44523,
+          0.79244
+        ]
+      ],
+      [
+        [
+          0.44696,
+          0.80209
+        ],
+        [
+          0.44696,
+          0.81175
+        ],
+        [
+          0.44523,
+          0.81175
+        ],
+        [
+          0.44523,
+          0.80209
+        ]
+      ],
+      [
+        [
+          0.44523,
+          0.77262
+        ],
+        [
+          0.44523,
+          0.76555
+        ],
+        [
+          0.44696,
+          0.76555
+        ],
+        [
+          0.44696,
+          0.77262
+        ]
+      ],
+      [
+        [
+          0.44523,
+          0.76555
+        ],
+        [
+          0.44523,
+          0.75589
+        ],
+        [
+          0.44696,
+          0.75589
+        ],
+        [
+          0.44696,
+          0.76555
+        ]
+      ],
+      [
+        [
+          0.44523,
+          0.75589
+        ],
+        [
+          0.44523,
+          0.74624
+        ],
+        [
+          0.44696,
+          0.74624
+        ],
+        [
+          0.44696,
+          0.75589
+        ]
+      ],
+      [
+        [
+          0.44523,
+          0.74624
+        ],
+        [
+          0.44523,
+          0.73917
+        ],
+        [
+          0.44696,
+          0.73917
+        ],
+        [
+          0.44696,
+          0.74624
+        ]
+      ],
+      [
+        [
+          0.44523,
+          0.85088
+        ],
+        [
+          0.44523,
+          0.84123
+        ],
+        [
+          0.44696,
+          0.84123
+        ],
+        [
+          0.44696,
+          0.85088
+        ]
+      ],
+      [
+        [
+          0.44523,
+          0.84123
+        ],
+        [
+          0.44523,
+          0.83157
+        ],
+        [
+          0.44696,
+          0.83157
+        ],
+        [
+          0.44696,
+          0.84123
+        ]
+      ],
+      [
+        [
+          0.4405,
+          0.67444
+        ],
+        [
+          0.4405,
+          0.66737
+        ],
+        [
+          0.44223,
+          0.66737
+        ],
+        [
+          0.44223,
+          0.67444
+        ]
+      ],
+      [
+        [
+          0.4405,
+          0.66737
+        ],
+        [
+          0.4405,
+          0.65772
+        ],
+        [
+          0.44223,
+          0.65772
+        ],
+        [
+          0.44223,
+          0.66737
+        ]
+      ],
+      [
+        [
+          0.51793,
+          0.18551
+        ],
+        [
+          0.51293,
+          0.19417
+        ],
+        [
+          0.50427,
+          0.19917
+        ],
+        [
+          0.49428,
+          0.19917
+        ],
+        [
+          0.48562,
+          0.19417
+        ],
+        [
+          0.48062,
+          0.18551
+        ],
+        [
+          0.48062,
+          0.17551
+        ],
+        [
+          0.48562,
+          0.16686
+        ],
+        [
+          0.49428,
+          0.16186
+        ],
+        [
+          0.50427,
+          0.16186
+        ],
+        [
+          0.51293,
+          0.16686
+        ],
+        [
+          0.51793,
+          0.17551
+        ]
+      ],
+      [
+        [
+          0.40367,
+          0.17551
+        ],
+        [
+          0.40367,
+          0.18551
+        ],
+        [
+          0.39867,
+          0.19417
+        ],
+        [
+          0.39002,
+          0.19917
+        ],
+        [
+          0.38002,
+          0.19917
+        ],
+        [
+          0.37136,
+          0.19417
+        ],
+        [
+          0.36637,
+          0.18551
+        ],
+        [
+          0.36637,
+          0.17551
+        ],
+        [
+          0.37136,
+          0.16686
+        ],
+        [
+          0.38002,
+          0.16186
+        ],
+        [
+          0.39002,
+          0.16186
+        ],
+        [
+          0.39867,
+          0.16686
+        ]
+      ]
+    ]
+  },
+  "finish": {
+    "sourceTriangles": 902,
+    "triangles": 902,
+    "fittedMetres": [
+      2.0,
+      0.9,
+      3.7
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teamMaskCoverage": 0.0065
+  }
+}

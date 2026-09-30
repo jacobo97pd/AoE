@@ -1,0 +1,137 @@
+{
+  "id": "dwarf_hearth",
+  "entry": {
+    "id": "dwarf_hearth",
+    "style": "dwarf",
+    "building": "hearth",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: the great hall of a dwarf hold. One squat, massive, fully enclosed stone hall built against a rocky outcrop, clearly the biggest building, a huge rune-carved stone door, two bronze-capped forge chimneys and two crimson banners either side of the door."
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        345,
+        360
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d437-4c69-701c-b19a-321cb4b0d6cc",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3339397530,
+        "prompt": "Low-poly game asset for a top-down strategy game: the great hall of a dwarf hold. One squat, massive, fully enclosed stone hall built against a rocky outcrop, clearly the biggest building, a huge rune-carved stone door, two bronze-capped forge chimneys and two crimson banners either side of the door. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266790989,
+        "progress": 100,
+        "started_at": 1790266790997,
+        "finished_at": 1790266800119,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c69-701c-b19a-321cb4b0d6cc/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c69-701c-b19a-321cb4b0d6cc/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:20:08.476257+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d437-9a57-718f-9b94-e18c2aae1c2d",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3339397530,
+        "prompt": "Low-poly game asset for a top-down strategy game: the great hall of a dwarf hold. One squat, massive, fully enclosed stone hall built against a rocky outcrop, clearly the biggest building, a huge rune-carved stone door, two bronze-capped forge chimneys and two crimson banners either side of the door. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266812020,
+        "progress": 100,
+        "started_at": 1790266812028,
+        "finished_at": 1790266869378,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9a57-718f-9b94-e18c2aae1c2d/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9a57-718f-9b94-e18c2aae1c2d/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9a57-718f-9b94-e18c2aae1c2d/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9a57-718f-9b94-e18c2aae1c2d/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9a57-718f-9b94-e18c2aae1c2d/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-9a57-718f-9b94-e18c2aae1c2d/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:21:11.904436+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_hearth_model.glb",
+      "bytes": 6106120,
+      "sha256": "636a68e554a2561f641fef7febf342ff7bdf28d977f517a7838adbe3b680457f"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 172695,
+      "sha256": "0501c867eafd110ec764ef9abdf91e70f162edc90c86589aa028d518ca8cc0a8"
+    },
+    "texture_base_color": {
+      "file": "dwarf_hearth_base_color.png",
+      "bytes": 5478817,
+      "sha256": "fe57b19e0c316203f5ff5b9aa87d07a6fe7674b8862ecd64db9e1adb8f6c05bd"
+    },
+    "texture_metallic": {
+      "file": "dwarf_hearth_metallic.png",
+      "bytes": 521652,
+      "sha256": "9b0df60ac093f2efaf00a2b0933db69104e6bc97d8a4ab983d5d2a4276ac7e14"
+    },
+    "texture_roughness": {
+      "file": "dwarf_hearth_roughness.png",
+      "bytes": 1523624,
+      "sha256": "bd998678039a7f002af82ef882bfb341b892787a469a7348edb164944ac307d3"
+    },
+    "texture_normal": {
+      "file": "dwarf_hearth_normal.png",
+      "bytes": 3649206,
+      "sha256": "dce35260c81b5ad9654741b8f1ce0d10585f94467521e5c6b774b48cfe6c45f9"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4878,
+    "triangles": 4878,
+    "fittedMetres": [
+      3.84,
+      1.684,
+      2.94
+    ],
+    "teamMaskCoverage": 0.0688
+  }
+}

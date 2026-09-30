@@ -1,0 +1,136 @@
+{
+  "id": "siege_ram",
+  "entry": {
+    "id": "siege_ram",
+    "role": "siege",
+    "kind": "siege_ram",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 2.2,
+    "footprint": 2.35,
+    "size": 1024,
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "biome": "all",
+    "priority": 2,
+    "prompt": "Covered battering ram on four solid wooden wheels: a long low boxy timber frame under a sloped plank roof draped with royal blue cloth, a thick log with an iron ram head sticking out of the front. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ram head points forward. Isolated, no ground, no characters, no text.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Timber: warm mid-brown wood (#8E765F) with darker grain (#6B563F). Iron fittings, wheel rims and ram head: dark blue-grey iron (#4D5F61). Cloth: plain saturated royal blue (#2B4FB0), no emblem. Rope: pale hemp (#C9B98F). No dirt, rust, blood, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d412-85f3-738b-9e89-76a1a0416681",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1534029889,
+        "prompt": "Covered battering ram on four solid wooden wheels: a long low boxy timber frame under a sloped plank roof draped with royal blue cloth, a thick log with an iron ram head sticking out of the front. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ram head points forward. Isolated, no ground, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264381195,
+        "progress": 100,
+        "started_at": 1790264381205,
+        "finished_at": 1790264391463,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-85f3-738b-9e89-76a1a0416681/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-85f3-738b-9e89-76a1a0416681/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:39:58.639463+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d412-d5f4-7222-996e-d80e91f0222f",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1534029889,
+        "prompt": "Covered battering ram on four solid wooden wheels: a long low boxy timber frame under a sloped plank roof draped with royal blue cloth, a thick log with an iron ram head sticking out of the front. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ram head points forward. Isolated, no ground, no characters, no text.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Timber: warm mid-brown wood (#8E765F) with darker grain (#6B563F). Iron fittings, wheel rims and ram head: dark blue-grey iron (#4D5F61). Cloth: plain saturated royal blue (#2B4FB0), no emblem. Rope: pale hemp (#C9B98F). No dirt, rust, blood, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264401538,
+        "progress": 100,
+        "started_at": 1790264401546,
+        "finished_at": 1790264447760,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d5f4-7222-996e-d80e91f0222f/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d5f4-7222-996e-d80e91f0222f/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d5f4-7222-996e-d80e91f0222f/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d5f4-7222-996e-d80e91f0222f/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d5f4-7222-996e-d80e91f0222f/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d5f4-7222-996e-d80e91f0222f/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:40:52.902583+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 132651,
+      "sha256": "03d5a3429d9f500aad4113c06d28b1fb4813ec685ad10151811c77cd0c00e36f"
+    },
+    "model_glb": {
+      "file": "siege_ram_model.glb",
+      "bytes": 6325712,
+      "sha256": "f5483c072008821506a06688019aaa5d0d68282abd4cae1ae1ebb1c85f6fbac1"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 169712,
+      "sha256": "2432b2625d8e4bc101dc6e5e49c088dde56d0e74197115ca36bfe8b8bfefafa5"
+    },
+    "texture_base_color": {
+      "file": "siege_ram_base_color.png",
+      "bytes": 5243246,
+      "sha256": "18d93f54ead13656908a28df423eb94433f61783c7cdc03565d3f889d6a60d3d"
+    },
+    "texture_metallic": {
+      "file": "siege_ram_metallic.png",
+      "bytes": 176227,
+      "sha256": "fa6495afe60ba635c437672e38315e46665ff3db955c8f867e7f9b68c32c68b2"
+    },
+    "texture_roughness": {
+      "file": "siege_ram_roughness.png",
+      "bytes": 1295108,
+      "sha256": "cbcd083117a4f7c734fb3f3589c3f942fbd114788d205f94adcd1ca0dbdc704e"
+    },
+    "texture_normal": {
+      "file": "siege_ram_normal.png",
+      "bytes": 3765406,
+      "sha256": "7cf725377664e341f99463284040b0496d4a24b629641af11b94764b03316315"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4175,
+    "lod0": 3499,
+    "lod1": 899,
+    "fittedMetres": [
+      2.336,
+      2.35,
+      1.391
+    ],
+    "teamMaskCoverage": 0.1531
+  }
+}

@@ -1,0 +1,25 @@
+Passed: True
+Scenario: Offline
+Unity: 6000.3.23f1
+BuildGuid: 0e78fcce58ec4fb489ca9baf9ed74b19
+Resolution: 1440x1080
+Faction: serevin
+Mode: Dominion
+Winner: 2
+Reason: Dominion
+Tick: 21333
+SimulatedSeconds: 1066.65
+InitialEnemyHidden: True
+LocalGatherOrders: 80
+LocalBuildings: 10
+LocalQueuedUnits: 81
+RivalGatherOrders: 107
+PeakUnits: 61
+YieldedFrames: 214
+VisibleButtonDispatchesBeforeRestart: 2
+NaturalResult: True
+FinishedStateFrozen: True
+ScriptedLocalAi: True
+TicksAccelerated: True
+Failure:
+RestartFresh: True

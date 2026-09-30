@@ -1,0 +1,128 @@
+{
+  "id": "elf_siege_workshop",
+  "entry": {
+    "id": "elf_siege_workshop",
+    "style": "elf",
+    "building": "siege_workshop",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: an elven carpentry workshop. A square pale wood workshop, one side open under a curved leaf-shaped lean-to roof, a slender wooden crane over the opening, planks and a half-built bolt thrower inside, a blue banner."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d442-69d2-73af-83e2-73c9605f74f9",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3278038491,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven carpentry workshop. A square pale wood workshop, one side open under a curved leaf-shaped lean-to roof, a slender wooden crane over the opening, planks and a half-built bolt thrower inside, a blue banner. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267519316,
+        "progress": 100,
+        "started_at": 1790267519324,
+        "finished_at": 1790267530414,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-69d2-73af-83e2-73c9605f74f9/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-69d2-73af-83e2-73c9605f74f9/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:32:16.788635+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d442-b73a-77fa-ab19-b4fad706d92a",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3278038491,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven carpentry workshop. A square pale wood workshop, one side open under a curved leaf-shaped lean-to roof, a slender wooden crane over the opening, planks and a half-built bolt thrower inside, a blue banner. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267537257,
+        "progress": 100,
+        "started_at": 1790267537267,
+        "finished_at": 1790267589554,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-b73a-77fa-ab19-b4fad706d92a/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-b73a-77fa-ab19-b4fad706d92a/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-b73a-77fa-ab19-b4fad706d92a/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-b73a-77fa-ab19-b4fad706d92a/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-b73a-77fa-ab19-b4fad706d92a/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-b73a-77fa-ab19-b4fad706d92a/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:33:17.122924+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_siege_workshop_model.glb",
+      "bytes": 6630428,
+      "sha256": "8d194603ae91628a9b67a452219271fd9a75bad613d767315f3f51e15c9f8784"
+    },
+    "texture_base_color": {
+      "file": "elf_siege_workshop_base_color.png",
+      "bytes": 5436749,
+      "sha256": "2b600a22214f6347796b41a5a9a087acd0949d8efc62cefff9da0bcd16b98c19"
+    },
+    "texture_metallic": {
+      "file": "elf_siege_workshop_metallic.png",
+      "bytes": 38038,
+      "sha256": "1aca71e076965ad45e15996d6621c3d9e750d9bdbfb11403c88d04c5b2b53e1f"
+    },
+    "texture_roughness": {
+      "file": "elf_siege_workshop_roughness.png",
+      "bytes": 1355083,
+      "sha256": "f448af2f7ac0d24b5ae6b069310db4fc8f99209f8df9797e475e695b56cb37ab"
+    },
+    "texture_normal": {
+      "file": "elf_siege_workshop_normal.png",
+      "bytes": 4087611,
+      "sha256": "684f29ff6d5c65d246858b01cb1cf79d9f3ece9b1ee356477a3abf48ac6ce8d6"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4733,
+    "triangles": 4733,
+    "fittedMetres": [
+      2.874,
+      2.88,
+      2.256
+    ],
+    "teamMaskCoverage": 0.0272
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Emberfield.Presentation",
+  "rootNamespace": "Emberfield.Presentation",
+  "references": ["Emberfield.Simulation", "Emberfield.Voice", "Emberfield.Localization", "Emberfield.Networking", "Emberfield.Diagnostics", "Emberfield.Quality", "Unity.InputSystem", "Unity.ugui", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "autoReferenced": true
+}

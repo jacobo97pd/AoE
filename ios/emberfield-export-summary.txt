@@ -1,0 +1,10 @@
+Result: Succeeded
+Unity: 6000.3.23f1
+Bundle: com.emberfield.prototype
+Version: 0.3.0
+Build: 1
+Errors: 0
+Warnings: 0
+Duration: 00:05:42.4364539
+Signing: deferred to Codemagic/Xcode
+Online endpoint: unchanged; offline default

@@ -1,0 +1,140 @@
+{
+  "id": "mountain_siege_ladder",
+  "entry": {
+    "id": "mountain_siege_ladder",
+    "role": "siege",
+    "kind": "siege_ladder",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 3.8,
+    "footprint": 2.0,
+    "size": 1024,
+    "teamHues": [
+      [
+        200,
+        250
+      ]
+    ],
+    "teamSaturation": 0.14,
+    "biome": "all",
+    "factions": [
+      "skeld"
+    ],
+    "priority": 5,
+    "prompt": "Tall rough siege ladder leaning steeply forward on a low log skid: two split-log side rails with the bark on, eight thick round rungs lashed on with rope, fur-wrapped grips on the rails, sharpened stake feet and a woad blue cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Split logs: weathered dark brown timber (#5E4632) with paler split faces (#8A6E4E). Rope lashings: pale hemp (#C9B98F). Fur grips: cream and grey (#CFC5AE). Stake tips and nails: dark iron (#4A4A48). Pennant: saturated woad blue cloth (#2F4E9C), no emblem. No dirt, blood, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d5b9-af24-75bc-b641-8a6e93af0104",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 322950625,
+        "prompt": "Tall rough siege ladder leaning steeply forward on a low log skid: two split-log side rails with the bark on, eight thick round rungs lashed on with rope, fur-wrapped grips on the rails, sharpened stake feet and a woad blue cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292112847,
+        "progress": 100,
+        "started_at": 1790292112857,
+        "finished_at": 1790292124675,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5b9-af24-75bc-b641-8a6e93af0104/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5b9-af24-75bc-b641-8a6e93af0104/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T23:22:10.338245+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d5b9-fcca-76e2-b96c-8c211fbea229",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 322950625,
+        "prompt": "Tall rough siege ladder leaning steeply forward on a low log skid: two split-log side rails with the bark on, eight thick round rungs lashed on with rope, fur-wrapped grips on the rails, sharpened stake feet and a woad blue cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Split logs: weathered dark brown timber (#5E4632) with paler split faces (#8A6E4E). Rope lashings: pale hemp (#C9B98F). Fur grips: cream and grey (#CFC5AE). Stake tips and nails: dark iron (#4A4A48). Pennant: saturated woad blue cloth (#2F4E9C), no emblem. No dirt, blood, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292132746,
+        "progress": 100,
+        "started_at": 1790292132754,
+        "finished_at": 1790292171387,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5b9-fcca-76e2-b96c-8c211fbea229/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5b9-fcca-76e2-b96c-8c211fbea229/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5b9-fcca-76e2-b96c-8c211fbea229/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5b9-fcca-76e2-b96c-8c211fbea229/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5b9-fcca-76e2-b96c-8c211fbea229/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5b9-fcca-76e2-b96c-8c211fbea229/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T23:22:55.636785+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 60550,
+      "sha256": "62a2240b6311f77ac0e738f028a7bbe8266687d83d3a5005d6047f2c633f1a6f"
+    },
+    "model_glb": {
+      "file": "mountain_siege_ladder_model.glb",
+      "bytes": 7222108,
+      "sha256": "7f5966fa7a2b336cd07d58c71dc9b6e2e432a4c784653641e8a8bd133bd074bf"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 64826,
+      "sha256": "44779643becd010a67de7aa1c3aba5591dc584eb8331d05a2911c81c6e05c9f7"
+    },
+    "texture_base_color": {
+      "file": "mountain_siege_ladder_base_color.png",
+      "bytes": 5721566,
+      "sha256": "a62727c7cbcedf2654789266564e4d5f389a8fe044844f5db42dc41b6277c1d5"
+    },
+    "texture_metallic": {
+      "file": "mountain_siege_ladder_metallic.png",
+      "bytes": 21523,
+      "sha256": "10373bafb6409156b799e72f25c7e0145cf6622303fe82a04e0570ec6054e9a9"
+    },
+    "texture_roughness": {
+      "file": "mountain_siege_ladder_roughness.png",
+      "bytes": 996096,
+      "sha256": "f9b42dd6ede41bc4f4f017de768d5bc550dcbccb9e153c6817dce9722b32223c"
+    },
+    "texture_normal": {
+      "file": "mountain_siege_ladder_normal.png",
+      "bytes": 4758223,
+      "sha256": "c23a52001d52cd19cf98d2da93dcb32d09e2f376bd73c10ba5b4f19e0b5d8792"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4322,
+    "lod0": 3500,
+    "lod1": 900,
+    "fittedMetres": [
+      1.262,
+      1.488,
+      3.8
+    ],
+    "teamMaskCoverage": 0.0559
+  }
+}

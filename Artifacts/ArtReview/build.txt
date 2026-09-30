@@ -1,0 +1,6 @@
+Result: Succeeded
+Errors: 0
+Warnings: 0
+Bytes: 175019103
+Duration: 00:00:30.8613038
+Scene: Assets/Game/Scenes/ArtStyleLab.unity

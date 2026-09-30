@@ -1,0 +1,1880 @@
+{
+  "Eras": [
+    {
+      "Id": "settlement",
+      "DisplayName": "Settlement",
+      "Tier": 1
+    },
+    {
+      "Id": "kingdom",
+      "DisplayName": "Kingdom",
+      "Tier": 2
+    },
+    {
+      "Id": "dominion",
+      "DisplayName": "Dominion",
+      "Tier": 3
+    },
+    {
+      "Id": "empire",
+      "DisplayName": "Empire",
+      "Tier": 4
+    }
+  ],
+  "Technologies": [
+    {
+      "Id": "advance_kingdom",
+      "DisplayName": "Advance to Kingdom",
+      "Description": "Enter the Kingdom Era to unlock the Archive and first research tier.",
+      "ResearchBuildingId": "hearth",
+      "RequiredEraId": "settlement",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "AdvancesToEraId": "kingdom",
+      "Cost": {
+        "Food": 200,
+        "Wood": 100,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": []
+    },
+    {
+      "Id": "advance_dominion",
+      "DisplayName": "Advance to Dominion",
+      "Description": "Enter the Dominion Era. Requires a completed Archive.",
+      "ResearchBuildingId": "hearth",
+      "RequiredEraId": "kingdom",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [
+        "archive"
+      ],
+      "AdvancesToEraId": "dominion",
+      "Cost": {
+        "Food": 400,
+        "Wood": 200,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "ResearchTicks": 900,
+      "Effects": []
+    },
+    {
+      "Id": "advance_empire",
+      "DisplayName": "Advance to Empire",
+      "Description": "Enter the Empire Era. Requires completed Work Rotation research.",
+      "ResearchBuildingId": "hearth",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [
+        "gather_2"
+      ],
+      "RequiredBuildingIds": [],
+      "AdvancesToEraId": "empire",
+      "Cost": {
+        "Food": 600,
+        "Wood": 0,
+        "Metal": 300,
+        "Stone": 200
+      },
+      "ResearchTicks": 1200,
+      "Effects": []
+    },
+    {
+      "Id": "gather_1",
+      "DisplayName": "Better Handles",
+      "Description": "Tenders gather one additional resource per work operation.",
+      "ResearchBuildingId": "archive",
+      "RequiredEraId": "kingdom",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 60,
+        "Wood": 80,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "ResearchTicks": 400,
+      "Effects": [
+        {
+          "Kind": 2,
+          "TargetTags": 1,
+          "Amount": 1
+        }
+      ]
+    },
+    {
+      "Id": "gather_2",
+      "DisplayName": "Work Rotation",
+      "Description": "Tenders gather one further resource per work operation.",
+      "ResearchBuildingId": "archive",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [
+        "gather_1"
+      ],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 120,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 2,
+          "TargetTags": 1,
+          "Amount": 1
+        }
+      ]
+    },
+    {
+      "Id": "weapons_1",
+      "DisplayName": "Tempered Edges",
+      "Description": "Soldiers and creatures gain two attack damage before counters and armor. Siege engines are not affected.",
+      "ResearchBuildingId": "muster_hall",
+      "RequiredEraId": "kingdom",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 60,
+        "Stone": 0
+      },
+      "ResearchTicks": 400,
+      "Effects": [
+        {
+          "Kind": 0,
+          "TargetTags": 142,
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Id": "weapons_2",
+      "DisplayName": "Measured Strikes",
+      "Description": "Soldiers and creatures gain two further attack damage before counters and armor. Siege engines are not affected.",
+      "ResearchBuildingId": "muster_hall",
+      "RequiredEraId": "empire",
+      "RequiredTechnologyIds": [
+        "weapons_1"
+      ],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 180,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 0,
+          "TargetTags": 142,
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Id": "armor_1",
+      "DisplayName": "Layered Gear",
+      "Description": "Military units gain one armor.",
+      "ResearchBuildingId": "muster_hall",
+      "RequiredEraId": "kingdom",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 0,
+        "Wood": 60,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "ResearchTicks": 400,
+      "Effects": [
+        {
+          "Kind": 1,
+          "TargetTags": 398,
+          "Amount": 1
+        }
+      ]
+    },
+    {
+      "Id": "armor_2",
+      "DisplayName": "Interlocked Plates",
+      "Description": "Military units gain one further armor.",
+      "ResearchBuildingId": "muster_hall",
+      "RequiredEraId": "empire",
+      "RequiredTechnologyIds": [
+        "armor_1"
+      ],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 0,
+        "Wood": 120,
+        "Metal": 200,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 1,
+          "TargetTags": 398,
+          "Amount": 1
+        }
+      ]
+    },
+    {
+      "Id": "aven_stores",
+      "DisplayName": "Reciprocal Stores",
+      "Description": "Chartered Storeyards gain two metres of coverage and Threadkeeper tether range; relay radius stays unchanged.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "aven",
+      "RequiredEraId": "kingdom",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 100,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": []
+    },
+    {
+      "Id": "serevin_camps",
+      "DisplayName": "Prepared Encampments",
+      "Description": "Supply Outposts pack and redeploy two seconds sooner; movement and exposure remain.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "serevin",
+      "RequiredEraId": "kingdom",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 100,
+        "Wood": 100,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": []
+    },
+    {
+      "Id": "miraj_howdahs",
+      "DisplayName": "Reinforced Howdahs",
+      "Description": "Dune Elephants gain two armor.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "miraj",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 0,
+        "Metal": 120,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 1,
+          "TargetTags": 511,
+          "TargetUnitId": "dune_elephant",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Id": "skeld_oathsteel",
+      "DisplayName": "Oathsteel",
+      "Description": "Frostguards gain three attack damage.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "skeld",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 0,
+        "Metal": 120,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 0,
+          "TargetTags": 511,
+          "TargetUnitId": "frostguard",
+          "Amount": 3
+        }
+      ]
+    },
+    {
+      "Id": "solar_radiance",
+      "DisplayName": "Solar Radiance",
+      "Description": "Sun Lions gain two armor.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "solar",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 0,
+        "Metal": 120,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 1,
+          "TargetTags": 511,
+          "TargetUnitId": "sun_lion",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Id": "verdant_heartwood",
+      "DisplayName": "Living Heartwood",
+      "Description": "Grove Guardians gain two armor.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "verdant",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 0,
+        "Metal": 120,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 1,
+          "TargetTags": 511,
+          "TargetUnitId": "grove_guardian",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Id": "ashen_bloodpact",
+      "DisplayName": "Blood Pact",
+      "Description": "War Trolls gain four attack damage.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "ashen",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 0,
+        "Metal": 120,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 0,
+          "TargetTags": 511,
+          "TargetUnitId": "war_troll",
+          "Amount": 4
+        }
+      ]
+    },
+    {
+      "Id": "drakeforged_scales",
+      "DisplayName": "Runeforged Scales",
+      "Description": "Ember Drakes gain two armor.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "drakeforged",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 0,
+        "Metal": 120,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 1,
+          "TargetTags": 511,
+          "TargetUnitId": "ember_drake",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Id": "sultanate_composite_bows",
+      "DisplayName": "Composite Bows",
+      "Description": "Camel Archers gain two attack damage.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "sultanate",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 0,
+        "Metal": 120,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 0,
+          "TargetTags": 511,
+          "TargetUnitId": "camel_archer",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Id": "sahel_quilted_barding",
+      "DisplayName": "Quilted Barding",
+      "Description": "Quilted Lancers gain two armor.",
+      "ResearchBuildingId": "archive",
+      "RequiredFactionId": "sahel",
+      "RequiredEraId": "dominion",
+      "RequiredTechnologyIds": [],
+      "RequiredBuildingIds": [],
+      "Cost": {
+        "Food": 120,
+        "Wood": 0,
+        "Metal": 120,
+        "Stone": 0
+      },
+      "ResearchTicks": 600,
+      "Effects": [
+        {
+          "Kind": 1,
+          "TargetTags": 511,
+          "TargetUnitId": "quilted_lancer",
+          "Amount": 2
+        }
+      ]
+    }
+  ],
+  "Units": [
+    {
+      "Id": "tender",
+      "DisplayName": "Tender",
+      "MaxHealth": 60,
+      "MoveSpeedMillimetresPerSecond": 3200,
+      "RadiusMillimetres": 300,
+      "IsWorker": true,
+      "Cost": {
+        "Food": 50,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 120,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 17,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 5,
+        "RangeMillimetres": 1000,
+        "AcquireRangeMillimetres": 1000,
+        "CooldownTicks": 24,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "Bonuses": []
+      }
+    },
+    {
+      "Id": "reedguard",
+      "DisplayName": "Reedguard",
+      "MaxHealth": 100,
+      "MoveSpeedMillimetresPerSecond": 3600,
+      "RadiusMillimetres": 300,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 160,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 18,
+      "Armor": 1,
+      "Attack": {
+        "Damage": 12,
+        "RangeMillimetres": 1100,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 24,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "Bonuses": [
+          {
+            "TargetTags": 4,
+            "MultiplierPermille": 1800
+          },
+          {
+            "TargetTags": 128,
+            "MultiplierPermille": 1800
+          }
+        ]
+      }
+    },
+    {
+      "Id": "stringwarden",
+      "DisplayName": "Stringwarden",
+      "MaxHealth": 70,
+      "MoveSpeedMillimetresPerSecond": 3200,
+      "RadiusMillimetres": 300,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 160,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 24,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 10,
+        "RangeMillimetres": 5000,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 20,
+        "ProjectileSpeedMillimetresPerSecond": 12000,
+        "Bonuses": [
+          {
+            "TargetTags": 2,
+            "MultiplierPermille": 1800
+          }
+        ]
+      }
+    },
+    {
+      "Id": "strider",
+      "DisplayName": "Strider",
+      "MaxHealth": 110,
+      "MoveSpeedMillimetresPerSecond": 5000,
+      "RadiusMillimetres": 350,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 160,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 20,
+      "Armor": 1,
+      "Attack": {
+        "Damage": 12,
+        "RangeMillimetres": 900,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 24,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "Bonuses": [
+          {
+            "TargetTags": 8,
+            "MultiplierPermille": 1300
+          }
+        ]
+      }
+    },
+    {
+      "Id": "threadkeeper",
+      "DisplayName": "Threadkeeper",
+      "MaxHealth": 70,
+      "MoveSpeedMillimetresPerSecond": 3200,
+      "RadiusMillimetres": 300,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 60,
+        "Wood": 40,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 160,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 16,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 0,
+        "RangeMillimetres": 1000,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 20,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "Bonuses": []
+      },
+      "RequiredEraId": "settlement",
+      "RequiredTechnologyIds": [],
+      "RequiredFactionId": "aven",
+      "IsThreadkeeper": true
+    },
+    {
+      "Id": "ashrunner",
+      "DisplayName": "Ashrunner",
+      "MaxHealth": 95,
+      "MoveSpeedMillimetresPerSecond": 5000,
+      "RadiusMillimetres": 350,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 80,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 160,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 20,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 10,
+        "RangeMillimetres": 900,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 24,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "Bonuses": [
+          {
+            "TargetTags": 8,
+            "MultiplierPermille": 1300
+          }
+        ]
+      },
+      "RequiredEraId": "settlement",
+      "RequiredTechnologyIds": [],
+      "RequiredFactionId": "serevin",
+      "CanReposition": true
+    },
+    {
+      "Id": "supply_cart",
+      "DisplayName": "Supply Cart",
+      "MaxHealth": 450,
+      "MoveSpeedMillimetresPerSecond": 2200,
+      "RadiusMillimetres": 350,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 0,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 0,
+      "TrainTicks": 1,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 16,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 0,
+        "RangeMillimetres": 1000,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 20,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "Bonuses": []
+      },
+      "RequiredEraId": "settlement",
+      "RequiredTechnologyIds": [],
+      "RequiredFactionId": "serevin"
+    },
+    {
+      "Id": "dune_elephant",
+      "DisplayName": "Dune Elephant",
+      "RequiredFactionId": "miraj",
+      "MaxHealth": 560,
+      "MoveSpeedMillimetresPerSecond": 2200,
+      "RadiusMillimetres": 450,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "PopulationCost": 5,
+      "TrainTicks": 500,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 164,
+      "Armor": 3,
+      "Attack": {
+        "Damage": 30,
+        "RangeMillimetres": 1300,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 36,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": [
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 2200
+          },
+          {
+            "TargetTags": 2,
+            "MultiplierPermille": 1250
+          }
+        ],
+        "SplashRadiusMillimetres": 1100,
+        "SplashDamagePermille": 650
+      },
+      "RequiredEraId": "dominion",
+      "RegenerationPerSecond": 0,
+      "SiegeEquipment": 0
+    },
+    {
+      "Id": "frostguard",
+      "DisplayName": "Frostguard",
+      "RequiredFactionId": "skeld",
+      "MaxHealth": 145,
+      "MoveSpeedMillimetresPerSecond": 3200,
+      "RadiusMillimetres": 330,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 85,
+        "Wood": 0,
+        "Metal": 35,
+        "Stone": 0
+      },
+      "PopulationCost": 2,
+      "TrainTicks": 240,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 34,
+      "Armor": 2,
+      "Attack": {
+        "Damage": 16,
+        "RangeMillimetres": 1100,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 26,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": [
+          {
+            "TargetTags": 32,
+            "MultiplierPermille": 1400
+          }
+        ]
+      },
+      "RequiredEraId": "kingdom",
+      "RegenerationPerSecond": 0,
+      "SiegeEquipment": 0
+    },
+    {
+      "Id": "sun_lion",
+      "DisplayName": "Sun Lion",
+      "RequiredFactionId": "solar",
+      "MaxHealth": 220,
+      "MoveSpeedMillimetresPerSecond": 4600,
+      "RadiusMillimetres": 420,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "PopulationCost": 3,
+      "TrainTicks": 320,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 164,
+      "Armor": 2,
+      "Attack": {
+        "Damage": 22,
+        "RangeMillimetres": 1000,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 26,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": [
+          {
+            "TargetTags": 8,
+            "MultiplierPermille": 1500
+          }
+        ]
+      },
+      "RequiredEraId": "kingdom",
+      "RegenerationPerSecond": 0,
+      "SiegeEquipment": 0
+    },
+    {
+      "Id": "grove_guardian",
+      "DisplayName": "Grove Guardian",
+      "RequiredFactionId": "verdant",
+      "MaxHealth": 560,
+      "MoveSpeedMillimetresPerSecond": 2000,
+      "RadiusMillimetres": 450,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "PopulationCost": 4,
+      "TrainTicks": 400,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 160,
+      "Armor": 5,
+      "Attack": {
+        "Damage": 22,
+        "RangeMillimetres": 1400,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 36,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": [
+          {
+            "TargetTags": 4,
+            "MultiplierPermille": 1500
+          }
+        ]
+      },
+      "RequiredEraId": "kingdom",
+      "RegenerationPerSecond": 3,
+      "SiegeEquipment": 0
+    },
+    {
+      "Id": "war_troll",
+      "DisplayName": "War Troll",
+      "RequiredFactionId": "ashen",
+      "MaxHealth": 420,
+      "MoveSpeedMillimetresPerSecond": 2800,
+      "RadiusMillimetres": 450,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "PopulationCost": 4,
+      "TrainTicks": 400,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 160,
+      "Armor": 1,
+      "Attack": {
+        "Damage": 30,
+        "RangeMillimetres": 1300,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 30,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": [
+          {
+            "TargetTags": 2,
+            "MultiplierPermille": 1500
+          },
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 1500
+          }
+        ]
+      },
+      "RequiredEraId": "kingdom",
+      "RegenerationPerSecond": 6,
+      "SiegeEquipment": 0
+    },
+    {
+      "Id": "ember_drake",
+      "DisplayName": "Ember Drake",
+      "RequiredFactionId": "drakeforged",
+      "MaxHealth": 380,
+      "MoveSpeedMillimetresPerSecond": 3300,
+      "RadiusMillimetres": 450,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "PopulationCost": 5,
+      "TrainTicks": 520,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 168,
+      "Armor": 2,
+      "Attack": {
+        "Damage": 32,
+        "RangeMillimetres": 4500,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 36,
+        "ProjectileSpeedMillimetresPerSecond": 9000,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": [
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 2000
+          },
+          {
+            "TargetTags": 2,
+            "MultiplierPermille": 1300
+          }
+        ],
+        "SplashRadiusMillimetres": 1600,
+        "SplashDamagePermille": 650
+      },
+      "RequiredEraId": "dominion",
+      "RegenerationPerSecond": 0,
+      "SiegeEquipment": 0
+    },
+    {
+      "Id": "siege_ram",
+      "DisplayName": "Siege Ram",
+      "RequiredFactionId": null,
+      "MaxHealth": 600,
+      "MoveSpeedMillimetresPerSecond": 1800,
+      "RadiusMillimetres": 450,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 0,
+        "Wood": 180,
+        "Metal": 60,
+        "Stone": 0
+      },
+      "PopulationCost": 4,
+      "TrainTicks": 400,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 288,
+      "Armor": 8,
+      "Attack": {
+        "Damage": 8,
+        "RangeMillimetres": 1100,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 40,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": [
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 10000
+          }
+        ]
+      },
+      "RequiredEraId": "kingdom",
+      "RegenerationPerSecond": 0,
+      "SiegeEquipment": 1
+    },
+    {
+      "Id": "siege_ladder",
+      "DisplayName": "Siege Ladder",
+      "RequiredFactionId": null,
+      "MaxHealth": 140,
+      "MoveSpeedMillimetresPerSecond": 2400,
+      "RadiusMillimetres": 350,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 0,
+        "Wood": 70,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 180,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 272,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 0,
+        "RangeMillimetres": 1000,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 24,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": []
+      },
+      "RequiredEraId": "kingdom",
+      "RegenerationPerSecond": 0,
+      "SiegeEquipment": 2
+    },
+    {
+      "Id": "siege_tower",
+      "DisplayName": "Siege Tower",
+      "RequiredFactionId": null,
+      "MaxHealth": 420,
+      "MoveSpeedMillimetresPerSecond": 1800,
+      "RadiusMillimetres": 450,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 0,
+        "Wood": 220,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "PopulationCost": 3,
+      "TrainTicks": 420,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 288,
+      "Armor": 4,
+      "Attack": {
+        "Damage": 0,
+        "RangeMillimetres": 1000,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 24,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": []
+      },
+      "RequiredEraId": "dominion",
+      "RegenerationPerSecond": 0,
+      "SiegeEquipment": 3
+    },
+    {
+      "Id": "crimson_corsair",
+      "DisplayName": "Corsario Carmesí",
+      "MaxHealth": 380,
+      "MoveSpeedMillimetresPerSecond": 3400,
+      "RadiusMillimetres": 350,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 200,
+        "Wood": 0,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "PopulationCost": 3,
+      "TrainTicks": 800,
+      "CarryCapacity": 1,
+      "GatherIntervalTicks": 20,
+      "GatherAmount": 1,
+      "Tags": 18,
+      "Armor": 3,
+      "Attack": {
+        "Damage": 24,
+        "RangeMillimetres": 1200,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 24,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": []
+      },
+      "RequiredRealmId": "naval",
+      "MaxAlivePerPlayer": 1,
+      "RequiredEraId": "settlement",
+      "RegenerationPerSecond": 0,
+      "SiegeEquipment": 0,
+      "RequiredFactionId": "pirates"
+    },
+    {
+      "Id": "boarding_raider",
+      "DisplayName": "Saqueador de abordaje",
+      "MaxHealth": 110,
+      "MoveSpeedMillimetresPerSecond": 3700,
+      "RadiusMillimetres": 300,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 60,
+        "Wood": 0,
+        "Metal": 20,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 200,
+      "CarryCapacity": 1,
+      "GatherIntervalTicks": 20,
+      "GatherAmount": 1,
+      "Tags": 18,
+      "Armor": 2,
+      "Attack": {
+        "Damage": 13,
+        "RangeMillimetres": 1050,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 26,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "Bonuses": [
+          {
+            "TargetTags": 8,
+            "MultiplierPermille": 1600
+          },
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 1500
+          }
+        ]
+      },
+      "RequiredRealmId": "naval",
+      "RequiredEraId": "settlement",
+      "RequiredFactionId": "pirates"
+    },
+    {
+      "Id": "gunpowder_corsair",
+      "DisplayName": "Corsario de pólvora",
+      "MaxHealth": 80,
+      "MoveSpeedMillimetresPerSecond": 3200,
+      "RadiusMillimetres": 300,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 40,
+        "Wood": 0,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 200,
+      "CarryCapacity": 1,
+      "GatherIntervalTicks": 20,
+      "GatherAmount": 1,
+      "Tags": 24,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 18,
+        "RangeMillimetres": 4500,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 36,
+        "ProjectileSpeedMillimetresPerSecond": 24000,
+        "ProjectileLifetimeTicks": 100,
+        "Bonuses": [
+          {
+            "TargetTags": 32,
+            "MultiplierPermille": 1500
+          }
+        ]
+      },
+      "RequiredRealmId": "naval",
+      "RequiredEraId": "settlement",
+      "RequiredFactionId": "pirates"
+    },
+    {
+      "Id": "treasure_seeker",
+      "DisplayName": "Buscadora de tesoros",
+      "MaxHealth": 65,
+      "MoveSpeedMillimetresPerSecond": 3500,
+      "RadiusMillimetres": 300,
+      "IsWorker": true,
+      "Cost": {
+        "Food": 70,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 160,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "VisionCells": 12,
+      "Tags": 17,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 5,
+        "RangeMillimetres": 1000,
+        "AcquireRangeMillimetres": 1000,
+        "CooldownTicks": 24,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": []
+      },
+      "RequiredRealmId": "naval",
+      "RequiredEraId": "settlement",
+      "RequiredFactionId": "pirates"
+    },
+    {
+      "Id": "camel_archer",
+      "DisplayName": "Camel Archer",
+      "MaxHealth": 90,
+      "MoveSpeedMillimetresPerSecond": 4400,
+      "RadiusMillimetres": 350,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 70,
+        "Wood": 35,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 160,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 28,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 9,
+        "RangeMillimetres": 4000,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 26,
+        "ProjectileSpeedMillimetresPerSecond": 7000,
+        "Bonuses": [
+          {
+            "TargetTags": 2,
+            "MultiplierPermille": 1300
+          }
+        ]
+      },
+      "RequiredEraId": "settlement",
+      "RequiredTechnologyIds": [],
+      "RequiredFactionId": "sultanate"
+    },
+    {
+      "Id": "quilted_lancer",
+      "DisplayName": "Quilted Lancer",
+      "MaxHealth": 120,
+      "MoveSpeedMillimetresPerSecond": 4600,
+      "RadiusMillimetres": 350,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 90,
+        "Wood": 0,
+        "Metal": 30,
+        "Stone": 0
+      },
+      "PopulationCost": 1,
+      "TrainTicks": 180,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 2,
+      "Tags": 36,
+      "Armor": 2,
+      "Attack": {
+        "Damage": 12,
+        "RangeMillimetres": 900,
+        "AcquireRangeMillimetres": 6000,
+        "CooldownTicks": 26,
+        "ProjectileSpeedMillimetresPerSecond": 0,
+        "Bonuses": [
+          {
+            "TargetTags": 8,
+            "MultiplierPermille": 1500
+          }
+        ]
+      },
+      "RequiredEraId": "settlement",
+      "RequiredTechnologyIds": [],
+      "RequiredFactionId": "sahel"
+    },
+    {
+      "Id": "war_galley",
+      "DisplayName": "Galley",
+      "MaxHealth": 360,
+      "MoveSpeedMillimetresPerSecond": 3600,
+      "RadiusMillimetres": 500,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 0,
+        "Wood": 150,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 2,
+      "TrainTicks": 300,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 1,
+      "Tags": 544,
+      "Armor": 2,
+      "Attack": {
+        "Damage": 12,
+        "RangeMillimetres": 5500,
+        "AcquireRangeMillimetres": 7000,
+        "CooldownTicks": 40,
+        "ProjectileSpeedMillimetresPerSecond": 14000,
+        "Bonuses": [
+          {
+            "TargetTags": 512,
+            "MultiplierPermille": 1500
+          },
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 1500
+          }
+        ]
+      },
+      "VisionCells": 9,
+      "Domain": 1,
+      "CargoCapacity": 5
+    },
+    {
+      "Id": "pirate_sloop",
+      "DisplayName": "Pirate Sloop",
+      "MaxHealth": 300,
+      "MoveSpeedMillimetresPerSecond": 4400,
+      "RadiusMillimetres": 500,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 20,
+        "Wood": 130,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 2,
+      "TrainTicks": 260,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 1,
+      "Tags": 528,
+      "Armor": 1,
+      "Attack": {
+        "Damage": 14,
+        "RangeMillimetres": 5000,
+        "AcquireRangeMillimetres": 7000,
+        "CooldownTicks": 36,
+        "ProjectileSpeedMillimetresPerSecond": 14000,
+        "Bonuses": [
+          {
+            "TargetTags": 512,
+            "MultiplierPermille": 1500
+          },
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 1300
+          }
+        ]
+      },
+      "RequiredFactionId": "pirates",
+      "RequiredRealmId": "naval",
+      "VisionCells": 9,
+      "Domain": 1,
+      "CargoCapacity": 6
+    }
+  ],
+  "Buildings": [
+    {
+      "Id": "hearth",
+      "DisplayName": "Hearth",
+      "MaxHealth": 1400,
+      "WidthCells": 4,
+      "DepthCells": 4,
+      "Cost": {
+        "Food": 400,
+        "Wood": 300,
+        "Metal": 0,
+        "Stone": 100
+      },
+      "BuildTicks": 400,
+      "PopulationCapacity": 6,
+      "CanDropOff": true,
+      "TrainableUnitIds": [
+        "tender",
+        "crimson_corsair",
+        "treasure_seeker"
+      ],
+      "Tags": 64,
+      "Armor": 2
+    },
+    {
+      "Id": "shelter",
+      "DisplayName": "Shelter",
+      "MaxHealth": 400,
+      "WidthCells": 2,
+      "DepthCells": 2,
+      "Cost": {
+        "Food": 0,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "BuildTicks": 120,
+      "PopulationCapacity": 5,
+      "CanDropOff": false,
+      "TrainableUnitIds": [],
+      "Tags": 64,
+      "Armor": 2
+    },
+    {
+      "Id": "storeyard",
+      "DisplayName": "Storeyard",
+      "MaxHealth": 500,
+      "WidthCells": 2,
+      "DepthCells": 2,
+      "Cost": {
+        "Food": 0,
+        "Wood": 40,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "BuildTicks": 100,
+      "PopulationCapacity": 0,
+      "CanDropOff": true,
+      "TrainableUnitIds": [],
+      "Tags": 64,
+      "Armor": 2,
+      "CanCharter": true
+    },
+    {
+      "Id": "muster_hall",
+      "DisplayName": "Muster Hall",
+      "MaxHealth": 800,
+      "WidthCells": 3,
+      "DepthCells": 3,
+      "Cost": {
+        "Food": 0,
+        "Wood": 100,
+        "Metal": 0,
+        "Stone": 20
+      },
+      "BuildTicks": 240,
+      "PopulationCapacity": 0,
+      "CanDropOff": false,
+      "TrainableUnitIds": [
+        "reedguard",
+        "stringwarden",
+        "strider",
+        "threadkeeper",
+        "ashrunner",
+        "frostguard",
+        "boarding_raider",
+        "gunpowder_corsair",
+        "camel_archer",
+        "quilted_lancer"
+      ],
+      "Tags": 64,
+      "Armor": 2
+    },
+    {
+      "Id": "archive",
+      "DisplayName": "Archive",
+      "MaxHealth": 700,
+      "WidthCells": 3,
+      "DepthCells": 3,
+      "Cost": {
+        "Food": 0,
+        "Wood": 120,
+        "Metal": 0,
+        "Stone": 40
+      },
+      "BuildTicks": 240,
+      "PopulationCapacity": 0,
+      "CanDropOff": false,
+      "TrainableUnitIds": [],
+      "Tags": 64,
+      "Armor": 2,
+      "RequiredEraId": "kingdom",
+      "RequiredTechnologyIds": []
+    },
+    {
+      "Id": "supply_outpost",
+      "DisplayName": "Supply Outpost",
+      "MaxHealth": 450,
+      "WidthCells": 2,
+      "DepthCells": 2,
+      "Cost": {
+        "Food": 0,
+        "Wood": 80,
+        "Metal": 0,
+        "Stone": 20
+      },
+      "BuildTicks": 160,
+      "PopulationCapacity": 0,
+      "CanDropOff": true,
+      "TrainableUnitIds": [],
+      "Tags": 64,
+      "Armor": 1,
+      "RequiredEraId": "settlement",
+      "RequiredTechnologyIds": [],
+      "RequiredFactionId": "serevin",
+      "TransportUnitId": "supply_cart"
+    },
+    {
+      "Id": "wall",
+      "DisplayName": "Curtain Wall",
+      "MaxHealth": 900,
+      "WidthCells": 3,
+      "DepthCells": 1,
+      "Cost": {
+        "Food": 0,
+        "Wood": 10,
+        "Metal": 0,
+        "Stone": 40
+      },
+      "BuildTicks": 180,
+      "PopulationCapacity": 0,
+      "CanDropOff": false,
+      "TrainableUnitIds": [],
+      "Tags": 64,
+      "Armor": 3,
+      "RequiredEraId": "kingdom",
+      "IsWall": true,
+      "WallCapacity": 4,
+      "WallHeightMillimetres": 3000,
+      "OilDamage": 6,
+      "OilCooldownTicks": 120
+    },
+    {
+      "Id": "gate",
+      "DisplayName": "Fortress Gate",
+      "MaxHealth": 1000,
+      "WidthCells": 2,
+      "DepthCells": 1,
+      "Cost": {
+        "Food": 0,
+        "Wood": 40,
+        "Metal": 0,
+        "Stone": 60
+      },
+      "BuildTicks": 220,
+      "PopulationCapacity": 0,
+      "CanDropOff": false,
+      "TrainableUnitIds": [],
+      "Tags": 64,
+      "Armor": 3,
+      "RequiredEraId": "kingdom",
+      "IsGate": true,
+      "OilDamage": 12,
+      "OilCooldownTicks": 100
+    },
+    {
+      "Id": "watchtower",
+      "DisplayName": "Watchtower",
+      "MaxHealth": 650,
+      "WidthCells": 2,
+      "DepthCells": 2,
+      "Cost": {
+        "Food": 0,
+        "Wood": 100,
+        "Metal": 0,
+        "Stone": 100
+      },
+      "BuildTicks": 300,
+      "PopulationCapacity": 0,
+      "CanDropOff": false,
+      "TrainableUnitIds": [],
+      "Tags": 64,
+      "Armor": 3,
+      "RequiredEraId": "kingdom",
+      "Attack": {
+        "Damage": 14,
+        "RangeMillimetres": 6500,
+        "AcquireRangeMillimetres": 6500,
+        "CooldownTicks": 30,
+        "ProjectileSpeedMillimetresPerSecond": 12000,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": []
+      },
+      "OilDamage": 16,
+      "OilCooldownTicks": 100,
+      "VisionCells": 10
+    },
+    {
+      "Id": "keep",
+      "DisplayName": "Keep",
+      "MaxHealth": 2200,
+      "WidthCells": 4,
+      "DepthCells": 4,
+      "Cost": {
+        "Food": 0,
+        "Wood": 200,
+        "Metal": 0,
+        "Stone": 300
+      },
+      "BuildTicks": 700,
+      "PopulationCapacity": 5,
+      "CanDropOff": false,
+      "TrainableUnitIds": [],
+      "Tags": 64,
+      "Armor": 3,
+      "RequiredEraId": "dominion",
+      "Attack": {
+        "Damage": 26,
+        "RangeMillimetres": 7500,
+        "AcquireRangeMillimetres": 7500,
+        "CooldownTicks": 36,
+        "ProjectileSpeedMillimetresPerSecond": 8000,
+        "ProjectileLifetimeTicks": 400,
+        "Bonuses": []
+      },
+      "OilDamage": 24,
+      "OilCooldownTicks": 100,
+      "VisionCells": 12
+    },
+    {
+      "Id": "beast_lodge",
+      "DisplayName": "Beast Lodge",
+      "MaxHealth": 1000,
+      "WidthCells": 4,
+      "DepthCells": 3,
+      "Cost": {
+        "Food": 0,
+        "Wood": 160,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "BuildTicks": 320,
+      "PopulationCapacity": 0,
+      "CanDropOff": false,
+      "TrainableUnitIds": [
+        "dune_elephant",
+        "sun_lion",
+        "grove_guardian",
+        "war_troll",
+        "ember_drake"
+      ],
+      "Tags": 64,
+      "Armor": 3,
+      "RequiredEraId": "kingdom"
+    },
+    {
+      "Id": "siege_workshop",
+      "DisplayName": "Siege Workshop",
+      "MaxHealth": 850,
+      "WidthCells": 3,
+      "DepthCells": 3,
+      "Cost": {
+        "Food": 0,
+        "Wood": 160,
+        "Metal": 0,
+        "Stone": 40
+      },
+      "BuildTicks": 320,
+      "PopulationCapacity": 0,
+      "CanDropOff": false,
+      "TrainableUnitIds": [
+        "siege_ram",
+        "siege_ladder",
+        "siege_tower"
+      ],
+      "Tags": 64,
+      "Armor": 3,
+      "RequiredEraId": "kingdom"
+    },
+    {
+      "Id": "dock",
+      "DisplayName": "Dock",
+      "MaxHealth": 900,
+      "WidthCells": 3,
+      "DepthCells": 3,
+      "Cost": {
+        "Food": 0,
+        "Wood": 150,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "BuildTicks": 260,
+      "PopulationCapacity": 0,
+      "CanDropOff": true,
+      "TrainableUnitIds": [
+        "war_galley",
+        "pirate_sloop"
+      ],
+      "Tags": 64,
+      "Armor": 2,
+      "VisionCells": 9,
+      "RequiresShore": true
+    }
+  ],
+  "Resources": [
+    {
+      "Id": "food_source",
+      "DisplayName": "Orchard",
+      "Kind": 0,
+      "InitialAmount": 2000
+    },
+    {
+      "Id": "wood_source",
+      "DisplayName": "Copse",
+      "Kind": 1,
+      "InitialAmount": 2000
+    },
+    {
+      "Id": "metal_source",
+      "DisplayName": "Metal seam",
+      "Kind": 2,
+      "InitialAmount": 1500
+    },
+    {
+      "Id": "stone_source",
+      "DisplayName": "Stone outcrop",
+      "Kind": 3,
+      "InitialAmount": 1500
+    }
+  ],
+  "StartingResources": {
+    "Food": 120,
+    "Wood": 80,
+    "Metal": 0,
+    "Stone": 40
+  },
+  "BasePopulationCapacity": 0,
+  "MaxProductionQueue": 5,
+  "Factions": [
+    {
+      "Id": "aven",
+      "DisplayName": "Franceses",
+      "Kind": 0,
+      "WorkerCarryBonus": 1,
+      "CavalrySpeedBonusPermille": 0,
+      "CharterCost": {
+        "Food": 0,
+        "Wood": 40,
+        "Metal": 20,
+        "Stone": 0
+      },
+      "CharterTicks": 100,
+      "CharterRadiusMillimetres": 6000,
+      "LogisticsCarryBonus": 4,
+      "MusterWorkBonusPermille": 100,
+      "ReciprocalStoresTechnologyId": "aven_stores",
+      "ReciprocalRadiusBonusMillimetres": 2000,
+      "ThreadkeeperDeployTicks": 300,
+      "ThreadkeeperCooldownTicks": 400,
+      "RelayRadiusMillimetres": 4000,
+      "RealmId": "historical",
+      "Description": "Tenders carry one extra resource. Choose Storeyard logistics or muster charters, extended by Threadkeeper relays.",
+      "UniqueUnitId": "threadkeeper",
+      "UniqueTechnologyId": "aven_stores"
+    },
+    {
+      "Id": "serevin",
+      "DisplayName": "Hispanos",
+      "Kind": 1,
+      "WorkerCarryBonus": 1,
+      "CavalrySpeedBonusPermille": 150,
+      "PackTicks": 100,
+      "DeployTicks": 100,
+      "PreparedEncampmentsTechnologyId": "serevin_camps",
+      "PreparationReductionTicks": 40,
+      "RepositionTicks": 60,
+      "RepositionCooldownTicks": 300,
+      "RepositionSpeedBonusPermille": 500,
+      "RealmId": "historical",
+      "Description": "Cavalry move fifteen percent faster and Tenders carry one extra resource. Mobile outposts and Ashrunner repositioning reward flexible supply lines.",
+      "UniqueUnitId": "ashrunner",
+      "UniqueTechnologyId": "serevin_camps"
+    },
+    {
+      "Id": "miraj",
+      "DisplayName": "Miraj Sultanate",
+      "Kind": 2,
+      "RealmId": "historical",
+      "Description": "Caravans carry one extra resource. Slow, costly dune elephants break fortifications; spears and mobile archers punish them.",
+      "UniqueUnitId": "dune_elephant",
+      "UniqueTechnologyId": "miraj_howdahs",
+      "WorkerCarryBonus": 1
+    },
+    {
+      "Id": "skeld",
+      "DisplayName": "Hombres de las montañas",
+      "Kind": 3,
+      "RealmId": "fantasy",
+      "Description": "Infantry and cavalry gain one armor. Frostguards anchor costly shield formations; archers and superior economies can outmaneuver them.",
+      "UniqueUnitId": "frostguard",
+      "UniqueTechnologyId": "skeld_oathsteel",
+      "ArmorBonusTags": 6,
+      "ArmorBonus": 1
+    },
+    {
+      "Id": "solar",
+      "DisplayName": "Solar Kingdom",
+      "Kind": 4,
+      "RealmId": "fantasy",
+      "Description": "Wounded armies recover two health per second near a Hearth or Keep after six peaceful seconds. Sun Lions lead swift charges; ranged focus defeats their limited numbers.",
+      "UniqueUnitId": "sun_lion",
+      "UniqueTechnologyId": "solar_radiance",
+      "HomeHealingPerSecond": 2
+    },
+    {
+      "Id": "verdant",
+      "DisplayName": "Elfos",
+      "Kind": 5,
+      "RealmId": "fantasy",
+      "Description": "Workers gather one extra wood per operation. Grove Guardians regenerate slowly out of battle but struggle to pursue ranged enemies.",
+      "UniqueUnitId": "grove_guardian",
+      "UniqueTechnologyId": "verdant_heartwood",
+      "BonusGatherResource": 1,
+      "ResourceGatherBonus": 1
+    },
+    {
+      "Id": "ashen",
+      "DisplayName": "Orcos",
+      "Kind": 6,
+      "RealmId": "fantasy",
+      "Description": "Melee strikes restore two health to the attacker. War Trolls regenerate after combat; kiting and concentrated arrows deny sustain.",
+      "UniqueUnitId": "war_troll",
+      "UniqueTechnologyId": "ashen_bloodpact",
+      "MeleeLifeSteal": 2
+    },
+    {
+      "Id": "drakeforged",
+      "DisplayName": "Enanos",
+      "Kind": 7,
+      "RealmId": "fantasy",
+      "Description": "Workers gather one extra metal and carry one extra resource, and creatures gain one armor. Ember Drakes deliver ranged fire, but high food and metal costs constrain army size.",
+      "UniqueUnitId": "ember_drake",
+      "UniqueTechnologyId": "drakeforged_scales",
+      "BonusGatherResource": 2,
+      "ResourceGatherBonus": 1,
+      "ArmorBonusTags": 128,
+      "ArmorBonus": 1,
+      "WorkerCarryBonus": 1
+    },
+    {
+      "Id": "english",
+      "DisplayName": "Ingleses",
+      "Kind": 8,
+      "RealmId": "historical",
+      "Description": "Ejército del reino con infantería, arqueros y caballería. Sus tropas a distancia reciben un punto de armadura. La identidad visual nacional está pendiente.",
+      "ArmorBonusTags": 8,
+      "ArmorBonus": 1
+    },
+    {
+      "Id": "pirates",
+      "DisplayName": "Piratas",
+      "Kind": 9,
+      "RealmId": "naval",
+      "Description": "Capitán caribeño, saqueadores de abordaje, corsarios de pólvora y buscadoras de tesoros. Construye muelles para entrenar balandras, combatir en el mar y transportar tropas entre orillas.",
+      "UniqueUnitId": "crimson_corsair"
+    },
+    {
+      "Id": "sultanate",
+      "DisplayName": "Sultanato",
+      "Kind": 13,
+      "RealmId": "historical",
+      "Description": "Caravanas y canteras del desierto. Los Aldeanos recolectan una piedra más por ciclo y la caballería se mueve un diez por ciento más rápido. El Arquero de camello hostiga a la infantería desde la silla; la caballería enemiga lo alcanza y los arqueros a pie lo superan en alcance.",
+      "UniqueUnitId": "camel_archer",
+      "UniqueTechnologyId": "sultanate_composite_bows",
+      "BonusGatherResource": 3,
+      "ResourceGatherBonus": 1,
+      "CavalrySpeedBonusPermille": 100
+    },
+    {
+      "Id": "sahel",
+      "DisplayName": "Confederación del Sahel",
+      "Kind": 14,
+      "RealmId": "historical",
+      "Description": "Pastores y jinetes de la sabana. Los Aldeanos recolectan una comida más por ciclo y la infantería gana un punto de armadura por sus escudos de mimbre. El Jinete acolchado, con armadura de algodón, arrolla a los arqueros a pie y a caballo; las lanzas lo detienen.",
+      "UniqueUnitId": "quilted_lancer",
+      "UniqueTechnologyId": "sahel_quilted_barding",
+      "BonusGatherResource": 0,
+      "ResourceGatherBonus": 1,
+      "ArmorBonusTags": 2,
+      "ArmorBonus": 1
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "elf_gate_leaf",
+  "entry": {
+    "id": "elf_gate_leaf",
+    "style": "elf",
+    "building": "gate_leaf",
+    "size": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "height": 2.4,
+    "fit": "stretch",
+    "thin": true,
+    "triangles": 800,
+    "suffix": "Silver-grey wood, gold trim, royal blue emblem. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+    "prompt": "Low-poly game asset for a top-down strategy game: a single door leaf of carved silver-grey wood with openwork tracery of leaves and curling vines, thin gold trim and a royal blue leaf emblem at the centre, one single loose flat panel, nearly twice as tall as it is wide, seen face-on."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d5ee-47a6-700d-96aa-b4689bf68d89",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1249019631,
+        "prompt": "Low-poly game asset for a top-down strategy game: a single door leaf of carved silver-grey wood with openwork tracery of leaves and curling vines, thin gold trim and a royal blue leaf emblem at the centre, one single loose flat panel, nearly twice as tall as it is wide, seen face-on. Silver-grey wood, gold trim, royal blue emblem. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790295559668,
+        "progress": 100,
+        "started_at": 1790295559673,
+        "finished_at": 1790295570025,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5ee-47a6-700d-96aa-b4689bf68d89/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5ee-47a6-700d-96aa-b4689bf68d89/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T00:19:37.181252+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d5f4-1735-737c-b81f-d63984cd0b45",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1249019631,
+        "prompt": "Low-poly game asset for a top-down strategy game: a single door leaf of carved silver-grey wood with openwork tracery of leaves and curling vines, thin gold trim and a royal blue leaf emblem at the centre, one single loose flat panel, nearly twice as tall as it is wide, seen face-on. Silver-grey wood, gold trim, royal blue emblem. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790295939309,
+        "progress": 100,
+        "started_at": 1790295939315,
+        "finished_at": 1790295983181,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5f4-1735-737c-b81f-d63984cd0b45/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5f4-1735-737c-b81f-d63984cd0b45/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5f4-1735-737c-b81f-d63984cd0b45/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5f4-1735-737c-b81f-d63984cd0b45/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5f4-1735-737c-b81f-d63984cd0b45/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5f4-1735-737c-b81f-d63984cd0b45/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T00:26:30.742261+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_gate_leaf_model.glb",
+      "bytes": 5790556,
+      "sha256": "587e75e74c92a20e9ac112e8218229860a53719252a20c12987565c7a5c5b968"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 155723,
+      "sha256": "894a6bdafd31f25b20ac835dee246ab29b65c3a85f5516b64f55d318048767c7"
+    },
+    "texture_base_color": {
+      "file": "elf_gate_leaf_base_color.png",
+      "bytes": 4792307,
+      "sha256": "47eb0b71aeb065075211e8dca3aa92119f0f44fbd021cc9e5d8c9ce047ff59d9"
+    },
+    "texture_metallic": {
+      "file": "elf_gate_leaf_metallic.png",
+      "bytes": 25709,
+      "sha256": "42b716b6b556238b6a1b258e0e392a9336424318fb49cee30e6b86d0aa93077f"
+    },
+    "texture_roughness": {
+      "file": "elf_gate_leaf_roughness.png",
+      "bytes": 1217873,
+      "sha256": "c4ba4f9d0c615619b4026a2037837dc2f10bdef0be7c8005de67d830e2efdd0a"
+    },
+    "texture_normal": {
+      "file": "elf_gate_leaf_normal.png",
+      "bytes": 3308395,
+      "sha256": "abc7693c06120c61c1792f92dd52aa6fc305760ad0c3e9af7a795cb5de9c8e65"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 822,
+    "triangles": 800,
+    "fittedMetres": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.02,
+      0.981
+    ],
+    "thicknessScale": 0.735,
+    "teamMaskCoverage": 0.0275
+  }
+}

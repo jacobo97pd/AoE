@@ -1,0 +1,133 @@
+{
+  "id": "volcanic_thorn_tree",
+  "entry": {
+    "id": "volcanic_thorn_tree",
+    "role": "obstacle",
+    "kind": "thicket",
+    "lod0": 400,
+    "lod1": 160,
+    "farShell": true,
+    "height": 3.0,
+    "footprint": 1.7,
+    "size": 512,
+    "biome": "volcanic",
+    "priority": 6,
+    "polycount": 1000,
+    "fit": "box",
+    "prompt": "Twisted thorn tree: a gnarled trunk twisting as it rises, carrying a tall ragged crown of four fused chunky clumps bristling with big hooked thorns, crown taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, thick spikes only, no leaves, no thin twigs, hard edges, flat faces. One tree about 3 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Trunk: dark red-brown bark (#4A2E28) with ash-grey highlights (#76675F). Thorn clumps: deep oxblood red (#6E2420) darkening to near black at the base (#2E1E1C), with glowing ember-orange tips and cracks (#F07A2E) as the only bright accents. No leaves, no flames, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75c-a70e-73df-860d-c00b456dba8e",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2543295711,
+        "prompt": "Twisted thorn tree: a gnarled trunk twisting as it rises, carrying a tall ragged crown of four fused chunky clumps bristling with big hooked thorns, crown taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, thick spikes only, no leaves, no thin twigs, hard edges, flat faces. One tree about 3 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319570355,
+        "progress": 100,
+        "started_at": 1790319570361,
+        "finished_at": 1790319578356,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75c-a70e-73df-860d-c00b456dba8e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75c-a70e-73df-860d-c00b456dba8e/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:59:39.377941+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d75e-81b0-700c-a659-f78d92ea174b",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2543295711,
+        "prompt": "Twisted thorn tree: a gnarled trunk twisting as it rises, carrying a tall ragged crown of four fused chunky clumps bristling with big hooked thorns, crown taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, thick spikes only, no leaves, no thin twigs, hard edges, flat faces. One tree about 3 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Trunk: dark red-brown bark (#4A2E28) with ash-grey highlights (#76675F). Thorn clumps: deep oxblood red (#6E2420) darkening to near black at the base (#2E1E1C), with glowing ember-orange tips and cracks (#F07A2E) as the only bright accents. No leaves, no flames, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319691562,
+        "progress": 100,
+        "started_at": 1790319691568,
+        "finished_at": 1790319723873,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-81b0-700c-a659-f78d92ea174b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-81b0-700c-a659-f78d92ea174b/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-81b0-700c-a659-f78d92ea174b/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-81b0-700c-a659-f78d92ea174b/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-81b0-700c-a659-f78d92ea174b/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75e-81b0-700c-a659-f78d92ea174b/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:02:06.013724+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 69486,
+      "sha256": "e41e2b7cde83fd483799bc7766c2083a0f9c18666e64957f07d6896488eff06b"
+    },
+    "model_glb": {
+      "file": "volcanic_thorn_tree_model.glb",
+      "bytes": 4396408,
+      "sha256": "ef1ffab76b4f63a3c9db9e802fa092bf1a90cf1c1b41bddcd31bbfa55123043c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 70977,
+      "sha256": "56fb1748103bb608cf0b170c77b7921182c59f37f7fc9e5a28e4dfbf2c02a7f6"
+    },
+    "texture_base_color": {
+      "file": "volcanic_thorn_tree_base_color.png",
+      "bytes": 3801436,
+      "sha256": "364430ae6f8bd7e78c2d6b045ee1cb266d51a6c6e8f126d9fde6ffb38cf847be"
+    },
+    "texture_metallic": {
+      "file": "volcanic_thorn_tree_metallic.png",
+      "bytes": 40615,
+      "sha256": "e7feebc7d3d1f33db9c0ce15a30b94e4b80895ab36d1b8f6f229697408703133"
+    },
+    "texture_roughness": {
+      "file": "volcanic_thorn_tree_roughness.png",
+      "bytes": 1071751,
+      "sha256": "7f86bc8fa4050786306a27cff7a1248ba6728d06c84725147db77dfa6d0ec6e4"
+    },
+    "texture_normal": {
+      "file": "volcanic_thorn_tree_normal.png",
+      "bytes": 2870100,
+      "sha256": "21212021dc49b8a936bccbf4abddfdf358a03e81dc760dcbada4c88a79dcf94c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 849,
+    "lod0": 399,
+    "lod1": 160,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.637,
+      1.7,
+      3.0
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

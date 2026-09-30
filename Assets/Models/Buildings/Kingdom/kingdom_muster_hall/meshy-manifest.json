@@ -1,0 +1,42 @@
+{
+  "id": "kingdom_muster_hall",
+  "entry": {
+    "id": "kingdom_muster_hall",
+    "style": "kingdom",
+    "building": "muster_hall",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.4,
+    "prompt": "Generated on 2026-09-24 by tools/art/meshy_barracks.py (variant enclosed); see Assets/Models/Buildings/Barracks/meshy-manifest.json. Finished from those files with --finish-only; it has no blue cloth, so it takes no owner colour."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {},
+  "files": {},
+  "credits": 0,
+  "finish": {
+    "sourceTriangles": 3736,
+    "triangles": 3736,
+    "fittedMetres": [
+      2.88,
+      2.829,
+      1.851
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

@@ -1,0 +1,8 @@
+Result: Succeeded
+Errors: 0
+Warnings: 0
+Size: 164137326
+Duration: 00:00:14.0867560
+Output: C:/Users/jacob/Documents/AoE/Builds/Windows/Emberfield.exe
+
+Standalone application build GUID: cdf8183365404135975644fd3c935a58

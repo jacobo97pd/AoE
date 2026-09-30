@@ -1,0 +1,28 @@
+Passed: True
+Scenario: Technology
+Unity: 6000.3.23f1
+BuildGuid: 48c0b4723fb54362a3697c9027469896
+Resolution: 1440x1080
+Graphics: NVIDIA GeForce RTX 3060 Ti
+Map: amber_reach
+Era: empire
+Tier: 4
+CompletedResearch: advance_kingdom,gather_1,weapons_1,armor_1,advance_dominion,gather_2,advance_empire,weapons_2,armor_2
+ResearchCount: 9
+StartingStockUnmodified: True
+ResourcesPhysicallyGathered: True
+VisibleRaycastButtonDispatches: 9
+LastPurchaseChargedExactly: True
+EarlyArchiveRejected: True
+EarlyEmpireRejected: True
+ExistingTroopUpgraded: True
+NewTroopUpgraded: True
+EnemyUnchanged: True
+Archive: 208
+MusterHall: 209
+Population: 6+0/6
+Tick: 16338
+AcceleratedTicks: 16338
+YieldedFrames: 167
+TechnologyTicksAccelerated: True
+Failure:

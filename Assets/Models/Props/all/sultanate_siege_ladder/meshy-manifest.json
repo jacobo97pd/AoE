@@ -1,0 +1,140 @@
+{
+  "id": "sultanate_siege_ladder",
+  "entry": {
+    "id": "sultanate_siege_ladder",
+    "role": "siege",
+    "kind": "siege_ladder",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 3.8,
+    "footprint": 2.0,
+    "size": 1024,
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "biome": "all",
+    "factions": [
+      "sultanate"
+    ],
+    "priority": 5,
+    "prompt": "Tall siege ladder leaning steeply forward on a low timber sled: two straight rails of lashed palm trunks, eight flat wooden rungs, rope lashings at every joint, a woven reed mat tied over the sled and a turquoise cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Palm-trunk rails: warm sandy timber (#B89A6A) with darker ring bands (#8E765F). Rungs and sled: mid-brown wood (#8E765F). Rope lashings: pale hemp (#C9B98F). Reed mat: straw (#C9B07A). Pennant: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, blood, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3b6-e9a4-754b-96bf-5a10ebc7cfe0",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 970793816,
+        "prompt": "Tall siege ladder leaning steeply forward on a low timber sled: two straight rails of lashed palm trunks, eight flat wooden rungs, rope lashings at every joint, a woven reed mat tied over the sled and a turquoise cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526812599,
+        "progress": 100,
+        "started_at": 1790526812608,
+        "finished_at": 1790526823915,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b6-e9a4-754b-96bf-5a10ebc7cfe0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b6-e9a4-754b-96bf-5a10ebc7cfe0/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T16:33:50.089672+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3b7-386c-75cd-9c10-44fa7446baf3",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 970793816,
+        "prompt": "Tall siege ladder leaning steeply forward on a low timber sled: two straight rails of lashed palm trunks, eight flat wooden rungs, rope lashings at every joint, a woven reed mat tied over the sled and a turquoise cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Palm-trunk rails: warm sandy timber (#B89A6A) with darker ring bands (#8E765F). Rungs and sled: mid-brown wood (#8E765F). Rope lashings: pale hemp (#C9B98F). Reed mat: straw (#C9B07A). Pennant: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, blood, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526832790,
+        "progress": 100,
+        "started_at": 1790526832797,
+        "finished_at": 1790526937904,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b7-386c-75cd-9c10-44fa7446baf3/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b7-386c-75cd-9c10-44fa7446baf3/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b7-386c-75cd-9c10-44fa7446baf3/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b7-386c-75cd-9c10-44fa7446baf3/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b7-386c-75cd-9c10-44fa7446baf3/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b7-386c-75cd-9c10-44fa7446baf3/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:35:43.462278+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 53756,
+      "sha256": "c9b1bd696dccf1f3bcae4d2d70be9bdfc2313d81bc581f7ec595a21143a6a961"
+    },
+    "model_glb": {
+      "file": "sultanate_siege_ladder_model.glb",
+      "bytes": 6222776,
+      "sha256": "dd7b22f65aba8367d736a894f4be6d93542df8c0180d3c4dda1c2f0e4e94030f"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 59560,
+      "sha256": "e1f695d7772162300f9b9a32aa73ec4dba9d0f50edf8ad9e56ecb99344ab2cc4"
+    },
+    "texture_base_color": {
+      "file": "sultanate_siege_ladder_base_color.png",
+      "bytes": 4222988,
+      "sha256": "d17c68710c9d0a2ee81b7b9c043a9b9c1e8c7b49317fb5855f90fdd8f56c0169"
+    },
+    "texture_metallic": {
+      "file": "sultanate_siege_ladder_metallic.png",
+      "bytes": 41455,
+      "sha256": "9569a01444ae9fd8c8bf63d1d0eb08b8c7ddb0c724173710da6bce2ee834007f"
+    },
+    "texture_roughness": {
+      "file": "sultanate_siege_ladder_roughness.png",
+      "bytes": 1009048,
+      "sha256": "9c0a0405b933d24016f829c573ae1d8f79d7c67bf4ce1bd867bc5b167d58a148"
+    },
+    "texture_normal": {
+      "file": "sultanate_siege_ladder_normal.png",
+      "bytes": 3307738,
+      "sha256": "b768e9e06c1c81e45b3a660f25bdac22e4042b250852e9687610a9775a74977f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3938,
+    "lod0": 3499,
+    "lod1": 899,
+    "fittedMetres": [
+      0.809,
+      1.774,
+      3.8
+    ],
+    "teamMaskCoverage": 0.0136
+  }
+}

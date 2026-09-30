@@ -1,0 +1,35 @@
+{
+  "id": "orc_worker",
+  "concept": {
+    "references": [
+      "orc_warrior",
+      "orc_troll"
+    ],
+    "prompt": "Same rendering style, same green-skinned orc people and the same crude leather, bone and iron gear as these figures: a wiry orc labourer with a leather apron and rope belt, a heavy pickaxe and a wicker basket strapped on his back."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0d336-fd53-7160-a492-eda78db77006",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same rendering style, same green-skinned orc people and the same crude leather, bone and iron gear as these figures: a wiry orc labourer with a leather apron and rope belt, a heavy pickaxe and a wicker basket strapped on his back. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790249992896,
+    "started_at": 1790249992902,
+    "finished_at": 1790250126673,
+    "expires_at": 1790509326673,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d336-fd53-7160-a492-eda78db77006_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 3544,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1314624,
+    "sha256": "ac1d95af5185d14d58ddecd6f045caad8edea6c6347b7f095d287dbff098975e"
+  },
+  "finished_utc": "2026-09-24T11:42:09.534408+00:00"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "caribbean_ship",
+  "entry": {
+    "id": "caribbean_ship",
+    "role": "landmark",
+    "kind": "ship",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 5.4,
+    "footprint": 5.6,
+    "size": 1024,
+    "biome": "caribbean",
+    "priority": 4,
+    "prompt": "Single-masted merchant sloop at anchor: a broad rounded wooden hull, one tall mast with a furled cream sail on its yard, a raised stern deck. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, the bow points forward. About 1.6 m wide, 4.5 m long and 5.4 m tall. Isolated, no ground, no water, no crew, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Hull: warm dark timber (#6B563F) with a pale stripe (#D8C7A0) at the rail. Deck: mid-brown planks (#8E765F). Furled sail: cream canvas (#EDE7D0). Rigging: pale hemp (#C9B98F). No flags, no skulls, no text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43a-f689-717a-a7d9-43c66ee23d7e",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 571405354,
+        "prompt": "Single-masted merchant sloop at anchor: a broad rounded wooden hull, one tall mast with a furled cream sail on its yard, a raised stern deck. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, the bow points forward. About 1.6 m wide, 4.5 m long and 5.4 m tall. Isolated, no ground, no water, no crew, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267030795,
+        "progress": 100,
+        "started_at": 1790267030802,
+        "finished_at": 1790267045379,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-f689-717a-a7d9-43c66ee23d7e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-f689-717a-a7d9-43c66ee23d7e/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:24:08.300169+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43b-4423-73b2-a4a5-a24a383c1c24",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 571405354,
+        "prompt": "Single-masted merchant sloop at anchor: a broad rounded wooden hull, one tall mast with a furled cream sail on its yard, a raised stern deck. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, the bow points forward. About 1.6 m wide, 4.5 m long and 5.4 m tall. Isolated, no ground, no water, no crew, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Hull: warm dark timber (#6B563F) with a pale stripe (#D8C7A0) at the rail. Deck: mid-brown planks (#8E765F). Furled sail: cream canvas (#EDE7D0). Rigging: pale hemp (#C9B98F). No flags, no skulls, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267050579,
+        "progress": 100,
+        "started_at": 1790267050586,
+        "finished_at": 1790267110724,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-4423-73b2-a4a5-a24a383c1c24/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-4423-73b2-a4a5-a24a383c1c24/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-4423-73b2-a4a5-a24a383c1c24/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-4423-73b2-a4a5-a24a383c1c24/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-4423-73b2-a4a5-a24a383c1c24/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-4423-73b2-a4a5-a24a383c1c24/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:25:18.907922+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 120105,
+      "sha256": "57ce9babae1059c407620c0036ffd72929926252a45b19d97f691f1b73da0a59"
+    },
+    "model_glb": {
+      "file": "caribbean_ship_model.glb",
+      "bytes": 6096244,
+      "sha256": "8588e5903f15b13e77379698ce8f3cb1b235379212fd2264540ac20240429991"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 144603,
+      "sha256": "c376e47e7170236ad9a21ee6fa6a45a29e392cf36d53eef55f551c5f0903318e"
+    },
+    "texture_base_color": {
+      "file": "caribbean_ship_base_color.png",
+      "bytes": 4616893,
+      "sha256": "fb799ce69892dea0c9fda67b2211395222f7575986a49cd51cd1fc3c75e00d11"
+    },
+    "texture_metallic": {
+      "file": "caribbean_ship_metallic.png",
+      "bytes": 89483,
+      "sha256": "d79891841006ffa6c52ef83e7215569bfc87d703a61ea8c616a8a43827789ae3"
+    },
+    "texture_roughness": {
+      "file": "caribbean_ship_roughness.png",
+      "bytes": 1212169,
+      "sha256": "47a6e85bf6c2723d6e3cd1877ac48b5b1acafa63cb365a126589e7f58c062693"
+    },
+    "texture_normal": {
+      "file": "caribbean_ship_normal.png",
+      "bytes": 3656077,
+      "sha256": "7a1600bc61debe70aec1c7d30e815abc610fc036d4a8a9f009f40ac1c2314b2f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3644,
+    "lod0": 3499,
+    "lod1": 800,
+    "fittedMetres": [
+      1.972,
+      5.4,
+      5.4
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

@@ -1,0 +1,1302 @@
+{
+  "materials": [
+    {
+      "name": "ENV_Limestone",
+      "baseColorTexture": "Textures/medieval_blocks_05_diffuse.jpg",
+      "normalTexture": "Textures/medieval_blocks_05_nor_gl.jpg",
+      "roughnessTexture": "Textures/medieval_blocks_05_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.88,
+        0.87,
+        0.81,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_CutLimestone",
+      "baseColorTexture": "Textures/medieval_blocks_05_diffuse.jpg",
+      "normalTexture": "Textures/medieval_blocks_05_nor_gl.jpg",
+      "roughnessTexture": "Textures/medieval_blocks_05_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.96,
+        0.95,
+        0.87,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_CourtyardCobble",
+      "baseColorTexture": "Textures/cobblestone_floor_08_diffuse.jpg",
+      "normalTexture": "Textures/cobblestone_floor_08_nor_gl.jpg",
+      "roughnessTexture": "Textures/cobblestone_floor_08_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.9,
+        0.9,
+        0.84,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_WoodlandSoil",
+      "baseColorTexture": "Textures/leafy_grass_diffuse.jpg",
+      "normalTexture": "Textures/leafy_grass_nor_gl.jpg",
+      "roughnessTexture": "Textures/leafy_grass_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.32,
+        0.8,
+        0.25,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_Slate",
+      "baseColorTexture": "Textures/roof_slates_02_diffuse.jpg",
+      "normalTexture": "Textures/roof_slates_02_nor_gl.jpg",
+      "roughnessTexture": "Textures/roof_slates_02_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.26,
+        0.38,
+        0.5,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_SlateWeathered",
+      "baseColorTexture": "Textures/roof_slates_02_diffuse.jpg",
+      "normalTexture": "Textures/roof_slates_02_nor_gl.jpg",
+      "roughnessTexture": "Textures/roof_slates_02_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.34,
+        0.46,
+        0.57,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_LimePlaster",
+      "baseColorTexture": "",
+      "normalTexture": "Textures/white_rough_plaster_nor_gl.jpg",
+      "roughnessTexture": "Textures/white_rough_plaster_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.73,
+        0.69,
+        0.58,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_Oak",
+      "baseColorTexture": "Textures/wood_planks_dirt_diffuse.jpg",
+      "normalTexture": "Textures/wood_planks_dirt_nor_gl.jpg",
+      "roughnessTexture": "Textures/wood_planks_dirt_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.5,
+        0.38,
+        0.24,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_CastleDoor",
+      "baseColorTexture": "Textures/large_castle_door_diffuse.jpg",
+      "normalTexture": "Textures/large_castle_door_nor_gl.jpg",
+      "roughnessTexture": "Textures/large_castle_door_rough.jpg",
+      "metallicTexture": "Textures/large_castle_door_metal.jpg",
+      "opacityTexture": "",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_Barrel",
+      "baseColorTexture": "Textures/wine_barrel_01_diffuse.jpg",
+      "normalTexture": "Textures/wine_barrel_01_nor_gl.jpg",
+      "roughnessTexture": "Textures/wine_barrel_01_rough.jpg",
+      "metallicTexture": "Textures/wine_barrel_01_metal.jpg",
+      "opacityTexture": "",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_Crate",
+      "baseColorTexture": "Textures/wooden_crate_01_diffuse.jpg",
+      "normalTexture": "Textures/wooden_crate_01_nor_gl.jpg",
+      "roughnessTexture": "Textures/wooden_crate_01_rough.jpg",
+      "metallicTexture": "Textures/wooden_crate_01_metal.jpg",
+      "opacityTexture": "",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_Fern",
+      "baseColorTexture": "Textures/fern_02_diffuse.jpg",
+      "normalTexture": "Textures/fern_02_nor_gl.jpg",
+      "roughnessTexture": "Textures/fern_02_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "Textures/fern_02_alpha.png",
+      "color": [
+        0.79,
+        0.86,
+        0.71,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": true,
+      "doubleSided": true,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_Grass",
+      "baseColorTexture": "Textures/grass_medium_01_diffuse.jpg",
+      "normalTexture": "Textures/grass_medium_01_nor_gl.jpg",
+      "roughnessTexture": "Textures/grass_medium_01_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "Textures/grass_medium_01_alpha.png",
+      "color": [
+        0.83,
+        0.87,
+        0.73,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": true,
+      "doubleSided": true,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_MossRock",
+      "baseColorTexture": "Textures/rock_moss_set_01_diffuse.jpg",
+      "normalTexture": "Textures/rock_moss_set_01_nor_gl.jpg",
+      "roughnessTexture": "Textures/rock_moss_set_01_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_TreeBark",
+      "baseColorTexture": "Textures/tree_small_02_diffuse.jpg",
+      "normalTexture": "Textures/tree_small_02_nor_gl.jpg",
+      "roughnessTexture": "Textures/tree_small_02_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_TreeBranch",
+      "baseColorTexture": "Textures/tree_small_02_branch_diff.jpg",
+      "normalTexture": "Textures/tree_small_02_branch_nor_gl.jpg",
+      "roughnessTexture": "Textures/tree_small_02_branch_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_TreeLeaf",
+      "baseColorTexture": "Textures/tree_small_02_leaves_diff.jpg",
+      "normalTexture": "Textures/tree_small_02_leaves_nor_gl.jpg",
+      "roughnessTexture": "Textures/tree_small_02_leaves_rough.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "Textures/tree_small_02_leaves_alpha.png",
+      "color": [
+        0.85,
+        0.91,
+        0.8,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.30000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": true,
+      "doubleSided": true,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_ForgedIron",
+      "baseColorTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.045,
+        0.055,
+        0.064,
+        1
+      ],
+      "metallic": 0.85,
+      "smoothness": 0.5700000000000001,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_AgedBrass",
+      "baseColorTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.31,
+        0.2,
+        0.065,
+        1
+      ],
+      "metallic": 0.7,
+      "smoothness": 0.62,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_KingdomBlueCloth",
+      "baseColorTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.035,
+        0.11,
+        0.23,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.17000000000000004,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_KingdomGoldEmbroidery",
+      "baseColorTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.63,
+        0.43,
+        0.12,
+        1
+      ],
+      "metallic": 0.18,
+      "smoothness": 0.35,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_OldWindowGlass",
+      "baseColorTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.07,
+        0.12,
+        0.105,
+        1
+      ],
+      "metallic": 0.25,
+      "smoothness": 0.7,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_InteriorShadow",
+      "baseColorTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.023,
+        0.02,
+        0.016,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_LanternGlass",
+      "baseColorTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.81,
+        0.51,
+        0.19,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.69,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false,
+      "colorSpace": "linear"
+    },
+    {
+      "name": "ENV_WornSoilPath",
+      "baseColorTexture": "Textures/courtyard_trail_diffuse_1k.jpg",
+      "normalTexture": "Textures/courtyard_trail_nor_gl_1k.jpg",
+      "roughnessTexture": "Textures/courtyard_trail_rough_1k.jpg",
+      "metallicTexture": "",
+      "opacityTexture": "",
+      "color": [
+        0.67,
+        0.6,
+        0.46,
+        1
+      ],
+      "colorSpace": "linear",
+      "metallic": 0,
+      "smoothness": 0.1,
+      "tiling": [
+        1,
+        1
+      ],
+      "cutout": false,
+      "doubleSided": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "fern_02",
+      "url": "https://polyhaven.com/a/fern_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rob Tuytel, Rico Cilliers"
+    },
+    {
+      "id": "grass_medium_01",
+      "url": "https://polyhaven.com/a/grass_medium_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rob Tuytel, Rico Cilliers"
+    },
+    {
+      "id": "rock_moss_set_01",
+      "url": "https://polyhaven.com/a/rock_moss_set_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Kless Gyzen"
+    },
+    {
+      "id": "wine_barrel_01",
+      "url": "https://polyhaven.com/a/wine_barrel_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "James Ray Cock"
+    },
+    {
+      "id": "large_castle_door",
+      "url": "https://polyhaven.com/a/large_castle_door",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Tina"
+    },
+    {
+      "id": "wooden_crate_01",
+      "url": "https://polyhaven.com/a/wooden_crate_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "James Ray Cock"
+    },
+    {
+      "id": "cobblestone_floor_08",
+      "url": "https://polyhaven.com/a/cobblestone_floor_08",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rob Tuytel"
+    },
+    {
+      "id": "roof_slates_02",
+      "url": "https://polyhaven.com/a/roof_slates_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rob Tuytel"
+    },
+    {
+      "id": "tree_small_02",
+      "url": "https://polyhaven.com/a/tree_small_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rico Cilliers"
+    },
+    {
+      "id": "brown_mud_leaves_01",
+      "url": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rob Tuytel"
+    },
+    {
+      "id": "medieval_blocks_05",
+      "url": "https://polyhaven.com/a/medieval_blocks_05",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rob Tuytel"
+    },
+    {
+      "id": "white_rough_plaster",
+      "url": "https://polyhaven.com/a/white_rough_plaster",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rob Tuytel"
+    },
+    {
+      "id": "wood_planks_dirt",
+      "url": "https://polyhaven.com/a/wood_planks_dirt",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Rob Tuytel"
+    },
+    {
+      "id": "leafy_grass",
+      "url": "https://polyhaven.com/a/leafy_grass",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "author": "Charlotte Baglioni"
+    }
+  ],
+  "coordinateSystem": {
+    "authoring": "Blender right-handed Z up, depth +Y",
+    "export": "FBX forward -Z, up Y, metres, scale 1; standard Blender FBX axis transform",
+    "intendedUnity": "Facade faces -Z. Ground is Y=0. Building centre X=0 Z=6.",
+    "unityCharacterPositions": [
+      [
+        -2.2,
+        0,
+        -3
+      ],
+      [
+        0,
+        0,
+        -3
+      ],
+      [
+        2.4,
+        0,
+        -3
+      ]
+    ],
+    "expectedUnityPlacement": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationEuler": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "unityImportConfirmed": "Root Unity bake confirmed depth Z inverted; environment root yaw 180 restores intended courtyard placement."
+  },
+  "authoring": {
+    "script": "tools/art/kingdom_environment.py",
+    "blend": "D:\\CodexTooling\\kingdom-premium\\environment\\kingdom_environment_final.blend",
+    "nativePreview": "D:\\CodexTooling\\kingdom-premium\\environment\\kingdom-courtyard-final.png",
+    "qualityStatus": "Native environment asset. Unity/player appearance and performance require separate validation.",
+    "finishingScript": "tools/art/kingdom_environment_transition.py --from-base",
+    "sourceDownloadIndex": "D:/CodexTooling/kingdom-premium/environment/download-index.json",
+    "rebuildSequence": [
+      "kingdom_environment_assets.py (Python)",
+      "kingdom_environment_probe.py (Blender)",
+      "kingdom_environment_tree.py (Blender)",
+      "kingdom_environment.py (Blender; calls textures helper)",
+      "kingdom_environment_transition.py -- --from-base (Blender)",
+      "Copy staged FBX, manifest and three trail JPEGs into Environment",
+      "kingdom_environment_validate.py (Blender)"
+    ]
+  },
+  "statistics": {
+    "tree": {
+      "sourceTriangles": 2062487,
+      "exportTrianglesPerTree": 349999,
+      "method": "Moderate collapse reduction; crown compared visually with untouched source in native Blender render",
+      "materials": {
+        "0": {
+          "name": "ENV_TreeBranch",
+          "triangles": 5936
+        },
+        "1": {
+          "name": "ENV_TreeLeaf",
+          "triangles": 340080
+        },
+        "2": {
+          "name": "ENV_TreeBark",
+          "triangles": 3983
+        }
+      },
+      "visualComparison": "D:\\CodexTooling\\kingdom-premium\\environment\\tree-crown-comparison.png"
+    },
+    "meshObjects": 961,
+    "uniqueMeshes": 36,
+    "evaluatedTriangles": 5590279,
+    "textureBytes": 52389227,
+    "fbxBytes": 74149420
+  },
+  "textureSources": [
+    {
+      "path": "Textures/cobblestone_floor_08_diffuse.jpg",
+      "sourceId": "cobblestone_floor_08",
+      "sourceUrl": "https://polyhaven.com/a/cobblestone_floor_08",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_diff_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/cobblestone_floor_08_nor_gl.jpg",
+      "sourceId": "cobblestone_floor_08",
+      "sourceUrl": "https://polyhaven.com/a/cobblestone_floor_08",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_nor_gl_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/cobblestone_floor_08_rough.jpg",
+      "sourceId": "cobblestone_floor_08",
+      "sourceUrl": "https://polyhaven.com/a/cobblestone_floor_08",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_rough_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/courtyard_trail_diffuse_1k.jpg",
+      "sourceId": "brown_mud_leaves_01",
+      "sourceUrl": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_leaves_01/brown_mud_leaves_01_diff_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "Resized to 1024 square; JPEG quality 94, 4:4:4"
+    },
+    {
+      "path": "Textures/courtyard_trail_nor_gl_1k.jpg",
+      "sourceId": "brown_mud_leaves_01",
+      "sourceUrl": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "Resized to 1024 square; JPEG quality 94, 4:4:4"
+    },
+    {
+      "path": "Textures/courtyard_trail_rough_1k.jpg",
+      "sourceId": "brown_mud_leaves_01",
+      "sourceUrl": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_leaves_01/brown_mud_leaves_01_rough_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "Resized to 1024 square; JPEG quality 94, 4:4:4"
+    },
+    {
+      "path": "Textures/fern_02_alpha.png",
+      "sourceId": "fern_02",
+      "sourceUrl": "https://polyhaven.com/a/fern_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fern_02/fern_02_alpha_1k.png",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "processing": "Lossless source PNG copied unchanged"
+    },
+    {
+      "path": "Textures/fern_02_diffuse.jpg",
+      "sourceId": "fern_02",
+      "sourceUrl": "https://polyhaven.com/a/fern_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/fern_02_nor_gl.jpg",
+      "sourceId": "fern_02",
+      "sourceUrl": "https://polyhaven.com/a/fern_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/fern_02_rough.jpg",
+      "sourceId": "fern_02",
+      "sourceUrl": "https://polyhaven.com/a/fern_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/grass_medium_01_alpha.png",
+      "sourceId": "grass_medium_01",
+      "sourceUrl": "https://polyhaven.com/a/grass_medium_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/grass_medium_01/grass_medium_01_alpha_1k.png",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "processing": "Lossless source PNG copied unchanged"
+    },
+    {
+      "path": "Textures/grass_medium_01_diffuse.jpg",
+      "sourceId": "grass_medium_01",
+      "sourceUrl": "https://polyhaven.com/a/grass_medium_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/grass_medium_01/grass_medium_01_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/grass_medium_01_nor_gl.jpg",
+      "sourceId": "grass_medium_01",
+      "sourceUrl": "https://polyhaven.com/a/grass_medium_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/grass_medium_01/grass_medium_01_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/grass_medium_01_rough.jpg",
+      "sourceId": "grass_medium_01",
+      "sourceUrl": "https://polyhaven.com/a/grass_medium_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/grass_medium_01/grass_medium_01_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/large_castle_door_diffuse.jpg",
+      "sourceId": "large_castle_door",
+      "sourceUrl": "https://polyhaven.com/a/large_castle_door",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/large_castle_door/large_castle_door_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Tina",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/large_castle_door_metal.jpg",
+      "sourceId": "large_castle_door",
+      "sourceUrl": "https://polyhaven.com/a/large_castle_door",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/large_castle_door/large_castle_door_metal_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Tina",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/large_castle_door_nor_gl.jpg",
+      "sourceId": "large_castle_door",
+      "sourceUrl": "https://polyhaven.com/a/large_castle_door",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/large_castle_door/large_castle_door_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Tina",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/large_castle_door_rough.jpg",
+      "sourceId": "large_castle_door",
+      "sourceUrl": "https://polyhaven.com/a/large_castle_door",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/large_castle_door/large_castle_door_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Tina",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/leafy_grass_diffuse.jpg",
+      "sourceId": "leafy_grass",
+      "sourceUrl": "https://polyhaven.com/a/leafy_grass",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leafy_grass/leafy_grass_diff_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Charlotte Baglioni",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/leafy_grass_nor_gl.jpg",
+      "sourceId": "leafy_grass",
+      "sourceUrl": "https://polyhaven.com/a/leafy_grass",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leafy_grass/leafy_grass_nor_gl_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Charlotte Baglioni",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/leafy_grass_rough.jpg",
+      "sourceId": "leafy_grass",
+      "sourceUrl": "https://polyhaven.com/a/leafy_grass",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leafy_grass/leafy_grass_rough_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Charlotte Baglioni",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/medieval_blocks_05_diffuse.jpg",
+      "sourceId": "medieval_blocks_05",
+      "sourceUrl": "https://polyhaven.com/a/medieval_blocks_05",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/medieval_blocks_05/medieval_blocks_05_diff_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/medieval_blocks_05_nor_gl.jpg",
+      "sourceId": "medieval_blocks_05",
+      "sourceUrl": "https://polyhaven.com/a/medieval_blocks_05",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/medieval_blocks_05/medieval_blocks_05_nor_gl_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/medieval_blocks_05_rough.jpg",
+      "sourceId": "medieval_blocks_05",
+      "sourceUrl": "https://polyhaven.com/a/medieval_blocks_05",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/medieval_blocks_05/medieval_blocks_05_rough_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/rock_moss_set_01_diffuse.jpg",
+      "sourceId": "rock_moss_set_01",
+      "sourceUrl": "https://polyhaven.com/a/rock_moss_set_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Kless Gyzen",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/rock_moss_set_01_nor_gl.jpg",
+      "sourceId": "rock_moss_set_01",
+      "sourceUrl": "https://polyhaven.com/a/rock_moss_set_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Kless Gyzen",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/rock_moss_set_01_rough.jpg",
+      "sourceId": "rock_moss_set_01",
+      "sourceUrl": "https://polyhaven.com/a/rock_moss_set_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Kless Gyzen",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/roof_slates_02_diffuse.jpg",
+      "sourceId": "roof_slates_02",
+      "sourceUrl": "https://polyhaven.com/a/roof_slates_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/roof_slates_02/roof_slates_02_diff_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/roof_slates_02_nor_gl.jpg",
+      "sourceId": "roof_slates_02",
+      "sourceUrl": "https://polyhaven.com/a/roof_slates_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/roof_slates_02/roof_slates_02_nor_gl_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/roof_slates_02_rough.jpg",
+      "sourceId": "roof_slates_02",
+      "sourceUrl": "https://polyhaven.com/a/roof_slates_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/roof_slates_02/roof_slates_02_rough_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_branch_diff.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_branch_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_branch_nor_gl.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_branch_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_branch_rough.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_branch_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_diffuse.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_leaves_alpha.png",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tree_small_02/tree_small_02_leaves_alpha_1k.png",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "Lossless source PNG copied unchanged"
+    },
+    {
+      "path": "Textures/tree_small_02_leaves_diff.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_leaves_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_leaves_nor_gl.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_leaves_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_leaves_rough.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_leaves_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_nor_gl.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/tree_small_02_rough.jpg",
+      "sourceId": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/white_rough_plaster_diffuse.jpg",
+      "sourceId": "white_rough_plaster",
+      "sourceUrl": "https://polyhaven.com/a/white_rough_plaster",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_rough_plaster/white_rough_plaster_diff_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/white_rough_plaster_nor_gl.jpg",
+      "sourceId": "white_rough_plaster",
+      "sourceUrl": "https://polyhaven.com/a/white_rough_plaster",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_rough_plaster/white_rough_plaster_nor_gl_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/white_rough_plaster_rough.jpg",
+      "sourceId": "white_rough_plaster",
+      "sourceUrl": "https://polyhaven.com/a/white_rough_plaster",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_rough_plaster/white_rough_plaster_rough_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wine_barrel_01_diffuse.jpg",
+      "sourceId": "wine_barrel_01",
+      "sourceUrl": "https://polyhaven.com/a/wine_barrel_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wine_barrel_01/wine_barrel_01_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wine_barrel_01_metal.jpg",
+      "sourceId": "wine_barrel_01",
+      "sourceUrl": "https://polyhaven.com/a/wine_barrel_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wine_barrel_01/wine_barrel_01_metal_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wine_barrel_01_nor_gl.jpg",
+      "sourceId": "wine_barrel_01",
+      "sourceUrl": "https://polyhaven.com/a/wine_barrel_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wine_barrel_01/wine_barrel_01_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wine_barrel_01_rough.jpg",
+      "sourceId": "wine_barrel_01",
+      "sourceUrl": "https://polyhaven.com/a/wine_barrel_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wine_barrel_01/wine_barrel_01_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wood_planks_dirt_diffuse.jpg",
+      "sourceId": "wood_planks_dirt",
+      "sourceUrl": "https://polyhaven.com/a/wood_planks_dirt",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_planks_dirt/wood_planks_dirt_diff_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wood_planks_dirt_nor_gl.jpg",
+      "sourceId": "wood_planks_dirt",
+      "sourceUrl": "https://polyhaven.com/a/wood_planks_dirt",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_planks_dirt/wood_planks_dirt_nor_gl_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wood_planks_dirt_rough.jpg",
+      "sourceId": "wood_planks_dirt",
+      "sourceUrl": "https://polyhaven.com/a/wood_planks_dirt",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_planks_dirt/wood_planks_dirt_rough_2k.jpg",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wooden_crate_01_diffuse.jpg",
+      "sourceId": "wooden_crate_01",
+      "sourceUrl": "https://polyhaven.com/a/wooden_crate_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_crate_01/wooden_crate_01_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wooden_crate_01_metal.jpg",
+      "sourceId": "wooden_crate_01",
+      "sourceUrl": "https://polyhaven.com/a/wooden_crate_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_crate_01/wooden_crate_01_metal_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wooden_crate_01_nor_gl.jpg",
+      "sourceId": "wooden_crate_01",
+      "sourceUrl": "https://polyhaven.com/a/wooden_crate_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_crate_01/wooden_crate_01_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    },
+    {
+      "path": "Textures/wooden_crate_01_rough.jpg",
+      "sourceId": "wooden_crate_01",
+      "sourceUrl": "https://polyhaven.com/a/wooden_crate_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_crate_01/wooden_crate_01_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock",
+      "processing": "JPEG re-encoded at quality 94, 4:4:4; original dimensions retained"
+    }
+  ],
+  "meshSources": [
+    {
+      "id": "fern_02",
+      "sourceUrl": "https://polyhaven.com/a/fern_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/fern_02/fern_02_1k.fbx",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers"
+    },
+    {
+      "id": "grass_medium_01",
+      "sourceUrl": "https://polyhaven.com/a/grass_medium_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/grass_medium_01/grass_medium_01_1k.fbx",
+      "license": "CC0-1.0",
+      "author": "Rob Tuytel, Rico Cilliers"
+    },
+    {
+      "id": "rock_moss_set_01",
+      "sourceUrl": "https://polyhaven.com/a/rock_moss_set_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/rock_moss_set_01/rock_moss_set_01_1k.fbx",
+      "license": "CC0-1.0",
+      "author": "Kless Gyzen"
+    },
+    {
+      "id": "wine_barrel_01",
+      "sourceUrl": "https://polyhaven.com/a/wine_barrel_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/wine_barrel_01/wine_barrel_01_1k.fbx",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock"
+    },
+    {
+      "id": "large_castle_door",
+      "sourceUrl": "https://polyhaven.com/a/large_castle_door",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/large_castle_door/large_castle_door_1k.fbx",
+      "license": "CC0-1.0",
+      "author": "Tina"
+    },
+    {
+      "id": "wooden_crate_01",
+      "sourceUrl": "https://polyhaven.com/a/wooden_crate_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/wooden_crate_01/wooden_crate_01_1k.fbx",
+      "license": "CC0-1.0",
+      "author": "James Ray Cock"
+    },
+    {
+      "id": "tree_small_02",
+      "sourceUrl": "https://polyhaven.com/a/tree_small_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/tree_small_02/tree_small_02_1k.fbx",
+      "license": "CC0-1.0",
+      "author": "Rico Cilliers"
+    }
+  ]
+}

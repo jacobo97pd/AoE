@@ -1,0 +1,154 @@
+{
+  "biome": "volcanic",
+  "layers": [
+    {
+      "name": "ash plain",
+      "task": {
+        "id": "01a0d769-629d-7419-9f6c-2f18d86a4903",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of dark charcoal-grey volcanic ash, fine powdery ash with soft darker drifts, small black cinder pebbles and a few tiny rust-red grains evenly scattered, small uniform detail with no large patches or stains, in the painted game-art style and brushwork of the reference picture, but in dark charcoal and ash greys with a faint red-brown warmth, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790320403614,
+        "started_at": 1790320403621,
+        "finished_at": 1790320461514,
+        "expires_at": 1790579661514,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d769-629d-7419-9f6c-2f18d86a4903_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of dark charcoal-grey volcanic ash, fine powdery ash with soft darker drifts, small black cinder pebbles and a few tiny rust-red grains evenly scattered, small uniform detail with no large patches or stains, in the painted game-art style and brushwork of the reference picture, but in dark charcoal and ash greys with a faint red-brown warmth, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#5A5256",
+      "finished_utc": "2026-09-25T07:14:23.616049+00:00",
+      "file": {
+        "file": "volcanic_0.png",
+        "bytes": 1501747,
+        "sha256": "80bbb02a82a6c66101d49931a425a058ca794e494360c43bd5a5310c6bd2e057"
+      },
+      "earlier_tries": [
+        {
+          "name": "ash plain",
+          "task": {
+            "id": "01a0d75e-a00e-7629-b975-aa8eb16f9cc0",
+            "type": "image-to-image",
+            "ai_model": "nano-banana-2",
+            "prompt": "Seamless tileable top-down orthographic ground texture of dry volcanic ash plain of warm mid-grey ash and fine dust with small scattered dark cinder pebbles and faint wind ripples, in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+            "status": "SUCCEEDED",
+            "progress": 100,
+            "created_at": 1790319698324,
+            "started_at": 1790319698329,
+            "finished_at": 1790319709670,
+            "expires_at": 1790578909670,
+            "image_urls": [
+              "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75e-a00e-7629-b975-aa8eb16f9cc0_0.png"
+            ],
+            "consumed_credits": 6
+          },
+          "credits": 6,
+          "model": "nano-banana-2",
+          "prompt": "Seamless tileable top-down orthographic ground texture of dry volcanic ash plain of warm mid-grey ash and fine dust with small scattered dark cinder pebbles and faint wind ripples, in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+          "mean": "#5F544E",
+          "finished_utc": "2026-09-25T07:01:56.028317+00:00",
+          "file": {
+            "file": "volcanic_0.png",
+            "bytes": 1372573,
+            "sha256": "050cbab23460dc916841aff4b37896ed0bd6989b7abc59518ed0a7a6a1c54210"
+          },
+          "kept_as": "D:/EmberfieldWorkingCache/fantasy-review/ground/first-try/volcanic_0_ash_plain_try1.png",
+          "why_redone": "pale tan at game scale (read as desert sand) with two rust blotches repeating every 2.5 m; Meshy also added a grey frame"
+        }
+      ]
+    },
+    {
+      "name": "cracked crust",
+      "task": {
+        "id": "01a0d75e-e9f5-70cc-965a-6e27d7f0c587",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of cracked cooled lava crust of dark brown-grey basalt plates separated by thin glowing red-orange cracks, in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319717232,
+        "started_at": 1790319717236,
+        "finished_at": 1790319724666,
+        "expires_at": 1790578924666,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75e-e9f5-70cc-965a-6e27d7f0c587_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of cracked cooled lava crust of dark brown-grey basalt plates separated by thin glowing red-orange cracks, in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#4E403B",
+      "finished_utc": "2026-09-25T07:02:06.334824+00:00",
+      "file": {
+        "file": "volcanic_1.png",
+        "bytes": 1454315,
+        "sha256": "2916240a99a0dfc97a51988c2f749c42f20af108b3022e26753015b6dbc0e1b5"
+      }
+    },
+    {
+      "name": "cinder path",
+      "task": {
+        "id": "01a0d75f-1239-735b-a457-f1ef574dc832",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of packed path of rust-red volcanic cinder gravel and small dark red pebbles with fine ash in between, in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319727612,
+        "started_at": 1790319727618,
+        "finished_at": 1790319861707,
+        "expires_at": 1790579061707,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75f-1239-735b-a457-f1ef574dc832_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of packed path of rust-red volcanic cinder gravel and small dark red pebbles with fine ash in between, in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#74503F",
+      "finished_utc": "2026-09-25T07:04:23.905496+00:00",
+      "file": {
+        "file": "volcanic_2.png",
+        "bytes": 1858401,
+        "sha256": "98ca5db9eaff664bcf171193fb8b4fe16a06afe9df1d2729456180c5a60b44df"
+      }
+    },
+    {
+      "name": "scorched bank",
+      "task": {
+        "id": "01a0d761-2de8-766a-8b3f-fb1f8a316e75",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of scorched lava-river bank of blistered dark red-brown rock and cooled lava ripples with a few tiny ember-orange specks, in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319865845,
+        "started_at": 1790319865851,
+        "finished_at": 1790319985820,
+        "expires_at": 1790579185820,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d761-2de8-766a-8b3f-fb1f8a316e75_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of scorched lava-river bank of blistered dark red-brown rock and cooled lava ripples with a few tiny ember-orange specks, in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#5C3B31",
+      "finished_utc": "2026-09-25T07:06:33.763492+00:00",
+      "file": {
+        "file": "volcanic_3.png",
+        "bytes": 1710675,
+        "sha256": "d63d5cd2e422e5aa31a9eb7375e45c104942ac38a729d8c07ffd45d0828b2929"
+      }
+    }
+  ]
+}

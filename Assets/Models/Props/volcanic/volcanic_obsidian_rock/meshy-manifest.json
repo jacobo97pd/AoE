@@ -1,0 +1,130 @@
+{
+  "id": "volcanic_obsidian_rock",
+  "entry": {
+    "id": "volcanic_obsidian_rock",
+    "role": "obstacle",
+    "kind": "obstacle",
+    "lod0": 400,
+    "lod1": 160,
+    "height": 0.9,
+    "footprint": 1.0,
+    "size": 512,
+    "biome": "volcanic",
+    "priority": 6,
+    "polycount": 600,
+    "prompt": "Jagged obsidian outcrop: one fused cluster of three sharp angled glassy rock blades tilted outward from a low broken rock base, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized painted colours, even lighting, no baked shadows. Obsidian blades: glossy black-violet glass (#2A2530) with sharp pale grey edge highlights (#8C8794), smooth. Base rock: dark red-brown basalt (#5A3A32) with ash-grey tops (#7A6E68). Thin glowing red-orange cracks (#E8612A) running through the base. No text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75f-5c9b-7674-a024-85fc7e639b3c",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3367511455,
+        "prompt": "Jagged obsidian outcrop: one fused cluster of three sharp angled glassy rock blades tilted outward from a low broken rock base, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319748441,
+        "progress": 100,
+        "started_at": 1790319748446,
+        "finished_at": 1790319756672,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75f-5c9b-7674-a024-85fc7e639b3c/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75f-5c9b-7674-a024-85fc7e639b3c/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:02:37.474116+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d760-95aa-71d1-a2e8-b530a756ad5a",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3367511455,
+        "prompt": "Jagged obsidian outcrop: one fused cluster of three sharp angled glassy rock blades tilted outward from a low broken rock base, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized painted colours, even lighting, no baked shadows. Obsidian blades: glossy black-violet glass (#2A2530) with sharp pale grey edge highlights (#8C8794), smooth. Base rock: dark red-brown basalt (#5A3A32) with ash-grey tops (#7A6E68). Thin glowing red-orange cracks (#E8612A) running through the base. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319827992,
+        "progress": 100,
+        "started_at": 1790319827998,
+        "finished_at": 1790319875939,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-95aa-71d1-a2e8-b530a756ad5a/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-95aa-71d1-a2e8-b530a756ad5a/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-95aa-71d1-a2e8-b530a756ad5a/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-95aa-71d1-a2e8-b530a756ad5a/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-95aa-71d1-a2e8-b530a756ad5a/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-95aa-71d1-a2e8-b530a756ad5a/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:04:39.414415+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 127662,
+      "sha256": "26e9fa2563114eb24c8905ee82135bf6c4e22721a1c5ec7302b2b834d30bee55"
+    },
+    "model_glb": {
+      "file": "volcanic_obsidian_rock_model.glb",
+      "bytes": 5864396,
+      "sha256": "471ce1b3cb2207472db96ffb0c56bcf4b8f40a075aa2734e5613f135b3c7f67c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 159742,
+      "sha256": "b6215dd404f7af896a7a58199790d5761267f4e250aa09c97eb5fd250047fd5f"
+    },
+    "texture_base_color": {
+      "file": "volcanic_obsidian_rock_base_color.png",
+      "bytes": 5193262,
+      "sha256": "6d18cbc9c4a5ae3ebedf4b664ded6a2804a954f2ec627a8bf60b19081b443b54"
+    },
+    "texture_metallic": {
+      "file": "volcanic_obsidian_rock_metallic.png",
+      "bytes": 29926,
+      "sha256": "b4d3df4a6b0d714cf98591e04c2d9b7ece852e9230bd243e8488539453db86ac"
+    },
+    "texture_roughness": {
+      "file": "volcanic_obsidian_rock_roughness.png",
+      "bytes": 1544569,
+      "sha256": "004192b1c00a0c1596f73969e10227852346eb1c9a1f922aac27ad32467831c8"
+    },
+    "texture_normal": {
+      "file": "volcanic_obsidian_rock_normal.png",
+      "bytes": 3602607,
+      "sha256": "97fbcd1eedbbb207d77e3f3341b8f44746208ceabef8ccb7181aa33a6e5f3d7e"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 556,
+    "lod0": 400,
+    "lod1": 160,
+    "fittedMetres": [
+      0.985,
+      0.981,
+      0.9
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

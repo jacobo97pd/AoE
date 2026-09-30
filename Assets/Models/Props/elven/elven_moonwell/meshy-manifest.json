@@ -1,0 +1,130 @@
+{
+  "id": "elven_moonwell",
+  "entry": {
+    "id": "elven_moonwell",
+    "role": "landmark",
+    "kind": "moonwell",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 3.6,
+    "footprint": 4.2,
+    "size": 1024,
+    "biome": "elven",
+    "priority": 6,
+    "polycount": 4000,
+    "prompt": "Elven moonwell shrine: a round shallow pool of still water in a raised ring of pale carved stone, three slender chunky stone arches rising from the rim and curving inward to meet above the centre like the ribs of an open dome, leaf-shaped finials. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 4 m wide and 3.6 m tall. Isolated, no ground, no plants growing, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE) with cool grey shadows (#A7ABA2) and muted gold trim (#C9A650). Pool surface: luminous pale teal water (#6FD0C4) brightening to near white at the centre (#D8F5EF), the brightest part of the model. Small moss patches at the foot (#6E9A55). Abstract leaf carvings only, no text, runes or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75a-58f9-7148-b3f9-b8fdc2898079",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 839459863,
+        "prompt": "Elven moonwell shrine: a round shallow pool of still water in a raised ring of pale carved stone, three slender chunky stone arches rising from the rim and curving inward to meet above the centre like the ribs of an open dome, leaf-shaped finials. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 4 m wide and 3.6 m tall. Isolated, no ground, no plants growing, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319419239,
+        "progress": 100,
+        "started_at": 1790319419245,
+        "finished_at": 1790319427154,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75a-58f9-7148-b3f9-b8fdc2898079/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75a-58f9-7148-b3f9-b8fdc2898079/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:57:08.250739+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d762-9698-74b7-8b95-abc9fe2655d1",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 839459863,
+        "prompt": "Elven moonwell shrine: a round shallow pool of still water in a raised ring of pale carved stone, three slender chunky stone arches rising from the rim and curving inward to meet above the centre like the ribs of an open dome, leaf-shaped finials. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 4 m wide and 3.6 m tall. Isolated, no ground, no plants growing, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE) with cool grey shadows (#A7ABA2) and muted gold trim (#C9A650). Pool surface: luminous pale teal water (#6FD0C4) brightening to near white at the centre (#D8F5EF), the brightest part of the model. Small moss patches at the foot (#6E9A55). Abstract leaf carvings only, no text, runes or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319960474,
+        "progress": 100,
+        "started_at": 1790319960480,
+        "finished_at": 1790320011628,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-9698-74b7-8b95-abc9fe2655d1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-9698-74b7-8b95-abc9fe2655d1/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-9698-74b7-8b95-abc9fe2655d1/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-9698-74b7-8b95-abc9fe2655d1/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-9698-74b7-8b95-abc9fe2655d1/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-9698-74b7-8b95-abc9fe2655d1/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:06:51.922853+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 110468,
+      "sha256": "4be178772ef4d40044c95911bf602a17a700b40cd3096ef0995417e66baf7f28"
+    },
+    "model_glb": {
+      "file": "elven_moonwell_model.glb",
+      "bytes": 7507628,
+      "sha256": "70532dac7be0b85f9fca19018ec1833850d61484362488cf70b5285d45951eb0"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 146453,
+      "sha256": "7eaba213bea97200857940dd9df4cbfff90ab7c24e50333f995cf241d755ba4f"
+    },
+    "texture_base_color": {
+      "file": "elven_moonwell_base_color.png",
+      "bytes": 5696216,
+      "sha256": "8c36ce7d0917a0355c1a44d53a980e93d6e41648e909f2041f171d083c37d13f"
+    },
+    "texture_metallic": {
+      "file": "elven_moonwell_metallic.png",
+      "bytes": 476900,
+      "sha256": "4607120c2ecb9e5e66d92afdf2ec148f67be7a3b69a3ff214b2ee0efc7fad6b5"
+    },
+    "texture_roughness": {
+      "file": "elven_moonwell_roughness.png",
+      "bytes": 1381407,
+      "sha256": "d663f14df468b586938627df189a36f415e2c3dfae85d5da0e6c467efb486199"
+    },
+    "texture_normal": {
+      "file": "elven_moonwell_normal.png",
+      "bytes": 4743706,
+      "sha256": "e3a8f23aae7cede44d7903155536e25e04f63d3fe37173f11c019520c6efc489"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4213,
+    "lod0": 3500,
+    "lod1": 799,
+    "fittedMetres": [
+      4.2,
+      4.2,
+      3.511
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "sultanate_camel_rider",
+  "entry": {
+    "id": "sultanate_camel_rider",
+    "name": "Jinete de camello",
+    "culture": "sultanate",
+    "factions": [
+      "sultanate"
+    ],
+    "unit": "strider",
+    "role": "melee",
+    "rig": "quadruped",
+    "donor": "Alpaca",
+    "tailMargin": 0,
+    "tailDamp": 0.3,
+    "height": 2.9,
+    "gameHeight": 3.6,
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert lancer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, cream turban and face veil, long cream robe with a turquoise cloak and sash, a long lance held upright, a tasselled turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Camel coat sandy tan (#C7A876). Robes and turban cream (#E3D8BE). Cloak, sash and saddle cloth saturated turquoise (#1E8C8C). Leather dark brown (#4A3526). Tassels muted gold (#C9A650). Lance tip steel grey (#8A8C8E). No text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3b9-1c82-725c-8d7d-3b22cbf8c5ba",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 500008205,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert lancer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, cream turban and face veil, long cream robe with a turquoise cloak and sash, a long lance held upright, a tasselled turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526956139,
+        "progress": 100,
+        "started_at": 1790526956145,
+        "finished_at": 1790526965146,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b9-1c82-725c-8d7d-3b22cbf8c5ba/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b9-1c82-725c-8d7d-3b22cbf8c5ba/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3b9-6836-75ab-97b2-0b6fb3966196",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 500008205,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert lancer riding a tall one-humped dromedary camel, seated upright in a saddle on the hump, cream turban and face veil, long cream robe with a turquoise cloak and sash, a long lance held upright, a tasselled turquoise saddle cloth, the camel's long curved neck raised. Standing square on all four straight legs, feet apart and flat on the ground, tail hanging clear of the legs, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Camel coat sandy tan (#C7A876). Robes and turban cream (#E3D8BE). Cloak, sash and saddle cloth saturated turquoise (#1E8C8C). Leather dark brown (#4A3526). Tassels muted gold (#C9A650). Lance tip steel grey (#8A8C8E). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526976214,
+        "progress": 100,
+        "started_at": 1790526976220,
+        "finished_at": 1790527080570,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b9-6836-75ab-97b2-0b6fb3966196/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b9-6836-75ab-97b2-0b6fb3966196/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b9-6836-75ab-97b2-0b6fb3966196/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b9-6836-75ab-97b2-0b6fb3966196/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b9-6836-75ab-97b2-0b6fb3966196/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b9-6836-75ab-97b2-0b6fb3966196/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:38:06.869961+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_camel_rider_model.glb",
+      "bytes": 6959316,
+      "sha256": "035e1ed2484826cab6c940dc7fafcc689394ca5a0805b613b62c4eb1853fc474"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 61915,
+      "sha256": "06f250403781d3ec01adafdc58ab6f3596f14ea48e904e7c530a4d87258d5ba9"
+    },
+    "texture_base_color": {
+      "file": "sultanate_camel_rider_base_color.png",
+      "bytes": 6189434,
+      "sha256": "846bf3bb1485e68b147332817e48fa1ac1cd744d526f68387c8d944cd1fb78d6"
+    },
+    "texture_metallic": {
+      "file": "sultanate_camel_rider_metallic.png",
+      "bytes": 78078,
+      "sha256": "0cac8e47aa41a04d9b62d8ff0a121b7fe2d08243bcb088eac2449964532d7c5f"
+    },
+    "texture_roughness": {
+      "file": "sultanate_camel_rider_roughness.png",
+      "bytes": 1122444,
+      "sha256": "c87a1eebab1f405fde5428112414bc0885b6b364c810116173ee7a6db0f6780c"
+    },
+    "texture_normal": {
+      "file": "sultanate_camel_rider_normal.png",
+      "bytes": 4672834,
+      "sha256": "557e87ed9a8954d07c7807e6989b986943a46929cb5765a9d581d2f0e511c7b9"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5427,
+    "bones": 46,
+    "heightMetres": 1.0,
+    "walkMetresPerSecond": 0.281,
+    "runMetresPerSecond": 1.569,
+    "scale": [
+      6.165,
+      9.315,
+      5.278
+    ],
+    "riderVertices": 981,
+    "donorBack": 5.133,
+    "saddle": 0.549,
+    "bellies": [
+      0.25,
+      0.253
+    ],
+    "pinned": {
+      "muzzle": [
+        0.082,
+        1.427,
+        1.121
+      ]
+    },
+    "tailVertices": 283,
+    "thinnedVertices": 806,
+    "legThickness": 0.0434,
+    "tailFit": {
+      "turn": -38.4,
+      "stretch": 1.5
+    },
+    "fusedLegs": [],
+    "splitLegs": {},
+    "settled": {
+      "Idle": -0.023,
+      "Walk": 0.017,
+      "Run": -0.018
+    },
+    "grounded": {},
+    "teamMaskCoverage": 0.1959,
+    "rig": "transplanted from the Quaternius Alpaca (CC0) by tools/art/transplant_rig.py"
+  }
+}

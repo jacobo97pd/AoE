@@ -1,0 +1,149 @@
+{
+  "source": "Meshy user supplied biped, scratch preparation only",
+  "sourceHeightMeters": 1.7000001668930054,
+  "scale": 1.3823528054676388,
+  "targetHeightMeters": 2.35,
+  "root": "Root, static identity; original Hips animation retained",
+  "bones": 35,
+  "clips": [
+    {
+      "name": "Meshy_Running",
+      "frames": [
+        1.0,
+        16.0
+      ],
+      "fps": 24,
+      "seconds": 0.625,
+      "sourceTimingUnchanged": true
+    },
+    {
+      "name": "Meshy_Death",
+      "frames": [
+        1.0,
+        84.0
+      ],
+      "fps": 24,
+      "seconds": 3.4583333333333335,
+      "sourceTimingUnchanged": true
+    }
+  ],
+  "lods": [
+    {
+      "name": "BoardingRaider_Meshy_LOD0",
+      "vertices": 5064,
+      "triangles": 10291,
+      "uvLayers": 1,
+      "unweightedVertices": 0
+    },
+    {
+      "name": "BoardingRaider_Meshy_LOD1",
+      "vertices": 2418,
+      "triangles": 5000,
+      "uvLayers": 1,
+      "unweightedVertices": 0
+    },
+    {
+      "name": "BoardingRaider_Meshy_LOD2",
+      "vertices": 917,
+      "triangles": 1999,
+      "uvLayers": 1,
+      "unweightedVertices": 0
+    }
+  ],
+  "poseValidation": [
+    {
+      "action": "Meshy_Running",
+      "frame": 1,
+      "maxCoordinateError": 2.105865656548689e-06,
+      "rmsCoordinateError": 3.7126870525892334e-07
+    },
+    {
+      "action": "Meshy_Running",
+      "frame": 5,
+      "maxCoordinateError": 3.0546644327333894e-06,
+      "rmsCoordinateError": 4.471190316021125e-07
+    },
+    {
+      "action": "Meshy_Running",
+      "frame": 8,
+      "maxCoordinateError": 1.5869239976262772e-06,
+      "rmsCoordinateError": 3.1434187393934976e-07
+    },
+    {
+      "action": "Meshy_Running",
+      "frame": 12,
+      "maxCoordinateError": 3.2625890667992152e-06,
+      "rmsCoordinateError": 5.393709507547399e-07
+    },
+    {
+      "action": "Meshy_Running",
+      "frame": 16,
+      "maxCoordinateError": 1.791357877978239e-06,
+      "rmsCoordinateError": 3.3777552142275383e-07
+    },
+    {
+      "action": "Meshy_Death",
+      "frame": 1,
+      "maxCoordinateError": 1.181593382248991e-06,
+      "rmsCoordinateError": 3.078918944845786e-07
+    },
+    {
+      "action": "Meshy_Death",
+      "frame": 22,
+      "maxCoordinateError": 1.3735831464745107e-06,
+      "rmsCoordinateError": 3.807916037124612e-07
+    },
+    {
+      "action": "Meshy_Death",
+      "frame": 42,
+      "maxCoordinateError": 2.090216408290324e-06,
+      "rmsCoordinateError": 4.1277852219159447e-07
+    },
+    {
+      "action": "Meshy_Death",
+      "frame": 63,
+      "maxCoordinateError": 2.7054192133224575e-06,
+      "rmsCoordinateError": 5.256672156013812e-07
+    },
+    {
+      "action": "Meshy_Death",
+      "frame": 84,
+      "maxCoordinateError": 2.279534708993225e-06,
+      "rmsCoordinateError": 4.2519080631473756e-07
+    }
+  ],
+  "textures": [
+    {
+      "file": "D:\\CodexTooling\\pirate-animation-replacement\\run\\Meshy_AI_Red_Tide_Corsair_biped\\Meshy_AI_Red_Tide_Corsair_biped_texture_0.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "10eba17098780f8ddecb208be05aa107ce93a9ce008918afd144d16fb59c9966"
+    },
+    {
+      "file": "D:\\CodexTooling\\pirate-animation-replacement\\run\\Meshy_AI_Red_Tide_Corsair_biped\\Meshy_AI_Red_Tide_Corsair_biped_texture_0_metallic.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "8b7f6d65871590a31f36e88005ccc56cfd066af1dec0ab198572d44e5fd1768a"
+    },
+    {
+      "file": "D:\\CodexTooling\\pirate-animation-replacement\\run\\Meshy_AI_Red_Tide_Corsair_biped\\Meshy_AI_Red_Tide_Corsair_biped_texture_0_roughness.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "cca5a8d8df624341970ad8c9f4b819ea395d43efabb84653a027291df0a0c07e"
+    },
+    {
+      "file": "D:\\CodexTooling\\pirate-animation-replacement\\run\\Meshy_AI_Red_Tide_Corsair_biped\\Meshy_AI_Red_Tide_Corsair_biped_texture_0_normal.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "a1a363d2e65b62207bbbdae3a5dcc3990cc919b45d8a1df764b42cccba9eb86b"
+    }
+  ]
+}

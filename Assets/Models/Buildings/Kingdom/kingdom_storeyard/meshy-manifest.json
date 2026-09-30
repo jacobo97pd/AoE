@@ -1,0 +1,137 @@
+{
+  "id": "kingdom_storeyard",
+  "entry": {
+    "id": "kingdom_storeyard",
+    "style": "kingdom",
+    "building": "storeyard",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset: a medieval storehouse for a top-down strategy game. A small square timber shed, open on the front, under a simple lean-to roof, filled with stacked wooden crates, barrels and grain sacks. A royal blue cloth awning along the open front."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d32a-403b-7219-a6f4-dbaf549c6113",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1494433182,
+        "prompt": "Low-poly game asset: a medieval storehouse for a top-down strategy game. A small square timber shed, open on the front, under a simple lean-to roof, filled with stacked wooden crates, barrels and grain sacks. A royal blue cloth awning along the open front. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249158506,
+        "progress": 100,
+        "started_at": 1790249158513,
+        "finished_at": 1790249169709,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32a-403b-7219-a6f4-dbaf549c6113/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32a-403b-7219-a6f4-dbaf549c6113/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3656,
+      "finished_utc": "2026-09-24T11:26:15.873071+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d32a-913b-7764-afa5-c1cfa8c1569b",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1494433182,
+        "prompt": "Low-poly game asset: a medieval storehouse for a top-down strategy game. A small square timber shed, open on the front, under a simple lean-to roof, filled with stacked wooden crates, barrels and grain sacks. A royal blue cloth awning along the open front. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249177455,
+        "progress": 100,
+        "started_at": 1790249177462,
+        "finished_at": 1790249250528,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32a-913b-7764-afa5-c1cfa8c1569b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32a-913b-7764-afa5-c1cfa8c1569b/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32a-913b-7764-afa5-c1cfa8c1569b/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32a-913b-7764-afa5-c1cfa8c1569b/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32a-913b-7764-afa5-c1cfa8c1569b/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32a-913b-7764-afa5-c1cfa8c1569b/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "balance_after": 3646,
+      "finished_utc": "2026-09-24T11:27:34.127106+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_storeyard_model.glb",
+      "bytes": 6502908,
+      "sha256": "2a231be7936fa6c12f7f84cc909a4fb7e0c275599b976f031d34bcc71ae5cde0"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 263639,
+      "sha256": "74eb48df22060e1e57265cbc66521bde5eb7de8b6e6c8c93c3100820df3ac1f3"
+    },
+    "texture_base_color": {
+      "file": "kingdom_storeyard_base_color.png",
+      "bytes": 5578113,
+      "sha256": "3f9096cfd888dea3cb30e33125179d2efc856ef0344013b150425ac1ebc4185d"
+    },
+    "texture_metallic": {
+      "file": "kingdom_storeyard_metallic.png",
+      "bytes": 29326,
+      "sha256": "3873c3d926f92a53c53d94f79640cc55a90bf49c4d012d1437acf00e341d155a"
+    },
+    "texture_roughness": {
+      "file": "kingdom_storeyard_roughness.png",
+      "bytes": 1354477,
+      "sha256": "39883b1f49b3b2aeeeea98fe7d9dd6621a64835976bf88e5762fc13318963655"
+    },
+    "texture_normal": {
+      "file": "kingdom_storeyard_normal.png",
+      "bytes": 4167065,
+      "sha256": "2e992d8f8cbc4a53748980b3ae913b79ece9f812b17c447096cb6cc18252ee6d"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4310,
+    "triangles": 4310,
+    "fittedMetres": [
+      1.92,
+      1.747,
+      1.478
+    ],
+    "teamMaskCoverage": 0.0081
+  }
+}

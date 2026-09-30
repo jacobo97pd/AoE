@@ -1,0 +1,130 @@
+{
+  "id": "desert_date_palm_node",
+  "entry": {
+    "id": "desert_date_palm_node",
+    "role": "resource",
+    "kind": "Wood",
+    "lod0": 1500,
+    "lod1": 350,
+    "height": 3.8,
+    "footprint": 2.2,
+    "size": 512,
+    "biome": "desert",
+    "priority": 2,
+    "prompt": "Tall date palm: a slim ringed trunk rising nearly straight, a crown of eight thick drooping solid wedge-shaped fronds, heavy clusters of dates hanging under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Fronds as thick flat blades, no thin leaflets, hard edges, flat faces. About 4 m tall. Isolated, no ground, no sand, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Trunk: fibrous warm brown (#8A6A48) with darker rings (#6B5036). Fronds: dusty olive green (#7C8A45) with lighter sunlit tops (#A3AE62). Date clusters: deep amber-brown (#8B4A1E). Dry, sun-bleached desert feel. No text or logos.",
+    "polycount": 2000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d411-932a-777e-a380-12a209f91e5e",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2215628782,
+        "prompt": "Tall date palm: a slim ringed trunk rising nearly straight, a crown of eight thick drooping solid wedge-shaped fronds, heavy clusters of dates hanging under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Fronds as thick flat blades, no thin leaflets, hard edges, flat faces. About 4 m tall. Isolated, no ground, no sand, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264318919,
+        "progress": 100,
+        "started_at": 1790264318928,
+        "finished_at": 1790264327151,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-932a-777e-a380-12a209f91e5e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-932a-777e-a380-12a209f91e5e/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:38:47.907810+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d411-c1db-71bf-8782-8cdd2d87bbec",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2215628782,
+        "prompt": "Tall date palm: a slim ringed trunk rising nearly straight, a crown of eight thick drooping solid wedge-shaped fronds, heavy clusters of dates hanging under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Fronds as thick flat blades, no thin leaflets, hard edges, flat faces. About 4 m tall. Isolated, no ground, no sand, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Trunk: fibrous warm brown (#8A6A48) with darker rings (#6B5036). Fronds: dusty olive green (#7C8A45) with lighter sunlit tops (#A3AE62). Date clusters: deep amber-brown (#8B4A1E). Dry, sun-bleached desert feel. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264331103,
+        "progress": 100,
+        "started_at": 1790264331111,
+        "finished_at": 1790264372383,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-c1db-71bf-8782-8cdd2d87bbec/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-c1db-71bf-8782-8cdd2d87bbec/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-c1db-71bf-8782-8cdd2d87bbec/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-c1db-71bf-8782-8cdd2d87bbec/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-c1db-71bf-8782-8cdd2d87bbec/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d411-c1db-71bf-8782-8cdd2d87bbec/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:39:34.041145+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 88898,
+      "sha256": "c29c541833ac0430b964b44e42b820abfe383c810aff6f3ca64c6e9eeab1afdd"
+    },
+    "model_glb": {
+      "file": "desert_date_palm_node_model.glb",
+      "bytes": 6549880,
+      "sha256": "60fc6ea40d52d5b474ea722e817d56d0744dbe6da20f5a07e4a6690ab47e9e9b"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 117132,
+      "sha256": "7196c122c55b022c4075c0f49f121ebbb9ba05089080097557c5177191eac6a0"
+    },
+    "texture_base_color": {
+      "file": "desert_date_palm_node_base_color.png",
+      "bytes": 5514022,
+      "sha256": "32524d2658cee30c717890ef34aed40ac485598cbc5e85772d0eaac948351fbf"
+    },
+    "texture_metallic": {
+      "file": "desert_date_palm_node_metallic.png",
+      "bytes": 36728,
+      "sha256": "e15789939938575113f79601df619e22b129af46ac2d6b8a91aba37b159e1636"
+    },
+    "texture_roughness": {
+      "file": "desert_date_palm_node_roughness.png",
+      "bytes": 1391926,
+      "sha256": "eae822af225eb2afdb804ec999c94625168a7b676cef8370c673033be0416fc9"
+    },
+    "texture_normal": {
+      "file": "desert_date_palm_node_normal.png",
+      "bytes": 4449059,
+      "sha256": "3bf48e749bdfcc6b455d8d7f1a670ef94a73a5f45aa205cdeb7ae8fafdbeb418"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1714,
+    "lod0": 1500,
+    "lod1": 350,
+    "fittedMetres": [
+      2.2,
+      2.069,
+      3.73
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

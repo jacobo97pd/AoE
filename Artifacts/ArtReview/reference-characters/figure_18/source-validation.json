@@ -1,0 +1,71 @@
+{
+  "id": "figure_18",
+  "unweighted": 0,
+  "nonNormalizedWeights": 0,
+  "lodCount": 3,
+  "lodTriangles": [
+    219999,
+    40000,
+    14100
+  ],
+  "bones": 18,
+  "animations": [
+    {
+      "state": "Idle",
+      "firstFrame": 1.0,
+      "lastFrame": 61.0,
+      "sampleFrames": [
+        1,
+        17,
+        35,
+        61
+      ],
+      "minimumZ": 0.005000011064112186,
+      "maximumZ": 2.2630629539489746,
+      "initialPoseHeight": 2.258026703260839,
+      "finalPoseHeight": 2.258026703260839,
+      "collapsed": true,
+      "sampledVertexMotionMetres": 0.018242155167363185,
+      "passed": true
+    },
+    {
+      "state": "Run",
+      "firstFrame": 1.0,
+      "lastFrame": 25.0,
+      "sampleFrames": [
+        1,
+        7,
+        14,
+        25
+      ],
+      "minimumZ": -0.005959752015769482,
+      "maximumZ": 2.3164968490600586,
+      "initialPoseHeight": 2.285282677039504,
+      "finalPoseHeight": 2.285282677039504,
+      "collapsed": true,
+      "sampledVertexMotionMetres": 0.4625215972035365,
+      "passed": true
+    },
+    {
+      "state": "Fall",
+      "firstFrame": 1.0,
+      "lastFrame": 49.0,
+      "sampleFrames": [
+        1,
+        13,
+        28,
+        49
+      ],
+      "minimumZ": 0.004558645188808441,
+      "maximumZ": 2.2652456760406494,
+      "initialPoseHeight": 2.258026703260839,
+      "finalPoseHeight": 0.8997082114219666,
+      "collapsed": true,
+      "sampledVertexMotionMetres": 0.3487127662394528,
+      "passed": true
+    }
+  ],
+  "texturesPresent": true,
+  "fbxPresent": true,
+  "passed": true
+}

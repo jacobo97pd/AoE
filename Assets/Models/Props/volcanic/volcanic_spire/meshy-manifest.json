@@ -1,0 +1,130 @@
+{
+  "id": "volcanic_spire",
+  "entry": {
+    "id": "volcanic_spire",
+    "role": "landmark",
+    "kind": "spiked_tower",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 9,
+    "footprint": 3.6,
+    "size": 1024,
+    "biome": "volcanic",
+    "priority": 6,
+    "polycount": 4000,
+    "prompt": "Dark spiked tower: a tall tapering tower of rough black stone on a wide jagged buttressed base, sharp curved spikes jutting from its sides at three levels, a crown of five tall spikes at the top, narrow window slits. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. One solid mass, about 3.6 m wide and 9 m tall. Isolated, no ground, no characters, no flags, no eye, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: black-brown volcanic rock (#2E2826) with warm ash-grey upper faces (#6E6660) so the silhouette reads against dark ground. Spikes: dark iron (#34343A) with rust-red edges (#7A3A2C). Window slits and cracks: glowing ember orange (#E8612A). No eye, no emblem, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d768-2742-7339-bae5-d2c98ee8b206",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 905901952,
+        "prompt": "Dark spiked tower: a tall tapering tower of rough black stone on a wide jagged buttressed base, sharp curved spikes jutting from its sides at three levels, a crown of five tall spikes at the top, narrow window slits. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. One solid mass, about 3.6 m wide and 9 m tall. Isolated, no ground, no characters, no flags, no eye, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320323955,
+        "progress": 100,
+        "started_at": 1790320323961,
+        "finished_at": 1790320332806,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d768-2742-7339-bae5-d2c98ee8b206/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d768-2742-7339-bae5-d2c98ee8b206/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:12:12.965314+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d769-024d-771e-b0b8-78dafac91caa",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 905901952,
+        "prompt": "Dark spiked tower: a tall tapering tower of rough black stone on a wide jagged buttressed base, sharp curved spikes jutting from its sides at three levels, a crown of five tall spikes at the top, narrow window slits. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. One solid mass, about 3.6 m wide and 9 m tall. Isolated, no ground, no characters, no flags, no eye, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: black-brown volcanic rock (#2E2826) with warm ash-grey upper faces (#6E6660) so the silhouette reads against dark ground. Spikes: dark iron (#34343A) with rust-red edges (#7A3A2C). Window slits and cracks: glowing ember orange (#E8612A). No eye, no emblem, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320379897,
+        "progress": 100,
+        "started_at": 1790320379902,
+        "finished_at": 1790320414511,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d769-024d-771e-b0b8-78dafac91caa/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d769-024d-771e-b0b8-78dafac91caa/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d769-024d-771e-b0b8-78dafac91caa/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d769-024d-771e-b0b8-78dafac91caa/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d769-024d-771e-b0b8-78dafac91caa/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d769-024d-771e-b0b8-78dafac91caa/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:13:42.846246+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 59114,
+      "sha256": "fab6a769757e662369d7227f9784d90751448cda8f89c8eac91ccc443a00aa93"
+    },
+    "model_glb": {
+      "file": "volcanic_spire_model.glb",
+      "bytes": 4134004,
+      "sha256": "310b02d5b6d70e746c21936aa7b7b9b6df7049e7e9e68da1ff5fbc4179c303db"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 73427,
+      "sha256": "ca1296afa9a5b051520944009a83c463b4a56ab6e3046372995d3548fd138076"
+    },
+    "texture_base_color": {
+      "file": "volcanic_spire_base_color.png",
+      "bytes": 3891111,
+      "sha256": "38dbbc887b4c2c3d7ec4d44f1f091bdd523634b7688a9a067c6d69c77f780b60"
+    },
+    "texture_metallic": {
+      "file": "volcanic_spire_metallic.png",
+      "bytes": 19606,
+      "sha256": "21be13ff2b6f76729d3693e1d33ec48b39d03236f9ad73f8afd7cba6b9f7ccc6"
+    },
+    "texture_roughness": {
+      "file": "volcanic_spire_roughness.png",
+      "bytes": 1049820,
+      "sha256": "bfc155340eed7681e44810ace7137c4ee575208a34d337c4ee886595a3cabc47"
+    },
+    "texture_normal": {
+      "file": "volcanic_spire_normal.png",
+      "bytes": 2143870,
+      "sha256": "d6149ce54d37b9a479563456fc1a79aa6ab77731dc3bf94f4b7e78762137f4fa"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3813,
+    "lod0": 3499,
+    "lod1": 799,
+    "fittedMetres": [
+      3.516,
+      3.366,
+      9.0
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

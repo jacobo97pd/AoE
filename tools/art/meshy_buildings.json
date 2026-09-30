@@ -1,0 +1,1159 @@
+{
+  "about": "Buildings for tools/art/meshy_building.py (Meshy text-to-3D, Smart Topology). Prompts lead with mass and silhouette and name few ornaments: the first barracks prompt listed every ornament and came back an open pavilion. The kingdom palette is the barracks' (commit ba16e76). Royal blue cloth is the owner-colour zone (teamHues); everything else keeps its painted colour. footprint is in cells; height is the tallest the model may stand, in metres, under the health bar. Walls, gates and gate leaves use fit stretch: they fill their box exactly so segments tile along X, and a leaf's box is its size in metres; triangles is their budget. Text-to-3D never gave a usable wall or gate, so those and the dwarf leaf name a base group instead of a prompt: meshy_building.py builds each culture's pieces in Blender at the game's exact size and one Meshy retexture paints them from the group's texture; a group's cloth colour dyes the banners and shields the builder made, where Meshy painted them some other colour. An entry's teamSaturation overrides its style's owner-colour gate. An entry's grade overrides its style's: the orc palisade came out darker than the orc houses and read as a black band in its own shadow. A leaf's texture replaces its style's house-shaped texture prompt for the refine.",
+  "output": "Assets/Models/Buildings",
+  "raw": "D:/EmberfieldWorkingCache/meshy-buildings",
+  "styles": {
+    "kingdom": {
+      "factions": [
+        "aven",
+        "serevin",
+        "english"
+      ],
+      "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+      "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+      "teamHues": [
+        [
+          205,
+          250
+        ]
+      ]
+    },
+    "mountain": {
+      "factions": [
+        "skeld"
+      ],
+      "suffix": "Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+      "teamHues": [
+        [
+          200,
+          250
+        ],
+        [
+          50,
+          95
+        ]
+      ],
+      "teamSaturation": 0.2,
+      "teamWeight": 0.65
+    },
+    "dwarf": {
+      "factions": [
+        "drakeforged"
+      ],
+      "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+      "teamHues": [
+        [
+          348,
+          360
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "teamSaturation": 0.42,
+      "grade": 1.45
+    },
+    "elf": {
+      "factions": [
+        "verdant"
+      ],
+      "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+      "teamHues": [
+        [
+          205,
+          250
+        ]
+      ]
+    },
+    "orc": {
+      "factions": [
+        "ashen"
+      ],
+      "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+      "teamHues": [
+        [
+          343,
+          360
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "teamSaturation": 0.4,
+      "grade": 1.2
+    },
+    "sultanate": {
+      "factions": [
+        "sultanate"
+      ],
+      "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+      "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+      "teamHues": [
+        [
+          155,
+          200
+        ]
+      ],
+      "teamSaturation": 0.3,
+      "teamWeight": 1,
+      "grade": 1.0
+    },
+    "sahel": {
+      "factions": [
+        "sahel"
+      ],
+      "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+      "teamHues": [
+        [
+          185,
+          252
+        ]
+      ],
+      "teamSaturation": 0.2
+    }
+  },
+  "groups": {
+    "kingdom_fortifications": {
+      "style": "kingdom",
+      "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls, merlons, pillars and walkway: pale grey-beige dressed ashlar blocks (#D4D4C4) with thin darker joints. Plinth, corbels and the door surround: slightly darker grey stone (#B8B6A8). Arrow slits: dark (#3A3F44). Banners: plain saturated royal blue cloth (#2B4FB0) with a small gold (#C9A650) fleur-de-lis. Rods: dark iron (#3E3E40). No dirt, moss, rust, text or logos."
+    },
+    "mountain_fortifications": {
+      "style": "mountain",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Lower wall and footings: cool grey rounded fieldstones (#8C8A82) with dark mortar. Upright logs, posts and beams: weathered dark brown timber (#5E4632) with paler cut ends (#8A6E4E). Walkway planks and crossed beam ends: carved paler timber (#8A6E4E). Round shields: bright saturated woad blue paint (#2F4E9C) over the whole face, dark iron boss (#2E2E30). No text or logos.",
+      "cloth": "#2F4E9C"
+    },
+    "dwarf_fortifications": {
+      "style": "dwarf",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls, blocks, pillars and teeth: huge dark warm granite blocks (#5E5852) with paler carved edges (#8A827A). Tooth caps, the band and the door jambs: burnished bronze (#B07A3A) with faint gold geometric runes (#C9A04A). Banners and the stripe across the door: flat saturated crimson red (#A0262A). Door: bronze plates, dark iron bands and rivets (#3E3E40). No text or logos.",
+      "cloth": "#A0262A"
+    },
+    "elf_fortifications": {
+      "style": "elf",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls, teeth and pillars: smooth pale ivory stone (#E6E0CE) in long even courses. Ribs and the arch: silver birch grey living wood (#BDB5A2). Small leaves: fresh green (#5E8A4A). Cornice trim and rods: muted gold (#C9A650). Banners: plain saturated royal blue cloth (#2B4FB0), no emblem. No text or logos."
+    },
+    "orc_fortifications": {
+      "style": "orc",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. Logs and posts: scorched dark brown wood (#4A3A2C) with rough bark and pale cut points. Walkway: dark planks. Plates: black iron (#34343A) with rivets. Rope lashings: tan (#8A6E4E). Skulls and horns: aged bone (#D8CCB0). Rag banners: bright saturated blood red cloth (#9A2A22), not orange, not brown. No text or logos."
+    },
+    "sultanate_fortifications": {
+      "style": "sultanate",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. The whole wall is pale cream limewashed plaster (#EEE6D2), almost white and smooth, over a low base of pale sandstone blocks (#D2B98C). Merlons and parapet: the same pale cream plaster. Arched niches: soft shadowed cream (#CDBFA4). Small beam ends: brown timber (#8E765F). Door leaf and its arched centre panel: dark brown timber planks (#5E4632) with bronze studs (#B07A3A). Banners and the round door boss: saturated turquoise cloth (#1E8C8C), no emblem. No pink, no terracotta, no text or logos.",
+      "cloth": "#1E8C8C"
+    },
+    "sahel_fortifications": {
+      "style": "sahel",
+      "texture": "Stylized matte painted colours, even lighting, no baked shadows. The whole wall is one sun-dried mud plaster: footing, buttresses, pinnacles, merlons and faces all warm tan-brown clay (#A87A56) with darker brown streaks (#7E5A40), no stone, no metal. Projecting beam ends, the lintel and the door planks: weathered brown palm wood (#6E5A44). Door studs: burnished bronze (#B07A3A). Banners and the band across the door: plain saturated indigo blue cloth (#2E3F8F), no emblem. No text or logos.",
+      "cloth": "#2E3F8F"
+    }
+  },
+  "buildings": [
+    {
+      "id": "kingdom_hearth",
+      "style": "kingdom",
+      "building": "hearth",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.3,
+      "prompt": "Low-poly game asset: the town hall of a medieval village for a top-down strategy game. One large, square, fully enclosed two-storey hall with a steep hipped roof and a tall stone chimney in the middle, clearly the biggest and most important building. A wide wooden double door under a small porch on the front, small square windows. Two royal blue cloth banners hang either side of the door."
+    },
+    {
+      "id": "kingdom_muster_hall",
+      "style": "kingdom",
+      "building": "muster_hall",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.4,
+      "prompt": "Generated on 2026-09-24 by tools/art/meshy_barracks.py (variant enclosed); see Assets/Models/Buildings/Barracks/meshy-manifest.json. Finished from those files with --finish-only; it has no blue cloth, so it takes no owner colour."
+    },
+    {
+      "id": "kingdom_shelter",
+      "style": "kingdom",
+      "building": "shelter",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset: a small medieval peasant cottage for a top-down strategy game. One small, fully enclosed single-storey house with a steep gable roof and a short stone chimney. One wooden door and one small window on the front. A small royal blue cloth awning over the door."
+    },
+    {
+      "id": "kingdom_storeyard",
+      "style": "kingdom",
+      "building": "storeyard",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset: a medieval storehouse for a top-down strategy game. A small square timber shed, open on the front, under a simple lean-to roof, filled with stacked wooden crates, barrels and grain sacks. A royal blue cloth awning along the open front."
+    },
+    {
+      "id": "kingdom_archive",
+      "style": "kingdom",
+      "building": "archive",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.85,
+      "prompt": "Low-poly game asset: a medieval scholars' library for a top-down strategy game. One fully enclosed rectangular stone-and-timber hall with a steep gable roof and a small square bell tower rising from one end. Tall narrow arched windows along the sides, a round window above the wooden door. One royal blue cloth banner hangs from the tower."
+    },
+    {
+      "id": "kingdom_watchtower",
+      "style": "kingdom",
+      "building": "watchtower",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 4.0,
+      "prompt": "Low-poly game asset: a medieval watchtower for a top-down strategy game. One tall, slim, square stone tower, clearly taller than it is wide, with a covered timber lookout gallery near the top and a pointed pyramid slate roof. A narrow wooden door at the base. A royal blue pennant flies from the roof tip."
+    },
+    {
+      "id": "kingdom_keep",
+      "style": "kingdom",
+      "building": "keep",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.7,
+      "prompt": "Low-poly game asset: a medieval castle keep for a top-down strategy game. One massive square stone tower, taller than every other building, with crenellated battlements on top and four small round corner turrets with pointed slate roofs. Heavy wooden gate at the base, arrow-slit windows. Royal blue banners hang from the battlements."
+    },
+    {
+      "id": "kingdom_beast_lodge",
+      "style": "kingdom",
+      "building": "beast_lodge",
+      "footprint": [
+        4,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a large medieval horse stable. One long rectangular timber barn, clearly wider than tall, with one straight gable roof whose ridge runs the full length of the building, no dome, no round shapes, two wide open stable doorways along the long front side, a small hay loft door above them and a wooden hitching rail. One royal blue cloth banner over the main doorway."
+    },
+    {
+      "id": "kingdom_siege_workshop",
+      "style": "kingdom",
+      "building": "siege_workshop",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset: a medieval siege engineers' workshop for a top-down strategy game. A square timber workshop with a stone base, one side fully open under a wide lean-to roof, a large wooden crane beam over the opening and a half-built wooden battering ram frame inside. Stacked logs beside it. A royal blue cloth banner on the crane."
+    },
+    {
+      "id": "kingdom_supply_outpost",
+      "style": "kingdom",
+      "building": "supply_outpost",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset: a small medieval supply depot for a top-down strategy game. A small square enclosure of short sharpened wooden palisade stakes around a canvas supply tent and stacked crates and barrels. A royal blue cloth flag on a pole at the entrance."
+    },
+    {
+      "id": "mountain_hearth",
+      "style": "mountain",
+      "building": "hearth",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: the chieftain's great hall of a mountain clan. One long, broad, fully enclosed timber longhouse, clearly the biggest building, with a steep turf roof, crossed carved beams at both gable ends, a stone chimney and a wide front door flanked by two blue banners."
+    },
+    {
+      "id": "mountain_shelter",
+      "style": "mountain",
+      "building": "shelter",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a small mountain cabin. One small, fully enclosed log cabin on a fieldstone footing, a steep turf roof, a short stone chimney, one wooden door and a pile of firewood by the wall."
+    },
+    {
+      "id": "mountain_storeyard",
+      "style": "mountain",
+      "building": "storeyard",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan storehouse. A small square timber shed open on the front under a steep lean-to thatch roof, filled with barrels, grain sacks and rolled furs, a blue cloth awning over the opening."
+    },
+    {
+      "id": "mountain_muster_hall",
+      "style": "mountain",
+      "building": "muster_hall",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.4,
+      "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan barracks. One long, low, fully enclosed timber hall with a steep turf roof, round wooden shields hung along the front wall, a weapon rack of axes beside the door and one blue banner."
+    },
+    {
+      "id": "mountain_archive",
+      "style": "mountain",
+      "building": "archive",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.85,
+      "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan rune lodge. One enclosed timber lodge with a steep thatch roof and a smoke hole, three tall carved standing stones with rune bands in front of it, one blue banner."
+    },
+    {
+      "id": "mountain_watchtower",
+      "style": "mountain",
+      "building": "watchtower",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 4.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a mountain watchtower. One tall square timber tower on a fieldstone base, clearly taller than wide, a covered lookout platform with a big curved horn at the top, a steep pointed shingle roof and a blue pennant."
+    },
+    {
+      "id": "mountain_keep",
+      "style": "mountain",
+      "building": "keep",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.7,
+      "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan stone keep. One tall square fieldstone tower, clearly much taller than it is wide, three storeys high, with a timber-framed top storey, a steep pointed turf roof, a heavy wooden door at the base, narrow slit windows and blue banners hanging from the top."
+    },
+    {
+      "id": "mountain_beast_lodge",
+      "style": "mountain",
+      "building": "beast_lodge",
+      "footprint": [
+        4,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a mountain pony stable. One long, wide, low log barn, wider than tall, with a steep turf roof, two open stall doorways on the long side, a hay loft door and a wooden hitching rail, one blue banner."
+    },
+    {
+      "id": "mountain_siege_workshop",
+      "style": "mountain",
+      "building": "siege_workshop",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a mountain siege workshop. A square timber workshop on a stone footing, one side open under a steep lean-to roof, a big log crane beam over the opening, stacked logs and a half-built wooden ram frame inside, a blue banner on the crane."
+    },
+    {
+      "id": "dwarf_hearth",
+      "style": "dwarf",
+      "building": "hearth",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: the great hall of a dwarf hold. One squat, massive, fully enclosed stone hall built against a rocky outcrop, clearly the biggest building, a huge rune-carved stone door, two bronze-capped forge chimneys and two crimson banners either side of the door."
+    },
+    {
+      "id": "dwarf_shelter",
+      "style": "dwarf",
+      "building": "shelter",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a small dwarf home. One small stone hut half sunk into a grassy mound, a round heavy wooden door with iron bands, a squat stone chimney and a small round window."
+    },
+    {
+      "id": "dwarf_storeyard",
+      "style": "dwarf",
+      "building": "storeyard",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarf storehouse. A small square stone storehouse with an iron-banded open front, stacked crates, ore carts on a short rail and iron ingots, a crimson cloth awning over the opening."
+    },
+    {
+      "id": "dwarf_muster_hall",
+      "style": "dwarf",
+      "building": "muster_hall",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.4,
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarf barracks. One wide, low, fully enclosed stone hall with a flat stepped roof, a heavy iron-banded double door, round bronze shields along the front wall, an anvil beside the door and one crimson banner."
+    },
+    {
+      "id": "dwarf_archive",
+      "style": "dwarf",
+      "building": "archive",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.85,
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarf rune forge. One enclosed stone hall topped by a small bronze dome, deep-carved glowing rune bands around the walls, a forge chimney and one crimson banner over the door."
+    },
+    {
+      "id": "dwarf_watchtower",
+      "style": "dwarf",
+      "building": "watchtower",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 4.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarf watchtower. One tall, thick, square stone tower, clearly taller than wide, with bronze-capped battlements, arrow slits and a crimson pennant on top."
+    },
+    {
+      "id": "dwarf_keep",
+      "style": "dwarf",
+      "building": "keep",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.7,
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarf fortress keep. One massive square stone keep, taller than every other building, with stepped bronze-trimmed battlements, a huge rune-carved gate and crimson banners hanging from the walls."
+    },
+    {
+      "id": "dwarf_beast_lodge",
+      "style": "dwarf",
+      "building": "beast_lodge",
+      "footprint": [
+        4,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarf beast stable. One long, low, wide stone hall, clearly twice as wide as it is tall, with a flat stepped stone roof, two big arched iron-barred stall gates side by side along the long front wall, iron rings and chains on the wall, one crimson banner."
+    },
+    {
+      "id": "dwarf_siege_workshop",
+      "style": "dwarf",
+      "building": "siege_workshop",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarf engineering workshop. A square stone workshop, one side open under a thick stone lintel, big bronze gears and a crane arm over the opening, a forge glowing inside and a crimson banner."
+    },
+    {
+      "id": "elf_hearth",
+      "style": "elf",
+      "building": "hearth",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: the council hall of an elven forest town. One graceful, fully enclosed hall of pale stone and living wood, clearly the biggest building, with a tall sweeping leaf-shaped roof, tall arched windows, a small tree growing through the roof and two blue banners by the door."
+    },
+    {
+      "id": "elf_shelter",
+      "style": "elf",
+      "building": "shelter",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a small elven home. One small round cottage of pale wood with a curved leaf-shaped roof, one arched door, one round window and vines climbing the walls."
+    },
+    {
+      "id": "elf_storeyard",
+      "style": "elf",
+      "building": "storeyard",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven storehouse. A small open pavilion of slender carved wooden pillars under a curved leaf-shaped canopy, with woven baskets, bundles and clay jars inside, a blue cloth hanging at the front."
+    },
+    {
+      "id": "elf_muster_hall",
+      "style": "elf",
+      "building": "muster_hall",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.4,
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven training hall. One long hall of pale stone with slender pillars along an open front, a sweeping curved leaf-shaped roof, spear and bow stands along the wall and one blue banner."
+    },
+    {
+      "id": "elf_archive",
+      "style": "elf",
+      "building": "archive",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.85,
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven library. One enclosed pale stone hall with a round observatory tower and a small domed roof, tall arched windows, vines and one blue banner hanging from the tower."
+    },
+    {
+      "id": "elf_watchtower",
+      "style": "elf",
+      "building": "watchtower",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 4.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven watchtower. One tall slender round tower of pale stone, clearly taller than wide, a curved leaf-shaped spire roof, a small balcony near the top and a blue pennant."
+    },
+    {
+      "id": "elf_keep",
+      "style": "elf",
+      "building": "keep",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.7,
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven castle keep. One tall elegant pale stone keep, taller than every other building, with three slender round towers and curved spire roofs, an arched gate and blue banners."
+    },
+    {
+      "id": "elf_beast_lodge",
+      "style": "elf",
+      "building": "beast_lodge",
+      "footprint": [
+        4,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven stag stable. One long, wide, low open pavilion of curved living wood, wider than tall, with a sweeping leaf-shaped roof, two open arched bays on the long side, a trough and one blue banner."
+    },
+    {
+      "id": "elf_siege_workshop",
+      "style": "elf",
+      "building": "siege_workshop",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven carpentry workshop. A square pale wood workshop, one side open under a curved leaf-shaped lean-to roof, a slender wooden crane over the opening, planks and a half-built bolt thrower inside, a blue banner."
+    },
+    {
+      "id": "orc_hearth",
+      "style": "orc",
+      "building": "hearth",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: the war chief's hall of an orc camp. One big, crude, fully enclosed hall of rough logs and stretched hides, clearly the biggest building, with a tall spiked roof ridge, a huge horned skull over the door and two red rag banners on spiked poles."
+    },
+    {
+      "id": "orc_shelter",
+      "style": "orc",
+      "building": "shelter",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a small orc hut. One small crude round hut of hides stretched over crooked poles, a smoke hole at the top, bones hanging by the low door and a rough log frame."
+    },
+    {
+      "id": "orc_storeyard",
+      "style": "orc",
+      "building": "storeyard",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: an orc storehouse. A small crude log pen with a slanted hide roof, piled sacks, barrels and bones inside, black iron spikes on the corners and a red rag hanging at the front."
+    },
+    {
+      "id": "orc_muster_hall",
+      "style": "orc",
+      "building": "muster_hall",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.4,
+      "prompt": "Low-poly game asset for a top-down strategy game: an orc war barracks. One long, low, crude log hall with a spiked hide roof, a rack of crude axes and a trophy pole of skulls by the door, black iron plates on the walls and one red rag banner."
+    },
+    {
+      "id": "orc_archive",
+      "style": "orc",
+      "building": "archive",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.85,
+      "prompt": "Low-poly game asset for a top-down strategy game: an orc shaman's hut. One crude round hide hut with a tall bone and antler crown on the roof, carved wooden totems and a smoking fire pit in front, one red rag banner."
+    },
+    {
+      "id": "orc_watchtower",
+      "style": "orc",
+      "building": "watchtower",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 4.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: an orc lookout tower. One tall, rickety square tower of lashed logs, clearly taller than wide, a spiked platform at the top with a crude hide roof, skulls on the corners and a red rag pennant."
+    },
+    {
+      "id": "orc_keep",
+      "style": "orc",
+      "building": "keep",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.7,
+      "prompt": "Low-poly game asset for a top-down strategy game: an orc war fortress. One huge crude keep of stacked logs and black iron plates, taller than every other building, jagged spiked battlements, a massive spiked gate and red rag banners."
+    },
+    {
+      "id": "orc_beast_lodge",
+      "style": "orc",
+      "building": "beast_lodge",
+      "footprint": [
+        4,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: an orc beast pen. One long, wide, low crude enclosure of heavy logs with a spiked hide roof over one end, a big spiked gate on the long side, chains and bones, one red rag banner."
+    },
+    {
+      "id": "orc_siege_workshop",
+      "style": "orc",
+      "building": "siege_workshop",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: an orc siege workshop. A crude square log workshop with one open side under a hide lean-to roof, a rough log crane, scrap iron and a half-built spiked battering ram inside, a red rag banner on the crane."
+    },
+    {
+      "id": "kingdom_wall",
+      "style": "kingdom",
+      "building": "wall",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "kingdom_fortifications"
+    },
+    {
+      "id": "kingdom_gate",
+      "style": "kingdom",
+      "building": "gate",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "kingdom_fortifications"
+    },
+    {
+      "id": "kingdom_gate_leaf",
+      "style": "kingdom",
+      "building": "gate_leaf",
+      "size": [
+        1.3,
+        0.15,
+        2.4
+      ],
+      "height": 2.4,
+      "fit": "stretch",
+      "thin": true,
+      "triangles": 800,
+      "suffix": "Dark iron bars, royal blue and gold boss. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single castle portcullis: a flat rectangular grille of thick crossed dark iron bars with pointed spikes along the bottom edge and a round royal blue boss with a gold fleur-de-lis in the centre, twice as tall as it is wide and very thin, seen face-on. No frame, no wall, no hinges.",
+      "texture": "Stylized matte flat colours, even lighting, no baked shadows. All bars, posts, crossbars and spikes: dark wrought iron (#3E3E40). The round central boss: saturated royal blue (#2B4FB0) with a raised gold (#C9A650) fleur-de-lis. No wood, no orange, no beige, no text.",
+      "teamSaturation": 0.5
+    },
+    {
+      "id": "mountain_wall",
+      "style": "mountain",
+      "building": "wall",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "mountain_fortifications"
+    },
+    {
+      "id": "mountain_gate",
+      "style": "mountain",
+      "building": "gate",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "mountain_fortifications"
+    },
+    {
+      "id": "mountain_gate_leaf",
+      "style": "mountain",
+      "building": "gate_leaf",
+      "size": [
+        1.3,
+        0.15,
+        2.4
+      ],
+      "height": 2.4,
+      "fit": "stretch",
+      "thin": true,
+      "triangles": 800,
+      "suffix": "Weathered dark timber, black iron straps, woad blue shield. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single heavy gate door leaf of vertical dark timber planks held by three black iron straps with big rivets and a round woad blue painted shield nailed at the centre, one single loose flat panel, nearly twice as tall as it is wide, seen face-on.",
+      "texture": "Stylized matte painted colours, even lighting. Planks: weathered dark brown timber (#5E4632). Straps and rivets: black iron (#2E2E30). The shield nailed at the centre: bright saturated woad blue (#2F4E9C) paint over its whole face with a thin iron rim. No text."
+    },
+    {
+      "id": "dwarf_wall",
+      "style": "dwarf",
+      "building": "wall",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "dwarf_fortifications"
+    },
+    {
+      "id": "dwarf_gate",
+      "style": "dwarf",
+      "building": "gate",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "dwarf_fortifications"
+    },
+    {
+      "id": "dwarf_gate_leaf",
+      "style": "dwarf",
+      "building": "gate_leaf",
+      "size": [
+        1.3,
+        0.15,
+        2.4
+      ],
+      "height": 2.4,
+      "fit": "stretch",
+      "thin": true,
+      "triangles": 800,
+      "base": "dwarf_fortifications"
+    },
+    {
+      "id": "elf_wall",
+      "style": "elf",
+      "building": "wall",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "elf_fortifications"
+    },
+    {
+      "id": "elf_gate",
+      "style": "elf",
+      "building": "gate",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "elf_fortifications"
+    },
+    {
+      "id": "elf_gate_leaf",
+      "style": "elf",
+      "building": "gate_leaf",
+      "size": [
+        1.3,
+        0.15,
+        2.4
+      ],
+      "height": 2.4,
+      "fit": "stretch",
+      "thin": true,
+      "triangles": 800,
+      "suffix": "Silver-grey wood, gold trim, royal blue emblem. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single door leaf of carved silver-grey wood with openwork tracery of leaves and curling vines, thin gold trim and a royal blue leaf emblem at the centre, one single loose flat panel, nearly twice as tall as it is wide, seen face-on."
+    },
+    {
+      "id": "orc_wall",
+      "style": "orc",
+      "building": "wall",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "orc_fortifications",
+      "grade": 1.8
+    },
+    {
+      "id": "orc_gate",
+      "style": "orc",
+      "building": "gate",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "orc_fortifications",
+      "grade": 1.8
+    },
+    {
+      "id": "orc_gate_leaf",
+      "style": "orc",
+      "building": "gate_leaf",
+      "size": [
+        1.3,
+        0.15,
+        2.4
+      ],
+      "height": 2.4,
+      "fit": "stretch",
+      "thin": true,
+      "triangles": 800,
+      "suffix": "Scorched logs, black iron, bone, blood red rags. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "prompt": "Low-poly game asset for a top-down strategy game: a single crude gate leaf of vertical sharpened logs lashed with rope and two black iron bands, iron spikes on the front, bones tied on and blood red rags hanging, one single loose flat panel, nearly twice as tall as it is wide, seen face-on.",
+      "texture": "Stylized matte painted colours, even lighting. Logs: scorched dark brown (#4A3A2C). Bands and spikes: black iron (#34343A). Bones: aged bone (#D8CCB0). The two cloth strips tied on the front and a broad band of paint smeared across the logs at mid height: bright saturated blood red (#9A2A22), not orange, not brown. No text."
+    },
+    {
+      "id": "sultanate_hearth",
+      "style": "sultanate",
+      "building": "hearth",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a desert sultan's town hall. One large, square, fully enclosed two-storey hall with a flat roof and low parapet, one wide shallow dome in the middle and a square wind-catcher tower at one corner, clearly the biggest building. A tall arched double door in a deep recessed arch, two turquoise banners either side."
+    },
+    {
+      "id": "sultanate_shelter",
+      "style": "sultanate",
+      "building": "shelter",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a small desert house. One small, cube-shaped, single-storey whitewashed house with a flat roof and a low parapet, a small square wind-catcher tower on one corner of the roof, a dark wooden horseshoe-arch door with a turquoise cloth awning above it and one small window with a carved wooden screen."
+    },
+    {
+      "id": "sultanate_storeyard",
+      "style": "sultanate",
+      "building": "storeyard",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a desert storehouse. A small square flat-roofed mudbrick store with one open front under a timber lean-to, big clay jars, grain sacks and wooden crates stacked inside, a turquoise cloth awning along the open front."
+    },
+    {
+      "id": "sultanate_muster_hall",
+      "style": "sultanate",
+      "building": "muster_hall",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.4,
+      "prompt": "Low-poly game asset for a top-down strategy game: a desert barracks. One long, low, fully enclosed flat-roofed hall with a stepped parapet, a wide horseshoe-arch doorway in the middle of the long side, a rack of spears and round shields beside the door and one turquoise cloth banner."
+    },
+    {
+      "id": "sultanate_archive",
+      "style": "sultanate",
+      "building": "archive",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.85,
+      "prompt": "Low-poly game asset for a top-down strategy game: a desert house of scholars. One enclosed rectangular two-storey hall with a flat roof and parapet, a shaded upper gallery of small arches along the front, carved wooden window screens, a square wind-catcher tower at one end and one turquoise cloth banner over the arched door."
+    },
+    {
+      "id": "sultanate_watchtower",
+      "style": "sultanate",
+      "building": "watchtower",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 4.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a desert watchtower. One tall, slim, square mudbrick tower, clearly taller than it is wide and slightly tapering, a projecting timber lookout balcony near the top, a flat roof with stepped merlons, a narrow arched door at the base and a turquoise cloth pennant on a pole."
+    },
+    {
+      "id": "sultanate_keep",
+      "style": "sultanate",
+      "building": "keep",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.7,
+      "prompt": "Low-poly game asset for a top-down strategy game: a desert citadel. One massive, tall, square fortified tower house of sandstone and whitewashed mudbrick, clearly taller than it is wide, three storeys, four slim corner turrets rising above stepped merlons, a heavy horseshoe-arch gate at the base, narrow arrow slits and turquoise banners either side of the gate."
+    },
+    {
+      "id": "sultanate_beast_lodge",
+      "style": "sultanate",
+      "building": "beast_lodge",
+      "footprint": [
+        4,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a desert camel stable. One long rectangular whitewashed mudbrick stable with tall walls, wider than tall, a flat roof with a low stepped parapet, no dome, two tall arched stable doorways on the long side, a timber shade canopy on posts over one doorway, a stone water trough and a turquoise cloth awning."
+    },
+    {
+      "id": "sultanate_siege_workshop",
+      "style": "sultanate",
+      "building": "siege_workshop",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a desert siege workshop. A square yard of low whitewashed mudbrick walls with one side fully open, a wide timber shade roof on posts over half of it, a tall wooden crane beam over the opening, a half-built wooden battering ram frame inside, stacked timber and a turquoise cloth banner on the crane."
+    },
+    {
+      "id": "sultanate_wall",
+      "style": "sultanate",
+      "building": "wall",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "sultanate_fortifications"
+    },
+    {
+      "id": "sultanate_gate",
+      "style": "sultanate",
+      "building": "gate",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "sultanate_fortifications"
+    },
+    {
+      "id": "sultanate_gate_leaf",
+      "style": "sultanate",
+      "building": "gate_leaf",
+      "size": [
+        1.3,
+        0.15,
+        2.4
+      ],
+      "height": 2.4,
+      "fit": "stretch",
+      "thin": true,
+      "triangles": 800,
+      "base": "sultanate_fortifications"
+    },
+    {
+      "id": "sahel_hearth",
+      "style": "sahel",
+      "building": "hearth",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: the royal palace hall of a West African earthen town. One big, fully enclosed two-storey block of smooth mud-brick, clearly the biggest building, a solid flat roof of packed tan earth behind a low parapet, rounded pinnacles at each corner, rows of wooden beam ends sticking out of the walls, a tall doorway with carved wooden doors and two indigo banners beside it."
+    },
+    {
+      "id": "sahel_shelter",
+      "style": "sahel",
+      "building": "shelter",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a small round family house. One small round hut of smooth mud-brick with a tall pointed conical straw-thatch roof, a low doorway with a wooden door and a small indigo cloth awning over it."
+    },
+    {
+      "id": "sahel_storeyard",
+      "style": "sahel",
+      "building": "storeyard",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a grain store. Two round mud-brick granaries on flat stones, each with a pointed conical thatch lid, beside a low open shelter of poles and straw mats piled with woven baskets, grain sacks and clay pots, one indigo cloth hanging at the front."
+    },
+    {
+      "id": "sahel_muster_hall",
+      "style": "sahel",
+      "building": "muster_hall",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.4,
+      "prompt": "Low-poly game asset for a top-down strategy game: a warriors' barracks. One long, low, solid mud-brick building, completely closed on all four sides, thick plain walls, a solid flat roof of packed earth behind a low parapet, rounded corners, wooden beam ends along the top of the walls, one wide doorway, a rack of spears and hide shields against the front wall and one indigo banner."
+    },
+    {
+      "id": "sahel_archive",
+      "style": "sahel",
+      "building": "archive",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.85,
+      "prompt": "Low-poly game asset for a top-down strategy game: a hall of master smiths and scholars. One square, fully enclosed mud-brick hall with a flat roof and a raised central roof block with small windows, round bronze discs set in the front wall, a clay furnace with a short chimney beside the door and one indigo banner."
+    },
+    {
+      "id": "sahel_watchtower",
+      "style": "sahel",
+      "building": "watchtower",
+      "footprint": [
+        2,
+        2
+      ],
+      "height": 4.0,
+      "prompt": "Low-poly game asset for a top-down strategy game: a lookout tower. One tall, slim, slightly tapering square tower of mud-brick, clearly taller than wide, a few wooden beam ends sticking out, a small open wooden lookout platform under a pointed conical thatch roof at the top and an indigo pennant."
+    },
+    {
+      "id": "sahel_keep",
+      "style": "sahel",
+      "building": "keep",
+      "footprint": [
+        4,
+        4
+      ],
+      "height": 4.7,
+      "prompt": "Low-poly game asset for a top-down strategy game: a royal fortress. One massive, tall, solid square tower of thick sloping mud-brick walls, clearly taller than wide and taller than every other building, a solid flat roof, round corner turrets with rounded pinnacles rising above it, rows of wooden beam ends, a heavy bronze-studded wooden gate at the base and two indigo banners."
+    },
+    {
+      "id": "sahel_beast_lodge",
+      "style": "sahel",
+      "building": "beast_lodge",
+      "footprint": [
+        4,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a royal horse stable. One long, wide, low mud-brick stable, clearly wider than tall, a flat roof, a straw-mat shade on wooden posts along the front, two wide open stall doorways, a water trough, a hay pile and one indigo banner."
+    },
+    {
+      "id": "sahel_siege_workshop",
+      "style": "sahel",
+      "building": "siege_workshop",
+      "footprint": [
+        3,
+        3
+      ],
+      "height": 3.3,
+      "prompt": "Low-poly game asset for a top-down strategy game: a siege workshop. A square mud-brick workshop with one side fully open under a flat roof of poles and straw mats, a large wooden crane beam over the opening, a half-built wooden battering ram inside, stacked logs and an indigo banner on the crane."
+    },
+    {
+      "id": "sahel_wall",
+      "style": "sahel",
+      "building": "wall",
+      "footprint": [
+        3,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "sahel_fortifications"
+    },
+    {
+      "id": "sahel_gate",
+      "style": "sahel",
+      "building": "gate",
+      "footprint": [
+        2,
+        1
+      ],
+      "height": 3.7,
+      "fit": "stretch",
+      "triangles": 3000,
+      "base": "sahel_fortifications"
+    },
+    {
+      "id": "sahel_gate_leaf",
+      "style": "sahel",
+      "building": "gate_leaf",
+      "size": [
+        1.3,
+        0.15,
+        2.4
+      ],
+      "height": 2.4,
+      "fit": "stretch",
+      "thin": true,
+      "triangles": 800,
+      "base": "sahel_fortifications"
+    }
+  ]
+}

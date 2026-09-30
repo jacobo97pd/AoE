@@ -1,0 +1,44 @@
+{
+  "about": "Ground layers per biome for tools/art/meshy_ground.py. Layer 0 is the base; 1-3 are painted where AmberBiome's weights say (forest: forest floor under the tree masses, path, river mud; desert: hardpan path, oasis grass, sandstone gravel near rock; caribbean: dry beach sand, wet sand, path). mean is the colour the layer should average to, which the ground shader also uses to keep the terrain's own tint. The style reference is a crop of the user's own isometric ground strip (Crowns & Horizons poster, 'Vista en el juego').",
+  "reference": "Artifacts/ArtReview/meshy-ground/ground-style-reference.png",
+  "raw": "D:/EmberfieldWorkingCache/meshy-ground",
+  "output": "Assets/Game/Resources/Art/Ground",
+  "biomes": {
+    "forest": [
+      { "name": "meadow grass", "mean": "#5A7A40", "look": "short lush meadow grass with small tufts and a few tiny clover patches" },
+      { "name": "forest floor", "mean": "#4E4A33", "look": "forest floor of fallen brown leaves, moss patches and small twigs" },
+      { "name": "dirt path", "mean": "#8A7556", "look": "packed brown dirt path with small pebbles and faint wheel ruts" },
+      { "name": "river mud", "mean": "#6E6A52", "look": "damp river-bank mud with small rounded pebbles and a little sparse grass" }
+    ],
+    "desert": [
+      { "name": "dune sand", "mean": "#D2A868", "look": "fine warm desert sand with soft wind ripples" },
+      { "name": "hardpan", "mean": "#B89468", "look": "cracked dry clay hardpan with small flat plates" },
+      { "name": "oasis grass", "mean": "#6E7F45", "look": "sparse dry oasis grass over sandy soil" },
+      { "name": "sandstone gravel", "mean": "#A87E52", "look": "coarse sandstone gravel and broken flat stones on sand" }
+    ],
+    "caribbean": [
+      { "name": "tropical grass", "mean": "#5E8F45", "look": "lush tropical grass with a few small broad-leaf weeds" },
+      { "name": "beach sand", "mean": "#E3D3A3", "look": "dry pale beach sand with tiny shell fragments" },
+      { "name": "wet sand", "mean": "#A9936A", "look": "smooth wet dark beach sand with faint water marks" },
+      { "name": "coral path", "mean": "#C9B089", "look": "packed coral-sand path with small pale pebbles" }
+    ],
+    "elven": [
+      { "name": "elven moss lawn", "mean": "#6F9664", "look": "soft short elven lawn of fine moss and grass, cool fresh green with a faint teal tint, a few tiny pale star-shaped flowers and small clover leaves" },
+      { "name": "golden leaf floor", "mean": "#8A8456", "look": "elven woodland floor of fallen golden and pale amber leaves over soft green moss, with a few small curled fern fronds" },
+      { "name": "pale stone path", "mean": "#A9A58F", "look": "soft pale silver-grey path of fine packed sand and small smooth white pebbles, with a few specks of moss" },
+      { "name": "stream bank", "mean": "#6F7F70", "flatten": [0.5, 24], "look": "wet stream bank of cool grey-green silt and pale wet sand with a soft sheen and faint water-worn streaks, many small smooth pale pebbles sprinkled sparsely at random across the whole surface, thin wisps of bright moss, small even detail everywhere, no large shapes, no mounds, no rings, no motifs" }
+    ],
+    "highland": [
+      { "name": "alpine meadow", "mean": "#6F7D4E", "look": "short tough alpine meadow grass, cooler and drier than lowland grass, with small tufts, scattered specks of mauve heather and tiny white flowers" },
+      { "name": "heather moor", "mean": "#6E5E5A", "look": "highland moor of low dense clumps of mauve-purple heather and dark bilberry among brown pine needles and dry grass" },
+      { "name": "scree track", "mean": "#8E8B80", "flatten": [0.5, 24], "look": "gravel mountain track of grey granite scree, small sharp angular stones and coarse grit" },
+      { "name": "peat bank", "mean": "#5E5E50", "look": "cold wet dark peaty stream bank with rounded grey river stones and a little sparse sedge" }
+    ],
+    "volcanic": [
+      { "name": "ash plain", "mean": "#5A5256", "flatten": [0.85, 16], "style": "in the painted game-art style and brushwork of the reference picture, but in dark charcoal and ash greys with a faint red-brown warmth, never pure black", "look": "dark charcoal-grey volcanic ash, fine powdery ash with soft darker drifts, small black cinder pebbles and a few tiny rust-red grains evenly scattered, small uniform detail with no large patches or stains" },
+      { "name": "cracked crust", "mean": "#4E403B", "style": "in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black", "look": "cracked cooled lava crust of dark brown-grey basalt plates separated by thin glowing red-orange cracks" },
+      { "name": "cinder path", "mean": "#74503F", "style": "in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black", "look": "packed path of rust-red volcanic cinder gravel and small dark red pebbles with fine ash in between" },
+      { "name": "scorched bank", "mean": "#5C3B31", "style": "in the same painted game-art style and brushwork as the reference picture, but in a dark volcanic palette of warm ash greys and deep reds, never pure black", "look": "scorched lava-river bank of blistered dark red-brown rock and cooled lava ripples with a few tiny ember-orange specks" }
+    ]
+  }
+}

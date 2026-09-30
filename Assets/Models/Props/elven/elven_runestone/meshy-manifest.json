@@ -1,0 +1,130 @@
+{
+  "id": "elven_runestone",
+  "entry": {
+    "id": "elven_runestone",
+    "role": "obstacle",
+    "kind": "obstacle",
+    "lod0": 400,
+    "lod1": 160,
+    "height": 0.9,
+    "footprint": 0.9,
+    "size": 512,
+    "biome": "elven",
+    "priority": 6,
+    "polycount": 600,
+    "prompt": "Ancient elven waystone: one squat chunky pale standing stone, thick and blocky, about as wide as it is tall, with a rounded pointed-arch top, rising from a low broad mossy boulder foot wider than the stone, a deep flowing carved groove of leaves and curls on its front face. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 0.9 m wide, 0.6 m deep and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE) with cool grey shadows (#A7ABA2). Carved grooves: softly glowing pale teal (#8FDCCB), the brightest colour on the model. Moss on the foot and the top edge: fresh green (#6E9A55). Abstract leaf and curl patterns only, no letters, no readable symbols, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d78c-d35a-7567-9b77-3642d6bd6a7e",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1470471590,
+        "prompt": "Ancient elven waystone: one squat chunky pale standing stone, thick and blocky, about as wide as it is tall, with a rounded pointed-arch top, rising from a low broad mossy boulder foot wider than the stone, a deep flowing carved groove of leaves and curls on its front face. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 0.9 m wide, 0.6 m deep and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790322727355,
+        "progress": 100,
+        "started_at": 1790322727362,
+        "finished_at": 1790322734911,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78c-d35a-7567-9b77-3642d6bd6a7e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78c-d35a-7567-9b77-3642d6bd6a7e/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:52:16.370728+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d78d-b61f-75e4-8f7b-d883559da32f",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1470471590,
+        "prompt": "Ancient elven waystone: one squat chunky pale standing stone, thick and blocky, about as wide as it is tall, with a rounded pointed-arch top, rising from a low broad mossy boulder foot wider than the stone, a deep flowing carved groove of leaves and curls on its front face. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 0.9 m wide, 0.6 m deep and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE) with cool grey shadows (#A7ABA2). Carved grooves: softly glowing pale teal (#8FDCCB), the brightest colour on the model. Moss on the foot and the top edge: fresh green (#6E9A55). Abstract leaf and curl patterns only, no letters, no readable symbols, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790322783815,
+        "progress": 100,
+        "started_at": 1790322783822,
+        "finished_at": 1790322825213,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78d-b61f-75e4-8f7b-d883559da32f/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78d-b61f-75e4-8f7b-d883559da32f/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78d-b61f-75e4-8f7b-d883559da32f/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78d-b61f-75e4-8f7b-d883559da32f/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78d-b61f-75e4-8f7b-d883559da32f/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d78d-b61f-75e4-8f7b-d883559da32f/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:53:46.740951+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 89165,
+      "sha256": "753bfd74cfa3114b92788d631d25f2bec06a33bfa046ed99b6a4635736328571"
+    },
+    "model_glb": {
+      "file": "elven_runestone_model.glb",
+      "bytes": 6710328,
+      "sha256": "1bbd61ff94fa9f358896ee8120718a93532a795ff565d1f0876a5ba4d97d40b1"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 118275,
+      "sha256": "c5390338ecdea0c74be301e3895dcb755fd62f0558f3845a4dc1c8409a1ea8af"
+    },
+    "texture_base_color": {
+      "file": "elven_runestone_base_color.png",
+      "bytes": 6053933,
+      "sha256": "c9ffb90ebb0b0c8a3498617e9aecb92bd1851be88aa31d258d43e5860da0ef05"
+    },
+    "texture_metallic": {
+      "file": "elven_runestone_metallic.png",
+      "bytes": 21504,
+      "sha256": "a73f29eb4c9941e48ce68c3d5fc2a2844932875aa140cb2b77a61f131f327fec"
+    },
+    "texture_roughness": {
+      "file": "elven_runestone_roughness.png",
+      "bytes": 1245999,
+      "sha256": "a8fad1993967476454675fbbc295c4fcd025337b4420fc5c0427b9f50aea42cd"
+    },
+    "texture_normal": {
+      "file": "elven_runestone_normal.png",
+      "bytes": 4920658,
+      "sha256": "2aa64ffa287037f645638275bec500a583c62a65d6d9520006b2e304fd70911e"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 632,
+    "lod0": 399,
+    "lod1": 159,
+    "fittedMetres": [
+      0.686,
+      0.541,
+      0.9
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

@@ -1,0 +1,108 @@
+{
+    "Passed": true,
+    "CatalogPreviewPreservesWorld": true,
+    "BuildGuid": "23bb857c791a4d0395f7a5a91dab4fd7",
+    "Failure": "",
+    "Method": "Native pointer clicks, original starting economies and ordinary AI commands; accelerated development is not an FPS measurement.",
+    "Width": 1280,
+    "Height": 720,
+    "VisibleButtonClicks": 76,
+    "Cases": [
+        {
+            "Faction": "aven",
+            "Realm": "historical",
+            "Map": "amber_crossing",
+            "Tick": 3004,
+            "SignatureObserved": false,
+            "Units": 50,
+            "Buildings": 15,
+            "Era": 1,
+            "Workers": 16,
+            "Army": 9
+        },
+        {
+            "Faction": "serevin",
+            "Realm": "historical",
+            "Map": "sapphire_coast",
+            "Tick": 3003,
+            "SignatureObserved": true,
+            "Units": 49,
+            "Buildings": 17,
+            "Era": 2,
+            "Workers": 16,
+            "Army": 8
+        },
+        {
+            "Faction": "english",
+            "Realm": "historical",
+            "Map": "sunscar_basin",
+            "Tick": 3003,
+            "SignatureObserved": true,
+            "Units": 48,
+            "Buildings": 17,
+            "Era": 2,
+            "Workers": 16,
+            "Army": 8
+        },
+        {
+            "Faction": "ashen",
+            "Realm": "fantasy",
+            "Map": "amber_crossing",
+            "Tick": 5203,
+            "SignatureObserved": true,
+            "Units": 59,
+            "Buildings": 28,
+            "Era": 3,
+            "Workers": 16,
+            "Army": 12
+        },
+        {
+            "Faction": "drakeforged",
+            "Realm": "fantasy",
+            "Map": "sapphire_coast",
+            "Tick": 5503,
+            "SignatureObserved": true,
+            "Units": 64,
+            "Buildings": 27,
+            "Era": 3,
+            "Workers": 16,
+            "Army": 18
+        },
+        {
+            "Faction": "skeld",
+            "Realm": "fantasy",
+            "Map": "amber_crossing",
+            "Tick": 4903,
+            "SignatureObserved": true,
+            "Units": 66,
+            "Buildings": 29,
+            "Era": 3,
+            "Workers": 16,
+            "Army": 14
+        },
+        {
+            "Faction": "verdant",
+            "Realm": "fantasy",
+            "Map": "sunscar_basin",
+            "Tick": 6802,
+            "SignatureObserved": true,
+            "Units": 71,
+            "Buildings": 32,
+            "Era": 4,
+            "Workers": 16,
+            "Army": 20
+        },
+        {
+            "Faction": "pirates",
+            "Realm": "naval",
+            "Map": "sapphire_coast",
+            "Tick": 3003,
+            "SignatureObserved": true,
+            "Units": 35,
+            "Buildings": 17,
+            "Era": 1,
+            "Workers": 16,
+            "Army": 2
+        }
+    ]
+}

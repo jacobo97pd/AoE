@@ -1,0 +1,71 @@
+{
+  "generated_utc": "2026-09-24T09:30:26.244942+00:00",
+  "service": "Meshy text-to-3D API v2",
+  "preview_task_id": "01a0d2bf-323f-711a-a917-de5d6eacd92f",
+  "refine_task_id": "01a0d2bf-815d-7446-a324-ce22fce975ad",
+  "preview_request": {
+    "mode": "preview",
+    "target_polycount": 5000,
+    "pose_mode": "",
+    "target_formats": [
+      "glb",
+      "fbx"
+    ],
+    "model_type": "smart-topology",
+    "ai_model": "meshy-t2"
+  },
+  "refine_request": {
+    "mode": "refine",
+    "preview_task_id": "01a0d2bf-323f-711a-a917-de5d6eacd92f",
+    "enable_pbr": true,
+    "texture_resolution": "2k",
+    "target_formats": [
+      "glb",
+      "fbx"
+    ]
+  },
+  "variant": "enclosed",
+  "prompt": "Low-poly game asset: a medieval military barracks for a top-down strategy game. One wide, low, fully enclosed rectangular hall, clearly wider than it is tall, with solid walls on all four sides. Pale cream plaster walls framed with dark timber beams, a thick grey stone base around the bottom. A shallow gable roof of grey-teal slate covering the whole hall, with straight edges and no curves. One wooden double door in the middle of the long front wall and two small square windows either side. A spear rack leaning beside the door. Simple chunky geometry, hard edges, flat faceted surfaces, few large polygons. Isolated building, no ground, no text, no characters, no fabric.",
+  "texture_prompt": "Stylized matte flat colours, even neutral lighting, no baked shadows or ambient occlusion. Walls: pale cream plaster (#EDE7D0), very faint variation. Timber beams and door: warm mid-brown wood (#8E765F), faint grain. Stone base: pale grey-beige stone (#D4D4C4), large simple blocks. Roof: muted grey-teal slate (#7E9597), flat and uniform. Windows: very dark blue-grey (#4D5F61). Small iron fittings only. No dirt, moss, cracks, rust, text, logos, cloth or banners.",
+  "credits_before": 4105,
+  "credits_after": 4090,
+  "credits_spent": 15,
+  "files": [
+    {
+      "file": "Barracks.glb",
+      "bytes": 7071384,
+      "sha256": "185d17947f500e6278a3625217b9bec88a2b494312a241a92ece61179304cd39"
+    },
+    {
+      "file": "Barracks.fbx",
+      "bytes": 12230812,
+      "sha256": "ff3e14c2798decc22e409509d13a16a3c3328e2e1e06b479db2a583cb6c2faf5"
+    },
+    {
+      "file": "Barracks_base_color.png",
+      "bytes": 6056467,
+      "sha256": "2f6c416083a5e2bbdad24b953f9a3a6ffe90471d8fa1a6738cba94adb90966ba"
+    },
+    {
+      "file": "Barracks_metallic.png",
+      "bytes": 30217,
+      "sha256": "9bae7ea6c18fba06e3e41ee36048e55e9389f4674b527c338f52253210d2d2ed"
+    },
+    {
+      "file": "Barracks_roughness.png",
+      "bytes": 1410969,
+      "sha256": "c5db1332492295ad6cbc42a39761a2b2dcc79a600d42a3c195c4eca7c94a109f"
+    },
+    {
+      "file": "Barracks_normal.png",
+      "bytes": 4553669,
+      "sha256": "7cb532fa2aa23ea3baf4499f26a790948a7fb17ee3475285a04a976fb41653cf"
+    },
+    {
+      "file": "Barracks_thumbnail.png",
+      "bytes": 233658,
+      "sha256": "2c2363274a5740bc0294d15aeedb527b95a182deca21956c652af4b03702f403"
+    }
+  ],
+  "note": "Generated for a side-by-side test against the procedural muster_hall. Not yet a shipped asset."
+}

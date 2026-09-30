@@ -1,0 +1,137 @@
+{
+  "id": "dwarf_keep",
+  "entry": {
+    "id": "dwarf_keep",
+    "style": "dwarf",
+    "building": "keep",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.7,
+    "prompt": "Low-poly game asset for a top-down strategy game: a dwarf fortress keep. One massive square stone keep, taller than every other building, with stepped bronze-trimmed battlements, a huge rune-carved gate and crimson banners hanging from the walls."
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        345,
+        360
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43f-7853-72fa-af8b-07aa5c173dc5",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2982519557,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf fortress keep. One massive square stone keep, taller than every other building, with stepped bronze-trimmed battlements, a huge rune-carved gate and crimson banners hanging from the walls. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267326331,
+        "progress": 100,
+        "started_at": 1790267326339,
+        "finished_at": 1790267335303,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-7853-72fa-af8b-07aa5c173dc5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-7853-72fa-af8b-07aa5c173dc5/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:29:03.819586+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43f-c574-7534-80ec-8f923c3d4c26",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2982519557,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf fortress keep. One massive square stone keep, taller than every other building, with stepped bronze-trimmed battlements, a huge rune-carved gate and crimson banners hanging from the walls. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267344289,
+        "progress": 100,
+        "started_at": 1790267344296,
+        "finished_at": 1790267410458,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-c574-7534-80ec-8f923c3d4c26/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-c574-7534-80ec-8f923c3d4c26/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-c574-7534-80ec-8f923c3d4c26/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-c574-7534-80ec-8f923c3d4c26/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-c574-7534-80ec-8f923c3d4c26/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-c574-7534-80ec-8f923c3d4c26/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:30:12.672133+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_keep_model.glb",
+      "bytes": 6229676,
+      "sha256": "fcc54a273bc45d57f4904f8685c85b18ef9080efa106fefaed851fd8c6a3a2b0"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 175356,
+      "sha256": "4560cf358bbc7e32c72d1a7ca42c220b71840181a352b5deea47f394c368d380"
+    },
+    "texture_base_color": {
+      "file": "dwarf_keep_base_color.png",
+      "bytes": 5408275,
+      "sha256": "7f0098d3380cb3f14b371871b4a27bcfb4f7faad5b6c79454556d7cb5d272119"
+    },
+    "texture_metallic": {
+      "file": "dwarf_keep_metallic.png",
+      "bytes": 288768,
+      "sha256": "ec1801261aa4ec04a35212d865906a29422be7be35d7ae8f5b301dfde7fd60a3"
+    },
+    "texture_roughness": {
+      "file": "dwarf_keep_roughness.png",
+      "bytes": 1370274,
+      "sha256": "2b9549d04333b4f3166144b8cb95b9ff0c8b3cf859a5cbb7d8be09e5f3999eff"
+    },
+    "texture_normal": {
+      "file": "dwarf_keep_normal.png",
+      "bytes": 3563380,
+      "sha256": "6a14fd6a6a6a41cdfc529fd856294fb190cb5301cf4fab3b058136944274e98f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4701,
+    "triangles": 4701,
+    "fittedMetres": [
+      3.84,
+      3.645,
+      2.618
+    ],
+    "teamMaskCoverage": 0.0306
+  }
+}

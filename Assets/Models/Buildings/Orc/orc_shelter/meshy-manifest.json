@@ -1,0 +1,137 @@
+{
+  "id": "orc_shelter",
+  "entry": {
+    "id": "orc_shelter",
+    "style": "orc",
+    "building": "shelter",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a small orc hut. One small crude round hut of hides stretched over crooked poles, a smoke hole at the top, bones hanging by the low door and a rough log frame."
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        350,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d438-a66b-72b9-b1d7-2b4adc297268",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3508414638,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small orc hut. One small crude round hut of hides stretched over crooked poles, a smoke hole at the top, bones hanging by the low door and a rough log frame. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266879892,
+        "progress": 100,
+        "started_at": 1790266879899,
+        "finished_at": 1790266890682,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-a66b-72b9-b1d7-2b4adc297268/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-a66b-72b9-b1d7-2b4adc297268/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:21:37.391064+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d438-f5a8-7063-ad48-16276fd30b35",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3508414638,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small orc hut. One small crude round hut of hides stretched over crooked poles, a smoke hole at the top, bones hanging by the low door and a rough log frame. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266897874,
+        "progress": 100,
+        "started_at": 1790266897883,
+        "finished_at": 1790266971552,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f5a8-7063-ad48-16276fd30b35/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f5a8-7063-ad48-16276fd30b35/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f5a8-7063-ad48-16276fd30b35/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f5a8-7063-ad48-16276fd30b35/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f5a8-7063-ad48-16276fd30b35/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f5a8-7063-ad48-16276fd30b35/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:22:54.679181+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_shelter_model.glb",
+      "bytes": 6390100,
+      "sha256": "5597847265ce6ef56c39e6c14b475357141848009f6265d7177ac78833e39c94"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 220307,
+      "sha256": "a2364223a291a561215216bf28e73bf16cba16a2fb16ed2d03cafff8d8956a21"
+    },
+    "texture_base_color": {
+      "file": "orc_shelter_base_color.png",
+      "bytes": 4545310,
+      "sha256": "a15bde30a73c28c25e564e04d81c16dd3e47fcb15d9c95e7115db49cb988bc4a"
+    },
+    "texture_metallic": {
+      "file": "orc_shelter_metallic.png",
+      "bytes": 33492,
+      "sha256": "43940d99169569a5f52553f443de1cd604fddc9224687c101b9c56c5a3403cb3"
+    },
+    "texture_roughness": {
+      "file": "orc_shelter_roughness.png",
+      "bytes": 1378183,
+      "sha256": "5cff932c6c3ac310f8d5f29d764690d54325ba394480b10a29069498f97fb2b9"
+    },
+    "texture_normal": {
+      "file": "orc_shelter_normal.png",
+      "bytes": 3484069,
+      "sha256": "f06abcc99d8680d07dd3fc9bd2cd684f4d92b3c93421a943d51b136c8fa2082f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 5027,
+    "triangles": 5027,
+    "fittedMetres": [
+      1.92,
+      1.92,
+      1.687
+    ],
+    "teamMaskCoverage": 0.2793
+  }
+}

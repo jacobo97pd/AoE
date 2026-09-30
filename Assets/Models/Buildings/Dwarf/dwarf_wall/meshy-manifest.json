@@ -1,0 +1,399 @@
+{
+  "id": "dwarf_wall",
+  "entry": {
+    "id": "dwarf_wall",
+    "style": "dwarf",
+    "building": "wall",
+    "footprint": [
+      3,
+      1
+    ],
+    "height": 3.7,
+    "fit": "stretch",
+    "triangles": 3000,
+    "base": "dwarf_fortifications"
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        348,
+        360
+      ],
+      [
+        0,
+        10
+      ]
+    ],
+    "teamSaturation": 0.42,
+    "grade": 1.45
+  },
+  "steps": {
+    "retexture": {
+      "task": {
+        "id": "01a0d616-c823-777b-aad1-5cc12f544ed9",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls, blocks, pillars and teeth: huge dark warm granite blocks (#5E5852) with paler carved edges (#8A827A). Tooth caps, the band and the door jambs: burnished bronze (#B07A3A) with faint gold geometric runes (#C9A04A). Banners and the stripe across the door: flat saturated crimson red (#A0262A). Door: bronze plates, dark iron bands and rivets (#3E3E40). No text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790298213051,
+        "progress": 100,
+        "started_at": 1790298213061,
+        "finished_at": 1790298261909,
+        "expires_at": 1790557461909,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c823-777b-aad1-5cc12f544ed9/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "dwarf_fortifications",
+      "paidBy": "dwarf_wall",
+      "finished_utc": "2026-09-25T01:04:24.458431+00:00",
+      "credits": 10
+    }
+  },
+  "files": {},
+  "credits": 20,
+  "rejectedPreviews": [
+    {
+      "task": "01a0d5f3-f08c-71d5-82db-94b77a5a5af7",
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarf fortress wall of huge dark granite blocks with a carved rune band: one modular wall piece, an upright solid slab slightly taller than wide and a third as thick, like a slice cut from a long straight wall, both ends cut flat. Stepped bronze-capped battlements along the top edge with a narrow walkway behind them. A small crimson banner on the face. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Round 3: a domed tower on one end, depth 0.57; stretch refused [1.401, 0.428, 1.4].",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    },
+    {
+      "task": "01a0d5f5-fcf2-77da-b786-325aa4e0f738",
+      "prompt": "Low-poly game asset for a top-down strategy game: a dwarven wall of huge dark granite blocks with a carved rune band: one modular wall piece, a plain upright solid slab slightly taller than wide and a third as thick, like a slice cut from a long straight wall, both ends cut flat. Stepped bronze-capped battlements along its top edge. A small crimson banner on the face. Low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Prompt probe W6: NEAR MISS: stretch passes [0.895, 0.819, 1.334] but no walkway (centre-line deck 3.62 m) and a raised block on one end.",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    }
+  ],
+  "base": {
+    "id": "dwarf_wall",
+    "strip": [
+      0.0,
+      0.557038
+    ],
+    "triangles": 674,
+    "bounds": [
+      3.0,
+      0.9,
+      3.7
+    ],
+    "cloth": [
+      [
+        [
+          0.08165,
+          0.5935
+        ],
+        [
+          0.06131,
+          0.60706
+        ],
+        [
+          0.04096,
+          0.5935
+        ],
+        [
+          0.04096,
+          0.4978
+        ],
+        [
+          0.08165,
+          0.4978
+        ]
+      ],
+      [
+        [
+          0.09992,
+          0.4978
+        ],
+        [
+          0.14061,
+          0.4978
+        ],
+        [
+          0.14061,
+          0.5935
+        ],
+        [
+          0.12027,
+          0.60706
+        ],
+        [
+          0.09992,
+          0.5935
+        ]
+      ],
+      [
+        [
+          0.53545,
+          0.86475
+        ],
+        [
+          0.5362,
+          0.86475
+        ],
+        [
+          0.5362,
+          0.88509
+        ],
+        [
+          0.53545,
+          0.88509
+        ]
+      ],
+      [
+        [
+          0.53545,
+          0.88509
+        ],
+        [
+          0.5362,
+          0.88509
+        ],
+        [
+          0.5362,
+          0.90544
+        ],
+        [
+          0.53545,
+          0.90544
+        ]
+      ],
+      [
+        [
+          0.79141,
+          0.31978
+        ],
+        [
+          0.79065,
+          0.31978
+        ],
+        [
+          0.79065,
+          0.22408
+        ],
+        [
+          0.79141,
+          0.22408
+        ]
+      ],
+      [
+        [
+          0.93706,
+          0.41735
+        ],
+        [
+          0.93782,
+          0.41735
+        ],
+        [
+          0.93782,
+          0.45804
+        ],
+        [
+          0.93706,
+          0.45804
+        ]
+      ],
+      [
+        [
+          0.79162,
+          0.00913
+        ],
+        [
+          0.79237,
+          0.00913
+        ],
+        [
+          0.79237,
+          0.10483
+        ],
+        [
+          0.79162,
+          0.10483
+        ]
+      ],
+      [
+        [
+          0.19957,
+          0.5935
+        ],
+        [
+          0.17922,
+          0.60706
+        ],
+        [
+          0.15888,
+          0.5935
+        ],
+        [
+          0.15888,
+          0.4978
+        ],
+        [
+          0.19957,
+          0.4978
+        ]
+      ],
+      [
+        [
+          0.21783,
+          0.4978
+        ],
+        [
+          0.25853,
+          0.4978
+        ],
+        [
+          0.25853,
+          0.5935
+        ],
+        [
+          0.23818,
+          0.60706
+        ],
+        [
+          0.21783,
+          0.5935
+        ]
+      ],
+      [
+        [
+          0.93877,
+          0.4978
+        ],
+        [
+          0.93952,
+          0.4978
+        ],
+        [
+          0.93952,
+          0.51814
+        ],
+        [
+          0.93877,
+          0.51814
+        ]
+      ],
+      [
+        [
+          0.93877,
+          0.51814
+        ],
+        [
+          0.93952,
+          0.51814
+        ],
+        [
+          0.93952,
+          0.53849
+        ],
+        [
+          0.93877,
+          0.53849
+        ]
+      ],
+      [
+        [
+          0.8031,
+          0.68486
+        ],
+        [
+          0.80235,
+          0.68486
+        ],
+        [
+          0.80235,
+          0.58916
+        ],
+        [
+          0.8031,
+          0.58916
+        ]
+      ],
+      [
+        [
+          0.9494,
+          0.22408
+        ],
+        [
+          0.95016,
+          0.22408
+        ],
+        [
+          0.95016,
+          0.26477
+        ],
+        [
+          0.9494,
+          0.26477
+        ]
+      ],
+      [
+        [
+          0.80235,
+          0.70313
+        ],
+        [
+          0.8031,
+          0.70313
+        ],
+        [
+          0.8031,
+          0.79883
+        ],
+        [
+          0.80235,
+          0.79883
+        ]
+      ]
+    ]
+  },
+  "finish": {
+    "sourceTriangles": 674,
+    "triangles": 674,
+    "fittedMetres": [
+      3.0,
+      0.9,
+      3.7
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teamMaskCoverage": 0.0266
+  }
+}

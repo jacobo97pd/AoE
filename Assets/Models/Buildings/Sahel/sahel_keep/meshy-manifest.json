@@ -1,0 +1,134 @@
+{
+  "id": "sahel_keep",
+  "entry": {
+    "id": "sahel_keep",
+    "style": "sahel",
+    "building": "keep",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.7,
+    "prompt": "Low-poly game asset for a top-down strategy game: a royal fortress. One massive, tall, solid square tower of thick sloping mud-brick walls, clearly taller than wide and taller than every other building, a solid flat roof, round corner turrets with rounded pinnacles rising above it, rows of wooden beam ends, a heavy bronze-studded wooden gate at the base and two indigo banners."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3de-6651-7476-ba29-80be924192c3",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2960627483,
+        "prompt": "Low-poly game asset for a top-down strategy game: a royal fortress. One massive, tall, solid square tower of thick sloping mud-brick walls, clearly taller than wide and taller than every other building, a solid flat roof, round corner turrets with rounded pinnacles rising above it, rows of wooden beam ends, a heavy bronze-studded wooden gate at the base and two indigo banners. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529400590,
+        "progress": 100,
+        "started_at": 1790529400626,
+        "finished_at": 1790529409089,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3de-6651-7476-ba29-80be924192c3/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3de-6651-7476-ba29-80be924192c3/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:16:49.624451+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3de-93d4-70a0-a703-40ae4d70e0b5",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2960627483,
+        "prompt": "Low-poly game asset for a top-down strategy game: a royal fortress. One massive, tall, solid square tower of thick sloping mud-brick walls, clearly taller than wide and taller than every other building, a solid flat roof, round corner turrets with rounded pinnacles rising above it, rows of wooden beam ends, a heavy bronze-studded wooden gate at the base and two indigo banners. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529410039,
+        "progress": 100,
+        "started_at": 1790529410081,
+        "finished_at": 1790529463453,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3de-93d4-70a0-a703-40ae4d70e0b5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3de-93d4-70a0-a703-40ae4d70e0b5/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3de-93d4-70a0-a703-40ae4d70e0b5/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3de-93d4-70a0-a703-40ae4d70e0b5/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3de-93d4-70a0-a703-40ae4d70e0b5/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3de-93d4-70a0-a703-40ae4d70e0b5/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:17:49.880769+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_keep_model.glb",
+      "bytes": 4783672,
+      "sha256": "9bec687b8ceaa0cb0df4f72f927d82984a968e0226664539480a2fd7eb054ad8"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 150664,
+      "sha256": "3b41655e615f53d31499eeb6b0a0bc25d35e795e1ea1c0432484be7e9de89426"
+    },
+    "texture_base_color": {
+      "file": "sahel_keep_base_color.png",
+      "bytes": 4411805,
+      "sha256": "6ad7aa31936cf5d99fe461763441e0759d2d13bf11ba897d9a68868fe227b4c9"
+    },
+    "texture_metallic": {
+      "file": "sahel_keep_metallic.png",
+      "bytes": 19915,
+      "sha256": "dcbbf9ff43cab24b58e5b4de9df231ba697b62dae92ad321e491fa14aeb0b99d"
+    },
+    "texture_roughness": {
+      "file": "sahel_keep_roughness.png",
+      "bytes": 1156773,
+      "sha256": "c172fa8124e4d7f29dd26b4eb4710e4beb3f573319d7e8b43863b27247786573"
+    },
+    "texture_normal": {
+      "file": "sahel_keep_normal.png",
+      "bytes": 2517259,
+      "sha256": "32c4e815428483f80730d85d5375b72bc1e300e07fa6dfc9e47278bff0690693"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4960,
+    "triangles": 4960,
+    "fittedMetres": [
+      3.406,
+      3.424,
+      4.7
+    ],
+    "teamMaskCoverage": 0.0168
+  }
+}

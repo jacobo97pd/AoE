@@ -1,0 +1,866 @@
+{
+    "entries": [
+        {
+            "id": "forest_broadleaf_a",
+            "biome": "forest",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/forest_broadleaf_a",
+            "triangles": 399,
+            "farTriangles": 160,
+            "height": 2.981367349624634,
+            "factions": []
+        },
+        {
+            "id": "forest_broadleaf_b",
+            "biome": "forest",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/forest_broadleaf_b",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 2.986555576324463,
+            "factions": []
+        },
+        {
+            "id": "forest_food_node",
+            "biome": "forest",
+            "role": "resource",
+            "kind": "Food",
+            "prefab": "MeshyProps/forest_food_node",
+            "triangles": 1067,
+            "farTriangles": 300,
+            "height": 0.9999999403953552,
+            "factions": []
+        },
+        {
+            "id": "forest_pine_a",
+            "biome": "forest",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/forest_pine_a",
+            "triangles": 399,
+            "farTriangles": 160,
+            "height": 3.294650077819824,
+            "factions": []
+        },
+        {
+            "id": "forest_rock_a",
+            "biome": "forest",
+            "role": "obstacle",
+            "kind": "obstacle",
+            "prefab": "MeshyProps/forest_rock_a",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.6894529461860657,
+            "factions": []
+        },
+        {
+            "id": "forest_rock_b",
+            "biome": "forest",
+            "role": "obstacle",
+            "kind": "obstacle",
+            "prefab": "MeshyProps/forest_rock_b",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.5602185726165772,
+            "factions": []
+        },
+        {
+            "id": "forest_wood_node",
+            "biome": "forest",
+            "role": "resource",
+            "kind": "Wood",
+            "prefab": "MeshyProps/forest_wood_node",
+            "triangles": 1500,
+            "farTriangles": 350,
+            "height": 3.122313976287842,
+            "factions": []
+        },
+        {
+            "id": "metal_node",
+            "biome": "forest",
+            "role": "resource",
+            "kind": "Metal",
+            "prefab": "MeshyProps/metal_node",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.2999999523162842,
+            "factions": []
+        },
+        {
+            "id": "siege_ladder",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_ladder",
+            "prefab": "MeshyProps/siege_ladder",
+            "triangles": 3499,
+            "farTriangles": 900,
+            "height": 3.799999713897705,
+            "factions": [
+                "aven",
+                "serevin",
+                "english",
+                "pirates"
+            ]
+        },
+        {
+            "id": "mountain_siege_ladder",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_ladder",
+            "prefab": "MeshyProps/mountain_siege_ladder",
+            "triangles": 3500,
+            "farTriangles": 900,
+            "height": 3.8002688884735109,
+            "factions": [
+                "skeld"
+            ]
+        },
+        {
+            "id": "dwarf_siege_ladder",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_ladder",
+            "prefab": "MeshyProps/dwarf_siege_ladder",
+            "triangles": 3499,
+            "farTriangles": 900,
+            "height": 3.8008382320404054,
+            "factions": [
+                "drakeforged"
+            ]
+        },
+        {
+            "id": "elf_siege_ladder",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_ladder",
+            "prefab": "MeshyProps/elf_siege_ladder",
+            "triangles": 3500,
+            "farTriangles": 900,
+            "height": 3.799999713897705,
+            "factions": [
+                "verdant"
+            ]
+        },
+        {
+            "id": "orc_siege_ladder",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_ladder",
+            "prefab": "MeshyProps/orc_siege_ladder",
+            "triangles": 3498,
+            "farTriangles": 899,
+            "height": 3.8009326457977297,
+            "factions": [
+                "ashen"
+            ]
+        },
+        {
+            "id": "sultanate_siege_ladder",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_ladder",
+            "prefab": "MeshyProps/sultanate_siege_ladder",
+            "triangles": 3499,
+            "farTriangles": 899,
+            "height": 3.8008532524108888,
+            "factions": [
+                "sultanate"
+            ]
+        },
+        {
+            "id": "sahel_siege_ladder",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_ladder",
+            "prefab": "MeshyProps/sahel_siege_ladder",
+            "triangles": 3500,
+            "farTriangles": 899,
+            "height": 3.799999952316284,
+            "factions": [
+                "sahel"
+            ]
+        },
+        {
+            "id": "stone_node",
+            "biome": "forest",
+            "role": "resource",
+            "kind": "Stone",
+            "prefab": "MeshyProps/stone_node",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.3010739088058472,
+            "factions": []
+        },
+        {
+            "id": "desert_date_palm_node",
+            "biome": "desert",
+            "role": "resource",
+            "kind": "Wood",
+            "prefab": "MeshyProps/desert_date_palm_node",
+            "triangles": 1500,
+            "farTriangles": 350,
+            "height": 3.729799509048462,
+            "factions": []
+        },
+        {
+            "id": "desert_food_node",
+            "biome": "desert",
+            "role": "resource",
+            "kind": "Food",
+            "prefab": "MeshyProps/desert_food_node",
+            "triangles": 1083,
+            "farTriangles": 300,
+            "height": 1.1999999284744263,
+            "factions": []
+        },
+        {
+            "id": "desert_rock_a",
+            "biome": "desert",
+            "role": "obstacle",
+            "kind": "desert_rock",
+            "prefab": "MeshyProps/desert_rock_a",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.6528085470199585,
+            "factions": []
+        },
+        {
+            "id": "desert_rock_b",
+            "biome": "desert",
+            "role": "obstacle",
+            "kind": "desert_rock",
+            "prefab": "MeshyProps/desert_rock_b",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.4973258972167969,
+            "factions": []
+        },
+        {
+            "id": "desert_rock_c",
+            "biome": "desert",
+            "role": "obstacle",
+            "kind": "desert_rock",
+            "prefab": "MeshyProps/desert_rock_c",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.7720080018043518,
+            "factions": []
+        },
+        {
+            "id": "forest_ruins",
+            "biome": "forest",
+            "role": "landmark",
+            "kind": "ruins",
+            "prefab": "MeshyProps/forest_ruins",
+            "triangles": 3500,
+            "farTriangles": 800,
+            "height": 2.47265362739563,
+            "factions": []
+        },
+        {
+            "id": "metal_node_desert",
+            "biome": "desert",
+            "role": "resource",
+            "kind": "Metal",
+            "prefab": "MeshyProps/metal_node_desert",
+            "triangles": 1000,
+            "farTriangles": 249,
+            "height": 1.109252691268921,
+            "factions": []
+        },
+        {
+            "id": "siege_ram",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_ram",
+            "prefab": "MeshyProps/siege_ram",
+            "triangles": 3499,
+            "farTriangles": 899,
+            "height": 1.3883624076843262,
+            "factions": []
+        },
+        {
+            "id": "siege_tower",
+            "biome": "all",
+            "role": "siege",
+            "kind": "siege_tower",
+            "prefab": "MeshyProps/siege_tower",
+            "triangles": 3500,
+            "farTriangles": 900,
+            "height": 4.899999618530273,
+            "factions": []
+        },
+        {
+            "id": "stone_node_desert",
+            "biome": "desert",
+            "role": "resource",
+            "kind": "Stone",
+            "prefab": "MeshyProps/stone_node_desert",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.2993619441986085,
+            "factions": []
+        },
+        {
+            "id": "caribbean_food_node",
+            "biome": "caribbean",
+            "role": "resource",
+            "kind": "Food",
+            "prefab": "MeshyProps/caribbean_food_node",
+            "triangles": 1200,
+            "farTriangles": 300,
+            "height": 1.600000023841858,
+            "factions": []
+        },
+        {
+            "id": "caribbean_wood_node",
+            "biome": "caribbean",
+            "role": "resource",
+            "kind": "Wood",
+            "prefab": "MeshyProps/caribbean_wood_node",
+            "triangles": 1493,
+            "farTriangles": 350,
+            "height": 3.6900877952575685,
+            "factions": []
+        },
+        {
+            "id": "coastal_palm_a",
+            "biome": "caribbean",
+            "role": "obstacle",
+            "kind": "palm",
+            "prefab": "MeshyProps/coastal_palm_a",
+            "triangles": 500,
+            "farTriangles": 199,
+            "height": 3.3032214641571047,
+            "factions": []
+        },
+        {
+            "id": "coastal_palm_b",
+            "biome": "caribbean",
+            "role": "obstacle",
+            "kind": "palm",
+            "prefab": "MeshyProps/coastal_palm_b",
+            "triangles": 500,
+            "farTriangles": 199,
+            "height": 3.2995872497558595,
+            "factions": []
+        },
+        {
+            "id": "coastal_rock_a",
+            "biome": "caribbean",
+            "role": "obstacle",
+            "kind": "coastal_rock",
+            "prefab": "MeshyProps/coastal_rock_a",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.5409734845161438,
+            "factions": []
+        },
+        {
+            "id": "coastal_rock_b",
+            "biome": "caribbean",
+            "role": "obstacle",
+            "kind": "coastal_rock",
+            "prefab": "MeshyProps/coastal_rock_b",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.6128547787666321,
+            "factions": []
+        },
+        {
+            "id": "desert_obelisk",
+            "biome": "desert",
+            "role": "landmark",
+            "kind": "obelisk",
+            "prefab": "MeshyProps/desert_obelisk",
+            "triangles": 2032,
+            "farTriangles": 799,
+            "height": 5.299999713897705,
+            "factions": []
+        },
+        {
+            "id": "desert_pyramid",
+            "biome": "desert",
+            "role": "landmark",
+            "kind": "pyramid",
+            "prefab": "MeshyProps/desert_pyramid",
+            "triangles": 3398,
+            "farTriangles": 799,
+            "height": 3.6640634536743166,
+            "factions": []
+        },
+        {
+            "id": "desert_ruins",
+            "biome": "desert",
+            "role": "landmark",
+            "kind": "ruins",
+            "prefab": "MeshyProps/desert_ruins",
+            "triangles": 3500,
+            "farTriangles": 800,
+            "height": 2.2968716621398927,
+            "factions": []
+        },
+        {
+            "id": "metal_node_caribbean",
+            "biome": "caribbean",
+            "role": "resource",
+            "kind": "Metal",
+            "prefab": "MeshyProps/metal_node_caribbean",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.301889181137085,
+            "factions": []
+        },
+        {
+            "id": "stone_node_caribbean",
+            "biome": "caribbean",
+            "role": "resource",
+            "kind": "Stone",
+            "prefab": "MeshyProps/stone_node_caribbean",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.2999999523162842,
+            "factions": []
+        },
+        {
+            "id": "caribbean_ruins",
+            "biome": "caribbean",
+            "role": "landmark",
+            "kind": "ruins",
+            "prefab": "MeshyProps/caribbean_ruins",
+            "triangles": 3500,
+            "farTriangles": 800,
+            "height": 2.3671858310699465,
+            "factions": []
+        },
+        {
+            "id": "caribbean_lighthouse",
+            "biome": "caribbean",
+            "role": "landmark",
+            "kind": "lighthouse",
+            "prefab": "MeshyProps/caribbean_lighthouse",
+            "triangles": 3500,
+            "farTriangles": 800,
+            "height": 7.899999618530273,
+            "factions": []
+        },
+        {
+            "id": "caribbean_harbor",
+            "biome": "caribbean",
+            "role": "landmark",
+            "kind": "harbor",
+            "prefab": "MeshyProps/caribbean_harbor",
+            "triangles": 3499,
+            "farTriangles": 800,
+            "height": 1.3000001907348633,
+            "factions": []
+        },
+        {
+            "id": "caribbean_ship",
+            "biome": "caribbean",
+            "role": "landmark",
+            "kind": "ship",
+            "prefab": "MeshyProps/caribbean_ship",
+            "triangles": 3499,
+            "farTriangles": 800,
+            "height": 5.399999618530273,
+            "factions": []
+        },
+        {
+            "id": "desert_caravan",
+            "biome": "desert",
+            "role": "landmark",
+            "kind": "caravan",
+            "prefab": "MeshyProps/desert_caravan",
+            "triangles": 3196,
+            "farTriangles": 800,
+            "height": 2.0,
+            "factions": []
+        },
+        {
+            "id": "supply_cart",
+            "biome": "all",
+            "role": "siege",
+            "kind": "supply_cart",
+            "prefab": "MeshyProps/supply_cart",
+            "triangles": 3499,
+            "farTriangles": 899,
+            "height": 1.5984363555908204,
+            "factions": []
+        },
+        {
+            "id": "elven_tree_gold",
+            "biome": "elven",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/elven_tree_gold",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 3.2987782955169679,
+            "factions": []
+        },
+        {
+            "id": "elven_tree_teal",
+            "biome": "elven",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/elven_tree_teal",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 3.5839431285858156,
+            "factions": []
+        },
+        {
+            "id": "elven_runestone",
+            "biome": "elven",
+            "role": "obstacle",
+            "kind": "obstacle",
+            "prefab": "MeshyProps/elven_runestone",
+            "triangles": 399,
+            "farTriangles": 159,
+            "height": 0.9009362459182739,
+            "factions": []
+        },
+        {
+            "id": "elven_glowcap_rock",
+            "biome": "elven",
+            "role": "obstacle",
+            "kind": "obstacle",
+            "prefab": "MeshyProps/elven_glowcap_rock",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.7012496590614319,
+            "factions": []
+        },
+        {
+            "id": "elven_wood_node",
+            "biome": "elven",
+            "role": "resource",
+            "kind": "Wood",
+            "prefab": "MeshyProps/elven_wood_node",
+            "triangles": 1499,
+            "farTriangles": 350,
+            "height": 3.050330877304077,
+            "factions": []
+        },
+        {
+            "id": "elven_food_node",
+            "biome": "elven",
+            "role": "resource",
+            "kind": "Food",
+            "prefab": "MeshyProps/elven_food_node",
+            "triangles": 1067,
+            "farTriangles": 300,
+            "height": 1.0999999046325684,
+            "factions": []
+        },
+        {
+            "id": "elven_moonwell",
+            "biome": "elven",
+            "role": "landmark",
+            "kind": "moonwell",
+            "prefab": "MeshyProps/elven_moonwell",
+            "triangles": 3500,
+            "farTriangles": 799,
+            "height": 3.5073273181915285,
+            "factions": []
+        },
+        {
+            "id": "elven_metal_node",
+            "biome": "elven",
+            "role": "resource",
+            "kind": "Metal",
+            "prefab": "MeshyProps/elven_metal_node",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.2999999523162842,
+            "factions": []
+        },
+        {
+            "id": "elven_stone_node",
+            "biome": "elven",
+            "role": "resource",
+            "kind": "Stone",
+            "prefab": "MeshyProps/elven_stone_node",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.3010739088058472,
+            "factions": []
+        },
+        {
+            "id": "highland_larch",
+            "biome": "highland",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/highland_larch",
+            "triangles": 399,
+            "farTriangles": 160,
+            "height": 3.4399943351745607,
+            "factions": []
+        },
+        {
+            "id": "highland_pine",
+            "biome": "highland",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/highland_pine",
+            "triangles": 399,
+            "farTriangles": 160,
+            "height": 3.294650077819824,
+            "factions": []
+        },
+        {
+            "id": "highland_scree",
+            "biome": "highland",
+            "role": "obstacle",
+            "kind": "obstacle",
+            "prefab": "MeshyProps/highland_scree",
+            "triangles": 399,
+            "farTriangles": 160,
+            "height": 0.5410150289535523,
+            "factions": []
+        },
+        {
+            "id": "highland_snow_boulder",
+            "biome": "highland",
+            "role": "obstacle",
+            "kind": "obstacle",
+            "prefab": "MeshyProps/highland_snow_boulder",
+            "triangles": 399,
+            "farTriangles": 159,
+            "height": 0.7125416398048401,
+            "factions": []
+        },
+        {
+            "id": "highland_massif",
+            "biome": "highland",
+            "role": "landmark",
+            "kind": "mountain",
+            "prefab": "MeshyProps/highland_massif",
+            "triangles": 1704,
+            "farTriangles": 799,
+            "height": 7.999999523162842,
+            "factions": []
+        },
+        {
+            "id": "highland_standing_stones",
+            "biome": "highland",
+            "role": "landmark",
+            "kind": "standing_stones",
+            "prefab": "MeshyProps/highland_standing_stones",
+            "triangles": 2941,
+            "farTriangles": 799,
+            "height": 1.8000001907348633,
+            "factions": []
+        },
+        {
+            "id": "highland_wood_node",
+            "biome": "highland",
+            "role": "resource",
+            "kind": "Wood",
+            "prefab": "MeshyProps/highland_wood_node",
+            "triangles": 1500,
+            "farTriangles": 350,
+            "height": 3.122313976287842,
+            "factions": []
+        },
+        {
+            "id": "highland_food_node",
+            "biome": "highland",
+            "role": "resource",
+            "kind": "Food",
+            "prefab": "MeshyProps/highland_food_node",
+            "triangles": 1067,
+            "farTriangles": 300,
+            "height": 0.9999999403953552,
+            "factions": []
+        },
+        {
+            "id": "highland_metal_node",
+            "biome": "highland",
+            "role": "resource",
+            "kind": "Metal",
+            "prefab": "MeshyProps/highland_metal_node",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.2999999523162842,
+            "factions": []
+        },
+        {
+            "id": "highland_stone_node",
+            "biome": "highland",
+            "role": "resource",
+            "kind": "Stone",
+            "prefab": "MeshyProps/highland_stone_node",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.3010739088058472,
+            "factions": []
+        },
+        {
+            "id": "volcanic_dead_tree",
+            "biome": "volcanic",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/volcanic_dead_tree",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 3.1381142139434816,
+            "factions": []
+        },
+        {
+            "id": "volcanic_thorn_tree",
+            "biome": "volcanic",
+            "role": "obstacle",
+            "kind": "thicket",
+            "prefab": "MeshyProps/volcanic_thorn_tree",
+            "triangles": 399,
+            "farTriangles": 160,
+            "height": 3.008916139602661,
+            "factions": []
+        },
+        {
+            "id": "volcanic_obsidian_rock",
+            "biome": "volcanic",
+            "role": "obstacle",
+            "kind": "obstacle",
+            "prefab": "MeshyProps/volcanic_obsidian_rock",
+            "triangles": 400,
+            "farTriangles": 160,
+            "height": 0.9060146808624268,
+            "factions": []
+        },
+        {
+            "id": "volcanic_bone_pile",
+            "biome": "volcanic",
+            "role": "obstacle",
+            "kind": "obstacle",
+            "prefab": "MeshyProps/volcanic_bone_pile",
+            "triangles": 400,
+            "farTriangles": 159,
+            "height": 0.5722649693489075,
+            "factions": []
+        },
+        {
+            "id": "volcanic_wood_node",
+            "biome": "volcanic",
+            "role": "resource",
+            "kind": "Wood",
+            "prefab": "MeshyProps/volcanic_wood_node",
+            "triangles": 1500,
+            "farTriangles": 349,
+            "height": 3.2990658283233644,
+            "factions": []
+        },
+        {
+            "id": "volcanic_food_node",
+            "biome": "volcanic",
+            "role": "resource",
+            "kind": "Food",
+            "prefab": "MeshyProps/volcanic_food_node",
+            "triangles": 1199,
+            "farTriangles": 299,
+            "height": 1.097022294998169,
+            "factions": []
+        },
+        {
+            "id": "volcanic_metal_node",
+            "biome": "volcanic",
+            "role": "resource",
+            "kind": "Metal",
+            "prefab": "MeshyProps/volcanic_metal_node",
+            "triangles": 999,
+            "farTriangles": 250,
+            "height": 1.2726575136184693,
+            "factions": []
+        },
+        {
+            "id": "volcanic_stone_node",
+            "biome": "volcanic",
+            "role": "resource",
+            "kind": "Stone",
+            "prefab": "MeshyProps/volcanic_stone_node",
+            "triangles": 1000,
+            "farTriangles": 250,
+            "height": 1.3010739088058472,
+            "factions": []
+        },
+        {
+            "id": "volcanic_spire",
+            "biome": "volcanic",
+            "role": "landmark",
+            "kind": "spiked_tower",
+            "prefab": "MeshyProps/volcanic_spire",
+            "triangles": 3499,
+            "farTriangles": 799,
+            "height": 9.000057220458985,
+            "factions": []
+        },
+        {
+            "id": "volcanic_volcano",
+            "biome": "volcanic",
+            "role": "landmark",
+            "kind": "volcano",
+            "prefab": "MeshyProps/volcanic_volcano",
+            "triangles": 3500,
+            "farTriangles": 800,
+            "height": 5.002812385559082,
+            "factions": []
+        },
+        {
+            "id": "pirate_sloop",
+            "biome": "caribbean",
+            "role": "ship",
+            "kind": "pirate_sloop",
+            "prefab": "MeshyProps/pirate_sloop",
+            "triangles": 3499,
+            "farTriangles": 800,
+            "height": 4.500000953674316,
+            "factions": [
+                "pirates"
+            ]
+        },
+        {
+            "id": "english_frigate",
+            "biome": "caribbean",
+            "role": "ship",
+            "kind": "war_galley",
+            "prefab": "MeshyProps/english_frigate",
+            "triangles": 3500,
+            "farTriangles": 800,
+            "height": 5.243166446685791,
+            "factions": [
+                "english"
+            ]
+        },
+        {
+            "id": "spanish_galleon",
+            "biome": "caribbean",
+            "role": "ship",
+            "kind": "war_galley",
+            "prefab": "MeshyProps/spanish_galleon",
+            "triangles": 3499,
+            "farTriangles": 799,
+            "height": 4.785157680511475,
+            "factions": [
+                "serevin"
+            ]
+        },
+        {
+            "id": "skeleton_ghost_ship",
+            "biome": "caribbean",
+            "role": "ship",
+            "kind": "war_galley",
+            "prefab": "MeshyProps/skeleton_ghost_ship",
+            "triangles": 3499,
+            "farTriangles": 800,
+            "height": 4.394530296325684,
+            "factions": [
+                "ashen",
+                "skeletal_fleet"
+            ]
+        }
+    ]
+}

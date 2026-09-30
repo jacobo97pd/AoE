@@ -1,0 +1,11 @@
+Passed: True
+Unity: 6000.3.23f1
+Tick: 1042
+Entities: 17
+Resolution: 1280x720
+Graphics: NVIDIA GeForce RTX 3060 Ti
+Gathered: True
+Built: True
+Trained: True
+EconomyTicksAccelerated: True
+Population: 5+0/6

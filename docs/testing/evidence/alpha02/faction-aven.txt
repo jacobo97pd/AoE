@@ -1,0 +1,25 @@
+Passed: True
+Scenario: Faction
+Faction: aven
+Unity: 6000.3.23f1
+BuildGuid: 0e78fcce58ec4fb489ca9baf9ed74b19
+Resolution: 1280x720
+Graphics: NVIDIA GeForce RTX 3060 Ti
+Map: faction_proving_ground
+EqualStartingBudgets: True
+ResourcesPhysicallyGathered: True
+ForeignUniqueRejectedAtomically: True
+UniqueUnit: 208
+FactionMechanicVerified: True
+UniqueActionVerified: True
+UniqueResearchCompleted: True
+RelocationHealthPreserved: Not applicable
+ChooserButtonDispatches: 2
+ChooserOverridesCliFaction: True
+VisibleButtonDispatches: 9
+Population: 6+0/6
+Tick: 4035
+AcceleratedTicks: 4035
+YieldedFrames: 44
+TicksAccelerated: True
+Failure:

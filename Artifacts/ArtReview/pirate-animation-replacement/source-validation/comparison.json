@@ -1,0 +1,11 @@
+{
+  "sameGeometry": false,
+  "sameTriangles": true,
+  "sameUV": true,
+  "sameBindpose": true,
+  "sameTextures": true,
+  "verticesMaxAbsDifference": 1.1920928955078125e-07,
+  "verticesRmsDifference": 1.2722971681751876e-08,
+  "weightsMaxAbsDifference": 0.0,
+  "weightsRmsDifference": 0.0
+}

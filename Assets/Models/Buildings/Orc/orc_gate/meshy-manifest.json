@@ -1,0 +1,123 @@
+{
+  "id": "orc_gate",
+  "entry": {
+    "id": "orc_gate",
+    "style": "orc",
+    "building": "gate",
+    "footprint": [
+      2,
+      1
+    ],
+    "height": 3.7,
+    "fit": "stretch",
+    "triangles": 3000,
+    "base": "orc_fortifications"
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        343,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "teamSaturation": 0.4,
+    "grade": 1.2
+  },
+  "steps": {
+    "retexture": {
+      "task": {
+        "id": "01a0d616-c79b-7254-a32b-a9c37646adf3",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Logs and posts: scorched dark brown wood (#4A3A2C) with rough bark and pale cut points. Walkway: dark planks. Plates: black iron (#34343A) with rivets. Rope lashings: tan (#8A6E4E). Skulls and horns: aged bone (#D8CCB0). Rag banners: bright saturated blood red cloth (#9A2A22), not orange, not brown. No text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790298213000,
+        "progress": 100,
+        "started_at": 1790298213007,
+        "finished_at": 1790298265424,
+        "expires_at": 1790557465424,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c79b-7254-a32b-a9c37646adf3/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "orc_fortifications",
+      "paidBy": "orc_wall",
+      "finished_utc": "2026-09-25T01:04:32.916893+00:00",
+      "credits": 0
+    }
+  },
+  "files": {},
+  "credits": 5,
+  "rejectedPreviews": [
+    {
+      "task": "01a0d5f3-f167-76df-a815-9c65c309a9fe",
+      "prompt": "Low-poly game asset for a top-down strategy game: an orc war camp gateway of upright scorched logs and iron plates, a horned skull on top: one modular gateway piece, an upright slab nearly twice as tall as wide and a third as thick, like a slice cut from a long wall, both ends cut flat, with one big empty square log-framed archway through it that you can see through, two thirds as wide as the slab and two thirds as tall. Sharpened log points and iron spikes along the top edge. Blood red rags hang by it. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Round 3: a door fills the passage; stretch refused [0.717, 0.956, 1.406].",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    }
+  ],
+  "base": {
+    "id": "orc_gate",
+    "strip": [
+      0.706734,
+      0.293266
+    ],
+    "triangles": 656,
+    "bounds": [
+      2.0,
+      0.896,
+      3.7
+    ],
+    "cloth": []
+  },
+  "finish": {
+    "sourceTriangles": 656,
+    "triangles": 656,
+    "fittedMetres": [
+      2.0,
+      0.9,
+      3.7
+    ],
+    "fit": "stretch",
+    "stretch": [
+      0.998,
+      1.004,
+      0.998
+    ],
+    "teamMaskCoverage": 0.0746
+  }
+}

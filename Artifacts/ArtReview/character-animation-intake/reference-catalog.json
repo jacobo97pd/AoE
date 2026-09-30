@@ -1,0 +1,403 @@
+{
+  "scope": "Ten supplied PNG references; 26 figure appearances, not 26 verified unique 3D assets. Labels are descriptive suggestions. No mesh, rig or animation can be read from the PNG pixels. No new character model is claimed by this catalog.",
+  "images": 10,
+  "figureAppearances": 26,
+  "references": [
+    {
+      "image": "pirata3.png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\pirata3.png",
+      "referenceCopy": "references/pirata3.png",
+      "sha256": "450767a2331f3a5a0064e90684bf9d337853d430bafe262a03ba1f1cf02cdfc7",
+      "format": "PNG",
+      "width": 487,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_01",
+          "label": "Corsario de p?lvora",
+          "position": "single",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "pirata2.png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\pirata2.png",
+      "referenceCopy": "references/pirata2.png",
+      "sha256": "06fc07dea3cf762dc73209e9a2f4125a90a761f2396669cd1bfb74c11bccacbe",
+      "format": "PNG",
+      "width": 532,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_02",
+          "label": "Capit?n pirata",
+          "position": "single",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 13 sept 2026, 14_40_17 (5).png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\ChatGPT Image 13 sept 2026, 14_40_17 (5).png",
+      "referenceCopy": "references/ChatGPT Image 13 sept 2026, 14_40_17 (5).png",
+      "sha256": "d7ffcc33e30a8be005b58488dc707ca36ef6bb45b10e2c79160fc0dd844a13d4",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_03",
+          "label": "H?roe del reino",
+          "position": "left",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_04",
+          "label": "H?roe del desierto",
+          "position": "center",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_05",
+          "label": "H?roe de monta?a",
+          "position": "right",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 13 sept 2026, 14_40_17 (6).png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\ChatGPT Image 13 sept 2026, 14_40_17 (6).png",
+      "referenceCopy": "references/ChatGPT Image 13 sept 2026, 14_40_17 (6).png",
+      "sha256": "10e7af1a3909bbe678adecfc1edb61cc2ddcf46eda30ea3f42e7f40fdbd7bc78",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_06",
+          "label": "Drag?n met?lico",
+          "position": "left",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_07",
+          "label": "Drag?n glacial",
+          "position": "center",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_08",
+          "label": "Drag?n ?gneo",
+          "position": "right",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 13 sept 2026, 14_40_17 (7).png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\ChatGPT Image 13 sept 2026, 14_40_17 (7).png",
+      "referenceCopy": "references/ChatGPT Image 13 sept 2026, 14_40_17 (7).png",
+      "sha256": "e151cb0935c264e4aad4dedcea65b5ab398eec81d1e7e8636bf65d12460eef76",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_09",
+          "label": "Arquero del bosque",
+          "position": "left",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_10",
+          "label": "Centinela ?lfico",
+          "position": "center",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_11",
+          "label": "Mago ?lfico",
+          "position": "right",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 13 sept 2026, 14_40_17 (8).png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\ChatGPT Image 13 sept 2026, 14_40_17 (8).png",
+      "referenceCopy": "references/ChatGPT Image 13 sept 2026, 14_40_17 (8).png",
+      "sha256": "a2b16a162ee8a5cc8e3ebdacae0e8f57ff99473e20c8b94bf5d5a3a0d7594e2a",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_12",
+          "label": "Guerrero enano",
+          "position": "left",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_13",
+          "label": "Minero enano",
+          "position": "center",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_14",
+          "label": "Thane enano",
+          "position": "right",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 13 sept 2026, 14_40_17 (9).png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\ChatGPT Image 13 sept 2026, 14_40_17 (9).png",
+      "referenceCopy": "references/ChatGPT Image 13 sept 2026, 14_40_17 (9).png",
+      "sha256": "8d5051427c8f209fc24cb6d30cf5f3a988aa7ac597d69550d98e5c057a81e20a",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_15",
+          "label": "Piquero de monta?a",
+          "position": "left",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_16",
+          "label": "Guerrero de monta?a",
+          "position": "center",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_17",
+          "label": "Cazador de monta?a",
+          "position": "right",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 13 sept 2026, 14_40_16 (1).png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\ChatGPT Image 13 sept 2026, 14_40_16 (1).png",
+      "referenceCopy": "references/ChatGPT Image 13 sept 2026, 14_40_16 (1).png",
+      "sha256": "e1060c056fd09d9f071113851156e1ff9b1ad04d995fc3b0234695d23d9d63e9",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_18",
+          "label": "Guerrero del reino",
+          "position": "left",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_19",
+          "label": "Guerrero del desierto",
+          "position": "center",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_20",
+          "label": "Guerrero de monta?a",
+          "position": "right",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 13 sept 2026, 14_40_16 (2).png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\ChatGPT Image 13 sept 2026, 14_40_16 (2).png",
+      "referenceCopy": "references/ChatGPT Image 13 sept 2026, 14_40_16 (2).png",
+      "sha256": "74bbbb1713d36d05ff76359bc6ff75c1731888f71206f8a7890eac34f47213e3",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_21",
+          "label": "Recolector del reino",
+          "position": "left",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_22",
+          "label": "Recolector del desierto",
+          "position": "center",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_23",
+          "label": "Recolector de monta?a",
+          "position": "right",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    },
+    {
+      "image": "ChatGPT Image 13 sept 2026, 14_40_17 (3).png",
+      "originalPath": "C:\\Users\\jacob\\Downloads\\ChatGPT Image 13 sept 2026, 14_40_17 (3).png",
+      "referenceCopy": "references/ChatGPT Image 13 sept 2026, 14_40_17 (3).png",
+      "sha256": "8d435a3af23a4a1526ee95224f36a249aba10572e99a6983a3109045c26ffe88",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "figures": [
+        {
+          "id": "figure_24",
+          "label": "Jinete del reino a pie",
+          "position": "left",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_25",
+          "label": "Jinete del desierto a pie",
+          "position": "center",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        },
+        {
+          "id": "figure_26",
+          "label": "Jinete de monta?a a pie",
+          "position": "right",
+          "status": "image_reference_only",
+          "requestedActions": [
+            "Run",
+            "Fall"
+          ],
+          "modelFile": null
+        }
+      ]
+    }
+  ]
+}

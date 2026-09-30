@@ -1,0 +1,213 @@
+{
+  "id": "sultanate_beast_lodge",
+  "entry": {
+    "id": "sultanate_beast_lodge",
+    "style": "sultanate",
+    "building": "beast_lodge",
+    "footprint": [
+      4,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert camel stable. One long rectangular whitewashed mudbrick stable with tall walls, wider than tall, a flat roof with a low stepped parapet, no dome, two tall arched stable doorways on the long side, a timber shade canopy on posts over one doorway, a stone water trough and a turquoise cloth awning."
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3dc-cde7-722c-94d7-836cfd89ee30",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 395592403,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert camel stable. One long rectangular whitewashed mudbrick stable with tall walls, wider than tall, a flat roof with a low stepped parapet, no dome, two tall arched stable doorways on the long side, a timber shade canopy on posts over one doorway, a stone water trough and a turquoise cloth awning. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529295475,
+        "progress": 100,
+        "started_at": 1790529295486,
+        "finished_at": 1790529307748,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dc-cde7-722c-94d7-836cfd89ee30/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dc-cde7-722c-94d7-836cfd89ee30/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:15:12.967957+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3dd-1a4d-750b-b5c5-a131a704ac76",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 395592403,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert camel stable. One long rectangular whitewashed mudbrick stable with tall walls, wider than tall, a flat roof with a low stepped parapet, no dome, two tall arched stable doorways on the long side, a timber shade canopy on posts over one doorway, a stone water trough and a turquoise cloth awning. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529313399,
+        "progress": 100,
+        "started_at": 1790529313417,
+        "finished_at": 1790529357479,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-1a4d-750b-b5c5-a131a704ac76/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-1a4d-750b-b5c5-a131a704ac76/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-1a4d-750b-b5c5-a131a704ac76/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-1a4d-750b-b5c5-a131a704ac76/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-1a4d-750b-b5c5-a131a704ac76/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-1a4d-750b-b5c5-a131a704ac76/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:16:04.815316+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_beast_lodge_model.glb",
+      "bytes": 5673684,
+      "sha256": "1798fc8470d3a5fae81b54d26711a5739d40a871a0e504f6d4af00bfbb51f330"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 125395,
+      "sha256": "7593541d3506d5e642f66b5320d48f9dd5d7752af8585dc1e3e6c745a3871592"
+    },
+    "texture_base_color": {
+      "file": "sultanate_beast_lodge_base_color.png",
+      "bytes": 4706262,
+      "sha256": "eb6747cfd9f48e2101781024a1f33607425c7b67a779d3e446f8e22c2cc92f7a"
+    },
+    "texture_metallic": {
+      "file": "sultanate_beast_lodge_metallic.png",
+      "bytes": 28238,
+      "sha256": "ba8ceb22e7811a4c7db352b079500e4f9c231d3b66f0966e15157cc5e6d4b963"
+    },
+    "texture_roughness": {
+      "file": "sultanate_beast_lodge_roughness.png",
+      "bytes": 1247516,
+      "sha256": "e8343be6def04eda49b245331afc4e00a2c1f34de9a0ba5fe8cd356119d56cf5"
+    },
+    "texture_normal": {
+      "file": "sultanate_beast_lodge_normal.png",
+      "bytes": 3194893,
+      "sha256": "29ed2c5b498d77c6fae600eb10b029439e06e44abf8005de1ec68236be8e5b44"
+    }
+  },
+  "credits": 30,
+  "rejected_try1": {
+    "steps": {
+      "preview": {
+        "task": {
+          "id": "01a0e3d4-c58c-74ec-af59-a85df568baa6",
+          "type": "text-to-3d-preview",
+          "mode": "preview",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 1660908157,
+          "prompt": "Low-poly game asset for a top-down strategy game: a desert camel stable. One long, low, rectangular flat-roofed mudbrick stable, clearly wider than tall, no dome, a timber shade canopy on posts along the front, two wide arched stable doorways on the long side, a stone water trough and a turquoise cloth awning over one doorway. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+          "texture_prompt": "",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790528769050,
+          "progress": 100,
+          "started_at": 1790528769057,
+          "finished_at": 1790528779081,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-c58c-74ec-af59-a85df568baa6/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d4-c58c-74ec-af59-a85df568baa6/output/preview.png",
+          "texture_urls": [],
+          "consumed_credits": 5
+        },
+        "credits": 5,
+        "finished_utc": "2026-09-27T17:06:26.564833+00:00"
+      },
+      "refine": {
+        "task": {
+          "id": "01a0e3d5-120d-759f-81fc-80e9d9dc898c",
+          "type": "text-to-3d-refine",
+          "mode": "refine",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 1660908157,
+          "prompt": "Low-poly game asset for a top-down strategy game: a desert camel stable. One long, low, rectangular flat-roofed mudbrick stable, clearly wider than tall, no dome, a timber shade canopy on posts along the front, two wide arched stable doorways on the long side, a stone water trough and a turquoise cloth awning over one doorway. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+          "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790528786995,
+          "progress": 100,
+          "started_at": 1790528787002,
+          "finished_at": 1790528831643,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-120d-759f-81fc-80e9d9dc898c/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-120d-759f-81fc-80e9d9dc898c/output/preview.png",
+          "texture_urls": [
+            {
+              "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-120d-759f-81fc-80e9d9dc898c/output/texture_0.png",
+              "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-120d-759f-81fc-80e9d9dc898c/output/texture_0_metallic.png",
+              "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-120d-759f-81fc-80e9d9dc898c/output/texture_0_roughness.png",
+              "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-120d-759f-81fc-80e9d9dc898c/output/texture_0_normal.png"
+            }
+          ],
+          "consumed_credits": 10
+        },
+        "credits": 10,
+        "finished_utc": "2026-09-27T17:07:18.416276+00:00"
+      }
+    },
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert camel stable. One long, low, rectangular flat-roofed mudbrick stable, clearly wider than tall, no dome, a timber shade canopy on posts along the front, two wide arched stable doorways on the long side, a stone water trough and a turquoise cloth awning over one doorway.",
+    "finish": {
+      "sourceTriangles": 4867,
+      "triangles": 4867,
+      "fittedMetres": [
+        3.351,
+        2.88,
+        1.001
+      ],
+      "teamMaskCoverage": 0.0172
+    },
+    "why": "1.0 m tall (other cultures 1.7-3.3 m): lower than the 2.2 m camels it stables, with a ribbed roof that reads as a tent"
+  },
+  "finish": {
+    "sourceTriangles": 4905,
+    "triangles": 4905,
+    "fittedMetres": [
+      3.84,
+      2.835,
+      2.138
+    ],
+    "teamMaskCoverage": 0.0177
+  }
+}

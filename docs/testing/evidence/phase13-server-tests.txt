@@ -1,0 +1,94 @@
+TAP version 13
+# (node:1444) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: real C\# World serves two private humans, filters hidden state, validates commands, and persists its result
+ok 1 - real C\# World serves two private humans, filters hidden state, validates commands, and persists its result
+  ---
+  duration_ms: 1463.6707
+  ...
+# Subtest: real authority ranked queue, re-login, and surrender award one server-owned rating result
+ok 2 - real authority ranked queue, re-login, and surrender award one server-owned rating result
+  ---
+  duration_ms: 716.8829
+  ...
+# Subtest: real paid command request ID dedup survives re-login and consumes the rejected sequence without a second charge
+ok 3 - real paid command request ID dedup survives re-login and consumes the rejected sequence without a second charge
+  ---
+  duration_ms: 933.9854
+  ...
+# (node:30100) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: public health is discoverable but every versioned route requires matching protocol and content
+ok 4 - public health is discoverable but every versioned route requires matching protocol and content
+  ---
+  duration_ms: 46.5205
+  ...
+# Subtest: accounts authenticate case-insensitively, hash secrets, revoke sessions, and hide MMR
+ok 5 - accounts authenticate case-insensitively, hash secrets, revoke sessions, and hide MMR
+  ---
+  duration_ms: 553.9992
+  ...
+# Subtest: private lobbies need two ready accounts; access and command identity are server bound
+ok 6 - private lobbies need two ready accounts; access and command identity are server bound
+  ---
+  duration_ms: 381.6763
+  ...
+# Subtest: only authority results create history; private matches never update ranking; duplicate terminal is idempotent
+ok 7 - only authority results create history; private matches never update ranking; duplicate terminal is idempotent
+  ---
+  duration_ms: 366.0326
+  ...
+# Subtest: ranked matchmaking updates hidden Elo and separate visible points exactly once
+ok 8 - ranked matchmaking updates hidden Elo and separate visible points exactly once
+  ---
+  duration_ms: 387.2337
+  ...
+# Subtest: queue partitions by mode and type; widening window finds older compatible opponents
+ok 9 - queue partitions by mode and type; widening window finds older compatible opponents
+  ---
+  duration_ms: 373.3493
+  ...
+# Subtest: re-login restores seat and cursor; disconnect grace forfeits only missing participant
+ok 10 - re-login restores seat and cursor; disconnect grace forfeits only missing participant
+  ---
+  duration_ms: 508.7845
+  ...
+# Subtest: AFK requires accepted activity; both absent aborts without rating award
+ok 11 - AFK requires accepted activity; both absent aborts without rating award
+  ---
+  duration_ms: 357.6107
+  ...
+# Subtest: authority failure aborts matches without ratings; capacity and malformed requests are bounded
+ok 12 - authority failure aborts matches without ratings; capacity and malformed requests are bounded
+  ---
+  duration_ms: 363.1816
+  ...
+# Subtest: authentication and command rate limits reject floods
+ok 13 - authentication and command rate limits reject floods
+  ---
+  duration_ms: 15.359
+  ...
+# Subtest: database survives restart, keeps completed history, aborts interrupted match, and stores no bearer token
+ok 14 - database survives restart, keeps completed history, aborts interrupted match, and stores no bearer token
+  ---
+  duration_ms: 25.2091
+  ...
+# Subtest: a second database owner cannot abort the live service matches during startup
+ok 15 - a second database owner cannot abort the live service matches during startup
+  ---
+  duration_ms: 22.6663
+  ...
+# Subtest: request ID replay is rejected, malformed IDs are not retained, and the seat cache is bounded
+ok 16 - request ID replay is rejected, malformed IDs are not retained, and the seat cache is bounded
+  ---
+  duration_ms: 363.6211
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3885.4016

@@ -1,0 +1,157 @@
+{
+  "id": "dwarf_siege_ladder",
+  "entry": {
+    "id": "dwarf_siege_ladder",
+    "role": "siege",
+    "kind": "siege_ladder",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 3.8,
+    "footprint": 2.0,
+    "size": 1024,
+    "teamHues": [
+      [
+        348,
+        360
+      ],
+      [
+        0,
+        10
+      ]
+    ],
+    "teamSaturation": 0.42,
+    "biome": "all",
+    "factions": [
+      "drakeforged"
+    ],
+    "priority": 5,
+    "prompt": "Tall heavy siege ladder standing almost upright, three times taller than wide, leaning slightly forward: two thick square timber rails bound with iron bands, eight flat rungs, two curved iron hook claws on the top ends, its feet set in a low four-wheeled bronze-and-timber cart frame, and a small crimson cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: dark warm brown wood (#5E4632) with darker grain (#46352A). Iron bands, rung shoes and hook claws: dark iron (#3E3E40). Cart frame fittings and wheel hubs: burnished bronze (#B07A3A). Pennant: plain saturated crimson red cloth (#A0262A), no emblem, no symbol. No dirt, rust, blood, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d5be-fc5f-70c1-bb2c-1c154386a7f1",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 690447424,
+        "prompt": "Tall heavy siege ladder standing almost upright, three times taller than wide, leaning slightly forward: two thick square timber rails bound with iron bands, eight flat rungs, two curved iron hook claws on the top ends, its feet set in a low four-wheeled bronze-and-timber cart frame, and a small crimson cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292460569,
+        "progress": 100,
+        "started_at": 1790292460575,
+        "finished_at": 1790292468956,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5be-fc5f-70c1-bb2c-1c154386a7f1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5be-fc5f-70c1-bb2c-1c154386a7f1/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T23:27:49.596496+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d5bf-29ee-77ca-bb33-26c83ac0f5d9",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 690447424,
+        "prompt": "Tall heavy siege ladder standing almost upright, three times taller than wide, leaning slightly forward: two thick square timber rails bound with iron bands, eight flat rungs, two curved iron hook claws on the top ends, its feet set in a low four-wheeled bronze-and-timber cart frame, and a small crimson cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Timber: dark warm brown wood (#5E4632) with darker grain (#46352A). Iron bands, rung shoes and hook claws: dark iron (#3E3E40). Cart frame fittings and wheel hubs: burnished bronze (#B07A3A). Pennant: plain saturated crimson red cloth (#A0262A), no emblem, no symbol. No dirt, rust, blood, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292471672,
+        "progress": 100,
+        "started_at": 1790292471678,
+        "finished_at": 1790292507539,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bf-29ee-77ca-bb33-26c83ac0f5d9/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bf-29ee-77ca-bb33-26c83ac0f5d9/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bf-29ee-77ca-bb33-26c83ac0f5d9/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bf-29ee-77ca-bb33-26c83ac0f5d9/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bf-29ee-77ca-bb33-26c83ac0f5d9/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bf-29ee-77ca-bb33-26c83ac0f5d9/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T23:28:34.604197+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 52379,
+      "sha256": "74d8b0db211dfcb4e3852fd613efa071c92bf67d50b7b5df92d31d69b7d1647a"
+    },
+    "model_glb": {
+      "file": "dwarf_siege_ladder_model.glb",
+      "bytes": 6751420,
+      "sha256": "8b11f7cb3cf491ea1ca8f28042c17d2ef766b4426ded21e0a60c2b791cc8ccc1"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 57034,
+      "sha256": "d11c94c3331e94e2114b0ee4e84927856b842ea0a6d8fa2529aa89cbc7808d5d"
+    },
+    "texture_base_color": {
+      "file": "dwarf_siege_ladder_base_color.png",
+      "bytes": 5571577,
+      "sha256": "04b03185bb41fe9602dddd2c2c016dea3bb7263fc303a04428f42028d5217e70"
+    },
+    "texture_metallic": {
+      "file": "dwarf_siege_ladder_metallic.png",
+      "bytes": 292410,
+      "sha256": "52f6ffe71b2e7a500854a315414458b5f8d303208c8274074d84d84bcf9150ea"
+    },
+    "texture_roughness": {
+      "file": "dwarf_siege_ladder_roughness.png",
+      "bytes": 1234846,
+      "sha256": "43af72a5cf64a193219622c545b1f32367622755df8759484df8c4cddde8cf95"
+    },
+    "texture_normal": {
+      "file": "dwarf_siege_ladder_normal.png",
+      "bytes": 3981958,
+      "sha256": "283cfb9bea455cc6fda42ad5a89c87e8ad82c441c315dddb744a76500a1255e9"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3999,
+    "lod0": 3499,
+    "lod1": 900,
+    "fittedMetres": [
+      0.946,
+      1.726,
+      3.8
+    ],
+    "teamMaskCoverage": 0.0
+  },
+  "retired": [
+    {
+      "preview": "01a0d5ba-bdf0-73b6-8dc3-f50b66454bbb",
+      "refine": "01a0d5bb-1c0e-70cb-8205-3d32b937726d",
+      "credits": 15,
+      "fittedMetres": [
+        2.0,
+        0.803,
+        1.953
+      ],
+      "reason": "Came back a short A-frame leaning sideways (1.95 of 3.8 authored units tall); regenerated with a taller, upright prompt. Raw files kept in D:/EmberfieldWorkingCache/meshy-props/dwarf_siege_ladder_try1."
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+    "entries": [
+        {
+            "id": "kingdom_warrior",
+            "name": "Guerrero del Reino",
+            "culture": "kingdom",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/kingdom_warrior",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4086
+        },
+        {
+            "id": "kingdom_worker",
+            "name": "Recolector del Reino",
+            "culture": "kingdom",
+            "unit": "tender",
+            "prefab": "MeshyUnits/kingdom_worker",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4072
+        },
+        {
+            "id": "mountain_worker",
+            "name": "Recolector de montaña",
+            "culture": "mountain",
+            "unit": "tender",
+            "prefab": "MeshyUnits/mountain_worker",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4024
+        },
+        {
+            "id": "mountain_warrior",
+            "name": "Guerrero de montaña",
+            "culture": "mountain",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/mountain_warrior",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 3964
+        },
+        {
+            "id": "mountain_archer",
+            "name": "Cazador de montaña",
+            "culture": "mountain",
+            "unit": "stringwarden",
+            "prefab": "MeshyUnits/mountain_archer",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4018
+        },
+        {
+            "id": "mountain_pikeman",
+            "name": "Guardia de escarcha",
+            "culture": "mountain",
+            "unit": "frostguard",
+            "prefab": "MeshyUnits/mountain_pikeman",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 4182
+        },
+        {
+            "id": "dwarf_warrior",
+            "name": "Guerrero enano",
+            "culture": "dwarf",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/dwarf_warrior",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 3994
+        },
+        {
+            "id": "dwarf_miner",
+            "name": "Minero enano",
+            "culture": "dwarf",
+            "unit": "tender",
+            "prefab": "MeshyUnits/dwarf_miner",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4036
+        },
+        {
+            "id": "elf_archer",
+            "name": "Arquera del bosque",
+            "culture": "elf",
+            "unit": "stringwarden",
+            "prefab": "MeshyUnits/elf_archer",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 3930
+        },
+        {
+            "id": "elf_sentinel",
+            "name": "Centinela élfico",
+            "culture": "elf",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/elf_sentinel",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4138
+        },
+        {
+            "id": "orc_warrior",
+            "name": "Guerrero orco",
+            "culture": "orc",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/orc_warrior",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4059
+        },
+        {
+            "id": "orc_troll",
+            "name": "Trol de guerra",
+            "culture": "orc",
+            "unit": "war_troll",
+            "prefab": "MeshyUnits/orc_troll",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4175
+        },
+        {
+            "id": "kingdom_archer",
+            "name": "Arquero del Reino",
+            "culture": "kingdom",
+            "unit": "stringwarden",
+            "prefab": "MeshyUnits/kingdom_archer",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 4236
+        },
+        {
+            "id": "orc_worker",
+            "name": "Peón orco",
+            "culture": "orc",
+            "unit": "tender",
+            "prefab": "MeshyUnits/orc_worker",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4104
+        },
+        {
+            "id": "orc_archer",
+            "name": "Arquero orco",
+            "culture": "orc",
+            "unit": "stringwarden",
+            "prefab": "MeshyUnits/orc_archer",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4139
+        },
+        {
+            "id": "elf_worker",
+            "name": "Recolector élfico",
+            "culture": "elf",
+            "unit": "tender",
+            "prefab": "MeshyUnits/elf_worker",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4241
+        },
+        {
+            "id": "dwarf_crossbowman",
+            "name": "Ballestero enano",
+            "culture": "dwarf",
+            "unit": "stringwarden",
+            "prefab": "MeshyUnits/dwarf_crossbowman",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 4167
+        },
+        {
+            "id": "kingdom_threadkeeper",
+            "name": "Enlace del Reino",
+            "culture": "kingdom",
+            "unit": "threadkeeper",
+            "prefab": "MeshyUnits/kingdom_threadkeeper",
+            "factions": [
+                "aven"
+            ],
+            "triangles": 4120
+        },
+        {
+            "id": "elf_grove_guardian",
+            "name": "Guardián de la arboleda",
+            "culture": "elf",
+            "unit": "grove_guardian",
+            "prefab": "MeshyUnits/elf_grove_guardian",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 4213
+        },
+        {
+            "id": "kingdom_knight",
+            "name": "Caballero del Reino",
+            "culture": "kingdom",
+            "unit": "strider",
+            "prefab": "MeshyUnits/kingdom_knight",
+            "factions": [
+                "aven",
+                "serevin",
+                "english"
+            ],
+            "triangles": 5277
+        },
+        {
+            "id": "kingdom_ashrunner",
+            "name": "Corredor de ceniza",
+            "culture": "kingdom",
+            "unit": "ashrunner",
+            "prefab": "MeshyUnits/kingdom_ashrunner",
+            "factions": [
+                "serevin"
+            ],
+            "triangles": 5250
+        },
+        {
+            "id": "mountain_rider",
+            "name": "Jinete montañés",
+            "culture": "mountain",
+            "unit": "strider",
+            "prefab": "MeshyUnits/mountain_rider",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 5149
+        },
+        {
+            "id": "dwarf_rider",
+            "name": "Jinete enano",
+            "culture": "dwarf",
+            "unit": "strider",
+            "prefab": "MeshyUnits/dwarf_rider",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 5194
+        },
+        {
+            "id": "elf_rider",
+            "name": "Jinete élfico",
+            "culture": "elf",
+            "unit": "strider",
+            "prefab": "MeshyUnits/elf_rider",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 5283
+        },
+        {
+            "id": "orc_rider",
+            "name": "Jinete de lobo",
+            "culture": "orc",
+            "unit": "strider",
+            "prefab": "MeshyUnits/orc_rider",
+            "factions": [
+                "ashen"
+            ],
+            "triangles": 4757
+        },
+        {
+            "id": "dwarf_ember_drake",
+            "name": "Draco de ascuas",
+            "culture": "dwarf",
+            "unit": "ember_drake",
+            "prefab": "MeshyUnits/dwarf_ember_drake",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 5290
+        },
+        {
+            "id": "sultanate_warrior",
+            "name": "Guerrero del sultanato",
+            "culture": "sultanate",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/sultanate_warrior",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4072
+        },
+        {
+            "id": "sultanate_worker",
+            "name": "Peón del sultanato",
+            "culture": "sultanate",
+            "unit": "tender",
+            "prefab": "MeshyUnits/sultanate_worker",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 3963
+        },
+        {
+            "id": "sultanate_archer",
+            "name": "Arquero del sultanato",
+            "culture": "sultanate",
+            "unit": "stringwarden",
+            "prefab": "MeshyUnits/sultanate_archer",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 4306
+        },
+        {
+            "id": "sultanate_camel_rider",
+            "name": "Jinete de camello",
+            "culture": "sultanate",
+            "unit": "strider",
+            "prefab": "MeshyUnits/sultanate_camel_rider",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 5427
+        },
+        {
+            "id": "sultanate_camel_archer",
+            "name": "Arquero de camello",
+            "culture": "sultanate",
+            "unit": "camel_archer",
+            "prefab": "MeshyUnits/sultanate_camel_archer",
+            "factions": [
+                "sultanate"
+            ],
+            "triangles": 5257
+        },
+        {
+            "id": "sahel_worker",
+            "name": "Labrador del Sahel",
+            "culture": "sahel",
+            "unit": "tender",
+            "prefab": "MeshyUnits/sahel_worker",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4176
+        },
+        {
+            "id": "sahel_spearman",
+            "name": "Lancero del Sahel",
+            "culture": "sahel",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/sahel_spearman",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4132
+        },
+        {
+            "id": "sahel_archer",
+            "name": "Arquero del Sahel",
+            "culture": "sahel",
+            "unit": "stringwarden",
+            "prefab": "MeshyUnits/sahel_archer",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 4203
+        },
+        {
+            "id": "sahel_horse_rider",
+            "name": "Jinete del Sahel",
+            "culture": "sahel",
+            "unit": "strider",
+            "prefab": "MeshyUnits/sahel_horse_rider",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 5456
+        },
+        {
+            "id": "sahel_quilted_lancer",
+            "name": "Jinete acolchado",
+            "culture": "sahel",
+            "unit": "quilted_lancer",
+            "prefab": "MeshyUnits/sahel_quilted_lancer",
+            "factions": [
+                "sahel"
+            ],
+            "triangles": 5293
+        }
+    ]
+}

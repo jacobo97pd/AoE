@@ -1,0 +1,393 @@
+{
+  "id": "elf_wall",
+  "entry": {
+    "id": "elf_wall",
+    "style": "elf",
+    "building": "wall",
+    "footprint": [
+      3,
+      1
+    ],
+    "height": 3.7,
+    "fit": "stretch",
+    "triangles": 3000,
+    "base": "elf_fortifications"
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "retexture": {
+      "task": {
+        "id": "01a0d616-c80d-73ad-b135-075733989c16",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls, teeth and pillars: smooth pale ivory stone (#E6E0CE) in long even courses. Ribs and the arch: silver birch grey living wood (#BDB5A2). Small leaves: fresh green (#5E8A4A). Cornice trim and rods: muted gold (#C9A650). Banners: plain saturated royal blue cloth (#2B4FB0), no emblem. No text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790298213047,
+        "progress": 100,
+        "started_at": 1790298213054,
+        "finished_at": 1790298256042,
+        "expires_at": 1790557456042,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d616-c80d-73ad-b135-075733989c16/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "elf_fortifications",
+      "paidBy": "elf_wall",
+      "finished_utc": "2026-09-25T01:04:24.441445+00:00",
+      "credits": 10
+    }
+  },
+  "files": {},
+  "credits": 20,
+  "rejectedPreviews": [
+    {
+      "task": "01a0d5f3-f0e8-730e-a6ef-cbf5f34c6982",
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven city wall of smooth pale ivory stone with living branches curling along it: one modular wall piece, an upright solid slab slightly taller than wide and a third as thick, like a slice cut from a long straight wall, both ends cut flat. Pointed leaf-shaped merlons along the top edge with a narrow walkway behind them. A small royal blue banner on the face. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Round 3: a spire tower in the middle, depth 0.51; stretch refused [1.353, 0.479, 1.352].",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    },
+    {
+      "task": "01a0d5f5-fd20-7059-99e1-cc043871afe8",
+      "prompt": "Low-poly game asset for a top-down strategy game: an elven wall of smooth pale ivory stone with living branches curling along it: one modular wall piece, a plain upright solid slab slightly taller than wide and a third as thick, like a slice cut from a long straight wall, both ends cut flat. Leaf-shaped merlons along its top edge. A small royal blue banner on the face. Low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+      "credits": 5,
+      "reason": "Prompt probe W6: a doorway-like panel with a tree, 0.14 thick; stretch refused.",
+      "rejected_utc": "2026-09-25T00:29:18.670642+00:00"
+    }
+  ],
+  "base": {
+    "id": "elf_wall",
+    "strip": [
+      0.0,
+      0.589698
+    ],
+    "triangles": 1026,
+    "bounds": [
+      3.0,
+      0.9,
+      3.7
+    ],
+    "cloth": [
+      [
+        [
+          0.58109,
+          0.76904
+        ],
+        [
+          0.55883,
+          0.79129
+        ],
+        [
+          0.53658,
+          0.76904
+        ],
+        [
+          0.53658,
+          0.63148
+        ],
+        [
+          0.58109,
+          0.63148
+        ]
+      ],
+      [
+        [
+          0.06781,
+          0.64573
+        ],
+        [
+          0.11232,
+          0.64573
+        ],
+        [
+          0.11232,
+          0.78328
+        ],
+        [
+          0.09007,
+          0.80554
+        ],
+        [
+          0.06781,
+          0.78328
+        ]
+      ],
+      [
+        [
+          0.33942,
+          0.9068
+        ],
+        [
+          0.34094,
+          0.9068
+        ],
+        [
+          0.34094,
+          0.92905
+        ],
+        [
+          0.33942,
+          0.92905
+        ]
+      ],
+      [
+        [
+          0.33942,
+          0.92905
+        ],
+        [
+          0.34094,
+          0.92905
+        ],
+        [
+          0.34094,
+          0.9513
+        ],
+        [
+          0.33942,
+          0.9513
+        ]
+      ],
+      [
+        [
+          0.73906,
+          0.78323
+        ],
+        [
+          0.73754,
+          0.78323
+        ],
+        [
+          0.73754,
+          0.64573
+        ],
+        [
+          0.73906,
+          0.64573
+        ]
+      ],
+      [
+        [
+          0.96705,
+          0.64168
+        ],
+        [
+          0.96856,
+          0.64168
+        ],
+        [
+          0.96856,
+          0.68619
+        ],
+        [
+          0.96705,
+          0.68619
+        ]
+      ],
+      [
+        [
+          0.70343,
+          0.64573
+        ],
+        [
+          0.70494,
+          0.64573
+        ],
+        [
+          0.70494,
+          0.78325
+        ],
+        [
+          0.70343,
+          0.78325
+        ]
+      ],
+      [
+        [
+          0.17236,
+          0.78328
+        ],
+        [
+          0.15011,
+          0.80554
+        ],
+        [
+          0.12786,
+          0.78328
+        ],
+        [
+          0.12786,
+          0.64573
+        ],
+        [
+          0.17236,
+          0.64573
+        ]
+      ],
+      [
+        [
+          0.00777,
+          0.64573
+        ],
+        [
+          0.05227,
+          0.64573
+        ],
+        [
+          0.05227,
+          0.78328
+        ],
+        [
+          0.03002,
+          0.80554
+        ],
+        [
+          0.00777,
+          0.78328
+        ]
+      ],
+      [
+        [
+          0.80135,
+          0.93036
+        ],
+        [
+          0.80287,
+          0.93036
+        ],
+        [
+          0.80287,
+          0.95262
+        ],
+        [
+          0.80135,
+          0.95262
+        ]
+      ],
+      [
+        [
+          0.80135,
+          0.95262
+        ],
+        [
+          0.80287,
+          0.95262
+        ],
+        [
+          0.80287,
+          0.97487
+        ],
+        [
+          0.80135,
+          0.97487
+        ]
+      ],
+      [
+        [
+          0.75611,
+          0.78323
+        ],
+        [
+          0.7546,
+          0.78323
+        ],
+        [
+          0.7546,
+          0.64573
+        ],
+        [
+          0.75611,
+          0.64573
+        ]
+      ],
+      [
+        [
+          0.9734,
+          0.39488
+        ],
+        [
+          0.97492,
+          0.39488
+        ],
+        [
+          0.97492,
+          0.43939
+        ],
+        [
+          0.9734,
+          0.43939
+        ]
+      ],
+      [
+        [
+          0.72048,
+          0.64573
+        ],
+        [
+          0.722,
+          0.64573
+        ],
+        [
+          0.722,
+          0.78325
+        ],
+        [
+          0.72048,
+          0.78325
+        ]
+      ]
+    ]
+  },
+  "finish": {
+    "sourceTriangles": 1026,
+    "triangles": 1026,
+    "fittedMetres": [
+      3.0,
+      0.9,
+      3.7
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teamMaskCoverage": 0.043
+  }
+}

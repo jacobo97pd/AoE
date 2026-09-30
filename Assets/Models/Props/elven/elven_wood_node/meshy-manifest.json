@@ -1,0 +1,132 @@
+{
+  "id": "elven_wood_node",
+  "entry": {
+    "id": "elven_wood_node",
+    "role": "resource",
+    "kind": "Wood",
+    "lod0": 1500,
+    "lod1": 350,
+    "farShell": true,
+    "height": 3.8,
+    "footprint": 2.2,
+    "size": 512,
+    "biome": "elven",
+    "priority": 6,
+    "polycount": 2000,
+    "prompt": "Elven tree grove: three tall slender pale trunks growing from one shared base and leaning slightly apart, carrying one big joined canopy of five chunky rounded lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, no roots, hard edges, flat faces. About 3.8 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Crown: bright fresh leaf green (#86AE4E) with golden sunlit lobe tops (#CDB85C), lighter and warmer than the gold and teal trees around it. Trunks: smooth silver-white bark (#DAD6C8) with pale grey-teal streaks (#9FB0AA). No flowers, no fruit, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d759-ff8d-74cc-bbda-7ae9cd9bf506",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2249138305,
+        "prompt": "Elven tree grove: three tall slender pale trunks growing from one shared base and leaning slightly apart, carrying one big joined canopy of five chunky rounded lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, no roots, hard edges, flat faces. About 3.8 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319396469,
+        "progress": 100,
+        "started_at": 1790319396477,
+        "finished_at": 1790319404272,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d759-ff8d-74cc-bbda-7ae9cd9bf506/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d759-ff8d-74cc-bbda-7ae9cd9bf506/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:56:45.484925+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d760-efe0-7550-91d2-06d01d649ac6",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2249138305,
+        "prompt": "Elven tree grove: three tall slender pale trunks growing from one shared base and leaning slightly apart, carrying one big joined canopy of five chunky rounded lobes set high, open space under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin twigs, no roots, hard edges, flat faces. About 3.8 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Crown: bright fresh leaf green (#86AE4E) with golden sunlit lobe tops (#CDB85C), lighter and warmer than the gold and teal trees around it. Trunks: smooth silver-white bark (#DAD6C8) with pale grey-teal streaks (#9FB0AA). No flowers, no fruit, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319850976,
+        "progress": 100,
+        "started_at": 1790319850981,
+        "finished_at": 1790319887626,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-efe0-7550-91d2-06d01d649ac6/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-efe0-7550-91d2-06d01d649ac6/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-efe0-7550-91d2-06d01d649ac6/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-efe0-7550-91d2-06d01d649ac6/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-efe0-7550-91d2-06d01d649ac6/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-efe0-7550-91d2-06d01d649ac6/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:04:53.909773+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 122324,
+      "sha256": "fb9afc78f43bae52ca977809dc0232c73836eb74589140a477e045f095d15007"
+    },
+    "model_glb": {
+      "file": "elven_wood_node_model.glb",
+      "bytes": 5778744,
+      "sha256": "c1aa29fffcda02982a31737a54a1b5c41be108c0e17c250c721daf520c360d1b"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 151939,
+      "sha256": "087501a8e7f4e8e44ba30a87e9707d54863bc98f34168517a64e8e6d73fad761"
+    },
+    "texture_base_color": {
+      "file": "elven_wood_node_base_color.png",
+      "bytes": 4437161,
+      "sha256": "6caac39415fbd7278737e1445560cd4f4f6b2208fa552fda0a49905150f0d9eb"
+    },
+    "texture_metallic": {
+      "file": "elven_wood_node_metallic.png",
+      "bytes": 33905,
+      "sha256": "76ebad136f4143f69e655a69a552b230c915611aa98f6d15eba7233133e6867b"
+    },
+    "texture_roughness": {
+      "file": "elven_wood_node_roughness.png",
+      "bytes": 1202815,
+      "sha256": "825bbfbbe47750fcc0f970ad348356f23c159409a4c51cf9b6a43ea3d5b1ff84"
+    },
+    "texture_normal": {
+      "file": "elven_wood_node_normal.png",
+      "bytes": 3407114,
+      "sha256": "ca474cf003145f0233ff5a3a977e06168faa61baabb3d322ce09fce3f4de0227"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1806,
+    "lod0": 1499,
+    "lod1": 350,
+    "lod1Shell": true,
+    "fittedMetres": [
+      2.2,
+      2.093,
+      3.036
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

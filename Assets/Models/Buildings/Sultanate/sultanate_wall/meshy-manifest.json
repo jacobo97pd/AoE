@@ -1,0 +1,426 @@
+{
+  "id": "sultanate_wall",
+  "entry": {
+    "id": "sultanate_wall",
+    "style": "sultanate",
+    "building": "wall",
+    "footprint": [
+      3,
+      1
+    ],
+    "height": 3.7,
+    "fit": "stretch",
+    "triangles": 3000,
+    "base": "sultanate_fortifications"
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "retexture_try1": {
+      "task": {
+        "id": "01a0e3b1-b6d9-709b-b71f-ab233d698834",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Plinth and its chamfer: warm sandstone blocks (#C9A876) with thin darker joints. Walls, arches, parapet and stepped merlons: whitewashed mudbrick render (#EDE4CE) with faint warm patches. Beam ends and cornice edge: weathered brown timber (#8E765F). Door leaf: dark carved timber planks (#5E4632) with burnished bronze studs (#B07A3A). Banners and the round door boss: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526470483,
+        "progress": 100,
+        "started_at": 1790526470489,
+        "finished_at": 1790526548474,
+        "expires_at": 1790785748474,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b1-b6d9-709b-b71f-ab233d698834/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "sultanate_fortifications",
+      "paidBy": "sultanate_wall",
+      "finished_utc": "2026-09-27T16:29:15.723221+00:00",
+      "credits": 10,
+      "rejected": "painted terracotta pink everywhere instead of cream limewash and sandstone (review/sultanate/work/fort_test/fort_painted_try1.png)"
+    },
+    "retexture": {
+      "task": {
+        "id": "01a0e3b4-4410-7332-b173-63be8daaed1c",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte painted colours, even lighting, no baked shadows. The whole wall is pale cream limewashed plaster (#EEE6D2), almost white and smooth, over a low base of pale sandstone blocks (#D2B98C). Merlons and parapet: the same pale cream plaster. Arched niches: soft shadowed cream (#CDBFA4). Small beam ends: brown timber (#8E765F). Door leaf and its arched centre panel: dark brown timber planks (#5E4632) with bronze studs (#B07A3A). Banners and the round door boss: saturated turquoise cloth (#1E8C8C), no emblem. No pink, no terracotta, no text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526638165,
+        "progress": 100,
+        "started_at": 1790526638172,
+        "finished_at": 1790526715508,
+        "expires_at": 1790785915508,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b4-4410-7332-b173-63be8daaed1c/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "sultanate_fortifications",
+      "paidBy": "sultanate_wall",
+      "finished_utc": "2026-09-27T16:32:03.428133+00:00",
+      "credits": 10
+    }
+  },
+  "files": {},
+  "credits": 20,
+  "base": {
+    "id": "sultanate_wall",
+    "strip": [
+      0.0,
+      0.552232
+    ],
+    "triangles": 1042,
+    "bounds": [
+      3.0,
+      0.9,
+      3.7
+    ],
+    "cloth": [
+      [
+        [
+          0.47257,
+          0.70283
+        ],
+        [
+          0.45082,
+          0.68472
+        ],
+        [
+          0.42908,
+          0.70283
+        ],
+        [
+          0.42908,
+          0.58506
+        ],
+        [
+          0.47257,
+          0.58506
+        ]
+      ],
+      [
+        [
+          0.54923,
+          0.58506
+        ],
+        [
+          0.59272,
+          0.58506
+        ],
+        [
+          0.59272,
+          0.70283
+        ],
+        [
+          0.57097,
+          0.68472
+        ],
+        [
+          0.54923,
+          0.70283
+        ]
+      ],
+      [
+        [
+          0.87328,
+          0.52373
+        ],
+        [
+          0.87419,
+          0.52373
+        ],
+        [
+          0.87419,
+          0.54547
+        ],
+        [
+          0.87328,
+          0.54547
+        ]
+      ],
+      [
+        [
+          0.87328,
+          0.54547
+        ],
+        [
+          0.87419,
+          0.54547
+        ],
+        [
+          0.87419,
+          0.56722
+        ],
+        [
+          0.87328,
+          0.56722
+        ]
+      ],
+      [
+        [
+          0.62888,
+          0.8372
+        ],
+        [
+          0.62798,
+          0.8372
+        ],
+        [
+          0.62798,
+          0.71942
+        ],
+        [
+          0.62888,
+          0.71942
+        ]
+      ],
+      [
+        [
+          0.60751,
+          0.87789
+        ],
+        [
+          0.60842,
+          0.87789
+        ],
+        [
+          0.60842,
+          0.92138
+        ],
+        [
+          0.60751,
+          0.92138
+        ]
+      ],
+      [
+        [
+          0.64547,
+          0.71942
+        ],
+        [
+          0.64637,
+          0.71942
+        ],
+        [
+          0.64637,
+          0.8372
+        ],
+        [
+          0.64547,
+          0.8372
+        ]
+      ],
+      [
+        [
+          0.65279,
+          0.70283
+        ],
+        [
+          0.63104,
+          0.68472
+        ],
+        [
+          0.6093,
+          0.70283
+        ],
+        [
+          0.6093,
+          0.58506
+        ],
+        [
+          0.65279,
+          0.58506
+        ]
+      ],
+      [
+        [
+          0.48915,
+          0.58506
+        ],
+        [
+          0.53264,
+          0.58506
+        ],
+        [
+          0.53264,
+          0.70283
+        ],
+        [
+          0.5109,
+          0.68472
+        ],
+        [
+          0.48915,
+          0.70283
+        ]
+      ],
+      [
+        [
+          0.85586,
+          0.87944
+        ],
+        [
+          0.85677,
+          0.87944
+        ],
+        [
+          0.85677,
+          0.90118
+        ],
+        [
+          0.85586,
+          0.90118
+        ]
+      ],
+      [
+        [
+          0.85586,
+          0.90118
+        ],
+        [
+          0.85677,
+          0.90118
+        ],
+        [
+          0.85677,
+          0.92292
+        ],
+        [
+          0.85586,
+          0.92292
+        ]
+      ],
+      [
+        [
+          0.85677,
+          0.86285
+        ],
+        [
+          0.85586,
+          0.86285
+        ],
+        [
+          0.85586,
+          0.74507
+        ],
+        [
+          0.85677,
+          0.74507
+        ]
+      ],
+      [
+        [
+          0.93072,
+          0.00829
+        ],
+        [
+          0.93162,
+          0.00829
+        ],
+        [
+          0.93162,
+          0.05178
+        ],
+        [
+          0.93072,
+          0.05178
+        ]
+      ],
+      [
+        [
+          0.87281,
+          0.00829
+        ],
+        [
+          0.87371,
+          0.00829
+        ],
+        [
+          0.87371,
+          0.12607
+        ],
+        [
+          0.87281,
+          0.12607
+        ]
+      ]
+    ]
+  },
+  "finish": {
+    "sourceTriangles": 1042,
+    "triangles": 1042,
+    "fittedMetres": [
+      3.0,
+      0.9,
+      3.7
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teamMaskCoverage": 0.0868
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "kingdom_siege_workshop",
+  "entry": {
+    "id": "kingdom_siege_workshop",
+    "style": "kingdom",
+    "building": "siege_workshop",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset: a medieval siege engineers' workshop for a top-down strategy game. A square timber workshop with a stone base, one side fully open under a wide lean-to roof, a large wooden crane beam over the opening and a half-built wooden battering ram frame inside. Stacked logs beside it. A royal blue cloth banner on the crane."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d331-89db-71d5-a6e4-8c3e28574fc0",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3694134866,
+        "prompt": "Low-poly game asset: a medieval siege engineers' workshop for a top-down strategy game. A square timber workshop with a stone base, one side fully open under a wide lean-to roof, a large wooden crane beam over the opening and a half-built wooden battering ram frame inside. Stacked logs beside it. A royal blue cloth banner on the crane. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249637161,
+        "progress": 100,
+        "started_at": 1790249637171,
+        "finished_at": 1790249646210,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d331-89db-71d5-a6e4-8c3e28574fc0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d331-89db-71d5-a6e4-8c3e28574fc0/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3581,
+      "finished_utc": "2026-09-24T11:34:14.599629+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d331-def3-75cf-bcaa-bcfa1279c066",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3694134866,
+        "prompt": "Low-poly game asset: a medieval siege engineers' workshop for a top-down strategy game. A square timber workshop with a stone base, one side fully open under a wide lean-to roof, a large wooden crane beam over the opening and a half-built wooden battering ram frame inside. Stacked logs beside it. A royal blue cloth banner on the crane. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249656095,
+        "progress": 100,
+        "started_at": 1790249656105,
+        "finished_at": 1790249719202,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d331-def3-75cf-bcaa-bcfa1279c066/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d331-def3-75cf-bcaa-bcfa1279c066/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d331-def3-75cf-bcaa-bcfa1279c066/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d331-def3-75cf-bcaa-bcfa1279c066/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d331-def3-75cf-bcaa-bcfa1279c066/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d331-def3-75cf-bcaa-bcfa1279c066/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "balance_after": 3571,
+      "finished_utc": "2026-09-24T11:35:24.417588+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_siege_workshop_model.glb",
+      "bytes": 7431460,
+      "sha256": "a9825dd91c7c7f183bb725670ca70b35a6348693e35426975abfd8047bc085c9"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 251136,
+      "sha256": "2111494cc0c139826ba984b1ebe9130d535d3e8574d83cb4afc10efb05cecb34"
+    },
+    "texture_base_color": {
+      "file": "kingdom_siege_workshop_base_color.png",
+      "bytes": 5405553,
+      "sha256": "f2684351e205fe2711db595f78bb4c4083def6ec1bf88afbd53dc3baa0904a89"
+    },
+    "texture_metallic": {
+      "file": "kingdom_siege_workshop_metallic.png",
+      "bytes": 58661,
+      "sha256": "d428ac054192167b98cbab915dd879126884d0882642d4d0f87a7851c49d7b70"
+    },
+    "texture_roughness": {
+      "file": "kingdom_siege_workshop_roughness.png",
+      "bytes": 1488888,
+      "sha256": "21a7dcc61240bf4c7b893bc41ccf5ea032cdb29a905316d6826dd4221092ef16"
+    },
+    "texture_normal": {
+      "file": "kingdom_siege_workshop_normal.png",
+      "bytes": 4191143,
+      "sha256": "43df57791c9aa1a2ac89e490ff482633a33f47e36143205521aaae248363234c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4716,
+    "triangles": 4716,
+    "fittedMetres": [
+      2.88,
+      2.559,
+      1.963
+    ],
+    "teamMaskCoverage": 0.0359
+  }
+}

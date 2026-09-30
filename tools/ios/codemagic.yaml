@@ -1,0 +1,70 @@
+# Run manually after connecting the unpacked package as a Git repository.
+# Change this Bundle ID to the one registered in your Apple Developer account.
+workflows:
+  ios-compile-check:
+    name: Emberfield - iOS compile check (unsigned)
+    instance_type: mac_mini_m2
+    max_build_duration: 120
+    environment:
+      xcode: "26.4"
+      vars:
+        BUNDLE_ID: &bundle_id com.emberfield.prototype
+        BUILD_NUMBER_OFFSET: "0"
+    scripts:
+      - name: Fetch large files and prepare Xcode export
+        script: |
+          set -euo pipefail
+          git lfs install --local
+          git lfs pull
+          python3 scripts/prepare_xcode.py
+      - name: Compile for a physical iPhone or iPad without signing
+        script: |
+          set -euo pipefail
+          mkdir -p build
+          xcodebuild -project ios/Unity-iPhone.xcodeproj -scheme Unity-iPhone \
+            -configuration Release -sdk iphoneos -destination 'generic/platform=iOS' \
+            -derivedDataPath build/DerivedData CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO build 2>&1 | tee build/xcode-unsigned.log
+    artifacts:
+      - build/xcode-unsigned.log
+      - build/package-check.json
+
+  ios-testflight:
+    name: Emberfield - signed IPA and TestFlight upload
+    instance_type: mac_mini_m2
+    max_build_duration: 120
+    integrations:
+      # Configure an App Store Connect API key under this name in Codemagic.
+      app_store_connect: EmberfieldTestFlight
+    environment:
+      xcode: "26.4"
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: *bundle_id
+      vars:
+        BUNDLE_ID: *bundle_id
+        BUILD_NUMBER_OFFSET: "0"
+    scripts:
+      - name: Fetch large files and prepare Xcode export
+        script: |
+          set -euo pipefail
+          git lfs install --local
+          git lfs pull
+          python3 scripts/prepare_xcode.py
+      - name: Apply Apple provisioning profiles
+        script: xcode-project use-profiles --project ios/Unity-iPhone.xcodeproj
+      - name: Archive and export the signed IPA
+        script: |
+          set -euo pipefail
+          xcode-project build-ipa --project ios/Unity-iPhone.xcodeproj --scheme Unity-iPhone
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - build/package-check.json
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    publishing:
+      app_store_connect:
+        auth: integration
+        # Upload for INTERNAL TestFlight testing; no external beta review or store submission.
+        submit_to_testflight: false
+        submit_to_app_store: false

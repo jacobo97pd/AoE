@@ -1,0 +1,133 @@
+{
+  "id": "elf_storeyard",
+  "entry": {
+    "id": "elf_storeyard",
+    "style": "elf",
+    "building": "storeyard",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: an elven storehouse. A small open pavilion of slender carved wooden pillars under a curved leaf-shaped canopy, with woven baskets, bundles and clay jars inside, a blue cloth hanging at the front."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d439-f811-7647-bfdb-f50ae2add7c5",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 303579607,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven storehouse. A small open pavilion of slender carved wooden pillars under a curved leaf-shaped canopy, with woven baskets, bundles and clay jars inside, a blue cloth hanging at the front. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266966743,
+        "progress": 100,
+        "started_at": 1790266966750,
+        "finished_at": 1790266978366,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d439-f811-7647-bfdb-f50ae2add7c5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d439-f811-7647-bfdb-f50ae2add7c5/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:23:04.237065+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43a-48db-721e-a605-902e055bdefe",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 303579607,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven storehouse. A small open pavilion of slender carved wooden pillars under a curved leaf-shaped canopy, with woven baskets, bundles and clay jars inside, a blue cloth hanging at the front. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266984723,
+        "progress": 100,
+        "started_at": 1790266984732,
+        "finished_at": 1790267069843,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-48db-721e-a605-902e055bdefe/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-48db-721e-a605-902e055bdefe/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-48db-721e-a605-902e055bdefe/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-48db-721e-a605-902e055bdefe/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-48db-721e-a605-902e055bdefe/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-48db-721e-a605-902e055bdefe/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:24:30.082355+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_storeyard_model.glb",
+      "bytes": 6644648,
+      "sha256": "3e9f8686afbbca005670eb5a4fcbac72d0130f2dc720f2c95b0993baa18a93d7"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 244706,
+      "sha256": "3c849c1f1f629f16eeb1299a0aee2897a4596b68ec1b2d8587907f25fb0065c8"
+    },
+    "texture_base_color": {
+      "file": "elf_storeyard_base_color.png",
+      "bytes": 5419424,
+      "sha256": "5665b7691af4615631acc219c53a16e2046501b801862e1be46f7f4b4322b178"
+    },
+    "texture_metallic": {
+      "file": "elf_storeyard_metallic.png",
+      "bytes": 26743,
+      "sha256": "c4801b97d0ff3a5da69470168f15e22112f51549bf597eca410d1dbd3c13f454"
+    },
+    "texture_roughness": {
+      "file": "elf_storeyard_roughness.png",
+      "bytes": 1442069,
+      "sha256": "439b58ddb43e409bec5882fe4e71868cd9481300e92ab825e03086db87a0443b"
+    },
+    "texture_normal": {
+      "file": "elf_storeyard_normal.png",
+      "bytes": 4035320,
+      "sha256": "148abe65dff9b3a0d5029e1417317b9ea26dcc66c9d56018066f09b501c37ded"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4761,
+    "triangles": 4761,
+    "fittedMetres": [
+      1.92,
+      1.916,
+      1.485
+    ],
+    "teamMaskCoverage": 0.0021
+  }
+}

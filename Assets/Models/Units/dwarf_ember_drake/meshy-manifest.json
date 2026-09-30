@@ -1,0 +1,161 @@
+{
+  "id": "dwarf_ember_drake",
+  "entry": {
+    "id": "dwarf_ember_drake",
+    "name": "Draco de ascuas",
+    "culture": "dwarf",
+    "factions": [
+      "drakeforged"
+    ],
+    "unit": "ember_drake",
+    "height": 2.0,
+    "gameHeight": 3.0,
+    "teamHues": [
+      [
+        348,
+        360
+      ],
+      [
+        0,
+        10
+      ]
+    ],
+    "teamSaturation": 0.42,
+    "prompt": "Low-poly game asset for a top-down strategy game: a four-legged fire drake, a heavy lizard body with thick legs, leathery wings folded tight along its back, horned head, glowing ember cracks between dark scales, a bronze harness and a crimson saddle cloth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized painted colours, even lighting, no baked shadows. Scales dark charcoal red (#4A2A24) with glowing ember orange cracks (#E8703A). Wing membranes deep rust (#7A3A28). Horns bone (#D8CCB0). Harness bronze (#B07A3A), saddle cloth saturated crimson (#A0262A). No text or logos.",
+    "role": "melee",
+    "rig": "quadruped"
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d480-600a-7632-b42b-c1e804299109",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1094212219,
+        "prompt": "Low-poly game asset for a top-down strategy game: a four-legged fire drake, a heavy lizard body with thick legs, leathery wings folded tight along its back, horned head, glowing ember cracks between dark scales, a bronze harness and a crimson saddle cloth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271580299,
+        "progress": 100,
+        "started_at": 1790271580307,
+        "finished_at": 1790271591133,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-600a-7632-b42b-c1e804299109/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-600a-7632-b42b-c1e804299109/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d480-ae83-77f5-a356-c00c93ea6e7f",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1094212219,
+        "prompt": "Low-poly game asset for a top-down strategy game: a four-legged fire drake, a heavy lizard body with thick legs, leathery wings folded tight along its back, horned head, glowing ember cracks between dark scales, a bronze harness and a crimson saddle cloth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized painted colours, even lighting, no baked shadows. Scales dark charcoal red (#4A2A24) with glowing ember orange cracks (#E8703A). Wing membranes deep rust (#7A3A28). Horns bone (#D8CCB0). Harness bronze (#B07A3A), saddle cloth saturated crimson (#A0262A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271601575,
+        "progress": 100,
+        "started_at": 1790271601584,
+        "finished_at": 1790271688797,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ae83-77f5-a356-c00c93ea6e7f/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ae83-77f5-a356-c00c93ea6e7f/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ae83-77f5-a356-c00c93ea6e7f/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ae83-77f5-a356-c00c93ea6e7f/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ae83-77f5-a356-c00c93ea6e7f/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ae83-77f5-a356-c00c93ea6e7f/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:41:35.359261+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_ember_drake_model.glb",
+      "bytes": 7693760,
+      "sha256": "1fcb0a56aa7134b026da48d268c8913138a7fb230c6e1e049b8eafafb95f057c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 100179,
+      "sha256": "b946fc8e17bb3e0b3544c90b4b1973305df685895ed5427018840fb1cf67ed71"
+    },
+    "texture_base_color": {
+      "file": "dwarf_ember_drake_base_color.png",
+      "bytes": 6329346,
+      "sha256": "9374b5d2b6fe3014e43920989be18d9ae4f7974d5465977e8bb53d812cb62af4"
+    },
+    "texture_metallic": {
+      "file": "dwarf_ember_drake_metallic.png",
+      "bytes": 60826,
+      "sha256": "619980a9732f2957e6526110fdea42210fb1e8868f2dfdd8108c140f3438c3f7"
+    },
+    "texture_roughness": {
+      "file": "dwarf_ember_drake_roughness.png",
+      "bytes": 1496870,
+      "sha256": "d89cbfb5be91fc1a83857d6c003aab4969f17aa8e01b54b75855bacc76a015dd"
+    },
+    "texture_normal": {
+      "file": "dwarf_ember_drake_normal.png",
+      "bytes": 4882004,
+      "sha256": "8628b743dec23411cc4972b76c50119765516ad468e0e056e598078a86f6bddb"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5290,
+    "bones": 18,
+    "heightMetres": 2.0,
+    "bellyMetres": 0.6,
+    "walkMetresPerSecond": 0.657,
+    "runMetresPerSecond": 2.709,
+    "feet": {
+      "FrontLeft": [
+        -0.212,
+        -1.559
+      ],
+      "FrontRight": [
+        0.197,
+        -1.556
+      ],
+      "HindLeft": [
+        -0.809,
+        0.284
+      ],
+      "HindRight": [
+        0.795,
+        0.282
+      ]
+    },
+    "tail": true,
+    "teamMaskCoverage": 0.1588,
+    "rig": "quadruped template (tools/art/rig_quadruped.py)"
+  }
+}

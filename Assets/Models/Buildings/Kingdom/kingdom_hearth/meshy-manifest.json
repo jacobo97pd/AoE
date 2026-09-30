@@ -1,0 +1,137 @@
+{
+  "id": "kingdom_hearth",
+  "entry": {
+    "id": "kingdom_hearth",
+    "style": "kingdom",
+    "building": "hearth",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.3,
+    "prompt": "Low-poly game asset: the town hall of a medieval village for a top-down strategy game. One large, square, fully enclosed two-storey hall with a steep hipped roof and a tall stone chimney in the middle, clearly the biggest and most important building. A wide wooden double door under a small porch on the front, small square windows. Two royal blue cloth banners hang either side of the door."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d327-65e0-74f9-a984-79d9c0410427",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 172207143,
+        "prompt": "Low-poly game asset: the town hall of a medieval village for a top-down strategy game. One large, square, fully enclosed two-storey hall with a steep hipped roof and a tall stone chimney in the middle, clearly the biggest and most important building. A wide wooden double door under a small porch on the front, small square windows. Two royal blue cloth banners hang either side of the door. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790248971776,
+        "progress": 100,
+        "started_at": 1790248971783,
+        "finished_at": 1790248983547,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d327-65e0-74f9-a984-79d9c0410427/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d327-65e0-74f9-a984-79d9c0410427/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3686,
+      "finished_utc": "2026-09-24T11:23:09.061321+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d327-b79a-74a7-87f4-7cab307d80b3",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 172207143,
+        "prompt": "Low-poly game asset: the town hall of a medieval village for a top-down strategy game. One large, square, fully enclosed two-storey hall with a steep hipped roof and a tall stone chimney in the middle, clearly the biggest and most important building. A wide wooden double door under a small porch on the front, small square windows. Two royal blue cloth banners hang either side of the door. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790248992149,
+        "progress": 100,
+        "started_at": 1790248992158,
+        "finished_at": 1790249053236,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d327-b79a-74a7-87f4-7cab307d80b3/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d327-b79a-74a7-87f4-7cab307d80b3/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d327-b79a-74a7-87f4-7cab307d80b3/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d327-b79a-74a7-87f4-7cab307d80b3/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d327-b79a-74a7-87f4-7cab307d80b3/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d327-b79a-74a7-87f4-7cab307d80b3/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "balance_after": 3676,
+      "finished_utc": "2026-09-24T11:24:20.411423+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_hearth_model.glb",
+      "bytes": 7153740,
+      "sha256": "cc2ff16b1f45009c7d72fc254a077cdf9c77554fd1eef91e84706571af57c7ba"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 279004,
+      "sha256": "0b91456c09dbbf323deb968717c2e10fbb4a8d6cef0197b406a5bfdf461466f5"
+    },
+    "texture_base_color": {
+      "file": "kingdom_hearth_base_color.png",
+      "bytes": 5189725,
+      "sha256": "2156f75d1138cf4c67da9e22e7c5c2f2a0469e08de1eb2a20f302245ed351e7d"
+    },
+    "texture_metallic": {
+      "file": "kingdom_hearth_metallic.png",
+      "bytes": 29352,
+      "sha256": "2ff096d56a681d226f4ad8d814d3cd28a9a2cf6f676122d6cb226a397b86fb23"
+    },
+    "texture_roughness": {
+      "file": "kingdom_hearth_roughness.png",
+      "bytes": 1466617,
+      "sha256": "8499bfd193d05f15277f4816c99347529187580e4951c6297015204eeecf93ca"
+    },
+    "texture_normal": {
+      "file": "kingdom_hearth_normal.png",
+      "bytes": 4069237,
+      "sha256": "5a07a9c935726f0b41ee060d22bf50112f58b6771f41346898d6593a64ba1e6f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4488,
+    "triangles": 4488,
+    "fittedMetres": [
+      3.84,
+      3.682,
+      3.323
+    ],
+    "teamMaskCoverage": 0.0224
+  }
+}

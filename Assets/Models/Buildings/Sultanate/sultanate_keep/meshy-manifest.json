@@ -1,0 +1,213 @@
+{
+  "id": "sultanate_keep",
+  "entry": {
+    "id": "sultanate_keep",
+    "style": "sultanate",
+    "building": "keep",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.7,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert citadel. One massive, tall, square fortified tower house of sandstone and whitewashed mudbrick, clearly taller than it is wide, three storeys, four slim corner turrets rising above stepped merlons, a heavy horseshoe-arch gate at the base, narrow arrow slits and turquoise banners either side of the gate."
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d8-af00-7725-aac5-c9c90ac184ff",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 704692499,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert citadel. One massive, tall, square fortified tower house of sandstone and whitewashed mudbrick, clearly taller than it is wide, three storeys, four slim corner turrets rising above stepped merlons, a heavy horseshoe-arch gate at the base, narrow arrow slits and turquoise banners either side of the gate. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529025649,
+        "progress": 100,
+        "started_at": 1790529025655,
+        "finished_at": 1790529034417,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d8-af00-7725-aac5-c9c90ac184ff/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d8-af00-7725-aac5-c9c90ac184ff/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:10:34.667747+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d8-db34-77b5-bfd3-b1d1c82945e1",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 704692499,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert citadel. One massive, tall, square fortified tower house of sandstone and whitewashed mudbrick, clearly taller than it is wide, three storeys, four slim corner turrets rising above stepped merlons, a heavy horseshoe-arch gate at the base, narrow arrow slits and turquoise banners either side of the gate. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529035095,
+        "progress": 100,
+        "started_at": 1790529035104,
+        "finished_at": 1790529085948,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d8-db34-77b5-bfd3-b1d1c82945e1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d8-db34-77b5-bfd3-b1d1c82945e1/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d8-db34-77b5-bfd3-b1d1c82945e1/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d8-db34-77b5-bfd3-b1d1c82945e1/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d8-db34-77b5-bfd3-b1d1c82945e1/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d8-db34-77b5-bfd3-b1d1c82945e1/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:11:26.520049+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_keep_model.glb",
+      "bytes": 7046056,
+      "sha256": "70c408567694483d14d9888b667035eeffb1ceb2c650fc53588df86916abcaa1"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 144127,
+      "sha256": "c9acc60974c0846bbb502ac5c6e32617ed1f82402faebeba6c5de4d5d7e4d22a"
+    },
+    "texture_base_color": {
+      "file": "sultanate_keep_base_color.png",
+      "bytes": 6017129,
+      "sha256": "71ff92ff51cf8306ba6bd05c14ded11b04300a56ba5b6c632673fbe03b8db3a7"
+    },
+    "texture_metallic": {
+      "file": "sultanate_keep_metallic.png",
+      "bytes": 73674,
+      "sha256": "abeb0db925f8dd26f1850108ad18f112161cbba85feea595fc9d08f8350147b6"
+    },
+    "texture_roughness": {
+      "file": "sultanate_keep_roughness.png",
+      "bytes": 1324017,
+      "sha256": "a93fa162c3cee50e96dbd39d77a740331291d398c9bd37283200f993fa4f9450"
+    },
+    "texture_normal": {
+      "file": "sultanate_keep_normal.png",
+      "bytes": 4277048,
+      "sha256": "8aa142b31d30aa2d780cdf00b1cce20391c2e5c614fd52e8b05f8ea74f45c167"
+    }
+  },
+  "credits": 30,
+  "rejected_try1": {
+    "steps": {
+      "preview": {
+        "task": {
+          "id": "01a0e3d3-9a67-7276-a904-e702bb45c063",
+          "type": "text-to-3d-preview",
+          "mode": "preview",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 35581088,
+          "prompt": "Low-poly game asset for a top-down strategy game: a desert fortress. One massive square citadel of sandstone and whitewashed mudbrick, taller than every other building, four tall square corner towers with stepped merlons, a heavy horseshoe-arch gate between two of them, narrow arrow slits and turquoise cloth banners either side of the gate. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+          "texture_prompt": "",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790528692663,
+          "progress": 100,
+          "started_at": 1790528692670,
+          "finished_at": 1790528704217,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d3-9a67-7276-a904-e702bb45c063/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d3-9a67-7276-a904-e702bb45c063/output/preview.png",
+          "texture_urls": [],
+          "consumed_credits": 5
+        },
+        "credits": 5,
+        "finished_utc": "2026-09-27T17:05:10.150785+00:00"
+      },
+      "refine": {
+        "task": {
+          "id": "01a0e3d3-e78e-75de-8650-36d280871770",
+          "type": "text-to-3d-refine",
+          "mode": "refine",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 35581088,
+          "prompt": "Low-poly game asset for a top-down strategy game: a desert fortress. One massive square citadel of sandstone and whitewashed mudbrick, taller than every other building, four tall square corner towers with stepped merlons, a heavy horseshoe-arch gate between two of them, narrow arrow slits and turquoise cloth banners either side of the gate. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+          "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790528710578,
+          "progress": 100,
+          "started_at": 1790528710585,
+          "finished_at": 1790528755932,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d3-e78e-75de-8650-36d280871770/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d3-e78e-75de-8650-36d280871770/output/preview.png",
+          "texture_urls": [
+            {
+              "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d3-e78e-75de-8650-36d280871770/output/texture_0.png",
+              "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d3-e78e-75de-8650-36d280871770/output/texture_0_metallic.png",
+              "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d3-e78e-75de-8650-36d280871770/output/texture_0_roughness.png",
+              "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d3-e78e-75de-8650-36d280871770/output/texture_0_normal.png"
+            }
+          ],
+          "consumed_credits": 10
+        },
+        "credits": 10,
+        "finished_utc": "2026-09-27T17:06:01.993142+00:00"
+      }
+    },
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert fortress. One massive square citadel of sandstone and whitewashed mudbrick, taller than every other building, four tall square corner towers with stepped merlons, a heavy horseshoe-arch gate between two of them, narrow arrow slits and turquoise cloth banners either side of the gate.",
+    "finish": {
+      "sourceTriangles": 4839,
+      "triangles": 4839,
+      "fittedMetres": [
+        3.84,
+        3.757,
+        2.025
+      ],
+      "teamMaskCoverage": 0.0098
+    },
+    "why": "wide and low (2.0 m of the 4.7 m allowed): not taller than the hearth or the watchtower"
+  },
+  "finish": {
+    "sourceTriangles": 4728,
+    "triangles": 4728,
+    "fittedMetres": [
+      2.928,
+      3.222,
+      4.7
+    ],
+    "teamMaskCoverage": 0.0146
+  }
+}

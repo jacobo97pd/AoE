@@ -1,0 +1,173 @@
+{
+    "generatedUtc": "2026-09-10T23:59:24.6616809Z",
+    "scene": "Assets/Game/Scenes/RoyalSoldier.unity",
+    "unity": "6000.3.23f1",
+    "passed": true,
+    "units": 1,
+    "meshes": [
+        {
+            "name": "Soldier_RS_BlueCloth",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 76080,
+            "triangles": 145536,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_EyeIvory",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 2046,
+            "triangles": 3680,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Gold",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 28395,
+            "triangles": 45988,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Hair",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 50537,
+            "triangles": 76572,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_HairDetail",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 1185,
+            "triangles": 1620,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Iris",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 1718,
+            "triangles": 3040,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_IvoryCloth",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 46219,
+            "triangles": 88568,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Leather",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 48709,
+            "triangles": 90452,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_LeatherLight",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 14990,
+            "triangles": 26180,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Pupil",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 1118,
+            "triangles": 1920,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_ShieldBlue",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 4100,
+            "triangles": 7392,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Skin",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 15697,
+            "triangles": 30046,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Sole",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 24407,
+            "triangles": 46368,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Steel",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 62430,
+            "triangles": 103986,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_SteelDark",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 47396,
+            "triangles": 82096,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_ThreadGold",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 22889,
+            "triangles": 39924,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_ThreadIvory",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 30868,
+            "triangles": 28548,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        },
+        {
+            "name": "Soldier_RS_Wood",
+            "path": "Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx",
+            "vertices": 4099,
+            "triangles": 7392,
+            "normals": true,
+            "uv": true,
+            "colors": true
+        }
+    ],
+    "errors": [],
+    "scope": "Persistent meshes/materials and shader checks. Visual quality is judged from the unretouched camera captures; this is one static posed soldier."
+}

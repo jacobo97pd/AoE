@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273b2bf014c99e544b287ac89924aee5, type: 3}
+  m_Name: Aven Kingdom visual study
+  m_EditorClassIdentifier: Emberfield.Presentation::Emberfield.Presentation.FactionVisualDefinition
+  FactionId: aven
+  Cloth: {r: 0.055, g: 0.2, b: 0.53, a: 1}
+  Trim: {r: 0.78, g: 0.55, b: 0.22, a: 1}
+  NeutralCloth: {r: 0.86, g: 0.8, b: 0.64, a: 1}
+  BodyLanguage: Steady weight, broad shoulders, planted boots; six-head heroic proportions.
+  Silhouettes: 'Worker: wide straw brim and work pack. Reedguard: long spear, layered
+    shoulders, kite shield.'
+  ArmorStyle: Rounded steel shells, broad bevels and protected joints with warm brass
+    edges.
+  ClothStyle: Royal cloth over ivory sleeves; split front panels and restrained large
+    folds.
+  TrimMaterial: Warm brass and aged gold, separate from cool steel.
+  FactionSymbol: 'Original forked horizon: two rising branches above a horizontal
+    bridge. No copied heraldic mark.'
+  Architecture: Retain Aven civic structure and building footprints; this checkpoint
+    reuses the alpha context.
+  Weapons: Readable long spear and large shield; broad practical harvesting tool.
+  VisualEffects: Small cool edge highlight, brief warm hit flash, no constant magic
+    clouds.
+  EnvironmentProps: Farm bundles, timber, pale stone. Existing context is retained
+    in the lab.
+  BannerStyle: Broad player-color panels, pale geometric emblem, brass edge.

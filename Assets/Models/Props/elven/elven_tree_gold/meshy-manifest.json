@@ -1,0 +1,153 @@
+{
+  "id": "elven_tree_gold",
+  "entry": {
+    "id": "elven_tree_gold",
+    "role": "obstacle",
+    "kind": "thicket",
+    "lod0": 400,
+    "lod1": 160,
+    "farShell": true,
+    "height": 3.3,
+    "footprint": 1.9,
+    "size": 512,
+    "biome": "elven",
+    "priority": 6,
+    "polycount": 1000,
+    "fit": "box",
+    "prompt": "Graceful elven tree: one straight smooth pale trunk forking once high up under a tall rounded canopy of four fused chunky lobes, crown taller than wide, one flat round lobe jutting at mid height, no roots showing. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin branches, hard edges, flat faces. One tree about 3.3 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Canopy: warm autumn gold (#C9A548) with pale gold sunlit lobe tops (#E3C872) and soft olive-gold undersides (#8C7F3E). Trunk: smooth silver-white bark (#DAD6C8) with faint grey-teal streaks (#9FB0AA). A little moss at the foot (#6E9A55). Luminous and clean but not neon, matching pale ivory elven stone. No flowers, no fruit, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d759-0589-7459-8113-4ab8e4b3d479",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 703632287,
+        "prompt": "Graceful elven tree: one straight smooth pale trunk forking once high up under a tall rounded canopy of four fused chunky lobes, crown taller than wide, one flat round lobe jutting at mid height, no roots showing. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin branches, hard edges, flat faces. One tree about 3.3 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319333169,
+        "progress": 100,
+        "started_at": 1790319333179,
+        "finished_at": 1790319344976,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d759-0589-7459-8113-4ab8e4b3d479/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d759-0589-7459-8113-4ab8e4b3d479/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:55:50.669637+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d75d-cd7c-733a-ae21-58f98f1abf40",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 703632287,
+        "prompt": "Graceful elven tree: one straight smooth pale trunk forking once high up under a tall rounded canopy of four fused chunky lobes, crown taller than wide, one flat round lobe jutting at mid height, no roots showing. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin branches, hard edges, flat faces. One tree about 3.3 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Canopy: warm autumn gold (#C9A548) with pale gold sunlit lobe tops (#E3C872) and soft olive-gold undersides (#8C7F3E). Trunk: smooth silver-white bark (#DAD6C8) with faint grey-teal streaks (#9FB0AA). A little moss at the foot (#6E9A55). Luminous and clean but not neon, matching pale ivory elven stone. No flowers, no fruit, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319645834,
+        "progress": 100,
+        "started_at": 1790319645840,
+        "finished_at": 1790319687774,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75d-cd7c-733a-ae21-58f98f1abf40/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75d-cd7c-733a-ae21-58f98f1abf40/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75d-cd7c-733a-ae21-58f98f1abf40/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75d-cd7c-733a-ae21-58f98f1abf40/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75d-cd7c-733a-ae21-58f98f1abf40/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75d-cd7c-733a-ae21-58f98f1abf40/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:01:28.853157+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 78136,
+      "sha256": "680e45dfeb6cefc2b9d8fb89be3075626181d70d7bf50f2f4de291388c8eacf1"
+    },
+    "model_glb": {
+      "file": "elven_tree_gold_model.glb",
+      "bytes": 6961116,
+      "sha256": "225c7d45a58651516a5332010485778dc10a4189ab06d3e527d34c37e90117a3"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 89280,
+      "sha256": "10bd11fb1113cd3fb83624e9c27070e0b6aba76785ecfde9097d1f00f176ff85"
+    },
+    "texture_base_color": {
+      "file": "elven_tree_gold_base_color.png",
+      "bytes": 6236113,
+      "sha256": "b4b623fbce40dc4325c81fb4efd6911b864b5b7613b6a752e3d082a4ac4cc7df"
+    },
+    "texture_metallic": {
+      "file": "elven_tree_gold_metallic.png",
+      "bytes": 31749,
+      "sha256": "25154286a2b5e24fb3405d285126b6ee67ad3d2bd3f603708063e1cbc5a69212"
+    },
+    "texture_roughness": {
+      "file": "elven_tree_gold_roughness.png",
+      "bytes": 1233404,
+      "sha256": "908655467ed9469531dcdafb6252a5816f9f6a7b1c41b9a93194cf70e417c96f"
+    },
+    "texture_normal": {
+      "file": "elven_tree_gold_normal.png",
+      "bytes": 4690189,
+      "sha256": "310850024999d0e84487c287d6d38bc6d459d15b6044c8681a1a946da26e5935"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1052,
+    "lod0": 400,
+    "lod1": 160,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.9,
+      1.517,
+      3.3
+    ],
+    "teamMaskCoverage": 0.0,
+    "recoloured": [
+      {
+        "hues": [
+          15,
+          60
+        ],
+        "pixels": 0.772,
+        "from": "#da942c",
+        "to": "#D2B258"
+      },
+      {
+        "hues": [
+          190,
+          260
+        ],
+        "pixels": 0.152,
+        "from": "#45575d",
+        "to": "#B4B8B6"
+      }
+    ]
+  }
+}

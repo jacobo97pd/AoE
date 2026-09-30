@@ -1,0 +1,184 @@
+{
+  "heightMetres": 2.35,
+  "faceAxis": "Blender -Y",
+  "sourceSha256": "966165df0518639ce9c7e23db7b150bb48aeb7ac397dcacdbadac24df7405012",
+  "characters": [
+    {
+      "name": "BoardingRaider",
+      "title": "Saqueador de abordaje",
+      "sourceVertices": 466680,
+      "sourceTriangles": 933648,
+      "sourceOrigin": [
+        -0.565,
+        -0.005,
+        -0.5955219864845276
+      ],
+      "scale": 2.1724319676491795,
+      "normalizedBounds": [
+        [
+          -0.5930739261323298,
+          -0.5961066368166907,
+          0.0
+        ],
+        [
+          0.7633991114985313,
+          0.4600711710614659,
+          2.35
+        ]
+      ],
+      "lods": [
+        {
+          "name": "BoardingRaider_LOD0",
+          "vertices": 69856,
+          "triangles": 140000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        },
+        {
+          "name": "BoardingRaider_LOD1",
+          "vertices": 22356,
+          "triangles": 45000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        },
+        {
+          "name": "BoardingRaider_LOD2",
+          "vertices": 5856,
+          "triangles": 12000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GunpowderCorsair",
+      "title": "Corsario de p\u00f3lvora",
+      "sourceVertices": 463857,
+      "sourceTriangles": 928014,
+      "sourceOrigin": [
+        0.065,
+        -0.125,
+        -0.5952519774436951
+      ],
+      "scale": 1.9733489173334262,
+      "normalizedBounds": [
+        [
+          -0.5960974060317729,
+          -0.47734921568974864,
+          0.0
+        ],
+        [
+          0.5777788158101923,
+          0.3626936738449366,
+          2.35
+        ]
+      ],
+      "lods": [
+        {
+          "name": "GunpowderCorsair_LOD0",
+          "vertices": 69850,
+          "triangles": 140000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        },
+        {
+          "name": "GunpowderCorsair_LOD1",
+          "vertices": 22350,
+          "triangles": 45000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        },
+        {
+          "name": "GunpowderCorsair_LOD2",
+          "vertices": 5850,
+          "triangles": 12000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TreasureSeeker",
+      "title": "Buscadora de tesoros",
+      "sourceVertices": 507606,
+      "sourceTriangles": 1015548,
+      "sourceOrigin": [
+        0.685,
+        -0.11,
+        -0.5944709777832031
+      ],
+      "scale": 2.221808391622066,
+      "normalizedBounds": [
+        [
+          -0.6237015999894733,
+          -0.7375759624829472,
+          0.0
+        ],
+        [
+          0.5646704300295563,
+          0.6551424325735667,
+          2.35
+        ]
+      ],
+      "lods": [
+        {
+          "name": "TreasureSeeker_LOD0",
+          "vertices": 69832,
+          "triangles": 140000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        },
+        {
+          "name": "TreasureSeeker_LOD1",
+          "vertices": 22332,
+          "triangles": 45000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        },
+        {
+          "name": "TreasureSeeker_LOD2",
+          "vertices": 5832,
+          "triangles": 12000,
+          "uvLayers": [
+            "UVMap"
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        }
+      ]
+    }
+  ]
+}

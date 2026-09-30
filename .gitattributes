@@ -1,0 +1,158 @@
+* text=auto eol=lf
+*.cs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.asmdef text eol=lf
+*.unity text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.shader text eol=lf
+*.pdf binary
+*.asset whitespace=-blank-at-eol
+*.meta whitespace=-blank-at-eol
+*.unity whitespace=-blank-at-eol
+*.mat text eol=lf whitespace=-blank-at-eol
+*.prefab text eol=lf whitespace=-blank-at-eol
+*.controller text eol=lf whitespace=-blank-at-eol
+*.ps1 text eol=lf
+*.txt text eol=lf
+
+* text=auto
+# Unity exports can exceed GitHub's per-file limit. Fetch LFS files in both workflows.
+ios/Data/** filter=lfs diff=lfs merge=lfs -text
+*.a filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.bundle filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.bc filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/crimson-corsair/source/CrimsonCorsair.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/kingdom-premium/close.png" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/kingdom-premium/medium.png" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/kingdom-premium/rts.png" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/pirate-crew/source/BoardingRaider.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/pirate-crew/source/GunpowderCorsair.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/pirate-crew/source/TreasureSeeker.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_01/figure_01.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_02/figure_02.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_03/figure_03.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_04/figure_04.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_05/figure_05.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_06/figure_06.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_07/figure_07.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_08/figure_08.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_09/figure_09.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_10/figure_10.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_11/figure_11.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_12/figure_12.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_13/figure_13.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_14/figure_14.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_15/figure_15.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_16/figure_16.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_17/figure_17.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_18/figure_18.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_19/figure_19.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_20/figure_20.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_21/figure_21.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_22/figure_22.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_23/figure_23.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_24/figure_24.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_25/figure_25.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/reference-characters/figure_26/figure_26.blend" filter=lfs diff=lfs merge=lfs -text
+"Artifacts/ArtReview/royal-soldier/source/RoyalSoldier.blend" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Caribbean_029.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Desert_007.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Desert_020.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Fantasy_021.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Fantasy_024.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Kingdom_007.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Kingdom_012.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Kingdom_023.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ArtOverhaul/Environment/Kingdom_029.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/CrimsonCorsair/Textures/BaseColor.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/CrimsonCorsair/Textures/Normal.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/KingdomPremium/Characters/Hero.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/KingdomPremium/Characters/Warrior.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/KingdomPremium/Characters/Worker.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/KingdomPremium/Environment/Environment.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/PirateCrew/BoardingRaider/Textures/BaseColor.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/PirateCrew/BoardingRaider/Textures/MetallicSmoothness.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/PirateCrew/GunpowderCorsair/Model/GunpowderCorsair.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/PirateCrew/Textures/BaseColor.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/PirateCrew/Textures/Normal.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/PirateCrew/TreasureSeeker/Model/TreasureSeeker.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_01/figure_01.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_01/Textures/BaseColor.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_01/Textures/Normal.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_02/figure_02.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_02/Textures/BaseColor.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_02/Textures/Normal.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_03/figure_03.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_04/figure_04.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_05/figure_05.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_06/figure_06.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_07/figure_07.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_08/figure_08.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_09/figure_09.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_10/figure_10.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_11/figure_11.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_12/figure_12.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_13/figure_13.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_14/figure_14.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_15/figure_15.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_16/figure_16.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_17/figure_17.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_18/figure_18.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_19/figure_19.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_20/figure_20.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_21/figure_21.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_22/figure_22.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_23/figure_23.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_24/figure_24.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_25/figure_25.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/ReferenceCharacters/SourceModels/figure_26/figure_26.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/Resources/Art/Ground/highland_layers.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Game/RoyalSoldier/Model/RoyalSoldier.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Models/Buildings/Barracks/Barracks.glb" filter=lfs diff=lfs merge=lfs -text
+"Assets/Models/Buildings/Barracks/Textures/Barracks_BaseColor.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Models/Buildings/Barracks/Textures/Barracks_Normal.png" filter=lfs diff=lfs merge=lfs -text
+"ios/Data/Managed/Metadata/global-metadata.dat" filter=lfs diff=lfs merge=lfs -text
+"ios/Data/resources.assets" filter=lfs diff=lfs merge=lfs -text
+"ios/Data/resources.assets.resS" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/IL2CPP/build/deploy_arm64/libcoreclr.dylib" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.Private.CoreLib.dll" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.Private.Xml.dll" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/libcoreclr.dylib" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/System.Private.CoreLib.dll" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/System.Private.Xml.dll" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericAdjustorThunkTable.c" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodPointerTable.c" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/Source/il2cppOutput/Il2CppInvokerTable.cpp" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataUsage.c" filter=lfs diff=lfs merge=lfs -text
+"ios/Il2CppOutputProject/Source/il2cppOutput/Il2CppTypeDefinitions.c" filter=lfs diff=lfs merge=lfs -text
+"ios/Libraries/libiPhone-lib.a" filter=lfs diff=lfs merge=lfs -text
+
+# Binary art and media use LFS at every size for portable clones.
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text

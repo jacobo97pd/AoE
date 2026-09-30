@@ -1,0 +1,131 @@
+{
+  "id": "forest_broadleaf_a",
+  "entry": {
+    "id": "forest_broadleaf_a",
+    "role": "obstacle",
+    "kind": "thicket",
+    "lod0": 400,
+    "lod1": 0,
+    "height": 3,
+    "footprint": 1.5,
+    "size": 512,
+    "biome": "forest",
+    "priority": 1,
+    "prompt": "Dense round-crowned broadleaf tree: one short thick tapered trunk under a wide canopy of four fused chunky rounded lobes, crown wider than tall, a low bushy skirt hiding the roots. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin branches, hard edges, flat faces. One tree about 3 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Canopy: deep forest green (#3E6B39), sunlit lobe tops olive green (#6F8F46), shadowed undersides (#2C4A2C). Trunk: dark warm brown bark (#5A4632). Bushy skirt: moss green (#5E7A3A). Slightly desaturated so it sits beside cream plaster, dark timber and grey-teal slate buildings and reads darker than harvestable trees. No flowers, no fruit, no text or logos.",
+    "polycount": 1000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d405-02a6-7187-8745-6adaa1437bc2",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2406229377,
+        "prompt": "Dense round-crowned broadleaf tree: one short thick tapered trunk under a wide canopy of four fused chunky rounded lobes, crown wider than tall, a low bushy skirt hiding the roots. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin branches, hard edges, flat faces. One tree about 3 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263495329,
+        "progress": 100,
+        "started_at": 1790263495340,
+        "finished_at": 1790263504400,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-02a6-7187-8745-6adaa1437bc2/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-02a6-7187-8745-6adaa1437bc2/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:25:12.822334+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d405-51f6-737f-b5e6-2d3cf0f10581",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2406229377,
+        "prompt": "Dense round-crowned broadleaf tree: one short thick tapered trunk under a wide canopy of four fused chunky rounded lobes, crown wider than tall, a low bushy skirt hiding the roots. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, no thin branches, hard edges, flat faces. One tree about 3 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Canopy: deep forest green (#3E6B39), sunlit lobe tops olive green (#6F8F46), shadowed undersides (#2C4A2C). Trunk: dark warm brown bark (#5A4632). Bushy skirt: moss green (#5E7A3A). Slightly desaturated so it sits beside cream plaster, dark timber and grey-teal slate buildings and reads darker than harvestable trees. No flowers, no fruit, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263515243,
+        "progress": 100,
+        "started_at": 1790263515253,
+        "finished_at": 1790263569791,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-51f6-737f-b5e6-2d3cf0f10581/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-51f6-737f-b5e6-2d3cf0f10581/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-51f6-737f-b5e6-2d3cf0f10581/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-51f6-737f-b5e6-2d3cf0f10581/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-51f6-737f-b5e6-2d3cf0f10581/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d405-51f6-737f-b5e6-2d3cf0f10581/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:26:15.068125+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 139354,
+      "sha256": "fcaa48c4e7f2452b813709aa05d3ac59fd74cdfb9e4e10777bc9d56d88c7dd58"
+    },
+    "model_glb": {
+      "file": "forest_broadleaf_a_model.glb",
+      "bytes": 5349304,
+      "sha256": "4e004ecbfacada6e0cb77b8c214c2ec831e2e0b3bb1f4ac838b3c899db021a32"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 166088,
+      "sha256": "0094d60ef3563428370aecf1ed2349495902299134a89654ed43721636b1c3c1"
+    },
+    "texture_base_color": {
+      "file": "forest_broadleaf_a_base_color.png",
+      "bytes": 4466675,
+      "sha256": "e11f3b90ffa466bb5e9882851720c4271cabab4e536aaba864e3749c9c87ca77"
+    },
+    "texture_metallic": {
+      "file": "forest_broadleaf_a_metallic.png",
+      "bytes": 29705,
+      "sha256": "23bee6dce5f32793c7f05cf4cf2ce0110e549acc6203a06600e9bdd207b502be"
+    },
+    "texture_roughness": {
+      "file": "forest_broadleaf_a_roughness.png",
+      "bytes": 1363578,
+      "sha256": "8e50816bd36b60cff601c1abdedf2ca091d2433ff8e1489e976c528addc5d9cd"
+    },
+    "texture_normal": {
+      "file": "forest_broadleaf_a_normal.png",
+      "bytes": 3538241,
+      "sha256": "aeee100b4b0b79eecc45bf50aaed0293323d062003a00ca54944dece85c8eb90"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 681,
+    "lod0": 399,
+    "lod1": 160,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.8,
+      1.747,
+      3.0
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

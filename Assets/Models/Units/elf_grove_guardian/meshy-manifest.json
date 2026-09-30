@@ -1,0 +1,243 @@
+{
+  "id": "elf_grove_guardian",
+  "entry": {
+    "id": "elf_grove_guardian",
+    "name": "Guardián de la arboleda",
+    "culture": "elf",
+    "factions": [
+      "verdant"
+    ],
+    "unit": "grove_guardian",
+    "role": "heavy",
+    "sheet": "Assets/Models/Units/elf_grove_guardian/concept.png",
+    "height": 2.6,
+    "gameHeight": 3.8,
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "concept": {
+      "references": [
+        "elf_sentinel",
+        "elf_archer"
+      ],
+      "prompt": "Same painted 3D game-art style and the same elven forest culture as these two figures: a tall walking tree guardian, a treant with a humanlike body of thick bark, two sturdy legs like roots and two long branch arms, a crown of chunky leaf clumps on its head, moss on the shoulders, pale glowing blue rune marks on the bark and royal blue cloth ribbons tied around its arms. Arms held well clear of the body."
+    }
+  },
+  "steps": {
+    "model": {
+      "task": {
+        "id": "01a0d416-8159-7085-befa-d35b1b3ab0d4",
+        "type": "image-to-3d",
+        "name": "",
+        "art_style": "",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264641358,
+        "progress": 100,
+        "started_at": 1790264641365,
+        "finished_at": 1790264705087,
+        "expires_at": 1790523905087,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-8159-7085-befa-d35b1b3ab0d4/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-8159-7085-befa-d35b1b3ab0d4/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-8159-7085-befa-d35b1b3ab0d4/output/model.fbx"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-8159-7085-befa-d35b1b3ab0d4/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-8159-7085-befa-d35b1b3ab0d4/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-8159-7085-befa-d35b1b3ab0d4/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-8159-7085-befa-d35b1b3ab0d4/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-8159-7085-befa-d35b1b3ab0d4/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 2895,
+      "finished_utc": "2026-09-24T15:45:12.937865+00:00"
+    },
+    "rig": {
+      "task": {
+        "id": "01a0d417-a29b-70b8-b250-e5e9b1a0bdc6",
+        "type": "rig",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264716994,
+        "progress": 100,
+        "started_at": 1790264717003,
+        "finished_at": 1790264770016,
+        "expires_at": 1790523970016,
+        "task_error": null,
+        "result": {
+          "rigged_character_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-a29b-70b8-b250-e5e9b1a0bdc6/output/Character_output.fbx",
+          "rigged_character_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-a29b-70b8-b250-e5e9b1a0bdc6/output/Character_output.glb",
+          "basic_animations": {
+            "walking_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-a29b-70b8-b250-e5e9b1a0bdc6/output/Animation_Walking_withSkin.glb",
+            "walking_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-a29b-70b8-b250-e5e9b1a0bdc6/output/Animation_Walking_withSkin.fbx",
+            "walking_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-a29b-70b8-b250-e5e9b1a0bdc6/output/Animation_Walking_withSkin_armature.glb",
+            "running_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-a29b-70b8-b250-e5e9b1a0bdc6/output/Animation_Running_withSkin.glb",
+            "running_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-a29b-70b8-b250-e5e9b1a0bdc6/output/Animation_Running_withSkin.fbx",
+            "running_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-a29b-70b8-b250-e5e9b1a0bdc6/output/Animation_Running_withSkin_armature.glb"
+          }
+        },
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 2860,
+      "finished_utc": "2026-09-24T15:46:22.145886+00:00"
+    },
+    "animations": {
+      "task": {
+        "id": "01a0d418-b0e8-75b4-8b2f-5c46fdc1bd36",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264783381,
+        "progress": 100,
+        "started_at": 1790264783388,
+        "finished_at": 1790264808258,
+        "expires_at": 1790524008258,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-b0e8-75b4-8b2f-5c46fdc1bd36/output/merged_animations.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-b0e8-75b4-8b2f-5c46fdc1bd36/output/merged_animations.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 12
+      },
+      "credits": 12,
+      "balance_after": 2843,
+      "finished_utc": "2026-09-24T15:46:50.871513+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_grove_guardian_model.glb",
+      "bytes": 7964956,
+      "sha256": "4f36dcff2d6bb1258c883a3446d30aca0d87a45fefbc7a39046511f502b178a6"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 132075,
+      "sha256": "3345fe359594d72e0c3774e2cbf7ff2f5cb7ffe0329f320bb05fb38592d5025f"
+    },
+    "texture_base_color": {
+      "file": "elf_grove_guardian_base_color.png",
+      "bytes": 6516150,
+      "sha256": "ea3fa904cafee3e23cba59f50a6f23e1fc4ad6efa27382381e1ca1ef67ef6c66"
+    },
+    "texture_metallic": {
+      "file": "elf_grove_guardian_metallic.png",
+      "bytes": 41499,
+      "sha256": "018cb64e1e4554a775d1af15d15c25986614c363eab62d3b55c5e2021dd53d94"
+    },
+    "texture_roughness": {
+      "file": "elf_grove_guardian_roughness.png",
+      "bytes": 1421417,
+      "sha256": "17610e28118d2c10732f93228a1214e7e9bda86c6da1fd6739cd062701985aac"
+    },
+    "texture_normal": {
+      "file": "elf_grove_guardian_normal.png",
+      "bytes": 5365201,
+      "sha256": "b4a3fafac2cf622054362ef11207f7e833b0517bc842fb01549b30b67077d1fb"
+    },
+    "rigged_character_fbx": {
+      "file": "elf_grove_guardian_rigged_character.fbx",
+      "bytes": 6952860,
+      "sha256": "806892ba5e6781c450cfb4b51c85c7a7cee6b2f720c360ede57e4c1f0af29bd0"
+    },
+    "rigged_character_glb": {
+      "file": "elf_grove_guardian_rigged_character.glb",
+      "bytes": 6786488,
+      "sha256": "7e51854bb3776f753f9804aaeafcd9e0784227be594e436ac1ac5ed679b592d5"
+    },
+    "walking_glb": {
+      "file": "elf_grove_guardian_walking.glb",
+      "bytes": 6799992,
+      "sha256": "e9b6c8eada93fca589775432fdb6b3a1888d275591e22fc9628c28a0e6bbfd7d"
+    },
+    "walking_fbx": {
+      "file": "elf_grove_guardian_walking.fbx",
+      "bytes": 6977388,
+      "sha256": "5c530e0226f439db30338e2ef3bc14c30492c6a0a97c7d9749e4dd36f855d413"
+    },
+    "walking_armature_glb": {
+      "file": "elf_grove_guardian_walking_armature.glb",
+      "bytes": 66224,
+      "sha256": "7b2359aee259db3cf17d3a05bf47af4fccb981a2913714a958a7d6fbd72dd1c1"
+    },
+    "running_glb": {
+      "file": "elf_grove_guardian_running.glb",
+      "bytes": 6794648,
+      "sha256": "5309711de6a6dd73da8e0bb3490be357a9543d340e98a623e88c841e11e8c6b1"
+    },
+    "running_fbx": {
+      "file": "elf_grove_guardian_running.fbx",
+      "bytes": 6968972,
+      "sha256": "8cacb9922c56a94e30b6c6fec41fb22e320a2a5cd8a380225ef6bc2c2a0728e0"
+    },
+    "running_armature_glb": {
+      "file": "elf_grove_guardian_running_armature.glb",
+      "bytes": 60884,
+      "sha256": "9274f74a576e401c5c8182c679a604ccc0cc6f833a524cf40eb804c51b22235c"
+    },
+    "animation_glb": {
+      "file": "elf_grove_guardian_animation.glb",
+      "bytes": 6967376,
+      "sha256": "4efce699d50d240a4f6345b50900681d493ea54a58053e45a9dfd27ece3b5d3c"
+    },
+    "animation_fbx": {
+      "file": "elf_grove_guardian_animation.fbx",
+      "bytes": 7487788,
+      "sha256": "afca36253019da5ebfc5884b00751c70f0ed0e255810d0bbccccdc122cfcc9d7"
+    }
+  },
+  "credits": 32,
+  "clips": [
+    {
+      "state": "Idle",
+      "action_id": 0
+    },
+    {
+      "state": "Attack",
+      "action_id": 128
+    },
+    {
+      "state": "Hit",
+      "action_id": 178
+    },
+    {
+      "state": "Death",
+      "action_id": 8
+    }
+  ],
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 4213,
+    "bones": 24,
+    "walkMetresPerSecond": 1.831,
+    "runMetresPerSecond": 4.799,
+    "heightMetres": 2.847,
+    "teamMaskCoverage": 0.0156
+  }
+}

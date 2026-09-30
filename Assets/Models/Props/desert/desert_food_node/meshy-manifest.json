@@ -1,0 +1,131 @@
+{
+  "id": "desert_food_node",
+  "entry": {
+    "id": "desert_food_node",
+    "role": "resource",
+    "kind": "Food",
+    "lod0": 1200,
+    "lod1": 300,
+    "height": 1.2,
+    "footprint": 1.5,
+    "size": 512,
+    "biome": "desert",
+    "priority": 2,
+    "prompt": "Squat pomegranate shrub: a low dome of fused chunky rounded lobes on a short gnarled trunk, wider than tall, big round red fruits set on its top and sides. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, hard edges, flat faces. About 1.5 m wide and 1.2 m tall. Isolated, no ground, no basket, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Foliage: dusty sage green (#6E8446) with lighter tops (#93A55E). Trunk: grey-brown (#7A6450). Fruits: deep saturated pomegranate red (#B8342E) with warm highlights, the brightest colour on the model. No text or logos.",
+    "polycount": 1500
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d412-885a-76bd-811f-d498a48d254e",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3702317352,
+        "prompt": "Squat pomegranate shrub: a low dome of fused chunky rounded lobes on a short gnarled trunk, wider than tall, big round red fruits set on its top and sides. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, hard edges, flat faces. About 1.5 m wide and 1.2 m tall. Isolated, no ground, no basket, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264381362,
+        "progress": 100,
+        "started_at": 1790264381370,
+        "finished_at": 1790264391781,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-885a-76bd-811f-d498a48d254e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-885a-76bd-811f-d498a48d254e/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:39:58.834440+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d412-d6c9-768c-8299-ebffa3beaa7e",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3702317352,
+        "prompt": "Squat pomegranate shrub: a low dome of fused chunky rounded lobes on a short gnarled trunk, wider than tall, big round red fruits set on its top and sides. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no individual leaves, hard edges, flat faces. About 1.5 m wide and 1.2 m tall. Isolated, no ground, no basket, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Foliage: dusty sage green (#6E8446) with lighter tops (#93A55E). Trunk: grey-brown (#7A6450). Fruits: deep saturated pomegranate red (#B8342E) with warm highlights, the brightest colour on the model. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264401350,
+        "progress": 100,
+        "started_at": 1790264401362,
+        "finished_at": 1790264444145,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d6c9-768c-8299-ebffa3beaa7e/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d6c9-768c-8299-ebffa3beaa7e/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d6c9-768c-8299-ebffa3beaa7e/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d6c9-768c-8299-ebffa3beaa7e/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d6c9-768c-8299-ebffa3beaa7e/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d412-d6c9-768c-8299-ebffa3beaa7e/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:40:44.230049+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 173929,
+      "sha256": "a84c5c8e64f83c0b3e13dab91f7dafb42d350c6cc1662170c44c43c713930c2f"
+    },
+    "model_glb": {
+      "file": "desert_food_node_model.glb",
+      "bytes": 6033836,
+      "sha256": "3012e22c97269b20aca0aff516c130cc1da2b8df80877b91041c2d43de31d301"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 214233,
+      "sha256": "7116e3eeea392fbf8ab7139ac240fb860ca032556f72907886440302f946bb24"
+    },
+    "texture_base_color": {
+      "file": "desert_food_node_base_color.png",
+      "bytes": 4676693,
+      "sha256": "e5fae09895101ac5d8e712792da91ac71df7a71560798e7de5da4eec2396406e"
+    },
+    "texture_metallic": {
+      "file": "desert_food_node_metallic.png",
+      "bytes": 38472,
+      "sha256": "c3ae9d493301e2e1785eee770ba275161aa24786b27b340248aacd9e58e4ed42"
+    },
+    "texture_roughness": {
+      "file": "desert_food_node_roughness.png",
+      "bytes": 1308712,
+      "sha256": "07323b79202832be2c3a4797c22819b8b3d5c16ffd21cc5d3ccbdbf41345c704"
+    },
+    "texture_normal": {
+      "file": "desert_food_node_normal.png",
+      "bytes": 3557306,
+      "sha256": "aa68946395a50be2e09f982994402ae9854b4b0400696f0ca23dc56e9ae78cd9"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1083,
+    "lod0": 1083,
+    "lod1": 300,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.111,
+      1.113,
+      1.2
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

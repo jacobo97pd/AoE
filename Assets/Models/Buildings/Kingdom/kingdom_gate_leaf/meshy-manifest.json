@@ -1,0 +1,156 @@
+{
+  "id": "kingdom_gate_leaf",
+  "entry": {
+    "id": "kingdom_gate_leaf",
+    "style": "kingdom",
+    "building": "gate_leaf",
+    "size": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "height": 2.4,
+    "fit": "stretch",
+    "thin": true,
+    "triangles": 800,
+    "suffix": "Dark iron bars, royal blue and gold boss. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+    "prompt": "Low-poly game asset for a top-down strategy game: a single castle portcullis: a flat rectangular grille of thick crossed dark iron bars with pointed spikes along the bottom edge and a round royal blue boss with a gold fleur-de-lis in the centre, twice as tall as it is wide and very thin, seen face-on. No frame, no wall, no hinges.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. All bars, posts, crossbars and spikes: dark wrought iron (#3E3E40). The round central boss: saturated royal blue (#2B4FB0) with a raised gold (#C9A650) fleur-de-lis. No wood, no orange, no beige, no text."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d5e9-9ccc-74d5-acfd-33542375a1d4",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 827099859,
+        "prompt": "Low-poly game asset for a top-down strategy game: a single castle portcullis: a flat rectangular grille of thick crossed dark iron bars with pointed spikes along the bottom edge and a round royal blue boss with a gold fleur-de-lis in the centre, twice as tall as it is wide and very thin, seen face-on. No frame, no wall, no hinges. Dark iron bars, royal blue and gold boss. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790295253737,
+        "progress": 100,
+        "started_at": 1790295253744,
+        "finished_at": 1790295261348,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5e9-9ccc-74d5-acfd-33542375a1d4/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5e9-9ccc-74d5-acfd-33542375a1d4/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T00:14:23.326009+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d61b-36c1-70b0-b611-b1afb2300c43",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 827099859,
+        "prompt": "Low-poly game asset for a top-down strategy game: a single castle portcullis: a flat rectangular grille of thick crossed dark iron bars with pointed spikes along the bottom edge and a round royal blue boss with a gold fleur-de-lis in the centre, twice as tall as it is wide and very thin, seen face-on. No frame, no wall, no hinges. Dark iron bars, royal blue and gold boss. Chunky low-poly shapes, hard edges, flat faces. Isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. All bars, posts, crossbars and spikes: dark wrought iron (#3E3E40). The round central boss: saturated royal blue (#2B4FB0) with a raised gold (#C9A650) fleur-de-lis. No wood, no orange, no beige, no text.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790298504454,
+        "progress": 100,
+        "started_at": 1790298504462,
+        "finished_at": 1790298547101,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61b-36c1-70b0-b611-b1afb2300c43/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61b-36c1-70b0-b611-b1afb2300c43/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61b-36c1-70b0-b611-b1afb2300c43/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61b-36c1-70b0-b611-b1afb2300c43/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61b-36c1-70b0-b611-b1afb2300c43/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d61b-36c1-70b0-b611-b1afb2300c43/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T01:09:07.380803+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_gate_leaf_model.glb",
+      "bytes": 4442864,
+      "sha256": "4a6ee152f809a7ee4e7fe79787d26e45a6efbc7c2950479b939d31b221cb4fa6"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 106195,
+      "sha256": "4e36abe8328098fc1314ec5f62c64997054a19b0ffaf536ac08fcc6a7accbdf5"
+    },
+    "texture_base_color": {
+      "file": "kingdom_gate_leaf_base_color.png",
+      "bytes": 4263115,
+      "sha256": "97495690c596224c72263e2f88fea1ed6bde26eea03b239a693daeb5ddcef944"
+    },
+    "texture_metallic": {
+      "file": "kingdom_gate_leaf_metallic.png",
+      "bytes": 20779,
+      "sha256": "4a53d55b002f577fa481d3af8abf4decf4a0cbebf18b0dccbb5cdd133818757f"
+    },
+    "texture_roughness": {
+      "file": "kingdom_gate_leaf_roughness.png",
+      "bytes": 861526,
+      "sha256": "fa63ee17499fee02d5b92a329907fbc17cfad8825a0517a36d0df86f92cd57ec"
+    },
+    "texture_normal": {
+      "file": "kingdom_gate_leaf_normal.png",
+      "bytes": 2845723,
+      "sha256": "68afd36cd1d236e2b20d8e9760c5017e4194bf8b0bc175ed0e8aae60b0f8e8fb"
+    }
+  },
+  "credits": 25,
+  "finish": {
+    "sourceTriangles": 651,
+    "triangles": 651,
+    "fittedMetres": [
+      1.3,
+      0.15,
+      2.4
+    ],
+    "fit": "stretch",
+    "stretch": [
+      0.903,
+      1.107
+    ],
+    "thicknessScale": 0.493,
+    "teamMaskCoverage": 0.1541
+  },
+  "rejectedRefines": [
+    {
+      "task": "01a0d5f4-16bc-744f-ad0c-5bbe6953c1f4",
+      "credits": 10,
+      "reason": "Reviewer: no owner colour (coverage 0.0) and it read as a pale wooden frame with orange bars; the style's house texture prompt was used. Refined again with the entry's own texture.",
+      "rejected_utc": "2026-09-25T01:08:16.123119+00:00",
+      "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos."
+    }
+  ]
+}

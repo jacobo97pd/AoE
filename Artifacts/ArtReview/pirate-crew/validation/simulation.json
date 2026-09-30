@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "tests": 9,
+  "failed": 0,
+  "results": [
+    {
+      "name": "boarding_raider recruit twice from canonical producer and reject fantasy",
+      "passed": true
+    },
+    {
+      "name": "boarding_raider forged fantasy replica rejected atomically",
+      "passed": true
+    },
+    {
+      "name": "gunpowder_corsair recruit twice from canonical producer and reject fantasy",
+      "passed": true
+    },
+    {
+      "name": "gunpowder_corsair forged fantasy replica rejected atomically",
+      "passed": true
+    },
+    {
+      "name": "treasure_seeker recruit twice from canonical producer and reject fantasy",
+      "passed": true
+    },
+    {
+      "name": "treasure_seeker forged fantasy replica rejected atomically",
+      "passed": true
+    },
+    {
+      "name": "Pistol travels and deals exactly one hit",
+      "passed": true
+    },
+    {
+      "name": "Raider attacks through ordinary melee",
+      "passed": true
+    },
+    {
+      "name": "Seeker harvests carries deposits constructs and reveals extra ground",
+      "passed": true
+    }
+  ]
+}

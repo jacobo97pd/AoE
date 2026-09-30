@@ -1,0 +1,72 @@
+{
+  "name": "GunpowderCorsair",
+  "sourceSha256": "966165df0518639ce9c7e23db7b150bb48aeb7ac397dcacdbadac24df7405012",
+  "fbxSha256": "59c7649f4de8a1107bf13bed242e16a5aed6a2c79d810da7d2968f928c59ce15",
+  "bones": 27,
+  "heightMetres": 2.35,
+  "rig": "Fitted Generic rig on posed Meshy source; no facial rig",
+  "lods": [
+    {
+      "name": "GunpowderCorsair_LOD0",
+      "vertices": 70916,
+      "triangles": 140000,
+      "weightedVertices": 70916,
+      "maxInfluences": 4
+    },
+    {
+      "name": "GunpowderCorsair_LOD1",
+      "vertices": 22921,
+      "triangles": 45000,
+      "weightedVertices": 22921,
+      "maxInfluences": 4
+    },
+    {
+      "name": "GunpowderCorsair_LOD2",
+      "vertices": 6145,
+      "triangles": 12000,
+      "weightedVertices": 6145,
+      "maxInfluences": 4
+    }
+  ],
+  "animations": [
+    {
+      "name": "Corsair_Idle",
+      "seconds": 3.0,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Walk",
+      "seconds": 1.0666666666666667,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Run",
+      "seconds": 0.6666666666666666,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Hit",
+      "seconds": 0.5,
+      "loop": false
+    },
+    {
+      "name": "Corsair_Death",
+      "seconds": 1.6,
+      "loop": false
+    },
+    {
+      "name": "Corsair_Attack",
+      "seconds": 0.6,
+      "loop": false
+    },
+    {
+      "name": "Corsair_Aim",
+      "seconds": 1.6,
+      "loop": true
+    }
+  ],
+  "locomotion": {
+    "walkMetresPerSecond": 1.324,
+    "runMetresPerSecond": 2.958
+  }
+}

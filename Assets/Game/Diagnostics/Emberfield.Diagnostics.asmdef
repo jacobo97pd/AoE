@@ -1,0 +1,8 @@
+{
+  "name": "Emberfield.Diagnostics",
+  "rootNamespace": "Emberfield.Diagnostics",
+  "references": ["Emberfield.Simulation"],
+  "includePlatforms": [],
+  "noEngineReferences": true,
+  "autoReferenced": true
+}

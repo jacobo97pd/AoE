@@ -1,0 +1,144 @@
+{
+  "id": "orc_siege_ladder",
+  "entry": {
+    "id": "orc_siege_ladder",
+    "role": "siege",
+    "kind": "siege_ladder",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 3.8,
+    "footprint": 2.0,
+    "size": 1024,
+    "teamHues": [
+      [
+        343,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "teamSaturation": 0.4,
+    "biome": "all",
+    "factions": [
+      "ashen"
+    ],
+    "priority": 5,
+    "prompt": "Crude spiked siege ladder leaning steeply forward on a low log skid: two rough-hewn scorched log rails, eight bone rungs lashed on with rope, black iron spikes along the rails, two black iron hooks at the top and blood red rags tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, crude uneven shapes, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Logs: scorched dark brown wood (#4A3A2C) with rough paler cuts (#6E5A44). Rungs: aged bone (#D8CCB0). Spikes and hooks: black iron (#34343A). Lashings: tan leather and rope (#8A6E4E). Rags: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d5bd-29a0-7159-8cbb-e4c980de5f93",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3755144509,
+        "prompt": "Crude spiked siege ladder leaning steeply forward on a low log skid: two rough-hewn scorched log rails, eight bone rungs lashed on with rope, black iron spikes along the rails, two black iron hooks at the top and blood red rags tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, crude uneven shapes, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292341846,
+        "progress": 100,
+        "started_at": 1790292341857,
+        "finished_at": 1790292349680,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bd-29a0-7159-8cbb-e4c980de5f93/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bd-29a0-7159-8cbb-e4c980de5f93/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T23:25:51.043387+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d5bd-5b23-75ed-9e28-32a03dc2f3f9",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3755144509,
+        "prompt": "Crude spiked siege ladder leaning steeply forward on a low log skid: two rough-hewn scorched log rails, eight bone rungs lashed on with rope, black iron spikes along the rails, two black iron hooks at the top and blood red rags tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, crude uneven shapes, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Logs: scorched dark brown wood (#4A3A2C) with rough paler cuts (#6E5A44). Rungs: aged bone (#D8CCB0). Spikes and hooks: black iron (#34343A). Lashings: tan leather and rope (#8A6E4E). Rags: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292353234,
+        "progress": 100,
+        "started_at": 1790292353242,
+        "finished_at": 1790292401441,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bd-5b23-75ed-9e28-32a03dc2f3f9/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bd-5b23-75ed-9e28-32a03dc2f3f9/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bd-5b23-75ed-9e28-32a03dc2f3f9/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bd-5b23-75ed-9e28-32a03dc2f3f9/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bd-5b23-75ed-9e28-32a03dc2f3f9/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bd-5b23-75ed-9e28-32a03dc2f3f9/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T23:26:44.769807+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 50807,
+      "sha256": "a88ed8ec3a925fdbdc62d3a3baa70721c98aa98d9b275504f54774e68bdef48f"
+    },
+    "model_glb": {
+      "file": "orc_siege_ladder_model.glb",
+      "bytes": 7546040,
+      "sha256": "dc19930a9817f63eeaa69b5c84867f8bbd94d2182ab31c9d57c9c3ce12042960"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 53625,
+      "sha256": "585417d43cb1e6427edac6bced0b30de8df020eb82158cb3e59bdb2467b54a91"
+    },
+    "texture_base_color": {
+      "file": "orc_siege_ladder_base_color.png",
+      "bytes": 5300890,
+      "sha256": "58fa78018a24014cfc8d38b194488fa68c08cd9d95633005ac2306c5720a5ed4"
+    },
+    "texture_metallic": {
+      "file": "orc_siege_ladder_metallic.png",
+      "bytes": 72880,
+      "sha256": "178bc6e73faf53f06e799c07b9a5d1fbf2040caa4244ea611314e2223e1150c5"
+    },
+    "texture_roughness": {
+      "file": "orc_siege_ladder_roughness.png",
+      "bytes": 1183507,
+      "sha256": "73f80ce522493523be8b6cc2588961faed567f238740585463b464481b5cae97"
+    },
+    "texture_normal": {
+      "file": "orc_siege_ladder_normal.png",
+      "bytes": 4582881,
+      "sha256": "dc847646483485bd2cb785044e8ff6dee36e54e5b417514691f71605c29d4abe"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4300,
+    "lod0": 3498,
+    "lod1": 899,
+    "fittedMetres": [
+      1.032,
+      0.941,
+      3.8
+    ],
+    "teamMaskCoverage": 0.1335
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "mountain_hearth",
+  "entry": {
+    "id": "mountain_hearth",
+    "style": "mountain",
+    "building": "hearth",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: the chieftain's great hall of a mountain clan. One long, broad, fully enclosed timber longhouse, clearly the biggest building, with a steep turf roof, crossed carved beams at both gable ends, a stone chimney and a wide front door flanked by two blue banners."
+  },
+  "style": {
+    "factions": [
+      "skeld"
+    ],
+    "suffix": "Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        200,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d437-4c66-734a-bb7c-93269d134024",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 729683163,
+        "prompt": "Low-poly game asset for a top-down strategy game: the chieftain's great hall of a mountain clan. One long, broad, fully enclosed timber longhouse, clearly the biggest building, with a steep turf roof, crossed carved beams at both gable ends, a stone chimney and a wide front door flanked by two blue banners. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266793065,
+        "progress": 100,
+        "started_at": 1790266793072,
+        "finished_at": 1790266805254,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c66-734a-bb7c-93269d134024/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c66-734a-bb7c-93269d134024/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:20:10.556847+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d437-a26b-714e-96c1-dfe263f344c8",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 729683163,
+        "prompt": "Low-poly game asset for a top-down strategy game: the chieftain's great hall of a mountain clan. One long, broad, fully enclosed timber longhouse, clearly the biggest building, with a steep turf roof, crossed carved beams at both gable ends, a stone chimney and a wide front door flanked by two blue banners. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266813204,
+        "progress": 100,
+        "started_at": 1790266813212,
+        "finished_at": 1790266876947,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a26b-714e-96c1-dfe263f344c8/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a26b-714e-96c1-dfe263f344c8/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a26b-714e-96c1-dfe263f344c8/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a26b-714e-96c1-dfe263f344c8/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a26b-714e-96c1-dfe263f344c8/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a26b-714e-96c1-dfe263f344c8/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:21:21.520700+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "mountain_hearth_model.glb",
+      "bytes": 6797892,
+      "sha256": "0dfdeabab7aadcdc08682ffdca3057dd4cdedf97d9b34bced024f18fa926da64"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 263704,
+      "sha256": "d916ab07b8be8c949d16e814ddd75250663a4d0f51f217b52e8e868f96e888d6"
+    },
+    "texture_base_color": {
+      "file": "mountain_hearth_base_color.png",
+      "bytes": 5522156,
+      "sha256": "04d3d53b348823f1c53de1c148b559187ea8a947923d40a349a1566883700c58"
+    },
+    "texture_metallic": {
+      "file": "mountain_hearth_metallic.png",
+      "bytes": 25261,
+      "sha256": "e2039096a6792a7ed054035b76d056c03ebba7a97565db810092de0d15bac746"
+    },
+    "texture_roughness": {
+      "file": "mountain_hearth_roughness.png",
+      "bytes": 1581151,
+      "sha256": "0c42e514a1396ed7b8fb557bfc769db17cf2c603769303502a515904ca26d956"
+    },
+    "texture_normal": {
+      "file": "mountain_hearth_normal.png",
+      "bytes": 4053796,
+      "sha256": "9e4b8ac8ad34aaf48a8aaa1af785d4157bcb596f9a328410c05834ce8bf2ffa2"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4657,
+    "triangles": 4657,
+    "fittedMetres": [
+      3.84,
+      3.84,
+      2.887
+    ],
+    "teamMaskCoverage": 0.1149
+  }
+}

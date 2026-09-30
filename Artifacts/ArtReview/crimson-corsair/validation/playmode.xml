@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="15" result="Passed" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:59Z" duration="2,2176369">
+  <test-suite type="TestSuite" id="1184" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="139" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:59Z" duration="2.217637" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1177" name="Emberfield.Tests.PlayMode.dll" fullname="D:/EmberfieldWorkingCache/AoE/CrimsonCorsairBuildProject/Library/ScriptAssemblies/Emberfield.Tests.PlayMode.dll" runstate="Runnable" testcasecount="139" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:59Z" duration="2.207896" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="15120" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1178" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="139" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:59Z" duration="2.206400" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1179" name="Tests" fullname="Emberfield.Tests" runstate="Runnable" testcasecount="139" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:59Z" duration="2.205434" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1180" name="PlayMode" fullname="Emberfield.Tests.PlayMode" runstate="Runnable" testcasecount="138" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:59Z" duration="2.204295" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1025" name="AlphaWorldArtTests" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:59Z" duration="2.029719" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="ParameterizedMethod" id="1034" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:58Z" duration="1.396848" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1026" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(AvenCompact)" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(AvenCompact)" methodname="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="1452700493" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:57Z" duration="0.234639" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1027" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(SerevinMarch)" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(SerevinMarch)" methodname="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="306402969" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:57Z" duration="0.151523" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1028" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(MirajSultanate)" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(MirajSultanate)" methodname="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="1638952420" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:57Z" duration="0.180416" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1029" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(SkeldClans)" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(SkeldClans)" methodname="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="871898300" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:57Z" duration="0.176911" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1030" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(SolarKingdom)" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(SolarKingdom)" methodname="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="140507148" result="Passed" start-time="2026-09-11 08:14:57Z" end-time="2026-09-11 08:14:58Z" duration="0.164588" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1031" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(VerdantCovenant)" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(VerdantCovenant)" methodname="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="1426729463" result="Passed" start-time="2026-09-11 08:14:58Z" end-time="2026-09-11 08:14:58Z" duration="0.159074" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1032" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(AshenDominion)" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(AshenDominion)" methodname="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="2075180510" result="Passed" start-time="2026-09-11 08:14:58Z" end-time="2026-09-11 08:14:58Z" duration="0.152187" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1033" name="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(DrakeforgedClans)" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets(DrakeforgedClans)" methodname="EveryPlayableArchetypeHasSharedShadowedLodsWithinGeometryAndFootprintBudgets" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="1911632018" result="Passed" start-time="2026-09-11 08:14:58Z" end-time="2026-09-11 08:14:58Z" duration="0.168867" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1035" name="FactionsHaveDifferentGeometryAndResourcesHaveColliderFreeSharedLods" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.FactionsHaveDifferentGeometryAndResourcesHaveColliderFreeSharedLods" methodname="FactionsHaveDifferentGeometryAndResourcesHaveColliderFreeSharedLods" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="241643369" result="Passed" start-time="2026-09-11 08:14:58Z" end-time="2026-09-11 08:14:58Z" duration="0.023404" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1036" name="LandscapeIsCosmeticAndExplorationGatesEveryTallDecoration" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.LandscapeIsCosmeticAndExplorationGatesEveryTallDecoration" methodname="LandscapeIsCosmeticAndExplorationGatesEveryTallDecoration" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="1797076413" result="Passed" start-time="2026-09-11 08:14:58Z" end-time="2026-09-11 08:14:58Z" duration="0.071279" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1037" name="PlayableMapUsesAlphaArtForEitherLocalFactionAndKeepsSelectionAndHealthContextual" fullname="Emberfield.Tests.PlayMode.AlphaWorldArtTests.PlayableMapUsesAlphaArtForEitherLocalFactionAndKeepsSelectionAndHealthContextual" methodname="PlayableMapUsesAlphaArtForEitherLocalFactionAndKeepsSelectionAndHealthContextual" classname="Emberfield.Tests.PlayMode.AlphaWorldArtTests" runstate="Runnable" seed="1467889336" result="Passed" start-time="2026-09-11 08:14:58Z" end-time="2026-09-11 08:14:59Z" duration="0.528692" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1057" name="CorsairIntegrationTests" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-11 08:14:59Z" end-time="2026-09-11 08:14:59Z" duration="0.164342" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1059" name="ImportedPrefabHasSixAnimationsThatActuallyDeformItsSkinnedMesh" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests.ImportedPrefabHasSixAnimationsThatActuallyDeformItsSkinnedMesh" methodname="ImportedPrefabHasSixAnimationsThatActuallyDeformItsSkinnedMesh" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" seed="2022363702" result="Passed" start-time="2026-09-11 08:14:59Z" end-time="2026-09-11 08:14:59Z" duration="0.107042" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1061" name="LocalDeathDetachesOnlyVisualCorpseAndDisposingViewRemovesIt" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests.LocalDeathDetachesOnlyVisualCorpseAndDisposingViewRemovesIt" methodname="LocalDeathDetachesOnlyVisualCorpseAndDisposingViewRemovesIt" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" seed="2129413595" result="Passed" start-time="2026-09-11 08:14:59Z" end-time="2026-09-11 08:14:59Z" duration="0.025757" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1060" name="RealMovementAndAttacksDriveRigWhileRepeatedPresentationCannotAdvanceIt" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests.RealMovementAndAttacksDriveRigWhileRepeatedPresentationCannotAdvanceIt" methodname="RealMovementAndAttacksDriveRigWhileRepeatedPresentationCannotAdvanceIt" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" seed="433560663" result="Passed" start-time="2026-09-11 08:14:59Z" end-time="2026-09-11 08:14:59Z" duration="0.021013" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1058" name="ShippedHeroIsOwnHistoricalDefinitionAndHearthRecruitNotAnInfantryReplacement" fullname="Emberfield.Tests.PlayMode.CorsairIntegrationTests.ShippedHeroIsOwnHistoricalDefinitionAndHearthRecruitNotAnInfantryReplacement" methodname="ShippedHeroIsOwnHistoricalDefinitionAndHearthRecruitNotAnInfantryReplacement" classname="Emberfield.Tests.PlayMode.CorsairIntegrationTests" runstate="Runnable" seed="953825457" result="Passed" start-time="2026-09-11 08:14:59Z" end-time="2026-09-11 08:14:59Z" duration="0.009173" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/jacob/AppData/LocalLow/Emberfield Project/Emberfield\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

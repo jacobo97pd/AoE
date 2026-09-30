@@ -1,0 +1,35 @@
+{
+  "id": "sultanate_worker",
+  "concept": {
+    "references": [
+      "sultanate_warrior",
+      "sultanate_worker"
+    ],
+    "prompt": "Same painted 3D game-art style, desert people and cream robes with turquoise cloth as these figures: a desert labourer with a cream turban and face veil, a long cream tunic, loose trousers, a turquoise tabard and sash, sandals, a pickaxe and a sack slung on his back. Dignified, no emblem."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0e3aa-b31d-712e-8610-4c43adb0a1b5",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same painted 3D game-art style, desert people and cream robes with turquoise cloth as these figures: a desert labourer with a cream turban and face veil, a long cream tunic, loose trousers, a turquoise tabard and sash, sandals, a pickaxe and a sack slung on his back. Dignified, no emblem. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790526010929,
+    "started_at": 1790526010938,
+    "finished_at": 1790526028778,
+    "expires_at": 1790785228778,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0e3aa-b31d-712e-8610-4c43adb0a1b5_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 996,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1163598,
+    "sha256": "6839ff7b440edd4826aa5f64549513cd3cca9158a06823d46a1713b04a959832"
+  },
+  "finished_utc": "2026-09-27T16:20:37.834087+00:00"
+}

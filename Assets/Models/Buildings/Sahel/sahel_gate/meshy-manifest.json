@@ -1,0 +1,646 @@
+{
+  "id": "sahel_gate",
+  "entry": {
+    "id": "sahel_gate",
+    "style": "sahel",
+    "building": "gate",
+    "footprint": [
+      2,
+      1
+    ],
+    "height": 3.7,
+    "fit": "stretch",
+    "triangles": 3000,
+    "base": "sahel_fortifications"
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "retexture": {
+      "task": {
+        "id": "01a0e3cd-fe94-7746-a96e-f11fe501d06e",
+        "type": "retexture",
+        "name": "",
+        "art_style": "realistic",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "Stylized matte painted colours, even lighting, no baked shadows. The whole wall is one sun-dried mud plaster: footing, buttresses, pinnacles, merlons and faces all warm tan-brown clay (#A87A56) with darker brown streaks (#7E5A40), no stone, no metal. Projecting beam ends, the lintel and the door planks: weathered brown palm wood (#6E5A44). Door studs: burnished bronze (#B07A3A). Banners and the band across the door: plain saturated indigo blue cloth (#2E3F8F), no emblem. No text or logos.",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528324532,
+        "progress": 100,
+        "started_at": 1790528324539,
+        "finished_at": 1790528378829,
+        "expires_at": 1790787578829,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/model.fbx",
+          "usdz": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/model.usdz",
+          "obj": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/model.obj",
+          "mtl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/model.mtl",
+          "stl": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/model.stl"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-fe94-7746-a96e-f11fe501d06e/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "group": "sahel_fortifications",
+      "paidBy": "sahel_wall",
+      "finished_utc": "2026-09-27T16:59:44.380746+00:00",
+      "credits": 0
+    }
+  },
+  "files": {},
+  "credits": 0,
+  "base": {
+    "id": "sahel_gate",
+    "strip": [
+      0.528593,
+      0.377755
+    ],
+    "triangles": 504,
+    "bounds": [
+      2.0,
+      0.9,
+      3.7
+    ],
+    "cloth": [
+      [
+        [
+          0.20455,
+          0.91806
+        ],
+        [
+          0.19367,
+          0.90283
+        ],
+        [
+          0.18279,
+          0.91806
+        ],
+        [
+          0.18279,
+          0.85498
+        ],
+        [
+          0.20455,
+          0.85498
+        ]
+      ],
+      [
+        [
+          0.89787,
+          0.12297
+        ],
+        [
+          0.91962,
+          0.12297
+        ],
+        [
+          0.91962,
+          0.18604
+        ],
+        [
+          0.90874,
+          0.17082
+        ],
+        [
+          0.89787,
+          0.18604
+        ]
+      ],
+      [
+        [
+          0.98122,
+          0.83514
+        ],
+        [
+          0.97959,
+          0.83514
+        ],
+        [
+          0.97959,
+          0.81999
+        ],
+        [
+          0.98122,
+          0.81999
+        ]
+      ],
+      [
+        [
+          0.94398,
+          0.97072
+        ],
+        [
+          0.94561,
+          0.97072
+        ],
+        [
+          0.94561,
+          0.98587
+        ],
+        [
+          0.94398,
+          0.98587
+        ]
+      ],
+      [
+        [
+          0.44817,
+          0.39924
+        ],
+        [
+          0.44654,
+          0.39924
+        ],
+        [
+          0.44654,
+          0.33615
+        ],
+        [
+          0.44817,
+          0.33615
+        ]
+      ],
+      [
+        [
+          0.97143,
+          0.30868
+        ],
+        [
+          0.97306,
+          0.30868
+        ],
+        [
+          0.97306,
+          0.33044
+        ],
+        [
+          0.97143,
+          0.33044
+        ]
+      ],
+      [
+        [
+          0.44654,
+          0.41595
+        ],
+        [
+          0.44817,
+          0.41595
+        ],
+        [
+          0.44817,
+          0.47904
+        ],
+        [
+          0.44654,
+          0.47904
+        ]
+      ],
+      [
+        [
+          0.76683,
+          0.91989
+        ],
+        [
+          0.75596,
+          0.90466
+        ],
+        [
+          0.74508,
+          0.91989
+        ],
+        [
+          0.74508,
+          0.85681
+        ],
+        [
+          0.76683,
+          0.85681
+        ]
+      ],
+      [
+        [
+          0.78355,
+          0.85681
+        ],
+        [
+          0.80531,
+          0.85681
+        ],
+        [
+          0.80531,
+          0.91989
+        ],
+        [
+          0.79443,
+          0.90466
+        ],
+        [
+          0.78355,
+          0.91989
+        ]
+      ],
+      [
+        [
+          0.12964,
+          0.99036
+        ],
+        [
+          0.12801,
+          0.99036
+        ],
+        [
+          0.12801,
+          0.97521
+        ],
+        [
+          0.12964,
+          0.97521
+        ]
+      ],
+      [
+        [
+          0.16224,
+          0.97521
+        ],
+        [
+          0.16387,
+          0.97521
+        ],
+        [
+          0.16387,
+          0.99036
+        ],
+        [
+          0.16224,
+          0.99036
+        ]
+      ],
+      [
+        [
+          0.44817,
+          0.55884
+        ],
+        [
+          0.44654,
+          0.55884
+        ],
+        [
+          0.44654,
+          0.49576
+        ],
+        [
+          0.44817,
+          0.49576
+        ]
+      ],
+      [
+        [
+          0.57899,
+          0.96148
+        ],
+        [
+          0.58062,
+          0.96148
+        ],
+        [
+          0.58062,
+          0.98324
+        ],
+        [
+          0.57899,
+          0.98324
+        ]
+      ],
+      [
+        [
+          0.11399,
+          0.57041
+        ],
+        [
+          0.11562,
+          0.57041
+        ],
+        [
+          0.11562,
+          0.63349
+        ],
+        [
+          0.11399,
+          0.63349
+        ]
+      ],
+      [
+        [
+          0.84378,
+          0.91989
+        ],
+        [
+          0.8329,
+          0.90466
+        ],
+        [
+          0.82202,
+          0.91989
+        ],
+        [
+          0.82202,
+          0.85681
+        ],
+        [
+          0.84378,
+          0.85681
+        ]
+      ],
+      [
+        [
+          0.86703,
+          0.85687
+        ],
+        [
+          0.88879,
+          0.85687
+        ],
+        [
+          0.88879,
+          0.91995
+        ],
+        [
+          0.87791,
+          0.90472
+        ],
+        [
+          0.86703,
+          0.91995
+        ]
+      ],
+      [
+        [
+          0.35382,
+          0.99036
+        ],
+        [
+          0.35219,
+          0.99036
+        ],
+        [
+          0.35219,
+          0.97521
+        ],
+        [
+          0.35382,
+          0.97521
+        ]
+      ],
+      [
+        [
+          0.38642,
+          0.97521
+        ],
+        [
+          0.38805,
+          0.97521
+        ],
+        [
+          0.38805,
+          0.99036
+        ],
+        [
+          0.38642,
+          0.99036
+        ]
+      ],
+      [
+        [
+          0.44817,
+          0.63864
+        ],
+        [
+          0.44654,
+          0.63864
+        ],
+        [
+          0.44654,
+          0.57556
+        ],
+        [
+          0.44817,
+          0.57556
+        ]
+      ],
+      [
+        [
+          0.4668,
+          0.96891
+        ],
+        [
+          0.46843,
+          0.96891
+        ],
+        [
+          0.46843,
+          0.99067
+        ],
+        [
+          0.4668,
+          0.99067
+        ]
+      ],
+      [
+        [
+          0.21582,
+          0.66423
+        ],
+        [
+          0.21746,
+          0.66423
+        ],
+        [
+          0.21746,
+          0.72732
+        ],
+        [
+          0.21582,
+          0.72732
+        ]
+      ],
+      [
+        [
+          0.70008,
+          0.92355
+        ],
+        [
+          0.68921,
+          0.90833
+        ],
+        [
+          0.67833,
+          0.92355
+        ],
+        [
+          0.67833,
+          0.86048
+        ],
+        [
+          0.70008,
+          0.86048
+        ]
+      ],
+      [
+        [
+          0.9055,
+          0.85687
+        ],
+        [
+          0.92726,
+          0.85687
+        ],
+        [
+          0.92726,
+          0.91995
+        ],
+        [
+          0.91638,
+          0.90472
+        ],
+        [
+          0.9055,
+          0.91995
+        ]
+      ],
+      [
+        [
+          0.99141,
+          0.32383
+        ],
+        [
+          0.98978,
+          0.32383
+        ],
+        [
+          0.98978,
+          0.30868
+        ],
+        [
+          0.99141,
+          0.30868
+        ]
+      ],
+      [
+        [
+          0.50963,
+          0.97649
+        ],
+        [
+          0.51126,
+          0.97649
+        ],
+        [
+          0.51126,
+          0.99164
+        ],
+        [
+          0.50963,
+          0.99164
+        ]
+      ],
+      [
+        [
+          0.21746,
+          0.80712
+        ],
+        [
+          0.21582,
+          0.80712
+        ],
+        [
+          0.21582,
+          0.74404
+        ],
+        [
+          0.21746,
+          0.74404
+        ]
+      ],
+      [
+        [
+          0.48515,
+          0.96891
+        ],
+        [
+          0.48678,
+          0.96891
+        ],
+        [
+          0.48678,
+          0.99067
+        ],
+        [
+          0.48515,
+          0.99067
+        ]
+      ],
+      [
+        [
+          0.84309,
+          0.62256
+        ],
+        [
+          0.84472,
+          0.62256
+        ],
+        [
+          0.84472,
+          0.68564
+        ],
+        [
+          0.84309,
+          0.68564
+        ]
+      ]
+    ]
+  },
+  "finish": {
+    "sourceTriangles": 504,
+    "triangles": 504,
+    "fittedMetres": [
+      2.0,
+      0.9,
+      3.7
+    ],
+    "fit": "stretch",
+    "stretch": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "teamMaskCoverage": 0.0196
+  }
+}

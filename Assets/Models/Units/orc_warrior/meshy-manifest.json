@@ -1,0 +1,273 @@
+{
+  "id": "orc_warrior",
+  "entry": {
+    "id": "orc_warrior",
+    "name": "Guerrero orco",
+    "culture": "orc",
+    "factions": [
+      "ashen"
+    ],
+    "unit": "reedguard",
+    "role": "heavy",
+    "sheet": "~/Downloads/ChatGPT Image 13 sept 2026, 16_00_02 (2).png",
+    "height": 2.0,
+    "gameHeight": 2.5,
+    "teamHues": []
+  },
+  "steps": {
+    "model": {
+      "task": {
+        "id": "01a0d321-008e-70ab-9eb6-8264da1afc63",
+        "type": "image-to-3d",
+        "name": "",
+        "art_style": "",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790248552131,
+        "progress": 100,
+        "started_at": 1790248552141,
+        "finished_at": 1790248622385,
+        "expires_at": 1790507822385,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d321-008e-70ab-9eb6-8264da1afc63/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d321-008e-70ab-9eb6-8264da1afc63/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d321-008e-70ab-9eb6-8264da1afc63/output/model.fbx"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d321-008e-70ab-9eb6-8264da1afc63/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d321-008e-70ab-9eb6-8264da1afc63/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d321-008e-70ab-9eb6-8264da1afc63/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d321-008e-70ab-9eb6-8264da1afc63/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d321-008e-70ab-9eb6-8264da1afc63/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 3740,
+      "finished_utc": "2026-09-24T11:17:11.693418+00:00"
+    },
+    "rig": {
+      "task": {
+        "id": "01a0d322-43a0-7060-9f72-3c4e3ff18901",
+        "type": "rig",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790248636275,
+        "progress": 100,
+        "started_at": 1790248636286,
+        "finished_at": 1790248697314,
+        "expires_at": 1790507897314,
+        "task_error": null,
+        "result": {
+          "rigged_character_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d322-43a0-7060-9f72-3c4e3ff18901/output/Character_output.fbx",
+          "rigged_character_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d322-43a0-7060-9f72-3c4e3ff18901/output/Character_output.glb",
+          "basic_animations": {
+            "walking_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d322-43a0-7060-9f72-3c4e3ff18901/output/Animation_Walking_withSkin.glb",
+            "walking_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d322-43a0-7060-9f72-3c4e3ff18901/output/Animation_Walking_withSkin.fbx",
+            "walking_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d322-43a0-7060-9f72-3c4e3ff18901/output/Animation_Walking_withSkin_armature.glb",
+            "running_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d322-43a0-7060-9f72-3c4e3ff18901/output/Animation_Running_withSkin.glb",
+            "running_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d322-43a0-7060-9f72-3c4e3ff18901/output/Animation_Running_withSkin.fbx",
+            "running_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d322-43a0-7060-9f72-3c4e3ff18901/output/Animation_Running_withSkin_armature.glb"
+          }
+        },
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3735,
+      "finished_utc": "2026-09-24T11:18:28.771907+00:00"
+    },
+    "animations": {
+      "task": {
+        "id": "01a0d323-70bb-75d9-8097-52bf47b85eae",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790248710633,
+        "progress": 100,
+        "started_at": 1790248710645,
+        "finished_at": 1790248738129,
+        "expires_at": 1790507938129,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d323-70bb-75d9-8097-52bf47b85eae/output/merged_animations.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d323-70bb-75d9-8097-52bf47b85eae/output/merged_animations.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 12
+      },
+      "credits": 12,
+      "balance_after": 3723,
+      "finished_utc": "2026-09-24T11:19:05.848690+00:00"
+    },
+    "climb": {
+      "task": {
+        "id": "01a0d5bc-4e10-70e2-b64f-52384af34ca8",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292283203,
+        "progress": 100,
+        "started_at": 1790292283213,
+        "finished_at": 1790292290751,
+        "expires_at": 1790551490751,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-4e10-70e2-b64f-52384af34ca8/output/Animation_Ladder_Climb_Loop_withSkin.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-4e10-70e2-b64f-52384af34ca8/output/Animation_Ladder_Climb_Loop_withSkin.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 3
+      },
+      "credits": 3,
+      "balance_after": 1849,
+      "finished_utc": "2026-09-24T23:24:54.171833+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_warrior_model.glb",
+      "bytes": 8161324,
+      "sha256": "6527744676ae40a0fa7a204dc5f91b3787289d0f10b347f86d9c7d8cb639f706"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 152165,
+      "sha256": "4f2874fb394e8246caf7d60199e485d0505969f37f418c80539b5a744c7454b4"
+    },
+    "texture_base_color": {
+      "file": "orc_warrior_base_color.png",
+      "bytes": 6602820,
+      "sha256": "ac5b940e4e2e7aca0a01099c8af78daf0e1542875f53636015c088a7f03e8a5e"
+    },
+    "texture_metallic": {
+      "file": "orc_warrior_metallic.png",
+      "bytes": 279799,
+      "sha256": "7154bb6285ef088a98af25fcaea7af641db332e1a4f8de66fdb4104fc3b98d7c"
+    },
+    "texture_roughness": {
+      "file": "orc_warrior_roughness.png",
+      "bytes": 1539087,
+      "sha256": "d2ec70528210fb11454930357fca844fc2586004e5416dc1e2bb65d40ed5ba7b"
+    },
+    "texture_normal": {
+      "file": "orc_warrior_normal.png",
+      "bytes": 5495504,
+      "sha256": "31cd6a0e2b227b7a20a5169bf0ed7923024ab4e851a34c50ff880219a38f5950"
+    },
+    "rigged_character_fbx": {
+      "file": "orc_warrior_rigged_character.fbx",
+      "bytes": 7045116,
+      "sha256": "5a6b8c2e57f25c8dd13ed18f6f9e1083cc4dfd75065daad9bd180b7f79fe24e8"
+    },
+    "rigged_character_glb": {
+      "file": "orc_warrior_rigged_character.glb",
+      "bytes": 6863868,
+      "sha256": "72e56a51da467d43f15c72a3d980a10d7279116fbcafc2741fd14ec4a0da536d"
+    },
+    "walking_glb": {
+      "file": "orc_warrior_walking.glb",
+      "bytes": 6876632,
+      "sha256": "039b37a03de663c25f25629f7ec10f60f2ab3c31e88f4a258119bac9fc4973d2"
+    },
+    "walking_fbx": {
+      "file": "orc_warrior_walking.fbx",
+      "bytes": 7069244,
+      "sha256": "d049f132b36fef03e23c278c8331d04f9a44505fcf80a8a4c6de5c0ad4fe2434"
+    },
+    "walking_armature_glb": {
+      "file": "orc_warrior_walking_armature.glb",
+      "bytes": 65396,
+      "sha256": "22ac7bbd4788c5147dde4e19495c24ea3f3fae458d2d841126dde741b96a246e"
+    },
+    "running_glb": {
+      "file": "orc_warrior_running.glb",
+      "bytes": 6872028,
+      "sha256": "b030370f97fab5476b312e67d30d451447b2ca0c9e0d3ac43e66dc8a6e8435d6"
+    },
+    "running_fbx": {
+      "file": "orc_warrior_running.fbx",
+      "bytes": 7061196,
+      "sha256": "4597461587d8bb2d26579ff4e784fbfa128fdd98691f85931d5d94ee01533248"
+    },
+    "running_armature_glb": {
+      "file": "orc_warrior_running_armature.glb",
+      "bytes": 60792,
+      "sha256": "df080d9026f99a12e6b19962f812eeb092fc2957b03b9c46376de56417c0975d"
+    },
+    "animation_glb": {
+      "file": "orc_warrior_animation.glb",
+      "bytes": 7035552,
+      "sha256": "6691bebd8a8b7aa1050bad52a236efa62a08653c890aa6cff409c9e5210914f1"
+    },
+    "animation_fbx": {
+      "file": "orc_warrior_animation.fbx",
+      "bytes": 7577452,
+      "sha256": "a671311e9af71189f12605a33989febf7cf132fc6263ae34b556497f08afd3e3"
+    },
+    "climb_glb": {
+      "file": "orc_warrior_climb.glb",
+      "bytes": 6884540,
+      "sha256": "ac035a96282568e07e179054cd55968597b7ad36de1833ce14c9548bdfe10e2d"
+    },
+    "climb_fbx": {
+      "file": "orc_warrior_climb.fbx",
+      "bytes": 7080124,
+      "sha256": "eb67204da5cc06a1adb70c0b68c580bac6f5e9a69a569d8a489aca70e046ae1a"
+    }
+  },
+  "credits": 35,
+  "clips": [
+    {
+      "state": "Idle",
+      "action_id": 0
+    },
+    {
+      "state": "Attack",
+      "action_id": 128
+    },
+    {
+      "state": "Hit",
+      "action_id": 178
+    },
+    {
+      "state": "Death",
+      "action_id": 8
+    },
+    {
+      "state": "Climb",
+      "action_id": 438,
+      "step": "climb"
+    }
+  ],
+  "finish": {
+    "states": [
+      "Attack",
+      "Climb",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 4059,
+    "bones": 24,
+    "walkMetresPerSecond": 1.555,
+    "runMetresPerSecond": 4.104,
+    "climbMetresPerSecond": 0.46,
+    "heightMetres": 2.238,
+    "teamMaskCoverage": 0.0042
+  }
+}

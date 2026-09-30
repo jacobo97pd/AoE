@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Corsario Carmesí · Revisión en Unity</title>
+  <style>
+    :root{color-scheme:dark;--bg:#10191e;--panel:#18242a;--line:#344147;--gold:#e3c792;--text:#eee8df;--muted:#b5bfc2;--red:#a84340}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Segoe UI,Arial,sans-serif;line-height:1.6}
+    a{color:var(--gold);text-underline-offset:4px}a:hover{color:#fff0ce}a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+    .wrap{max-width:1340px;margin:auto;padding:44px 28px 64px}.mast{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:21px;margin-bottom:42px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+    .mast strong{color:var(--gold);font-weight:500}.eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:0 0 12px}
+    h1,h2,h3{font-family:Georgia,serif;font-weight:400;line-height:1.12}h1{font-size:clamp(42px,6vw,76px);margin:0 0 24px}h2{font-size:34px;margin:0 0 14px}h3{font-size:24px;margin:0 0 10px}p{margin:0 0 18px}.muted{color:var(--muted)}
+    .intro{display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:end;margin-bottom:32px}.intro p{max-width:490px;font-size:17px;color:var(--muted)}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin:23px 0 0}.button{display:inline-block;text-decoration:none;border:1px solid #75674e;padding:11px 17px;border-radius:3px;font-size:14px}.primary{background:var(--gold);color:#181b1d;border-color:var(--gold);font-weight:600}.primary:hover{background:#f2daad;color:#181b1d}
+    .review{display:grid;grid-template-columns:1fr;gap:24px;align-items:start}.mainview{margin:0;background:#202c34;border:1px solid var(--line)}.mainview a{display:block}.mainview img{display:block;width:100%;max-height:970px;object-fit:contain;background:#202c34}.mainview figcaption{padding:15px 20px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+    .tabs{display:flex;gap:0;background:var(--panel);border-bottom:1px solid var(--line)}.tabs button{flex:1;background:transparent;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:15px 8px;font:inherit;font-size:14px;cursor:pointer}.tabs button[aria-pressed=true]{color:var(--gold);border-bottom-color:var(--gold)}
+    .side{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.panel{background:var(--panel);border:1px solid var(--line);padding:27px}.panel p{font-size:14px;color:var(--muted)}.panel p:last-child{margin-bottom:0}.badge{display:inline-block;border:1px solid #714642;border-radius:2px;padding:4px 9px;color:#efb9ab;font-size:11px;letter-spacing:.13em;text-transform:uppercase;margin-bottom:17px}
+    dl{display:grid;grid-template-columns:1fr 1fr;gap:18px 22px;margin:22px 0 0}dt{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}dd{margin:2px 0 0;font-family:Georgia,serif;font-size:27px;color:var(--gold)}dd small{font-family:Segoe UI,Arial,sans-serif;font-size:13px;color:var(--muted)}
+    .controls{width:100%;border-collapse:collapse;font-size:13px}.controls td{padding:8px 0;border-bottom:1px solid var(--line);vertical-align:top}.controls td:first-child{color:var(--gold);white-space:nowrap;padding-right:14px}.controls td:last-child{color:var(--muted)}
+    section{margin-top:57px}.sectionintro{max-width:770px;color:var(--muted)}.motiongrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:27px}.motiongrid figure{margin:0;background:var(--panel);border:1px solid var(--line)}.motiongrid img{display:block;width:100%;height:auto}.motiongrid figcaption{padding:14px 17px;font-size:15px;color:var(--gold)}.motiongrid figcaption span{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+    .files{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:25px}.file{display:block;text-decoration:none;border:1px solid var(--line);background:var(--panel);padding:19px 20px}.file span{display:block;color:var(--muted);font-size:12px;margin-top:5px}.note{border-left:2px solid var(--red);padding:3px 0 3px 20px;color:var(--muted);max-width:900px;font-size:14px;margin-top:29px}.footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+    @media(max-width:850px){.intro,.review{grid-template-columns:1fr}.intro{gap:0}.side{grid-template-columns:1fr 1fr}.side .panel:last-child{grid-column:1/-1}.mainview img{max-height:900px}.motiongrid,.files{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:550px){.wrap{padding:26px 17px 40px}.mast{display:block;font-size:10px;margin-bottom:30px}.mast span{display:block;margin-top:8px}.side,.motiongrid,.files{grid-template-columns:1fr}.panel{padding:22px}.motiongrid{gap:16px}.side .panel:last-child{grid-column:auto}h2{font-size:29px}.intro p{font-size:15px}}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header class="mast"><strong>Crowns &amp; Horizons</strong><span>Personaje importado · Capturas de Unity</span></header>
+  <div class="intro">
+    <div><p class="eyebrow">Héroe pirata · Reino histórico</p><h1>Corsario<br>Carmesí</h1></div>
+    <div><p>Tu personaje de Meshy conserva su diseño, sus bordados y su loro. Ahora cuenta con esqueleto, animaciones y una identidad propia dentro del juego.</p><div class="actions"><a class="button primary" href="../../../Builds/CrimsonCorsair/CrimsonCorsair.exe">Abrir ejecutable</a><a class="button" href="../../../docs/art/crimson-corsair-integration.md">Informe de integración</a></div></div>
+  </div>
+  <div class="review">
+    <figure class="mainview">
+      <div class="tabs" role="group" aria-label="Vista del personaje"><button type="button" data-view="close" aria-pressed="true">01 · Cercana</button><button type="button" data-view="medium" aria-pressed="false">02 · Media</button><button type="button" data-view="rts" aria-pressed="false">03 · RTS</button></div>
+      <a id="mainlink" href="player/close.png" aria-label="Abrir captura a tamaño completo"><img id="mainimage" src="player/close.png" alt="Corsario Carmesí en el ejecutable de Unity, con abrigo rojo bordado, sombrero, sable y loro"></a>
+      <figcaption id="maincaption">Vista cercana · Captura nativa del ejecutable de Unity a 1920 × 1080. Pulsa la imagen para abrir el original.</figcaption>
+    </figure>
+    <aside class="side">
+      <div class="panel"><span class="badge">Héroe reclutable</span><h3>Del puerto a la batalla</h3><p>En el visor, pulsa <strong>JUGAR</strong> para entrar en una partida costera con el corsario seleccionado. En partidas históricas, reclútalo desde el Hearth.</p><dl><div><dt>Vida</dt><dd>220</dd></div><div><dt>Daño</dt><dd>18 <small>/ 1,2 s</small></dd></div><div><dt>Velocidad</dt><dd>3,4 <small>m/s</small></dd></div><div><dt>Entrenamiento</dt><dd>40 <small>s</small></dd></div></dl></div>
+      <div class="panel"><h3>Reclutamiento</h3><p><strong>200 alimento + 100 metal.</strong><br>Ocupa 3 de población.<br>Un héroe vivo o en cola por jugador.</p><p>Sus estadísticas son valores iniciales para probar el personaje en combate.</p></div>
+      <div class="panel"><h3>Explora el personaje</h3><table class="controls"><tbody><tr><td>1 · 2 · 3</td><td>Cercana · media · RTS</td></tr><tr><td>I · W · R</td><td>Reposo · caminar · correr</td></tr><tr><td>A · H · D</td><td>Atacar · recibir impacto · caer</td></tr><tr><td>Arrastrar · rueda</td><td>Girar · acercar</td></tr><tr><td>Espacio · Tab</td><td>Pausar · ocultar controles</td></tr></tbody></table></div>
+    </aside>
+  </div>
+  <section aria-labelledby="motiontitle"><p class="eyebrow">Movimiento</p><h2 id="motiontitle">Seis animaciones</h2><p class="sectionintro">Fotogramas de los clips de reposo, desplazamiento y combate. Abre el ejecutable para ver las secuencias completas y pausarlas en cualquier momento.</p>
+    <div class="motiongrid">
+      <figure><a href="player/animation-idle.png"><img src="player/animation-idle.png" alt="Fotograma nativo de la animación de reposo" loading="lazy"></a><figcaption>Reposo<span>3 s · Bucle</span></figcaption></figure>
+      <figure><a href="player/animation-walk.png"><img src="player/animation-walk.png" alt="Fotograma nativo de la animación de caminar" loading="lazy"></a><figcaption>Caminar<span>1,2 s · Bucle</span></figcaption></figure>
+      <figure><a href="player/animation-run.png"><img src="player/animation-run.png" alt="Fotograma nativo de la animación de correr" loading="lazy"></a><figcaption>Correr<span>0,8 s · Bucle</span></figcaption></figure>
+      <figure><a href="player/animation-attack.png"><img src="player/animation-attack.png" alt="Fotograma nativo del ataque con sable" loading="lazy"></a><figcaption>Ataque<span>0,9 s · Golpe con sable</span></figcaption></figure>
+      <figure><a href="player/animation-hit.png"><img src="player/animation-hit.png" alt="Fotograma nativo de la reacción al recibir un impacto" loading="lazy"></a><figcaption>Impacto<span>0,5 s · Reacción</span></figcaption></figure>
+      <figure><a href="player/animation-death.png"><img src="player/animation-death.png" alt="Fotograma nativo de la animación de caída" loading="lazy"></a><figcaption>Caída<span>1,6 s · Muerte</span></figcaption></figure>
+    </div>
+    <p class="note">Las animaciones se han creado para el modelo posado que entregaste. La cara no está animada; manos, prendas y pliegues pueden requerir refinamiento en movimientos extremos. Estas imágenes muestran el resultado del motor, sin retoque ilustrado.</p>
+  </section>
+  <section aria-labelledby="gametitle"><p class="eyebrow">Juego real</p><h2 id="gametitle">En partida</h2><p class="sectionintro">El héroe dentro del mapa costero, con HUD, órdenes, daño y caída. Estas capturas proceden de una prueba local determinista del ejecutable; la prueba acelera los pasos de simulación y no mide FPS.</p>
+    <div class="motiongrid">
+      <figure><a href="game/gameplay-spawn.png"><img src="game/gameplay-spawn.png" alt="Corsario Carmesí seleccionado en la partida costera con el HUD del juego" loading="lazy"></a><figcaption>Desplegado<span>Un héroe propio en el reino histórico</span></figcaption></figure>
+      <figure><a href="game/gameplay-attack.png"><img src="game/gameplay-attack.png" alt="Corsario Carmesí atacando a un enemigo en una partida de prueba" loading="lazy"></a><figcaption>Combate<span>Orden de ataque y daño de simulación</span></figcaption></figure>
+      <figure><a href="game/gameplay-death.png"><img src="game/gameplay-death.png" alt="Caída del Corsario Carmesí tras recibir daño en la partida de prueba" loading="lazy"></a><figcaption>Caída en partida<span>Muerte y animación del cuerpo</span></figcaption></figure>
+    </div><p style="margin-top:18px"><a href="game/gameplay-review.json">Ver evidencia de la prueba en partida</a></p>
+  </section>
+  <section aria-labelledby="filestitle"><p class="eyebrow">Entrega</p><h2 id="filestitle">Modelo, escena y materiales</h2><div class="files">
+    <a class="file" href="../../../Assets/Game/Scenes/CrimsonCorsair.unity">Escena de Unity<span>Patio y tres cámaras de revisión</span></a>
+    <a class="file" href="../../../Assets/Game/CrimsonCorsair/Resources/ImportedUnits/CrimsonCorsair.prefab">Prefab del personaje<span>Esqueleto, Animator y tres LOD</span></a>
+    <a class="file" href="../../../Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx">Modelo FBX<span>Geometría y seis clips</span></a>
+    <a class="file" href="source/CrimsonCorsair.blend">Fuente Blender<span>Modelo editable con rig y materiales</span></a>
+    <a class="file" href="../../../Assets/Game/CrimsonCorsair/Materials/CrimsonCorsair.mat">Material de Unity<span>URP Lit · Texturas originales 2K</span></a>
+    <a class="file" href="../../../Assets/Game/CrimsonCorsair/README.md">Guía técnica<span>Procedencia, controles y reconstrucción</span></a>
+  </div></section>
+  <footer class="footer">Modelo y texturas proporcionados por el usuario mediante Meshy. Preparación y animación para Crowns &amp; Horizons. <a href="asset-validation.json">Datos de importación</a> · <a href="player/review.json">Revisión nativa de animaciones</a> · <a href="../../../Assets/Game/CrimsonCorsair/model-manifest.json">Manifiesto del modelo</a></footer>
+</main>
+<script>
+const captions={close:'Vista cercana · Captura nativa del ejecutable de Unity a 1920 × 1080. Pulsa la imagen para abrir el original.',medium:'Vista media · Captura nativa del ejecutable: personaje completo y silueta en el patio de revisión.',rts:'Vista RTS · Captura nativa del ejecutable desde la cámara estratégica del visor.'};
+const image=document.getElementById('mainimage'),link=document.getElementById('mainlink'),caption=document.getElementById('maincaption');
+document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{const view=button.dataset.view;document.querySelectorAll('[data-view]').forEach(other=>other.setAttribute('aria-pressed',String(other===button)));image.src='player/'+view+'.png';link.href=image.src;image.alt='Corsario Carmesí en el ejecutable de Unity · '+button.textContent.trim();caption.textContent=captions[view];}));
+</script>
+</body>
+</html>

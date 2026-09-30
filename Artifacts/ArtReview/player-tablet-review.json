@@ -1,0 +1,176 @@
+{
+    "status": "completed",
+    "buildGuid": "f2bfb4e2c82d49bfacf4520a196bd3d6",
+    "unity": "6000.3.23f1",
+    "note": "Native standalone ArtStyleLab: controlled Animator bone sampling, root isolation, shared mesh/material team masks and UI hit-region checks. Animator culling is temporarily AlwaysAnimate during sampling. Captures explicitly render the running camera and camera-space HUD into a RenderTexture, including live skinning; hidden Windows players have no readable backbuffer. Desktop inspection; no physical touch-device, mobile performance or visual-parity claim.",
+    "width": 1440,
+    "height": 1080,
+    "visibleControls": 12,
+    "passed": true,
+    "controlsFit": true,
+    "controlsBlockWorldInput": true,
+    "animations": [
+        {
+            "unit": "tender",
+            "pose": "Idle",
+            "passed": true,
+            "stateFound": true,
+            "bones": 16,
+            "samples": 5,
+            "maxBonePositionChange": 0.0139542818069458,
+            "maxBoneRotationDegrees": 3.9840714931488039,
+            "maxRootPositionDrift": 0.0,
+            "maxRootRotationDegrees": 0.0,
+            "maxRootScaleDrift": 0.0
+        },
+        {
+            "unit": "tender",
+            "pose": "Walk",
+            "passed": true,
+            "stateFound": true,
+            "bones": 16,
+            "samples": 5,
+            "maxBonePositionChange": 0.04482471942901611,
+            "maxBoneRotationDegrees": 51.616703033447269,
+            "maxRootPositionDrift": 0.0,
+            "maxRootRotationDegrees": 0.0,
+            "maxRootScaleDrift": 0.0
+        },
+        {
+            "unit": "tender",
+            "pose": "Gather",
+            "passed": true,
+            "stateFound": true,
+            "bones": 16,
+            "samples": 5,
+            "maxBonePositionChange": 0.0,
+            "maxBoneRotationDegrees": 94.35779571533203,
+            "maxRootPositionDrift": 0.0,
+            "maxRootRotationDegrees": 0.0,
+            "maxRootScaleDrift": 0.0
+        },
+        {
+            "unit": "reedguard",
+            "pose": "Idle",
+            "passed": true,
+            "stateFound": true,
+            "bones": 16,
+            "samples": 5,
+            "maxBonePositionChange": 0.0140000581741333,
+            "maxBoneRotationDegrees": 3.9639785289764406,
+            "maxRootPositionDrift": 0.0,
+            "maxRootRotationDegrees": 0.0,
+            "maxRootScaleDrift": 0.0
+        },
+        {
+            "unit": "reedguard",
+            "pose": "Walk",
+            "passed": true,
+            "stateFound": true,
+            "bones": 16,
+            "samples": 5,
+            "maxBonePositionChange": 0.04485058784484863,
+            "maxBoneRotationDegrees": 51.55229568481445,
+            "maxRootPositionDrift": 0.0,
+            "maxRootRotationDegrees": 0.0,
+            "maxRootScaleDrift": 0.0
+        },
+        {
+            "unit": "reedguard",
+            "pose": "Attack01",
+            "passed": true,
+            "stateFound": true,
+            "bones": 16,
+            "samples": 5,
+            "maxBonePositionChange": 0.0,
+            "maxBoneRotationDegrees": 58.33980178833008,
+            "maxRootPositionDrift": 0.0,
+            "maxRootRotationDegrees": 0.0,
+            "maxRootScaleDrift": 0.0
+        }
+    ],
+    "teams": [
+        {
+            "sample": 0,
+            "renderers": 3,
+            "expected": {
+                "r": 0.1899999976158142,
+                "g": 0.3700000047683716,
+                "b": 0.6200000047683716,
+                "a": 1.0
+            },
+            "observed": {
+                "r": 0.18999996781349183,
+                "g": 0.3699999749660492,
+                "b": 0.6200000047683716,
+                "a": 1.0
+            },
+            "passed": true,
+            "sharedAssetsPreserved": true
+        },
+        {
+            "sample": 1,
+            "renderers": 3,
+            "expected": {
+                "r": 0.6200000047683716,
+                "g": 0.18000000715255738,
+                "b": 0.11999999731779099,
+                "a": 1.0
+            },
+            "observed": {
+                "r": 0.6200000047683716,
+                "g": 0.17999997735023499,
+                "b": 0.1199999526143074,
+                "a": 1.0
+            },
+            "passed": true,
+            "sharedAssetsPreserved": true
+        },
+        {
+            "sample": 2,
+            "renderers": 3,
+            "expected": {
+                "r": 0.1899999976158142,
+                "g": 0.4300000071525574,
+                "b": 0.25,
+                "a": 1.0
+            },
+            "observed": {
+                "r": 0.18999996781349183,
+                "g": 0.429999977350235,
+                "b": 0.2499999701976776,
+                "a": 1.0
+            },
+            "passed": true,
+            "sharedAssetsPreserved": true
+        },
+        {
+            "sample": 3,
+            "renderers": 3,
+            "expected": {
+                "r": 0.7900000214576721,
+                "g": 0.5400000214576721,
+                "b": 0.17000000178813935,
+                "a": 1.0
+            },
+            "observed": {
+                "r": 0.7899999618530273,
+                "g": 0.5399999618530273,
+                "b": 0.16999995708465577,
+                "a": 1.0
+            },
+            "passed": true,
+            "sharedAssetsPreserved": true
+        }
+    ],
+    "screenshots": [
+        "player-close.png",
+        "player-mid.png",
+        "player-rts.png",
+        "player-walk.png",
+        "player-attack.png",
+        "player-gather.png",
+        "player-controls.png"
+    ],
+    "problems": []
+}

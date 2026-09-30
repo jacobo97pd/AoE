@@ -1,0 +1,435 @@
+{
+  "id": "figure_18",
+  "name": "Guerrero del reino",
+  "family": "kingdom",
+  "role": "warrior",
+  "suggestedFaction": "kingdom",
+  "realm": "historical",
+  "modelPath": "figure_18/figure_18.fbx",
+  "sourceBlendPath": "Artifacts/ArtReview/reference-characters/figure_18/figure_18.blend",
+  "heightMetres": 2.258026703260839,
+  "boundsMin": [
+    -0.5898671746253967,
+    -0.5442669987678528,
+    0.005000011064112186
+  ],
+  "boundsMax": [
+    0.694782555103302,
+    0.45530104637145996,
+    2.263026714324951
+  ],
+  "locomotion": {
+    "walkMetresPerSecond": 1.7,
+    "runMetresPerSecond": 3.4
+  },
+  "clips": [
+    {
+      "name": "Idle",
+      "loop": true,
+      "firstFrame": 1.0,
+      "lastFrame": 61.0
+    },
+    {
+      "name": "Run",
+      "loop": true,
+      "firstFrame": 1.0,
+      "lastFrame": 25.0
+    },
+    {
+      "name": "Fall",
+      "loop": false,
+      "firstFrame": 1.0,
+      "lastFrame": 49.0
+    }
+  ],
+  "materials": [
+    {
+      "name": "RS_Steel",
+      "baseColor": [
+        0.57,
+        0.63,
+        0.68,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Steel_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/steel_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/steel_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_SteelDark",
+      "baseColor": [
+        0.255,
+        0.29,
+        0.33,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_SteelDark_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/steel_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/steel_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_Gold",
+      "baseColor": [
+        0.71,
+        0.52,
+        0.265,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Gold_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/gold_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/gold_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_BlueCloth",
+      "baseColor": [
+        0.08,
+        0.24,
+        0.48,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        3.0,
+        3.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_BlueCloth_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_IvoryCloth",
+      "baseColor": [
+        0.56,
+        0.57,
+        0.545,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        3.0,
+        3.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_IvoryCloth_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_Leather",
+      "baseColor": [
+        0.31,
+        0.185,
+        0.1,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.5,
+        2.5
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Leather_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/leather_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/leather_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_LeatherLight",
+      "baseColor": [
+        0.405,
+        0.26,
+        0.145,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.5,
+        2.5
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_LeatherLight_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/leather_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/leather_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_Skin",
+      "baseColor": [
+        0.69,
+        0.465,
+        0.345,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        5.0,
+        5.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Skin_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/skin_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/skin_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_Hair",
+      "baseColor": [
+        0.15,
+        0.085,
+        0.045,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Hair_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/hair_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/hair_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_HairDetail",
+      "baseColor": [
+        0.18,
+        0.10200000000000001,
+        0.054,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_HairDetail_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/hair_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/hair_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_EyeIvory",
+      "baseColor": [
+        0.65,
+        0.62,
+        0.55,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        1.0,
+        1.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_EyeIvory_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_Iris",
+      "baseColor": [
+        0.15,
+        0.095,
+        0.038,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        1.0,
+        1.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Iris_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_Pupil",
+      "baseColor": [
+        0.006,
+        0.008,
+        0.009,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        1.0,
+        1.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Pupil_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_Wood",
+      "baseColor": [
+        0.335,
+        0.23,
+        0.12,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Wood_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/wood_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/wood_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_ThreadGold",
+      "baseColor": [
+        0.66,
+        0.46,
+        0.19,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_ThreadGold_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_ThreadIvory",
+      "baseColor": [
+        0.62,
+        0.57,
+        0.46,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_ThreadIvory_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_Sole",
+      "baseColor": [
+        0.085,
+        0.071,
+        0.055,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        2.5,
+        2.5
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_Sole_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/leather_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/leather_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    },
+    {
+      "name": "RS_ShieldBlue",
+      "baseColor": [
+        0.08,
+        0.24,
+        0.48,
+        1
+      ],
+      "metallic": 1,
+      "smoothness": 1,
+      "normalScale": 1.0,
+      "tiling": [
+        1.5,
+        1.5
+      ],
+      "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/RS_ShieldBlue_MetalSmooth.png",
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/paint_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/paint_Normal.png",
+      "fallbackSmoothness": 1,
+      "fallbackMetallic": 1
+    }
+  ],
+  "triangles": 219999,
+  "lodTriangles": [
+    219999,
+    40000,
+    14100
+  ],
+  "bones": 18,
+  "referenceImage": "ChatGPT Image 13 sept 2026, 14_40_16 (1).png",
+  "fbxSha256": "ebc901faaf67f44719146c8992f2b45dab4396d7ee65e13edb0ca356e521164a",
+  "interpretationNotes": "Editable 3D interpretation using the later Royal Soldier anatomy, fabric folds, stitches, layered leather, fabricated plate profiles and relief equipment. Family-specific proportions, beards, cloth, headwear and tools are added as geometry. It remains below the illustration in likeness and microdetail; no identical reconstruction or commercial-quality animation is claimed."
+}

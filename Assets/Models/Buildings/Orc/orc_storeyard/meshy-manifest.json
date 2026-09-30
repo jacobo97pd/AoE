@@ -1,0 +1,137 @@
+{
+  "id": "orc_storeyard",
+  "entry": {
+    "id": "orc_storeyard",
+    "style": "orc",
+    "building": "storeyard",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: an orc storehouse. A small crude log pen with a slanted hide roof, piled sacks, barrels and bones inside, black iron spikes on the corners and a red rag hanging at the front."
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        350,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43a-3660-710a-aefd-8e6714a39055",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1247746883,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc storehouse. A small crude log pen with a slanted hide roof, piled sacks, barrels and bones inside, black iron spikes on the corners and a red rag hanging at the front. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266981900,
+        "progress": 100,
+        "started_at": 1790266981907,
+        "finished_at": 1790266995969,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-3660-710a-aefd-8e6714a39055/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-3660-710a-aefd-8e6714a39055/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:23:19.376315+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43a-83f8-76b3-aa68-b036e9f5d4d4",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1247746883,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc storehouse. A small crude log pen with a slanted hide roof, piled sacks, barrels and bones inside, black iron spikes on the corners and a red rag hanging at the front. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266999891,
+        "progress": 100,
+        "started_at": 1790266999899,
+        "finished_at": 1790267078402,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-83f8-76b3-aa68-b036e9f5d4d4/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-83f8-76b3-aa68-b036e9f5d4d4/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-83f8-76b3-aa68-b036e9f5d4d4/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-83f8-76b3-aa68-b036e9f5d4d4/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-83f8-76b3-aa68-b036e9f5d4d4/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-83f8-76b3-aa68-b036e9f5d4d4/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:24:45.194388+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_storeyard_model.glb",
+      "bytes": 5280980,
+      "sha256": "ff18dd861368e39249db4139657fb2e8549f876f128f5dd8ff3c6334fa0adfd2"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 206342,
+      "sha256": "63c30184272d5631b56770c47f96f12ac766194086e6310e5d5af04bb84375f6"
+    },
+    "texture_base_color": {
+      "file": "orc_storeyard_base_color.png",
+      "bytes": 4484086,
+      "sha256": "98d6e8173491f773813b223d544e5276be8548c6cb03853d4f9f0c88ee6b9e9a"
+    },
+    "texture_metallic": {
+      "file": "orc_storeyard_metallic.png",
+      "bytes": 20357,
+      "sha256": "a831e91816fc34d531608e3f100628cbe2ac46164ad8ed61cef9303d9a42eb1b"
+    },
+    "texture_roughness": {
+      "file": "orc_storeyard_roughness.png",
+      "bytes": 1327475,
+      "sha256": "d181cd5a727c161099242cae1734015efe46ff52f4c1e4cfb470cc9a8f710f1b"
+    },
+    "texture_normal": {
+      "file": "orc_storeyard_normal.png",
+      "bytes": 3189997,
+      "sha256": "51db85c65c5c29255e4017f2bbfeb7a7afc51bf545b93710b15856e26195845f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 5038,
+    "triangles": 5038,
+    "fittedMetres": [
+      1.92,
+      1.807,
+      1.575
+    ],
+    "teamMaskCoverage": 0.0062
+  }
+}

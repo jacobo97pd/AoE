@@ -1,0 +1,130 @@
+{
+  "id": "metal_node_desert",
+  "entry": {
+    "id": "metal_node_desert",
+    "role": "resource",
+    "kind": "Metal",
+    "lod0": 1000,
+    "lod1": 250,
+    "height": 1.3,
+    "footprint": 1.8,
+    "size": 512,
+    "biome": "desert",
+    "priority": 2,
+    "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky gold ore veins and chunky nugget crystals breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+    "texture": "Stylized painted colours, even lighting, no baked shadows. Host rock: dark red-brown ironstone (#5E4535) with warm brown edges (#7D5C45), matte. Ore veins and nuggets: rich metallic gold (#D9A93A) with bright highlights, metallic and smooth, clearly readable from above. No text or logos.",
+    "polycount": 1500
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d418-14f6-7549-bacc-25bd69e12156",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3743628676,
+        "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky gold ore veins and chunky nugget crystals breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264743203,
+        "progress": 100,
+        "started_at": 1790264743210,
+        "finished_at": 1790264750578,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-14f6-7549-bacc-25bd69e12156/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-14f6-7549-bacc-25bd69e12156/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:45:52.173587+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d418-3ad0-77a4-9956-e732e50066c9",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3743628676,
+        "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky gold ore veins and chunky nugget crystals breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+        "texture_prompt": "Stylized painted colours, even lighting, no baked shadows. Host rock: dark red-brown ironstone (#5E4535) with warm brown edges (#7D5C45), matte. Ore veins and nuggets: rich metallic gold (#D9A93A) with bright highlights, metallic and smooth, clearly readable from above. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264754801,
+        "progress": 100,
+        "started_at": 1790264754808,
+        "finished_at": 1790264806417,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-3ad0-77a4-9956-e732e50066c9/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-3ad0-77a4-9956-e732e50066c9/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-3ad0-77a4-9956-e732e50066c9/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-3ad0-77a4-9956-e732e50066c9/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-3ad0-77a4-9956-e732e50066c9/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d418-3ad0-77a4-9956-e732e50066c9/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:46:54.646341+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 108220,
+      "sha256": "36698f05a6c19e6ed191fab930b5ae01bc5e89e4da584128bdf3641ca746dadb"
+    },
+    "model_glb": {
+      "file": "metal_node_desert_model.glb",
+      "bytes": 4268628,
+      "sha256": "a8f5b550328e2b4019d4eed93d7de171a45159bbaffdcc6ec18ffd0f4205859b"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 153447,
+      "sha256": "036fbec0b5aac3d306480718d7ce62fb8cfd16a39dd7774840de627a389aa36d"
+    },
+    "texture_base_color": {
+      "file": "metal_node_desert_base_color.png",
+      "bytes": 3777955,
+      "sha256": "67db28644745bd2c262a540389b6e24593e9729880f88bdee3d66a38ab29e2f6"
+    },
+    "texture_metallic": {
+      "file": "metal_node_desert_metallic.png",
+      "bytes": 168796,
+      "sha256": "2251fd4c7d4f360e47e5518351247baa6b411c13cd53b2d253b2a7bb86c10ece"
+    },
+    "texture_roughness": {
+      "file": "metal_node_desert_roughness.png",
+      "bytes": 1261713,
+      "sha256": "ab045c1fcedf706fe94c16e5ea318c4bc913cc8d6de36891877b70ef3b745cd3"
+    },
+    "texture_normal": {
+      "file": "metal_node_desert_normal.png",
+      "bytes": 2267970,
+      "sha256": "706bf3b4aaaf4dd595cb0aa478a223dc373881ea8d3d25ad7c9e87a870180bb2"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1438,
+    "lod0": 1000,
+    "lod1": 249,
+    "fittedMetres": [
+      1.8,
+      1.8,
+      1.114
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

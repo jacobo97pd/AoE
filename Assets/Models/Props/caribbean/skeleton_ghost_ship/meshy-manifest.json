@@ -1,0 +1,139 @@
+{
+  "id": "skeleton_ghost_ship",
+  "entry": {
+    "id": "skeleton_ghost_ship",
+    "role": "landmark",
+    "kind": "ship",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 5.5,
+    "footprint": 5.0,
+    "size": 1024,
+    "biome": "caribbean",
+    "teamHues": [
+      [
+        150,
+        170
+      ]
+    ],
+    "factions": [
+      "skeletal_fleet"
+    ],
+    "priority": 4,
+    "prompt": "Low-poly game asset: a ghostly skeleton pirate ship for a top-down strategy game. A weathered bone-pale hull with broken and patched planking, a single leaning mast with tattered ragged sails, a few bare timber ribs exposed along the hull. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 1.8 m wide, 5 m long, 5.5 m tall. Isolated, no ground, no water, no crew, no glow, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Bleached grey-white hull (#B8B6A8) with dark cracks (#4A4A48), tattered pale grey-green sails (#9AA394). No glow, no text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3a8-f7ca-735b-b84b-895e755e65a7",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 917820392,
+        "prompt": "Low-poly game asset: a ghostly skeleton pirate ship for a top-down strategy game. A weathered bone-pale hull with broken and patched planking, a single leaning mast with tattered ragged sails, a few bare timber ribs exposed along the hull. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 1.8 m wide, 5 m long, 5.5 m tall. Isolated, no ground, no water, no crew, no glow, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790525905205,
+        "progress": 100,
+        "started_at": 1790525905215,
+        "finished_at": 1790525917209,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a8-f7ca-735b-b84b-895e755e65a7/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a8-f7ca-735b-b84b-895e755e65a7/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T16:18:42.686349+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3b8-b790-74c8-b345-185850082266",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 917820392,
+        "prompt": "Low-poly game asset: a ghostly skeleton pirate ship for a top-down strategy game. A weathered bone-pale hull with broken and patched planking, a single leaning mast with tattered ragged sails, a few bare timber ribs exposed along the hull. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 1.8 m wide, 5 m long, 5.5 m tall. Isolated, no ground, no water, no crew, no glow, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Bleached grey-white hull (#B8B6A8) with dark cracks (#4A4A48), tattered pale grey-green sails (#9AA394), one tattered sickly teal-green banner at the masthead, more saturated than the sails (#2E9C82). No glow, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526930692,
+        "progress": 100,
+        "started_at": 1790526930700,
+        "finished_at": 1790526996986,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b8-b790-74c8-b345-185850082266/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b8-b790-74c8-b345-185850082266/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b8-b790-74c8-b345-185850082266/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b8-b790-74c8-b345-185850082266/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b8-b790-74c8-b345-185850082266/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b8-b790-74c8-b345-185850082266/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:36:38.981735+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 107863,
+      "sha256": "097b5a16925f6da9294cbb249164e0039f3837db42a9fa5fe349bab4e5ac4fb7"
+    },
+    "model_glb": {
+      "file": "skeleton_ghost_ship_model.glb",
+      "bytes": 7540676,
+      "sha256": "60904175b6afd704df179f5d46342bcd3303a6718a68552628879b14fa0aa6b7"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 139180,
+      "sha256": "e110bc37fbf85796135760ef546dc14b2928cae2f2efb73af10e87b0a04425a9"
+    },
+    "texture_base_color": {
+      "file": "skeleton_ghost_ship_base_color.png",
+      "bytes": 5056219,
+      "sha256": "5548c328b4d0a088df26532c1c3269ce6a060810c111736cbf8321fe38b2375d"
+    },
+    "texture_metallic": {
+      "file": "skeleton_ghost_ship_metallic.png",
+      "bytes": 52542,
+      "sha256": "e16cfb8b5994e56c9b075ec7a71ce3d1259f0065c3b5b6fa0c2fbe2d2f18d950"
+    },
+    "texture_roughness": {
+      "file": "skeleton_ghost_ship_roughness.png",
+      "bytes": 1277295,
+      "sha256": "aa944ef0a83a4d5499844d8720ea1d9424fbfe5a4a910c24ff86b6e39c957b35"
+    },
+    "texture_normal": {
+      "file": "skeleton_ghost_ship_normal.png",
+      "bytes": 4727364,
+      "sha256": "3d98d5dee594481e51e61ca69ff51d251998bce0b67d525925385d67876a7890"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3783,
+    "lod0": 3499,
+    "lod1": 800,
+    "fittedMetres": [
+      1.846,
+      5.0,
+      4.395
+    ],
+    "teamMaskCoverage": 0.0026
+  }
+}

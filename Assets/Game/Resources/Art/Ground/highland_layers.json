@@ -1,0 +1,121 @@
+{
+  "biome": "highland",
+  "layers": [
+    {
+      "name": "alpine meadow",
+      "task": {
+        "id": "01a0d75d-0f79-7733-855c-f55b7abf9616",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of short tough alpine meadow grass, cooler and drier than lowland grass, with small tufts, scattered specks of mauve heather and tiny white flowers, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319595927,
+        "started_at": 1790319595932,
+        "finished_at": 1790319632766,
+        "expires_at": 1790578832766,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75d-0f79-7733-855c-f55b7abf9616_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of short tough alpine meadow grass, cooler and drier than lowland grass, with small tufts, scattered specks of mauve heather and tiny white flowers, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#6F7D4E",
+      "finished_utc": "2026-09-25T07:00:38.906410+00:00",
+      "file": {
+        "file": "highland_0.png",
+        "bytes": 2040128,
+        "sha256": "3812ec2b78acb55c176ac9539eb3cad8b31ca9cda339fcf1c8ab5b0d52c8c8c1"
+      }
+    },
+    {
+      "name": "heather moor",
+      "task": {
+        "id": "01a0d75d-bd79-71d4-9fcd-f6722f80441f",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of highland moor of low dense clumps of mauve-purple heather and dark bilberry among brown pine needles and dry grass, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319640550,
+        "started_at": 1790319640556,
+        "finished_at": 1790319651987,
+        "expires_at": 1790578851987,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75d-bd79-71d4-9fcd-f6722f80441f_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of highland moor of low dense clumps of mauve-purple heather and dark bilberry among brown pine needles and dry grass, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#6E5E5A",
+      "finished_utc": "2026-09-25T07:00:58.151617+00:00",
+      "file": {
+        "file": "highland_1.png",
+        "bytes": 2225482,
+        "sha256": "8b42aec4614b31b91918209f0cd53c07f88f0b73ac34e0ee1063673b681bc6b8"
+      }
+    },
+    {
+      "name": "scree track",
+      "task": {
+        "id": "01a0d75e-0814-752d-957c-f8e878c4e9de",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of gravel mountain track of grey granite scree, small sharp angular stones and coarse grit, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319659459,
+        "started_at": 1790319659465,
+        "finished_at": 1790319670451,
+        "expires_at": 1790578870451,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75e-0814-752d-957c-f8e878c4e9de_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of gravel mountain track of grey granite scree, small sharp angular stones and coarse grit, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#8E8B80",
+      "finished_utc": "2026-09-25T07:01:17.038899+00:00",
+      "file": {
+        "file": "highland_2.png",
+        "bytes": 1803543,
+        "sha256": "9e94962b9146acbcef550dcb8fbcb8a92511e69370a67ec45af5d55188ed7321"
+      }
+    },
+    {
+      "name": "peat bank",
+      "task": {
+        "id": "01a0d75e-5147-772b-8656-6ccfc4f70816",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of cold wet dark peaty stream bank with rounded grey river stones and a little sparse sedge, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319678288,
+        "started_at": 1790319678293,
+        "finished_at": 1790319690332,
+        "expires_at": 1790578890332,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75e-5147-772b-8656-6ccfc4f70816_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of cold wet dark peaty stream bank with rounded grey river stones and a little sparse sedge, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#5E5E50",
+      "finished_utc": "2026-09-25T07:01:35.877947+00:00",
+      "file": {
+        "file": "highland_3.png",
+        "bytes": 1637975,
+        "sha256": "ca8c3342cd83a08a196906f6ac7127c9f82e28d18122c207926ef1fc48fc07dd"
+      }
+    }
+  ]
+}

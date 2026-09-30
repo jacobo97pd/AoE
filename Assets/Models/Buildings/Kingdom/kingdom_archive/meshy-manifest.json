@@ -1,0 +1,137 @@
+{
+  "id": "kingdom_archive",
+  "entry": {
+    "id": "kingdom_archive",
+    "style": "kingdom",
+    "building": "archive",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.85,
+    "prompt": "Low-poly game asset: a medieval scholars' library for a top-down strategy game. One fully enclosed rectangular stone-and-timber hall with a steep gable roof and a small square bell tower rising from one end. Tall narrow arched windows along the sides, a round window above the wooden door. One royal blue cloth banner hangs from the tower."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d32b-d7b3-7597-bc59-55f75ff6f935",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1898163379,
+        "prompt": "Low-poly game asset: a medieval scholars' library for a top-down strategy game. One fully enclosed rectangular stone-and-timber hall with a steep gable roof and a small square bell tower rising from one end. Tall narrow arched windows along the sides, a round window above the wooden door. One royal blue cloth banner hangs from the tower. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249262813,
+        "progress": 100,
+        "started_at": 1790249262820,
+        "finished_at": 1790249274554,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32b-d7b3-7597-bc59-55f75ff6f935/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32b-d7b3-7597-bc59-55f75ff6f935/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3641,
+      "finished_utc": "2026-09-24T11:28:00.155440+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d32c-288f-71f5-ac79-aec23985f27f",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1898163379,
+        "prompt": "Low-poly game asset: a medieval scholars' library for a top-down strategy game. One fully enclosed rectangular stone-and-timber hall with a steep gable roof and a small square bell tower rising from one end. Tall narrow arched windows along the sides, a round window above the wooden door. One royal blue cloth banner hangs from the tower. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249281714,
+        "progress": 100,
+        "started_at": 1790249281719,
+        "finished_at": 1790249350217,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32c-288f-71f5-ac79-aec23985f27f/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32c-288f-71f5-ac79-aec23985f27f/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32c-288f-71f5-ac79-aec23985f27f/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32c-288f-71f5-ac79-aec23985f27f/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32c-288f-71f5-ac79-aec23985f27f/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32c-288f-71f5-ac79-aec23985f27f/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "balance_after": 3631,
+      "finished_utc": "2026-09-24T11:29:18.393165+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_archive_model.glb",
+      "bytes": 6938196,
+      "sha256": "b4132f21defc6d6e0c9e7365dadcf9da732a009c4ad6dac3cd63d65921e7740c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 245942,
+      "sha256": "0048cd84d348e3dc4b59e16270c0a98fd2a28c4ff3ffcdd5d9494b1beb2649f0"
+    },
+    "texture_base_color": {
+      "file": "kingdom_archive_base_color.png",
+      "bytes": 5719405,
+      "sha256": "ee8b3fcef41b83f93c3f1cce6a27daea206dfbe51da42ad03293845e934bd561"
+    },
+    "texture_metallic": {
+      "file": "kingdom_archive_metallic.png",
+      "bytes": 20559,
+      "sha256": "e22a6ded56d1a4bcb18eb6580aeb04fa5110f4c202a2fe059a9ef389010bdd75"
+    },
+    "texture_roughness": {
+      "file": "kingdom_archive_roughness.png",
+      "bytes": 1471067,
+      "sha256": "58890cf4c82e989cd1efc2f76ecdd74bf3f9ae191bcf1e1200233a71016d2b0b"
+    },
+    "texture_normal": {
+      "file": "kingdom_archive_normal.png",
+      "bytes": 4132921,
+      "sha256": "56bb0fab455fb23280114f658969d8713eb534a26dad4015958f983d5f80c040"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4506,
+    "triangles": 4506,
+    "fittedMetres": [
+      2.88,
+      2.706,
+      2.385
+    ],
+    "teamMaskCoverage": 0.0071
+  }
+}

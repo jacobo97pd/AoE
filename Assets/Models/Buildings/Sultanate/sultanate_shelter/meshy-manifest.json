@@ -1,0 +1,213 @@
+{
+  "id": "sultanate_shelter",
+  "entry": {
+    "id": "sultanate_shelter",
+    "style": "sultanate",
+    "building": "shelter",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a small desert house. One small, cube-shaped, single-storey whitewashed house with a flat roof and a low parapet, a small square wind-catcher tower on one corner of the roof, a dark wooden horseshoe-arch door with a turquoise cloth awning above it and one small window with a carved wooden screen."
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d9-b639-7739-b210-2c14251b4df1",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 911396977,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small desert house. One small, cube-shaped, single-storey whitewashed house with a flat roof and a low parapet, a small square wind-catcher tower on one corner of the roof, a dark wooden horseshoe-arch door with a turquoise cloth awning above it and one small window with a carved wooden screen. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529092560,
+        "progress": 100,
+        "started_at": 1790529092566,
+        "finished_at": 1790529103687,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d9-b639-7739-b210-2c14251b4df1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d9-b639-7739-b210-2c14251b4df1/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:11:50.061959+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3da-01b8-7473-a44f-bf14619c60a5",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 911396977,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small desert house. One small, cube-shaped, single-storey whitewashed house with a flat roof and a low parapet, a small square wind-catcher tower on one corner of the roof, a dark wooden horseshoe-arch door with a turquoise cloth awning above it and one small window with a carved wooden screen. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529110492,
+        "progress": 100,
+        "started_at": 1790529110500,
+        "finished_at": 1790529168065,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3da-01b8-7473-a44f-bf14619c60a5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3da-01b8-7473-a44f-bf14619c60a5/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3da-01b8-7473-a44f-bf14619c60a5/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3da-01b8-7473-a44f-bf14619c60a5/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3da-01b8-7473-a44f-bf14619c60a5/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3da-01b8-7473-a44f-bf14619c60a5/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:12:50.360088+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_shelter_model.glb",
+      "bytes": 5805396,
+      "sha256": "0c79987745817b7427e9a1aeb0f978999cb1054689d1b49a2d0c5ff654120ce7"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 137506,
+      "sha256": "eb07910b8933e9424f4682d8026045ceb92716d806f8824d2a1a8c067836e89b"
+    },
+    "texture_base_color": {
+      "file": "sultanate_shelter_base_color.png",
+      "bytes": 5717992,
+      "sha256": "0e2f7b5e56e808fa7a6d3061b38cbd78e1bf24af62753ef02c7a6069a4af8a74"
+    },
+    "texture_metallic": {
+      "file": "sultanate_shelter_metallic.png",
+      "bytes": 27304,
+      "sha256": "ac66898457f5a28dc23f338d6574afe89795093a771a6276cdb152de33aafc13"
+    },
+    "texture_roughness": {
+      "file": "sultanate_shelter_roughness.png",
+      "bytes": 1198312,
+      "sha256": "8bc2dde5aab8588276ace882ad777dbee3bd2dcf9a232b976fc7e352ea4504b0"
+    },
+    "texture_normal": {
+      "file": "sultanate_shelter_normal.png",
+      "bytes": 3773700,
+      "sha256": "604431030a5a16b47d7c519192c599966ab4a9899193e577a422df8a792c6da4"
+    }
+  },
+  "credits": 30,
+  "rejected_try1": {
+    "steps": {
+      "preview": {
+        "task": {
+          "id": "01a0e3cc-7ab5-74cf-a214-de04114bf744",
+          "type": "text-to-3d-preview",
+          "mode": "preview",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 3289229394,
+          "prompt": "Low-poly game asset for a top-down strategy game: a small desert house. One small, single-storey, flat-roofed whitewashed house with a low parapet and a short square wind-catcher vent on the roof, a horseshoe-arch door with a turquoise cloth awning over it and one small shuttered window. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+          "texture_prompt": "",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790528227457,
+          "progress": 100,
+          "started_at": 1790528227463,
+          "finished_at": 1790528237656,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cc-7ab5-74cf-a214-de04114bf744/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cc-7ab5-74cf-a214-de04114bf744/output/preview.png",
+          "texture_urls": [],
+          "consumed_credits": 5
+        },
+        "credits": 5,
+        "finished_utc": "2026-09-27T16:57:24.935133+00:00"
+      },
+      "refine": {
+        "task": {
+          "id": "01a0e3cc-ce48-76cc-a5ba-062002d29236",
+          "type": "text-to-3d-refine",
+          "mode": "refine",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 3289229394,
+          "prompt": "Low-poly game asset for a top-down strategy game: a small desert house. One small, single-storey, flat-roofed whitewashed house with a low parapet and a short square wind-catcher vent on the roof, a horseshoe-arch door with a turquoise cloth awning over it and one small shuttered window. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+          "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790528246951,
+          "progress": 100,
+          "started_at": 1790528246958,
+          "finished_at": 1790528299549,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cc-ce48-76cc-a5ba-062002d29236/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cc-ce48-76cc-a5ba-062002d29236/output/preview.png",
+          "texture_urls": [
+            {
+              "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cc-ce48-76cc-a5ba-062002d29236/output/texture_0.png",
+              "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cc-ce48-76cc-a5ba-062002d29236/output/texture_0_metallic.png",
+              "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cc-ce48-76cc-a5ba-062002d29236/output/texture_0_roughness.png",
+              "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cc-ce48-76cc-a5ba-062002d29236/output/texture_0_normal.png"
+            }
+          ],
+          "consumed_credits": 10
+        },
+        "credits": 10,
+        "finished_utc": "2026-09-27T16:58:26.814346+00:00"
+      }
+    },
+    "prompt": "Low-poly game asset for a top-down strategy game: a small desert house. One small, single-storey, flat-roofed whitewashed house with a low parapet and a short square wind-catcher vent on the roof, a horseshoe-arch door with a turquoise cloth awning over it and one small shuttered window.",
+    "finish": {
+      "sourceTriangles": 4731,
+      "triangles": 4731,
+      "fittedMetres": [
+        1.92,
+        1.92,
+        1.624
+      ],
+      "teamMaskCoverage": 0.0053
+    },
+    "why": "a bland pink block on a melted-looking base, no readable door from the play camera"
+  },
+  "finish": {
+    "sourceTriangles": 4829,
+    "triangles": 4829,
+    "fittedMetres": [
+      1.744,
+      1.92,
+      1.245
+    ],
+    "teamMaskCoverage": 0.0156
+  }
+}

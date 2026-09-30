@@ -1,0 +1,995 @@
+{
+    "target": "BoardingRaider",
+    "definitionId": "boarding_raider",
+    "generatedUtc": "2026-09-13T14:46:48.0818957Z",
+    "unity": "6000.3.23f1",
+    "controller": "Assets/Game/PirateCrew/BoardingRaider/Animations/BoardingRaider.controller",
+    "prefab": "Assets/Game/PirateCrew/Resources/ImportedUnits/BoardingRaider.prefab",
+    "model": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+    "material": "Assets/Game/PirateCrew/BoardingRaider/Materials/MeshyRaider.mat",
+    "sourceModelSha256": "45b3d2bc2cd221097d94bf54aeeb8ed1ca854a36912c6237ee5853fa598b2d51",
+    "modelGuidBefore": "867bb1fe8a26b6a4eac8dc753aaefea1",
+    "modelGuidAfter": "867bb1fe8a26b6a4eac8dc753aaefea1",
+    "prefabGuidBefore": "de0cb80a6996847449d119f24abe5754",
+    "prefabGuidAfter": "de0cb80a6996847449d119f24abe5754",
+    "controllerGuidBefore": "0c9d8c5c67c449f4d97096b2ed2832e6",
+    "controllerGuidAfter": "0c9d8c5c67c449f4d97096b2ed2832e6",
+    "passed": true,
+    "applied": true,
+    "rolledBack": false,
+    "protectedAssetsUnchanged": true,
+    "otherMotionsUnchanged": true,
+    "modelGuidPreserved": true,
+    "prefabGuidPreserved": true,
+    "controllerStateIdentitiesPreserved": true,
+    "compatibleGenericAvatar": true,
+    "ownMaterialOnEveryLod": true,
+    "validClipLoopSettings": true,
+    "protectedFiles": 82,
+    "scope": "Only BoardingRaider is replaced with the supplied Meshy biped mesh, Generic rig, six compatible motions and its own PBR atlas. Existing controller state objects, model GUID and prefab GUID are preserved. Other pirates, shared atlases, saved scenes and project render settings are compared by SHA-256. Screenshots are editor renders of CPU-baked poses; native-player and gameplay validation run separately. No claim of retaining the old raider mesh or retargeting raw Run/Death onto that mesh.",
+    "clips": [
+        {
+            "state": "Idle",
+            "sourceFbx": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+            "sourceSha256": "45b3d2bc2cd221097d94bf54aeeb8ed1ca854a36912c6237ee5853fa598b2d51",
+            "persistentClip": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|3029132929047103432",
+            "seconds": 3.0,
+            "frameRate": 24.0,
+            "loop": true,
+            "bindingsResolve": true,
+            "skeletalRotationChanges": true,
+            "deforms": true,
+            "curveBindings": 360,
+            "animatedTransformPaths": 36,
+            "bindingPaths": [
+                "BoardingRaider_Rig",
+                "BoardingRaider_Rig/Root",
+                "BoardingRaider_Rig/Root/Hips",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end/LeftToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end/RightToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End/LeftHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End/RightHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end/head_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront/headfront_end"
+            ],
+            "missingBindings": [],
+            "meshes": [
+                {
+                    "name": "BoardingRaider_LOD0",
+                    "vertices": 18558,
+                    "maxVertexDisplacement": 0.011981960386037827
+                },
+                {
+                    "name": "BoardingRaider_LOD1",
+                    "vertices": 10507,
+                    "maxVertexDisplacement": 0.011980592273175717
+                },
+                {
+                    "name": "BoardingRaider_LOD2",
+                    "vertices": 4866,
+                    "maxVertexDisplacement": 0.011859417892992497
+                }
+            ]
+        },
+        {
+            "state": "Walk",
+            "sourceFbx": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+            "sourceSha256": "45b3d2bc2cd221097d94bf54aeeb8ed1ca854a36912c6237ee5853fa598b2d51",
+            "persistentClip": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|8272447832768148897",
+            "seconds": 1.0,
+            "frameRate": 24.0,
+            "loop": true,
+            "bindingsResolve": true,
+            "skeletalRotationChanges": true,
+            "deforms": true,
+            "curveBindings": 360,
+            "animatedTransformPaths": 36,
+            "bindingPaths": [
+                "BoardingRaider_Rig",
+                "BoardingRaider_Rig/Root",
+                "BoardingRaider_Rig/Root/Hips",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end/LeftToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end/RightToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End/LeftHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End/RightHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end/head_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront/headfront_end"
+            ],
+            "missingBindings": [],
+            "meshes": [
+                {
+                    "name": "BoardingRaider_LOD0",
+                    "vertices": 18558,
+                    "maxVertexDisplacement": 0.645550549030304
+                },
+                {
+                    "name": "BoardingRaider_LOD1",
+                    "vertices": 10507,
+                    "maxVertexDisplacement": 0.645550549030304
+                },
+                {
+                    "name": "BoardingRaider_LOD2",
+                    "vertices": 4866,
+                    "maxVertexDisplacement": 0.5499073266983032
+                }
+            ]
+        },
+        {
+            "state": "Run",
+            "sourceFbx": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+            "sourceSha256": "45b3d2bc2cd221097d94bf54aeeb8ed1ca854a36912c6237ee5853fa598b2d51",
+            "persistentClip": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|1758776896992475061",
+            "seconds": 0.625,
+            "frameRate": 24.0,
+            "loop": true,
+            "bindingsResolve": true,
+            "skeletalRotationChanges": true,
+            "deforms": true,
+            "curveBindings": 360,
+            "animatedTransformPaths": 36,
+            "bindingPaths": [
+                "BoardingRaider_Rig",
+                "BoardingRaider_Rig/Root",
+                "BoardingRaider_Rig/Root/Hips",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end/LeftToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end/RightToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End/LeftHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End/RightHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end/head_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront/headfront_end"
+            ],
+            "missingBindings": [],
+            "meshes": [
+                {
+                    "name": "BoardingRaider_LOD0",
+                    "vertices": 18558,
+                    "maxVertexDisplacement": 1.1800947189331055
+                },
+                {
+                    "name": "BoardingRaider_LOD1",
+                    "vertices": 10507,
+                    "maxVertexDisplacement": 1.1844158172607422
+                },
+                {
+                    "name": "BoardingRaider_LOD2",
+                    "vertices": 4866,
+                    "maxVertexDisplacement": 1.1701617240905762
+                }
+            ]
+        },
+        {
+            "state": "Attack",
+            "sourceFbx": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+            "sourceSha256": "45b3d2bc2cd221097d94bf54aeeb8ed1ca854a36912c6237ee5853fa598b2d51",
+            "persistentClip": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-2240762202042969595",
+            "seconds": 1.0,
+            "frameRate": 24.0,
+            "loop": false,
+            "bindingsResolve": true,
+            "skeletalRotationChanges": true,
+            "deforms": true,
+            "curveBindings": 360,
+            "animatedTransformPaths": 36,
+            "bindingPaths": [
+                "BoardingRaider_Rig",
+                "BoardingRaider_Rig/Root",
+                "BoardingRaider_Rig/Root/Hips",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end/LeftToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end/RightToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End/LeftHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End/RightHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end/head_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront/headfront_end"
+            ],
+            "missingBindings": [],
+            "meshes": [
+                {
+                    "name": "BoardingRaider_LOD0",
+                    "vertices": 18558,
+                    "maxVertexDisplacement": 1.238403558731079
+                },
+                {
+                    "name": "BoardingRaider_LOD1",
+                    "vertices": 10507,
+                    "maxVertexDisplacement": 1.2322999238967896
+                },
+                {
+                    "name": "BoardingRaider_LOD2",
+                    "vertices": 4866,
+                    "maxVertexDisplacement": 1.2317944765090943
+                }
+            ]
+        },
+        {
+            "state": "Hit",
+            "sourceFbx": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+            "sourceSha256": "45b3d2bc2cd221097d94bf54aeeb8ed1ca854a36912c6237ee5853fa598b2d51",
+            "persistentClip": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-7679156195028687606",
+            "seconds": 0.5,
+            "frameRate": 24.0,
+            "loop": false,
+            "bindingsResolve": true,
+            "skeletalRotationChanges": true,
+            "deforms": true,
+            "curveBindings": 360,
+            "animatedTransformPaths": 36,
+            "bindingPaths": [
+                "BoardingRaider_Rig",
+                "BoardingRaider_Rig/Root",
+                "BoardingRaider_Rig/Root/Hips",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end/LeftToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end/RightToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End/LeftHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End/RightHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end/head_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront/headfront_end"
+            ],
+            "missingBindings": [],
+            "meshes": [
+                {
+                    "name": "BoardingRaider_LOD0",
+                    "vertices": 18558,
+                    "maxVertexDisplacement": 0.14615312218666078
+                },
+                {
+                    "name": "BoardingRaider_LOD1",
+                    "vertices": 10507,
+                    "maxVertexDisplacement": 0.1464015692472458
+                },
+                {
+                    "name": "BoardingRaider_LOD2",
+                    "vertices": 4866,
+                    "maxVertexDisplacement": 0.14485611021518708
+                }
+            ]
+        },
+        {
+            "state": "Death",
+            "sourceFbx": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx",
+            "sourceSha256": "45b3d2bc2cd221097d94bf54aeeb8ed1ca854a36912c6237ee5853fa598b2d51",
+            "persistentClip": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-92043691009429032",
+            "seconds": 3.4583334922790529,
+            "frameRate": 24.0,
+            "loop": false,
+            "bindingsResolve": true,
+            "skeletalRotationChanges": true,
+            "deforms": true,
+            "curveBindings": 360,
+            "animatedTransformPaths": 36,
+            "bindingPaths": [
+                "BoardingRaider_Rig",
+                "BoardingRaider_Rig/Root",
+                "BoardingRaider_Rig/Root/Hips",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end",
+                "BoardingRaider_Rig/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToe_end/LeftToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end",
+                "BoardingRaider_Rig/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToe_end/RightToe_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHand_End/LeftHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/RightShoulder/RightArm/RightForeArm/RightHand/RightHand_End/RightHand_End_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/head_end/head_end_end",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront",
+                "BoardingRaider_Rig/Root/Hips/Spine02/Spine01/Spine/neck/Head/headfront/headfront_end"
+            ],
+            "missingBindings": [],
+            "meshes": [
+                {
+                    "name": "BoardingRaider_LOD0",
+                    "vertices": 18558,
+                    "maxVertexDisplacement": 2.9697933197021486
+                },
+                {
+                    "name": "BoardingRaider_LOD1",
+                    "vertices": 10507,
+                    "maxVertexDisplacement": 2.975355386734009
+                },
+                {
+                    "name": "BoardingRaider_LOD2",
+                    "vertices": 4866,
+                    "maxVertexDisplacement": 2.963421106338501
+                }
+            ]
+        }
+    ],
+    "motions": [
+        {
+            "statePath": "Base Layer/Idle",
+            "before": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|3029132929047103432",
+            "after": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|3029132929047103432",
+            "replacement": true,
+            "unchanged": true
+        },
+        {
+            "statePath": "Base Layer/Walk",
+            "before": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|8272447832768148897",
+            "after": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|8272447832768148897",
+            "replacement": true,
+            "unchanged": true
+        },
+        {
+            "statePath": "Base Layer/Run",
+            "before": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|1758776896992475061",
+            "after": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|1758776896992475061",
+            "replacement": true,
+            "unchanged": true
+        },
+        {
+            "statePath": "Base Layer/Attack",
+            "before": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-2240762202042969595",
+            "after": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-2240762202042969595",
+            "replacement": true,
+            "unchanged": true
+        },
+        {
+            "statePath": "Base Layer/Hit",
+            "before": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-7679156195028687606",
+            "after": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-7679156195028687606",
+            "replacement": true,
+            "unchanged": true
+        },
+        {
+            "statePath": "Base Layer/Death",
+            "before": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-92043691009429032",
+            "after": "Assets/Game/PirateCrew/BoardingRaider/Model/BoardingRaider.fbx|867bb1fe8a26b6a4eac8dc753aaefea1|-92043691009429032",
+            "replacement": true,
+            "unchanged": true
+        }
+    ],
+    "screenshots": [
+        "meshy-idle-close.png",
+        "meshy-idle-medium.png",
+        "meshy-idle-rts.png",
+        "meshy-walk-close.png",
+        "meshy-walk-medium.png",
+        "meshy-walk-rts.png",
+        "meshy-run-close.png",
+        "meshy-run-medium.png",
+        "meshy-run-rts.png",
+        "meshy-attack-close.png",
+        "meshy-attack-medium.png",
+        "meshy-attack-rts.png",
+        "meshy-hit-close.png",
+        "meshy-hit-medium.png",
+        "meshy-hit-rts.png",
+        "meshy-death-close.png",
+        "meshy-death-medium.png",
+        "meshy-death-rts.png"
+    ],
+    "changedProtectedFiles": [],
+    "errors": [],
+    "protectedAssets": [
+        {
+            "path": "Assets/Game/CrimsonCorsair/Animations.meta",
+            "beforeSha256": "9b8b1b606b90d2ec148895f0671ab807e3773f7c177e6fc9b2f17d6e0a55f67d",
+            "afterSha256": "9b8b1b606b90d2ec148895f0671ab807e3773f7c177e6fc9b2f17d6e0a55f67d"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Animations/CrimsonCorsair.controller",
+            "beforeSha256": "c873da79f74bc84f976cbd23105cae8d201a80da4c4a6292a13af5f16400c906",
+            "afterSha256": "c873da79f74bc84f976cbd23105cae8d201a80da4c4a6292a13af5f16400c906"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Animations/CrimsonCorsair.controller.meta",
+            "beforeSha256": "abac36fcb25db7354ee251f2df8fcd712b5788ad263adb1ab82b7fb049b94411",
+            "afterSha256": "abac36fcb25db7354ee251f2df8fcd712b5788ad263adb1ab82b7fb049b94411"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Materials.meta",
+            "beforeSha256": "2b7f7faa11ec849cab570ee3ddf2c5278e5f39d3681cfe344d8fcf2620af63fc",
+            "afterSha256": "2b7f7faa11ec849cab570ee3ddf2c5278e5f39d3681cfe344d8fcf2620af63fc"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Materials/CorsairBanner.mat",
+            "beforeSha256": "29a6a01ad55699c7474e06c735aca7135155cf28edb65601d5029132027ba1b7",
+            "afterSha256": "29a6a01ad55699c7474e06c735aca7135155cf28edb65601d5029132027ba1b7"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Materials/CorsairBanner.mat.meta",
+            "beforeSha256": "7d48b8cea03d3a1fbcf7341cfe717f8ab8a2855ec888386be7fc6c718383c54f",
+            "afterSha256": "7d48b8cea03d3a1fbcf7341cfe717f8ab8a2855ec888386be7fc6c718383c54f"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Materials/CrimsonCorsair.mat",
+            "beforeSha256": "2b91e63191b3fb6bcd397b57fbfb6a43a687a69690a7861a76f5be853c0c1ef6",
+            "afterSha256": "2b91e63191b3fb6bcd397b57fbfb6a43a687a69690a7861a76f5be853c0c1ef6"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Materials/CrimsonCorsair.mat.meta",
+            "beforeSha256": "740730fec18c35b6df67a82ad5055c11049001e6ce0b14812f62d8979cda2f85",
+            "afterSha256": "740730fec18c35b6df67a82ad5055c11049001e6ce0b14812f62d8979cda2f85"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Model.meta",
+            "beforeSha256": "7fa50cf4acd18754774e50988eb367ca054281210039c985049875c4b2211f4e",
+            "afterSha256": "7fa50cf4acd18754774e50988eb367ca054281210039c985049875c4b2211f4e"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "beforeSha256": "6ce63c363cea7e4d49adea09a641bee818836e2f0bd67a0fd9b937062539490f",
+            "afterSha256": "6ce63c363cea7e4d49adea09a641bee818836e2f0bd67a0fd9b937062539490f"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx.meta",
+            "beforeSha256": "be0890f6ef4018698e5122512abc61f74b591da3d9efb073215b9a982f4f5eb1",
+            "afterSha256": "be0890f6ef4018698e5122512abc61f74b591da3d9efb073215b9a982f4f5eb1"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/README.md",
+            "beforeSha256": "aafe7c838c609bacb01509319f6f1163d9521299dc2723f6c14dfc2cdd360367",
+            "afterSha256": "aafe7c838c609bacb01509319f6f1163d9521299dc2723f6c14dfc2cdd360367"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/README.md.meta",
+            "beforeSha256": "3b99229f1ff252dbf6ee221d49f38838f9d4e126a1d420aa3ee93be8d2d35d96",
+            "afterSha256": "3b99229f1ff252dbf6ee221d49f38838f9d4e126a1d420aa3ee93be8d2d35d96"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Rendering.meta",
+            "beforeSha256": "9d6027874c917eccf3a07dbb58aa7e27fd69999168ce0c0116344ed485e6aa80",
+            "afterSha256": "9d6027874c917eccf3a07dbb58aa7e27fd69999168ce0c0116344ed485e6aa80"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Rendering/CorsairGrade.asset",
+            "beforeSha256": "e1aa851a94f2617912a4c3c318813c39b47d583d435ac3806c311db672c8a6ed",
+            "afterSha256": "e1aa851a94f2617912a4c3c318813c39b47d583d435ac3806c311db672c8a6ed"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Rendering/CorsairGrade.asset.meta",
+            "beforeSha256": "5a921a12a13b747e826faab6fe8de3b38c966e8fb951c976e946ad7349f67dd8",
+            "afterSha256": "5a921a12a13b747e826faab6fe8de3b38c966e8fb951c976e946ad7349f67dd8"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Rendering/CorsairPipeline.asset",
+            "beforeSha256": "947dad7638ca07a1a7cec3ae6494e462c20afc26696d8af2720ec79f651e1ac4",
+            "afterSha256": "947dad7638ca07a1a7cec3ae6494e462c20afc26696d8af2720ec79f651e1ac4"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Rendering/CorsairPipeline.asset.meta",
+            "beforeSha256": "bf7b22fe5b8ca7d1e49a1d1bb8710c7727b2af897101723a28de14fadd9bcfce",
+            "afterSha256": "bf7b22fe5b8ca7d1e49a1d1bb8710c7727b2af897101723a28de14fadd9bcfce"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Rendering/CorsairRenderer.asset",
+            "beforeSha256": "448c4540d8d88b85069fd9b120b878984d717f66df1764ed5cf82ecdff090d66",
+            "afterSha256": "448c4540d8d88b85069fd9b120b878984d717f66df1764ed5cf82ecdff090d66"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Rendering/CorsairRenderer.asset.meta",
+            "beforeSha256": "2ea417f9b2a880f6b89ad323b7773d36c490881f2a0c577032fa1830748903d2",
+            "afterSha256": "2ea417f9b2a880f6b89ad323b7773d36c490881f2a0c577032fa1830748903d2"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Resources.meta",
+            "beforeSha256": "58403601766cefc97f223aed79702b82b70964a1f73bacee9f91a1e5ab46309d",
+            "afterSha256": "58403601766cefc97f223aed79702b82b70964a1f73bacee9f91a1e5ab46309d"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Resources/ImportedUnits.meta",
+            "beforeSha256": "03bf073dc080c28bf13252a1330d08dda9597a2e2bfc73bf32cf4c6836fc4771",
+            "afterSha256": "03bf073dc080c28bf13252a1330d08dda9597a2e2bfc73bf32cf4c6836fc4771"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Resources/ImportedUnits/CrimsonCorsair.prefab",
+            "beforeSha256": "26618fa039ed2d136ef4d8b66f0d78976603e9db680da45d0a3b1c40636aec74",
+            "afterSha256": "26618fa039ed2d136ef4d8b66f0d78976603e9db680da45d0a3b1c40636aec74"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Resources/ImportedUnits/CrimsonCorsair.prefab.meta",
+            "beforeSha256": "340f352b01bc83639aa91aa3f7ad205b0d02ba1f86540256420ecd56a5b83f63",
+            "afterSha256": "340f352b01bc83639aa91aa3f7ad205b0d02ba1f86540256420ecd56a5b83f63"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures.meta",
+            "beforeSha256": "8dd1a61bebebb45716558a22dbda7f84f693454d3c5e3e09e7c0a36401450732",
+            "afterSha256": "8dd1a61bebebb45716558a22dbda7f84f693454d3c5e3e09e7c0a36401450732"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/BaseColor.png",
+            "beforeSha256": "dde2543baf1912d0a10f9a57bd8a611b2babb54ff89a5b40d2aef4f6758a1353",
+            "afterSha256": "dde2543baf1912d0a10f9a57bd8a611b2babb54ff89a5b40d2aef4f6758a1353"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/BaseColor.png.meta",
+            "beforeSha256": "bb5776a512b9de9e15ef6b716dc4cf76c1272adb332799589679282bb9485640",
+            "afterSha256": "bb5776a512b9de9e15ef6b716dc4cf76c1272adb332799589679282bb9485640"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/Metallic.png",
+            "beforeSha256": "b5e3de13a6b73d30968e2dba5be9f869129f16df35d48a1fb2c1d614f66f18dc",
+            "afterSha256": "b5e3de13a6b73d30968e2dba5be9f869129f16df35d48a1fb2c1d614f66f18dc"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/Metallic.png.meta",
+            "beforeSha256": "d2087a0acf3022a9298ecb95f205cbba5288a63a8f23e981c033cd7fbac4e926",
+            "afterSha256": "d2087a0acf3022a9298ecb95f205cbba5288a63a8f23e981c033cd7fbac4e926"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/MetallicSmoothness.png",
+            "beforeSha256": "dfd7f7c0a471fbeba65c706f7d5fd9ffdad63f2aaa4f63c8d04d9944f2e571ad",
+            "afterSha256": "dfd7f7c0a471fbeba65c706f7d5fd9ffdad63f2aaa4f63c8d04d9944f2e571ad"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/MetallicSmoothness.png.meta",
+            "beforeSha256": "28dc715d447dc45c3e7541cb99bd17415697cc5cd68eee2b01d19d737da9ab81",
+            "afterSha256": "28dc715d447dc45c3e7541cb99bd17415697cc5cd68eee2b01d19d737da9ab81"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/Normal.png",
+            "beforeSha256": "128fab8100951bb29dd50b9e3215340c4519ac7fc5eb0f45d7f4a93526c079d1",
+            "afterSha256": "128fab8100951bb29dd50b9e3215340c4519ac7fc5eb0f45d7f4a93526c079d1"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/Normal.png.meta",
+            "beforeSha256": "596eb59fda330ec05eacb0b8281773b9ffe3e9f84fa2db5cb42554b2e562f5fa",
+            "afterSha256": "596eb59fda330ec05eacb0b8281773b9ffe3e9f84fa2db5cb42554b2e562f5fa"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/Roughness.png",
+            "beforeSha256": "428acd2f48e9794c897448c46c73c211f14b895fe1f7b16d92b271e58c3f2765",
+            "afterSha256": "428acd2f48e9794c897448c46c73c211f14b895fe1f7b16d92b271e58c3f2765"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/Textures/Roughness.png.meta",
+            "beforeSha256": "d1577bcb16bc87690b0c641279a2a58d3d9fe4d8e1b2992db896bd6af5466fd2",
+            "afterSha256": "d1577bcb16bc87690b0c641279a2a58d3d9fe4d8e1b2992db896bd6af5466fd2"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/model-manifest.json",
+            "beforeSha256": "610981f2cabd0f998bdfdf18d7fd6dc428e0f32f33c4139812b6f13649eeb5ca",
+            "afterSha256": "610981f2cabd0f998bdfdf18d7fd6dc428e0f32f33c4139812b6f13649eeb5ca"
+        },
+        {
+            "path": "Assets/Game/CrimsonCorsair/model-manifest.json.meta",
+            "beforeSha256": "7564db6fbd3797d53caf5d918b0c5d0efa06d32ed0c16fd08af1872b2b3a5fd0",
+            "afterSha256": "7564db6fbd3797d53caf5d918b0c5d0efa06d32ed0c16fd08af1872b2b3a5fd0"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/BoardingRaider.meta",
+            "beforeSha256": "d8cc0f635eccc522d340dc9b2039d0f731fc4a945c1865d386ac4e1deb637090",
+            "afterSha256": "d8cc0f635eccc522d340dc9b2039d0f731fc4a945c1865d386ac4e1deb637090"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair.meta",
+            "beforeSha256": "79048492533981cdab168a3a417ea56455339e4d0856dd8856ce9d5d526e9271",
+            "afterSha256": "79048492533981cdab168a3a417ea56455339e4d0856dd8856ce9d5d526e9271"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair/Animations.meta",
+            "beforeSha256": "ec2e252ed9bd68d50d74a9be1800ee3850d31544c8eb4576fad3b642c550c01c",
+            "afterSha256": "ec2e252ed9bd68d50d74a9be1800ee3850d31544c8eb4576fad3b642c550c01c"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair/Animations/GunpowderCorsair.controller",
+            "beforeSha256": "036be63921ef215dd19a90e88635b3428f1c97219258028f98d02bb5f64c1b71",
+            "afterSha256": "036be63921ef215dd19a90e88635b3428f1c97219258028f98d02bb5f64c1b71"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair/Animations/GunpowderCorsair.controller.meta",
+            "beforeSha256": "144eb08ae53cc70293dd9415555f2b5ea8595663ca7a4939217e5531f017ed8f",
+            "afterSha256": "144eb08ae53cc70293dd9415555f2b5ea8595663ca7a4939217e5531f017ed8f"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair/Model.meta",
+            "beforeSha256": "5733b4e5c55ccc060dd30550aabb63e380f2913cd9bc252042b6b6aac8a69b38",
+            "afterSha256": "5733b4e5c55ccc060dd30550aabb63e380f2913cd9bc252042b6b6aac8a69b38"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair/Model/GunpowderCorsair.fbx",
+            "beforeSha256": "59c7649f4de8a1107bf13bed242e16a5aed6a2c79d810da7d2968f928c59ce15",
+            "afterSha256": "59c7649f4de8a1107bf13bed242e16a5aed6a2c79d810da7d2968f928c59ce15"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair/Model/GunpowderCorsair.fbx.meta",
+            "beforeSha256": "35c54b4c450f98e1573f39c268b06d4b459cdf11c0784043d237a5bf962d2455",
+            "afterSha256": "35c54b4c450f98e1573f39c268b06d4b459cdf11c0784043d237a5bf962d2455"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair/model-manifest.json",
+            "beforeSha256": "b6a1c6cfa6064b4e4c941917c75a47083829bf8679ae4243d52a11cb7d0a7c5d",
+            "afterSha256": "b6a1c6cfa6064b4e4c941917c75a47083829bf8679ae4243d52a11cb7d0a7c5d"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/GunpowderCorsair/model-manifest.json.meta",
+            "beforeSha256": "daac7e8e8b30ebebdbef0d2ce5f2a116aea56cc81c79ab8a625cb0e55e469eac",
+            "afterSha256": "daac7e8e8b30ebebdbef0d2ce5f2a116aea56cc81c79ab8a625cb0e55e469eac"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Materials.meta",
+            "beforeSha256": "845210ffb902262a30f8e5ee298fb8245e27d306ad281c4b2240e67e8859c509",
+            "afterSha256": "845210ffb902262a30f8e5ee298fb8245e27d306ad281c4b2240e67e8859c509"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Materials/PirateCrew.mat",
+            "beforeSha256": "8810391f4f4084677b327de37d3620f0884e92df11ebadbd00e4649ca4146bd1",
+            "afterSha256": "8810391f4f4084677b327de37d3620f0884e92df11ebadbd00e4649ca4146bd1"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Materials/PirateCrew.mat.meta",
+            "beforeSha256": "6d9e3532ec33665a6680b65aa3f5a8c665219afbf1e2b69ade0eb3ef2531af30",
+            "afterSha256": "6d9e3532ec33665a6680b65aa3f5a8c665219afbf1e2b69ade0eb3ef2531af30"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/README.md",
+            "beforeSha256": "0c39a12849115f08e92513a0b2d3ff59f2649001c8f1ef91c7ea933d6d70586b",
+            "afterSha256": "0c39a12849115f08e92513a0b2d3ff59f2649001c8f1ef91c7ea933d6d70586b"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/README.md.meta",
+            "beforeSha256": "fb1bbc354983ee394a87709a1a6eb76c7160c1f4730214a7108a2076d2984cd0",
+            "afterSha256": "fb1bbc354983ee394a87709a1a6eb76c7160c1f4730214a7108a2076d2984cd0"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Resources.meta",
+            "beforeSha256": "cd8e84d8c264978657bac286767e806c9bcb17f9a55f93ea64b5c9d7f6fae53b",
+            "afterSha256": "cd8e84d8c264978657bac286767e806c9bcb17f9a55f93ea64b5c9d7f6fae53b"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Resources/ImportedUnits.meta",
+            "beforeSha256": "466aa45152725344c94c97043f0b07ac587eb78035c6f19443c5a46d7376d385",
+            "afterSha256": "466aa45152725344c94c97043f0b07ac587eb78035c6f19443c5a46d7376d385"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Resources/ImportedUnits/GunpowderCorsair.prefab",
+            "beforeSha256": "0eeb7c08413f130f93f4c5643cdbcffe1346f754e56b31a25a59d0b46c11c03b",
+            "afterSha256": "0eeb7c08413f130f93f4c5643cdbcffe1346f754e56b31a25a59d0b46c11c03b"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Resources/ImportedUnits/GunpowderCorsair.prefab.meta",
+            "beforeSha256": "2fc36fbfc9f313b466a21cd74e0336e21cf99f2f779a98264812941a5adb644e",
+            "afterSha256": "2fc36fbfc9f313b466a21cd74e0336e21cf99f2f779a98264812941a5adb644e"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Resources/ImportedUnits/TreasureSeeker.prefab",
+            "beforeSha256": "d99c08e12f4ab2d3febe8d1429e6b69687c489c30c1858a2909b8b93158f4fa9",
+            "afterSha256": "d99c08e12f4ab2d3febe8d1429e6b69687c489c30c1858a2909b8b93158f4fa9"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Resources/ImportedUnits/TreasureSeeker.prefab.meta",
+            "beforeSha256": "787dd45f7dc3503e6b5537b254e076a673996a98a2f73d34366f33dc255e806b",
+            "afterSha256": "787dd45f7dc3503e6b5537b254e076a673996a98a2f73d34366f33dc255e806b"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures.meta",
+            "beforeSha256": "914da148de1ae427e0abcc44d7686d9955011fcf2c81de5e3821662c0b4e4913",
+            "afterSha256": "914da148de1ae427e0abcc44d7686d9955011fcf2c81de5e3821662c0b4e4913"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/BaseColor.png",
+            "beforeSha256": "8084ed774f695bef278bfde397c304408a259595c41eec8cc0dfeacafc309031",
+            "afterSha256": "8084ed774f695bef278bfde397c304408a259595c41eec8cc0dfeacafc309031"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/BaseColor.png.meta",
+            "beforeSha256": "f55b6e9b86aebb28c2318f8ac7cd5bc62742f02775b043a4d1aae3464b8c1a3e",
+            "afterSha256": "f55b6e9b86aebb28c2318f8ac7cd5bc62742f02775b043a4d1aae3464b8c1a3e"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/Metallic.png",
+            "beforeSha256": "a86a7496a1afce80dd36f44dd6986d95d2da238de230a9f4dd2b7855a57bff83",
+            "afterSha256": "a86a7496a1afce80dd36f44dd6986d95d2da238de230a9f4dd2b7855a57bff83"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/Metallic.png.meta",
+            "beforeSha256": "d1215b2bc7bd2b4b89c12e46b7cb426bcfa1b61c54a87fbcd85877c6faef7a2c",
+            "afterSha256": "d1215b2bc7bd2b4b89c12e46b7cb426bcfa1b61c54a87fbcd85877c6faef7a2c"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/MetallicSmoothness.png",
+            "beforeSha256": "57bf48bedc403475df0d80061030f0db74248ecbe2aafd7b18357d24680aa4bc",
+            "afterSha256": "57bf48bedc403475df0d80061030f0db74248ecbe2aafd7b18357d24680aa4bc"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/MetallicSmoothness.png.meta",
+            "beforeSha256": "7eea3d4be876570c6201c2fcff1f1ae5bc6adfb0beb77fe9242db25cd7ea67a3",
+            "afterSha256": "7eea3d4be876570c6201c2fcff1f1ae5bc6adfb0beb77fe9242db25cd7ea67a3"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/Normal.png",
+            "beforeSha256": "2b9e5089a0649c479256d5126c6fb38918a5c21841fa1413fbf63f7aaeb6f68f",
+            "afterSha256": "2b9e5089a0649c479256d5126c6fb38918a5c21841fa1413fbf63f7aaeb6f68f"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/Normal.png.meta",
+            "beforeSha256": "4fe3fe1b00be65bb2511f4a5ac8e1836ba36338c703b702c20576521905bf400",
+            "afterSha256": "4fe3fe1b00be65bb2511f4a5ac8e1836ba36338c703b702c20576521905bf400"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/Roughness.png",
+            "beforeSha256": "ba84d33d1553cf448ab0cb15896af2256093a3d23175112b68d21c55ae8871b1",
+            "afterSha256": "ba84d33d1553cf448ab0cb15896af2256093a3d23175112b68d21c55ae8871b1"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/Textures/Roughness.png.meta",
+            "beforeSha256": "6a4c36299e5f385bcdea28bb263b75dd45c1c8dff434aa827d7b634651bed7e9",
+            "afterSha256": "6a4c36299e5f385bcdea28bb263b75dd45c1c8dff434aa827d7b634651bed7e9"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker.meta",
+            "beforeSha256": "7c00d4836d727e2a633f39967f488a20bc5125c1a3c154f518ff22e9daf8ed4a",
+            "afterSha256": "7c00d4836d727e2a633f39967f488a20bc5125c1a3c154f518ff22e9daf8ed4a"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker/Animations.meta",
+            "beforeSha256": "589aba1dbdcb80bb45b5b227b0420fdf4fd0cd53d4aa89caa7dd7382f3c04b12",
+            "afterSha256": "589aba1dbdcb80bb45b5b227b0420fdf4fd0cd53d4aa89caa7dd7382f3c04b12"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker/Animations/TreasureSeeker.controller",
+            "beforeSha256": "5fcbcc992440b76b384446cf54f0f51441e307ca4db61817d56ccecc9b8e5292",
+            "afterSha256": "5fcbcc992440b76b384446cf54f0f51441e307ca4db61817d56ccecc9b8e5292"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker/Animations/TreasureSeeker.controller.meta",
+            "beforeSha256": "f873596d30cc33bd03f4f16046db5241c0486d351b524dce8beb6568a1f2ac50",
+            "afterSha256": "f873596d30cc33bd03f4f16046db5241c0486d351b524dce8beb6568a1f2ac50"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker/Model.meta",
+            "beforeSha256": "e0ffd880181b377131f606cbaa1f413079e375caeaa148a01a3906bc50b3a6e5",
+            "afterSha256": "e0ffd880181b377131f606cbaa1f413079e375caeaa148a01a3906bc50b3a6e5"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker/Model/TreasureSeeker.fbx",
+            "beforeSha256": "5709a99ab4be1121dee71bc04387c2303aad63c483ab8e21fbe9cc7560a8eacc",
+            "afterSha256": "5709a99ab4be1121dee71bc04387c2303aad63c483ab8e21fbe9cc7560a8eacc"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker/Model/TreasureSeeker.fbx.meta",
+            "beforeSha256": "86ba8dfbe8ba9619f581b04d97dd320533a502967afc66f9951d5b80ce469b2b",
+            "afterSha256": "86ba8dfbe8ba9619f581b04d97dd320533a502967afc66f9951d5b80ce469b2b"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker/model-manifest.json",
+            "beforeSha256": "1321628efb9acee1afded8ee8d17e6fc09f87df3aeab15f9f5f829ca3aaf0520",
+            "afterSha256": "1321628efb9acee1afded8ee8d17e6fc09f87df3aeab15f9f5f829ca3aaf0520"
+        },
+        {
+            "path": "Assets/Game/PirateCrew/TreasureSeeker/model-manifest.json.meta",
+            "beforeSha256": "6470ebea31949999b058d9af7d4221f71efcd2cba9638aeb3fe74e4de7b52bdc",
+            "afterSha256": "6470ebea31949999b058d9af7d4221f71efcd2cba9638aeb3fe74e4de7b52bdc"
+        },
+        {
+            "path": "Assets/Game/Scenes/CrimsonCorsair.unity",
+            "beforeSha256": "1aae8651773baf47d1bba0cf2369b72ece21869c51ee0d0c30b5e785e674e0fc",
+            "afterSha256": "1aae8651773baf47d1bba0cf2369b72ece21869c51ee0d0c30b5e785e674e0fc"
+        },
+        {
+            "path": "Assets/Game/Scenes/PirateCrew.unity",
+            "beforeSha256": "297492baf76b363a0d48b797e3e8353eeb8b8e62d1c6846031abee34c57c1a68",
+            "afterSha256": "297492baf76b363a0d48b797e3e8353eeb8b8e62d1c6846031abee34c57c1a68"
+        },
+        {
+            "path": "ProjectSettings/GraphicsSettings.asset",
+            "beforeSha256": "7fa8cab526fb3fd13db8594db44aa2fa445bcf8ec138c3b05039e5ea600fa333",
+            "afterSha256": "7fa8cab526fb3fd13db8594db44aa2fa445bcf8ec138c3b05039e5ea600fa333"
+        },
+        {
+            "path": "ProjectSettings/QualitySettings.asset",
+            "beforeSha256": "cd9a6a3786a06d4d47aee5c60ef2b0af6b4822fabe70efe6fc9f8606c12ed6ef",
+            "afterSha256": "cd9a6a3786a06d4d47aee5c60ef2b0af6b4822fabe70efe6fc9f8606c12ed6ef"
+        }
+    ],
+    "renderers": [
+        {
+            "name": "BoardingRaider_LOD0",
+            "vertices": 18558,
+            "triangles": 10291,
+            "bones": 35,
+            "localScale": {
+                "x": 99.99998474121094,
+                "y": 99.99998474121094,
+                "z": 99.99998474121094
+            },
+            "worldScale": {
+                "x": 99.99998474121094,
+                "y": 99.99996948242188,
+                "z": 99.99996948242188
+            },
+            "boundsSize": {
+                "x": 1.563415288925171,
+                "y": 2.5493533611297609,
+                "z": 1.7859746217727662
+            }
+        },
+        {
+            "name": "BoardingRaider_LOD1",
+            "vertices": 10507,
+            "triangles": 5000,
+            "bones": 35,
+            "localScale": {
+                "x": 99.99998474121094,
+                "y": 99.99998474121094,
+                "z": 99.99998474121094
+            },
+            "worldScale": {
+                "x": 99.99998474121094,
+                "y": 99.99996948242188,
+                "z": 99.99996948242188
+            },
+            "boundsSize": {
+                "x": 1.5579102039337159,
+                "y": 2.546314239501953,
+                "z": 1.7802637815475464
+            }
+        },
+        {
+            "name": "BoardingRaider_LOD2",
+            "vertices": 4866,
+            "triangles": 1999,
+            "bones": 35,
+            "localScale": {
+                "x": 99.99998474121094,
+                "y": 99.99998474121094,
+                "z": 99.99998474121094
+            },
+            "worldScale": {
+                "x": 99.99998474121094,
+                "y": 99.99996948242188,
+                "z": 99.99996948242188
+            },
+            "boundsSize": {
+                "x": 1.3226860761642457,
+                "y": 2.5294620990753176,
+                "z": 1.4655721187591553
+            }
+        }
+    ]
+}

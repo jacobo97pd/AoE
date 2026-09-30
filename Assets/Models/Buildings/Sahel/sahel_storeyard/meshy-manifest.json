@@ -1,0 +1,134 @@
+{
+  "id": "sahel_storeyard",
+  "entry": {
+    "id": "sahel_storeyard",
+    "style": "sahel",
+    "building": "storeyard",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a grain store. Two round mud-brick granaries on flat stones, each with a pointed conical thatch lid, beside a low open shelter of poles and straw mats piled with woven baskets, grain sacks and clay pots, one indigo cloth hanging at the front."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d0-d056-77f1-8101-ed6d20dd2459",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2074805915,
+        "prompt": "Low-poly game asset for a top-down strategy game: a grain store. Two round mud-brick granaries on flat stones, each with a pointed conical thatch lid, beside a low open shelter of poles and straw mats piled with woven baskets, grain sacks and clay pots, one indigo cloth hanging at the front. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528510018,
+        "progress": 100,
+        "started_at": 1790528510025,
+        "finished_at": 1790528521413,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-d056-77f1-8101-ed6d20dd2459/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d0-d056-77f1-8101-ed6d20dd2459/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:02:07.503110+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d1-1e12-722d-83ae-a19262e2d4f4",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2074805915,
+        "prompt": "Low-poly game asset for a top-down strategy game: a grain store. Two round mud-brick granaries on flat stones, each with a pointed conical thatch lid, beside a low open shelter of poles and straw mats piled with woven baskets, grain sacks and clay pots, one indigo cloth hanging at the front. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528527925,
+        "progress": 100,
+        "started_at": 1790528527931,
+        "finished_at": 1790528574771,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-1e12-722d-83ae-a19262e2d4f4/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-1e12-722d-83ae-a19262e2d4f4/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-1e12-722d-83ae-a19262e2d4f4/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-1e12-722d-83ae-a19262e2d4f4/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-1e12-722d-83ae-a19262e2d4f4/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-1e12-722d-83ae-a19262e2d4f4/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:02:59.296975+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_storeyard_model.glb",
+      "bytes": 5220568,
+      "sha256": "dfecf2e647b7bf675bea8cd23e460893b1fd8ad39855b2ec053368c2e4965ab1"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 106011,
+      "sha256": "8aae4b421bc378762a8f656279831401daec7e078a2e379389e12924521e6e40"
+    },
+    "texture_base_color": {
+      "file": "sahel_storeyard_base_color.png",
+      "bytes": 4298259,
+      "sha256": "f46f70eeb249680bd7224d869e2bf48fe78185d77f53a03524f7871e855916dc"
+    },
+    "texture_metallic": {
+      "file": "sahel_storeyard_metallic.png",
+      "bytes": 34177,
+      "sha256": "07099ea58cf8cdca8351b11f8747d07f5c52bd93ee22971f5f71664939414ed9"
+    },
+    "texture_roughness": {
+      "file": "sahel_storeyard_roughness.png",
+      "bytes": 1119148,
+      "sha256": "9bcfe588e7259a47e708ca243621074a4e6b334ff42b43a9f3262e18d727f16a"
+    },
+    "texture_normal": {
+      "file": "sahel_storeyard_normal.png",
+      "bytes": 3210742,
+      "sha256": "4e02f6657c61a26447e98cf2d6bf286b9235260e0bd2df6bb610e4db6f953654"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4668,
+    "triangles": 4668,
+    "fittedMetres": [
+      1.92,
+      1.92,
+      0.893
+    ],
+    "teamMaskCoverage": 0.0148
+  }
+}

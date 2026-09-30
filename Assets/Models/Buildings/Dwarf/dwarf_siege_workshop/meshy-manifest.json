@@ -1,0 +1,137 @@
+{
+  "id": "dwarf_siege_workshop",
+  "entry": {
+    "id": "dwarf_siege_workshop",
+    "style": "dwarf",
+    "building": "siege_workshop",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a dwarf engineering workshop. A square stone workshop, one side open under a thick stone lintel, big bronze gears and a crane arm over the opening, a forge glowing inside and a crimson banner."
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        345,
+        360
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d442-74f9-729d-9232-df9aaec20661",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2092903844,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf engineering workshop. A square stone workshop, one side open under a thick stone lintel, big bronze gears and a crane arm over the opening, a forge glowing inside and a crimson banner. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267522354,
+        "progress": 100,
+        "started_at": 1790267522361,
+        "finished_at": 1790267531686,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-74f9-729d-9232-df9aaec20661/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-74f9-729d-9232-df9aaec20661/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:32:19.846522+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d442-c336-74a2-8cdb-e8493395dec2",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2092903844,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf engineering workshop. A square stone workshop, one side open under a thick stone lintel, big bronze gears and a crane arm over the opening, a forge glowing inside and a crimson banner. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267540321,
+        "progress": 100,
+        "started_at": 1790267540330,
+        "finished_at": 1790267603374,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-c336-74a2-8cdb-e8493395dec2/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-c336-74a2-8cdb-e8493395dec2/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-c336-74a2-8cdb-e8493395dec2/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-c336-74a2-8cdb-e8493395dec2/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-c336-74a2-8cdb-e8493395dec2/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-c336-74a2-8cdb-e8493395dec2/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:33:28.692383+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_siege_workshop_model.glb",
+      "bytes": 5251092,
+      "sha256": "c513fc2cf516c1d06ab7684a03fbf644aece6ce3343b1771fdae7c39b4dfaf44"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 166303,
+      "sha256": "829d41df6e9b03b8842be6cd240869f6624db7485b86257ef3ddb05f39120bbd"
+    },
+    "texture_base_color": {
+      "file": "dwarf_siege_workshop_base_color.png",
+      "bytes": 3832085,
+      "sha256": "2ba02d7cd53f5e32f4313bf1d9e3d96bd5c251a9dd57722fb4c884dde774d597"
+    },
+    "texture_metallic": {
+      "file": "dwarf_siege_workshop_metallic.png",
+      "bytes": 925535,
+      "sha256": "7808611d59ed6eed370d4114c7b0f5313e5fef52da978032f5da65a0cf8e03ca"
+    },
+    "texture_roughness": {
+      "file": "dwarf_siege_workshop_roughness.png",
+      "bytes": 1295050,
+      "sha256": "36cd227300f67a732bc23a3a3a1bf05c0d30b5c25a75481a7ea32fd9079dd8d5"
+    },
+    "texture_normal": {
+      "file": "dwarf_siege_workshop_normal.png",
+      "bytes": 2764172,
+      "sha256": "5d529d0c6baf9876d1515f1ae2ce9ed275d699ff0d1acbafd7cf59b27fe80b09"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4793,
+    "triangles": 4793,
+    "fittedMetres": [
+      2.88,
+      2.846,
+      1.997
+    ],
+    "teamMaskCoverage": 0.0188
+  }
+}

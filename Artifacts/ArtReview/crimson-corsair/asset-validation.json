@@ -1,0 +1,92 @@
+{
+    "generatedUtc": "2026-09-11T19:13:09.3494399Z",
+    "unity": "6000.3.23f1",
+    "scene": "Assets/Game/Scenes/CrimsonCorsair.unity",
+    "prefab": "Assets/Game/CrimsonCorsair/Resources/ImportedUnits/CrimsonCorsair.prefab",
+    "passed": true,
+    "lods": 3,
+    "meshes": [
+        {
+            "name": "Corsair_LOD0",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "vertices": 99054,
+            "triangles": 140000,
+            "bones": 27,
+            "uv": true,
+            "normals": true,
+            "weights": true
+        },
+        {
+            "name": "Corsair_LOD1",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "vertices": 39045,
+            "triangles": 45000,
+            "bones": 27,
+            "uv": true,
+            "normals": true,
+            "weights": true
+        },
+        {
+            "name": "Corsair_LOD2",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "vertices": 14898,
+            "triangles": 12000,
+            "bones": 27,
+            "uv": true,
+            "normals": true,
+            "weights": true
+        }
+    ],
+    "clips": [
+        {
+            "name": "Corsair_Idle",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "seconds": 3.000000238418579,
+            "sampleDisplacement": 0.039861854165792468,
+            "loop": true,
+            "motion": true
+        },
+        {
+            "name": "Corsair_Walk",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "seconds": 1.0666667222976685,
+            "sampleDisplacement": 0.48774901032447817,
+            "loop": true,
+            "motion": true
+        },
+        {
+            "name": "Corsair_Run",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "seconds": 0.6666666865348816,
+            "sampleDisplacement": 0.5998860001564026,
+            "loop": true,
+            "motion": true
+        },
+        {
+            "name": "Corsair_Attack",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "seconds": 0.9000000357627869,
+            "sampleDisplacement": 1.0539308786392213,
+            "loop": false,
+            "motion": true
+        },
+        {
+            "name": "Corsair_Hit",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "seconds": 0.5,
+            "sampleDisplacement": 0.3459533751010895,
+            "loop": false,
+            "motion": true
+        },
+        {
+            "name": "Corsair_Death",
+            "path": "Assets/Game/CrimsonCorsair/Model/CrimsonCorsair.fbx",
+            "seconds": 1.6000001430511475,
+            "sampleDisplacement": 1.14468252658844,
+            "loop": false,
+            "motion": true
+        }
+    ],
+    "errors": [],
+    "scope": "Real imported skinned geometry, persistent URP material, six animation clips and three LOD levels. This checks asset wiring and sampled vertex deformation, not artistic acceptance or army frame rate."
+}

@@ -1,0 +1,130 @@
+{
+  "id": "caribbean_ruins",
+  "entry": {
+    "id": "caribbean_ruins",
+    "role": "landmark",
+    "kind": "ruins",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 2.5,
+    "footprint": 3.0,
+    "size": 1024,
+    "biome": "caribbean",
+    "priority": 4,
+    "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: sun-bleached coral limestone blocks (#D9D0B8) with grey mortar (#9A9482) and cool shadows (#8A8C84). A few green algae streaks at the foot (#5E8A55). No text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d437-4c79-7670-a9a8-38e062776672",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 18768572,
+        "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266789047,
+        "progress": 100,
+        "started_at": 1790266789057,
+        "finished_at": 1790266802121,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c79-7670-a9a8-38e062776672/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c79-7670-a9a8-38e062776672/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:20:06.565705+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d437-93e6-725b-aec6-3d6190b203a8",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 18768572,
+        "prompt": "Ruined chapel corner: two broken stone walls meeting at a right angle, one with an empty arched window, jagged tops, a few fallen blocks fused at the foot, low and wide. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 3 m wide and 2.5 m tall. Isolated, no ground, no plants growing, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: sun-bleached coral limestone blocks (#D9D0B8) with grey mortar (#9A9482) and cool shadows (#8A8C84). A few green algae streaks at the foot (#5E8A55). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266810393,
+        "progress": 100,
+        "started_at": 1790266810402,
+        "finished_at": 1790266861471,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-93e6-725b-aec6-3d6190b203a8/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-93e6-725b-aec6-3d6190b203a8/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-93e6-725b-aec6-3d6190b203a8/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-93e6-725b-aec6-3d6190b203a8/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-93e6-725b-aec6-3d6190b203a8/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-93e6-725b-aec6-3d6190b203a8/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:21:01.783090+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 118832,
+      "sha256": "ca2ddffb0d73a002811a69e19655aa24c2ddeb2867ef1f5ab9eb4de0dffc3b75"
+    },
+    "model_glb": {
+      "file": "caribbean_ruins_model.glb",
+      "bytes": 5302728,
+      "sha256": "c606b0093b6eb6564e8997e81bc62f9bf46e619fee3f2de56eb27fb577ecde68"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 167872,
+      "sha256": "5c01e2dfe151962dc63b8a8e92df1152ce9cec547acd57ef6f3f86dd06693e2e"
+    },
+    "texture_base_color": {
+      "file": "caribbean_ruins_base_color.png",
+      "bytes": 4149348,
+      "sha256": "b3cf69b5a8d1e23d71bb748a5f59c1f0d092ab4900b01c31fef64a74939e032a"
+    },
+    "texture_metallic": {
+      "file": "caribbean_ruins_metallic.png",
+      "bytes": 23407,
+      "sha256": "62ca3fd5b90ba33496db40897d4db9e4b7a88c3db9b88341f9c2501f2871dedb"
+    },
+    "texture_roughness": {
+      "file": "caribbean_ruins_roughness.png",
+      "bytes": 1318374,
+      "sha256": "10ac13321cb21d5e545185194cc881334a01404ed16d4d7f52fd874ec522c17d"
+    },
+    "texture_normal": {
+      "file": "caribbean_ruins_normal.png",
+      "bytes": 3491202,
+      "sha256": "69c62d3de4492147734d6f60085dbdc79eb80fed1e25171730cf991606557f9f"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3870,
+    "lod0": 3500,
+    "lod1": 800,
+    "fittedMetres": [
+      3.0,
+      2.051,
+      2.367
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

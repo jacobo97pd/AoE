@@ -1,0 +1,202 @@
+{
+  "scope": "One static posed Kingdom infantry soldier. No rig or gameplay integration.",
+  "coordinates": "Blender metres, Z up, front -Y. Inspect Unity root orientation after import.",
+  "meshes": [
+    {
+      "name": "Soldier_RS_IvoryCloth",
+      "triangles": 88568,
+      "vertices": 44298,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_IvoryCloth"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Hair",
+      "triangles": 76572,
+      "vertices": 47296,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Hair"
+      ]
+    },
+    {
+      "name": "Soldier_RS_ThreadGold",
+      "triangles": 39924,
+      "vertices": 20098,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_ThreadGold"
+      ]
+    },
+    {
+      "name": "Soldier_RS_ThreadIvory",
+      "triangles": 28548,
+      "vertices": 28872,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_ThreadIvory"
+      ]
+    },
+    {
+      "name": "Soldier_RS_BlueCloth",
+      "triangles": 145536,
+      "vertices": 72820,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_BlueCloth"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Leather",
+      "triangles": 90756,
+      "vertices": 45938,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Leather"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Pupil",
+      "triangles": 2048,
+      "vertices": 1122,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Pupil"
+      ]
+    },
+    {
+      "name": "Soldier_RS_HairDetail",
+      "triangles": 1620,
+      "vertices": 1080,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_HairDetail"
+      ]
+    },
+    {
+      "name": "Soldier_RS_LeatherLight",
+      "triangles": 26276,
+      "vertices": 13599,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_LeatherLight"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Sole",
+      "triangles": 46368,
+      "vertices": 23188,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Sole"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Iris",
+      "triangles": 3200,
+      "vertices": 1722,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Iris"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Skin",
+      "triangles": 30046,
+      "vertices": 15096,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Skin"
+      ]
+    },
+    {
+      "name": "Soldier_RS_EyeIvory",
+      "triangles": 3840,
+      "vertices": 2050,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_EyeIvory"
+      ]
+    },
+    {
+      "name": "Soldier_RS_SteelDark",
+      "triangles": 82096,
+      "vertices": 41662,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_SteelDark"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Gold",
+      "triangles": 46016,
+      "vertices": 23354,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Gold"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Steel",
+      "triangles": 104004,
+      "vertices": 52098,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Steel"
+      ]
+    },
+    {
+      "name": "Soldier_RS_ShieldBlue",
+      "triangles": 7392,
+      "vertices": 3698,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_ShieldBlue"
+      ]
+    },
+    {
+      "name": "Soldier_RS_Wood",
+      "triangles": 7392,
+      "vertices": 3698,
+      "uv": true,
+      "vertexColors": true,
+      "materials": [
+        "RS_Wood"
+      ]
+    }
+  ],
+  "triangles": 830202,
+  "boundsMin": [
+    -0.535502552986145,
+    -0.49409613013267517,
+    0.006399999372661114
+  ],
+  "boundsMax": [
+    0.6307318210601807,
+    0.41333916783332825,
+    2.055997133255005
+  ],
+  "sources": [
+    "body.blend",
+    "armor.blend"
+  ],
+  "fbxSha256": "168acbfa48c38dbb82e813fafdd89aef9a403010e7f92da2233148cfa571d514"
+}

@@ -1,0 +1,67 @@
+{
+  "source": "Meshy user-supplied Crimson Corsair ZIP",
+  "sourceSha256": "ed4163d7e2fde97f7142391ac537a15ff560c4b4b8564371715c87fa78cf642c",
+  "rig": "27-bone fitted generic skeleton, weighted posed source, no facial rig",
+  "heightMetres": 2.5,
+  "forward": "Blender -Y; FBX export -Z forward/Y up; Unity +Z front verified in the review scene",
+  "lods": [
+    {
+      "name": "Corsair_LOD0",
+      "vertices": 69764,
+      "triangles": 140000,
+      "weightedVertices": 69764,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Corsair_LOD1",
+      "vertices": 22264,
+      "triangles": 45000,
+      "weightedVertices": 22264,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Corsair_LOD2",
+      "vertices": 5764,
+      "triangles": 12000,
+      "weightedVertices": 5764,
+      "maxInfluences": 4
+    }
+  ],
+  "animations": [
+    {
+      "name": "Corsair_Idle",
+      "seconds": 3.0,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Walk",
+      "seconds": 1.0666666666666667,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Run",
+      "seconds": 0.6666666666666666,
+      "loop": true
+    },
+    {
+      "name": "Corsair_Hit",
+      "seconds": 0.5,
+      "loop": false
+    },
+    {
+      "name": "Corsair_Death",
+      "seconds": 1.6,
+      "loop": false
+    },
+    {
+      "name": "Corsair_Attack",
+      "seconds": 0.9,
+      "loop": false
+    }
+  ],
+  "locomotion": {
+    "walkMetresPerSecond": 1.391,
+    "runMetresPerSecond": 3.1
+  },
+  "fbxSha256": "6ce63c363cea7e4d49adea09a641bee818836e2f0bd67a0fd9b937062539490f"
+}

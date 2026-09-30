@@ -1,0 +1,8 @@
+{
+  "name": "Emberfield.Tests.Editor",
+  "rootNamespace": "Emberfield.Tests.Editor",
+  "references": ["Emberfield.Editor", "Emberfield.Simulation", "Emberfield.Networking", "Emberfield.Presentation"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

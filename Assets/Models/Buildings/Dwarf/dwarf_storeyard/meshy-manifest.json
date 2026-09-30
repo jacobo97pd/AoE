@@ -1,0 +1,137 @@
+{
+  "id": "dwarf_storeyard",
+  "entry": {
+    "id": "dwarf_storeyard",
+    "style": "dwarf",
+    "building": "storeyard",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a dwarf storehouse. A small square stone storehouse with an iron-banded open front, stacked crates, ore carts on a short rail and iron ingots, a crimson cloth awning over the opening."
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        345,
+        360
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43a-324f-7757-9d12-835de14c561b",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 267514562,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf storehouse. A small square stone storehouse with an iron-banded open front, stacked crates, ore carts on a short rail and iron ingots, a crimson cloth awning over the opening. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266981596,
+        "progress": 100,
+        "started_at": 1790266981603,
+        "finished_at": 1790266996051,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-324f-7757-9d12-835de14c561b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-324f-7757-9d12-835de14c561b/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:23:19.071183+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43a-82cd-76ad-a0f0-c92b3235c522",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 267514562,
+        "prompt": "Low-poly game asset for a top-down strategy game: a dwarf storehouse. A small square stone storehouse with an iron-banded open front, stacked crates, ore carts on a short rail and iron ingots, a crimson cloth awning over the opening. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266999544,
+        "progress": 100,
+        "started_at": 1790266999551,
+        "finished_at": 1790267080347,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-82cd-76ad-a0f0-c92b3235c522/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-82cd-76ad-a0f0-c92b3235c522/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-82cd-76ad-a0f0-c92b3235c522/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-82cd-76ad-a0f0-c92b3235c522/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-82cd-76ad-a0f0-c92b3235c522/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43a-82cd-76ad-a0f0-c92b3235c522/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:24:44.812052+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_storeyard_model.glb",
+      "bytes": 4914308,
+      "sha256": "2db80a18ca848185a58a844769291682d0c000fde12d8bb82a8d5ee950b78749"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 207227,
+      "sha256": "f2a2736d56d5f25ebc7681cc4a83817cb81fc05c4c4d1f438dead1397ca56552"
+    },
+    "texture_base_color": {
+      "file": "dwarf_storeyard_base_color.png",
+      "bytes": 4162123,
+      "sha256": "a27eae09bcd0e48249679d6934f32db3f7d4f9ad023578615dd923d3740b8fe0"
+    },
+    "texture_metallic": {
+      "file": "dwarf_storeyard_metallic.png",
+      "bytes": 127126,
+      "sha256": "39eaaef1eee53fd5d7798cae6a3bd0a854795d46a6c4e9e72c333f9bd76574ad"
+    },
+    "texture_roughness": {
+      "file": "dwarf_storeyard_roughness.png",
+      "bytes": 1350138,
+      "sha256": "c2f94344e3f11c5f097c9f710c86bbc2c21aecbd0d3d0e476565e0bff43d580e"
+    },
+    "texture_normal": {
+      "file": "dwarf_storeyard_normal.png",
+      "bytes": 2564132,
+      "sha256": "3e0df2bfdf777778439687a6a471575296bfe3ad22334ff3de043e5c3c8f4721"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4854,
+    "triangles": 4854,
+    "fittedMetres": [
+      1.92,
+      1.92,
+      1.369
+    ],
+    "teamMaskCoverage": 0.0147
+  }
+}

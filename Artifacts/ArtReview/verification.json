@@ -1,0 +1,63 @@
+{
+  "scope": "ArtStyleLab two-unit candidate, pending human checkpoint 2. No visual-parity or mobile performance certification.",
+  "assetsPassed": true,
+  "nunit": {
+    "passed": 7,
+    "total": 7,
+    "failed": 0,
+    "completedUtc": "2026-09-10 17:02:00Z"
+  },
+  "build": "Result: Succeeded\nErrors: 0\nWarnings: 0\nBytes: 175019103\nDuration: 00:00:30.8613038\nScene: Assets/Game/Scenes/ArtStyleLab.unity\n",
+  "players": [
+    {
+      "buildGuid": "f2bfb4e2c82d49bfacf4520a196bd3d6",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "passed": true,
+      "animations": 6,
+      "teams": 4,
+      "controls": 12,
+      "screenshots": 7
+    },
+    {
+      "buildGuid": "f2bfb4e2c82d49bfacf4520a196bd3d6",
+      "resolution": [
+        1280,
+        720
+      ],
+      "passed": true,
+      "animations": 6,
+      "teams": 4,
+      "controls": 12,
+      "screenshots": 7
+    },
+    {
+      "buildGuid": "f2bfb4e2c82d49bfacf4520a196bd3d6",
+      "resolution": [
+        1440,
+        1080
+      ],
+      "passed": true,
+      "animations": 6,
+      "teams": 4,
+      "controls": 12,
+      "screenshots": 7
+    }
+  ],
+  "browser": {
+    "passed": true,
+    "checks": 26,
+    "images": 19,
+    "viewports": [
+      1440,
+      1024,
+      390
+    ],
+    "report": "art-review-browser.json"
+  },
+  "mainAlphaRebuilt": false,
+  "physicalDevicesTested": false,
+  "productionApproved": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Emberfield.Tests.EditMode",
+  "rootNamespace": "Emberfield.Tests.EditMode",
+  "references": ["Emberfield.Simulation", "Emberfield.Voice", "Emberfield.Localization", "Emberfield.Quality"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

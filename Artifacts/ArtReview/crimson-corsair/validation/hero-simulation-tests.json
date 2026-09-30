@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "tests": 13,
+  "failures": 0,
+  "runtime": "8.0.29",
+  "results": [
+    {
+      "name": "HeroReservationSpansAllOwnedBuildingsAndRejectsWithoutCharging()",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "ADeadHeroCanBeRecruitedAgainUsingNormalResources()",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FantasyCannotRecruitOrSpawnHistoricalHero()",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "AuthoredDuplicateHeroesAreRejectedButOnePerOwnerIsValid()",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "AiChoosesAvailableInfantryInsteadOfAnIneligibleHero(True,False)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "AiChoosesAvailableInfantryInsteadOfAnIneligibleHero(False,True)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "AiChoosesAvailableInfantryInsteadOfAnIneligibleHero(False,False)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "InvalidRealmOrLimitFailsDefinitionValidation(unknown,1)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "InvalidRealmOrLimitFailsDefinitionValidation(historical,-1)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "InvalidRealmOrLimitFailsDefinitionValidation(historical,1025)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "ForgedReplicaCannotBypassRealmOrLivingHeroLimit(False)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "ForgedReplicaCannotBypassRealmOrLivingHeroLimit(True)",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "ForgedReplicaCannotReserveTheSameHeroAtTwoBuildings()",
+      "passed": true,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "desert_obelisk",
+  "entry": {
+    "id": "desert_obelisk",
+    "role": "landmark",
+    "kind": "obelisk",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 5.3,
+    "footprint": 2.4,
+    "size": 1024,
+    "biome": "desert",
+    "priority": 3,
+    "prompt": "Tall slender sandstone obelisk: a square tapering shaft with a small pyramid tip, standing on a two-step square plinth. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky blocks, hard edges, flat faces. About 2.4 m wide at the base and 5.3 m tall. Isolated, no ground, no sand, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Shaft and plinth: warm pale sandstone (#DDB679) with rust shadows (#9C6B3F). Pyramid tip: dull gold (#C9A04A). Faint carved bands only, no readable glyphs, no text or logos.",
+    "polycount": 2000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d41a-4380-73ba-847f-9bc65b9c63af",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1317621412,
+        "prompt": "Tall slender sandstone obelisk: a square tapering shaft with a small pyramid tip, standing on a two-step square plinth. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky blocks, hard edges, flat faces. About 2.4 m wide at the base and 5.3 m tall. Isolated, no ground, no sand, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264887957,
+        "progress": 100,
+        "started_at": 1790264887965,
+        "finished_at": 1790264897692,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-4380-73ba-847f-9bc65b9c63af/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-4380-73ba-847f-9bc65b9c63af/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:48:25.453495+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d41a-9199-752a-b3a5-6c1f01f46d0b",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1317621412,
+        "prompt": "Tall slender sandstone obelisk: a square tapering shaft with a small pyramid tip, standing on a two-step square plinth. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky blocks, hard edges, flat faces. About 2.4 m wide at the base and 5.3 m tall. Isolated, no ground, no sand, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Shaft and plinth: warm pale sandstone (#DDB679) with rust shadows (#9C6B3F). Pyramid tip: dull gold (#C9A04A). Faint carved bands only, no readable glyphs, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264908055,
+        "progress": 100,
+        "started_at": 1790264908064,
+        "finished_at": 1790264942986,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-9199-752a-b3a5-6c1f01f46d0b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-9199-752a-b3a5-6c1f01f46d0b/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-9199-752a-b3a5-6c1f01f46d0b/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-9199-752a-b3a5-6c1f01f46d0b/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-9199-752a-b3a5-6c1f01f46d0b/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d41a-9199-752a-b3a5-6c1f01f46d0b/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:49:10.997813+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 33983,
+      "sha256": "0de13f876f02577410b887f90bda790fb034bee171a5c862df87afc6c51df631"
+    },
+    "model_glb": {
+      "file": "desert_obelisk_model.glb",
+      "bytes": 4785384,
+      "sha256": "577c6451cfacd31e6a14edde07d461fde0fa96b722a3e1ecab5cebeea153e292"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 42702,
+      "sha256": "64baa81291310413a398ea2a593a1335af35ab7ada1f16ab6e356a53acf6eab9"
+    },
+    "texture_base_color": {
+      "file": "desert_obelisk_base_color.png",
+      "bytes": 4636435,
+      "sha256": "1e4c715d4c5437717afe7dae6b94df4ac0fe047bdbe9e56d47e7e8507b192bab"
+    },
+    "texture_metallic": {
+      "file": "desert_obelisk_metallic.png",
+      "bytes": 19452,
+      "sha256": "f499484aaeadfa639161bc863c38227bfe1e1117587c093095fc87f3126f8a92"
+    },
+    "texture_roughness": {
+      "file": "desert_obelisk_roughness.png",
+      "bytes": 980771,
+      "sha256": "80cd107db014ff7c9fee1c93262441153463d799e123410f650acc09c7106d88"
+    },
+    "texture_normal": {
+      "file": "desert_obelisk_normal.png",
+      "bytes": 3468335,
+      "sha256": "8ba53cd6dcce5d54a5507bd2df9b1d29c16a038646f57a4f68ce50289ce538e9"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 2032,
+    "lod0": 2032,
+    "lod1": 799,
+    "fittedMetres": [
+      1.837,
+      1.817,
+      5.3
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

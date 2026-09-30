@@ -1,0 +1,621 @@
+{
+    "status": "completed",
+    "buildGuid": "95d270a8742e424d8d88e35c3fd0e12d",
+    "unity": "6000.3.23f1",
+    "generatedUtc": "2026-09-10T18:51:31.1243425Z",
+    "biome": "fantasy",
+    "scene": "ArtOverhaul_Fantasy",
+    "graphicsDevice": "NVIDIA GeForce RTX 3060 Ti",
+    "note": "Native Windows art-scene inspection. Screenshots submit the running URP camera into a RenderTexture with live skinning; HUD is camera-space only for its own capture. On-screen counts test transformed LOD0 mesh bounds/frustum and center. HUD captures additionally project unit centers and all eight bounds corners into the measured free screen area between panels; this tests panel overlap, not environment occlusion. Animation checks sample 30 live frames per state with culling temporarily AlwaysAnimate. Render counters sample three regular frames after two drain frames following explicit screenshot requests; HUD visibility is recorded per view. This is not calibrated frame timing, mobile FPS, physical-device testing or visual-parity evidence.",
+    "width": 1920,
+    "height": 1080,
+    "visibleControls": 18,
+    "teamChecks": 12,
+    "passed": true,
+    "controlsFit": true,
+    "controlsBlockWorldInput": true,
+    "units": [
+        {
+            "kind": "Elf",
+            "label": "Elfo",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0036478042602539064,
+                    "boneRotationDegrees": 0.6013317704200745,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0018405914306640626,
+                    "boneRotationDegrees": 1.6522839069366456,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0001418590545654297,
+                    "boneRotationDegrees": 0.44411271810531618,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Dwarf",
+            "label": "Enano",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00008755922317504883,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0005089640617370606,
+                    "boneRotationDegrees": 0.47642219066619875,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0001436471939086914,
+                    "boneRotationDegrees": 0.4493687152862549,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Dragon",
+            "label": "Dragón",
+            "bones": 24,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00008380413055419922,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0005156993865966797,
+                    "boneRotationDegrees": 0.45110705494880679,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00014841556549072266,
+                    "boneRotationDegrees": 0.3538774251937866,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Hero",
+            "label": "Héroe",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00008428096771240234,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0005166530609130859,
+                    "boneRotationDegrees": 0.4813254773616791,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0001405477523803711,
+                    "boneRotationDegrees": 0.438793808221817,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        }
+    ],
+    "views": [
+        {
+            "view": "close",
+            "image": "fantasy-close.png",
+            "countOnScreen": 3,
+            "fullyInFrame": 2,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 2.0999999046325685,
+            "cameraPosition": {
+                "x": -5.040478706359863,
+                "y": 5.526279449462891,
+                "z": -16.016447067260743
+            },
+            "cameraEuler": {
+                "x": 22.000001907348634,
+                "y": 20.000001907348634,
+                "z": 0.0
+            },
+            "unitsOnScreen": [
+                "Elf",
+                "Dwarf",
+                "Dragon"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "medium",
+            "image": "fantasy-medium.png",
+            "countOnScreen": 4,
+            "fullyInFrame": 4,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 10.0,
+            "cameraPosition": {
+                "x": -24.759199142456056,
+                "y": 66.78516387939453,
+                "z": -39.34770202636719
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Elf",
+                "Dwarf",
+                "Dragon",
+                "Hero"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "rts",
+            "image": "fantasy-rts.png",
+            "countOnScreen": 4,
+            "fullyInFrame": 4,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 22.62149429321289,
+            "cameraPosition": {
+                "x": -16.9039249420166,
+                "y": 70.14390563964844,
+                "z": -28.75519561767578
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Elf",
+                "Dwarf",
+                "Dragon",
+                "Hero"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "action",
+            "image": "fantasy-action.png",
+            "countOnScreen": 3,
+            "fullyInFrame": 2,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 2.0999999046325685,
+            "cameraPosition": {
+                "x": -5.040478706359863,
+                "y": 5.526279449462891,
+                "z": -16.016447067260743
+            },
+            "cameraEuler": {
+                "x": 22.000001907348634,
+                "y": 20.000001907348634,
+                "z": 0.0
+            },
+            "unitsOnScreen": [
+                "Elf",
+                "Dwarf",
+                "Dragon"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "controls",
+            "image": "fantasy-controls.png",
+            "countOnScreen": 4,
+            "fullyInFrame": 4,
+            "hasPixels": true,
+            "hudVisible": true,
+            "orthographicSize": 32.644596099853519,
+            "cameraPosition": {
+                "x": -17.909412384033204,
+                "y": 68.91643524169922,
+                "z": -30.191181182861329
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Elf",
+                "Dwarf",
+                "Dragon",
+                "Hero"
+            ],
+            "hudFramingApplied": true,
+            "hudPanelMeasurementValid": true,
+            "selectedCenterInFreeArea": true,
+            "selectedBoundsInFreeArea": true,
+            "centersInFreeArea": 4,
+            "boundsInFreeArea": 4,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 8.0,
+                "y": 201.20001220703126,
+                "width": 1904.0,
+                "height": 748.3999633789063
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 957.5999755859375,
+                "width": 1920.0,
+                "height": 122.4000244140625
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1920.0,
+                "height": 193.20001220703126
+            },
+            "unitsInFreeArea": [
+                "Elf",
+                "Dwarf",
+                "Dragon",
+                "Hero"
+            ],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        }
+    ],
+    "screenshots": [
+        "fantasy-close.png",
+        "fantasy-medium.png",
+        "fantasy-rts.png",
+        "fantasy-action.png",
+        "fantasy-controls.png"
+    ],
+    "problems": [],
+    "metricsDrawCalls": {
+        "name": "Draw Calls Count",
+        "unit": "Count",
+        "reason": "Unavailable: all observed render samples were zero.",
+        "available": false,
+        "samples": 3,
+        "mean": -1.0,
+        "minimum": -1,
+        "maximum": -1
+    },
+    "metricsTriangles": {
+        "name": "Triangles Count",
+        "unit": "Count",
+        "reason": "Unavailable: all observed render samples were zero.",
+        "available": false,
+        "samples": 3,
+        "mean": -1.0,
+        "minimum": -1,
+        "maximum": -1
+    }
+}

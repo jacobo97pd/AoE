@@ -1,0 +1,22 @@
+{
+  "meshObjects": 109,
+  "triangles": 21832,
+  "materials": [
+    "ENV_CourtyardCobble",
+    "ENV_CutLimestone",
+    "ENV_ForgedIron",
+    "RS_BlueCloth"
+  ],
+  "units": 0,
+  "footprintMeters": [
+    4.5,
+    4.0
+  ],
+  "soldierOrigin": [
+    0,
+    0,
+    0
+  ],
+  "coordinateConvention": "Blender Z up/front -Y; FBX Z forward/Y up; inspect Unity imported root yaw",
+  "reusedSource": "Assets/Game/KingdomPremium/Environment/material-manifest.json"
+}

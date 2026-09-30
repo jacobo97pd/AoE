@@ -1,0 +1,130 @@
+{
+  "id": "volcanic_food_node",
+  "entry": {
+    "id": "volcanic_food_node",
+    "role": "resource",
+    "kind": "Food",
+    "lod0": 1200,
+    "lod1": 300,
+    "height": 1.1,
+    "footprint": 1.6,
+    "size": 512,
+    "biome": "volcanic",
+    "priority": 6,
+    "polycount": 1500,
+    "prompt": "Cluster of giant ash-cap mushrooms: five fat mushrooms of different heights fused together at their feet into one low clump, thick stems and broad flat round caps, the tallest in the middle, wider than tall overall. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, hard edges, flat faces. About 1.6 m wide and 1.1 m tall. Isolated, no ground, no basket, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Caps: pale ash-cream (#E4D6B6) with lighter sunlit tops (#F0E6CE) and big dusky violet-brown spots (#6E4A5A), the brightest colour on the model and clearly visible from above against dark ash ground. Cap undersides and gills: muted mauve-grey (#8A7480). Stems: pale bone cream (#D2C4A8). Where the stems meet: dark ash grey (#4E4642). Dull and matte: no orange, no red, no glow, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d765-015c-7300-8f20-29d400a95176",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2655989620,
+        "prompt": "Cluster of giant ash-cap mushrooms: five fat mushrooms of different heights fused together at their feet into one low clump, thick stems and broad flat round caps, the tallest in the middle, wider than tall overall. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, hard edges, flat faces. About 1.6 m wide and 1.1 m tall. Isolated, no ground, no basket, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320117546,
+        "progress": 100,
+        "started_at": 1790320117550,
+        "finished_at": 1790320126074,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-015c-7300-8f20-29d400a95176/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-015c-7300-8f20-29d400a95176/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:08:46.593799+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d765-709f-71fb-810d-63fa464d0af2",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2655989620,
+        "prompt": "Cluster of giant ash-cap mushrooms: five fat mushrooms of different heights fused together at their feet into one low clump, thick stems and broad flat round caps, the tallest in the middle, wider than tall overall. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, hard edges, flat faces. About 1.6 m wide and 1.1 m tall. Isolated, no ground, no basket, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Caps: pale ash-cream (#E4D6B6) with lighter sunlit tops (#F0E6CE) and big dusky violet-brown spots (#6E4A5A), the brightest colour on the model and clearly visible from above against dark ash ground. Cap undersides and gills: muted mauve-grey (#8A7480). Stems: pale bone cream (#D2C4A8). Where the stems meet: dark ash grey (#4E4642). Dull and matte: no orange, no red, no glow, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320146331,
+        "progress": 100,
+        "started_at": 1790320146337,
+        "finished_at": 1790320190534,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-709f-71fb-810d-63fa464d0af2/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-709f-71fb-810d-63fa464d0af2/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-709f-71fb-810d-63fa464d0af2/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-709f-71fb-810d-63fa464d0af2/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-709f-71fb-810d-63fa464d0af2/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-709f-71fb-810d-63fa464d0af2/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:09:57.734516+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 105624,
+      "sha256": "f1462176cdbb84d882beea6532bae6e97699620d868f62d9a4abd8311154e66a"
+    },
+    "model_glb": {
+      "file": "volcanic_food_node_model.glb",
+      "bytes": 5735736,
+      "sha256": "4dbb5775a4fec4eb1905af9f00cb1ebcb55dfa1f48cf170452a39e9a26ff50cb"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 121798,
+      "sha256": "cc47f98bd58a282f4dcf5ce7098226f2b9503d5fc03a0f7ad63ec1e37abb4afe"
+    },
+    "texture_base_color": {
+      "file": "volcanic_food_node_base_color.png",
+      "bytes": 5390922,
+      "sha256": "69299e196b0b0fa719c1685723adaeca20cffe6747a4db5d1cc583843404eb0c"
+    },
+    "texture_metallic": {
+      "file": "volcanic_food_node_metallic.png",
+      "bytes": 24340,
+      "sha256": "b5417a329646a62e2c27160dc1533e5a2b62ce6e1eab854c075fb8bbbaf30ddd"
+    },
+    "texture_roughness": {
+      "file": "volcanic_food_node_roughness.png",
+      "bytes": 1208246,
+      "sha256": "3b4b9a936775881b122609c290d34963615723f348249991239cc5c0c15f94f5"
+    },
+    "texture_normal": {
+      "file": "volcanic_food_node_normal.png",
+      "bytes": 3962202,
+      "sha256": "b3a363e722e232f5c1c97e2091cc3502c7c6b306ddb158153b7bc424be0f896a"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1607,
+    "lod0": 1199,
+    "lod1": 299,
+    "fittedMetres": [
+      1.595,
+      1.424,
+      1.1
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

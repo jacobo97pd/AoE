@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-10 17:01:59Z" end-time="2026-09-10 17:02:00Z" duration="0,3102595">
+  <test-suite type="TestSuite" id="1000" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="467" result="Passed" start-time="2026-09-10 17:01:59Z" end-time="2026-09-10 17:02:00Z" duration="0.310260" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1011" name="Emberfield.Tests.ArtStyleLab.dll" fullname="C:/Users/jacob/Documents/AoE/Library/ScriptAssemblies/Emberfield.Tests.ArtStyleLab.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-10 17:01:59Z" end-time="2026-09-10 17:02:00Z" duration="0.286889" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="29336" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1012" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-10 17:01:59Z" end-time="2026-09-10 17:02:00Z" duration="0.285669" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1013" name="Tests" fullname="Emberfield.Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-10 17:01:59Z" end-time="2026-09-10 17:02:00Z" duration="0.285202" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1014" name="ArtStyleLab" fullname="Emberfield.Tests.ArtStyleLab" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-10 17:01:59Z" end-time="2026-09-10 17:02:00Z" duration="0.284529" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="ArtStyleLabAssetTests" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-10 17:01:59Z" end-time="2026-09-10 17:02:00Z" duration="0.283170" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1002" name="CandidateAssetsMeetMeasuredIntegrityChecks" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.CandidateAssetsMeetMeasuredIntegrityChecks" methodname="CandidateAssetsMeetMeasuredIntegrityChecks" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" seed="543384074" result="Passed" start-time="2026-09-10 17:01:59Z" end-time="2026-09-10 17:02:00Z" duration="0.180588" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1005" name="RestPoseBakesToAuthoredMeshAndClipsDeformWeightedVertices" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.RestPoseBakesToAuthoredMeshAndClipsDeformWeightedVertices" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-10 17:02:00Z" end-time="2026-09-10 17:02:00Z" duration="0.068441" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1003" name="RestPoseBakesToAuthoredMeshAndClipsDeformWeightedVertices(&quot;Assets/Game/ArtStyleLab/Prefabs/KingdomWorker.prefab&quot;)" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.RestPoseBakesToAuthoredMeshAndClipsDeformWeightedVertices(&quot;Assets/Game/ArtStyleLab/Prefabs/KingdomWorker.prefab&quot;)" methodname="RestPoseBakesToAuthoredMeshAndClipsDeformWeightedVertices" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" seed="789778361" result="Passed" start-time="2026-09-10 17:02:00Z" end-time="2026-09-10 17:02:00Z" duration="0.057180" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1004" name="RestPoseBakesToAuthoredMeshAndClipsDeformWeightedVertices(&quot;Assets/Game/ArtStyleLab/Prefabs/KingdomWarrior.prefab&quot;)" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.RestPoseBakesToAuthoredMeshAndClipsDeformWeightedVertices(&quot;Assets/Game/ArtStyleLab/Prefabs/KingdomWarrior.prefab&quot;)" methodname="RestPoseBakesToAuthoredMeshAndClipsDeformWeightedVertices" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" seed="965101845" result="Passed" start-time="2026-09-10 17:02:00Z" end-time="2026-09-10 17:02:00Z" duration="0.008827" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1008" name="TeamAndCosmeticChangesKeepSharedMaterialMeshAndUnitIdentity" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.TeamAndCosmeticChangesKeepSharedMaterialMeshAndUnitIdentity" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-10 17:02:00Z" end-time="2026-09-10 17:02:00Z" duration="0.006927" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1006" name="TeamAndCosmeticChangesKeepSharedMaterialMeshAndUnitIdentity(&quot;Assets/Game/ArtStyleLab/Prefabs/KingdomWorker.prefab&quot;)" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.TeamAndCosmeticChangesKeepSharedMaterialMeshAndUnitIdentity(&quot;Assets/Game/ArtStyleLab/Prefabs/KingdomWorker.prefab&quot;)" methodname="TeamAndCosmeticChangesKeepSharedMaterialMeshAndUnitIdentity" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" seed="1367629230" result="Passed" start-time="2026-09-10 17:02:00Z" end-time="2026-09-10 17:02:00Z" duration="0.004481" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1007" name="TeamAndCosmeticChangesKeepSharedMaterialMeshAndUnitIdentity(&quot;Assets/Game/ArtStyleLab/Prefabs/KingdomWarrior.prefab&quot;)" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.TeamAndCosmeticChangesKeepSharedMaterialMeshAndUnitIdentity(&quot;Assets/Game/ArtStyleLab/Prefabs/KingdomWarrior.prefab&quot;)" methodname="TeamAndCosmeticChangesKeepSharedMaterialMeshAndUnitIdentity" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" seed="1067024444" result="Passed" start-time="2026-09-10 17:02:00Z" end-time="2026-09-10 17:02:00Z" duration="0.000702" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1009" name="ValidatorRejectsMissingLodMeshAndUnnormalizedWeights" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.ValidatorRejectsMissingLodMeshAndUnnormalizedWeights" methodname="ValidatorRejectsMissingLodMeshAndUnnormalizedWeights" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" seed="772464327" result="Passed" start-time="2026-09-10 17:02:00Z" end-time="2026-09-10 17:02:00Z" duration="0.013052" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="VisualDefinitionsContainNoCombatOrEconomyData" fullname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests.VisualDefinitionsContainNoCombatOrEconomyData" methodname="VisualDefinitionsContainNoCombatOrEconomyData" classname="Emberfield.Tests.ArtStyleLab.ArtStyleLabAssetTests" runstate="Runnable" seed="1983619521" result="Passed" start-time="2026-09-10 17:02:00Z" end-time="2026-09-10 17:02:00Z" duration="0.000850" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/jacob/AppData/LocalLow/Emberfield Project/Emberfield\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

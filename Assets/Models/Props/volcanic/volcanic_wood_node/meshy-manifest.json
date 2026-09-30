@@ -1,0 +1,141 @@
+{
+  "id": "volcanic_wood_node",
+  "entry": {
+    "id": "volcanic_wood_node",
+    "role": "resource",
+    "kind": "Wood",
+    "lod0": 1500,
+    "lod1": 350,
+    "height": 3.8,
+    "footprint": 2.2,
+    "size": 512,
+    "biome": "volcanic",
+    "priority": 6,
+    "polycount": 2000,
+    "prompt": "Great dead ironwood tree: one massive straight trunk that meets the ground cleanly, four thick crooked bare limbs spreading high like a crown, broken stubby ends, open space under the limbs, no leaves. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid chunky closed volumes, thick limbs only, no twigs, no roots, hard edges, flat faces. About 3.8 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Bark: charred dark grey-brown (#4A3E36) split open in long patches that show pale tan heartwood (#B89272) and pale straw-coloured wood (#D4BC94), so the tree reads as good timber, lighter and warmer than the black dead trees around it. The bare wood is dull and matte, never orange and never glowing. No leaves, no flames, no embers, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d763-9e0a-736a-a63c-de63327dc5f2",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1095105482,
+        "prompt": "Great dead ironwood tree: one massive straight trunk that meets the ground cleanly, four thick crooked bare limbs spreading high like a crown, broken stubby ends, open space under the limbs, no leaves. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid chunky closed volumes, thick limbs only, no twigs, no roots, hard edges, flat faces. About 3.8 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320026789,
+        "progress": 100,
+        "started_at": 1790320026794,
+        "finished_at": 1790320034319,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d763-9e0a-736a-a63c-de63327dc5f2/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d763-9e0a-736a-a63c-de63327dc5f2/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:07:15.842028+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d764-26dd-703a-b046-87141aa1c5df",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1095105482,
+        "prompt": "Great dead ironwood tree: one massive straight trunk that meets the ground cleanly, four thick crooked bare limbs spreading high like a crown, broken stubby ends, open space under the limbs, no leaves. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid chunky closed volumes, thick limbs only, no twigs, no roots, hard edges, flat faces. About 3.8 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Bark: charred dark grey-brown (#4A3E36) split open in long patches that show pale tan heartwood (#B89272) and pale straw-coloured wood (#D4BC94), so the tree reads as good timber, lighter and warmer than the black dead trees around it. The bare wood is dull and matte, never orange and never glowing. No leaves, no flames, no embers, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320061707,
+        "progress": 100,
+        "started_at": 1790320061712,
+        "finished_at": 1790320100628,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-26dd-703a-b046-87141aa1c5df/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-26dd-703a-b046-87141aa1c5df/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-26dd-703a-b046-87141aa1c5df/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-26dd-703a-b046-87141aa1c5df/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-26dd-703a-b046-87141aa1c5df/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-26dd-703a-b046-87141aa1c5df/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:08:24.644909+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 88524,
+      "sha256": "58a94ac65831962073d0156367f9fa3e4e4e26bca182ac7aafb56928a64c302e"
+    },
+    "model_glb": {
+      "file": "volcanic_wood_node_model.glb",
+      "bytes": 7793732,
+      "sha256": "5cc7614ec5acfe7f10bbb9d46524325cf547528c6b3d6f20caeed9dc014614e2"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 93003,
+      "sha256": "63988068823e3c41b67e2a381af81c8d10432ed8ee87bcc5d292cbc645d3bdde"
+    },
+    "texture_base_color": {
+      "file": "volcanic_wood_node_base_color.png",
+      "bytes": 6003804,
+      "sha256": "05f27ffff9ed05fafec9c663d3d71a882187d27738a45f4faa38ac27cb49c6f8"
+    },
+    "texture_metallic": {
+      "file": "volcanic_wood_node_metallic.png",
+      "bytes": 52715,
+      "sha256": "ad1943104736412684a3501c9256948d210cb027acd2e12392be433d0a6a9cd9"
+    },
+    "texture_roughness": {
+      "file": "volcanic_wood_node_roughness.png",
+      "bytes": 1390823,
+      "sha256": "8417948392699d94ad8d55f2ce6355323ba57c132951ee63b4beec4c3496a545"
+    },
+    "texture_normal": {
+      "file": "volcanic_wood_node_normal.png",
+      "bytes": 5071414,
+      "sha256": "68f505f45750df5a04fedf1983162ff205acca740f3ed050cf4122a4d6eb9ba8"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 2172,
+    "lod0": 1500,
+    "lod1": 349,
+    "fittedMetres": [
+      2.2,
+      1.92,
+      3.333
+    ],
+    "teamMaskCoverage": 0.0,
+    "recoloured": [
+      {
+        "hues": [
+          0,
+          200
+        ],
+        "pixels": 0.982,
+        "from": "#3f372c",
+        "to": "#8C8070"
+      }
+    ]
+  }
+}

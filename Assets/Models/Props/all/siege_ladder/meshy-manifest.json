@@ -1,0 +1,136 @@
+{
+  "id": "siege_ladder",
+  "entry": {
+    "id": "siege_ladder",
+    "role": "siege",
+    "kind": "siege_ladder",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 3.8,
+    "footprint": 2.0,
+    "size": 1024,
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "biome": "all",
+    "priority": 1,
+    "prompt": "Tall wooden siege ladder leaning steeply forward on a low two-wheeled timber sled: two thick square side beams, eight wide flat rungs, iron-shod feet and a royal blue cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Timber: warm mid-brown wood (#8E765F) with darker grain (#6B563F). Iron fittings and wheel rims: dark blue-grey iron (#4D5F61). Cloth: plain saturated royal blue (#2B4FB0), no emblem. Rope: pale hemp (#C9B98F). No dirt, rust, blood, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d408-e16d-777e-8203-60f76cd5b556",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 472873718,
+        "prompt": "Tall wooden siege ladder leaning steeply forward on a low two-wheeled timber sled: two thick square side beams, eight wide flat rungs, iron-shod feet and a royal blue cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263748774,
+        "progress": 100,
+        "started_at": 1790263748779,
+        "finished_at": 1790263756573,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d408-e16d-777e-8203-60f76cd5b556/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d408-e16d-777e-8203-60f76cd5b556/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:29:17.753002+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d409-0e73-75ad-939d-f721bd21b45b",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 472873718,
+        "prompt": "Tall wooden siege ladder leaning steeply forward on a low two-wheeled timber sled: two thick square side beams, eight wide flat rungs, iron-shod feet and a royal blue cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Timber: warm mid-brown wood (#8E765F) with darker grain (#6B563F). Iron fittings and wheel rims: dark blue-grey iron (#4D5F61). Cloth: plain saturated royal blue (#2B4FB0), no emblem. Rope: pale hemp (#C9B98F). No dirt, rust, blood, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263762240,
+        "progress": 100,
+        "started_at": 1790263762248,
+        "finished_at": 1790263804105,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-0e73-75ad-939d-f721bd21b45b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-0e73-75ad-939d-f721bd21b45b/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-0e73-75ad-939d-f721bd21b45b/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-0e73-75ad-939d-f721bd21b45b/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-0e73-75ad-939d-f721bd21b45b/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-0e73-75ad-939d-f721bd21b45b/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:30:05.141144+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 60018,
+      "sha256": "e4a609f16a4e903f27799498383e1a2e42c19cc7e03a6c23bffee006d1df9691"
+    },
+    "model_glb": {
+      "file": "siege_ladder_model.glb",
+      "bytes": 5670556,
+      "sha256": "b36e0166689dd21e0a27c302052c718a5a9a7e42a92e6a6c3e188b8a646133ac"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 69029,
+      "sha256": "b135701261efa8f4dbf76a7795fa4f651b372631bdeb027988f3392af586b352"
+    },
+    "texture_base_color": {
+      "file": "siege_ladder_base_color.png",
+      "bytes": 4317741,
+      "sha256": "a502f50faf34e25ea9ef61f9f4ff1975e8895c4991e55b78d288882e44aa6bc2"
+    },
+    "texture_metallic": {
+      "file": "siege_ladder_metallic.png",
+      "bytes": 409130,
+      "sha256": "a9689c4a616129f668518164123f89b818ae77404dee92178649ad32ced70fd3"
+    },
+    "texture_roughness": {
+      "file": "siege_ladder_roughness.png",
+      "bytes": 1129124,
+      "sha256": "2a2b07d2e226ab02a685f80c537d166f03ace35ec05bf815effdaa1a8d5f0a29"
+    },
+    "texture_normal": {
+      "file": "siege_ladder_normal.png",
+      "bytes": 3376635,
+      "sha256": "ce948629c924eab6bbcf5e3291ec06cd6f01458ead222ad11aceaab50fd0b820"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3879,
+    "lod0": 3499,
+    "lod1": 900,
+    "fittedMetres": [
+      1.087,
+      1.996,
+      3.8
+    ],
+    "teamMaskCoverage": 0.0009
+  }
+}

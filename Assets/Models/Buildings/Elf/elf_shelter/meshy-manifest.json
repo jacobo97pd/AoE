@@ -1,0 +1,133 @@
+{
+  "id": "elf_shelter",
+  "entry": {
+    "id": "elf_shelter",
+    "style": "elf",
+    "building": "shelter",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a small elven home. One small round cottage of pale wood with a curved leaf-shaped roof, one arched door, one round window and vines climbing the walls."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d438-abbf-76f8-b901-8b39fe92c001",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 614349100,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small elven home. One small round cottage of pale wood with a curved leaf-shaped roof, one arched door, one round window and vines climbing the walls. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266881046,
+        "progress": 100,
+        "started_at": 1790266881055,
+        "finished_at": 1790266889446,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-abbf-76f8-b901-8b39fe92c001/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-abbf-76f8-b901-8b39fe92c001/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:21:30.050293+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d438-d8fa-77a9-90ea-e5d2cb842bfe",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 614349100,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small elven home. One small round cottage of pale wood with a curved leaf-shaped roof, one arched door, one round window and vines climbing the walls. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266890552,
+        "progress": 100,
+        "started_at": 1790266890560,
+        "finished_at": 1790266957979,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-d8fa-77a9-90ea-e5d2cb842bfe/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-d8fa-77a9-90ea-e5d2cb842bfe/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-d8fa-77a9-90ea-e5d2cb842bfe/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-d8fa-77a9-90ea-e5d2cb842bfe/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-d8fa-77a9-90ea-e5d2cb842bfe/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-d8fa-77a9-90ea-e5d2cb842bfe/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:22:38.906936+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_shelter_model.glb",
+      "bytes": 7237032,
+      "sha256": "640ed6ef844ff6441a9450f6d843aed15982adcd6d4b1b589fbf6c7107900d5e"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 241056,
+      "sha256": "ec5baaaaef734db931a0a519341708277a86529df7f9f5974664a2ebbd6badf7"
+    },
+    "texture_base_color": {
+      "file": "elf_shelter_base_color.png",
+      "bytes": 5943948,
+      "sha256": "f6fb58fa60b89e51dded7a59cd23d0ae79df10fe67ff7d47d54e0af1605b35b1"
+    },
+    "texture_metallic": {
+      "file": "elf_shelter_metallic.png",
+      "bytes": 42680,
+      "sha256": "7228cb877bb93c941bacb0a6b8765b9b7eeebf2b95d89be4a69ae64a07e77856"
+    },
+    "texture_roughness": {
+      "file": "elf_shelter_roughness.png",
+      "bytes": 1448220,
+      "sha256": "d09a3347040bbccedb578a9468f2d29165de7c6731e4df2ba9e3ba60b06ed7ab"
+    },
+    "texture_normal": {
+      "file": "elf_shelter_normal.png",
+      "bytes": 4506389,
+      "sha256": "187d14ded5de9a60ff0d5a883946e493d9e309f9a6b10edb896c35f20448fe01"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4848,
+    "triangles": 4848,
+    "fittedMetres": [
+      1.92,
+      1.92,
+      1.725
+    ],
+    "teamMaskCoverage": 0.0174
+  }
+}

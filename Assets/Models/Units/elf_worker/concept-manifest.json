@@ -1,0 +1,35 @@
+{
+  "id": "elf_worker",
+  "concept": {
+    "references": [
+      "elf_archer",
+      "elf_sentinel"
+    ],
+    "prompt": "Same painted 3D game-art style and the same elven people as these two figures: an elven forester in a short green leaf-trimmed tunic with a royal blue sash, a small curved hatchet on the belt and a woven basket on the back."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0d33a-7957-71ff-83b5-37f3252d79d4",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same painted 3D game-art style and the same elven people as these two figures: an elven forester in a short green leaf-trimmed tunic with a royal blue sash, a small curved hatchet on the belt and a woven basket on the back. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790250220810,
+    "started_at": 1790250220816,
+    "finished_at": 1790250236659,
+    "expires_at": 1790509436659,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d33a-7957-71ff-83b5-37f3252d79d4_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 3532,
+  "file": {
+    "file": "concept.png",
+    "bytes": 834128,
+    "sha256": "96378fc648282d03f02301563c8a6fb1cb36fc63e920f317caae482c2e6e0ec6"
+  },
+  "finished_utc": "2026-09-24T11:43:58.848023+00:00"
+}

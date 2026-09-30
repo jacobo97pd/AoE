@@ -1,0 +1,130 @@
+{
+  "id": "volcanic_bone_pile",
+  "entry": {
+    "id": "volcanic_bone_pile",
+    "role": "obstacle",
+    "kind": "obstacle",
+    "lod0": 400,
+    "lod1": 160,
+    "height": 0.7,
+    "footprint": 1.0,
+    "size": 512,
+    "biome": "volcanic",
+    "priority": 6,
+    "polycount": 600,
+    "prompt": "Bone pile: a low heap of big chunky bones, ribs and broken tusks fused together, crowned by one large horned beast skull with two thick curved horns, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.7 m tall. Isolated, no ground, no base plate, no blood, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Bones and skull: aged bone (#D8CCB0) with ash-grey shadows (#8E857A) and soot-dark cracks (#4A403A). Horns: dark horn brown fading to black tips (#4A3A30). Clearly lighter than the dark ash ground. No blood, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d761-8a0e-7207-822e-cd89024e816c",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2842522427,
+        "prompt": "Bone pile: a low heap of big chunky bones, ribs and broken tusks fused together, crowned by one large horned beast skull with two thick curved horns, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.7 m tall. Isolated, no ground, no base plate, no blood, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319890561,
+        "progress": 100,
+        "started_at": 1790319890567,
+        "finished_at": 1790319900816,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d761-8a0e-7207-822e-cd89024e816c/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d761-8a0e-7207-822e-cd89024e816c/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:05:08.069136+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d762-a5c4-74f9-bb50-18bd8f176cdf",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2842522427,
+        "prompt": "Bone pile: a low heap of big chunky bones, ribs and broken tusks fused together, crowned by one large horned beast skull with two thick curved horns, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.7 m tall. Isolated, no ground, no base plate, no blood, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Bones and skull: aged bone (#D8CCB0) with ash-grey shadows (#8E857A) and soot-dark cracks (#4A403A). Horns: dark horn brown fading to black tips (#4A3A30). Clearly lighter than the dark ash ground. No blood, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319964026,
+        "progress": 100,
+        "started_at": 1790319964031,
+        "finished_at": 1790320012457,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-a5c4-74f9-bb50-18bd8f176cdf/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-a5c4-74f9-bb50-18bd8f176cdf/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-a5c4-74f9-bb50-18bd8f176cdf/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-a5c4-74f9-bb50-18bd8f176cdf/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-a5c4-74f9-bb50-18bd8f176cdf/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d762-a5c4-74f9-bb50-18bd8f176cdf/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:06:55.450239+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 98951,
+      "sha256": "3b9e96cf34861916b8aa5b1ae47c0eb9d4b4945ba4c13e2431df237d09b51855"
+    },
+    "model_glb": {
+      "file": "volcanic_bone_pile_model.glb",
+      "bytes": 5394860,
+      "sha256": "f0375f0d1c46d0e70ead9e6ead0a39539d3751aba276895fcdfb69bf493b1aa4"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 130557,
+      "sha256": "52e50aba5c3f379c9e1430063e497c51615fabbb5b6031945c80084da1bcc6a8"
+    },
+    "texture_base_color": {
+      "file": "volcanic_bone_pile_base_color.png",
+      "bytes": 4184821,
+      "sha256": "98cdebac588614d0a7c980e1b4a0dd03123b905bf073df79a1754805abbf7e9d"
+    },
+    "texture_metallic": {
+      "file": "volcanic_bone_pile_metallic.png",
+      "bytes": 41956,
+      "sha256": "d51a5409b8a80178300cd0a0d58c4f86e59be4800dd1b303c808b66e63f10d3c"
+    },
+    "texture_roughness": {
+      "file": "volcanic_bone_pile_roughness.png",
+      "bytes": 1215580,
+      "sha256": "50e4c1124c30fd1356294bc5f255477868d5ddd8649d65fb16b057e75694c6e0"
+    },
+    "texture_normal": {
+      "file": "volcanic_bone_pile_normal.png",
+      "bytes": 3494493,
+      "sha256": "30fb167b56bca273305a42c08ac118feb217bac89000e926cfcfc94a7ae4977b"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 576,
+    "lod0": 400,
+    "lod1": 159,
+    "fittedMetres": [
+      1.0,
+      1.0,
+      0.582
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

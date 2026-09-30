@@ -1,0 +1,130 @@
+{
+  "id": "elven_glowcap_rock",
+  "entry": {
+    "id": "elven_glowcap_rock",
+    "role": "obstacle",
+    "kind": "obstacle",
+    "lod0": 400,
+    "lod1": 160,
+    "height": 0.8,
+    "footprint": 1.0,
+    "size": 512,
+    "biome": "elven",
+    "priority": 6,
+    "polycount": 600,
+    "prompt": "Mossy boulder with glowing mushrooms: one low rounded rock mass under a thick moss cap, a cluster of five chunky round-capped mushrooms growing from a crack on one side and two more on top, all fused to the rock. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Rock: pale silver-grey (#B5B7AE) with cool grey-teal shadows (#7E8F8C). Moss: soft fresh green (#6E9A55) with lighter tips (#93B86E). Mushroom caps: luminous pale cyan (#9FE3DA) with white spots, stems pale ivory (#E6E0CE), the brightest part of the model and clearly visible from above. No text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d759-b162-7402-a825-b7d82aa5f989",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3279459992,
+        "prompt": "Mossy boulder with glowing mushrooms: one low rounded rock mass under a thick moss cap, a cluster of five chunky round-capped mushrooms growing from a crack on one side and two more on top, all fused to the rock. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319376546,
+        "progress": 100,
+        "started_at": 1790319376553,
+        "finished_at": 1790319387517,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d759-b162-7402-a825-b7d82aa5f989/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d759-b162-7402-a825-b7d82aa5f989/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:56:34.068271+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d760-1126-7447-adb8-2006213d3286",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3279459992,
+        "prompt": "Mossy boulder with glowing mushrooms: one low rounded rock mass under a thick moss cap, a cluster of five chunky round-capped mushrooms growing from a crack on one side and two more on top, all fused to the rock. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.8 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Rock: pale silver-grey (#B5B7AE) with cool grey-teal shadows (#7E8F8C). Moss: soft fresh green (#6E9A55) with lighter tips (#93B86E). Mushroom caps: luminous pale cyan (#9FE3DA) with white spots, stems pale ivory (#E6E0CE), the brightest part of the model and clearly visible from above. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319794034,
+        "progress": 100,
+        "started_at": 1790319794041,
+        "finished_at": 1790319839564,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-1126-7447-adb8-2006213d3286/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-1126-7447-adb8-2006213d3286/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-1126-7447-adb8-2006213d3286/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-1126-7447-adb8-2006213d3286/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-1126-7447-adb8-2006213d3286/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d760-1126-7447-adb8-2006213d3286/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:04:05.503123+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 107340,
+      "sha256": "372acc64de2197b8dbed2e5e8d21f493b4224d86cd66086ca456011da9566bcf"
+    },
+    "model_glb": {
+      "file": "elven_glowcap_rock_model.glb",
+      "bytes": 6072828,
+      "sha256": "5554133cb9b60fdc1e8bf235e03ddc04d7261353a91783e11c1b0b5d29376d5c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 146973,
+      "sha256": "9bfcfbd86a18c6ae3c362fb16e3dc1ff969ac936b78ae9d4f7ad188327ecec5c"
+    },
+    "texture_base_color": {
+      "file": "elven_glowcap_rock_base_color.png",
+      "bytes": 5665784,
+      "sha256": "daf0afc306145eb18ea9725ab1464335378a04862daeba22c8e84ed60f74695e"
+    },
+    "texture_metallic": {
+      "file": "elven_glowcap_rock_metallic.png",
+      "bytes": 19171,
+      "sha256": "d7b5bae043418d9a23b53967c99a119db0025409cbf04f088a941d24141d7a5a"
+    },
+    "texture_roughness": {
+      "file": "elven_glowcap_rock_roughness.png",
+      "bytes": 1273647,
+      "sha256": "811ee5bb20d18831efe03b8b79238cfda46adf792b8e18c93cea0d871dc9ec7b"
+    },
+    "texture_normal": {
+      "file": "elven_glowcap_rock_normal.png",
+      "bytes": 4102287,
+      "sha256": "915d7a1a135457b49595d0c5e24c47e4df1eb5d2d0e357ada86f5c1a8b220a65"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 552,
+    "lod0": 400,
+    "lod1": 160,
+    "fittedMetres": [
+      1.0,
+      0.934,
+      0.697
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

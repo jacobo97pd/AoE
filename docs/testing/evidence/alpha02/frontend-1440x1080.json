@@ -1,0 +1,19 @@
+{
+    "Passed": true,
+    "MainMenuPauses": true,
+    "StoreHasNoTransactions": true,
+    "StartedChosenMatch": true,
+    "GameplayObserved": true,
+    "BuildGuid": "0e78fcce58ec4fb489ca9baf9ed74b19",
+    "UnityVersion": "6000.3.23f1",
+    "Failure": "",
+    "Width": 1440,
+    "Height": 1080,
+    "VisibleButtonClicks": 10,
+    "FinalTick": 2565,
+    "FrameSamples": 300,
+    "TargetFrameRate": 60,
+    "FramesPerSecond": 59.94900873521578,
+    "FrameP95Milliseconds": 16.6975986212492,
+    "LocalTickP95Milliseconds": 1.1781000000000002
+}

@@ -1,0 +1,134 @@
+{
+  "id": "sahel_siege_workshop",
+  "entry": {
+    "id": "sahel_siege_workshop",
+    "style": "sahel",
+    "building": "siege_workshop",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a siege workshop. A square mud-brick workshop with one side fully open under a flat roof of poles and straw mats, a large wooden crane beam over the opening, a half-built wooden battering ram inside, stacked logs and an indigo banner on the crane."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d6-dafa-702e-a1b2-9e4c161c5109",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3418970351,
+        "prompt": "Low-poly game asset for a top-down strategy game: a siege workshop. A square mud-brick workshop with one side fully open under a flat roof of poles and straw mats, a large wooden crane beam over the opening, a half-built wooden battering ram inside, stacked logs and an indigo banner on the crane. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528905474,
+        "progress": 100,
+        "started_at": 1790528905480,
+        "finished_at": 1790528916052,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-dafa-702e-a1b2-9e4c161c5109/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-dafa-702e-a1b2-9e4c161c5109/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:08:42.993134+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d7-26f0-7495-bbb0-69cad37b846b",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3418970351,
+        "prompt": "Low-poly game asset for a top-down strategy game: a siege workshop. A square mud-brick workshop with one side fully open under a flat roof of poles and straw mats, a large wooden crane beam over the opening, a half-built wooden battering ram inside, stacked logs and an indigo banner on the crane. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528923438,
+        "progress": 100,
+        "started_at": 1790528923448,
+        "finished_at": 1790528974160,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d7-26f0-7495-bbb0-69cad37b846b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d7-26f0-7495-bbb0-69cad37b846b/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d7-26f0-7495-bbb0-69cad37b846b/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d7-26f0-7495-bbb0-69cad37b846b/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d7-26f0-7495-bbb0-69cad37b846b/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d7-26f0-7495-bbb0-69cad37b846b/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:09:34.825634+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_siege_workshop_model.glb",
+      "bytes": 4689256,
+      "sha256": "177458d9b7ae42c33be38d2883ea4f2e24d564d7305511f0f64e54d5d1765940"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 167994,
+      "sha256": "fb5e7336d2b7c56733d556a3d50914dbf46ab8c6eb69e01155c9e34bc8a2c2d7"
+    },
+    "texture_base_color": {
+      "file": "sahel_siege_workshop_base_color.png",
+      "bytes": 3724298,
+      "sha256": "37df2655127dd4a0eef2bd2824aff7007db730a7585a7dd5e73294111139fd0e"
+    },
+    "texture_metallic": {
+      "file": "sahel_siege_workshop_metallic.png",
+      "bytes": 22061,
+      "sha256": "74b87c5aa54ffd940696bc587f5f3ba0f5e6113ec6b6866563a36cba868e519a"
+    },
+    "texture_roughness": {
+      "file": "sahel_siege_workshop_roughness.png",
+      "bytes": 1135841,
+      "sha256": "ae2d2d6bf3d8b646230fe29915c92aa5b36495a72dacf6b4e23903c594e37bd4"
+    },
+    "texture_normal": {
+      "file": "sahel_siege_workshop_normal.png",
+      "bytes": 2435526,
+      "sha256": "f26504fe062c5b67f41ae51892ca64398b7801c65f6797780bf1426539b675c6"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4898,
+    "triangles": 4898,
+    "fittedMetres": [
+      2.88,
+      2.481,
+      2.16
+    ],
+    "teamMaskCoverage": 0.0102
+  }
+}

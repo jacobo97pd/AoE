@@ -1,0 +1,134 @@
+{
+  "id": "sahel_shelter",
+  "entry": {
+    "id": "sahel_shelter",
+    "style": "sahel",
+    "building": "shelter",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a small round family house. One small round hut of smooth mud-brick with a tall pointed conical straw-thatch roof, a low doorway with a wooden door and a small indigo cloth awning over it."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3cf-62a8-77b2-935e-36aca35bd845",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3825671195,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small round family house. One small round hut of smooth mud-brick with a tall pointed conical straw-thatch roof, a low doorway with a wooden door and a small indigo cloth awning over it. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528416481,
+        "progress": 100,
+        "started_at": 1790528416487,
+        "finished_at": 1790528424813,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cf-62a8-77b2-935e-36aca35bd845/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cf-62a8-77b2-935e-36aca35bd845/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:00:25.502756+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3cf-8fa2-71f1-a137-42a9ed740ebf",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3825671195,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small round family house. One small round hut of smooth mud-brick with a tall pointed conical straw-thatch roof, a low doorway with a wooden door and a small indigo cloth awning over it. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528427447,
+        "progress": 100,
+        "started_at": 1790528427455,
+        "finished_at": 1790528472952,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cf-8fa2-71f1-a137-42a9ed740ebf/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cf-8fa2-71f1-a137-42a9ed740ebf/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cf-8fa2-71f1-a137-42a9ed740ebf/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cf-8fa2-71f1-a137-42a9ed740ebf/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cf-8fa2-71f1-a137-42a9ed740ebf/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cf-8fa2-71f1-a137-42a9ed740ebf/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:01:18.830984+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_shelter_model.glb",
+      "bytes": 4214928,
+      "sha256": "750f5ca4c6e0868d5cbf56f3ba4a32e2dd3e66b44a590b5e38a070d0840c1d85"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 129121,
+      "sha256": "f5504e8048aaeaeb521a474036840bf138532b2aec60a08935c9d79468380a42"
+    },
+    "texture_base_color": {
+      "file": "sahel_shelter_base_color.png",
+      "bytes": 3266881,
+      "sha256": "f846980802b60695076b5acc2595661bb2672495c84a46345a2a928182061773"
+    },
+    "texture_metallic": {
+      "file": "sahel_shelter_metallic.png",
+      "bytes": 20691,
+      "sha256": "5adcc65d7f4bef7c65635dd43b39d37563d05ac28eadbdfb51c33ad89e50be66"
+    },
+    "texture_roughness": {
+      "file": "sahel_shelter_roughness.png",
+      "bytes": 927552,
+      "sha256": "aa8a68c91ed8bbf0ee5efa78deb875ca283d4c3a4c697774e9d350b436704a42"
+    },
+    "texture_normal": {
+      "file": "sahel_shelter_normal.png",
+      "bytes": 2553543,
+      "sha256": "bf6d02da6cf7c06c1ca38a9a8c18b8cdad885dbdc9e930aeb5437d21b1fcc30e"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4537,
+    "triangles": 4537,
+    "fittedMetres": [
+      1.916,
+      1.92,
+      1.736
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

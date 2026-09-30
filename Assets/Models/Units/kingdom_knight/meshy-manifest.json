@@ -1,0 +1,67 @@
+{
+  "id": "kingdom_knight",
+  "steps": {
+    "refine": {
+      "task": {
+        "id": "01a0d479-9ab9-7761-bac2-f0084ad50fff"
+      },
+      "credits": 15,
+      "note": "generated as the mounted-knight probe for the quadruped rig, 2026-09-25"
+    }
+  },
+  "files": {},
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5277,
+    "bones": 50,
+    "heightMetres": 1.0,
+    "walkMetresPerSecond": 0.266,
+    "runMetresPerSecond": 1.381,
+    "scale": [
+      7.907,
+      9.165,
+      7.824
+    ],
+    "riderVertices": 833,
+    "donorBack": 3.577,
+    "saddle": 1.0,
+    "bellies": [
+      0.257,
+      0.418
+    ],
+    "pinned": {
+      "muzzle": [
+        0.015,
+        -0.063,
+        -0.118
+      ]
+    },
+    "tailVertices": 284,
+    "thinnedVertices": 262,
+    "legThickness": 0.0341,
+    "tailFit": {
+      "turn": 33.9,
+      "stretch": 1.5
+    },
+    "fusedLegs": [],
+    "splitLegs": {},
+    "settled": {
+      "Walk": 0.017
+    },
+    "grounded": {
+      "Attack": {
+        "lift": 0.01
+      }
+    },
+    "teamMaskCoverage": 0.142,
+    "rig": "transplanted from the Quaternius Horse (CC0) by tools/art/transplant_rig.py"
+  }
+}

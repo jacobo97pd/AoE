@@ -1,0 +1,136 @@
+{
+  "id": "siege_tower",
+  "entry": {
+    "id": "siege_tower",
+    "role": "siege",
+    "kind": "siege_tower",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 4.9,
+    "footprint": 2.35,
+    "size": 1024,
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "biome": "all",
+    "priority": 2,
+    "prompt": "Tall wheeled siege tower: a narrow square timber tower three storeys high on four solid wheels, plank walls, a drawbridge plank folded up at the top of the front face, a flat roof with a royal blue cloth banner. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The drawbridge faces forward. Isolated, no ground, no characters, no text.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Timber: warm mid-brown wood (#8E765F) with darker grain (#6B563F). Iron fittings and wheel rims: dark blue-grey iron (#4D5F61). Cloth: plain saturated royal blue (#2B4FB0), no emblem. Rope: pale hemp (#C9B98F). No dirt, rust, blood, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d413-ba44-76c8-aaa5-f12253aed497",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2641726560,
+        "prompt": "Tall wheeled siege tower: a narrow square timber tower three storeys high on four solid wheels, plank walls, a drawbridge plank folded up at the top of the front face, a flat roof with a royal blue cloth banner. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The drawbridge faces forward. Isolated, no ground, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264459344,
+        "progress": 100,
+        "started_at": 1790264459352,
+        "finished_at": 1790264467709,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d413-ba44-76c8-aaa5-f12253aed497/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d413-ba44-76c8-aaa5-f12253aed497/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:41:08.328374+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d413-e613-7798-9c77-8fb215dd51a0",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2641726560,
+        "prompt": "Tall wheeled siege tower: a narrow square timber tower three storeys high on four solid wheels, plank walls, a drawbridge plank folded up at the top of the front face, a flat roof with a royal blue cloth banner. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The drawbridge faces forward. Isolated, no ground, no characters, no text.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Timber: warm mid-brown wood (#8E765F) with darker grain (#6B563F). Iron fittings and wheel rims: dark blue-grey iron (#4D5F61). Cloth: plain saturated royal blue (#2B4FB0), no emblem. Rope: pale hemp (#C9B98F). No dirt, rust, blood, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264469049,
+        "progress": 100,
+        "started_at": 1790264469058,
+        "finished_at": 1790264507926,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d413-e613-7798-9c77-8fb215dd51a0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d413-e613-7798-9c77-8fb215dd51a0/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d413-e613-7798-9c77-8fb215dd51a0/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d413-e613-7798-9c77-8fb215dd51a0/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d413-e613-7798-9c77-8fb215dd51a0/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d413-e613-7798-9c77-8fb215dd51a0/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:41:51.953175+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 74491,
+      "sha256": "fc7b15c6570d6c7db972b4a70788b6702144e7437c26a7cf569c676cc22576ae"
+    },
+    "model_glb": {
+      "file": "siege_tower_model.glb",
+      "bytes": 6726168,
+      "sha256": "8d4f6e06ebecf9429d73bea4f98662268760bdc7484c051ccf322a831ae4090e"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 98415,
+      "sha256": "d89e035a0018267ef7b34396c636e6e31631a6671f95b5e565f478baaf7914a2"
+    },
+    "texture_base_color": {
+      "file": "siege_tower_base_color.png",
+      "bytes": 5540057,
+      "sha256": "a1074eb05d479244c15336993e899f3adec7edfcf66881c5ec01b8598621b526"
+    },
+    "texture_metallic": {
+      "file": "siege_tower_metallic.png",
+      "bytes": 588702,
+      "sha256": "7dc7680d9da0941dae867788fc86f36ae14c5f3300120916b115686191f9b3e9"
+    },
+    "texture_roughness": {
+      "file": "siege_tower_roughness.png",
+      "bytes": 1453633,
+      "sha256": "0f23c493c6a4ef56520cff9dff584091c28c94a53a0a586e4d6016e6d22755ec"
+    },
+    "texture_normal": {
+      "file": "siege_tower_normal.png",
+      "bytes": 3404798,
+      "sha256": "bc84d0161cc0f469bb7fcfcd77e3b87515946a2921d99c1b83d6dd2462445ea1"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3833,
+    "lod0": 3500,
+    "lod1": 900,
+    "fittedMetres": [
+      2.115,
+      2.125,
+      4.9
+    ],
+    "teamMaskCoverage": 0.23
+  }
+}

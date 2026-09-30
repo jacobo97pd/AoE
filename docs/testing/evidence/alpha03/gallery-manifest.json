@@ -1,0 +1,135 @@
+{
+    "BuildGuid":  "35abc41770ce473f8606780a352eccaf",
+    "CaptureSource":  "TestResults/ExpansionProduct-1280x720-20260910-123055",
+    "Passed":  true,
+    "VisibleButtonClicks":  76,
+    "NativePngCount":  23,
+    "ImagesUnmodified":  true,
+    "CopiedArtifacts":  [
+                            {
+                                "File":  "battle-ashen.png",
+                                "Bytes":  559424,
+                                "Sha256":  "608A9D6031C8C24ACCBFEEB34F1C7F4AD3A9B552E036655FEDA34FB4494CDC94"
+                            },
+                            {
+                                "File":  "battle-aven.png",
+                                "Bytes":  604508,
+                                "Sha256":  "50A732482AA9ACCD12306ADEC3B27C59F7FEF6D1E07E5759B7372D0F4CC6CE99"
+                            },
+                            {
+                                "File":  "battle-drakeforged.png",
+                                "Bytes":  587334,
+                                "Sha256":  "CCDB12C141C2C8A8ABB62F59DDAAC51246BD6CE289511EBFBEFC7D7D9CA53796"
+                            },
+                            {
+                                "File":  "battle-miraj.png",
+                                "Bytes":  535285,
+                                "Sha256":  "94CE55EE90FADEA1882341279E7409FB289369E654347B89BB6C39607C08608C"
+                            },
+                            {
+                                "File":  "battle-serevin.png",
+                                "Bytes":  553100,
+                                "Sha256":  "A60739D4D80937229262EDA9632692DDFE3588B880EAB368196D80E24E686E66"
+                            },
+                            {
+                                "File":  "battle-skeld.png",
+                                "Bytes":  582229,
+                                "Sha256":  "E1EB1B472A32831A79DC87BEC831002C1A78D7B4F0B320FA9F4B26361F47F636"
+                            },
+                            {
+                                "File":  "battle-solar.png",
+                                "Bytes":  596610,
+                                "Sha256":  "D0133DF3EB432DE61FED45B65A157829CCFBE89F370F667C16DB95C0D6FEFCBB"
+                            },
+                            {
+                                "File":  "battle-verdant.png",
+                                "Bytes":  562617,
+                                "Sha256":  "6D4982CB76F0933FA62BACB0101083EE9ED3315E0385941A7D8E213C6439299C"
+                            },
+                            {
+                                "File":  "expansion-smoke.json",
+                                "Bytes":  2894,
+                                "Sha256":  "03DCF20991D89C40B2E04E1EED548ADA57CCFD6DAD59173078418ACB50AB45EB"
+                            },
+                            {
+                                "File":  "frontiers-home.png",
+                                "Bytes":  1181058,
+                                "Sha256":  "E6EA0DDC8000C72061615D5EF027BB06F5BDC27023B4338E4B2734F759B310CF"
+                            },
+                            {
+                                "File":  "setup-ashen.png",
+                                "Bytes":  804114,
+                                "Sha256":  "597E481C54E793CCB986FD4A27DD562CFA0B3ADE82117B5E1CAE45740959F6EE"
+                            },
+                            {
+                                "File":  "setup-aven.png",
+                                "Bytes":  804110,
+                                "Sha256":  "122DB55D42DEEE8EFD2EFBAD0F36AAF3F889CD613C241D17983DCE09CFD7D710"
+                            },
+                            {
+                                "File":  "setup-drakeforged.png",
+                                "Bytes":  773748,
+                                "Sha256":  "355E04714185A3D00E6D2FC0D6F1A050B65ECBF9E0085018B49585830B869D49"
+                            },
+                            {
+                                "File":  "setup-miraj.png",
+                                "Bytes":  804306,
+                                "Sha256":  "A767AE5604407B1FF81C59B1BD3630C475F5A75D7C6C406DA11DC3DBCB6F0626"
+                            },
+                            {
+                                "File":  "setup-serevin.png",
+                                "Bytes":  802682,
+                                "Sha256":  "0F9BBCD06819BBE037AC8EA238F905017A296F63822C20DA3054150F93101D34"
+                            },
+                            {
+                                "File":  "setup-skeld.png",
+                                "Bytes":  774577,
+                                "Sha256":  "99C8A0EF99D9B9E7A544DDD2983E51C8324716CF2080D7B37A211B08A2A2AD0A"
+                            },
+                            {
+                                "File":  "setup-solar.png",
+                                "Bytes":  803932,
+                                "Sha256":  "9366AD5A9C523029D6DEBBC91C0F0E599848EABE9BA36E4EBFF818DEFE66BF8E"
+                            },
+                            {
+                                "File":  "setup-verdant.png",
+                                "Bytes":  806879,
+                                "Sha256":  "D656952574352424DE07247DB880FD5FEEF08B7EE1BE3DDBE8A1AA083C735938"
+                            },
+                            {
+                                "File":  "store-drake.png",
+                                "Bytes":  778905,
+                                "Sha256":  "8C3EDD8A48ACA54A63982CA4682048B1BF0E09171F83C918A4D4332DE746CB55"
+                            },
+                            {
+                                "File":  "store-elephant.png",
+                                "Bytes":  805705,
+                                "Sha256":  "BC95449090D0AB31F540949E5F52C447EFF9E72018DE3C7C5EC9C2F77D52B4DE"
+                            },
+                            {
+                                "File":  "store-frostguard_bronze.png",
+                                "Bytes":  768641,
+                                "Sha256":  "4958795CE5913EF92ADE1B8601BDD40DC5B90E22A8BF18C26EEB43294035C4BD"
+                            },
+                            {
+                                "File":  "store-guardian_bloom.png",
+                                "Bytes":  767448,
+                                "Sha256":  "9A5AFA2EE6B7DBE1AE8AF467C14BE21612965BA8B4950B392441A06EEFD894B5"
+                            },
+                            {
+                                "File":  "store-lion_luminous.png",
+                                "Bytes":  772492,
+                                "Sha256":  "077DEFAD7D7199334960DF0B1ECE3A30118792E0C7CE64405E0AFB1C8AF5A49B"
+                            },
+                            {
+                                "File":  "store-troll_frost.png",
+                                "Bytes":  767743,
+                                "Sha256":  "2979E94073124068F292ED46EC12CCE621EC9DF7FE2654F084400A4F835BCE45"
+                            }
+                        ],
+    "Gallery":  {
+                    "File":  "gallery.html",
+                    "Bytes":  26520,
+                    "Sha256":  "5C6B33FC470C847C2F6DA3D77C357999F21768A217C1E8E38C55D53DD76AB97F"
+                }
+}

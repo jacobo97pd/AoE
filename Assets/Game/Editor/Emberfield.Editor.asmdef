@@ -1,0 +1,6 @@
+{
+  "name": "Emberfield.Editor",
+  "rootNamespace": "Emberfield.Editor",
+  "references": ["Emberfield.Simulation", "Emberfield.Diagnostics", "Emberfield.Presentation", "Emberfield.Quality", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "includePlatforms": ["Editor"]
+}

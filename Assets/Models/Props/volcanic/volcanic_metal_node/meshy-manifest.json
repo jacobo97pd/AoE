@@ -1,0 +1,132 @@
+{
+  "id": "volcanic_metal_node",
+  "entry": {
+    "id": "volcanic_metal_node",
+    "role": "resource",
+    "kind": "Metal",
+    "lod0": 1000,
+    "lod1": 250,
+    "farShell": true,
+    "height": 1.3,
+    "footprint": 1.8,
+    "size": 512,
+    "biome": "volcanic",
+    "priority": 6,
+    "polycount": 1500,
+    "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky veins and chunky crystal clusters of red ore breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+    "texture": "Stylized painted colours, even lighting, no baked shadows. Host rock: dark basalt (#3E3534) with warm grey edges (#6A5E5A), matte. Ore veins and crystals: glowing molten red-orange (#E0452A) brightening to hot orange-yellow at the edges (#F6A23C), smooth and glossy, the brightest thing on the model and clearly readable from above. No text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d766-72c8-7386-abb3-6e58bc81a3f6",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2999014676,
+        "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky veins and chunky crystal clusters of red ore breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320212184,
+        "progress": 100,
+        "started_at": 1790320212190,
+        "finished_at": 1790320222120,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d766-72c8-7386-abb3-6e58bc81a3f6/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d766-72c8-7386-abb3-6e58bc81a3f6/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T07:10:29.682539+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d767-2b30-7071-8094-51e2e584c1a5",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2999014676,
+        "prompt": "Dark jagged ore outcrop: one fused rock mass, low and wide, with thick blocky veins and chunky crystal clusters of red ore breaking out of its top faces. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1.8 m wide and 1.3 m tall. Isolated, no ground, no tools, no cart, no text.",
+        "texture_prompt": "Stylized painted colours, even lighting, no baked shadows. Host rock: dark basalt (#3E3534) with warm grey edges (#6A5E5A), matte. Ore veins and crystals: glowing molten red-orange (#E0452A) brightening to hot orange-yellow at the edges (#F6A23C), smooth and glossy, the brightest thing on the model and clearly readable from above. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320259436,
+        "progress": 100,
+        "started_at": 1790320259442,
+        "finished_at": 1790320310062,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d767-2b30-7071-8094-51e2e584c1a5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d767-2b30-7071-8094-51e2e584c1a5/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d767-2b30-7071-8094-51e2e584c1a5/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d767-2b30-7071-8094-51e2e584c1a5/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d767-2b30-7071-8094-51e2e584c1a5/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d767-2b30-7071-8094-51e2e584c1a5/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:11:50.899707+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 143043,
+      "sha256": "003586c445568b6f890c440cff3c98e30f248393d103c9589f147e20788eac4f"
+    },
+    "model_glb": {
+      "file": "volcanic_metal_node_model.glb",
+      "bytes": 6762020,
+      "sha256": "743970380978db2670977dc6842a5bd6388aeab838e509381a7e65521019fc91"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 200937,
+      "sha256": "743f57ef363ab5ec136f9c85ac577841483cf6062a29b692e0c7eaa72f100d91"
+    },
+    "texture_base_color": {
+      "file": "volcanic_metal_node_base_color.png",
+      "bytes": 5039195,
+      "sha256": "12811fc687305f528b382b583a95be0cefb3b51bae9800e8d5c2f1dbe72d6d68"
+    },
+    "texture_metallic": {
+      "file": "volcanic_metal_node_metallic.png",
+      "bytes": 26268,
+      "sha256": "704019970e37dc7d37e4f99a1bc93cf0e8e78d91c6a329f77e2626da1d93cc86"
+    },
+    "texture_roughness": {
+      "file": "volcanic_metal_node_roughness.png",
+      "bytes": 1437221,
+      "sha256": "c731751e526c16fa120fd760cb74948962d339d0860b2cb1406e67e4d8ac321d"
+    },
+    "texture_normal": {
+      "file": "volcanic_metal_node_normal.png",
+      "bytes": 3744957,
+      "sha256": "18f732981221ba2235646e0ecb00306a476f054744e4ca75f2cd443ada662d7b"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1257,
+    "lod0": 999,
+    "lod1": 250,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.8,
+      1.789,
+      1.276
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

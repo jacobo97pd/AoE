@@ -1,0 +1,674 @@
+{
+    "status": "completed",
+    "buildGuid": "95d270a8742e424d8d88e35c3fd0e12d",
+    "unity": "6000.3.23f1",
+    "generatedUtc": "2026-09-10T18:51:01.8143827Z",
+    "biome": "kingdom",
+    "scene": "ArtOverhaul_Kingdom",
+    "graphicsDevice": "NVIDIA GeForce RTX 3060 Ti",
+    "note": "Native Windows art-scene inspection. Screenshots submit the running URP camera into a RenderTexture with live skinning; HUD is camera-space only for its own capture. On-screen counts test transformed LOD0 mesh bounds/frustum and center. HUD captures additionally project unit centers and all eight bounds corners into the measured free screen area between panels; this tests panel overlap, not environment occlusion. Animation checks sample 30 live frames per state with culling temporarily AlwaysAnimate. Render counters sample three regular frames after two drain frames following explicit screenshot requests; HUD visibility is recorded per view. This is not calibrated frame timing, mobile FPS, physical-device testing or visual-parity evidence.",
+    "width": 1920,
+    "height": 1080,
+    "visibleControls": 19,
+    "teamChecks": 15,
+    "passed": true,
+    "controlsFit": true,
+    "controlsBlockWorldInput": true,
+    "units": [
+        {
+            "kind": "Worker",
+            "label": "Recolector",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.003934979438781738,
+                    "boneRotationDegrees": 0.6452812552452087,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.001895904541015625,
+                    "boneRotationDegrees": 1.6989951133728028,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0001436471939086914,
+                    "boneRotationDegrees": 0.8695254325866699,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Warrior",
+            "label": "Guerrero",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00009071826934814453,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0005507469177246094,
+                    "boneRotationDegrees": 0.5128173232078552,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00014472007751464844,
+                    "boneRotationDegrees": 0.4528387784957886,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Cavalry",
+            "label": "Jinete",
+            "bones": 28,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00008702278137207031,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0005767345428466797,
+                    "boneRotationDegrees": 0.5158607959747315,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00020313262939453125,
+                    "boneRotationDegrees": 0.6317980885505676,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "Hero",
+            "label": "Héroe",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0001188516616821289,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0006844997406005859,
+                    "boneRotationDegrees": 0.6355037093162537,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00020623207092285156,
+                    "boneRotationDegrees": 0.6416321396827698,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        },
+        {
+            "kind": "MountainWarrior",
+            "label": "Guerrero de montaña",
+            "bones": 16,
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ],
+            "animated": true,
+            "passed": true,
+            "rootDrift": 0.0,
+            "states": [
+                {
+                    "state": "Idle",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.00013065338134765625,
+                    "boneRotationDegrees": 0.0,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Walk",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0006639957427978516,
+                    "boneRotationDegrees": 0.6180208921432495,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                },
+                {
+                    "state": "Action",
+                    "found": true,
+                    "animated": true,
+                    "passed": true,
+                    "frames": 30,
+                    "bonePositionChange": 0.0001971721649169922,
+                    "boneRotationDegrees": 0.614209771156311,
+                    "rootDrift": 0.0,
+                    "rootRotationDegrees": 0.0,
+                    "rootScaleDrift": 0.0
+                }
+            ]
+        }
+    ],
+    "views": [
+        {
+            "view": "close",
+            "image": "kingdom-close.png",
+            "countOnScreen": 2,
+            "fullyInFrame": 1,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 2.0999999046325685,
+            "cameraPosition": {
+                "x": -4.967087745666504,
+                "y": 6.178279399871826,
+                "z": -15.974477767944336
+            },
+            "cameraEuler": {
+                "x": 22.000001907348634,
+                "y": 20.000001907348634,
+                "z": 0.0
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Warrior"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "medium",
+            "image": "kingdom-medium.png",
+            "countOnScreen": 5,
+            "fullyInFrame": 5,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 10.0,
+            "cameraPosition": {
+                "x": -24.759199142456056,
+                "y": 66.78516387939453,
+                "z": -39.34770202636719
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Warrior",
+                "Cavalry",
+                "Hero",
+                "MountainWarrior"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "rts",
+            "image": "kingdom-rts.png",
+            "countOnScreen": 5,
+            "fullyInFrame": 5,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 24.024682998657228,
+            "cameraPosition": {
+                "x": -25.307388305664064,
+                "y": 70.7662582397461,
+                "z": -21.78598403930664
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Warrior",
+                "Cavalry",
+                "Hero",
+                "MountainWarrior"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "action",
+            "image": "kingdom-action.png",
+            "countOnScreen": 2,
+            "fullyInFrame": 1,
+            "hasPixels": true,
+            "hudVisible": false,
+            "orthographicSize": 2.0999999046325685,
+            "cameraPosition": {
+                "x": -4.967087745666504,
+                "y": 6.178279399871826,
+                "z": -15.974477767944336
+            },
+            "cameraEuler": {
+                "x": 22.000001907348634,
+                "y": 20.000001907348634,
+                "z": 0.0
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Warrior"
+            ],
+            "hudFramingApplied": false,
+            "hudPanelMeasurementValid": false,
+            "selectedCenterInFreeArea": false,
+            "selectedBoundsInFreeArea": false,
+            "centersInFreeArea": 0,
+            "boundsInFreeArea": 0,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "unitsInFreeArea": [],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        },
+        {
+            "view": "controls",
+            "image": "kingdom-controls.png",
+            "countOnScreen": 5,
+            "fullyInFrame": 5,
+            "hasPixels": true,
+            "hudVisible": true,
+            "orthographicSize": 34.66950607299805,
+            "cameraPosition": {
+                "x": -26.375246047973634,
+                "y": 69.462646484375,
+                "z": -23.31104278564453
+            },
+            "cameraEuler": {
+                "x": 55.000003814697269,
+                "y": 35.000003814697269,
+                "z": 0.0000014885088148730575
+            },
+            "unitsOnScreen": [
+                "Worker",
+                "Warrior",
+                "Cavalry",
+                "Hero",
+                "MountainWarrior"
+            ],
+            "hudFramingApplied": true,
+            "hudPanelMeasurementValid": true,
+            "selectedCenterInFreeArea": true,
+            "selectedBoundsInFreeArea": true,
+            "centersInFreeArea": 5,
+            "boundsInFreeArea": 5,
+            "hudFreeAreaPixels": {
+                "serializedVersion": "2",
+                "x": 8.0,
+                "y": 201.20001220703126,
+                "width": 1904.0,
+                "height": 748.3999633789063
+            },
+            "hudHeaderPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 957.5999755859375,
+                "width": 1920.0,
+                "height": 122.4000244140625
+            },
+            "hudFooterPixels": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1920.0,
+                "height": 193.20001220703126
+            },
+            "unitsInFreeArea": [
+                "Worker",
+                "Warrior",
+                "Cavalry",
+                "Hero",
+                "MountainWarrior"
+            ],
+            "metricsDrawCalls": {
+                "name": "Draw Calls Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            },
+            "metricsTriangles": {
+                "name": "Triangles Count",
+                "unit": "Count",
+                "reason": "Unavailable: all observed render samples were zero.",
+                "available": false,
+                "samples": 3,
+                "mean": -1.0,
+                "minimum": -1,
+                "maximum": -1
+            }
+        }
+    ],
+    "screenshots": [
+        "kingdom-close.png",
+        "kingdom-medium.png",
+        "kingdom-rts.png",
+        "kingdom-action.png",
+        "kingdom-controls.png"
+    ],
+    "problems": [],
+    "metricsDrawCalls": {
+        "name": "Draw Calls Count",
+        "unit": "Count",
+        "reason": "Unavailable: all observed render samples were zero.",
+        "available": false,
+        "samples": 3,
+        "mean": -1.0,
+        "minimum": -1,
+        "maximum": -1
+    },
+    "metricsTriangles": {
+        "name": "Triangles Count",
+        "unit": "Count",
+        "reason": "Unavailable: all observed render samples were zero.",
+        "available": false,
+        "samples": 3,
+        "mean": -1.0,
+        "minimum": -1,
+        "maximum": -1
+    }
+}

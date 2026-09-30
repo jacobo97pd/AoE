@@ -1,0 +1,130 @@
+{
+  "id": "caribbean_food_node",
+  "entry": {
+    "id": "caribbean_food_node",
+    "role": "resource",
+    "kind": "Food",
+    "lod0": 1200,
+    "lod1": 300,
+    "height": 1.6,
+    "footprint": 1.6,
+    "size": 512,
+    "biome": "caribbean",
+    "priority": 3,
+    "prompt": "Banana plant: a short thick stem crowned by six broad solid paddle-shaped leaves arching outward, a big hanging bunch of yellow bananas under them. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Leaves as thick flat blades, no tears, hard edges, flat faces. About 1.6 m tall. Isolated, no ground, no pot, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Leaves: fresh tropical green (#5FAF3F) with lighter midribs (#9CCB63). Stem: green-brown (#6F7A3A). Bananas: ripe yellow (#E8C84A) with brown tips (#6B4A2B), the brightest part of the model. No text or logos.",
+    "polycount": 1500
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d414-a092-702d-8249-9e9853f24eb9",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1324991245,
+        "prompt": "Banana plant: a short thick stem crowned by six broad solid paddle-shaped leaves arching outward, a big hanging bunch of yellow bananas under them. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Leaves as thick flat blades, no tears, hard edges, flat faces. About 1.6 m tall. Isolated, no ground, no pot, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264521099,
+        "progress": 100,
+        "started_at": 1790264521107,
+        "finished_at": 1790264529909,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d414-a092-702d-8249-9e9853f24eb9/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d414-a092-702d-8249-9e9853f24eb9/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:42:10.095061+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d414-d764-7751-a81f-b62cd5400871",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1324991245,
+        "prompt": "Banana plant: a short thick stem crowned by six broad solid paddle-shaped leaves arching outward, a big hanging bunch of yellow bananas under them. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Leaves as thick flat blades, no tears, hard edges, flat faces. About 1.6 m tall. Isolated, no ground, no pot, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Leaves: fresh tropical green (#5FAF3F) with lighter midribs (#9CCB63). Stem: green-brown (#6F7A3A). Bananas: ripe yellow (#E8C84A) with brown tips (#6B4A2B), the brightest part of the model. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264535955,
+        "progress": 100,
+        "started_at": 1790264535963,
+        "finished_at": 1790264582416,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d414-d764-7751-a81f-b62cd5400871/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d414-d764-7751-a81f-b62cd5400871/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d414-d764-7751-a81f-b62cd5400871/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d414-d764-7751-a81f-b62cd5400871/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d414-d764-7751-a81f-b62cd5400871/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d414-d764-7751-a81f-b62cd5400871/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:43:07.295738+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 74992,
+      "sha256": "1016c689091fc21934354a63292217dff8b9e7f5dca0c705d7f828a059741478"
+    },
+    "model_glb": {
+      "file": "caribbean_food_node_model.glb",
+      "bytes": 5706224,
+      "sha256": "70cc6397de42dd051ce5f83ecccad61b8d9fb678c7203181348f43550cfe5a89"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 98477,
+      "sha256": "7d9ffb6578672054a65127f9f67c6afb9c7a4e7e9eca78a8d30eb3878d3152c2"
+    },
+    "texture_base_color": {
+      "file": "caribbean_food_node_base_color.png",
+      "bytes": 4757622,
+      "sha256": "0a25a6d8a22963eaa8fd0e5cfe57aabbb31e4699cf86379fe38a830c90de6231"
+    },
+    "texture_metallic": {
+      "file": "caribbean_food_node_metallic.png",
+      "bytes": 32203,
+      "sha256": "e0247b10c842da35e110aa4f87f40d6f45a02270b7ae9a2b7dce4bfeceb564b6"
+    },
+    "texture_roughness": {
+      "file": "caribbean_food_node_roughness.png",
+      "bytes": 1154109,
+      "sha256": "af53ac4c9a576c902cbc3936b7737138903307f2cc001d20d073000f3e378a7a"
+    },
+    "texture_normal": {
+      "file": "caribbean_food_node_normal.png",
+      "bytes": 3421563,
+      "sha256": "74a3028caaaf9bb4c337127aa8376e36d55392360a61fb6d2c3f9547aabfccec"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1420,
+    "lod0": 1200,
+    "lod1": 300,
+    "fittedMetres": [
+      1.175,
+      1.125,
+      1.6
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

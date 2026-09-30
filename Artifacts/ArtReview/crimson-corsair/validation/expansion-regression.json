@@ -1,0 +1,1484 @@
+{
+  "Utc": "2026-09-11T08:12:51.8037504Z",
+  "RulesSha256": "2E2EB2C0123ABFEF35EBC3070700F6649ED0AB631FD73E31FAEFC90A0DCB6309",
+  "SimulationSha256": "6B4FC6D269A0A5393CA897D39AEC342769EE89F11C82384D71C1DAFB23604AC6",
+  "Method": "Natural matches use authored resources, ordinary commands and restricted AI observations. Production and combat fixtures explicitly spawn infrastructure/armies with test inventory; they verify rules and report pacing, not ranked balance or rendering performance.",
+  "Failures": 0,
+  "Cases": [
+    {
+      "Type": "production",
+      "Faction": "aven",
+      "EraTier": 4,
+      "Unique": "threadkeeper",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "aven_stores",
+        "gather_1",
+        "gather_2"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "threadkeeper",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "serevin",
+      "EraTier": 4,
+      "Unique": "ashrunner",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "serevin_camps"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "ashrunner",
+          "AttackDamage": 10,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "miraj",
+      "EraTier": 4,
+      "Unique": "dune_elephant",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "miraj_howdahs"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "dune_elephant",
+          "AttackDamage": 30,
+          "Armor": 5
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "skeld",
+      "EraTier": 4,
+      "Unique": "frostguard",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "skeld_oathsteel"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "frostguard",
+          "AttackDamage": 19,
+          "Armor": 3
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "solar",
+      "EraTier": 4,
+      "Unique": "sun_lion",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "solar_radiance"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "sun_lion",
+          "AttackDamage": 22,
+          "Armor": 4
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "verdant",
+      "EraTier": 4,
+      "Unique": "grove_guardian",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "verdant_heartwood"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "grove_guardian",
+          "AttackDamage": 22,
+          "Armor": 7
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "ashen",
+      "EraTier": 4,
+      "Unique": "war_troll",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "ashen_bloodpact",
+        "gather_1",
+        "gather_2"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "war_troll",
+          "AttackDamage": 34,
+          "Armor": 1
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "drakeforged",
+      "EraTier": 4,
+      "Unique": "ember_drake",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "drakeforged_scales",
+        "gather_1",
+        "gather_2"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "ember_drake",
+          "AttackDamage": 32,
+          "Armor": 5
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "dune_elephant",
+      "Counter": "reedguard",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 9.25,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 43
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "dune_elephant",
+      "Counter": "reedguard",
+      "CounterCount": 6,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 9.25,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 43
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "dune_elephant",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 16.1,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "dune_elephant",
+          "Health": 182
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "dune_elephant",
+      "Counter": "stringwarden",
+      "CounterCount": 6,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 21.5,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "dune_elephant",
+          "Health": 21
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "dune_elephant",
+      "Counter": "strider",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 23.9,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "dune_elephant",
+          "Health": 119
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "dune_elephant",
+      "Counter": "strider",
+      "CounterCount": 6,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 21.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 16
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 38
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "dune_elephant",
+      "MaxHealth": 560,
+      "PopulationCost": 5,
+      "Cost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 2200,
+      "RangeMillimetres": 1300,
+      "DamageOverTwentySeconds": 408,
+      "DamagePerSecond": 20.4,
+      "TrainTicks": 500
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "sun_lion",
+      "Counter": "reedguard",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 4.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 37
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "sun_lion",
+      "Counter": "reedguard",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 4.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 37
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "sun_lion",
+      "Counter": "stringwarden",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 11.35,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "sun_lion",
+          "Health": 28
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "sun_lion",
+      "Counter": "stringwarden",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 11.35,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "sun_lion",
+          "Health": 28
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "sun_lion",
+      "Counter": "strider",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.8,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 2,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 89
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "sun_lion",
+      "Counter": "strider",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.8,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 2,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 89
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "sun_lion",
+      "MaxHealth": 220,
+      "PopulationCost": 3,
+      "Cost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 4600,
+      "RangeMillimetres": 1000,
+      "DamageOverTwentySeconds": 320,
+      "DamagePerSecond": 16,
+      "TrainTicks": 320
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "grove_guardian",
+      "Counter": "reedguard",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 10.5,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "grove_guardian",
+      "Counter": "reedguard",
+      "CounterCount": 5,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.35,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 5,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 9
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "grove_guardian",
+      "Counter": "stringwarden",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 28.8,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "grove_guardian",
+          "Health": 190
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "grove_guardian",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 36,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "grove_guardian",
+          "Health": 10
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "grove_guardian",
+      "Counter": "strider",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 27.5,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "grove_guardian",
+          "Health": 168
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "grove_guardian",
+      "Counter": "strider",
+      "CounterCount": 5,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 28.4,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 1,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "grove_guardian",
+      "MaxHealth": 560,
+      "PopulationCost": 4,
+      "Cost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 2000,
+      "RangeMillimetres": 1400,
+      "DamageOverTwentySeconds": 240,
+      "DamagePerSecond": 12,
+      "TrainTicks": 400
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "war_troll",
+      "Counter": "reedguard",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 7.75,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 12
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "war_troll",
+      "Counter": "reedguard",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 7.75,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 12
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "war_troll",
+      "Counter": "stringwarden",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 17.85,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "war_troll",
+          "Health": 30
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "war_troll",
+      "Counter": "stringwarden",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 17.85,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "war_troll",
+          "Health": 30
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "war_troll",
+      "Counter": "strider",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 16.2,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 2,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 23
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "war_troll",
+      "Counter": "strider",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 16.2,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 2,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 23
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "war_troll",
+      "MaxHealth": 420,
+      "PopulationCost": 4,
+      "Cost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 2800,
+      "RangeMillimetres": 1300,
+      "DamageOverTwentySeconds": 602,
+      "DamagePerSecond": 30.1,
+      "TrainTicks": 400
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "ember_drake",
+      "Counter": "reedguard",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 5.8,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 22
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 60
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "ember_drake",
+      "Counter": "reedguard",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 5.8,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 22
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 60
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "ember_drake",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 15.1,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "ember_drake",
+          "Health": 44
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "ember_drake",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 15.1,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "ember_drake",
+          "Health": 44
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "ember_drake",
+      "Counter": "strider",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 10
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 79
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 90
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 90
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "ember_drake",
+      "Counter": "strider",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 10
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 79
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 90
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 90
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "ember_drake",
+      "MaxHealth": 380,
+      "PopulationCost": 5,
+      "Cost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 3300,
+      "RangeMillimetres": 4500,
+      "DamageOverTwentySeconds": 468,
+      "DamagePerSecond": 23.4,
+      "TrainTicks": 520
+    },
+    {
+      "Type": "dispersed-ranged-focus",
+      "Creature": "ember_drake",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 13.45,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "stringwarden",
+          "Health": 6
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "stringwarden",
+          "Health": 70
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "stringwarden",
+          "Health": 70
+        }
+      ]
+    }
+  ]
+}

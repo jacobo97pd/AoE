@@ -1,0 +1,250 @@
+{
+  "id": "sultanate_worker",
+  "entry": {
+    "id": "sultanate_worker",
+    "name": "Peón del sultanato",
+    "culture": "sultanate",
+    "factions": [
+      "sultanate"
+    ],
+    "unit": "tender",
+    "role": "worker",
+    "sheet": "Assets/Models/Units/sultanate_worker/concept.png",
+    "height": 1.75,
+    "gameHeight": 2.3,
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "concept": {
+      "references": [
+        "sultanate_warrior",
+        "sultanate_worker"
+      ],
+      "prompt": "Same painted 3D game-art style, desert people and cream robes with turquoise cloth as these figures: a desert labourer with a cream turban and face veil, a long cream tunic, loose trousers, a turquoise tabard and sash, sandals, a pickaxe and a sack slung on his back. Dignified, no emblem."
+    }
+  },
+  "steps": {
+    "model": {
+      "task": {
+        "id": "01a0e3ae-d8d5-7216-ba32-29a7d696140c",
+        "type": "image-to-3d",
+        "name": "",
+        "art_style": "",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526283476,
+        "progress": 100,
+        "started_at": 1790526283484,
+        "finished_at": 1790526351925,
+        "expires_at": 1790785551925,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-d8d5-7216-ba32-29a7d696140c/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-d8d5-7216-ba32-29a7d696140c/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-d8d5-7216-ba32-29a7d696140c/output/model.fbx"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-d8d5-7216-ba32-29a7d696140c/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-d8d5-7216-ba32-29a7d696140c/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-d8d5-7216-ba32-29a7d696140c/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-d8d5-7216-ba32-29a7d696140c/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-d8d5-7216-ba32-29a7d696140c/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 905,
+      "finished_utc": "2026-09-27T16:26:04.536946+00:00"
+    },
+    "rig": {
+      "task": {
+        "id": "01a0e3b0-1edf-762b-8993-4b98e26ed876",
+        "type": "rig",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526368224,
+        "progress": 100,
+        "started_at": 1790526368232,
+        "finished_at": 1790526408298,
+        "expires_at": 1790785608298,
+        "task_error": null,
+        "result": {
+          "rigged_character_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-1edf-762b-8993-4b98e26ed876/output/Character_output.fbx",
+          "rigged_character_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-1edf-762b-8993-4b98e26ed876/output/Character_output.glb",
+          "basic_animations": {
+            "walking_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-1edf-762b-8993-4b98e26ed876/output/Animation_Walking_withSkin.glb",
+            "walking_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-1edf-762b-8993-4b98e26ed876/output/Animation_Walking_withSkin.fbx",
+            "walking_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-1edf-762b-8993-4b98e26ed876/output/Animation_Walking_withSkin_armature.glb",
+            "running_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-1edf-762b-8993-4b98e26ed876/output/Animation_Running_withSkin.glb",
+            "running_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-1edf-762b-8993-4b98e26ed876/output/Animation_Running_withSkin.fbx",
+            "running_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-1edf-762b-8993-4b98e26ed876/output/Animation_Running_withSkin_armature.glb"
+          }
+        },
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 900,
+      "finished_utc": "2026-09-27T16:26:54.974825+00:00"
+    },
+    "animations": {
+      "task": {
+        "id": "01a0e3b0-e3dc-743b-8b2e-8cee25f3acb3",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526416093,
+        "progress": 100,
+        "started_at": 1790526416101,
+        "finished_at": 1790526450732,
+        "expires_at": 1790785650732,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-e3dc-743b-8b2e-8cee25f3acb3/output/merged_animations.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3b0-e3dc-743b-8b2e-8cee25f3acb3/output/merged_animations.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 885,
+      "finished_utc": "2026-09-27T16:27:41.130563+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_worker_model.glb",
+      "bytes": 7541964,
+      "sha256": "7767223b33bec47b80f577615a2b348d2d0a84a71bdce0cad6e9779c2837bfc4"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 123080,
+      "sha256": "d729d879172b595e09ecdecb3bbe32d50042e6cb01dee5075bfd4aeb80395250"
+    },
+    "texture_base_color": {
+      "file": "sultanate_worker_base_color.png",
+      "bytes": 5970044,
+      "sha256": "67b2ac693051773efd509719acd3fbbe6812d8b112093b6ac2ba57ab2f831a98"
+    },
+    "texture_metallic": {
+      "file": "sultanate_worker_metallic.png",
+      "bytes": 32573,
+      "sha256": "266682bd8471f559f24405d97b72cc03b9218595b9b028d14fc7d2bde0283abe"
+    },
+    "texture_roughness": {
+      "file": "sultanate_worker_roughness.png",
+      "bytes": 1253221,
+      "sha256": "f549b3f3a68671c66d5739175ad9812063077c0e52d27d79a26a327818b5ef43"
+    },
+    "texture_normal": {
+      "file": "sultanate_worker_normal.png",
+      "bytes": 5009374,
+      "sha256": "6ed6afcb0e2b52f23e9fba5b757e5d13b1d0d7b7008219ad7b346aa9e97da882"
+    },
+    "rigged_character_fbx": {
+      "file": "sultanate_worker_rigged_character.fbx",
+      "bytes": 6414588,
+      "sha256": "3380945ffdfa9dd74995972f0d2cc4450856844c46fd0f59b7517c0ebe5b3055"
+    },
+    "rigged_character_glb": {
+      "file": "sultanate_worker_rigged_character.glb",
+      "bytes": 6237848,
+      "sha256": "372a078f46cc9c43f0ad545af567c95c8edbd12986571e3788d3346bab52987d"
+    },
+    "walking_glb": {
+      "file": "sultanate_worker_walking.glb",
+      "bytes": 6250624,
+      "sha256": "7865843202a45724926fb9593fc53f1d6b8a8351d8e3cb2f783093b1c9ea81a1"
+    },
+    "walking_fbx": {
+      "file": "sultanate_worker_walking.fbx",
+      "bytes": 6439388,
+      "sha256": "ade1a2b3e842ca94ebd2683bbf52ee31bb141ec42b60008038bae703692e3e43"
+    },
+    "walking_armature_glb": {
+      "file": "sultanate_worker_walking_armature.glb",
+      "bytes": 65248,
+      "sha256": "08674857f1b797ec3a0ab3042e978c77aab8bff9aa399a9465468e6127bdd385"
+    },
+    "running_glb": {
+      "file": "sultanate_worker_running.glb",
+      "bytes": 6246016,
+      "sha256": "b23f873e3140751f25792d6aecd9ee920ee016b1beb61195a4e2dc5d785df32b"
+    },
+    "running_fbx": {
+      "file": "sultanate_worker_running.fbx",
+      "bytes": 6430700,
+      "sha256": "116828d1e187490513eb327f77a736a714b53950124a953b85e4136ef22992a9"
+    },
+    "running_armature_glb": {
+      "file": "sultanate_worker_running_armature.glb",
+      "bytes": 60640,
+      "sha256": "0c59da98ab2c6274a864ba18882877125cd90d94e296f98502f8e1746439f5a6"
+    },
+    "animation_glb": {
+      "file": "sultanate_worker_animation.glb",
+      "bytes": 6533744,
+      "sha256": "ed181583a5e5dda01cbc5ce122955d6e0f1465b983896afabab203f8f14e8f36"
+    },
+    "animation_fbx": {
+      "file": "sultanate_worker_animation.fbx",
+      "bytes": 7206988,
+      "sha256": "f9d125cfa3fb5eba11b1f290a7cbca8454e8b99514ec81c14ec969e3292ea98d"
+    }
+  },
+  "credits": 35,
+  "clips": [
+    {
+      "state": "Idle",
+      "action_id": 0
+    },
+    {
+      "state": "Work",
+      "action_id": 237
+    },
+    {
+      "state": "Attack",
+      "action_id": 4
+    },
+    {
+      "state": "Hit",
+      "action_id": 178
+    },
+    {
+      "state": "Death",
+      "action_id": 8
+    }
+  ],
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk",
+      "Work"
+    ],
+    "triangles": 3963,
+    "bones": 24,
+    "walkMetresPerSecond": 1.267,
+    "runMetresPerSecond": 3.266,
+    "climbMetresPerSecond": 0,
+    "heightMetres": 1.867,
+    "teamMaskCoverage": 0.2539
+  }
+}

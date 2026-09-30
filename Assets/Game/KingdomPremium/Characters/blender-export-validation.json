@@ -1,0 +1,366 @@
+{
+  "passed": true,
+  "scope": "Blender FBX reimport: meshes, finite vertices, normals, UV, material slots and actual triangle totals. Does not validate native Unity visuals or mobile performance.",
+  "unityImport": {
+    "rootYawDegrees": 180,
+    "finalSceneUp": "+Y",
+    "finalSceneForward": "-Z",
+    "groundY": 0
+  },
+  "characters": [
+    {
+      "name": "Worker",
+      "fbxBytes": 9258028,
+      "fbxSha256": "f719cb1e5755aaf8292b4f3509243c4d3ecd6633d40179c8a9afb140d4e3649b",
+      "meshes": [
+        {
+          "name": "Worker_LOD0",
+          "vertices": 116307,
+          "triangles": 227654,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 16,
+          "materialNames": [
+            "Skin",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "Hair",
+            "HairLight",
+            "SkinLips",
+            "IvoryCloth",
+            "LeatherLight",
+            "Leather",
+            "SteelDark",
+            "BlueCloth",
+            "StrawLight",
+            "Steel",
+            "Straw",
+            "Wood"
+          ],
+          "uvCount": 458044,
+          "worldMin": [
+            -0.44550231099128723,
+            -0.4538799822330475,
+            -9.768876374494084e-09
+          ],
+          "worldMax": [
+            0.5206605195999146,
+            0.37296971678733826,
+            2.37528657913208
+          ]
+        },
+        {
+          "name": "Worker_LOD1",
+          "vertices": 51551,
+          "triangles": 99999,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 16,
+          "materialNames": [
+            "Skin",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "Hair",
+            "HairLight",
+            "SkinLips",
+            "IvoryCloth",
+            "LeatherLight",
+            "Leather",
+            "SteelDark",
+            "BlueCloth",
+            "StrawLight",
+            "Steel",
+            "Straw",
+            "Wood"
+          ],
+          "uvCount": 299997,
+          "worldMin": [
+            -0.44550231099128723,
+            -0.4539037048816681,
+            -3.705576091306284e-05
+          ],
+          "worldMax": [
+            0.5206605195999146,
+            0.37296971678733826,
+            2.375288724899292
+          ]
+        },
+        {
+          "name": "Worker_LOD2",
+          "vertices": 18713,
+          "triangles": 34999,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 16,
+          "materialNames": [
+            "Skin",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "Hair",
+            "HairLight",
+            "SkinLips",
+            "IvoryCloth",
+            "LeatherLight",
+            "Leather",
+            "SteelDark",
+            "BlueCloth",
+            "StrawLight",
+            "Steel",
+            "Straw",
+            "Wood"
+          ],
+          "uvCount": 104997,
+          "worldMin": [
+            -0.4460136592388153,
+            -0.4542427659034729,
+            5.834031253471039e-05
+          ],
+          "worldMax": [
+            0.5207307934761047,
+            0.37296971678733826,
+            2.375239133834839
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warrior",
+      "fbxBytes": 11668220,
+      "fbxSha256": "5b7fcb5c104baab00cb6fc65f9dca8370fef38b21d85e0ab29be28692493103d",
+      "meshes": [
+        {
+          "name": "Warrior_LOD0",
+          "vertices": 138831,
+          "triangles": 274134,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 15,
+          "materialNames": [
+            "Skin",
+            "Leather",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "Hair",
+            "HairLight",
+            "SkinLips",
+            "SteelDark",
+            "IvoryCloth",
+            "Steel",
+            "LeatherLight",
+            "RoyalEmbroidery",
+            "Gold",
+            "BlueCloth"
+          ],
+          "uvCount": 549024,
+          "worldMin": [
+            -0.5354053974151611,
+            -0.5193175673484802,
+            -9.768876374494084e-09
+          ],
+          "worldMax": [
+            0.7753358483314514,
+            0.24449075758457184,
+            2.332371711730957
+          ]
+        },
+        {
+          "name": "Warrior_LOD1",
+          "vertices": 51029,
+          "triangles": 100000,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 15,
+          "materialNames": [
+            "Skin",
+            "Leather",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "Hair",
+            "HairLight",
+            "SkinLips",
+            "SteelDark",
+            "IvoryCloth",
+            "Steel",
+            "LeatherLight",
+            "RoyalEmbroidery",
+            "Gold",
+            "BlueCloth"
+          ],
+          "uvCount": 300000,
+          "worldMin": [
+            -0.5354053974151611,
+            -0.5190809369087219,
+            -3.705576091306284e-05
+          ],
+          "worldMax": [
+            0.7753358483314514,
+            0.24449075758457184,
+            2.332371711730957
+          ]
+        },
+        {
+          "name": "Warrior_LOD2",
+          "vertices": 18281,
+          "triangles": 34999,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 15,
+          "materialNames": [
+            "Skin",
+            "Leather",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "Hair",
+            "HairLight",
+            "SkinLips",
+            "SteelDark",
+            "IvoryCloth",
+            "Steel",
+            "LeatherLight",
+            "RoyalEmbroidery",
+            "Gold",
+            "BlueCloth"
+          ],
+          "uvCount": 104997,
+          "worldMin": [
+            -0.5354053974151611,
+            -0.5190809369087219,
+            0.00014868505240883678
+          ],
+          "worldMax": [
+            0.7753358483314514,
+            0.2444765418767929,
+            2.332568407058716
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "fbxBytes": 12153660,
+      "fbxSha256": "b93a0fcaa7a6a3481ad6a3457cb71020f8b8e2241bb489376ce2c682bcdea234",
+      "meshes": [
+        {
+          "name": "Hero_LOD0",
+          "vertices": 149757,
+          "triangles": 292168,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 20,
+          "materialNames": [
+            "Skin",
+            "Leather",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "HairRoyal",
+            "HairLight",
+            "Hair",
+            "SkinLips",
+            "HairSilver",
+            "SteelDark",
+            "IvoryCloth",
+            "Steel",
+            "LeatherLight",
+            "Gold",
+            "RoyalEmbroidery",
+            "BlueCloth",
+            "CapeLining",
+            "Fur",
+            "FurSpot"
+          ],
+          "uvCount": 582920,
+          "worldMin": [
+            -0.5741344690322876,
+            -0.4387146532535553,
+            -8.638929571702647e-09
+          ],
+          "worldMax": [
+            0.5741344690322876,
+            0.4104468524456024,
+            2.1406257152557373
+          ]
+        },
+        {
+          "name": "Hero_LOD1",
+          "vertices": 52575,
+          "triangles": 100000,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 20,
+          "materialNames": [
+            "Skin",
+            "Leather",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "HairRoyal",
+            "HairLight",
+            "Hair",
+            "SkinLips",
+            "HairSilver",
+            "SteelDark",
+            "IvoryCloth",
+            "Steel",
+            "LeatherLight",
+            "Gold",
+            "RoyalEmbroidery",
+            "BlueCloth",
+            "CapeLining",
+            "Fur",
+            "FurSpot"
+          ],
+          "uvCount": 300000,
+          "worldMin": [
+            -0.5741344690322876,
+            -0.4386659860610962,
+            3.621062933234498e-05
+          ],
+          "worldMax": [
+            0.5741344690322876,
+            0.4104468524456024,
+            2.140846014022827
+          ]
+        },
+        {
+          "name": "Hero_LOD2",
+          "vertices": 19735,
+          "triangles": 34829,
+          "invalidVerticesOrNormals": 0,
+          "materialCount": 20,
+          "materialNames": [
+            "Skin",
+            "Leather",
+            "EyeIvory",
+            "EyeIris",
+            "EyePupil",
+            "HairRoyal",
+            "HairLight",
+            "Hair",
+            "SkinLips",
+            "HairSilver",
+            "SteelDark",
+            "IvoryCloth",
+            "Steel",
+            "LeatherLight",
+            "Gold",
+            "RoyalEmbroidery",
+            "BlueCloth",
+            "CapeLining",
+            "Fur",
+            "FurSpot"
+          ],
+          "uvCount": 104487,
+          "worldMin": [
+            -0.5738331079483032,
+            -0.4386591911315918,
+            1.9996282674128452e-07
+          ],
+          "worldMax": [
+            0.5738331079483032,
+            0.4114358723163605,
+            2.141514539718628
+          ]
+        }
+      ]
+    }
+  ]
+}

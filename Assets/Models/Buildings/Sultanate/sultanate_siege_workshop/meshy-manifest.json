@@ -1,0 +1,213 @@
+{
+  "id": "sultanate_siege_workshop",
+  "entry": {
+    "id": "sultanate_siege_workshop",
+    "style": "sultanate",
+    "building": "siege_workshop",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert siege workshop. A square yard of low whitewashed mudbrick walls with one side fully open, a wide timber shade roof on posts over half of it, a tall wooden crane beam over the opening, a half-built wooden battering ram frame inside, stacked timber and a turquoise cloth banner on the crane."
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3da-fed0-717e-8643-edaf09f9c274",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2698658432,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert siege workshop. A square yard of low whitewashed mudbrick walls with one side fully open, a wide timber shade roof on posts over half of it, a tall wooden crane beam over the opening, a half-built wooden battering ram frame inside, stacked timber and a turquoise cloth banner on the crane. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529176815,
+        "progress": 100,
+        "started_at": 1790529176824,
+        "finished_at": 1790529187187,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3da-fed0-717e-8643-edaf09f9c274/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3da-fed0-717e-8643-edaf09f9c274/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:13:14.294433+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3db-4ac0-7106-9b45-2fdb9ce7c8b0",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2698658432,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert siege workshop. A square yard of low whitewashed mudbrick walls with one side fully open, a wide timber shade roof on posts over half of it, a tall wooden crane beam over the opening, a half-built wooden battering ram frame inside, stacked timber and a turquoise cloth banner on the crane. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529194729,
+        "progress": 100,
+        "started_at": 1790529194741,
+        "finished_at": 1790529242901,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-4ac0-7106-9b45-2fdb9ce7c8b0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-4ac0-7106-9b45-2fdb9ce7c8b0/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-4ac0-7106-9b45-2fdb9ce7c8b0/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-4ac0-7106-9b45-2fdb9ce7c8b0/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-4ac0-7106-9b45-2fdb9ce7c8b0/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-4ac0-7106-9b45-2fdb9ce7c8b0/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:14:06.111644+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_siege_workshop_model.glb",
+      "bytes": 7552760,
+      "sha256": "55027e8c4dce835271d9f7efbe1354519aba48a06d554a6dc7d1addf47347eaf"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 101337,
+      "sha256": "df8bea7dcd84827537c4c98917b188d46b7ac7d2382672787b8401764d509ce7"
+    },
+    "texture_base_color": {
+      "file": "sultanate_siege_workshop_base_color.png",
+      "bytes": 5232931,
+      "sha256": "bae756d16927855b9157cdd284cbfbf75ab4cc816a442f5549c0be84bf175872"
+    },
+    "texture_metallic": {
+      "file": "sultanate_siege_workshop_metallic.png",
+      "bytes": 32418,
+      "sha256": "2f6a6a27cedae1d48e00a93e8257f769c6b70892fc3347bf3431916a734ebdb5"
+    },
+    "texture_roughness": {
+      "file": "sultanate_siege_workshop_roughness.png",
+      "bytes": 1164559,
+      "sha256": "55debcf8fb37c9c305add434971fb2c946b089d3ff810222b95dc4d72db12576"
+    },
+    "texture_normal": {
+      "file": "sultanate_siege_workshop_normal.png",
+      "bytes": 4697695,
+      "sha256": "a11f068da26732587e044333f87da4cb86365a45130f8c4284a6ad1d5d42cee0"
+    }
+  },
+  "credits": 30,
+  "rejected_try1": {
+    "steps": {
+      "preview": {
+        "task": {
+          "id": "01a0e3d5-ec6d-7136-8c89-0411ec8affcf",
+          "type": "text-to-3d-preview",
+          "mode": "preview",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 3666428271,
+          "prompt": "Low-poly game asset for a top-down strategy game: a desert siege workshop. A square mudbrick workshop with one side fully open under a wide timber lean-to roof, a large wooden crane beam over the opening, a half-built wooden battering ram frame inside, stacked timber beside it and a turquoise cloth banner on the crane. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+          "texture_prompt": "",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790528844278,
+          "progress": 100,
+          "started_at": 1790528844284,
+          "finished_at": 1790528855628,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-ec6d-7136-8c89-0411ec8affcf/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d5-ec6d-7136-8c89-0411ec8affcf/output/preview.png",
+          "texture_urls": [],
+          "consumed_credits": 5
+        },
+        "credits": 5,
+        "finished_utc": "2026-09-27T17:07:41.795860+00:00"
+      },
+      "refine": {
+        "task": {
+          "id": "01a0e3d6-37ee-7629-af10-253003cdd6b8",
+          "type": "text-to-3d-refine",
+          "mode": "refine",
+          "name": "",
+          "model_type": "smart-topology",
+          "seed": 3666428271,
+          "prompt": "Low-poly game asset for a top-down strategy game: a desert siege workshop. A square mudbrick workshop with one side fully open under a wide timber lean-to roof, a large wooden crane beam over the opening, a half-built wooden battering ram frame inside, stacked timber beside it and a turquoise cloth banner on the crane. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+          "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+          "texture_image_url": "",
+          "status": "SUCCEEDED",
+          "created_at": 1790528862227,
+          "progress": 100,
+          "started_at": 1790528862232,
+          "finished_at": 1790528914029,
+          "task_error": null,
+          "model_urls": {
+            "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-37ee-7629-af10-253003cdd6b8/output/model.glb"
+          },
+          "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-37ee-7629-af10-253003cdd6b8/output/preview.png",
+          "texture_urls": [
+            {
+              "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-37ee-7629-af10-253003cdd6b8/output/texture_0.png",
+              "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-37ee-7629-af10-253003cdd6b8/output/texture_0_metallic.png",
+              "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-37ee-7629-af10-253003cdd6b8/output/texture_0_roughness.png",
+              "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d6-37ee-7629-af10-253003cdd6b8/output/texture_0_normal.png"
+            }
+          ],
+          "consumed_credits": 10
+        },
+        "credits": 10,
+        "finished_utc": "2026-09-27T17:08:42.113273+00:00"
+      }
+    },
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert siege workshop. A square mudbrick workshop with one side fully open under a wide timber lean-to roof, a large wooden crane beam over the opening, a half-built wooden battering ram frame inside, stacked timber beside it and a turquoise cloth banner on the crane.",
+    "finish": {
+      "sourceTriangles": 4878,
+      "triangles": 4878,
+      "fittedMetres": [
+        2.88,
+        2.801,
+        2.059
+      ],
+      "teamMaskCoverage": 0.0024
+    },
+    "why": "log-cabin walls, out of the culture's whitewash and sandstone style"
+  },
+  "finish": {
+    "sourceTriangles": 5316,
+    "triangles": 5316,
+    "fittedMetres": [
+      2.88,
+      2.88,
+      1.98
+    ],
+    "teamMaskCoverage": 0.0154
+  }
+}

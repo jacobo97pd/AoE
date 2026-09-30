@@ -1,0 +1,184 @@
+{
+  "id": "orc_rider",
+  "entry": {
+    "id": "orc_rider",
+    "name": "Jinete de lobo",
+    "culture": "orc",
+    "factions": [
+      "ashen"
+    ],
+    "unit": "strider",
+    "height": 2.2,
+    "gameHeight": 3.0,
+    "teamHues": [
+      [
+        343,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "teamSaturation": 0.4,
+    "prompt": "Low-poly game asset for a top-down strategy game: a green-skinned orc raider riding a huge grey wolf, crude leather and spiked black iron armour, a jagged cleaver held up, red rags tied to the saddle, the wolf with a shaggy mane and bared teeth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wolf fur dark grey (#5A5A58) with lighter belly (#8C8A84). Orc skin olive green (#6E7A3A). Leather tan (#8A6E4E), iron black (#34343A). Rags saturated blood red (#9A2A22). No text or logos.",
+    "role": "melee",
+    "rig": "quadruped"
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d480-600b-77a9-b583-140f09a961ec",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2341077924,
+        "prompt": "Low-poly game asset for a top-down strategy game: a green-skinned orc raider riding a huge grey wolf, crude leather and spiked black iron armour, a jagged cleaver held up, red rags tied to the saddle, the wolf with a shaggy mane and bared teeth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271579722,
+        "progress": 100,
+        "started_at": 1790271579729,
+        "finished_at": 1790271589538,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-600b-77a9-b583-140f09a961ec/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-600b-77a9-b583-140f09a961ec/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d480-ac5f-7637-84d3-7e98adbd5e11",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2341077924,
+        "prompt": "Low-poly game asset for a top-down strategy game: a green-skinned orc raider riding a huge grey wolf, crude leather and spiked black iron armour, a jagged cleaver held up, red rags tied to the saddle, the wolf with a shaggy mane and bared teeth. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wolf fur dark grey (#5A5A58) with lighter belly (#8C8A84). Orc skin olive green (#6E7A3A). Leather tan (#8A6E4E), iron black (#34343A). Rags saturated blood red (#9A2A22). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271599245,
+        "progress": 100,
+        "started_at": 1790271599253,
+        "finished_at": 1790271687498,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac5f-7637-84d3-7e98adbd5e11/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac5f-7637-84d3-7e98adbd5e11/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac5f-7637-84d3-7e98adbd5e11/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac5f-7637-84d3-7e98adbd5e11/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac5f-7637-84d3-7e98adbd5e11/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac5f-7637-84d3-7e98adbd5e11/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:41:33.128422+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_rider_model.glb",
+      "bytes": 6236680,
+      "sha256": "0aa078b6e8c1e3bfd0dce1ff2d31a9c336e4d862f000fcdcbb434352f50b281a"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 99134,
+      "sha256": "dae904c511affe537a60464d7dc3bf7dadccc87c2e0b85a45598724e99b7ad6f"
+    },
+    "texture_base_color": {
+      "file": "orc_rider_base_color.png",
+      "bytes": 4817683,
+      "sha256": "a68295d53108b3672bf45b2003ee32cf5f07ae0e796ffacb5750c981b075fce2"
+    },
+    "texture_metallic": {
+      "file": "orc_rider_metallic.png",
+      "bytes": 275860,
+      "sha256": "5c2996263239e493b0cccd382c0893cc65323425744d679885e5b77fd0a92ff0"
+    },
+    "texture_roughness": {
+      "file": "orc_rider_roughness.png",
+      "bytes": 1267190,
+      "sha256": "4cade44e632f2c3be8806d3458684f1530fce4c036d1883bfc6c0a344b7529ba"
+    },
+    "texture_normal": {
+      "file": "orc_rider_normal.png",
+      "bytes": 3896661,
+      "sha256": "39732391ffd21ead723db7d246d18d0dbbdc6cdb4bf12b69f28e92090b838f35"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 4757,
+    "bones": 51,
+    "heightMetres": 0.932,
+    "walkMetresPerSecond": 0.282,
+    "runMetresPerSecond": 1.218,
+    "scale": [
+      4.552,
+      5.058,
+      4.849
+    ],
+    "riderVertices": 1113,
+    "donorBack": 2.219,
+    "saddle": 1.0,
+    "bellies": [
+      0.274,
+      0.463
+    ],
+    "pinned": {
+      "muzzle": [
+        0.084,
+        0.077,
+        -0.602
+      ]
+    },
+    "tailVertices": 265,
+    "thinnedVertices": 255,
+    "legThickness": 0.0499,
+    "tailFit": {
+      "turn": -40.4,
+      "stretch": 1.0
+    },
+    "fusedLegs": [
+      "Front"
+    ],
+    "splitLegs": {},
+    "settled": {
+      "Walk": 0.037,
+      "Run": 0.05
+    },
+    "grounded": {
+      "Attack": {
+        "tail": 36.0,
+        "lift": 0.0341
+      },
+      "Hit": {
+        "lift": 0.0061
+      }
+    },
+    "teamMaskCoverage": 0.0509,
+    "rig": "transplanted from the Quaternius Wolf (CC0) by tools/art/transplant_rig.py"
+  }
+}

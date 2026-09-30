@@ -1,0 +1,134 @@
+{
+  "id": "sahel_muster_hall",
+  "entry": {
+    "id": "sahel_muster_hall",
+    "style": "sahel",
+    "building": "muster_hall",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.4,
+    "prompt": "Low-poly game asset for a top-down strategy game: a warriors' barracks. One long, low, solid mud-brick building, completely closed on all four sides, thick plain walls, a solid flat roof of packed earth behind a low parapet, rounded corners, wooden beam ends along the top of the walls, one wide doorway, a rack of spears and hide shields against the front wall and one indigo banner."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3dd-3cae-7585-8de1-e22fc06e4f21",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 552661756,
+        "prompt": "Low-poly game asset for a top-down strategy game: a warriors' barracks. One long, low, solid mud-brick building, completely closed on all four sides, thick plain walls, a solid flat roof of packed earth behind a low parapet, rounded corners, wooden beam ends along the top of the walls, one wide doorway, a rack of spears and hide shields against the front wall and one indigo banner. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529324328,
+        "progress": 100,
+        "started_at": 1790529324346,
+        "finished_at": 1790529341508,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-3cae-7585-8de1-e22fc06e4f21/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-3cae-7585-8de1-e22fc06e4f21/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:15:41.829077+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3dd-8b01-7478-bd69-fcd8750b7d4a",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 552661756,
+        "prompt": "Low-poly game asset for a top-down strategy game: a warriors' barracks. One long, low, solid mud-brick building, completely closed on all four sides, thick plain walls, a solid flat roof of packed earth behind a low parapet, rounded corners, wooden beam ends along the top of the walls, one wide doorway, a rack of spears and hide shields against the front wall and one indigo banner. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529342256,
+        "progress": 100,
+        "started_at": 1790529342280,
+        "finished_at": 1790529386940,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-8b01-7478-bd69-fcd8750b7d4a/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-8b01-7478-bd69-fcd8750b7d4a/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-8b01-7478-bd69-fcd8750b7d4a/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-8b01-7478-bd69-fcd8750b7d4a/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-8b01-7478-bd69-fcd8750b7d4a/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3dd-8b01-7478-bd69-fcd8750b7d4a/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:16:33.662228+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_muster_hall_model.glb",
+      "bytes": 5654932,
+      "sha256": "4666826619c8cdc072324a53ae941c06845c6aef901d06530299e9113222c0ff"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 107211,
+      "sha256": "69b6fcff2f1c695c19fdddcefe4c4c39541f76e9edfd5957c0e7f80c58f543b6"
+    },
+    "texture_base_color": {
+      "file": "sahel_muster_hall_base_color.png",
+      "bytes": 4114965,
+      "sha256": "522b04eb453c035f98c0092d3320234e6dc75e3688ebba840aecca31284d9d4b"
+    },
+    "texture_metallic": {
+      "file": "sahel_muster_hall_metallic.png",
+      "bytes": 19401,
+      "sha256": "05886eb6f5794c7072c0b506bda94fa338021999efc2f754c9d9021266a06e9b"
+    },
+    "texture_roughness": {
+      "file": "sahel_muster_hall_roughness.png",
+      "bytes": 1117931,
+      "sha256": "f0924adca89a81c9102ab4b6b0226c81d844a973f32db83ff2dfce127a4e756c"
+    },
+    "texture_normal": {
+      "file": "sahel_muster_hall_normal.png",
+      "bytes": 3370578,
+      "sha256": "ba78e2607454e3d90995e6b9f5af12ab6d8b2255f134ec2e0bee7360884d6e99"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 5192,
+    "triangles": 5192,
+    "fittedMetres": [
+      2.88,
+      2.88,
+      1.018
+    ],
+    "teamMaskCoverage": 0.0009
+  }
+}

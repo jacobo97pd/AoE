@@ -1,0 +1,133 @@
+{
+  "id": "elf_hearth",
+  "entry": {
+    "id": "elf_hearth",
+    "style": "elf",
+    "building": "hearth",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: the council hall of an elven forest town. One graceful, fully enclosed hall of pale stone and living wood, clearly the biggest building, with a tall sweeping leaf-shaped roof, tall arched windows, a small tree growing through the roof and two blue banners by the door."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d437-4c6a-779b-a6a3-9fac80bed8ec",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2828685147,
+        "prompt": "Low-poly game asset for a top-down strategy game: the council hall of an elven forest town. One graceful, fully enclosed hall of pale stone and living wood, clearly the biggest building, with a tall sweeping leaf-shaped roof, tall arched windows, a small tree growing through the roof and two blue banners by the door. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266792792,
+        "progress": 100,
+        "started_at": 1790266792799,
+        "finished_at": 1790266804013,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c6a-779b-a6a3-9fac80bed8ec/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-4c6a-779b-a6a3-9fac80bed8ec/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:20:10.266108+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d437-a148-7569-a4c5-25a98be1cf29",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2828685147,
+        "prompt": "Low-poly game asset for a top-down strategy game: the council hall of an elven forest town. One graceful, fully enclosed hall of pale stone and living wood, clearly the biggest building, with a tall sweeping leaf-shaped roof, tall arched windows, a small tree growing through the roof and two blue banners by the door. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266813420,
+        "progress": 100,
+        "started_at": 1790266813427,
+        "finished_at": 1790266869229,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a148-7569-a4c5-25a98be1cf29/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a148-7569-a4c5-25a98be1cf29/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a148-7569-a4c5-25a98be1cf29/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a148-7569-a4c5-25a98be1cf29/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a148-7569-a4c5-25a98be1cf29/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d437-a148-7569-a4c5-25a98be1cf29/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:21:13.301563+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_hearth_model.glb",
+      "bytes": 7656148,
+      "sha256": "3d9ab24574462f9da72f3d195cf0bb7861041a7f6d54f86a3400b42621d370e0"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 250808,
+      "sha256": "298ad75f0175464f73b2438d7653575b2023a135a75ded58ef2850333f70d1a1"
+    },
+    "texture_base_color": {
+      "file": "elf_hearth_base_color.png",
+      "bytes": 5407966,
+      "sha256": "bde391fb1f0da1ea6424058cc041e05dc1c2b48aab2cfc74388120b38876e884"
+    },
+    "texture_metallic": {
+      "file": "elf_hearth_metallic.png",
+      "bytes": 25096,
+      "sha256": "266861a442af23a5d68afb33ae06682cd2895cd293e65aed87726c28385ac644"
+    },
+    "texture_roughness": {
+      "file": "elf_hearth_roughness.png",
+      "bytes": 1328542,
+      "sha256": "74f034c108419159b3a475fc45bb04ebd07158579de8916d66c24d9ad49948c3"
+    },
+    "texture_normal": {
+      "file": "elf_hearth_normal.png",
+      "bytes": 4687184,
+      "sha256": "8670e03922ee3e2e94365a051d4f97f44861715a49577557464c9de630dcfde5"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4983,
+    "triangles": 4983,
+    "fittedMetres": [
+      3.84,
+      3.84,
+      3.578
+    ],
+    "teamMaskCoverage": 0.0076
+  }
+}

@@ -1,0 +1,118 @@
+{
+    "id": "figure_01",
+    "name": "Corsario de pólvora",
+    "family": "pirate",
+    "role": "ranged",
+    "suggestedFaction": "pirate",
+    "realm": "naval",
+    "modelPath": "figure_01/figure_01.fbx",
+    "sourceBlendPath": "Artifacts/ArtReview/reference-characters/figure_01/figure_01.blend",
+    "heightMetres": 2.3502224512485554,
+    "boundsMin": [
+        -0.595954179763794,
+        -0.47974979877471924,
+        -0.0001348085788777098
+    ],
+    "boundsMax": [
+        0.5778517723083496,
+        0.36417075991630554,
+        2.3500876426696777
+    ],
+    "locomotion": {
+        "walkMetresPerSecond": 1.7,
+        "runMetresPerSecond": 3.4
+    },
+    "clips": [
+        {
+            "name": "Corsair_Aim",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 49.0
+        },
+        {
+            "name": "Corsair_Attack",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 19.0
+        },
+        {
+            "name": "Corsair_Death",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 49.0
+        },
+        {
+            "name": "Corsair_Hit",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 16.0
+        },
+        {
+            "name": "Corsair_Idle",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 91.0
+        },
+        {
+            "name": "Corsair_Run",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 21.0
+        },
+        {
+            "name": "Corsair_Walk",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 33.0
+        },
+        {
+            "name": "Idle",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 91.0
+        },
+        {
+            "name": "Run",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 21.0
+        },
+        {
+            "name": "Fall",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 49.0
+        }
+    ],
+    "materials": [
+        {
+            "name": "PirateCrew_Surface",
+            "baseColor": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "metallic": 1,
+            "smoothness": 1,
+            "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/figure_01/Textures/BaseColor.png",
+            "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/figure_01/Textures/Normal.png",
+            "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/figure_01/Textures/MetallicSmoothness.png",
+            "normalScale": 1,
+            "tiling": [
+                1,
+                1
+            ]
+        }
+    ],
+    "triangles": 140000,
+    "lodTriangles": [
+        140000,
+        45000,
+        12000
+    ],
+    "bones": 27,
+    "referenceImage": "pirata3.png",
+    "fbxSha256": "63d9fd4257b382eee9f46ad555fb487559c8d886fe973edb671545acc82de254",
+    "interpretationNotes": "Reuses the supplied Meshy pirate and its existing project rig, textures, mesh LODs and animations. Geometry was not simplified or replaced. Idle/Run/Fall are aliases of existing actions; this is not a newly reconstructed model from the PNG."
+}

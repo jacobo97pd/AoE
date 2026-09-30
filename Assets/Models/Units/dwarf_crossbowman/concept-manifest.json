@@ -1,0 +1,35 @@
+{
+  "id": "dwarf_crossbowman",
+  "concept": {
+    "references": [
+      "dwarf_warrior",
+      "dwarf_miner"
+    ],
+    "prompt": "Same painted 3D game-art style and the same dwarf clan, with the same riveted bronze-and-steel plates and a crimson red tabard with gold runes, as these two figures: a stout dwarf crossbowman with a braided beard and an iron helm, a heavy steel crossbow and a bolt case slung on his back."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0d33a-c972-7784-9f81-dc92ef986233",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same painted 3D game-art style and the same dwarf clan, with the same riveted bronze-and-steel plates and a crimson red tabard with gold runes, as these two figures: a stout dwarf crossbowman with a braided beard and an iron helm, a heavy steel crossbow and a bolt case slung on his back. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790250241334,
+    "started_at": 1790250241340,
+    "finished_at": 1790250255252,
+    "expires_at": 1790509455252,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d33a-c972-7784-9f81-dc92ef986233_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 3526,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1210007,
+    "sha256": "7c361a5f74f9e172836396840be988f0565b937374ffe0ae1d486dfd34bf2cb9"
+  },
+  "finished_utc": "2026-09-24T11:44:19.319040+00:00"
+}

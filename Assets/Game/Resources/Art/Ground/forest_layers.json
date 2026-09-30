@@ -1,0 +1,121 @@
+{
+  "biome": "forest",
+  "layers": [
+    {
+      "name": "meadow grass",
+      "task": {
+        "id": "01a0d406-b4c2-7275-9ebb-12c641c5e328",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of short lush meadow grass with small tufts and a few tiny clover patches, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790263604941,
+        "started_at": 1790263604949,
+        "finished_at": 1790263650755,
+        "expires_at": 1790522850755,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d406-b4c2-7275-9ebb-12c641c5e328_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "forest_0.png",
+        "bytes": 1409287,
+        "sha256": "62245f29a963bd1ba063d28a438806db033744081cb7054845471dc1f267f73a"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of short lush meadow grass with small tufts and a few tiny clover patches, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:27:36.695045+00:00",
+      "mean": "#5A7A40"
+    },
+    {
+      "name": "forest floor",
+      "task": {
+        "id": "01a0d407-8365-745e-bbce-c71a09c708d6",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of forest floor of fallen brown leaves, moss patches and small twigs, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790263657747,
+        "started_at": 1790263657755,
+        "finished_at": 1790263715347,
+        "expires_at": 1790522915347,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d407-8365-745e-bbce-c71a09c708d6_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "forest_1.png",
+        "bytes": 1808274,
+        "sha256": "42184127d078d6997d66b46b5e5b3925391c4471d1f53eb34306e22d081478cb"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of forest floor of fallen brown leaves, moss patches and small twigs, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:28:38.065838+00:00",
+      "mean": "#4E4A33"
+    },
+    {
+      "name": "dirt path",
+      "task": {
+        "id": "01a0d408-727e-77f3-ba75-6344d32db817",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of packed brown dirt path with small pebbles and faint wheel ruts, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790263719062,
+        "started_at": 1790263719068,
+        "finished_at": 1790263737744,
+        "expires_at": 1790522937744,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d408-727e-77f3-ba75-6344d32db817_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "forest_2.png",
+        "bytes": 1204350,
+        "sha256": "e8b2f28a3de217a278227b31aedd435907a615f1a0094a22285516326d6f3108"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of packed brown dirt path with small pebbles and faint wheel ruts, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:29:05.424376+00:00",
+      "mean": "#8A7556"
+    },
+    {
+      "name": "river mud",
+      "task": {
+        "id": "01a0d408-dd5d-7415-b82f-1c6ff8c9fcc3",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of damp river-bank mud with small rounded pebbles and a little sparse grass, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790263746409,
+        "started_at": 1790263746417,
+        "finished_at": 1790263758712,
+        "expires_at": 1790522958712,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d408-dd5d-7415-b82f-1c6ff8c9fcc3_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "forest_3.png",
+        "bytes": 1435213,
+        "sha256": "c331ccade7ef7ffddb9ad471ca2676065ed867563c618fffa5025083b9a7c051"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of damp river-bank mud with small rounded pebbles and a little sparse grass, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:29:24.164432+00:00",
+      "mean": "#6E6A52"
+    }
+  ]
+}

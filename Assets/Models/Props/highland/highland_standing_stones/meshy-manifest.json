@@ -1,0 +1,130 @@
+{
+  "id": "highland_standing_stones",
+  "entry": {
+    "id": "highland_standing_stones",
+    "role": "landmark",
+    "kind": "standing_stones",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 2.6,
+    "footprint": 4.0,
+    "size": 1024,
+    "biome": "highland",
+    "priority": 6,
+    "polycount": 3000,
+    "prompt": "Ring of standing stones: seven tall rough granite monoliths standing in a circle on a low round grassy mound, one pair joined by a flat lintel stone on top, a small cairn of stacked stones at the centre, all fused to the mound. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 4 m wide and 2.6 m tall. Isolated, no ground plate, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stones: weathered grey granite (#8E8C85) with pale sunlit tops (#B9B6AC), cool shadows (#62666A) and pale lichen patches (#B7B58A). Mound: muted alpine turf green (#6F7D4E) with a few mauve heather tufts (#76606A). Faint worn carved spirals only, no letters, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75b-7bdc-7575-9fcb-6246a3de1d44",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1435546364,
+        "prompt": "Ring of standing stones: seven tall rough granite monoliths standing in a circle on a low round grassy mound, one pair joined by a flat lintel stone on top, a small cairn of stacked stones at the centre, all fused to the mound. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 4 m wide and 2.6 m tall. Isolated, no ground plate, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319493626,
+        "progress": 100,
+        "started_at": 1790319493630,
+        "finished_at": 1790319501839,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-7bdc-7575-9fcb-6246a3de1d44/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-7bdc-7575-9fcb-6246a3de1d44/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:58:22.651497+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d766-e4e5-7544-aa9d-784f77ebadb8",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1435546364,
+        "prompt": "Ring of standing stones: seven tall rough granite monoliths standing in a circle on a low round grassy mound, one pair joined by a flat lintel stone on top, a small cairn of stacked stones at the centre, all fused to the mound. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces. About 4 m wide and 2.6 m tall. Isolated, no ground plate, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stones: weathered grey granite (#8E8C85) with pale sunlit tops (#B9B6AC), cool shadows (#62666A) and pale lichen patches (#B7B58A). Mound: muted alpine turf green (#6F7D4E) with a few mauve heather tufts (#76606A). Faint worn carved spirals only, no letters, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320241609,
+        "progress": 100,
+        "started_at": 1790320241617,
+        "finished_at": 1790320287763,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d766-e4e5-7544-aa9d-784f77ebadb8/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d766-e4e5-7544-aa9d-784f77ebadb8/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d766-e4e5-7544-aa9d-784f77ebadb8/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d766-e4e5-7544-aa9d-784f77ebadb8/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d766-e4e5-7544-aa9d-784f77ebadb8/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d766-e4e5-7544-aa9d-784f77ebadb8/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:11:33.131576+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 76968,
+      "sha256": "d129bf85081ad9e22c4c393733b1148a2f910a0cd493385c0ead68c857801ed4"
+    },
+    "model_glb": {
+      "file": "highland_standing_stones_model.glb",
+      "bytes": 6261540,
+      "sha256": "93d119cbb39efbc8c7b33bd95a45016635bc3ce567c2c95c7f900c595e762891"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 89848,
+      "sha256": "12440eeaafacaa263cba10a558b447b93572ef869144f5c494bc3c6389c6e30a"
+    },
+    "texture_base_color": {
+      "file": "highland_standing_stones_base_color.png",
+      "bytes": 5688972,
+      "sha256": "0d24ddf33e63eaf8dc8858be53e4a98989d5d4c5930a5373e3cd433b49e4bdfa"
+    },
+    "texture_metallic": {
+      "file": "highland_standing_stones_metallic.png",
+      "bytes": 20950,
+      "sha256": "81785f361bae1172c37b5b90b98b229675d976af568364f08632af9f048dc118"
+    },
+    "texture_roughness": {
+      "file": "highland_standing_stones_roughness.png",
+      "bytes": 1219243,
+      "sha256": "17a042b9aa5f7971130ceb8acfd6107ed87c44dfe5591148b00b74726729ad2a"
+    },
+    "texture_normal": {
+      "file": "highland_standing_stones_normal.png",
+      "bytes": 4492201,
+      "sha256": "f3df213efa3158ba630ea7203dde1a34cca807d8ab175fc65c81fccc3ed6e38c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 2941,
+    "lod0": 2941,
+    "lod1": 799,
+    "fittedMetres": [
+      4.0,
+      4.0,
+      1.8
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

@@ -1,0 +1,17 @@
+# Shared surface atlas
+
+Generated with the built-in imagegen tool for the art overhaul. This is a material texture applied to native Unity meshes, not a scene, character sprite or edited screenshot. The original PNG was copied without pixel edits to `Assets/Game/ArtOverhaul/Textures/SurfaceAtlas.png`; Unity handles its platform import and mipmaps.
+
+The source image has sixteen surface regions, in four rows. The shader samples each region using an inset and explicit gradients. The final painted look combines this atlas with authored mesh colors and per-surface metallic/smoothness values. No external model or character design was imported.
+
+## Final generation prompt
+
+Use case: stylized-concept.
+Asset type: production-ready 2048 x 2048 square MATERIAL TEXTURE ATLAS for a native real-time 3D stylized fantasy/historical RTS, NOT a scene illustration.
+Create exactly SIXTEEN equally sized SQUARE material swatches in a strict 4 columns x 4 rows grid, edge-to-edge with zero border, zero gaps, zero labels. Every swatch fills its whole cell. Orthographic straight-down texture surfaces only, no perspective objects, no extruded sample blocks, no framing. Neutral mostly desaturated gray/taupe values because meshes will supply color tint. Rich hand-painted surface character, controlled broad value variation and medium-scale detail that survives an RTS camera; soft painted crevices, subtle edge wear. Flat diffuse/albedo lighting with no dramatic baked shadows or specular hotspots.
+Exact tile order from TOP LEFT to RIGHT, row by row:
+ROW 1: (0) thick woven neutral ivory-gray cloth with broad subtle folds and visible weave; (1) muted brown-gray worn leather with fine grain and broad irregular patina, no seams crossing boundary; (2) weathered warm-gray oak boards with elegant long grain, broad knots, three or four wide planks; (3) cool satin steel, finely brushed, softly mottled, restrained edge wear, no big scratches.
+ROW 2: (4) warm pale limestone masonry of broad rectangular medieval blocks with shallow mortar joints and beveled painted edges; (5) rounded irregular gray cobblestones with fine earth in joints; (6) lush moss/grass ground texture in low-saturation gray olive with clover-like small leaves and earthy patches, NOT a top view of a forest; (7) pale warm sand, broad gentle wind ripples and sparse tiny grains.
+ROW 3: (8) staggered medieval terracotta roof tiles in DESATURATED gray-brown, shallow overlaps and scalloped edges; (9) staggered slate roof shingles in cool gray, broad tidy layered rows; (10) dense clusters of stylized broad leaves in desaturated gray green, no branches or sky; (11) broad overlapping reptilian dragon scales in dark cool gray, each scale softened and hand painted, no creature depicted.
+ROW 4: (12) straw/thatch fibers in pale gray ochre, subtle bundled variation; (13) warm ivory lime plaster with light mottling and modest weathered patches; (14) layered granite/sandstone rocky surface in neutral gray taupe, broad irregular planes with fine fissures; (15) ancient pale gray stone slabs with very sparse simple branching geometric carved grooves, original non-letter patterns, absolutely no glowing effects.
+Consistent premium painterly game texture craft, readable varied surface grain, no photography, no typography, no logos, no watermarks, no characters, no landscapes. Texture tiles must be square, precisely occupy one quarter of width and height, no diagonal boundaries, no decorative atlas presentation.

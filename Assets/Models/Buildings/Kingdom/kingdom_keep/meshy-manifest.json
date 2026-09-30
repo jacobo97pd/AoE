@@ -1,0 +1,137 @@
+{
+  "id": "kingdom_keep",
+  "entry": {
+    "id": "kingdom_keep",
+    "style": "kingdom",
+    "building": "keep",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.7,
+    "prompt": "Low-poly game asset: a medieval castle keep for a top-down strategy game. One massive square stone tower, taller than every other building, with crenellated battlements on top and four small round corner turrets with pointed slate roofs. Heavy wooden gate at the base, arrow-slit windows. Royal blue banners hang from the battlements."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d32e-8924-7214-b6c2-db669edc1334",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2784778520,
+        "prompt": "Low-poly game asset: a medieval castle keep for a top-down strategy game. One massive square stone tower, taller than every other building, with crenellated battlements on top and four small round corner turrets with pointed slate roofs. Heavy wooden gate at the base, arrow-slit windows. Royal blue banners hang from the battlements. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249439289,
+        "progress": 100,
+        "started_at": 1790249439297,
+        "finished_at": 1790249447359,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32e-8924-7214-b6c2-db669edc1334/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32e-8924-7214-b6c2-db669edc1334/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3611,
+      "finished_utc": "2026-09-24T11:30:48.183676+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d32e-b8c6-7275-a9f5-744fbad1264c",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2784778520,
+        "prompt": "Low-poly game asset: a medieval castle keep for a top-down strategy game. One massive square stone tower, taller than every other building, with crenellated battlements on top and four small round corner turrets with pointed slate roofs. Heavy wooden gate at the base, arrow-slit windows. Royal blue banners hang from the battlements. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249449707,
+        "progress": 100,
+        "started_at": 1790249449714,
+        "finished_at": 1790249496826,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32e-b8c6-7275-a9f5-744fbad1264c/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32e-b8c6-7275-a9f5-744fbad1264c/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32e-b8c6-7275-a9f5-744fbad1264c/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32e-b8c6-7275-a9f5-744fbad1264c/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32e-b8c6-7275-a9f5-744fbad1264c/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32e-b8c6-7275-a9f5-744fbad1264c/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "balance_after": 3601,
+      "finished_utc": "2026-09-24T11:31:41.004953+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_keep_model.glb",
+      "bytes": 6934400,
+      "sha256": "f36374202b5ee7dbd0f6ad8842f2837967179f740187d3ec5a12725ad41da4b9"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 168087,
+      "sha256": "bb866b5952f7f3747909d871436de37926048859201dd4c4d9ce618d8b59baeb"
+    },
+    "texture_base_color": {
+      "file": "kingdom_keep_base_color.png",
+      "bytes": 5491520,
+      "sha256": "160a83e9f5a81b7a2a8d14d3599c1b1a836819d530dd1b25c2dc2be0d15485cc"
+    },
+    "texture_metallic": {
+      "file": "kingdom_keep_metallic.png",
+      "bytes": 21577,
+      "sha256": "7aac29681a0cf71f847d26da8da715538f96c5bc60d3e108eefce7c25c4a0ca2"
+    },
+    "texture_roughness": {
+      "file": "kingdom_keep_roughness.png",
+      "bytes": 1324114,
+      "sha256": "cd79f87fa10249c94e869745cc5dfee493a607256f14d04de3fb71522cef6075"
+    },
+    "texture_normal": {
+      "file": "kingdom_keep_normal.png",
+      "bytes": 4184114,
+      "sha256": "6aa08bd7fe0354a30d16051eea44bed72d2104221fec5670c9f437418eda9166"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4496,
+    "triangles": 4496,
+    "fittedMetres": [
+      3.472,
+      3.84,
+      4.594
+    ],
+    "teamMaskCoverage": 0.0049
+  }
+}

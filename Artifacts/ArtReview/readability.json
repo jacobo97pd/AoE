@@ -1,0 +1,50 @@
+{
+    "method": "Actual posed LOD0 vertices projected by RTSCamera; full silhouette including equipment. Offscreen resolution, not physical device validation.",
+    "pitch": 55.0,
+    "yaw": 35.0,
+    "orthographicSize": 8.0,
+    "measurements": [
+        {
+            "unit": "tender",
+            "width": 1920,
+            "height": 1080,
+            "silhouetteWidthPixels": 69.56039428710938,
+            "silhouetteHeightPixels": 122.2123031616211
+        },
+        {
+            "unit": "reedguard",
+            "width": 1920,
+            "height": 1080,
+            "silhouetteWidthPixels": 85.166015625,
+            "silhouetteHeightPixels": 113.18627166748047
+        },
+        {
+            "unit": "tender",
+            "width": 1280,
+            "height": 720,
+            "silhouetteWidthPixels": 46.37359619140625,
+            "silhouetteHeightPixels": 81.47486877441406
+        },
+        {
+            "unit": "reedguard",
+            "width": 1280,
+            "height": 720,
+            "silhouetteWidthPixels": 56.77734375,
+            "silhouetteHeightPixels": 75.45751190185547
+        },
+        {
+            "unit": "tender",
+            "width": 1440,
+            "height": 1080,
+            "silhouetteWidthPixels": 69.56040954589844,
+            "silhouetteHeightPixels": 122.2123031616211
+        },
+        {
+            "unit": "reedguard",
+            "width": 1440,
+            "height": 1080,
+            "silhouetteWidthPixels": 85.166015625,
+            "silhouetteHeightPixels": 113.18627166748047
+        }
+    ]
+}

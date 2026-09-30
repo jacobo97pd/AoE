@@ -1,0 +1,133 @@
+{
+  "id": "mountain_siege_workshop",
+  "entry": {
+    "id": "mountain_siege_workshop",
+    "style": "mountain",
+    "building": "siege_workshop",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a mountain siege workshop. A square timber workshop on a stone footing, one side open under a steep lean-to roof, a big log crane beam over the opening, stacked logs and a half-built wooden ram frame inside, a blue banner on the crane."
+  },
+  "style": {
+    "factions": [
+      "skeld"
+    ],
+    "suffix": "Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        200,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d442-ffbe-72b4-8113-04464358f3e9",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1987933557,
+        "prompt": "Low-poly game asset for a top-down strategy game: a mountain siege workshop. A square timber workshop on a stone footing, one side open under a steep lean-to roof, a big log crane beam over the opening, stacked logs and a half-built wooden ram frame inside, a blue banner on the crane. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267560263,
+        "progress": 100,
+        "started_at": 1790267560276,
+        "finished_at": 1790267572377,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-ffbe-72b4-8113-04464358f3e9/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d442-ffbe-72b4-8113-04464358f3e9/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:32:57.726182+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d443-5723-7364-85d1-07554a55098c",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1987933557,
+        "prompt": "Low-poly game asset for a top-down strategy game: a mountain siege workshop. A square timber workshop on a stone footing, one side open under a steep lean-to roof, a big log crane beam over the opening, stacked logs and a half-built wooden ram frame inside, a blue banner on the crane. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267578186,
+        "progress": 100,
+        "started_at": 1790267578193,
+        "finished_at": 1790267641722,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d443-5723-7364-85d1-07554a55098c/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d443-5723-7364-85d1-07554a55098c/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d443-5723-7364-85d1-07554a55098c/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d443-5723-7364-85d1-07554a55098c/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d443-5723-7364-85d1-07554a55098c/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d443-5723-7364-85d1-07554a55098c/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:34:06.556383+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "mountain_siege_workshop_model.glb",
+      "bytes": 6631848,
+      "sha256": "219dd9c3b9831544c69a77ebd84d6461a7df29725280511c5ded24729edb7dc3"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 265883,
+      "sha256": "7170a2b5bbc42ae087b374b386c1e6c255c3b02117b112b5d0c271df0c21bb78"
+    },
+    "texture_base_color": {
+      "file": "mountain_siege_workshop_base_color.png",
+      "bytes": 6379245,
+      "sha256": "a8dbcc9c9e53b42c7ee5ee28b0e5f560d1d3cb61a93fbf48c38fd79214d88944"
+    },
+    "texture_metallic": {
+      "file": "mountain_siege_workshop_metallic.png",
+      "bytes": 47774,
+      "sha256": "68183cdd3f2277e17a8e04ffb5d02a7b52afb37d75b5320b917f3ace0c6128b0"
+    },
+    "texture_roughness": {
+      "file": "mountain_siege_workshop_roughness.png",
+      "bytes": 1399129,
+      "sha256": "41dd57fb93eead667e39c7443d29f7a9045dd92f488a5803df60065eaf639b02"
+    },
+    "texture_normal": {
+      "file": "mountain_siege_workshop_normal.png",
+      "bytes": 4462863,
+      "sha256": "4926bbbecdac529fedbbab43ca6348ef0d7c46d6450f3af3bd1e8992cff906f9"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4990,
+    "triangles": 4990,
+    "fittedMetres": [
+      2.88,
+      2.869,
+      2.604
+    ],
+    "teamMaskCoverage": 0.2827
+  }
+}

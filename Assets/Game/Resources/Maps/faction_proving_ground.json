@@ -1,0 +1,213 @@
+{
+  "Id": "faction_proving_ground",
+  "WidthCells": 64,
+  "HeightCells": 56,
+  "CellSizeMillimetres": 1000,
+  "PlayerFactions": [
+    {
+      "PlayerId": 1,
+      "FactionId": "aven"
+    },
+    {
+      "PlayerId": 2,
+      "FactionId": "serevin"
+    }
+  ],
+  "BlockedCells": [],
+  "UnitSpawns": [
+    {
+      "Id": 1,
+      "OwnerId": 1,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 12500,
+        "Z": 20500
+      }
+    },
+    {
+      "Id": 2,
+      "OwnerId": 1,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 14500,
+        "Z": 20500
+      }
+    },
+    {
+      "Id": 3,
+      "OwnerId": 1,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 16500,
+        "Z": 20500
+      }
+    },
+    {
+      "Id": 4,
+      "OwnerId": 1,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 18500,
+        "Z": 20500
+      }
+    },
+    {
+      "Id": 11,
+      "OwnerId": 2,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 51500,
+        "Z": 35500
+      }
+    },
+    {
+      "Id": 12,
+      "OwnerId": 2,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 49500,
+        "Z": 35500
+      }
+    },
+    {
+      "Id": 13,
+      "OwnerId": 2,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 47500,
+        "Z": 35500
+      }
+    },
+    {
+      "Id": 14,
+      "OwnerId": 2,
+      "DefinitionId": "tender",
+      "Position": {
+        "X": 45500,
+        "Z": 35500
+      }
+    }
+  ],
+  "BuildingSpawns": [
+    {
+      "Id": 100,
+      "OwnerId": 1,
+      "DefinitionId": "hearth",
+      "Position": {
+        "X": 16000,
+        "Z": 16000
+      }
+    },
+    {
+      "Id": 101,
+      "OwnerId": 2,
+      "DefinitionId": "hearth",
+      "Position": {
+        "X": 48000,
+        "Z": 40000
+      }
+    },
+    {
+      "Id": 102,
+      "OwnerId": 1,
+      "DefinitionId": "muster_hall",
+      "Position": {
+        "X": 21500,
+        "Z": 15500
+      }
+    },
+    {
+      "Id": 103,
+      "OwnerId": 2,
+      "DefinitionId": "muster_hall",
+      "Position": {
+        "X": 42500,
+        "Z": 40500
+      }
+    },
+    {
+      "Id": 104,
+      "OwnerId": 1,
+      "DefinitionId": "storeyard",
+      "Position": {
+        "X": 22000,
+        "Z": 21000
+      }
+    },
+    {
+      "Id": 105,
+      "OwnerId": 2,
+      "DefinitionId": "storeyard",
+      "Position": {
+        "X": 42000,
+        "Z": 35000
+      }
+    }
+  ],
+  "ResourceSpawns": [
+    {
+      "Id": 200,
+      "DefinitionId": "food_source",
+      "Position": {
+        "X": 9500,
+        "Z": 21500
+      }
+    },
+    {
+      "Id": 201,
+      "DefinitionId": "wood_source",
+      "Position": {
+        "X": 23500,
+        "Z": 25500
+      }
+    },
+    {
+      "Id": 202,
+      "DefinitionId": "metal_source",
+      "Position": {
+        "X": 29500,
+        "Z": 21500
+      }
+    },
+    {
+      "Id": 203,
+      "DefinitionId": "stone_source",
+      "Position": {
+        "X": 14500,
+        "Z": 28500
+      }
+    },
+    {
+      "Id": 204,
+      "DefinitionId": "food_source",
+      "Position": {
+        "X": 54500,
+        "Z": 34500
+      }
+    },
+    {
+      "Id": 205,
+      "DefinitionId": "wood_source",
+      "Position": {
+        "X": 40500,
+        "Z": 30500
+      }
+    },
+    {
+      "Id": 206,
+      "DefinitionId": "metal_source",
+      "Position": {
+        "X": 34500,
+        "Z": 34500
+      }
+    },
+    {
+      "Id": 207,
+      "DefinitionId": "stone_source",
+      "Position": {
+        "X": 49500,
+        "Z": 27500
+      }
+    }
+  ]
+}

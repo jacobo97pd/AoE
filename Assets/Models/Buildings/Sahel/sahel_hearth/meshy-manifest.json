@@ -1,0 +1,134 @@
+{
+  "id": "sahel_hearth",
+  "entry": {
+    "id": "sahel_hearth",
+    "style": "sahel",
+    "building": "hearth",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: the royal palace hall of a West African earthen town. One big, fully enclosed two-storey block of smooth mud-brick, clearly the biggest building, a solid flat roof of packed tan earth behind a low parapet, rounded pinnacles at each corner, rows of wooden beam ends sticking out of the walls, a tall doorway with carved wooden doors and two indigo banners beside it."
+  },
+  "style": {
+    "factions": [
+      "sahel"
+    ],
+    "suffix": "Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3df-ed3f-7314-bce8-677198cfe42d",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2748304688,
+        "prompt": "Low-poly game asset for a top-down strategy game: the royal palace hall of a West African earthen town. One big, fully enclosed two-storey block of smooth mud-brick, clearly the biggest building, a solid flat roof of packed tan earth behind a low parapet, rounded pinnacles at each corner, rows of wooden beam ends sticking out of the walls, a tall doorway with carved wooden doors and two indigo banners beside it. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529500308,
+        "progress": 100,
+        "started_at": 1790529500320,
+        "finished_at": 1790529511507,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3df-ed3f-7314-bce8-677198cfe42d/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3df-ed3f-7314-bce8-677198cfe42d/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:18:37.810684+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3e0-3a77-71fd-8482-561a3341ca29",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2748304688,
+        "prompt": "Low-poly game asset for a top-down strategy game: the royal palace hall of a West African earthen town. One big, fully enclosed two-storey block of smooth mud-brick, clearly the biggest building, a solid flat roof of packed tan earth behind a low parapet, rounded pinnacles at each corner, rows of wooden beam ends sticking out of the walls, a tall doorway with carved wooden doors and two indigo banners beside it. Smooth sun-dried mud walls with rounded corners and projecting wooden beam ends. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Walls: sun-dried mud plaster, warm tan-brown clay (#A87A56) with darker streaks (#7E5A40). Beam ends, doors and poles: weathered brown wood (#6E5A44). Thatch and mats: warm straw (#C9A650). Fittings: burnished bronze (#B07A3A). Awnings and banners: plain saturated indigo blue cloth (#2E3F8F), no emblem. Openings: dark (#3A2E28). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529518245,
+        "progress": 100,
+        "started_at": 1790529518256,
+        "finished_at": 1790529577820,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3e0-3a77-71fd-8482-561a3341ca29/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3e0-3a77-71fd-8482-561a3341ca29/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3e0-3a77-71fd-8482-561a3341ca29/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3e0-3a77-71fd-8482-561a3341ca29/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3e0-3a77-71fd-8482-561a3341ca29/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3e0-3a77-71fd-8482-561a3341ca29/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:19:38.108836+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_hearth_model.glb",
+      "bytes": 5452784,
+      "sha256": "adb0d5ec2ba5755700e2ee6b7d58aa50f1515ab365b8a315ee0b4a7698485633"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 181143,
+      "sha256": "623f9fb6398cbe58a5f57ddca5205fbe043f607f928c17b89df9266a41562998"
+    },
+    "texture_base_color": {
+      "file": "sahel_hearth_base_color.png",
+      "bytes": 4449900,
+      "sha256": "e50a150120df26d7c5d006d255f4fb56e1124b614369e5eec8891416759e48d3"
+    },
+    "texture_metallic": {
+      "file": "sahel_hearth_metallic.png",
+      "bytes": 22647,
+      "sha256": "a4b6f1573b757a99c061694fead6e1a1e3f1c0218aa8ffbfd31ccbd0dff4f405"
+    },
+    "texture_roughness": {
+      "file": "sahel_hearth_roughness.png",
+      "bytes": 1194931,
+      "sha256": "de1acd7198f49993f58bb6a1d2abc43b0711b77ca1300603215812053f9b65e7"
+    },
+    "texture_normal": {
+      "file": "sahel_hearth_normal.png",
+      "bytes": 3157351,
+      "sha256": "174ecb64e8cbaf405a24eb51fdb57affebe47423efb4a450c70d2fd525d6027c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4767,
+    "triangles": 4767,
+    "fittedMetres": [
+      3.208,
+      3.84,
+      3.117
+    ],
+    "teamMaskCoverage": 0.023
+  }
+}

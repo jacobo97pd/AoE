@@ -1,0 +1,86 @@
+{
+    "biome": "Desert",
+    "status": "Baked; screenshots require visual review; desktop counts are not mobile timings.",
+    "sceneRenderers": 66,
+    "environmentMeshes": 21,
+    "environmentLODGroups": 16,
+    "uniqueMaterials": 3,
+    "units": [
+        {
+            "kind": "Worker",
+            "bones": 16,
+            "triangles": [
+                5858,
+                3304,
+                1038
+            ],
+            "vertices": [
+                7835,
+                4826,
+                1745
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Warrior",
+            "bones": 16,
+            "triangles": [
+                6218,
+                3420,
+                1054
+            ],
+            "vertices": [
+                8522,
+                5298,
+                1861
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Cavalry",
+            "bones": 28,
+            "triangles": [
+                10798,
+                6140,
+                2260
+            ],
+            "vertices": [
+                14371,
+                9172,
+                3900
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        },
+        {
+            "kind": "Hero",
+            "bones": 16,
+            "triangles": [
+                6382,
+                3516,
+                1124
+            ],
+            "vertices": [
+                8721,
+                5426,
+                1963
+            ],
+            "clips": [
+                "Idle",
+                "Walk",
+                "Action"
+            ]
+        }
+    ]
+}

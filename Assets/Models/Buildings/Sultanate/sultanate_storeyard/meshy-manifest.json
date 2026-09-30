@@ -1,0 +1,136 @@
+{
+  "id": "sultanate_storeyard",
+  "entry": {
+    "id": "sultanate_storeyard",
+    "style": "sultanate",
+    "building": "storeyard",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert storehouse. A small square flat-roofed mudbrick store with one open front under a timber lean-to, big clay jars, grain sacks and wooden crates stacked inside, a turquoise cloth awning along the open front."
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3cd-cef9-74e9-ac65-e081faa92afd",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1048670142,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert storehouse. A small square flat-roofed mudbrick store with one open front under a timber lean-to, big clay jars, grain sacks and wooden crates stacked inside, a turquoise cloth awning along the open front. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528312654,
+        "progress": 100,
+        "started_at": 1790528312660,
+        "finished_at": 1790528323176,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-cef9-74e9-ac65-e081faa92afd/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3cd-cef9-74e9-ac65-e081faa92afd/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T16:58:50.170731+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3ce-1b4c-749d-a3d5-b7954fcc28e8",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1048670142,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert storehouse. A small square flat-roofed mudbrick store with one open front under a timber lean-to, big clay jars, grain sacks and wooden crates stacked inside, a turquoise cloth awning along the open front. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528330612,
+        "progress": 100,
+        "started_at": 1790528330619,
+        "finished_at": 1790528380764,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ce-1b4c-749d-a3d5-b7954fcc28e8/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ce-1b4c-749d-a3d5-b7954fcc28e8/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ce-1b4c-749d-a3d5-b7954fcc28e8/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ce-1b4c-749d-a3d5-b7954fcc28e8/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ce-1b4c-749d-a3d5-b7954fcc28e8/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ce-1b4c-749d-a3d5-b7954fcc28e8/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:59:41.997928+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_storeyard_model.glb",
+      "bytes": 6471944,
+      "sha256": "b21237bc6e4e54eabb657277bb70636207cfd9d139017e07a10158e03110b5fa"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 175762,
+      "sha256": "d935e68b271f7a4baf060e7e037a1f5be3e9c9d60eaf284e9916e2104f19ced2"
+    },
+    "texture_base_color": {
+      "file": "sultanate_storeyard_base_color.png",
+      "bytes": 5250902,
+      "sha256": "95165a69e8ba3863ca18c77e59526544296c110e0ec81b7b05ee00876f64ef16"
+    },
+    "texture_metallic": {
+      "file": "sultanate_storeyard_metallic.png",
+      "bytes": 64710,
+      "sha256": "0a4289bda7550315d98f305f969354f00095899a108383b9416852ebedca4952"
+    },
+    "texture_roughness": {
+      "file": "sultanate_storeyard_roughness.png",
+      "bytes": 1308676,
+      "sha256": "b1f7a5f668cd66adbab00f7f6e0063ccd636030b7ce470326fa5ba0bf0a92da0"
+    },
+    "texture_normal": {
+      "file": "sultanate_storeyard_normal.png",
+      "bytes": 3731598,
+      "sha256": "05126d25e694ecf56d31ac2ad5a3827f92a177ac9792defc2e924dc7cf9540ad"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4756,
+    "triangles": 4756,
+    "fittedMetres": [
+      1.92,
+      1.545,
+      1.219
+    ],
+    "teamMaskCoverage": 0.0705
+  }
+}

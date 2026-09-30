@@ -1,0 +1,137 @@
+{
+  "id": "orc_muster_hall",
+  "entry": {
+    "id": "orc_muster_hall",
+    "style": "orc",
+    "building": "muster_hall",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.4,
+    "prompt": "Low-poly game asset for a top-down strategy game: an orc war barracks. One long, low, crude log hall with a spiked hide roof, a rack of crude axes and a trophy pole of skulls by the door, black iron plates on the walls and one red rag banner."
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        350,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43b-e2ac-74f6-8291-d8cdf7eb6b5b",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3504409880,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc war barracks. One long, low, crude log hall with a spiked hide roof, a rack of crude axes and a trophy pole of skulls by the door, black iron plates on the walls and one red rag banner. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267091270,
+        "progress": 100,
+        "started_at": 1790267091278,
+        "finished_at": 1790267101571,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-e2ac-74f6-8291-d8cdf7eb6b5b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-e2ac-74f6-8291-d8cdf7eb6b5b/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:25:08.788632+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43c-2f62-73ed-8301-3eefef4a74ca",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3504409880,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc war barracks. One long, low, crude log hall with a spiked hide roof, a rack of crude axes and a trophy pole of skulls by the door, black iron plates on the walls and one red rag banner. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267109268,
+        "progress": 100,
+        "started_at": 1790267109276,
+        "finished_at": 1790267175495,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-2f62-73ed-8301-3eefef4a74ca/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-2f62-73ed-8301-3eefef4a74ca/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-2f62-73ed-8301-3eefef4a74ca/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-2f62-73ed-8301-3eefef4a74ca/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-2f62-73ed-8301-3eefef4a74ca/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-2f62-73ed-8301-3eefef4a74ca/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:26:17.669894+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_muster_hall_model.glb",
+      "bytes": 6790376,
+      "sha256": "a8987857719efe2e597da0903dd7f23f9d0796e40739b6f5dd67e257fde18c5f"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 195241,
+      "sha256": "5bdb28d803872defac159acb7a2337391c94daa13fe38e39053b11d46401f1ac"
+    },
+    "texture_base_color": {
+      "file": "orc_muster_hall_base_color.png",
+      "bytes": 5648432,
+      "sha256": "8e40bbb4d18d2b49c82b243d6ff468606ab46f2166b12191c4c3405a9de6f98a"
+    },
+    "texture_metallic": {
+      "file": "orc_muster_hall_metallic.png",
+      "bytes": 432356,
+      "sha256": "8c7f8a068fb9cbbf94422ce36f086cf3185a456e9fbc80212b2497e1dbb03f27"
+    },
+    "texture_roughness": {
+      "file": "orc_muster_hall_roughness.png",
+      "bytes": 1538747,
+      "sha256": "3bbc89dfa10935fe2cb2d565c1b8f5091722550ba4ece6d75d5895e4063d7368"
+    },
+    "texture_normal": {
+      "file": "orc_muster_hall_normal.png",
+      "bytes": 3938116,
+      "sha256": "0e4f88ba48370cfbae1e06366f5b6bcf5cb2304bbe7b5fee02a9d16fb7900da5"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4709,
+    "triangles": 4709,
+    "fittedMetres": [
+      2.88,
+      2.852,
+      2.244
+    ],
+    "teamMaskCoverage": 0.4497
+  }
+}

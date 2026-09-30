@@ -1,0 +1,130 @@
+{
+  "id": "coastal_palm_a",
+  "entry": {
+    "id": "coastal_palm_a",
+    "role": "obstacle",
+    "kind": "palm",
+    "lod0": 500,
+    "lod1": 0,
+    "height": 3.3,
+    "footprint": 1.8,
+    "size": 512,
+    "biome": "caribbean",
+    "priority": 3,
+    "prompt": "Leaning coconut palm: a curved segmented trunk bending to one side, a crown of seven thick drooping solid wedge-shaped fronds, a tight cluster of coconuts under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Fronds as thick flat blades, no thin leaflets, hard edges, flat faces. About 3.3 m tall. Isolated, no ground, no sand, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Trunk: sandy grey-brown (#9C7B55) with darker rings (#75593C). Fronds: deep tropical green (#4E8A3E) with sunlit tops (#6FAE4A), a little darker than the harvestable palm. Coconuts: dark brown (#5E4128). Warm but not neon. No text or logos.",
+    "polycount": 1200
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d416-fc0b-751c-ba92-3f291f825966",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 891722189,
+        "prompt": "Leaning coconut palm: a curved segmented trunk bending to one side, a crown of seven thick drooping solid wedge-shaped fronds, a tight cluster of coconuts under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Fronds as thick flat blades, no thin leaflets, hard edges, flat faces. About 3.3 m tall. Isolated, no ground, no sand, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264673229,
+        "progress": 100,
+        "started_at": 1790264673236,
+        "finished_at": 1790264681385,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-fc0b-751c-ba92-3f291f825966/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d416-fc0b-751c-ba92-3f291f825966/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:44:42.230926+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d417-2997-75df-b07c-0d8e4f8cb5a0",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 891722189,
+        "prompt": "Leaning coconut palm: a curved segmented trunk bending to one side, a crown of seven thick drooping solid wedge-shaped fronds, a tight cluster of coconuts under the crown. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Fronds as thick flat blades, no thin leaflets, hard edges, flat faces. About 3.3 m tall. Isolated, no ground, no sand, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Trunk: sandy grey-brown (#9C7B55) with darker rings (#75593C). Fronds: deep tropical green (#4E8A3E) with sunlit tops (#6FAE4A), a little darker than the harvestable palm. Coconuts: dark brown (#5E4128). Warm but not neon. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790264684768,
+        "progress": 100,
+        "started_at": 1790264684777,
+        "finished_at": 1790264720935,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-2997-75df-b07c-0d8e4f8cb5a0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-2997-75df-b07c-0d8e4f8cb5a0/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-2997-75df-b07c-0d8e4f8cb5a0/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-2997-75df-b07c-0d8e4f8cb5a0/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-2997-75df-b07c-0d8e4f8cb5a0/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d417-2997-75df-b07c-0d8e4f8cb5a0/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:45:27.650331+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 63153,
+      "sha256": "e84135bbad79e7187c22c0a634c2841232cb4dd20fe0566ac6922479b55cb359"
+    },
+    "model_glb": {
+      "file": "coastal_palm_a_model.glb",
+      "bytes": 6665032,
+      "sha256": "86fbc2b58643005b9d911e4ab6b4aff9b7fb0eb089a0d3171585f652faf4ae70"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 88851,
+      "sha256": "73f59489a6d4fea8a8e2cdbb49c6cc039f6d78f6b9015f0126194ce2ae71046e"
+    },
+    "texture_base_color": {
+      "file": "coastal_palm_a_base_color.png",
+      "bytes": 5763638,
+      "sha256": "0453aaecff3324f2ca4696bf57650cf729478aab47f5694171267e1f9d1ee3f6"
+    },
+    "texture_metallic": {
+      "file": "coastal_palm_a_metallic.png",
+      "bytes": 72630,
+      "sha256": "0a99748d0249e2cb295a592f85fc436b54cd68cc5be253205b7f955d1e11e8de"
+    },
+    "texture_roughness": {
+      "file": "coastal_palm_a_roughness.png",
+      "bytes": 1176609,
+      "sha256": "81af63c395e2da719b28db49d7869bb8470679a6730fe2562e237f34b66b235c"
+    },
+    "texture_normal": {
+      "file": "coastal_palm_a_normal.png",
+      "bytes": 4639076,
+      "sha256": "1db327e325251c3d202a26d0dcfa55561d40c5f8d543759baab5d712aca360d9"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 980,
+    "lod0": 500,
+    "lod1": 199,
+    "fittedMetres": [
+      1.627,
+      1.8,
+      3.3
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

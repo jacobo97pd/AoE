@@ -1,0 +1,137 @@
+{
+  "id": "orc_beast_lodge",
+  "entry": {
+    "id": "orc_beast_lodge",
+    "style": "orc",
+    "building": "beast_lodge",
+    "footprint": [
+      4,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: an orc beast pen. One long, wide, low crude enclosure of heavy logs with a spiked hide roof over one end, a big spiked gate on the long side, chains and bones, one red rag banner."
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        350,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d441-0ed6-77ad-91de-4abe90b95044",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1640282090,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc beast pen. One long, wide, low crude enclosure of heavy logs with a spiked hide roof over one end, a big spiked gate on the long side, chains and bones, one red rag banner. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267430471,
+        "progress": 100,
+        "started_at": 1790267430479,
+        "finished_at": 1790267439633,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-0ed6-77ad-91de-4abe90b95044/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-0ed6-77ad-91de-4abe90b95044/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:30:47.977677+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d441-5c5a-7301-814d-e94fe47704d4",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1640282090,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc beast pen. One long, wide, low crude enclosure of heavy logs with a spiked hide roof over one end, a big spiked gate on the long side, chains and bones, one red rag banner. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267448444,
+        "progress": 100,
+        "started_at": 1790267448452,
+        "finished_at": 1790267512615,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-5c5a-7301-814d-e94fe47704d4/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-5c5a-7301-814d-e94fe47704d4/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-5c5a-7301-814d-e94fe47704d4/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-5c5a-7301-814d-e94fe47704d4/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-5c5a-7301-814d-e94fe47704d4/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d441-5c5a-7301-814d-e94fe47704d4/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:31:56.803888+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_beast_lodge_model.glb",
+      "bytes": 6169072,
+      "sha256": "2841d0cd5dddc59591fc8b9c782f53e4cdf57386c67731e058e5079ac4b757ec"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 152883,
+      "sha256": "3899490dd0e10235608fc49a0a53e123eaf7179649d12730352e91dfd0c339f2"
+    },
+    "texture_base_color": {
+      "file": "orc_beast_lodge_base_color.png",
+      "bytes": 4416854,
+      "sha256": "919324871354c477b12c886baa651f44c621d37779931d55dd7bfbef4b07a537"
+    },
+    "texture_metallic": {
+      "file": "orc_beast_lodge_metallic.png",
+      "bytes": 29657,
+      "sha256": "7041b3bd0ebf0304174d86060e1a5e6722a7a4d0a39e539a8e274ffba6994b9e"
+    },
+    "texture_roughness": {
+      "file": "orc_beast_lodge_roughness.png",
+      "bytes": 1312110,
+      "sha256": "d594bb41068ecf1badd182e72c922cf3a1da691005236199ad2c4503aef5f41a"
+    },
+    "texture_normal": {
+      "file": "orc_beast_lodge_normal.png",
+      "bytes": 3675598,
+      "sha256": "6cf2f9c6c2e039b4ebbdb0cdfa4db46f2010c16995ddd4ce681a28c2576f188c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4855,
+    "triangles": 4855,
+    "fittedMetres": [
+      3.213,
+      2.88,
+      1.719
+    ],
+    "teamMaskCoverage": 0.1205
+  }
+}

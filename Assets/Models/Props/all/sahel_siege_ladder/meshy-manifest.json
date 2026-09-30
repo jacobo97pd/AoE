@@ -1,0 +1,140 @@
+{
+  "id": "sahel_siege_ladder",
+  "entry": {
+    "id": "sahel_siege_ladder",
+    "role": "siege",
+    "kind": "siege_ladder",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 3.8,
+    "footprint": 2.0,
+    "size": 1024,
+    "teamHues": [
+      [
+        185,
+        252
+      ]
+    ],
+    "teamSaturation": 0.2,
+    "biome": "all",
+    "factions": [
+      "sahel"
+    ],
+    "priority": 5,
+    "prompt": "Tall rough siege ladder leaning steeply forward on a low log skid: two straight palm-trunk side rails, eight thick round rungs lashed on with woven grass rope, a bundle of palm fronds tied at the foot and an indigo cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Palm-trunk rails: weathered brown wood (#6E5A44) with darker rings (#4E3E30). Rungs: paler wood (#9A7E5E). Rope lashings and fronds: straw gold woven grass (#C9A650). Pennant: plain saturated indigo blue cloth (#2E3F8F), no emblem. No dirt, blood, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3db-83dc-70e3-b58e-5109f0fba623",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2641821690,
+        "prompt": "Tall rough siege ladder leaning steeply forward on a low log skid: two straight palm-trunk side rails, eight thick round rungs lashed on with woven grass rope, a bundle of palm fronds tied at the foot and an indigo cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529211400,
+        "progress": 100,
+        "started_at": 1790529211413,
+        "finished_at": 1790529221338,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-83dc-70e3-b58e-5109f0fba623/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-83dc-70e3-b58e-5109f0fba623/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:13:48.888381+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3db-d2d2-704e-b477-0c64a8ccdbdc",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2641821690,
+        "prompt": "Tall rough siege ladder leaning steeply forward on a low log skid: two straight palm-trunk side rails, eight thick round rungs lashed on with woven grass rope, a bundle of palm fronds tied at the foot and an indigo cloth pennant tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky parts, hard edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Palm-trunk rails: weathered brown wood (#6E5A44) with darker rings (#4E3E30). Rungs: paler wood (#9A7E5E). Rope lashings and fronds: straw gold woven grass (#C9A650). Pennant: plain saturated indigo blue cloth (#2E3F8F), no emblem. No dirt, blood, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790529231175,
+        "progress": 100,
+        "started_at": 1790529231207,
+        "finished_at": 1790529275524,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-d2d2-704e-b477-0c64a8ccdbdc/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-d2d2-704e-b477-0c64a8ccdbdc/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-d2d2-704e-b477-0c64a8ccdbdc/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-d2d2-704e-b477-0c64a8ccdbdc/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-d2d2-704e-b477-0c64a8ccdbdc/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3db-d2d2-704e-b477-0c64a8ccdbdc/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:14:42.579134+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 25965,
+      "sha256": "e836f2d79c3351eabadc2d5abd8cb38b3bd7ec50048f3dcddb623c13925ff1e2"
+    },
+    "model_glb": {
+      "file": "sahel_siege_ladder_model.glb",
+      "bytes": 5706028,
+      "sha256": "efeed552c5ac26f435407c2575946d60e3e3f94b649991397d6e528c36d35329"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 28572,
+      "sha256": "88f474ae714e4a48548c1cee97ae072e23f16ca221ca924481bb5a118d9ed596"
+    },
+    "texture_base_color": {
+      "file": "sahel_siege_ladder_base_color.png",
+      "bytes": 4280149,
+      "sha256": "24192398a934281273b5ad16919ac9a9a88c106021639e572cf2d87c48282bbf"
+    },
+    "texture_metallic": {
+      "file": "sahel_siege_ladder_metallic.png",
+      "bytes": 117242,
+      "sha256": "dc72cd753515bb36782eb88a701874f8badc493db47a6d76e7cca3b663879a1a"
+    },
+    "texture_roughness": {
+      "file": "sahel_siege_ladder_roughness.png",
+      "bytes": 930072,
+      "sha256": "ad709cdc655a5c754572b4ca5dee1ee4f6a59dcc03fffa31b8e95c0b5d68cd12"
+    },
+    "texture_normal": {
+      "file": "sahel_siege_ladder_normal.png",
+      "bytes": 3647018,
+      "sha256": "a564a4f8e75b2118a119e60e23d01a81e4c310719945adc830c836d0707c02b8"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4128,
+    "lod0": 3500,
+    "lod1": 899,
+    "fittedMetres": [
+      0.481,
+      0.245,
+      3.8
+    ],
+    "teamMaskCoverage": 0.0435
+  }
+}

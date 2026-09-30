@@ -1,0 +1,74 @@
+[
+    {
+        "Name":  "frontend-wide",
+        "Passed":  true,
+        "Seconds":  16.178,
+        "Log":  "TestResults/alpha02-frontend-wide.txt"
+    },
+    {
+        "Name":  "frontend-tablet",
+        "Passed":  true,
+        "Seconds":  16.512,
+        "Log":  "TestResults/alpha02-frontend-tablet.txt"
+    },
+    {
+        "Name":  "online-wide",
+        "Passed":  true,
+        "Seconds":  35.749,
+        "Log":  "TestResults/alpha02-online-wide.txt"
+    },
+    {
+        "Name":  "online-tablet",
+        "Passed":  true,
+        "Seconds":  35.957,
+        "Log":  "TestResults/alpha02-online-tablet.txt"
+    },
+    {
+        "Name":  "faction-aven",
+        "Passed":  true,
+        "Seconds":  3.538,
+        "Log":  "TestResults/alpha02-faction-aven.txt"
+    },
+    {
+        "Name":  "faction-serevin",
+        "Passed":  true,
+        "Seconds":  3.884,
+        "Log":  "TestResults/alpha02-faction-serevin.txt"
+    },
+    {
+        "Name":  "research",
+        "Passed":  true,
+        "Seconds":  5.476,
+        "Log":  "TestResults/alpha02-research.txt"
+    },
+    {
+        "Name":  "offline-conquest",
+        "Passed":  true,
+        "Seconds":  5.563,
+        "Log":  "TestResults/alpha02-offline-conquest.txt"
+    },
+    {
+        "Name":  "offline-dominion",
+        "Passed":  true,
+        "Seconds":  11.541,
+        "Log":  "TestResults/alpha02-offline-dominion.txt"
+    },
+    {
+        "Name":  "economy",
+        "Passed":  true,
+        "Seconds":  4.315,
+        "Log":  "TestResults/alpha02-economy.txt"
+    },
+    {
+        "Name":  "combat",
+        "Passed":  true,
+        "Seconds":  3.242,
+        "Log":  "TestResults/alpha02-combat.txt"
+    },
+    {
+        "Name":  "offline-profile",
+        "Passed":  true,
+        "Seconds":  29.751,
+        "Log":  "TestResults/alpha02-offline-profile.txt"
+    }
+]

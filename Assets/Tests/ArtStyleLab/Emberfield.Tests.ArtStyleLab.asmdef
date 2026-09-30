@@ -1,0 +1,8 @@
+{
+  "name": "Emberfield.Tests.ArtStyleLab",
+  "rootNamespace": "Emberfield.Tests.ArtStyleLab",
+  "references": ["Emberfield.Editor", "Emberfield.Presentation", "Emberfield.Simulation"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

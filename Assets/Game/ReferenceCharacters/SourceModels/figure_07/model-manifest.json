@@ -1,0 +1,197 @@
+{
+  "id": "figure_07",
+  "name": "Dragón glacial",
+  "family": "dragon",
+  "role": "glacial",
+  "suggestedFaction": "dragon",
+  "realm": "fantasy",
+  "modelPath": "figure_07/figure_07.fbx",
+  "sourceBlendPath": "Artifacts/ArtReview/reference-characters/figure_07/figure_07.blend",
+  "heightMetres": 3.525375948753208,
+  "boundsMin": [
+    -2.2926526069641113,
+    -0.7709615230560303,
+    0.00500000873580575
+  ],
+  "boundsMax": [
+    2.2926526069641113,
+    1.6418583393096924,
+    3.5303759574890137
+  ],
+  "locomotion": {
+    "walkMetresPerSecond": 1.7,
+    "runMetresPerSecond": 3.4
+  },
+  "clips": [
+    {
+      "name": "Idle",
+      "loop": true,
+      "firstFrame": 1.0,
+      "lastFrame": 61.0
+    },
+    {
+      "name": "Run",
+      "loop": true,
+      "firstFrame": 1.0,
+      "lastFrame": 25.0
+    },
+    {
+      "name": "Fall",
+      "loop": false,
+      "firstFrame": 1.0,
+      "lastFrame": 49.0
+    }
+  ],
+  "materials": [
+    {
+      "name": "EyePupil",
+      "baseColor": [
+        0.006,
+        0.009,
+        0.007,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.8,
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_Normal.png",
+      "metallicGlossMap": "",
+      "tiling": [
+        2,
+        2
+      ],
+      "normalScale": 0.45
+    },
+    {
+      "name": "Steel",
+      "baseColor": [
+        0.59,
+        0.77,
+        0.91,
+        1
+      ],
+      "metallic": 0.24,
+      "smoothness": 0.5800000000000001,
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/steel_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/steel_Normal.png",
+      "metallicGlossMap": "",
+      "tiling": [
+        2,
+        2
+      ],
+      "normalScale": 0.45
+    },
+    {
+      "name": "SteelDark",
+      "baseColor": [
+        0.2,
+        0.36,
+        0.53,
+        1
+      ],
+      "metallic": 0.24,
+      "smoothness": 0.48,
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/steel_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/steel_Normal.png",
+      "metallicGlossMap": "",
+      "tiling": [
+        2,
+        2
+      ],
+      "normalScale": 0.45
+    },
+    {
+      "name": "Gold",
+      "baseColor": [
+        0.19,
+        0.51,
+        0.86,
+        1
+      ],
+      "metallic": 0.24,
+      "smoothness": 0.62,
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/gold_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/gold_Normal.png",
+      "metallicGlossMap": "",
+      "tiling": [
+        2,
+        2
+      ],
+      "normalScale": 0.45
+    },
+    {
+      "name": "BlueCloth",
+      "baseColor": [
+        0.14,
+        0.34,
+        0.63,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.15000000000000002,
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_Normal.png",
+      "metallicGlossMap": "",
+      "tiling": [
+        2,
+        2
+      ],
+      "normalScale": 0.45
+    },
+    {
+      "name": "IvoryCloth",
+      "baseColor": [
+        0.78,
+        0.87,
+        0.94,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.09999999999999998,
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/cloth_Normal.png",
+      "metallicGlossMap": "",
+      "tiling": [
+        2,
+        2
+      ],
+      "normalScale": 0.45
+    },
+    {
+      "name": "Gem",
+      "baseColor": [
+        0.08,
+        0.68,
+        1,
+        1
+      ],
+      "metallic": 0.15,
+      "smoothness": 0.83,
+      "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_BaseColor.png",
+      "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/Textures/plain_Normal.png",
+      "metallicGlossMap": "",
+      "tiling": [
+        2,
+        2
+      ],
+      "normalScale": 0.45,
+      "emissionColor": [
+        0.08,
+        0.68,
+        1,
+        1
+      ],
+      "emissionStrength": 1.4
+    }
+  ],
+  "triangles": 247308,
+  "lodTriangles": [
+    247308,
+    39999,
+    10999
+  ],
+  "bones": 25,
+  "referenceImage": "ChatGPT Image 13 sept 2026, 14_40_17 (6).png",
+  "fbxSha256": "b7ff244df76eb4e151f7c9d5502c8d7e60fe779d5b79d4767d97efdb17f245ce",
+  "interpretationNotes": "New biped dragon interpretation with modeled scales, skull, teeth, articulated wings, claws and four tail joints. Generic Run and Fall poses are authored for this skeleton; no flight system, exact likeness or production animation polish is claimed."
+}

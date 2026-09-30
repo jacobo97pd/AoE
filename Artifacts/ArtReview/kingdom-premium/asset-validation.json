@@ -1,0 +1,418 @@
+{
+    "generatedUtc": "2026-09-10T20:47:47.0842087Z",
+    "unity": "6000.3.23f1",
+    "scene": "Assets/Game/Scenes/KingdomPremium.unity",
+    "scope": "Native static 3D character and environment inspection. Asset counts are not frame timings; this report does not certify reference identity or artistic acceptance.",
+    "units": 3,
+    "renderers": 979,
+    "materials": 76,
+    "passed": true,
+    "errors": [],
+    "meshes": [
+        {
+            "name": "CC0 meadow tuft.003",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 330,
+            "triangles": 290,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 optimized living tree",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 570297,
+            "triangles": 349999,
+            "materials": 3,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 coopered iron-hoop barrel",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 10031,
+            "triangles": 10820,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 meadow tuft.001",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 2593,
+            "triangles": 2287,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 meadow tuft.002",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 1386,
+            "triangles": 1257,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 meadow tuft.006",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 700,
+            "triangles": 653,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 mossy garden boulder.001",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 6367,
+            "triangles": 10996,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 meadow tuft.005",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 354,
+            "triangles": 310,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 fern edge cluster.001",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 537,
+            "triangles": 784,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 fern edge cluster.004",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 1627,
+            "triangles": 2384,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Warrior_LOD2",
+            "path": "Assets/Game/KingdomPremium/Characters/Warrior.fbx",
+            "vertices": 27789,
+            "triangles": 34999,
+            "materials": 15,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_LanternGlass",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 768,
+            "triangles": 376,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 meadow tuft",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 394,
+            "triangles": 340,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 meadow tuft.004",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 888,
+            "triangles": 833,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 fern edge cluster.011",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 1533,
+            "triangles": 2248,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 mossy garden boulder.002",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 2741,
+            "triangles": 5000,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 fern edge cluster",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 556,
+            "triangles": 816,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Worker_LOD2",
+            "path": "Assets/Game/KingdomPremium/Characters/Worker.fbx",
+            "vertices": 26708,
+            "triangles": 34999,
+            "materials": 16,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 mossy garden boulder.004",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 8538,
+            "triangles": 16548,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 mossy garden boulder",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 6117,
+            "triangles": 11000,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 detailed merchant chest",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 4672,
+            "triangles": 6576,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 iron-bound double castle door",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 10846,
+            "triangles": 12640,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_Oak",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 21120,
+            "triangles": 10340,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 mossy garden boulder.005",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 4748,
+            "triangles": 8994,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_WoodlandSoil",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 9409,
+            "triangles": 18432,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_Limestone",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 20162,
+            "triangles": 10256,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_KingdomBlueCloth",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 808,
+            "triangles": 1360,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_CourtyardCobble",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 18,
+            "triangles": 17,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "CC0 mossy garden boulder.003",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 5691,
+            "triangles": 10589,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_OldWindowGlass",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 1920,
+            "triangles": 940,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Worker_LOD0",
+            "path": "Assets/Game/KingdomPremium/Characters/Worker.fbx",
+            "vertices": 132998,
+            "triangles": 227654,
+            "materials": 16,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Hero_LOD0",
+            "path": "Assets/Game/KingdomPremium/Characters/Hero.fbx",
+            "vertices": 174574,
+            "triangles": 292168,
+            "materials": 20,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Hero_LOD2",
+            "path": "Assets/Game/KingdomPremium/Characters/Hero.fbx",
+            "vertices": 30887,
+            "triangles": 35000,
+            "materials": 20,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_LimePlaster",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 1721,
+            "triangles": 916,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Warrior_LOD1",
+            "path": "Assets/Game/KingdomPremium/Characters/Warrior.fbx",
+            "vertices": 66446,
+            "triangles": 100000,
+            "materials": 15,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Warrior_LOD0",
+            "path": "Assets/Game/KingdomPremium/Characters/Warrior.fbx",
+            "vertices": 157655,
+            "triangles": 274134,
+            "materials": 15,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_ForgedIron",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 30630,
+            "triangles": 15304,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Worn approach from gatehouse to woodland",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 621,
+            "triangles": 1088,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_CutLimestone",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 69276,
+            "triangles": 35012,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_KingdomGoldEmbroidery",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 8544,
+            "triangles": 4232,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_InteriorShadow",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 1944,
+            "triangles": 952,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Hero_LOD1",
+            "path": "Assets/Game/KingdomPremium/Characters/Hero.fbx",
+            "vertices": 71979,
+            "triangles": 100000,
+            "materials": 20,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Worker_LOD1",
+            "path": "Assets/Game/KingdomPremium/Characters/Worker.fbx",
+            "vertices": 64627,
+            "triangles": 99999,
+            "materials": 16,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_Slate",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 154368,
+            "triangles": 75576,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        },
+        {
+            "name": "Courtyard_SlateWeathered",
+            "path": "Assets/Game/KingdomPremium/Environment/Environment.fbx",
+            "vertices": 34784,
+            "triangles": 17368,
+            "materials": 1,
+            "normals": true,
+            "uv": true
+        }
+    ]
+}

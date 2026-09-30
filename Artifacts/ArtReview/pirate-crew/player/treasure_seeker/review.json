@@ -1,0 +1,66 @@
+{
+    "buildGuid": "6b6434c4d93b490785095871057523ed",
+    "unity": "6000.3.23f1",
+    "graphicsDevice": "NVIDIA GeForce RTX 3060 Ti",
+    "width": 1920,
+    "height": 1080,
+    "characters": 1,
+    "passed": true,
+    "scope": "Native player renders and Animator states with sampled skinned vertex deformation. Not a frame-rate benchmark or gameplay balance certification.",
+    "images": [
+        "close.png",
+        "medium.png",
+        "rts.png",
+        "animation-idle.png",
+        "animation-walk.png",
+        "animation-run.png",
+        "animation-attack.png",
+        "animation-hit.png",
+        "animation-death.png",
+        "animation-work.png"
+    ],
+    "animations": [
+        {
+            "state": "Idle",
+            "entered": true,
+            "moving": true,
+            "sampleDisplacement": 0.012096328660845757
+        },
+        {
+            "state": "Walk",
+            "entered": true,
+            "moving": true,
+            "sampleDisplacement": 0.6379911303520203
+        },
+        {
+            "state": "Run",
+            "entered": true,
+            "moving": true,
+            "sampleDisplacement": 0.7810190320014954
+        },
+        {
+            "state": "Attack",
+            "entered": true,
+            "moving": true,
+            "sampleDisplacement": 0.1929384469985962
+        },
+        {
+            "state": "Hit",
+            "entered": true,
+            "moving": true,
+            "sampleDisplacement": 0.1531948298215866
+        },
+        {
+            "state": "Death",
+            "entered": true,
+            "moving": true,
+            "sampleDisplacement": 0.909741222858429
+        },
+        {
+            "state": "Work",
+            "entered": true,
+            "moving": true,
+            "sampleDisplacement": 0.44373151659965517
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Luminous crystal
+  m_Shader: {fileID: 4800000, guid: c40a05939f66f724fb75c09330810665, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SurfaceMap:
+        m_Texture: {fileID: 2800000, guid: bd166fe1d04d76948986feb3e6899330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Emission: 2.2
+    - _Metallic: 0.95
+    - _Selection: 0
+    - _Smoothness: 0.8
+    - _TextureStrength: 0.4
+    - _Wind: 0
+    m_Colors:
+    - _TeamColor: {r: 0.19999996, g: 0.37999994, b: 0.6399999, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

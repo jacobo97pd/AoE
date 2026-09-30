@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "id": "tide_architecture",
+      "displayName": "Bronze Tide",
+      "description": "Patinated coastal roofs and warm bronze details.",
+      "slot": "architecture",
+      "targetId": "*",
+      "realmId": "shared",
+      "styleId": "bronze_tide",
+      "priceMinor": 499,
+      "currency": "EUR"
+    },
+    {
+      "id": "sand_architecture",
+      "displayName": "Imperial Sand",
+      "description": "Sun-warmed sandstone and turquoise ornament.",
+      "slot": "architecture",
+      "targetId": "*",
+      "realmId": "shared",
+      "styleId": "imperial_sand",
+      "priceMinor": 499,
+      "currency": "EUR"
+    },
+    {
+      "id": "luminous_architecture",
+      "displayName": "Luminous Citadel",
+      "description": "Ivory stone and gilded fantasy fortifications.",
+      "slot": "architecture",
+      "targetId": "*",
+      "realmId": "fantasy",
+      "styleId": "luminous_ward",
+      "priceMinor": 499,
+      "currency": "EUR"
+    },
+    {
+      "id": "drake_frost",
+      "displayName": "Sapphire Drake",
+      "description": "Frost-blue scales and pale luminous ridges.",
+      "slot": "creature",
+      "targetId": "ember_drake",
+      "realmId": "fantasy",
+      "styleId": "sapphire_frost",
+      "priceMinor": 399,
+      "currency": "EUR"
+    },
+    {
+      "id": "drake_ember",
+      "displayName": "Ember Crown",
+      "description": "Burnished scales with glowing amber ornament.",
+      "slot": "creature",
+      "targetId": "ember_drake",
+      "realmId": "fantasy",
+      "styleId": "ember_crown",
+      "priceMinor": 399,
+      "currency": "EUR"
+    },
+    {
+      "id": "drake_storm",
+      "displayName": "Storm Drake",
+      "description": "Violet storm scales and silver highlights.",
+      "slot": "creature",
+      "targetId": "ember_drake",
+      "realmId": "fantasy",
+      "styleId": "storm_scale",
+      "priceMinor": 399,
+      "currency": "EUR"
+    },
+    {
+      "id": "drake_void",
+      "displayName": "Void Drake",
+      "description": "Obsidian-violet scales with amethyst accents.",
+      "slot": "creature",
+      "targetId": "ember_drake",
+      "realmId": "fantasy",
+      "styleId": "void_scale",
+      "priceMinor": 399,
+      "currency": "EUR"
+    },
+    {
+      "id": "elephant_imperial",
+      "displayName": "Oasis Regent",
+      "description": "Ceremonial sandstone and turquoise elephant armor.",
+      "slot": "creature",
+      "targetId": "dune_elephant",
+      "realmId": "historical",
+      "styleId": "imperial_sand",
+      "priceMinor": 299,
+      "currency": "EUR"
+    },
+    {
+      "id": "troll_frost",
+      "displayName": "Frost Troll",
+      "description": "Sapphire armor and icy pale skin accents.",
+      "slot": "creature",
+      "targetId": "war_troll",
+      "realmId": "fantasy",
+      "styleId": "sapphire_frost",
+      "priceMinor": 299,
+      "currency": "EUR"
+    },
+    {
+      "id": "guardian_bloom",
+      "displayName": "Bloom Guardian",
+      "description": "Spring-green bark and rose-colored canopy accents.",
+      "slot": "creature",
+      "targetId": "grove_guardian",
+      "realmId": "fantasy",
+      "styleId": "verdant_bloom",
+      "priceMinor": 299,
+      "currency": "EUR"
+    },
+    {
+      "id": "lion_luminous",
+      "displayName": "Golden Dawn",
+      "description": "Ivory sun lion with golden ceremonial armor.",
+      "slot": "creature",
+      "targetId": "sun_lion",
+      "realmId": "fantasy",
+      "styleId": "luminous_ward",
+      "priceMinor": 299,
+      "currency": "EUR"
+    },
+    {
+      "id": "frostguard_bronze",
+      "displayName": "Tidebound Guard",
+      "description": "Bronze armor and sea-colored northern cloth.",
+      "slot": "creature",
+      "targetId": "frostguard",
+      "realmId": "fantasy",
+      "styleId": "bronze_tide",
+      "priceMinor": 199,
+      "currency": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,7148 @@
+{
+  "Utc": "2026-09-10T11:52:05.120119Z",
+  "RulesSha256": "B4FF84B570F0A18B9CFCE017669BC4F50EA31347C63CCAE282BBD865AD40BA5E",
+  "SimulationSha256": "82BF07214E7C3B55498E9C3E16845F0424BEB0CFAED1808E0623C18A93C37F75",
+  "Method": "Natural matches use authored resources, ordinary commands and restricted AI observations. Production and combat fixtures explicitly spawn infrastructure/armies with test inventory; they verify rules and report pacing, not ranked balance or rendering performance.",
+  "Failures": 0,
+  "Cases": [
+    {
+      "Type": "production",
+      "Faction": "aven",
+      "EraTier": 4,
+      "Unique": "threadkeeper",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "aven_stores",
+        "gather_1",
+        "gather_2"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "threadkeeper",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "serevin",
+      "EraTier": 4,
+      "Unique": "ashrunner",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "serevin_camps"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "ashrunner",
+          "AttackDamage": 10,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "miraj",
+      "EraTier": 4,
+      "Unique": "dune_elephant",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "miraj_howdahs"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "dune_elephant",
+          "AttackDamage": 30,
+          "Armor": 5
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "skeld",
+      "EraTier": 4,
+      "Unique": "frostguard",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "skeld_oathsteel"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "frostguard",
+          "AttackDamage": 19,
+          "Armor": 3
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "solar",
+      "EraTier": 4,
+      "Unique": "sun_lion",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "solar_radiance"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "sun_lion",
+          "AttackDamage": 22,
+          "Armor": 4
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "verdant",
+      "EraTier": 4,
+      "Unique": "grove_guardian",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "gather_1",
+        "gather_2",
+        "verdant_heartwood"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "grove_guardian",
+          "AttackDamage": 22,
+          "Armor": 7
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "ashen",
+      "EraTier": 4,
+      "Unique": "war_troll",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "ashen_bloodpact",
+        "gather_1",
+        "gather_2"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "war_troll",
+          "AttackDamage": 34,
+          "Armor": 1
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "production",
+      "Faction": "drakeforged",
+      "EraTier": 4,
+      "Unique": "ember_drake",
+      "Research": [
+        "advance_dominion",
+        "advance_empire",
+        "advance_kingdom",
+        "drakeforged_scales",
+        "gather_1",
+        "gather_2"
+      ],
+      "Units": [
+        {
+          "DefinitionId": "ember_drake",
+          "AttackDamage": 32,
+          "Armor": 5
+        },
+        {
+          "DefinitionId": "siege_ram",
+          "AttackDamage": 8,
+          "Armor": 8
+        },
+        {
+          "DefinitionId": "siege_ladder",
+          "AttackDamage": 0,
+          "Armor": 0
+        },
+        {
+          "DefinitionId": "siege_tower",
+          "AttackDamage": 0,
+          "Armor": 4
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "dune_elephant",
+      "Counter": "reedguard",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 9.25,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 43
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "dune_elephant",
+      "Counter": "reedguard",
+      "CounterCount": 6,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 9.25,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 43
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "dune_elephant",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 16.1,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "dune_elephant",
+          "Health": 182
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "dune_elephant",
+      "Counter": "stringwarden",
+      "CounterCount": 6,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 21.5,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "dune_elephant",
+          "Health": 21
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "dune_elephant",
+      "Counter": "strider",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 23.9,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "dune_elephant",
+          "Health": 119
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "dune_elephant",
+      "Counter": "strider",
+      "CounterCount": 6,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 21.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 16
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 38
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "dune_elephant",
+      "MaxHealth": 560,
+      "PopulationCost": 5,
+      "Cost": {
+        "Food": 320,
+        "Wood": 80,
+        "Metal": 100,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 2200,
+      "RangeMillimetres": 1300,
+      "DamageOverTwentySeconds": 408,
+      "DamagePerSecond": 20.4,
+      "TrainTicks": 500
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "sun_lion",
+      "Counter": "reedguard",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 4.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 37
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "sun_lion",
+      "Counter": "reedguard",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 4.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 37
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "sun_lion",
+      "Counter": "stringwarden",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 11.35,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "sun_lion",
+          "Health": 28
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "sun_lion",
+      "Counter": "stringwarden",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 11.35,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "sun_lion",
+          "Health": 28
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "sun_lion",
+      "Counter": "strider",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.8,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 2,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 89
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "sun_lion",
+      "Counter": "strider",
+      "CounterCount": 3,
+      "PopulationCost": 3,
+      "CreatureCost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.8,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 2,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 89
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "sun_lion",
+      "MaxHealth": 220,
+      "PopulationCost": 3,
+      "Cost": {
+        "Food": 170,
+        "Wood": 0,
+        "Metal": 70,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 4600,
+      "RangeMillimetres": 1000,
+      "DamageOverTwentySeconds": 320,
+      "DamagePerSecond": 16,
+      "TrainTicks": 320
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "grove_guardian",
+      "Counter": "reedguard",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 10.5,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "grove_guardian",
+      "Counter": "reedguard",
+      "CounterCount": 5,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.35,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 5,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 9
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "grove_guardian",
+      "Counter": "stringwarden",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 28.8,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "grove_guardian",
+          "Health": 190
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "grove_guardian",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 36,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "grove_guardian",
+          "Health": 10
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "grove_guardian",
+      "Counter": "strider",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 27.5,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "grove_guardian",
+          "Health": 168
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "grove_guardian",
+      "Counter": "strider",
+      "CounterCount": 5,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 28.4,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 1,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "grove_guardian",
+      "MaxHealth": 560,
+      "PopulationCost": 4,
+      "Cost": {
+        "Food": 190,
+        "Wood": 180,
+        "Metal": 40,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 2000,
+      "RangeMillimetres": 1400,
+      "DamageOverTwentySeconds": 240,
+      "DamagePerSecond": 12,
+      "TrainTicks": 400
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "war_troll",
+      "Counter": "reedguard",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 7.75,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 12
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "war_troll",
+      "Counter": "reedguard",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 7.75,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 12
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 100
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "war_troll",
+      "Counter": "stringwarden",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 17.85,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "war_troll",
+          "Health": 30
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "war_troll",
+      "Counter": "stringwarden",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 17.85,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "war_troll",
+          "Health": 30
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "war_troll",
+      "Counter": "strider",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 16.2,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 2,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 23
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "war_troll",
+      "Counter": "strider",
+      "CounterCount": 4,
+      "PopulationCost": 4,
+      "CreatureCost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 16.2,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 2,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 23
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 110
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "war_troll",
+      "MaxHealth": 420,
+      "PopulationCost": 4,
+      "Cost": {
+        "Food": 240,
+        "Wood": 40,
+        "Metal": 80,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 2800,
+      "RangeMillimetres": 1300,
+      "DamageOverTwentySeconds": 602,
+      "DamagePerSecond": 30.1,
+      "TrainTicks": 400
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "ember_drake",
+      "Counter": "reedguard",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 5.8,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 22
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 60
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "ember_drake",
+      "Counter": "reedguard",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 60,
+        "Wood": 20,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 5.8,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 22
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 74
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "reedguard",
+          "Health": 60
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "ember_drake",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 15.1,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "ember_drake",
+          "Health": 44
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "ember_drake",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 15.1,
+      "CreatureSurvivors": 1,
+      "CounterSurvivors": 0,
+      "RemainingHealth": [
+        {
+          "OwnerId": 1,
+          "DefinitionId": "ember_drake",
+          "Health": 44
+        }
+      ]
+    },
+    {
+      "Type": "equal-population-counter",
+      "Creature": "ember_drake",
+      "Counter": "strider",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 10
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 79
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 90
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 90
+        }
+      ]
+    },
+    {
+      "Type": "equal-resource-budget-counter",
+      "Creature": "ember_drake",
+      "Counter": "strider",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 80,
+        "Wood": 0,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 8.1,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 4,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 10
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 79
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 90
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "strider",
+          "Health": 90
+        }
+      ]
+    },
+    {
+      "Type": "DPS-against-two-armor-infantry",
+      "Creature": "ember_drake",
+      "MaxHealth": 380,
+      "PopulationCost": 5,
+      "Cost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "MoveSpeedMillimetresPerSecond": 3300,
+      "RangeMillimetres": 4500,
+      "DamageOverTwentySeconds": 468,
+      "DamagePerSecond": 23.4,
+      "TrainTicks": 520
+    },
+    {
+      "Type": "dispersed-ranged-focus",
+      "Creature": "ember_drake",
+      "Counter": "stringwarden",
+      "CounterCount": 5,
+      "PopulationCost": 5,
+      "CreatureCost": {
+        "Food": 280,
+        "Wood": 0,
+        "Metal": 180,
+        "Stone": 0
+      },
+      "CounterCostEach": {
+        "Food": 30,
+        "Wood": 50,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "Seconds": 13.45,
+      "CreatureSurvivors": 0,
+      "CounterSurvivors": 3,
+      "RemainingHealth": [
+        {
+          "OwnerId": 2,
+          "DefinitionId": "stringwarden",
+          "Health": 6
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "stringwarden",
+          "Health": 70
+        },
+        {
+          "OwnerId": 2,
+          "DefinitionId": "stringwarden",
+          "Health": 70
+        }
+      ]
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "aven",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 459.5,
+      "DeathCount": 61,
+      "WallSeconds": 2.6340783,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 142,
+            "Wood": 240,
+            "Metal": 28,
+            "Stone": 312
+          },
+          "PopulationUsed": 22,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 919,
+            "Commands": 799,
+            "Accepted": 798,
+            "Rejected": 1,
+            "GatherOrders": 66,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 45,
+            "ResearchStarted": 10,
+            "AttackOrders": 49,
+            "ScoutOrders": 33,
+            "RetreatOrders": 24,
+            "Spent": {
+              "Food": 4310,
+              "Wood": 2600,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 8,
+          "Resources": {
+            "Food": 80,
+            "Wood": 110,
+            "Metal": 440,
+            "Stone": 184
+          },
+          "PopulationUsed": 8,
+          "PopulationCapacity": 35,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 919,
+            "Commands": 811,
+            "Accepted": 811,
+            "Rejected": 0,
+            "GatherOrders": 60,
+            "BuildingsStarted": 12,
+            "UnitsQueued": 39,
+            "ResearchStarted": 8,
+            "AttackOrders": 48,
+            "ScoutOrders": 37,
+            "RetreatOrders": 18,
+            "Spent": {
+              "Food": 4130,
+              "Wood": 2140,
+              "Metal": 540,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "stringwarden",
+            "reedguard",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "aven",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1160.85,
+      "DeathCount": 82,
+      "WallSeconds": 3.7608404,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1966,
+            "Wood": 7418,
+            "Metal": 688,
+            "Stone": 204
+          },
+          "PopulationUsed": 43,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2322,
+            "Commands": 3914,
+            "Accepted": 3914,
+            "Rejected": 0,
+            "GatherOrders": 119,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 45,
+            "ResearchStarted": 10,
+            "AttackOrders": 53,
+            "ScoutOrders": 12,
+            "RetreatOrders": 279,
+            "Spent": {
+              "Food": 4430,
+              "Wood": 2480,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 18,
+            "Wood": 2990,
+            "Metal": 260,
+            "Stone": 164
+          },
+          "PopulationUsed": 2,
+          "PopulationCapacity": 26,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2322,
+            "Commands": 959,
+            "Accepted": 958,
+            "Rejected": 1,
+            "GatherOrders": 92,
+            "BuildingsStarted": 11,
+            "UnitsQueued": 73,
+            "ResearchStarted": 10,
+            "AttackOrders": 84,
+            "ScoutOrders": 10,
+            "RetreatOrders": 75,
+            "Spent": {
+              "Food": 5750,
+              "Wood": 3230,
+              "Metal": 920,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "stringwarden",
+            "reedguard",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "serevin",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 488.7,
+      "DeathCount": 55,
+      "WallSeconds": 1.5088721,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 8,
+          "Resources": {
+            "Food": 40,
+            "Wood": 760,
+            "Metal": 322,
+            "Stone": 300
+          },
+          "PopulationUsed": 6,
+          "PopulationCapacity": 40,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 978,
+            "Commands": 841,
+            "Accepted": 841,
+            "Rejected": 0,
+            "GatherOrders": 72,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 39,
+            "ResearchStarted": 8,
+            "AttackOrders": 24,
+            "ScoutOrders": 32,
+            "RetreatOrders": 24,
+            "Spent": {
+              "Food": 4190,
+              "Wood": 2200,
+              "Metal": 540,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "stringwarden",
+            "strider",
+            "reedguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 320,
+            "Wood": 646,
+            "Metal": 80,
+            "Stone": 120
+          },
+          "PopulationUsed": 35,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 978,
+            "Commands": 724,
+            "Accepted": 724,
+            "Rejected": 0,
+            "GatherOrders": 70,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 49,
+            "ResearchStarted": 10,
+            "AttackOrders": 64,
+            "ScoutOrders": 21,
+            "RetreatOrders": 21,
+            "Spent": {
+              "Food": 4520,
+              "Wood": 2710,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "serevin",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 881.35,
+      "DeathCount": 86,
+      "WallSeconds": 2.8185399,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "serevin",
+          "EraTier": 3,
+          "TechnologyCount": 7,
+          "Resources": {
+            "Food": 12,
+            "Wood": 620,
+            "Metal": 922,
+            "Stone": 320
+          },
+          "PopulationUsed": 5,
+          "PopulationCapacity": 26,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 1763,
+            "Commands": 777,
+            "Accepted": 776,
+            "Rejected": 1,
+            "GatherOrders": 94,
+            "BuildingsStarted": 13,
+            "UnitsQueued": 82,
+            "ResearchStarted": 7,
+            "AttackOrders": 72,
+            "ScoutOrders": 7,
+            "RetreatOrders": 32,
+            "Spent": {
+              "Food": 5500,
+              "Wood": 3520,
+              "Metal": 240,
+              "Stone": 60
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "stringwarden",
+            "reedguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 2546,
+            "Wood": 5838,
+            "Metal": 962,
+            "Stone": 252
+          },
+          "PopulationUsed": 44,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 1763,
+            "Commands": 1820,
+            "Accepted": 1820,
+            "Rejected": 0,
+            "GatherOrders": 130,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 41,
+            "ResearchStarted": 10,
+            "AttackOrders": 50,
+            "ScoutOrders": 4,
+            "RetreatOrders": 99,
+            "Spent": {
+              "Food": 4120,
+              "Wood": 2470,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "miraj",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 646.15,
+      "DeathCount": 96,
+      "WallSeconds": 2.1611048,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "miraj",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 14,
+            "Wood": 744,
+            "Metal": 52,
+            "Stone": 112
+          },
+          "PopulationUsed": 10,
+          "PopulationCapacity": 35,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1293,
+            "Commands": 1014,
+            "Accepted": 1014,
+            "Rejected": 0,
+            "GatherOrders": 83,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 54,
+            "ResearchStarted": 9,
+            "AttackOrders": 78,
+            "ScoutOrders": 46,
+            "RetreatOrders": 22,
+            "Spent": {
+              "Food": 4750,
+              "Wood": 3170,
+              "Metal": 1160,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "siege_ram",
+            "dune_elephant"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "siege_workshop"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 60,
+            "Wood": 1238,
+            "Metal": 260,
+            "Stone": 110
+          },
+          "PopulationUsed": 34,
+          "PopulationCapacity": 61,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1293,
+            "Commands": 1047,
+            "Accepted": 1046,
+            "Rejected": 1,
+            "GatherOrders": 96,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 64,
+            "ResearchStarted": 10,
+            "AttackOrders": 96,
+            "ScoutOrders": 43,
+            "RetreatOrders": 51,
+            "Spent": {
+              "Food": 6090,
+              "Wood": 2720,
+              "Metal": 2140,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "miraj",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1116,
+      "DeathCount": 73,
+      "WallSeconds": 3.8184405,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "miraj",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1742,
+            "Wood": 6206,
+            "Metal": 308,
+            "Stone": 112
+          },
+          "PopulationUsed": 59,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2232,
+            "Commands": 2305,
+            "Accepted": 2304,
+            "Rejected": 1,
+            "GatherOrders": 133,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 42,
+            "ResearchStarted": 10,
+            "AttackOrders": 57,
+            "ScoutOrders": 14,
+            "RetreatOrders": 147,
+            "Spent": {
+              "Food": 4530,
+              "Wood": 3180,
+              "Metal": 1400,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "dune_elephant",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "siege_workshop"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 10,
+            "Wood": 4438,
+            "Metal": 474,
+            "Stone": 208
+          },
+          "PopulationUsed": 3,
+          "PopulationCapacity": 31,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2232,
+            "Commands": 734,
+            "Accepted": 734,
+            "Rejected": 0,
+            "GatherOrders": 116,
+            "BuildingsStarted": 10,
+            "UnitsQueued": 71,
+            "ResearchStarted": 10,
+            "AttackOrders": 82,
+            "ScoutOrders": 20,
+            "RetreatOrders": 31,
+            "Spent": {
+              "Food": 5940,
+              "Wood": 2300,
+              "Metal": 1530,
+              "Stone": 260
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "skeld",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 442.8,
+      "DeathCount": 36,
+      "WallSeconds": 1.2077108,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "skeld",
+          "EraTier": 3,
+          "TechnologyCount": 6,
+          "Resources": {
+            "Food": 515,
+            "Wood": 500,
+            "Metal": 1,
+            "Stone": 50
+          },
+          "PopulationUsed": 25,
+          "PopulationCapacity": 30,
+          "Status": "Researching advance_empire",
+          "Statistics": {
+            "Thinks": 886,
+            "Commands": 728,
+            "Accepted": 727,
+            "Rejected": 1,
+            "GatherOrders": 57,
+            "BuildingsStarted": 13,
+            "UnitsQueued": 36,
+            "ResearchStarted": 7,
+            "AttackOrders": 34,
+            "ScoutOrders": 42,
+            "RetreatOrders": 7,
+            "Spent": {
+              "Food": 3605,
+              "Wood": 2150,
+              "Metal": 835,
+              "Stone": 400
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 154,
+            "Wood": 210,
+            "Metal": 532,
+            "Stone": 118
+          },
+          "PopulationUsed": 30,
+          "PopulationCapacity": 46,
+          "Status": "Researching armor_2",
+          "Statistics": {
+            "Thinks": 886,
+            "Commands": 687,
+            "Accepted": 687,
+            "Rejected": 0,
+            "GatherOrders": 64,
+            "BuildingsStarted": 14,
+            "UnitsQueued": 46,
+            "ResearchStarted": 10,
+            "AttackOrders": 24,
+            "ScoutOrders": 41,
+            "RetreatOrders": 12,
+            "Spent": {
+              "Food": 4430,
+              "Wood": 2510,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "skeld",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1087.95,
+      "DeathCount": 68,
+      "WallSeconds": 3.5529048,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 4,
+            "Wood": 4716,
+            "Metal": 460,
+            "Stone": 110
+          },
+          "PopulationUsed": 3,
+          "PopulationCapacity": 31,
+          "Status": "Scouting unexplored terrain",
+          "Statistics": {
+            "Thinks": 2176,
+            "Commands": 396,
+            "Accepted": 396,
+            "Rejected": 0,
+            "GatherOrders": 103,
+            "BuildingsStarted": 10,
+            "UnitsQueued": 66,
+            "ResearchStarted": 10,
+            "AttackOrders": 77,
+            "ScoutOrders": 17,
+            "RetreatOrders": 22,
+            "Spent": {
+              "Food": 5490,
+              "Wood": 2410,
+              "Metal": 1320,
+              "Stone": 260
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 2664,
+            "Wood": 6456,
+            "Metal": 424,
+            "Stone": 120
+          },
+          "PopulationUsed": 44,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2176,
+            "Commands": 2260,
+            "Accepted": 2260,
+            "Rejected": 0,
+            "GatherOrders": 124,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 41,
+            "ResearchStarted": 10,
+            "AttackOrders": 51,
+            "ScoutOrders": 28,
+            "RetreatOrders": 160,
+            "Spent": {
+              "Food": 4040,
+              "Wood": 2550,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "solar",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 555.7,
+      "DeathCount": 72,
+      "WallSeconds": 1.5884841,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 7,
+          "Resources": {
+            "Food": 20,
+            "Wood": 892,
+            "Metal": 150,
+            "Stone": 100
+          },
+          "PopulationUsed": 7,
+          "PopulationCapacity": 35,
+          "Status": "Building storeyard",
+          "Statistics": {
+            "Thinks": 1112,
+            "Commands": 848,
+            "Accepted": 847,
+            "Rejected": 1,
+            "GatherOrders": 76,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 50,
+            "ResearchStarted": 7,
+            "AttackOrders": 34,
+            "ScoutOrders": 42,
+            "RetreatOrders": 17,
+            "Spent": {
+              "Food": 4340,
+              "Wood": 1950,
+              "Metal": 540,
+              "Stone": 260
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 14,
+            "Wood": 55,
+            "Metal": 260,
+            "Stone": 140
+          },
+          "PopulationUsed": 47,
+          "PopulationCapacity": 56,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1112,
+            "Commands": 843,
+            "Accepted": 843,
+            "Rejected": 0,
+            "GatherOrders": 85,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 54,
+            "ResearchStarted": 10,
+            "AttackOrders": 87,
+            "ScoutOrders": 41,
+            "RetreatOrders": 26,
+            "Spent": {
+              "Food": 5120,
+              "Wood": 3630,
+              "Metal": 1260,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "solar",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1217.4,
+      "DeathCount": 87,
+      "WallSeconds": 4.1121826,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "solar",
+          "EraTier": 3,
+          "TechnologyCount": 6,
+          "Resources": {
+            "Food": 48,
+            "Wood": 4120,
+            "Metal": 890,
+            "Stone": 480
+          },
+          "PopulationUsed": 3,
+          "PopulationCapacity": 31,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2435,
+            "Commands": 560,
+            "Accepted": 559,
+            "Rejected": 1,
+            "GatherOrders": 94,
+            "BuildingsStarted": 11,
+            "UnitsQueued": 81,
+            "ResearchStarted": 6,
+            "AttackOrders": 88,
+            "ScoutOrders": 15,
+            "RetreatOrders": 45,
+            "Spent": {
+              "Food": 5940,
+              "Wood": 2710,
+              "Metal": 770,
+              "Stone": 60
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard",
+            "beast_lodge"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1630,
+            "Wood": 5930,
+            "Metal": 190,
+            "Stone": 110
+          },
+          "PopulationUsed": 54,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2435,
+            "Commands": 2607,
+            "Accepted": 2607,
+            "Rejected": 0,
+            "GatherOrders": 121,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 43,
+            "ResearchStarted": 10,
+            "AttackOrders": 66,
+            "ScoutOrders": 16,
+            "RetreatOrders": 331,
+            "Spent": {
+              "Food": 4560,
+              "Wood": 3360,
+              "Metal": 1260,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "verdant",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 918.7,
+      "DeathCount": 125,
+      "WallSeconds": 2.7550174,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 0,
+            "Wood": 1955,
+            "Metal": 410,
+            "Stone": 100
+          },
+          "PopulationUsed": 30,
+          "PopulationCapacity": 46,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1838,
+            "Commands": 1479,
+            "Accepted": 1479,
+            "Rejected": 0,
+            "GatherOrders": 101,
+            "BuildingsStarted": 17,
+            "UnitsQueued": 66,
+            "ResearchStarted": 10,
+            "AttackOrders": 109,
+            "ScoutOrders": 43,
+            "RetreatOrders": 34,
+            "Spent": {
+              "Food": 5630,
+              "Wood": 4070,
+              "Metal": 1380,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "siege_workshop",
+            "watchtower"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 36,
+            "Wood": 1148,
+            "Metal": 210,
+            "Stone": 100
+          },
+          "PopulationUsed": 4,
+          "PopulationCapacity": 50,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1838,
+            "Commands": 1415,
+            "Accepted": 1414,
+            "Rejected": 1,
+            "GatherOrders": 129,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 65,
+            "ResearchStarted": 10,
+            "AttackOrders": 104,
+            "ScoutOrders": 33,
+            "RetreatOrders": 120,
+            "Spent": {
+              "Food": 6160,
+              "Wood": 3420,
+              "Metal": 1580,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "verdant",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1258.8,
+      "DeathCount": 90,
+      "WallSeconds": 3.6538321,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1520,
+            "Wood": 5060,
+            "Metal": 660,
+            "Stone": 470
+          },
+          "PopulationUsed": 51,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2518,
+            "Commands": 2536,
+            "Accepted": 2536,
+            "Rejected": 0,
+            "GatherOrders": 158,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 53,
+            "ResearchStarted": 10,
+            "AttackOrders": 74,
+            "ScoutOrders": 2,
+            "RetreatOrders": 327,
+            "Spent": {
+              "Food": 5220,
+              "Wood": 3440,
+              "Metal": 1200,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 7,
+          "Resources": {
+            "Food": 20,
+            "Wood": 2310,
+            "Metal": 300,
+            "Stone": 130
+          },
+          "PopulationUsed": 6,
+          "PopulationCapacity": 31,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2518,
+            "Commands": 584,
+            "Accepted": 584,
+            "Rejected": 0,
+            "GatherOrders": 95,
+            "BuildingsStarted": 7,
+            "UnitsQueued": 77,
+            "ResearchStarted": 7,
+            "AttackOrders": 123,
+            "ScoutOrders": 9,
+            "RetreatOrders": 127,
+            "Spent": {
+              "Food": 5440,
+              "Wood": 2970,
+              "Metal": 540,
+              "Stone": 260
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "ashen",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 941.35,
+      "DeathCount": 70,
+      "WallSeconds": 3.2518361,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1020,
+            "Wood": 1880,
+            "Metal": 80,
+            "Stone": 190
+          },
+          "PopulationUsed": 9,
+          "PopulationCapacity": 40,
+          "Status": "Building storeyard",
+          "Statistics": {
+            "Thinks": 1883,
+            "Commands": 1747,
+            "Accepted": 1746,
+            "Rejected": 1,
+            "GatherOrders": 130,
+            "BuildingsStarted": 16,
+            "UnitsQueued": 50,
+            "ResearchStarted": 10,
+            "AttackOrders": 32,
+            "ScoutOrders": 43,
+            "RetreatOrders": 9,
+            "Spent": {
+              "Food": 4450,
+              "Wood": 2540,
+              "Metal": 1080,
+              "Stone": 340
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 420,
+            "Wood": 1498,
+            "Metal": 60,
+            "Stone": 314
+          },
+          "PopulationUsed": 49,
+          "PopulationCapacity": 56,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1883,
+            "Commands": 1753,
+            "Accepted": 1753,
+            "Rejected": 0,
+            "GatherOrders": 133,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 58,
+            "ResearchStarted": 10,
+            "AttackOrders": 69,
+            "ScoutOrders": 36,
+            "RetreatOrders": 15,
+            "Spent": {
+              "Food": 5900,
+              "Wood": 3150,
+              "Metal": 1740,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "ashen",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1378.1,
+      "DeathCount": 74,
+      "WallSeconds": 4.2192582,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 10,
+            "Wood": 3804,
+            "Metal": 280,
+            "Stone": 200
+          },
+          "PopulationUsed": 6,
+          "PopulationCapacity": 41,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2757,
+            "Commands": 2217,
+            "Accepted": 2217,
+            "Rejected": 0,
+            "GatherOrders": 137,
+            "BuildingsStarted": 17,
+            "UnitsQueued": 53,
+            "ResearchStarted": 10,
+            "AttackOrders": 67,
+            "ScoutOrders": 21,
+            "RetreatOrders": 435,
+            "Spent": {
+              "Food": 5430,
+              "Wood": 2660,
+              "Metal": 1380,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 310,
+            "Wood": 6676,
+            "Metal": 290,
+            "Stone": 310
+          },
+          "PopulationUsed": 61,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2757,
+            "Commands": 1819,
+            "Accepted": 1819,
+            "Rejected": 0,
+            "GatherOrders": 132,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 52,
+            "ResearchStarted": 10,
+            "AttackOrders": 72,
+            "ScoutOrders": 13,
+            "RetreatOrders": 158,
+            "Spent": {
+              "Food": 6480,
+              "Wood": 2960,
+              "Metal": 2580,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "watchtower",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "drakeforged",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 904,
+      "DeathCount": 40,
+      "WallSeconds": 2.9089161,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1560,
+            "Wood": 1030,
+            "Metal": 100,
+            "Stone": 450
+          },
+          "PopulationUsed": 39,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1808,
+            "Commands": 1729,
+            "Accepted": 1728,
+            "Rejected": 1,
+            "GatherOrders": 124,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 48,
+            "ResearchStarted": 10,
+            "AttackOrders": 46,
+            "ScoutOrders": 36,
+            "RetreatOrders": 13,
+            "Spent": {
+              "Food": 4660,
+              "Wood": 3090,
+              "Metal": 1380,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 70,
+            "Wood": 3040,
+            "Metal": 60,
+            "Stone": 140
+          },
+          "PopulationUsed": 19,
+          "PopulationCapacity": 30,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1808,
+            "Commands": 1745,
+            "Accepted": 1737,
+            "Rejected": 8,
+            "GatherOrders": 109,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 37,
+            "ResearchStarted": 9,
+            "AttackOrders": 40,
+            "ScoutOrders": 42,
+            "RetreatOrders": 8,
+            "Spent": {
+              "Food": 4170,
+              "Wood": 2220,
+              "Metal": 1080,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "siege_ram",
+            "sun_lion"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard",
+            "watchtower"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1,
+        "GatherCommand:NoPath": 8
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "amber_crossing",
+      "MapSha256": "67314383F8E1D598A5B8283DDA52591DE5CA203BF82C47A31B7D3C277F9C7379",
+      "Faction": "drakeforged",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1388.05,
+      "DeathCount": 75,
+      "WallSeconds": 4.1578321,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 22,
+            "Wood": 3854,
+            "Metal": 1330,
+            "Stone": 438
+          },
+          "PopulationUsed": 2,
+          "PopulationCapacity": 36,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2777,
+            "Commands": 1610,
+            "Accepted": 1610,
+            "Rejected": 0,
+            "GatherOrders": 117,
+            "BuildingsStarted": 13,
+            "UnitsQueued": 63,
+            "ResearchStarted": 10,
+            "AttackOrders": 64,
+            "ScoutOrders": 26,
+            "RetreatOrders": 142,
+            "Spent": {
+              "Food": 6090,
+              "Wood": 2550,
+              "Metal": 1800,
+              "Stone": 360
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "watchtower"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1060,
+            "Wood": 6850,
+            "Metal": 580,
+            "Stone": 110
+          },
+          "PopulationUsed": 53,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2777,
+            "Commands": 2572,
+            "Accepted": 2571,
+            "Rejected": 1,
+            "GatherOrders": 159,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 51,
+            "ResearchStarted": 10,
+            "AttackOrders": 55,
+            "ScoutOrders": 16,
+            "RetreatOrders": 547,
+            "Spent": {
+              "Food": 5060,
+              "Wood": 2890,
+              "Metal": 1360,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "aven",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 484.1,
+      "DeathCount": 50,
+      "WallSeconds": 1.4576149,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 778,
+            "Wood": 579,
+            "Metal": 40,
+            "Stone": 876
+          },
+          "PopulationUsed": 35,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 969,
+            "Commands": 905,
+            "Accepted": 902,
+            "Rejected": 3,
+            "GatherOrders": 73,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 47,
+            "ResearchStarted": 10,
+            "AttackOrders": 53,
+            "ScoutOrders": 46,
+            "RetreatOrders": 18,
+            "Spent": {
+              "Food": 4410,
+              "Wood": 2660,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 8,
+          "Resources": {
+            "Food": 0,
+            "Wood": 459,
+            "Metal": 350,
+            "Stone": 370
+          },
+          "PopulationUsed": 9,
+          "PopulationCapacity": 30,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 969,
+            "Commands": 862,
+            "Accepted": 862,
+            "Rejected": 0,
+            "GatherOrders": 66,
+            "BuildingsStarted": 12,
+            "UnitsQueued": 40,
+            "ResearchStarted": 8,
+            "AttackOrders": 30,
+            "ScoutOrders": 47,
+            "RetreatOrders": 20,
+            "Spent": {
+              "Food": 4220,
+              "Wood": 2060,
+              "Metal": 540,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "stringwarden",
+            "strider",
+            "reedguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 2,
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "aven",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 804.05,
+      "DeathCount": 73,
+      "WallSeconds": 2.8730066,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 2138,
+            "Wood": 3944,
+            "Metal": 388,
+            "Stone": 468
+          },
+          "PopulationUsed": 45,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 1609,
+            "Commands": 1557,
+            "Accepted": 1552,
+            "Rejected": 5,
+            "GatherOrders": 119,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 42,
+            "ResearchStarted": 10,
+            "AttackOrders": 59,
+            "ScoutOrders": 7,
+            "RetreatOrders": 1,
+            "Spent": {
+              "Food": 4150,
+              "Wood": 2520,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 12,
+            "Wood": 800,
+            "Metal": 760,
+            "Stone": 300
+          },
+          "PopulationUsed": 19,
+          "PopulationCapacity": 31,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 1609,
+            "Commands": 679,
+            "Accepted": 679,
+            "Rejected": 0,
+            "GatherOrders": 102,
+            "BuildingsStarted": 11,
+            "UnitsQueued": 87,
+            "ResearchStarted": 10,
+            "AttackOrders": 94,
+            "ScoutOrders": 7,
+            "RetreatOrders": 153,
+            "Spent": {
+              "Food": 5940,
+              "Wood": 4490,
+              "Metal": 920,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "strider",
+            "reedguard",
+            "stringwarden"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 5
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "serevin",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 678.6,
+      "DeathCount": 114,
+      "WallSeconds": 2.4795446,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 18,
+            "Wood": 1310,
+            "Metal": 158,
+            "Stone": 100
+          },
+          "PopulationUsed": 4,
+          "PopulationCapacity": 40,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1358,
+            "Commands": 1299,
+            "Accepted": 1296,
+            "Rejected": 3,
+            "GatherOrders": 88,
+            "BuildingsStarted": 16,
+            "UnitsQueued": 65,
+            "ResearchStarted": 10,
+            "AttackOrders": 88,
+            "ScoutOrders": 38,
+            "RetreatOrders": 71,
+            "Spent": {
+              "Food": 5800,
+              "Wood": 3040,
+              "Metal": 920,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "reedguard",
+            "stringwarden"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 28,
+            "Wood": 1239,
+            "Metal": 436,
+            "Stone": 1260
+          },
+          "PopulationUsed": 36,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1358,
+            "Commands": 1302,
+            "Accepted": 1302,
+            "Rejected": 0,
+            "GatherOrders": 94,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 78,
+            "ResearchStarted": 10,
+            "AttackOrders": 98,
+            "ScoutOrders": 51,
+            "RetreatOrders": 78,
+            "Spent": {
+              "Food": 6260,
+              "Wood": 3170,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1,
+        "GatherCommand:NoPath": 2
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "serevin",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 756.7,
+      "DeathCount": 48,
+      "WallSeconds": 3.0121128,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 12,
+            "Wood": 1562,
+            "Metal": 280,
+            "Stone": 490
+          },
+          "PopulationUsed": 20,
+          "PopulationCapacity": 31,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 1514,
+            "Commands": 811,
+            "Accepted": 811,
+            "Rejected": 0,
+            "GatherOrders": 97,
+            "BuildingsStarted": 11,
+            "UnitsQueued": 63,
+            "ResearchStarted": 10,
+            "AttackOrders": 50,
+            "ScoutOrders": 7,
+            "RetreatOrders": 122,
+            "Spent": {
+              "Food": 5520,
+              "Wood": 3150,
+              "Metal": 920,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "stringwarden",
+            "reedguard",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 2638,
+            "Wood": 2500,
+            "Metal": 784,
+            "Stone": 1068
+          },
+          "PopulationUsed": 44,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 1514,
+            "Commands": 1480,
+            "Accepted": 1479,
+            "Rejected": 1,
+            "GatherOrders": 110,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 41,
+            "ResearchStarted": 10,
+            "AttackOrders": 32,
+            "ScoutOrders": 9,
+            "RetreatOrders": 1,
+            "Spent": {
+              "Food": 4070,
+              "Wood": 2520,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "miraj",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 657.25,
+      "DeathCount": 61,
+      "WallSeconds": 2.5589135,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "miraj",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 582,
+            "Wood": 302,
+            "Metal": 126,
+            "Stone": 112
+          },
+          "PopulationUsed": 55,
+          "PopulationCapacity": 61,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1315,
+            "Commands": 1300,
+            "Accepted": 1111,
+            "Rejected": 189,
+            "GatherOrders": 102,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 58,
+            "ResearchStarted": 10,
+            "AttackOrders": 59,
+            "ScoutOrders": 52,
+            "RetreatOrders": 37,
+            "Spent": {
+              "Food": 5720,
+              "Wood": 3590,
+              "Metal": 1500,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "dune_elephant",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 110,
+            "Wood": 1110,
+            "Metal": 30,
+            "Stone": 708
+          },
+          "PopulationUsed": 20,
+          "PopulationCapacity": 40,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1315,
+            "Commands": 1186,
+            "Accepted": 1183,
+            "Rejected": 3,
+            "GatherOrders": 98,
+            "BuildingsStarted": 17,
+            "UnitsQueued": 58,
+            "ResearchStarted": 10,
+            "AttackOrders": 56,
+            "ScoutOrders": 37,
+            "RetreatOrders": 8,
+            "Spent": {
+              "Food": 5070,
+              "Wood": 2810,
+              "Metal": 1370,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "siege_workshop",
+            "watchtower"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 4,
+        "MoveCommand:DestinationBlocked": 188
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "miraj",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1197.4,
+      "DeathCount": 64,
+      "WallSeconds": 3.7625685,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "miraj",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 2190,
+            "Wood": 6152,
+            "Metal": 202,
+            "Stone": 166
+          },
+          "PopulationUsed": 56,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2395,
+            "Commands": 2685,
+            "Accepted": 2682,
+            "Rejected": 3,
+            "GatherOrders": 147,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 43,
+            "ResearchStarted": 10,
+            "AttackOrders": 70,
+            "ScoutOrders": 33,
+            "RetreatOrders": 254,
+            "Spent": {
+              "Food": 4530,
+              "Wood": 3230,
+              "Metal": 1340,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "dune_elephant",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "skeld",
+          "EraTier": 2,
+          "TechnologyCount": 4,
+          "Resources": {
+            "Food": 25,
+            "Wood": 5504,
+            "Metal": 405,
+            "Stone": 820
+          },
+          "PopulationUsed": 14,
+          "PopulationCapacity": 26,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2395,
+            "Commands": 1488,
+            "Accepted": 1488,
+            "Rejected": 0,
+            "GatherOrders": 132,
+            "BuildingsStarted": 6,
+            "UnitsQueued": 72,
+            "ResearchStarted": 4,
+            "AttackOrders": 90,
+            "ScoutOrders": 31,
+            "RetreatOrders": 82,
+            "Spent": {
+              "Food": 5495,
+              "Wood": 1240,
+              "Metal": 1645,
+              "Stone": 60
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1,
+        "MoveCommand:DestinationBlocked": 2
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "skeld",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 791.2,
+      "DeathCount": 114,
+      "WallSeconds": 3.0357121,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 15,
+            "Wood": 1270,
+            "Metal": 45,
+            "Stone": 1120
+          },
+          "PopulationUsed": 10,
+          "PopulationCapacity": 40,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1583,
+            "Commands": 1410,
+            "Accepted": 1409,
+            "Rejected": 1,
+            "GatherOrders": 121,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 63,
+            "ResearchStarted": 10,
+            "AttackOrders": 101,
+            "ScoutOrders": 44,
+            "RetreatOrders": 11,
+            "Spent": {
+              "Food": 5525,
+              "Wood": 2810,
+              "Metal": 1465,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard",
+            "siege_workshop",
+            "watchtower"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 68,
+            "Wood": 2454,
+            "Metal": 316,
+            "Stone": 1260
+          },
+          "PopulationUsed": 38,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1583,
+            "Commands": 1399,
+            "Accepted": 1219,
+            "Rejected": 180,
+            "GatherOrders": 111,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 85,
+            "ResearchStarted": 10,
+            "AttackOrders": 101,
+            "ScoutOrders": 47,
+            "RetreatOrders": 59,
+            "Spent": {
+              "Food": 6280,
+              "Wood": 3830,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 2,
+        "MoveCommand:DestinationBlocked": 179
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "skeld",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1122.15,
+      "DeathCount": 62,
+      "WallSeconds": 3.5380542,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1,
+            "Wood": 5658,
+            "Metal": 225,
+            "Stone": 210
+          },
+          "PopulationUsed": 4,
+          "PopulationCapacity": 31,
+          "Status": "Scouting unexplored terrain",
+          "Statistics": {
+            "Thinks": 2245,
+            "Commands": 502,
+            "Accepted": 502,
+            "Rejected": 0,
+            "GatherOrders": 107,
+            "BuildingsStarted": 10,
+            "UnitsQueued": 60,
+            "ResearchStarted": 10,
+            "AttackOrders": 61,
+            "ScoutOrders": 5,
+            "RetreatOrders": 68,
+            "Spent": {
+              "Food": 5855,
+              "Wood": 1810,
+              "Metal": 1985,
+              "Stone": 260
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 2454,
+            "Wood": 5930,
+            "Metal": 184,
+            "Stone": 132
+          },
+          "PopulationUsed": 44,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2245,
+            "Commands": 2150,
+            "Accepted": 2150,
+            "Rejected": 0,
+            "GatherOrders": 107,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 42,
+            "ResearchStarted": 10,
+            "AttackOrders": 40,
+            "ScoutOrders": 37,
+            "RetreatOrders": 50,
+            "Spent": {
+              "Food": 3930,
+              "Wood": 2740,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "solar",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 696.5,
+      "DeathCount": 71,
+      "WallSeconds": 2.0982007,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 160,
+            "Wood": 240,
+            "Metal": 20,
+            "Stone": 130
+          },
+          "PopulationUsed": 55,
+          "PopulationCapacity": 61,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1393,
+            "Commands": 1280,
+            "Accepted": 1279,
+            "Rejected": 1,
+            "GatherOrders": 96,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 63,
+            "ResearchStarted": 10,
+            "AttackOrders": 73,
+            "ScoutOrders": 51,
+            "RetreatOrders": 53,
+            "Spent": {
+              "Food": 5760,
+              "Wood": 3440,
+              "Metal": 1550,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "siege_workshop"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 0,
+            "Wood": 2585,
+            "Metal": 50,
+            "Stone": 340
+          },
+          "PopulationUsed": 7,
+          "PopulationCapacity": 35,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1393,
+            "Commands": 942,
+            "Accepted": 942,
+            "Rejected": 0,
+            "GatherOrders": 95,
+            "BuildingsStarted": 12,
+            "UnitsQueued": 51,
+            "ResearchStarted": 10,
+            "AttackOrders": 43,
+            "ScoutOrders": 47,
+            "RetreatOrders": 11,
+            "Spent": {
+              "Food": 4700,
+              "Wood": 1910,
+              "Metal": 1040,
+              "Stone": 260
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "solar",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1206.4,
+      "DeathCount": 74,
+      "WallSeconds": 3.6354839,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 10,
+            "Wood": 5030,
+            "Metal": 630,
+            "Stone": 100
+          },
+          "PopulationUsed": 2,
+          "PopulationCapacity": 36,
+          "Status": "Scouting unexplored terrain",
+          "Statistics": {
+            "Thinks": 2413,
+            "Commands": 1702,
+            "Accepted": 1701,
+            "Rejected": 1,
+            "GatherOrders": 117,
+            "BuildingsStarted": 13,
+            "UnitsQueued": 69,
+            "ResearchStarted": 10,
+            "AttackOrders": 77,
+            "ScoutOrders": 15,
+            "RetreatOrders": 77,
+            "Spent": {
+              "Food": 6110,
+              "Wood": 3050,
+              "Metal": 1500,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard",
+            "beast_lodge"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1680,
+            "Wood": 4650,
+            "Metal": 330,
+            "Stone": 100
+          },
+          "PopulationUsed": 56,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2413,
+            "Commands": 2967,
+            "Accepted": 2967,
+            "Rejected": 0,
+            "GatherOrders": 127,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 42,
+            "ResearchStarted": 10,
+            "AttackOrders": 59,
+            "ScoutOrders": 28,
+            "RetreatOrders": 54,
+            "Spent": {
+              "Food": 4440,
+              "Wood": 3400,
+              "Metal": 1260,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "verdant",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 945.2,
+      "DeathCount": 117,
+      "WallSeconds": 2.9088291,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 10,
+            "Wood": 740,
+            "Metal": 464,
+            "Stone": 80
+          },
+          "PopulationUsed": 2,
+          "PopulationCapacity": 45,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1891,
+            "Commands": 1376,
+            "Accepted": 1375,
+            "Rejected": 1,
+            "GatherOrders": 102,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 61,
+            "ResearchStarted": 10,
+            "AttackOrders": 111,
+            "ScoutOrders": 49,
+            "RetreatOrders": 68,
+            "Spent": {
+              "Food": 6130,
+              "Wood": 4050,
+              "Metal": 1380,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "siege_workshop"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 30,
+            "Wood": 2060,
+            "Metal": 260,
+            "Stone": 210
+          },
+          "PopulationUsed": 30,
+          "PopulationCapacity": 56,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1891,
+            "Commands": 1626,
+            "Accepted": 1626,
+            "Rejected": 0,
+            "GatherOrders": 121,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 70,
+            "ResearchStarted": 10,
+            "AttackOrders": 109,
+            "ScoutOrders": 49,
+            "RetreatOrders": 208,
+            "Spent": {
+              "Food": 6030,
+              "Wood": 3750,
+              "Metal": 1440,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "verdant",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1309.55,
+      "DeathCount": 74,
+      "WallSeconds": 4.3053731,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 720,
+            "Wood": 4920,
+            "Metal": 460,
+            "Stone": 110
+          },
+          "PopulationUsed": 54,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2620,
+            "Commands": 2763,
+            "Accepted": 2761,
+            "Rejected": 2,
+            "GatherOrders": 141,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 59,
+            "ResearchStarted": 10,
+            "AttackOrders": 60,
+            "ScoutOrders": 46,
+            "RetreatOrders": 237,
+            "Spent": {
+              "Food": 5400,
+              "Wood": 3190,
+              "Metal": 1200,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 10,
+            "Wood": 4460,
+            "Metal": 158,
+            "Stone": 100
+          },
+          "PopulationUsed": 16,
+          "PopulationCapacity": 41,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2620,
+            "Commands": 941,
+            "Accepted": 941,
+            "Rejected": 0,
+            "GatherOrders": 136,
+            "BuildingsStarted": 16,
+            "UnitsQueued": 67,
+            "ResearchStarted": 10,
+            "AttackOrders": 77,
+            "ScoutOrders": 35,
+            "RetreatOrders": 260,
+            "Spent": {
+              "Food": 6110,
+              "Wood": 3500,
+              "Metal": 1460,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1,
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "ashen",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 860.35,
+      "DeathCount": 113,
+      "WallSeconds": 2.8531357,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 16,
+            "Wood": 1094,
+            "Metal": 210,
+            "Stone": 240
+          },
+          "PopulationUsed": 4,
+          "PopulationCapacity": 40,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1721,
+            "Commands": 1449,
+            "Accepted": 1448,
+            "Rejected": 1,
+            "GatherOrders": 105,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 62,
+            "ResearchStarted": 10,
+            "AttackOrders": 85,
+            "ScoutOrders": 62,
+            "RetreatOrders": 34,
+            "Spent": {
+              "Food": 6090,
+              "Wood": 3380,
+              "Metal": 1600,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "watchtower",
+            "siege_workshop"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 0,
+            "Wood": 2338,
+            "Metal": 340,
+            "Stone": 540
+          },
+          "PopulationUsed": 43,
+          "PopulationCapacity": 61,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1721,
+            "Commands": 1413,
+            "Accepted": 1412,
+            "Rejected": 1,
+            "GatherOrders": 112,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 72,
+            "ResearchStarted": 10,
+            "AttackOrders": 105,
+            "ScoutOrders": 51,
+            "RetreatOrders": 220,
+            "Spent": {
+              "Food": 6120,
+              "Wood": 3640,
+              "Metal": 1560,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1,
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "ashen",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1252.15,
+      "DeathCount": 82,
+      "WallSeconds": 4.3501358,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 608,
+            "Wood": 5188,
+            "Metal": 930,
+            "Stone": 180
+          },
+          "PopulationUsed": 58,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2505,
+            "Commands": 2364,
+            "Accepted": 2363,
+            "Rejected": 1,
+            "GatherOrders": 160,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 52,
+            "ResearchStarted": 10,
+            "AttackOrders": 81,
+            "ScoutOrders": 24,
+            "RetreatOrders": 561,
+            "Spent": {
+              "Food": 5560,
+              "Wood": 3110,
+              "Metal": 1460,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 22,
+            "Wood": 2956,
+            "Metal": 550,
+            "Stone": 458
+          },
+          "PopulationUsed": 18,
+          "PopulationCapacity": 46,
+          "Status": "Scouting unexplored terrain",
+          "Statistics": {
+            "Thinks": 2505,
+            "Commands": 1839,
+            "Accepted": 1839,
+            "Rejected": 0,
+            "GatherOrders": 132,
+            "BuildingsStarted": 17,
+            "UnitsQueued": 77,
+            "ResearchStarted": 10,
+            "AttackOrders": 154,
+            "ScoutOrders": 34,
+            "RetreatOrders": 245,
+            "Spent": {
+              "Food": 6050,
+              "Wood": 4870,
+              "Metal": 1980,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "watchtower",
+            "storeyard",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "drakeforged",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 717.6,
+      "DeathCount": 77,
+      "WallSeconds": 2.2487697,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 10,
+            "Wood": 940,
+            "Metal": 40,
+            "Stone": 120
+          },
+          "PopulationUsed": 2,
+          "PopulationCapacity": 35,
+          "Status": "Building storeyard",
+          "Statistics": {
+            "Thinks": 1436,
+            "Commands": 1253,
+            "Accepted": 1252,
+            "Rejected": 1,
+            "GatherOrders": 81,
+            "BuildingsStarted": 16,
+            "UnitsQueued": 47,
+            "ResearchStarted": 9,
+            "AttackOrders": 57,
+            "ScoutOrders": 55,
+            "RetreatOrders": 35,
+            "Spent": {
+              "Food": 4750,
+              "Wood": 2350,
+              "Metal": 1060,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 228,
+            "Wood": 168,
+            "Metal": 160,
+            "Stone": 300
+          },
+          "PopulationUsed": 51,
+          "PopulationCapacity": 56,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1436,
+            "Commands": 1194,
+            "Accepted": 1193,
+            "Rejected": 1,
+            "GatherOrders": 96,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 65,
+            "ResearchStarted": 10,
+            "AttackOrders": 83,
+            "ScoutOrders": 42,
+            "RetreatOrders": 88,
+            "Spent": {
+              "Food": 5620,
+              "Wood": 3460,
+              "Metal": 1280,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1,
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sapphire_coast",
+      "MapSha256": "792A49848EC186FE50C2FF6A696D655E176E5AEE6CB07375D95C40CEA37407AC",
+      "Faction": "drakeforged",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1325.15,
+      "DeathCount": 71,
+      "WallSeconds": 4.5585381,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1140,
+            "Wood": 5860,
+            "Metal": 1070,
+            "Stone": 150
+          },
+          "PopulationUsed": 58,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2651,
+            "Commands": 4304,
+            "Accepted": 4304,
+            "Rejected": 0,
+            "GatherOrders": 161,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 51,
+            "ResearchStarted": 10,
+            "AttackOrders": 89,
+            "ScoutOrders": 16,
+            "RetreatOrders": 704,
+            "Spent": {
+              "Food": 5190,
+              "Wood": 3200,
+              "Metal": 1680,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 16,
+            "Wood": 2590,
+            "Metal": 1570,
+            "Stone": 470
+          },
+          "PopulationUsed": 11,
+          "PopulationCapacity": 36,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2651,
+            "Commands": 2581,
+            "Accepted": 2581,
+            "Rejected": 0,
+            "GatherOrders": 109,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 66,
+            "ResearchStarted": 10,
+            "AttackOrders": 98,
+            "ScoutOrders": 14,
+            "RetreatOrders": 255,
+            "Spent": {
+              "Food": 5890,
+              "Wood": 3280,
+              "Metal": 1480,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "watchtower",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "aven",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 463.75,
+      "DeathCount": 60,
+      "WallSeconds": 1.3301576,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 284,
+            "Wood": 959,
+            "Metal": 156,
+            "Stone": 240
+          },
+          "PopulationUsed": 24,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 928,
+            "Commands": 819,
+            "Accepted": 817,
+            "Rejected": 2,
+            "GatherOrders": 69,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 44,
+            "ResearchStarted": 9,
+            "AttackOrders": 50,
+            "ScoutOrders": 40,
+            "RetreatOrders": 20,
+            "Spent": {
+              "Food": 4280,
+              "Wood": 2430,
+              "Metal": 780,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 8,
+          "Resources": {
+            "Food": 20,
+            "Wood": 133,
+            "Metal": 110,
+            "Stone": 860
+          },
+          "PopulationUsed": 13,
+          "PopulationCapacity": 35,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 928,
+            "Commands": 794,
+            "Accepted": 794,
+            "Rejected": 0,
+            "GatherOrders": 64,
+            "BuildingsStarted": 13,
+            "UnitsQueued": 45,
+            "ResearchStarted": 8,
+            "AttackOrders": 57,
+            "ScoutOrders": 38,
+            "RetreatOrders": 10,
+            "Spent": {
+              "Food": 4260,
+              "Wood": 2550,
+              "Metal": 540,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "reedguard",
+            "stringwarden"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 2
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "aven",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1096.75,
+      "DeathCount": 103,
+      "WallSeconds": 4.0461441,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 562,
+            "Wood": 5642,
+            "Metal": 544,
+            "Stone": 660
+          },
+          "PopulationUsed": 45,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2194,
+            "Commands": 4275,
+            "Accepted": 4272,
+            "Rejected": 3,
+            "GatherOrders": 143,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 67,
+            "ResearchStarted": 10,
+            "AttackOrders": 66,
+            "ScoutOrders": 41,
+            "RetreatOrders": 48,
+            "Spent": {
+              "Food": 5570,
+              "Wood": 2440,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "serevin",
+          "EraTier": 3,
+          "TechnologyCount": 7,
+          "Resources": {
+            "Food": 6,
+            "Wood": 4588,
+            "Metal": 500,
+            "Stone": 460
+          },
+          "PopulationUsed": 11,
+          "PopulationCapacity": 26,
+          "Status": "Scouting unexplored terrain",
+          "Statistics": {
+            "Thinks": 2194,
+            "Commands": 1552,
+            "Accepted": 1552,
+            "Rejected": 0,
+            "GatherOrders": 106,
+            "BuildingsStarted": 9,
+            "UnitsQueued": 84,
+            "ResearchStarted": 7,
+            "AttackOrders": 103,
+            "ScoutOrders": 20,
+            "RetreatOrders": 68,
+            "Spent": {
+              "Food": 6030,
+              "Wood": 3490,
+              "Metal": 240,
+              "Stone": 60
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "strider",
+            "stringwarden",
+            "reedguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 2,
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "serevin",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 483.8,
+      "DeathCount": 65,
+      "WallSeconds": 1.5014414,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 8,
+          "Resources": {
+            "Food": 40,
+            "Wood": 546,
+            "Metal": 146,
+            "Stone": 124
+          },
+          "PopulationUsed": 4,
+          "PopulationCapacity": 40,
+          "Status": "Building storeyard",
+          "Statistics": {
+            "Thinks": 968,
+            "Commands": 855,
+            "Accepted": 855,
+            "Rejected": 0,
+            "GatherOrders": 64,
+            "BuildingsStarted": 17,
+            "UnitsQueued": 43,
+            "ResearchStarted": 8,
+            "AttackOrders": 39,
+            "ScoutOrders": 41,
+            "RetreatOrders": 25,
+            "Spent": {
+              "Food": 4400,
+              "Wood": 2380,
+              "Metal": 540,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "strider",
+            "reedguard",
+            "stringwarden"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 170,
+            "Wood": 611,
+            "Metal": 208,
+            "Stone": 244
+          },
+          "PopulationUsed": 32,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 968,
+            "Commands": 819,
+            "Accepted": 819,
+            "Rejected": 0,
+            "GatherOrders": 72,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 50,
+            "ResearchStarted": 10,
+            "AttackOrders": 70,
+            "ScoutOrders": 41,
+            "RetreatOrders": 16,
+            "Spent": {
+              "Food": 4610,
+              "Wood": 2700,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "serevin",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1154.05,
+      "DeathCount": 87,
+      "WallSeconds": 4.0120084,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "serevin",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 10,
+            "Wood": 4270,
+            "Metal": 470,
+            "Stone": 240
+          },
+          "PopulationUsed": 6,
+          "PopulationCapacity": 26,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2309,
+            "Commands": 2010,
+            "Accepted": 2009,
+            "Rejected": 1,
+            "GatherOrders": 125,
+            "BuildingsStarted": 9,
+            "UnitsQueued": 86,
+            "ResearchStarted": 10,
+            "AttackOrders": 94,
+            "ScoutOrders": 38,
+            "RetreatOrders": 140,
+            "Spent": {
+              "Food": 6110,
+              "Wood": 3810,
+              "Metal": 920,
+              "Stone": 260
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "ashrunner",
+            "stringwarden",
+            "reedguard",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1750,
+            "Wood": 5600,
+            "Metal": 220,
+            "Stone": 252
+          },
+          "PopulationUsed": 45,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2309,
+            "Commands": 3062,
+            "Accepted": 3061,
+            "Rejected": 1,
+            "GatherOrders": 88,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 44,
+            "ResearchStarted": 10,
+            "AttackOrders": 71,
+            "ScoutOrders": 26,
+            "RetreatOrders": 371,
+            "Spent": {
+              "Food": 4370,
+              "Wood": 2460,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1,
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "miraj",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 561.8,
+      "DeathCount": 61,
+      "WallSeconds": 1.9634746,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "miraj",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 30,
+            "Wood": 1290,
+            "Metal": 206,
+            "Stone": 138
+          },
+          "PopulationUsed": 47,
+          "PopulationCapacity": 61,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1124,
+            "Commands": 1000,
+            "Accepted": 998,
+            "Rejected": 2,
+            "GatherOrders": 85,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 57,
+            "ResearchStarted": 10,
+            "AttackOrders": 54,
+            "ScoutOrders": 41,
+            "RetreatOrders": 24,
+            "Spent": {
+              "Food": 5910,
+              "Wood": 3740,
+              "Metal": 1600,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "dune_elephant",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 8,
+          "Resources": {
+            "Food": 315,
+            "Wood": 400,
+            "Metal": 45,
+            "Stone": 120
+          },
+          "PopulationUsed": 17,
+          "PopulationCapacity": 40,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1124,
+            "Commands": 962,
+            "Accepted": 962,
+            "Rejected": 0,
+            "GatherOrders": 82,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 43,
+            "ResearchStarted": 8,
+            "AttackOrders": 49,
+            "ScoutOrders": 48,
+            "RetreatOrders": 25,
+            "Spent": {
+              "Food": 4085,
+              "Wood": 2460,
+              "Metal": 1025,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1,
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "miraj",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1094.35,
+      "DeathCount": 92,
+      "WallSeconds": 4.178099,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "miraj",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 704,
+            "Wood": 5302,
+            "Metal": 560,
+            "Stone": 126
+          },
+          "PopulationUsed": 56,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2189,
+            "Commands": 4315,
+            "Accepted": 4311,
+            "Rejected": 4,
+            "GatherOrders": 137,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 59,
+            "ResearchStarted": 10,
+            "AttackOrders": 73,
+            "ScoutOrders": 44,
+            "RetreatOrders": 123,
+            "Spent": {
+              "Food": 5430,
+              "Wood": 3000,
+              "Metal": 1340,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "dune_elephant",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 8,
+          "Resources": {
+            "Food": 12,
+            "Wood": 5668,
+            "Metal": 550,
+            "Stone": 130
+          },
+          "PopulationUsed": 0,
+          "PopulationCapacity": 31,
+          "Status": "Scouting unexplored terrain",
+          "Statistics": {
+            "Thinks": 2189,
+            "Commands": 1241,
+            "Accepted": 1241,
+            "Rejected": 0,
+            "GatherOrders": 126,
+            "BuildingsStarted": 10,
+            "UnitsQueued": 70,
+            "ResearchStarted": 8,
+            "AttackOrders": 85,
+            "ScoutOrders": 22,
+            "RetreatOrders": 28,
+            "Spent": {
+              "Food": 6070,
+              "Wood": 2130,
+              "Metal": 1430,
+              "Stone": 260
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 4
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "skeld",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 467.1,
+      "DeathCount": 57,
+      "WallSeconds": 1.7553384,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "skeld",
+          "EraTier": 3,
+          "TechnologyCount": 6,
+          "Resources": {
+            "Food": 780,
+            "Wood": 240,
+            "Metal": 220,
+            "Stone": 310
+          },
+          "PopulationUsed": 25,
+          "PopulationCapacity": 40,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 935,
+            "Commands": 778,
+            "Accepted": 777,
+            "Rejected": 1,
+            "GatherOrders": 75,
+            "BuildingsStarted": 14,
+            "UnitsQueued": 43,
+            "ResearchStarted": 6,
+            "AttackOrders": 46,
+            "ScoutOrders": 39,
+            "RetreatOrders": 9,
+            "Spent": {
+              "Food": 3470,
+              "Wood": 2140,
+              "Metal": 640,
+              "Stone": 100
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 9,
+          "Resources": {
+            "Food": 558,
+            "Wood": 492,
+            "Metal": 144,
+            "Stone": 288
+          },
+          "PopulationUsed": 20,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 935,
+            "Commands": 703,
+            "Accepted": 703,
+            "Rejected": 0,
+            "GatherOrders": 68,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 45,
+            "ResearchStarted": 9,
+            "AttackOrders": 41,
+            "ScoutOrders": 31,
+            "RetreatOrders": 17,
+            "Spent": {
+              "Food": 4190,
+              "Wood": 2600,
+              "Metal": 780,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "skeld",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1209.35,
+      "DeathCount": 109,
+      "WallSeconds": 4.7536277,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "skeld",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 20,
+            "Wood": 3988,
+            "Metal": 190,
+            "Stone": 1120
+          },
+          "PopulationUsed": 14,
+          "PopulationCapacity": 46,
+          "Status": "Scouting unexplored terrain",
+          "Statistics": {
+            "Thinks": 2419,
+            "Commands": 1359,
+            "Accepted": 1359,
+            "Rejected": 0,
+            "GatherOrders": 121,
+            "BuildingsStarted": 16,
+            "UnitsQueued": 81,
+            "ResearchStarted": 10,
+            "AttackOrders": 128,
+            "ScoutOrders": 22,
+            "RetreatOrders": 249,
+            "Spent": {
+              "Food": 6100,
+              "Wood": 3660,
+              "Metal": 1720,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "frostguard",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard",
+            "watchtower",
+            "siege_workshop"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "aven",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 410,
+            "Wood": 5576,
+            "Metal": 796,
+            "Stone": 108
+          },
+          "PopulationUsed": 41,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2419,
+            "Commands": 3799,
+            "Accepted": 3798,
+            "Rejected": 1,
+            "GatherOrders": 132,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 70,
+            "ResearchStarted": 10,
+            "AttackOrders": 90,
+            "ScoutOrders": 22,
+            "RetreatOrders": 850,
+            "Spent": {
+              "Food": 5710,
+              "Wood": 2900,
+              "Metal": 980,
+              "Stone": 280
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "solar",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 956.95,
+      "DeathCount": 130,
+      "WallSeconds": 3.0754692,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 10,
+            "Wood": 1820,
+            "Metal": 900,
+            "Stone": 140
+          },
+          "PopulationUsed": 19,
+          "PopulationCapacity": 51,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1914,
+            "Commands": 1189,
+            "Accepted": 1189,
+            "Rejected": 0,
+            "GatherOrders": 98,
+            "BuildingsStarted": 17,
+            "UnitsQueued": 73,
+            "ResearchStarted": 10,
+            "AttackOrders": 102,
+            "ScoutOrders": 46,
+            "RetreatOrders": 109,
+            "Spent": {
+              "Food": 5990,
+              "Wood": 3370,
+              "Metal": 1410,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard",
+            "beast_lodge",
+            "siege_workshop"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 20,
+            "Wood": 1840,
+            "Metal": 310,
+            "Stone": 130
+          },
+          "PopulationUsed": 6,
+          "PopulationCapacity": 45,
+          "Status": "Building storeyard",
+          "Statistics": {
+            "Thinks": 1914,
+            "Commands": 1311,
+            "Accepted": 1308,
+            "Rejected": 3,
+            "GatherOrders": 121,
+            "BuildingsStarted": 21,
+            "UnitsQueued": 63,
+            "ResearchStarted": 10,
+            "AttackOrders": 120,
+            "ScoutOrders": 43,
+            "RetreatOrders": 77,
+            "Spent": {
+              "Food": 6160,
+              "Wood": 4330,
+              "Metal": 1440,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 3
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "solar",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1254.5,
+      "DeathCount": 77,
+      "WallSeconds": 4.3330582,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 980,
+            "Wood": 5660,
+            "Metal": 578,
+            "Stone": 110
+          },
+          "PopulationUsed": 49,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2509,
+            "Commands": 2732,
+            "Accepted": 2731,
+            "Rejected": 1,
+            "GatherOrders": 123,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 53,
+            "ResearchStarted": 10,
+            "AttackOrders": 95,
+            "ScoutOrders": 32,
+            "RetreatOrders": 622,
+            "Spent": {
+              "Food": 5140,
+              "Wood": 2790,
+              "Metal": 1290,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 10,
+            "Wood": 3282,
+            "Metal": 200,
+            "Stone": 150
+          },
+          "PopulationUsed": 11,
+          "PopulationCapacity": 36,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2509,
+            "Commands": 1154,
+            "Accepted": 1154,
+            "Rejected": 0,
+            "GatherOrders": 112,
+            "BuildingsStarted": 15,
+            "UnitsQueued": 69,
+            "ResearchStarted": 10,
+            "AttackOrders": 127,
+            "ScoutOrders": 12,
+            "RetreatOrders": 393,
+            "Spent": {
+              "Food": 6110,
+              "Wood": 4320,
+              "Metal": 1340,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard",
+            "watchtower"
+          ]
+        }
+      ],
+      "Rejections": {
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "verdant",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 779.65,
+      "DeathCount": 104,
+      "WallSeconds": 2.5843606,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 20,
+            "Wood": 710,
+            "Metal": 230,
+            "Stone": 110
+          },
+          "PopulationUsed": 50,
+          "PopulationCapacity": 56,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1560,
+            "Commands": 1278,
+            "Accepted": 1278,
+            "Rejected": 0,
+            "GatherOrders": 113,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 66,
+            "ResearchStarted": 10,
+            "AttackOrders": 114,
+            "ScoutOrders": 42,
+            "RetreatOrders": 49,
+            "Spent": {
+              "Food": 6190,
+              "Wood": 4300,
+              "Metal": 1400,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "watchtower",
+            "storeyard",
+            "siege_workshop"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 20,
+            "Wood": 550,
+            "Metal": 100,
+            "Stone": 620
+          },
+          "PopulationUsed": 6,
+          "PopulationCapacity": 45,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1560,
+            "Commands": 1368,
+            "Accepted": 1368,
+            "Rejected": 0,
+            "GatherOrders": 94,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 62,
+            "ResearchStarted": 10,
+            "AttackOrders": 66,
+            "ScoutOrders": 43,
+            "RetreatOrders": 48,
+            "Spent": {
+              "Food": 5220,
+              "Wood": 3560,
+              "Metal": 1400,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "watchtower",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "verdant",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1163.85,
+      "DeathCount": 82,
+      "WallSeconds": 4.0255827,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "verdant",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 1580,
+            "Wood": 5050,
+            "Metal": 290,
+            "Stone": 550
+          },
+          "PopulationUsed": 51,
+          "PopulationCapacity": 56,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2328,
+            "Commands": 4827,
+            "Accepted": 4827,
+            "Rejected": 0,
+            "GatherOrders": 136,
+            "BuildingsStarted": 19,
+            "UnitsQueued": 43,
+            "ResearchStarted": 10,
+            "AttackOrders": 86,
+            "ScoutOrders": 32,
+            "RetreatOrders": 541,
+            "Spent": {
+              "Food": 4540,
+              "Wood": 3010,
+              "Metal": 1160,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "grove_guardian"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "ashen",
+          "EraTier": 3,
+          "TechnologyCount": 6,
+          "Resources": {
+            "Food": 10,
+            "Wood": 4650,
+            "Metal": 560,
+            "Stone": 960
+          },
+          "PopulationUsed": 7,
+          "PopulationCapacity": 31,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2328,
+            "Commands": 1582,
+            "Accepted": 1582,
+            "Rejected": 0,
+            "GatherOrders": 86,
+            "BuildingsStarted": 11,
+            "UnitsQueued": 80,
+            "ResearchStarted": 6,
+            "AttackOrders": 139,
+            "ScoutOrders": 11,
+            "RetreatOrders": 33,
+            "Spent": {
+              "Food": 6110,
+              "Wood": 3420,
+              "Metal": 760,
+              "Stone": 60
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard",
+            "beast_lodge"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "ashen",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Conquest",
+      "Seconds": 669.05,
+      "DeathCount": 63,
+      "WallSeconds": 2.2484866,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 510,
+            "Wood": 1068,
+            "Metal": 40,
+            "Stone": 80
+          },
+          "PopulationUsed": 9,
+          "PopulationCapacity": 40,
+          "Status": "Building storeyard",
+          "Statistics": {
+            "Thinks": 1339,
+            "Commands": 1223,
+            "Accepted": 1223,
+            "Rejected": 0,
+            "GatherOrders": 93,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 47,
+            "ResearchStarted": 10,
+            "AttackOrders": 27,
+            "ScoutOrders": 49,
+            "RetreatOrders": 27,
+            "Spent": {
+              "Food": 4380,
+              "Wood": 2440,
+              "Metal": 1080,
+              "Stone": 300
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 630,
+            "Wood": 314,
+            "Metal": 5,
+            "Stone": 100
+          },
+          "PopulationUsed": 46,
+          "PopulationCapacity": 51,
+          "Status": "Building shelter",
+          "Statistics": {
+            "Thinks": 1339,
+            "Commands": 1174,
+            "Accepted": 1174,
+            "Rejected": 0,
+            "GatherOrders": 96,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 52,
+            "ResearchStarted": 10,
+            "AttackOrders": 57,
+            "ScoutOrders": 43,
+            "RetreatOrders": 31,
+            "Spent": {
+              "Food": 5130,
+              "Wood": 3090,
+              "Metal": 1560,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        }
+      ],
+      "Rejections": {},
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "ashen",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Dominion",
+      "Seconds": 1186.35,
+      "DeathCount": 98,
+      "WallSeconds": 4.5348334,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "ashen",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 600,
+            "Wood": 5820,
+            "Metal": 334,
+            "Stone": 110
+          },
+          "PopulationUsed": 50,
+          "PopulationCapacity": 56,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2373,
+            "Commands": 4670,
+            "Accepted": 4663,
+            "Rejected": 7,
+            "GatherOrders": 162,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 62,
+            "ResearchStarted": 10,
+            "AttackOrders": 74,
+            "ScoutOrders": 29,
+            "RetreatOrders": 121,
+            "Spent": {
+              "Food": 5610,
+              "Wood": 2580,
+              "Metal": 1240,
+              "Stone": 320
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "war_troll"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "drakeforged",
+          "EraTier": 3,
+          "TechnologyCount": 6,
+          "Resources": {
+            "Food": 26,
+            "Wood": 4690,
+            "Metal": 570,
+            "Stone": 1024
+          },
+          "PopulationUsed": 15,
+          "PopulationCapacity": 31,
+          "Status": "Scouting unexplored terrain",
+          "Statistics": {
+            "Thinks": 2373,
+            "Commands": 1194,
+            "Accepted": 1194,
+            "Rejected": 0,
+            "GatherOrders": 122,
+            "BuildingsStarted": 11,
+            "UnitsQueued": 83,
+            "ResearchStarted": 6,
+            "AttackOrders": 109,
+            "ScoutOrders": 6,
+            "RetreatOrders": 74,
+            "Spent": {
+              "Food": 5960,
+              "Wood": 3010,
+              "Metal": 640,
+              "Stone": 60
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard",
+            "beast_lodge"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 6,
+        "MoveCommand:DestinationBlocked": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "drakeforged",
+      "Mode": "Conquest",
+      "IsFinished": true,
+      "WinnerId": 1,
+      "Reason": "Conquest",
+      "Seconds": 815.1,
+      "DeathCount": 115,
+      "WallSeconds": 2.98649,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 0,
+            "Wood": 2100,
+            "Metal": 320,
+            "Stone": 230
+          },
+          "PopulationUsed": 46,
+          "PopulationCapacity": 61,
+          "Status": "Engaging observed enemy",
+          "Statistics": {
+            "Thinks": 1631,
+            "Commands": 1206,
+            "Accepted": 1206,
+            "Rejected": 0,
+            "GatherOrders": 120,
+            "BuildingsStarted": 21,
+            "UnitsQueued": 73,
+            "ResearchStarted": 10,
+            "AttackOrders": 105,
+            "ScoutOrders": 60,
+            "RetreatOrders": 99,
+            "Spent": {
+              "Food": 6190,
+              "Wood": 3830,
+              "Metal": 1560,
+              "Stone": 460
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "storeyard",
+            "siege_workshop",
+            "watchtower"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 20,
+            "Wood": 1190,
+            "Metal": 214,
+            "Stone": 700
+          },
+          "PopulationUsed": 6,
+          "PopulationCapacity": 40,
+          "Status": "Building storeyard",
+          "Statistics": {
+            "Thinks": 1631,
+            "Commands": 1460,
+            "Accepted": 1459,
+            "Rejected": 1,
+            "GatherOrders": 113,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 67,
+            "ResearchStarted": 10,
+            "AttackOrders": 65,
+            "ScoutOrders": 54,
+            "RetreatOrders": 46,
+            "Spent": {
+              "Food": 6030,
+              "Wood": 3270,
+              "Metal": 1550,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "storeyard",
+            "archive",
+            "beast_lodge",
+            "watchtower",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 1
+      },
+      "DeadlineReached": false
+    },
+    {
+      "Type": "natural-match",
+      "Map": "sunscar_basin",
+      "MapSha256": "86E6015F0298F09B1AC91F3FF3D758933D43CCA6A74AADD12B6A26C389259202",
+      "Faction": "drakeforged",
+      "Mode": "Dominion",
+      "IsFinished": true,
+      "WinnerId": 2,
+      "Reason": "Dominion",
+      "Seconds": 1483.2,
+      "DeathCount": 119,
+      "WallSeconds": 4.9868509,
+      "Players": [
+        {
+          "Id": 1,
+          "FactionId": "drakeforged",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 0,
+            "Wood": 2832,
+            "Metal": 200,
+            "Stone": 310
+          },
+          "PopulationUsed": 12,
+          "PopulationCapacity": 51,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2967,
+            "Commands": 2523,
+            "Accepted": 2520,
+            "Rejected": 3,
+            "GatherOrders": 128,
+            "BuildingsStarted": 18,
+            "UnitsQueued": 79,
+            "ResearchStarted": 10,
+            "AttackOrders": 102,
+            "ScoutOrders": 17,
+            "RetreatOrders": 357,
+            "Spent": {
+              "Food": 6120,
+              "Wood": 4720,
+              "Metal": 1860,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "ember_drake",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "beast_lodge",
+            "siege_workshop",
+            "watchtower",
+            "storeyard"
+          ]
+        },
+        {
+          "Id": 2,
+          "FactionId": "solar",
+          "EraTier": 4,
+          "TechnologyCount": 10,
+          "Resources": {
+            "Food": 40,
+            "Wood": 4844,
+            "Metal": 384,
+            "Stone": 130
+          },
+          "PopulationUsed": 48,
+          "PopulationCapacity": 61,
+          "Status": "Capturing or defending public beacon",
+          "Statistics": {
+            "Thinks": 2967,
+            "Commands": 3799,
+            "Accepted": 3797,
+            "Rejected": 2,
+            "GatherOrders": 168,
+            "BuildingsStarted": 20,
+            "UnitsQueued": 72,
+            "ResearchStarted": 10,
+            "AttackOrders": 97,
+            "ScoutOrders": 28,
+            "RetreatOrders": 210,
+            "Spent": {
+              "Food": 6080,
+              "Wood": 3640,
+              "Metal": 1480,
+              "Stone": 420
+            }
+          },
+          "ProducedUnitTypes": [
+            "tender",
+            "reedguard",
+            "stringwarden",
+            "strider",
+            "sun_lion",
+            "siege_ram"
+          ],
+          "BuiltTypes": [
+            "hearth",
+            "shelter",
+            "muster_hall",
+            "archive",
+            "storeyard",
+            "beast_lodge",
+            "watchtower",
+            "siege_workshop"
+          ]
+        }
+      ],
+      "Rejections": {
+        "GatherCommand:NoPath": 5
+      },
+      "DeadlineReached": false
+    }
+  ]
+}

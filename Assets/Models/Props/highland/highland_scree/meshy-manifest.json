@@ -1,0 +1,130 @@
+{
+  "id": "highland_scree",
+  "entry": {
+    "id": "highland_scree",
+    "role": "obstacle",
+    "kind": "obstacle",
+    "lod0": 400,
+    "lod1": 160,
+    "height": 0.7,
+    "footprint": 1.0,
+    "size": 512,
+    "biome": "highland",
+    "priority": 6,
+    "polycount": 600,
+    "prompt": "Scree boulder pile: a low heap of three big angular broken granite blocks leaning together, small sharp rock fragments fused around their feet, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.7 m tall. Isolated, no ground, no base plate, no plants, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Rock: cool mid-grey granite (#8E8C85) with pale sunlit top faces (#B9B6AC) and blue-grey shadows (#62666A), a few fine cracks. Small flecks of pale lichen (#B7B58A). No moss, no snow, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75a-b0d3-712a-8969-ab88888942f1",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1251971281,
+        "prompt": "Scree boulder pile: a low heap of three big angular broken granite blocks leaning together, small sharp rock fragments fused around their feet, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.7 m tall. Isolated, no ground, no base plate, no plants, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319441703,
+        "progress": 100,
+        "started_at": 1790319441709,
+        "finished_at": 1790319451200,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75a-b0d3-712a-8969-ab88888942f1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75a-b0d3-712a-8969-ab88888942f1/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:57:39.194587+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d764-4288-73ee-af40-45ec514d7103",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1251971281,
+        "prompt": "Scree boulder pile: a low heap of three big angular broken granite blocks leaning together, small sharp rock fragments fused around their feet, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.7 m tall. Isolated, no ground, no base plate, no plants, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Rock: cool mid-grey granite (#8E8C85) with pale sunlit top faces (#B9B6AC) and blue-grey shadows (#62666A), a few fine cracks. Small flecks of pale lichen (#B7B58A). No moss, no snow, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320069138,
+        "progress": 100,
+        "started_at": 1790320069146,
+        "finished_at": 1790320109450,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-4288-73ee-af40-45ec514d7103/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-4288-73ee-af40-45ec514d7103/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-4288-73ee-af40-45ec514d7103/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-4288-73ee-af40-45ec514d7103/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-4288-73ee-af40-45ec514d7103/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d764-4288-73ee-af40-45ec514d7103/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:08:32.074523+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 87185,
+      "sha256": "df5ccfc8af06b6a2f447b1a11402f42b2561ec1f669e4c30584a079040da1c52"
+    },
+    "model_glb": {
+      "file": "highland_scree_model.glb",
+      "bytes": 4817168,
+      "sha256": "14be8a527cbec8d0c555709ffb5da1b2c4427eaca1c98f80176fefc66fe190a3"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 122363,
+      "sha256": "5c3335c73a2f5d82dbee7331ce147ad245a54c3027737f2916853f620dd111b6"
+    },
+    "texture_base_color": {
+      "file": "highland_scree_base_color.png",
+      "bytes": 4629632,
+      "sha256": "38ffaf246c519139ffb8b7d0bcc52f8d18be286954e616db457a69f8ab5d5de9"
+    },
+    "texture_metallic": {
+      "file": "highland_scree_metallic.png",
+      "bytes": 21385,
+      "sha256": "27192551b6e5428a47e41696da7f5e62ad636fdc771157a1fa484f3426e867da"
+    },
+    "texture_roughness": {
+      "file": "highland_scree_roughness.png",
+      "bytes": 1136552,
+      "sha256": "3777561e7d410ca6d0d0677cc336c23c2e314356f701e00d1efeac9f2669f8fb"
+    },
+    "texture_normal": {
+      "file": "highland_scree_normal.png",
+      "bytes": 3408511,
+      "sha256": "68ea8ed5a81f0530761a38df5105147aa87f2df045dbe8d836e10c025c3bf254"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 575,
+    "lod0": 399,
+    "lod1": 160,
+    "fittedMetres": [
+      1.0,
+      0.996,
+      0.541
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

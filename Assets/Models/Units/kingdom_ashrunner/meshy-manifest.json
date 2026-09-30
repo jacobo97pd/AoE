@@ -1,0 +1,169 @@
+{
+  "id": "kingdom_ashrunner",
+  "entry": {
+    "id": "kingdom_ashrunner",
+    "name": "Corredor de ceniza",
+    "culture": "kingdom",
+    "factions": [
+      "serevin"
+    ],
+    "unit": "ashrunner",
+    "height": 2.4,
+    "gameHeight": 3.1,
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "prompt": "Low-poly game asset for a top-down strategy game: a light horseman riding a lean, fast horse, the rider in a padded coat and a royal blue and cream sash, a round cap, a bundle of javelins across his back and a narrow blue pennant on a short pole, no heavy armour, bundled cloth packs behind the saddle. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Horse coat dusty grey (#9A948A). Padded coat cream (#E3D8BE). Sash and pennant saturated royal blue (#2B4FB0). Leather dark brown (#4A3526). No text or logos.",
+    "role": "melee",
+    "rig": "quadruped"
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d480-5ff1-70b0-a779-c726a7b79273",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3418360778,
+        "prompt": "Low-poly game asset for a top-down strategy game: a light horseman riding a lean, fast horse, the rider in a padded coat and a royal blue and cream sash, a round cap, a bundle of javelins across his back and a narrow blue pennant on a short pole, no heavy armour, bundled cloth packs behind the saddle. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271579802,
+        "progress": 100,
+        "started_at": 1790271579810,
+        "finished_at": 1790271590442,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-5ff1-70b0-a779-c726a7b79273/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-5ff1-70b0-a779-c726a7b79273/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d480-ac93-7796-8ae5-a9334bc48abe",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3418360778,
+        "prompt": "Low-poly game asset for a top-down strategy game: a light horseman riding a lean, fast horse, the rider in a padded coat and a royal blue and cream sash, a round cap, a bundle of javelins across his back and a narrow blue pennant on a short pole, no heavy armour, bundled cloth packs behind the saddle. Standing square on all four straight legs, feet apart and flat on the ground, tail lifted clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Horse coat dusty grey (#9A948A). Padded coat cream (#E3D8BE). Sash and pennant saturated royal blue (#2B4FB0). Leather dark brown (#4A3526). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271599313,
+        "progress": 100,
+        "started_at": 1790271599320,
+        "finished_at": 1790271682909,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac93-7796-8ae5-a9334bc48abe/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac93-7796-8ae5-a9334bc48abe/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac93-7796-8ae5-a9334bc48abe/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac93-7796-8ae5-a9334bc48abe/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac93-7796-8ae5-a9334bc48abe/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d480-ac93-7796-8ae5-a9334bc48abe/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:41:24.724028+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_ashrunner_model.glb",
+      "bytes": 5185116,
+      "sha256": "c05004b7146609c29a490793406292306ed14ea5ae651ea75f6aff343ab8542f"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 70733,
+      "sha256": "4cc64e3e1e4c8bfc811e5230f9df6667bcf1f53f2b74cbdfdc924170dcd98891"
+    },
+    "texture_base_color": {
+      "file": "kingdom_ashrunner_base_color.png",
+      "bytes": 3639063,
+      "sha256": "a880ae08c48073878f563636752e4298946b2b53153e06f4a6274207c17f14cf"
+    },
+    "texture_metallic": {
+      "file": "kingdom_ashrunner_metallic.png",
+      "bytes": 46189,
+      "sha256": "4e618bd970d4cf35fd28deca04fbce5a5f5de7ed4e98c6945a0208de4e1e8b18"
+    },
+    "texture_roughness": {
+      "file": "kingdom_ashrunner_roughness.png",
+      "bytes": 1088338,
+      "sha256": "72cc76b3d3cda0a8919811ca27a98364bd04e6ca2eae559e6cf8485c8f5a4d65"
+    },
+    "texture_normal": {
+      "file": "kingdom_ashrunner_normal.png",
+      "bytes": 2798607,
+      "sha256": "4c6f0a6fd3ed7303c6c8d56bf8ca650a9b252f6806c7d32559e7bd58f6e44152"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5250,
+    "bones": 50,
+    "heightMetres": 1.0,
+    "walkMetresPerSecond": 0.324,
+    "runMetresPerSecond": 1.706,
+    "scale": [
+      8.16,
+      9.524,
+      6.43
+    ],
+    "riderVertices": 1376,
+    "donorBack": 3.577,
+    "saddle": 1.0,
+    "bellies": [
+      0.312,
+      0.418
+    ],
+    "pinned": {
+      "muzzle": [
+        -0.104,
+        1.467,
+        -0.0
+      ]
+    },
+    "tailVertices": 265,
+    "thinnedVertices": 264,
+    "legThickness": 0.0279,
+    "tailFit": {
+      "turn": 21.1,
+      "stretch": 1.22
+    },
+    "fusedLegs": [
+      "Back"
+    ],
+    "settled": {
+      "Walk": 0.01,
+      "Run": 0.007
+    },
+    "teamMaskCoverage": 0.0736,
+    "rig": "transplanted from the Quaternius Horse (CC0) by tools/art/transplant_rig.py"
+  }
+}

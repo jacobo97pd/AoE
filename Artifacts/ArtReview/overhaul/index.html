@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Emberfield · Muestra artística</title>
+  <style>
+    :root{--bg:#101513;--panel:#19201c;--ink:#eeeede;--muted:#a5aea3;--line:#344037;--accent:#d0b983;--soft:#253128}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Segoe UI,Arial,sans-serif;line-height:1.5}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}a{color:inherit;text-underline-offset:4px}button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}button{color:inherit}button:disabled{opacity:.4;cursor:default}
+    header{padding:24px clamp(20px,4vw,76px);display:flex;justify-content:space-between;align-items:center;gap:24px;border-bottom:1px solid var(--line)}.wordmark{font-family:Georgia,serif;letter-spacing:.12em;font-size:24px;text-transform:uppercase}.kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-top:3px}header a{font-size:12px;color:var(--muted);white-space:nowrap}
+    .controls{padding:28px clamp(20px,4vw,76px) 22px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap}.group-label{margin:0 0 9px;color:var(--muted);font-size:11px;letter-spacing:.10em;text-transform:uppercase}.button-group{display:flex;gap:6px;flex-wrap:wrap}.button-group button{border:1px solid var(--line);background:transparent;border-radius:4px;padding:9px 17px;font-size:13px;transition:background .15s,border-color .15s}.button-group button:hover{background:var(--soft)}.button-group button[aria-pressed="true"]{background:var(--ink);color:#172018;border-color:var(--ink)}.distance button{padding:8px 13px;font-size:12px}.distance button[aria-pressed="true"]{background:var(--soft);color:var(--ink);border-color:var(--accent)}
+    .main-frame{position:relative;margin:0;aspect-ratio:16/9;background:#080c09;overflow:hidden}.open-scene{display:block;width:100%;height:100%;border:0;padding:0;background:transparent}.open-scene img{display:block;width:100%;height:100%;object-fit:contain}.expand-hint{pointer-events:none;position:absolute;right:22px;bottom:18px;padding:5px 11px;background:#101513cf;border:1px solid #ffffff35;border-radius:3px;font-size:11px;letter-spacing:.04em}.main-caption{display:flex;justify-content:space-between;gap:18px;padding:14px clamp(20px,4vw,76px);border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}#scene-caption{color:var(--ink)}.main-caption span:last-child{text-align:right}
+    .troops{padding:46px clamp(20px,4vw,76px) 54px;max-width:1920px;margin:auto}.section-title{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:22px}.section-title h1{font-family:Georgia,serif;font-weight:400;font-size:27px;margin:0}.section-title p{font-size:12px;color:var(--muted);margin:0}.portrait-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;align-items:start}.portrait{padding:0;border:1px solid var(--line);background:var(--panel);border-radius:5px;overflow:hidden;text-align:left;transition:transform .18s,border-color .18s}.portrait:hover{transform:translateY(-3px);border-color:var(--accent)}.portrait img{display:block;width:100%;height:auto;aspect-ratio:5/6;object-fit:contain;background:#101713}.portrait-copy{display:block;padding:15px 16px}.portrait-name{font-family:Georgia,serif;font-size:19px;display:block}.portrait-role{display:block;font-size:11px;color:var(--muted);margin-top:5px}.portrait-grid:has(.portrait:nth-child(4):last-child){grid-template-columns:repeat(4,minmax(0,1fr))}
+    footer{border-top:1px solid var(--line);padding:27px clamp(20px,4vw,76px) 32px;display:flex;gap:25px;justify-content:space-between;align-items:flex-start;color:var(--muted);font-size:12px}footer p{max-width:680px;margin:0}footer a{white-space:nowrap}.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    dialog{width:100vw;max-width:none;height:100dvh;max-height:none;padding:0;border:0;margin:0;background:#090d0bf7;color:var(--ink);overflow:hidden}dialog::backdrop{background:#050805e8}.lightbox{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr) auto;padding:18px 24px}.lightbox-top,.lightbox-bottom{display:flex;justify-content:space-between;align-items:center;gap:15px;min-height:46px}.lightbox-top p{margin:0;font-size:14px}.lightbox-top button,.lightbox-bottom button{border:1px solid var(--line);background:var(--panel);border-radius:4px;padding:7px 14px;font-size:13px}.lightbox-image{min-height:0;display:flex;justify-content:center;align-items:center;padding:12px 0}.lightbox-image img{max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 8px 50px #0005}.lightbox-bottom{font-size:12px;color:var(--muted)}.lightbox-arrows{display:flex;gap:8px;align-items:center}.lightbox-arrows span{min-width:46px;text-align:center}.lightbox-bottom a{font-size:12px}
+    @media(min-width:1921px){.main-frame{max-width:1920px;margin:auto}}
+    @media(max-width:700px){header{padding-top:19px;padding-bottom:19px;gap:12px}.wordmark{font-size:19px}header a{font-size:10px}.controls{padding-top:21px;gap:17px;align-items:flex-start}.button-group button{padding:8px 12px}.main-caption{font-size:10px;gap:12px}.main-caption span:last-child{max-width:42%}.expand-hint{right:11px;bottom:9px;font-size:9px;padding:3px 7px}.troops{padding-top:31px;padding-bottom:34px}.section-title h1{font-size:24px}.portrait-grid,.portrait-grid:has(.portrait:nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.portrait-copy{padding:11px}.portrait-name{font-size:17px}.portrait-role{font-size:10px}.section-title p{font-size:10px}footer{display:block;font-size:11px}footer a{display:inline-block;margin-top:16px}.lightbox{padding:12px}.lightbox-top p{font-size:12px}.lightbox-bottom .key-hint{display:none}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header>
+    <div><div class="wordmark">Emberfield</div><div class="kicker">Muestra artística</div></div>
+    <a href="../rts.png" target="_blank" rel="noopener">Ver captura anterior ↗</a>
+  </header>
+  <main>
+    <div class="controls">
+      <div><p class="group-label" id="biome-label">Recorre los biomas</p><div class="button-group" id="biomes" role="group" aria-labelledby="biome-label">
+        <button type="button" data-biome="kingdom" aria-pressed="true">Reino</button>
+        <button type="button" data-biome="caribbean" aria-pressed="false">Caribe</button>
+        <button type="button" data-biome="desert" aria-pressed="false">Desierto</button>
+        <button type="button" data-biome="fantasy" aria-pressed="false">Fantasía</button>
+      </div></div>
+      <div><p class="group-label" id="distance-label">Distancia de cámara</p><div class="button-group distance" id="distances" role="group" aria-labelledby="distance-label">
+        <button type="button" data-distance="close" aria-pressed="false">Cerca</button>
+        <button type="button" data-distance="medium" aria-pressed="true">Media</button>
+        <button type="button" data-distance="rts" aria-pressed="false">Juego RTS</button>
+      </div></div>
+    </div>
+    <figure class="main-frame">
+      <button type="button" class="open-scene" id="open-scene" aria-label="Ampliar captura de Reino, distancia media"><img id="scene" src="kingdom-medium.png" width="1920" height="1080" alt="Escena tridimensional del Reino en Unity, vista a distancia media" fetchpriority="high"></button>
+      <span class="expand-hint" aria-hidden="true">Ampliar ↗</span>
+    </figure>
+    <div class="main-caption"><span id="scene-caption" aria-live="polite">Reino · Distancia media</span><span>Captura real de Unity · Geometría 3D</span></div>
+    <section class="troops" aria-labelledby="troop-heading">
+      <div class="section-title"><h1 id="troop-heading">Tropas del Reino</h1><p id="troop-count">5 retratos · abre para ampliar</p></div>
+      <div class="portrait-grid" id="portraits"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Escenas y personajes 3D capturados en Unity. Las imágenes de esta galería son renders reales del proyecto, no las ilustraciones de referencia. Una captura no demuestra el rendimiento en dispositivos móviles.</p>
+    <a href="../rts.png" target="_blank" rel="noopener">Comparar con la captura anterior ↗</a>
+  </footer>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="lightbox">
+      <div class="lightbox-top"><p id="viewer-title"></p><button type="button" id="close-viewer" aria-label="Cerrar imagen ampliada">Cerrar ×</button></div>
+      <div class="lightbox-image"><img id="viewer-image" alt=""></div>
+      <div class="lightbox-bottom"><div class="lightbox-arrows"><button type="button" id="previous" aria-label="Imagen anterior">←</button><span id="viewer-count" aria-live="polite"></span><button type="button" id="next" aria-label="Imagen siguiente">→</button></div><span class="key-hint">← → cambiar · Esc cerrar</span><a id="original" href="kingdom-medium.png" target="_blank" rel="noopener">Abrir original ↗</a></div>
+    </div>
+  </dialog>
+  <noscript><p style="padding:20px">Activa JavaScript para cambiar de bioma y abrir la galería. La captura principal también está disponible como <a href="kingdom-medium.png">imagen original</a>.</p></noscript>
+  <script>
+    'use strict';
+    const catalogue={
+      kingdom:{name:'Reino',heading:'Tropas del Reino',units:['worker','warrior','cavalry','hero','mountainwarrior']},
+      caribbean:{name:'Caribe',heading:'Tropas del Caribe',units:['worker','pirate','hero','warrior']},
+      desert:{name:'Desierto',heading:'Tropas del Desierto',units:['worker','warrior','cavalry','hero']},
+      fantasy:{name:'Fantasía',heading:'Tropas de Fantasía',units:['elf','dwarf','dragon','hero']}
+    };
+    const units={worker:['Trabajador','Oficios y herramientas'],warrior:['Guerrero','Armadura y equipo'],cavalry:['Caballería','Montura y jinete'],hero:['Héroe','Figura de mando'],mountainwarrior:['Montañés','Abrigo y equipo de montaña'],pirate:['Pirata','Indumentaria del Caribe'],elf:['Elfo','Arco y vestimenta'],dwarf:['Enano','Forja y equipo pesado'],dragon:['Dragón','Alas, escamas y cola']};
+    const distances={close:'Vista cercana',medium:'Distancia media',rts:'Cámara de juego RTS'};
+    let biome='kingdom',distance='medium',viewerItems=[],viewerIndex=0;
+    const byId=id=>document.getElementById(id),viewer=byId('viewer');
+    function sceneItems(){return Object.keys(distances).map(key=>({src:biome+'-'+key+'.png',title:catalogue[biome].name+' · '+distances[key],alt:'Escena tridimensional de '+catalogue[biome].name+' en Unity. '+distances[key]+'.'}));}
+    function portraitItems(){return catalogue[biome].units.map(kind=>({src:biome+'-'+kind+'.png',title:units[kind][0]+' · '+catalogue[biome].name,alt:'Retrato del modelo 3D de '+units[kind][0].toLowerCase()+' del bioma '+catalogue[biome].name+', capturado en Unity.',kind}));}
+    function updateScene(){
+      const entry=sceneItems().find(item=>item.src===biome+'-'+distance+'.png');
+      byId('scene').src=entry.src;byId('scene').alt=entry.alt;byId('scene-caption').textContent=entry.title;byId('open-scene').setAttribute('aria-label','Ampliar '+entry.title);
+      document.querySelectorAll('[data-biome]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.biome===biome)));
+      document.querySelectorAll('[data-distance]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.distance===distance)));
+    }
+    function updatePortraits(){
+      byId('troop-heading').textContent=catalogue[biome].heading;byId('troop-count').textContent=catalogue[biome].units.length+' retratos · abre para ampliar';
+      const items=portraitItems(),fragment=document.createDocumentFragment();
+      items.forEach((item,index)=>{
+        const button=document.createElement('button');button.type='button';button.className='portrait';button.setAttribute('aria-label','Ampliar '+item.title);
+        const image=document.createElement('img');image.src=item.src;image.alt=item.alt;image.width=1000;image.height=1200;image.loading='lazy';image.decoding='async';
+        const copy=document.createElement('span');copy.className='portrait-copy';
+        const name=document.createElement('span');name.className='portrait-name';name.textContent=units[item.kind][0];
+        const role=document.createElement('span');role.className='portrait-role';role.textContent=units[item.kind][1];
+        copy.append(name,role);button.append(image,copy);button.addEventListener('click',()=>openViewer(items,index));fragment.append(button);
+      });
+      byId('portraits').replaceChildren(fragment);
+    }
+    function bindGroup(id,attribute,onSelect){
+      const group=byId(id);group.addEventListener('click',event=>{const button=event.target.closest('button');if(button)onSelect(button.dataset[attribute]);});
+      group.addEventListener('keydown',event=>{
+        if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
+        const buttons=[...group.querySelectorAll('button')],index=buttons.indexOf(document.activeElement);if(index<0)return;
+        event.preventDefault();const next=event.key==='Home'?0:event.key==='End'?buttons.length-1:(index+(event.key==='ArrowRight'?1:-1)+buttons.length)%buttons.length;
+        buttons[next].focus();buttons[next].click();
+      });
+    }
+    function showViewerImage(){const item=viewerItems[viewerIndex];byId('viewer-image').src=item.src;byId('viewer-image').alt=item.alt;byId('viewer-title').textContent=item.title;byId('viewer-count').textContent=(viewerIndex+1)+' / '+viewerItems.length;byId('original').href=item.src;}
+    function openViewer(items,index){viewerItems=items;viewerIndex=index;showViewerImage();viewer.showModal();document.body.style.overflow='hidden';byId('close-viewer').focus();}
+    function advance(amount){viewerIndex=(viewerIndex+amount+viewerItems.length)%viewerItems.length;showViewerImage();}
+    bindGroup('biomes','biome',value=>{biome=value;updateScene();updatePortraits();});bindGroup('distances','distance',value=>{distance=value;updateScene();});
+    byId('open-scene').addEventListener('click',()=>openViewer(sceneItems(),Object.keys(distances).indexOf(distance)));
+    byId('close-viewer').addEventListener('click',()=>viewer.close());byId('previous').addEventListener('click',()=>advance(-1));byId('next').addEventListener('click',()=>advance(1));
+    viewer.addEventListener('close',()=>{document.body.style.overflow='';});viewer.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();advance(event.key==='ArrowRight'?1:-1);}});
+    viewer.addEventListener('click',event=>{if(event.target.classList.contains('lightbox-image'))viewer.close();});
+    updatePortraits();
+  </script>
+</body>
+</html>

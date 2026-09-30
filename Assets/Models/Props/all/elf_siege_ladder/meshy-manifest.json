@@ -1,0 +1,139 @@
+{
+  "id": "elf_siege_ladder",
+  "entry": {
+    "id": "elf_siege_ladder",
+    "role": "siege",
+    "kind": "siege_ladder",
+    "lod0": 3500,
+    "lod1": 900,
+    "height": 3.8,
+    "footprint": 2.0,
+    "size": 1024,
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ],
+    "biome": "all",
+    "factions": [
+      "verdant"
+    ],
+    "priority": 5,
+    "prompt": "Tall slender siege ladder leaning steeply forward on a low curved wooden base: two gently curved pale living-wood rails grown from branches, eight smooth rungs, carved leaf shapes along the rails, a few leafy sprigs and a broad royal blue cloth ribbon tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Graceful but chunky parts, clean edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Living wood: silver birch grey (#BDB5A2) with paler carved edges (#E6E0CE). Leaf carvings and sprigs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Ribbon: saturated royal blue cloth (#2B4FB0), no emblem. No dirt, text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d5bc-1bf1-73dd-b44d-143930fdfa6c",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1623672429,
+        "prompt": "Tall slender siege ladder leaning steeply forward on a low curved wooden base: two gently curved pale living-wood rails grown from branches, eight smooth rungs, carved leaf shapes along the rails, a few leafy sprigs and a broad royal blue cloth ribbon tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Graceful but chunky parts, clean edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292271684,
+        "progress": 100,
+        "started_at": 1790292271690,
+        "finished_at": 1790292285491,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-1bf1-73dd-b44d-143930fdfa6c/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-1bf1-73dd-b44d-143930fdfa6c/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T23:24:49.174772+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d5bc-690f-7663-91ec-9f4499f00bd8",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1623672429,
+        "prompt": "Tall slender siege ladder leaning steeply forward on a low curved wooden base: two gently curved pale living-wood rails grown from branches, eight smooth rungs, carved leaf shapes along the rails, a few leafy sprigs and a broad royal blue cloth ribbon tied near the top. Low-poly game asset for a top-down strategy game, stylized painted realism. Graceful but chunky parts, clean edges, flat faces. The ladder leans toward the front. Isolated, no ground, no wall, no characters, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Living wood: silver birch grey (#BDB5A2) with paler carved edges (#E6E0CE). Leaf carvings and sprigs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Ribbon: saturated royal blue cloth (#2B4FB0), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790292291403,
+        "progress": 100,
+        "started_at": 1790292291411,
+        "finished_at": 1790292331355,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-690f-7663-91ec-9f4499f00bd8/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-690f-7663-91ec-9f4499f00bd8/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-690f-7663-91ec-9f4499f00bd8/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-690f-7663-91ec-9f4499f00bd8/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-690f-7663-91ec-9f4499f00bd8/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d5bc-690f-7663-91ec-9f4499f00bd8/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T23:25:34.431506+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 32932,
+      "sha256": "86f3fa148ac395e3d094121f1731bc172bc1f3d88f35665fa021ab447487ca04"
+    },
+    "model_glb": {
+      "file": "elf_siege_ladder_model.glb",
+      "bytes": 6793360,
+      "sha256": "71abafda9b597376930fe45f045b3f4b80d76f3d7f66a356594f2dc8719da3cf"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 35401,
+      "sha256": "6794c8070dec77c1fdb4e9926bfbac4eb4e6d42c64daa1d481449464ace5d9ea"
+    },
+    "texture_base_color": {
+      "file": "elf_siege_ladder_base_color.png",
+      "bytes": 5121317,
+      "sha256": "47dea260d665704362fa8c474e2fdbce493936004081875d91017c22e08c2030"
+    },
+    "texture_metallic": {
+      "file": "elf_siege_ladder_metallic.png",
+      "bytes": 947928,
+      "sha256": "7f61824e7447707b812e3d24008d6803c28d5ce3cb13f6ca06df71146ed09371"
+    },
+    "texture_roughness": {
+      "file": "elf_siege_ladder_roughness.png",
+      "bytes": 980333,
+      "sha256": "7f131d70fd3867c9c453f1c14fd29a75521d5b23b9f775945a894676dca639cf"
+    },
+    "texture_normal": {
+      "file": "elf_siege_ladder_normal.png",
+      "bytes": 4083150,
+      "sha256": "4556375aff24c48543c080cb08390e16415d4a3354d40149150e2fd6aa025e03"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4088,
+    "lod0": 3500,
+    "lod1": 900,
+    "fittedMetres": [
+      0.868,
+      0.263,
+      3.8
+    ],
+    "teamMaskCoverage": 0.1024
+  }
+}

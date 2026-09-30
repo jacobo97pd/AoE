@@ -1,0 +1,130 @@
+{
+  "id": "highland_massif",
+  "entry": {
+    "id": "highland_massif",
+    "role": "landmark",
+    "kind": "mountain",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 8,
+    "footprint": 14,
+    "size": 1024,
+    "biome": "highland",
+    "priority": 6,
+    "polycount": 4000,
+    "prompt": "Mountain massif: one broad craggy rock mountain with three jagged peaks of different heights, the tallest in the middle, steep faceted cliffs and deep gullies, sloping rocky foothills at the base, thick snow caps on the peaks running down the gullies. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 14 m wide and 8 m tall. Isolated, no ground plate, no trees, no buildings, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Rock: cool grey granite (#85837C) with pale sunlit faces (#AFACA2) and blue-grey shadowed cliffs (#5C6166). Snow caps: soft white (#EDEEEA) with pale blue shading (#C5CDD2). Foothills: a band of muted alpine turf green (#6F7D4E) with mauve heather patches (#76606A) at the foot. No trees, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75b-2e78-7090-a988-a96ea81b4aae",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2191030554,
+        "prompt": "Mountain massif: one broad craggy rock mountain with three jagged peaks of different heights, the tallest in the middle, steep faceted cliffs and deep gullies, sloping rocky foothills at the base, thick snow caps on the peaks running down the gullies. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 14 m wide and 8 m tall. Isolated, no ground plate, no trees, no buildings, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319473785,
+        "progress": 100,
+        "started_at": 1790319473791,
+        "finished_at": 1790319482769,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-2e78-7090-a988-a96ea81b4aae/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75b-2e78-7090-a988-a96ea81b4aae/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:58:11.282781+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d765-ea80-742f-817e-1d08eea9ffc4",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2191030554,
+        "prompt": "Mountain massif: one broad craggy rock mountain with three jagged peaks of different heights, the tallest in the middle, steep faceted cliffs and deep gullies, sloping rocky foothills at the base, thick snow caps on the peaks running down the gullies. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 14 m wide and 8 m tall. Isolated, no ground plate, no trees, no buildings, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Rock: cool grey granite (#85837C) with pale sunlit faces (#AFACA2) and blue-grey shadowed cliffs (#5C6166). Snow caps: soft white (#EDEEEA) with pale blue shading (#C5CDD2). Foothills: a band of muted alpine turf green (#6F7D4E) with mauve heather patches (#76606A) at the foot. No trees, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320177200,
+        "progress": 100,
+        "started_at": 1790320177206,
+        "finished_at": 1790320221814,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-ea80-742f-817e-1d08eea9ffc4/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-ea80-742f-817e-1d08eea9ffc4/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-ea80-742f-817e-1d08eea9ffc4/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-ea80-742f-817e-1d08eea9ffc4/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-ea80-742f-817e-1d08eea9ffc4/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-ea80-742f-817e-1d08eea9ffc4/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:10:28.597590+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 120203,
+      "sha256": "8479e753bc79b58540cf586e1c0f3c2e4eb3b70358efd41a669e781a0d5d61bc"
+    },
+    "model_glb": {
+      "file": "highland_massif_model.glb",
+      "bytes": 7221884,
+      "sha256": "afba0b23dd37e035702e318568e488ede19a09b628ec936bfc8827dcbe2f2363"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 163676,
+      "sha256": "e13ce15472056e76143515595561d091ec8ae2098437f445bbd5f6b68a2f3f0e"
+    },
+    "texture_base_color": {
+      "file": "highland_massif_base_color.png",
+      "bytes": 6101957,
+      "sha256": "fc1c98d7c36005609e760cae01bdfb74698baae3e9e2e0cb78b295753fde2252"
+    },
+    "texture_metallic": {
+      "file": "highland_massif_metallic.png",
+      "bytes": 20737,
+      "sha256": "baace92e3d0ab0678f07e683737924a8e8e8d39ee34006220932a9eed2237e80"
+    },
+    "texture_roughness": {
+      "file": "highland_massif_roughness.png",
+      "bytes": 1255503,
+      "sha256": "e0ab3bf7d5bc00b26833b8dd7f57be07e2784f838f11266d5c9fb7861cd7637f"
+    },
+    "texture_normal": {
+      "file": "highland_massif_normal.png",
+      "bytes": 5251463,
+      "sha256": "b943933dc8196541ae99831a386320587d856aa4821c4f83ce70084e00b4aaf6"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1704,
+    "lod0": 1704,
+    "lod1": 799,
+    "fittedMetres": [
+      10.61,
+      10.541,
+      8.0
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

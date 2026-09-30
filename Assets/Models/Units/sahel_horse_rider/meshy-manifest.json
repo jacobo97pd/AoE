@@ -1,0 +1,179 @@
+{
+  "id": "sahel_horse_rider",
+  "entry": {
+    "id": "sahel_horse_rider",
+    "name": "Jinete del Sahel",
+    "culture": "sahel",
+    "factions": [
+      "sahel"
+    ],
+    "unit": "strider",
+    "role": "melee",
+    "rig": "quadruped",
+    "donor": "Horse",
+    "tailDamp": 0.3,
+    "height": 2.4,
+    "gameHeight": 3.1,
+    "teamHues": [
+      [
+        208,
+        252
+      ]
+    ],
+    "teamSaturation": 0.22,
+    "prompt": "Low-poly game asset for a top-down strategy game: a West African light horseman on a slender horse, seated upright, dark skin, a flowing cream cotton robe with a saturated indigo-blue turban and sash, a long iron-tipped spear held upright and a small round hide shield, an indigo saddle cloth and red leather tack. Standing square on all four straight legs, feet apart and flat on the ground, tail clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Horse coat chestnut brown (#7A4A2A). Robe cream (#E3D8BE). Turban, sash and saddle cloth saturated indigo blue (#2E3F8F). Leather tack red-brown (#7A3B26). Skin deep brown (#5A3A28). Spear iron grey (#8A8C8E). No text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3be-3482-7045-914b-b3ef6190e0e6",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1236710240,
+        "prompt": "Low-poly game asset for a top-down strategy game: a West African light horseman on a slender horse, seated upright, dark skin, a flowing cream cotton robe with a saturated indigo-blue turban and sash, a long iron-tipped spear held upright and a small round hide shield, an indigo saddle cloth and red leather tack. Standing square on all four straight legs, feet apart and flat on the ground, tail clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790527291151,
+        "progress": 100,
+        "started_at": 1790527291157,
+        "finished_at": 1790527299573,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3be-3482-7045-914b-b3ef6190e0e6/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3be-3482-7045-914b-b3ef6190e0e6/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3be-63ca-7790-93d7-629de79baef6",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1236710240,
+        "prompt": "Low-poly game asset for a top-down strategy game: a West African light horseman on a slender horse, seated upright, dark skin, a flowing cream cotton robe with a saturated indigo-blue turban and sash, a long iron-tipped spear held upright and a small round hide shield, an indigo saddle cloth and red leather tack. Standing square on all four straight legs, feet apart and flat on the ground, tail clear of the ground, head up. Stylized painted realism, chunky shapes, hard edges, flat faces. One solid model, isolated, no ground, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Horse coat chestnut brown (#7A4A2A). Robe cream (#E3D8BE). Turban, sash and saddle cloth saturated indigo blue (#2E3F8F). Leather tack red-brown (#7A3B26). Skin deep brown (#5A3A28). Spear iron grey (#8A8C8E). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790527302821,
+        "progress": 100,
+        "started_at": 1790527302828,
+        "finished_at": 1790527379284,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3be-63ca-7790-93d7-629de79baef6/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3be-63ca-7790-93d7-629de79baef6/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3be-63ca-7790-93d7-629de79baef6/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3be-63ca-7790-93d7-629de79baef6/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3be-63ca-7790-93d7-629de79baef6/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3be-63ca-7790-93d7-629de79baef6/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:42:59.605103+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_horse_rider_model.glb",
+      "bytes": 6802620,
+      "sha256": "b9dea3b7f79b0fd076adcb4d104791e702f8d17c7b37cc1ebb2fbba613b5067b"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 68233,
+      "sha256": "acecc4a7f36ec361e1869db6f06748bc75263f9bed1f9e821693cd04c0262dfe"
+    },
+    "texture_base_color": {
+      "file": "sahel_horse_rider_base_color.png",
+      "bytes": 5990271,
+      "sha256": "7bc412e504cd8110146216aebd87ebb358586f019a9686c9472ba4ff5567e093"
+    },
+    "texture_metallic": {
+      "file": "sahel_horse_rider_metallic.png",
+      "bytes": 99656,
+      "sha256": "914a4a6199a26b18d214000c2b26c337faf7c2c9d908391cef868efc540e974e"
+    },
+    "texture_roughness": {
+      "file": "sahel_horse_rider_roughness.png",
+      "bytes": 1172776,
+      "sha256": "970ef405b35752e59db8203f27cdaf88eee865b7202e6e1d116093701641ae12"
+    },
+    "texture_normal": {
+      "file": "sahel_horse_rider_normal.png",
+      "bytes": 4551961,
+      "sha256": "444db56c20f846462e0d5079692b5e3799e8605d9df133e0e480a9879bba16f1"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "states": [
+      "Attack",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5456,
+    "bones": 50,
+    "heightMetres": 1.0,
+    "walkMetresPerSecond": 0.311,
+    "runMetresPerSecond": 1.582,
+    "scale": [
+      9.376,
+      8.321,
+      6.638
+    ],
+    "riderVertices": 1040,
+    "donorBack": 3.577,
+    "saddle": 1.0,
+    "bellies": [
+      0.303,
+      0.418
+    ],
+    "pinned": {
+      "muzzle": [
+        0.076,
+        0.3,
+        0.029
+      ]
+    },
+    "tailVertices": 294,
+    "thinnedVertices": 268,
+    "legThickness": 0.0354,
+    "tailFit": {
+      "turn": 19.1,
+      "stretch": 1.22
+    },
+    "fusedLegs": [],
+    "splitLegs": {},
+    "settled": {
+      "Walk": 0.027,
+      "Run": 0.014
+    },
+    "grounded": {
+      "Attack": {
+        "lift": 0.012
+      },
+      "Hit": {
+        "lift": 0.0043
+      }
+    },
+    "teamMaskCoverage": 0.0895,
+    "rig": "transplanted from the Quaternius Horse (CC0) by tools/art/transplant_rig.py"
+  }
+}

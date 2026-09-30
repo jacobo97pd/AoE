@@ -1,0 +1,25 @@
+Passed: True
+Scenario: Faction
+Faction: serevin
+Unity: 6000.3.23f1
+BuildGuid: 0e78fcce58ec4fb489ca9baf9ed74b19
+Resolution: 1440x1080
+Graphics: NVIDIA GeForce RTX 3060 Ti
+Map: faction_proving_ground
+EqualStartingBudgets: True
+ResourcesPhysicallyGathered: True
+ForeignUniqueRejectedAtomically: True
+UniqueUnit: 208
+FactionMechanicVerified: True
+UniqueActionVerified: True
+UniqueResearchCompleted: True
+RelocationHealthPreserved: True
+ChooserButtonDispatches: 2
+ChooserOverridesCliFaction: True
+VisibleButtonDispatches: 12
+Population: 5+0/6
+Tick: 3844
+AcceleratedTicks: 3844
+YieldedFrames: 43
+TicksAccelerated: True
+Failure:

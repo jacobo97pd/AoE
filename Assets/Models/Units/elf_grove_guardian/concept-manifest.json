@@ -1,0 +1,35 @@
+{
+  "id": "elf_grove_guardian",
+  "concept": {
+    "references": [
+      "elf_sentinel",
+      "elf_archer"
+    ],
+    "prompt": "Same painted 3D game-art style and the same elven forest culture as these two figures: a tall walking tree guardian, a treant with a humanlike body of thick bark, two sturdy legs like roots and two long branch arms, a crown of chunky leaf clumps on its head, moss on the shoulders, pale glowing blue rune marks on the bark and royal blue cloth ribbons tied around its arms. Arms held well clear of the body."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0d412-bbb0-75b4-b64c-285ef6663c48",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same painted 3D game-art style and the same elven forest culture as these two figures: a tall walking tree guardian, a treant with a humanlike body of thick bark, two sturdy legs like roots and two long branch arms, a crown of chunky leaf clumps on its head, moss on the shoulders, pale glowing blue rune marks on the bark and royal blue cloth ribbons tied around its arms. Arms held well clear of the body. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790264393430,
+    "started_at": 1790264393438,
+    "finished_at": 1790264433193,
+    "expires_at": 1790523633193,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d412-bbb0-75b4-b64c-285ef6663c48_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 3068,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1246062,
+    "sha256": "c7253b6513d2fdd053e780a8d4f057302a6c4dcdd204fd0983f71ce59d20e112"
+  },
+  "finished_utc": "2026-09-24T15:40:37.160257+00:00"
+}

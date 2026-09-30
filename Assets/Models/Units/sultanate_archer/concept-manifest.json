@@ -1,0 +1,35 @@
+{
+  "id": "sultanate_archer",
+  "concept": {
+    "references": [
+      "sultanate_warrior",
+      "sultanate_worker"
+    ],
+    "prompt": "Same painted 3D game-art style, desert culture and cream robes with turquoise cloth as these figures: a desert archer in a padded knee-length cream coat, turquoise sash and short tabard, cream turban with the veil lowered, leather bracers, a recurved bow and a quiver slung on his back. Dignified, no emblem."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0e3ab-5739-7001-930d-c6baa78f56c5",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same painted 3D game-art style, desert culture and cream robes with turquoise cloth as these figures: a desert archer in a padded knee-length cream coat, turquoise sash and short tabard, cream turban with the veil lowered, leather bracers, a recurved bow and a quiver slung on his back. Dignified, no emblem. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790526053047,
+    "started_at": 1790526053054,
+    "finished_at": 1790526076773,
+    "expires_at": 1790785276773,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0e3ab-5739-7001-930d-c6baa78f56c5_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 990,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1114971,
+    "sha256": "a1975fdc90fc4b5c35af422a168105b57604d87bf9291a1db81b32d2534441fc"
+  },
+  "finished_utc": "2026-09-27T16:21:20.426573+00:00"
+}

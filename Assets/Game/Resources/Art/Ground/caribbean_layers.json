@@ -1,0 +1,121 @@
+{
+  "biome": "caribbean",
+  "layers": [
+    {
+      "name": "tropical grass",
+      "task": {
+        "id": "01a0d412-bf4f-72cd-96e8-3dcecf9c9345",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of lush tropical grass with a few small broad-leaf weeds, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790264394101,
+        "started_at": 1790264394109,
+        "finished_at": 1790264404107,
+        "expires_at": 1790523604107,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d412-bf4f-72cd-96e8-3dcecf9c9345_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "caribbean_0.png",
+        "bytes": 1410108,
+        "sha256": "50ed91624e9ed0fca102d35986fcf222b7664e12c2c734520f97372e21afd346"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of lush tropical grass with a few small broad-leaf weeds, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:40:11.925518+00:00",
+      "mean": "#5E8F45"
+    },
+    {
+      "name": "beach sand",
+      "task": {
+        "id": "01a0d413-0978-745f-a4a8-b183e9aec585",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of dry pale beach sand with tiny shell fragments, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790264412917,
+        "started_at": 1790264412923,
+        "finished_at": 1790264424299,
+        "expires_at": 1790523624299,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d413-0978-745f-a4a8-b183e9aec585_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "caribbean_1.png",
+        "bytes": 1243691,
+        "sha256": "76d170014d9ad18eaebe4021e2261beff3ece2e8e01f93d0f2f6c1d47aeb6d8b"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of dry pale beach sand with tiny shell fragments, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:40:30.720295+00:00",
+      "mean": "#E3D3A3"
+    },
+    {
+      "name": "wet sand",
+      "task": {
+        "id": "01a0d413-5243-714f-bf94-fd1e522778fa",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of smooth wet dark beach sand with faint water marks, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790264431697,
+        "started_at": 1790264431705,
+        "finished_at": 1790264447006,
+        "expires_at": 1790523647006,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d413-5243-714f-bf94-fd1e522778fa_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "caribbean_2.png",
+        "bytes": 1161255,
+        "sha256": "0abeba48ef5fcd1cf0204671cc0d8910a3545bf3b0a2709a1378ad042d787e83"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of smooth wet dark beach sand with faint water marks, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:40:49.539207+00:00",
+      "mean": "#A9936A"
+    },
+    {
+      "name": "coral path",
+      "task": {
+        "id": "01a0d413-9bc4-763c-af9e-5365f414ecc9",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of packed coral-sand path with small pale pebbles, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790264450518,
+        "started_at": 1790264450526,
+        "finished_at": 1790264464748,
+        "expires_at": 1790523664748,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d413-9bc4-763c-af9e-5365f414ecc9_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "file": {
+        "file": "caribbean_3.png",
+        "bytes": 1748297,
+        "sha256": "860512c5b796fbe232c352523726ce9444c303dea76c7f6f99af99a1c3f2ebb8"
+      },
+      "prompt": "Seamless tileable top-down orthographic ground texture of packed coral-sand path with small pale pebbles, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "finished_utc": "2026-09-24T15:41:08.929058+00:00",
+      "mean": "#C9B089"
+    }
+  ]
+}

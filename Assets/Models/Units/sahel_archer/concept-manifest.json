@@ -1,0 +1,35 @@
+{
+  "id": "sahel_archer",
+  "concept": {
+    "references": [
+      "sahel_worker",
+      "sahel_spearman"
+    ],
+    "prompt": "Same style, people and cream-and-indigo cloth as these figures: a lean archer, short sleeveless cream cotton smock over an indigo-blue shirt, indigo trousers, close leather cap, leather bracer, sandals, wooden longbow and leather quiver on his back. No flags or symbols."
+  },
+  "model": "nano-banana-2",
+  "task": {
+    "id": "01a0e3aa-9036-74a3-a2c3-43c6c6538c53",
+    "type": "image-to-image",
+    "ai_model": "nano-banana-2",
+    "prompt": "Same style, people and cream-and-indigo cloth as these figures: a lean archer, short sleeveless cream cotton smock over an indigo-blue shirt, indigo trousers, close leather cap, leather bracer, sandals, wooden longbow and leather quiver on his back. No flags or symbols. Full body from head to boots, one single character only, standing in a strict T-pose with both arms straight out to the sides, facing the camera, weapons and tools slung on the back or belt so the hands are empty. Plain dark charcoal studio background, no text, no other figures.",
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "created_at": 1790526002306,
+    "started_at": 1790526002315,
+    "finished_at": 1790526085238,
+    "expires_at": 1790785285238,
+    "image_urls": [
+      "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0e3aa-9036-74a3-a2c3-43c6c6538c53_0.png"
+    ],
+    "consumed_credits": 6
+  },
+  "credits": 6,
+  "balance_after": 990,
+  "file": {
+    "file": "concept.png",
+    "bytes": 1053446,
+    "sha256": "1a7afcc271a345c95a78a5523557f0f61f4cb6fba7b9721363ce29587c49bc82"
+  },
+  "finished_utc": "2026-09-27T16:21:28.410935+00:00"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "orc_watchtower",
+  "entry": {
+    "id": "orc_watchtower",
+    "style": "orc",
+    "building": "watchtower",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 4.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: an orc lookout tower. One tall, rickety square tower of lashed logs, clearly taller than wide, a spiked platform at the top with a crude hide roof, skulls on the corners and a red rag pennant."
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        350,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43e-7b90-737e-aa12-e360d6e924dc",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 196034921,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc lookout tower. One tall, rickety square tower of lashed logs, clearly taller than wide, a spiked platform at the top with a crude hide roof, skulls on the corners and a red rag pennant. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267261584,
+        "progress": 100,
+        "started_at": 1790267261592,
+        "finished_at": 1790267269300,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-7b90-737e-aa12-e360d6e924dc/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-7b90-737e-aa12-e360d6e924dc/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:27:50.592185+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43e-a769-77dd-ab70-ac7d15bfbb77",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 196034921,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc lookout tower. One tall, rickety square tower of lashed logs, clearly taller than wide, a spiked platform at the top with a crude hide roof, skulls on the corners and a red rag pennant. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267271063,
+        "progress": 100,
+        "started_at": 1790267271071,
+        "finished_at": 1790267317164,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-a769-77dd-ab70-ac7d15bfbb77/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-a769-77dd-ab70-ac7d15bfbb77/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-a769-77dd-ab70-ac7d15bfbb77/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-a769-77dd-ab70-ac7d15bfbb77/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-a769-77dd-ab70-ac7d15bfbb77/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43e-a769-77dd-ab70-ac7d15bfbb77/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:28:42.514565+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_watchtower_model.glb",
+      "bytes": 5380908,
+      "sha256": "915825d0c770816ac85d7f160c5b6a655e275921235fc7ce19505d0df8987019"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 103320,
+      "sha256": "5ebf1738ccb992353fd9d80ec811774151d3bcd86d6f050c200d989a821c8794"
+    },
+    "texture_base_color": {
+      "file": "orc_watchtower_base_color.png",
+      "bytes": 4575544,
+      "sha256": "b92c54f15cc233c51696a8fb9028c16ee7db2e25cc6949ae9cbf71262e890ecb"
+    },
+    "texture_metallic": {
+      "file": "orc_watchtower_metallic.png",
+      "bytes": 31961,
+      "sha256": "2d27bbc3f114234f8d237ba7d8c558bd23fc4e35b0ae223f61f6c3f0fffeb63e"
+    },
+    "texture_roughness": {
+      "file": "orc_watchtower_roughness.png",
+      "bytes": 1248794,
+      "sha256": "2b322a19f554c8e07a85cfce219c4713714711b6f970e40d834d292f30d27760"
+    },
+    "texture_normal": {
+      "file": "orc_watchtower_normal.png",
+      "bytes": 2955920,
+      "sha256": "e77fe4e88f517d6df9e15639ff87dbe99745823ef4d968944428f71ef1e6b398"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4962,
+    "triangles": 4962,
+    "fittedMetres": [
+      1.801,
+      1.92,
+      3.932
+    ],
+    "teamMaskCoverage": 0.0382
+  }
+}

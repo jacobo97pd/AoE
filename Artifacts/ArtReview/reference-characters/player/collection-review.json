@@ -1,0 +1,738 @@
+{
+    "buildGuid": "05a91cf2371d432293b419110de45b34",
+    "unity": "6000.3.23f1",
+    "generatedUtc": "2026-09-13T17:35:23.6219157Z",
+    "graphicsDevice": "NVIDIA GeForce RTX 3060 Ti",
+    "passed": true,
+    "scope": "Actual native Unity renders and skeletal deformation. Artistic interpretations, not a claim of reference identity or a performance benchmark.",
+    "characters": [
+        {
+            "id": "figure_01",
+            "name": "Corsario de pólvora",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 3.000000238418579,
+                    "displacement": 0.03465694934129715
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.6666666865348816,
+                    "displacement": 0.7396203279495239
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.0025899410247804
+                }
+            ]
+        },
+        {
+            "id": "figure_02",
+            "name": "Capitán pirata",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 3.000000238418579,
+                    "displacement": 0.03655495494604111
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.6666666865348816,
+                    "displacement": 0.7934403419494629
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.1213762760162355
+                }
+            ]
+        },
+        {
+            "id": "figure_03",
+            "name": "Héroe del reino",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.013541065156459809
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.3157469928264618
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.849175214767456
+                }
+            ]
+        },
+        {
+            "id": "figure_04",
+            "name": "Héroe del desierto",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.01242411881685257
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.2203858196735382
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.89145565032959
+                }
+            ]
+        },
+        {
+            "id": "figure_05",
+            "name": "Héroe de montaña",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.012486114166676999
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.30198296904563906
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.7937381267547609
+                }
+            ]
+        },
+        {
+            "id": "figure_06",
+            "name": "Dragón metálico",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.3478991985321045
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.4307703375816345
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 4.2187819480896
+                }
+            ]
+        },
+        {
+            "id": "figure_07",
+            "name": "Dragón glacial",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.3445400297641754
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.4279349744319916
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 4.316131114959717
+                }
+            ]
+        },
+        {
+            "id": "figure_08",
+            "name": "Dragón ígneo",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.3265993297100067
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.40798428654670718
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 4.310327053070068
+                }
+            ]
+        },
+        {
+            "id": "figure_09",
+            "name": "Arquero del bosque",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.01034820917993784
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.27849116921424868
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.971755266189575
+                }
+            ]
+        },
+        {
+            "id": "figure_10",
+            "name": "Centinela élfico",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.01301375962793827
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.23292723298072816
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.9758803844451906
+                }
+            ]
+        },
+        {
+            "id": "figure_11",
+            "name": "Mago élfico",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.013025165535509587
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.31769365072250368
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 3.6462512016296388
+                }
+            ]
+        },
+        {
+            "id": "figure_12",
+            "name": "Guerrero enano",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.011064854450523854
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.2771379053592682
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.236856698989868
+                }
+            ]
+        },
+        {
+            "id": "figure_13",
+            "name": "Minero enano",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.011063171550631523
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.27439412474632265
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.269073486328125
+                }
+            ]
+        },
+        {
+            "id": "figure_14",
+            "name": "Thane enano",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.011070762760937214
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.2743685245513916
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.484992027282715
+                }
+            ]
+        },
+        {
+            "id": "figure_15",
+            "name": "Piquero de montaña",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.012600019574165345
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.3032584488391876
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 3.7483272552490236
+                }
+            ]
+        },
+        {
+            "id": "figure_16",
+            "name": "Guerrero de montaña — veterano",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.012515392154455185
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.3062986433506012
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.8070056438446047
+                }
+            ]
+        },
+        {
+            "id": "figure_17",
+            "name": "Cazador de montaña",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.009915097616612912
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.2685319781303406
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.808032274246216
+                }
+            ]
+        },
+        {
+            "id": "figure_18",
+            "name": "Guerrero del reino",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.010877879336476326
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.2573682963848114
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.871389865875244
+                }
+            ]
+        },
+        {
+            "id": "figure_19",
+            "name": "Guerrero del desierto",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.012511806562542916
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.2216731160879135
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.8865909576416017
+                }
+            ]
+        },
+        {
+            "id": "figure_20",
+            "name": "Guerrero de montaña — guardia",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.012515392154455185
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.3062986433506012
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.8070056438446047
+                }
+            ]
+        },
+        {
+            "id": "figure_21",
+            "name": "Recolector del reino",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.010924151167273522
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.23548369109630586
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 3.290788173675537
+                }
+            ]
+        },
+        {
+            "id": "figure_22",
+            "name": "Recolector del desierto",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.011655350215733052
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.30157050490379336
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.8824915885925295
+                }
+            ]
+        },
+        {
+            "id": "figure_23",
+            "name": "Recolector de montaña",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.008317738771438599
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.22050562500953675
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 2.7901628017425539
+                }
+            ]
+        },
+        {
+            "id": "figure_24",
+            "name": "Jinete del reino a pie",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.01165025681257248
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.3055465817451477
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 3.8186612129211427
+                }
+            ]
+        },
+        {
+            "id": "figure_25",
+            "name": "Jinete del desierto a pie",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.012559059076011181
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.30570924282073977
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 3.805532932281494
+                }
+            ]
+        },
+        {
+            "id": "figure_26",
+            "name": "Jinete de montaña a pie",
+            "passed": true,
+            "poses": [
+                {
+                    "state": "Idle",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 2.0,
+                    "displacement": 0.012600019574165345
+                },
+                {
+                    "state": "Run",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 0.8000000715255737,
+                    "displacement": 0.3032584488391876
+                },
+                {
+                    "state": "Death",
+                    "entered": true,
+                    "deforms": true,
+                    "duration": 1.6000001430511475,
+                    "displacement": 3.7483272552490236
+                }
+            ]
+        }
+    ]
+}

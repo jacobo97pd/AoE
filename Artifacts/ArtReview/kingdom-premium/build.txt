@@ -1,0 +1,6 @@
+Result: Succeeded
+Errors: 0
+Warnings: 2
+Bytes: 411064060
+Duration: 00:00:25.8206636
+Scene: Assets/Game/Scenes/KingdomPremium.unity

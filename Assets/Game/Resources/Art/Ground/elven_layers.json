@@ -1,0 +1,185 @@
+{
+  "biome": "elven",
+  "layers": [
+    {
+      "name": "elven moss lawn",
+      "task": {
+        "id": "01a0d75a-1541-7672-8745-2340df3924dd",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of soft short elven lawn of fine moss and grass, cool fresh green with a faint teal tint, a few tiny pale star-shaped flowers and small clover leaves, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319400820,
+        "started_at": 1790319400828,
+        "finished_at": 1790319455783,
+        "expires_at": 1790578655783,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75a-1541-7672-8745-2340df3924dd_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of soft short elven lawn of fine moss and grass, cool fresh green with a faint teal tint, a few tiny pale star-shaped flowers and small clover leaves, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#6F9664",
+      "finished_utc": "2026-09-25T06:57:40.775279+00:00",
+      "file": {
+        "file": "elven_0.png",
+        "bytes": 2065615,
+        "sha256": "e2971d001ff8cd10158f526a41317cf68c165fa5abe9fd2cc8c1555904a59264"
+      }
+    },
+    {
+      "name": "golden leaf floor",
+      "task": {
+        "id": "01a0d75b-04f9-72ac-b4e9-7e5d327c5f5a",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of elven woodland floor of fallen golden and pale amber leaves over soft green moss, with a few small curled fern fronds, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319462060,
+        "started_at": 1790319462066,
+        "finished_at": 1790319472550,
+        "expires_at": 1790578672550,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75b-04f9-72ac-b4e9-7e5d327c5f5a_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of elven woodland floor of fallen golden and pale amber leaves over soft green moss, with a few small curled fern fronds, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#8A8456",
+      "finished_utc": "2026-09-25T06:57:59.602036+00:00",
+      "file": {
+        "file": "elven_1.png",
+        "bytes": 1818401,
+        "sha256": "3b92c1718fcfd63408c36b9b077ea69cb696928d8397ce0db9a6ae4453162cea"
+      }
+    },
+    {
+      "name": "pale stone path",
+      "task": {
+        "id": "01a0d75b-4e97-778c-8e9f-0bc7117a2baa",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of soft pale silver-grey path of fine packed sand and small smooth white pebbles, with a few specks of moss, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790319480844,
+        "started_at": 1790319480850,
+        "finished_at": 1790319535124,
+        "expires_at": 1790578735124,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75b-4e97-778c-8e9f-0bc7117a2baa_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of soft pale silver-grey path of fine packed sand and small smooth white pebbles, with a few specks of moss, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#A9A58F",
+      "finished_utc": "2026-09-25T06:59:00.805249+00:00",
+      "file": {
+        "file": "elven_2.png",
+        "bytes": 1541896,
+        "sha256": "07d725d1b1a078562127be0206150915afe9ceb8dbf2cbed36296d8818b094d7"
+      }
+    },
+    {
+      "name": "stream bank",
+      "task": {
+        "id": "01a0d787-6ced-7230-9033-7ce50941e576",
+        "type": "image-to-image",
+        "ai_model": "nano-banana-2",
+        "prompt": "Seamless tileable top-down orthographic ground texture of wet stream bank of cool grey-green silt and pale wet sand with a soft sheen and faint water-worn streaks, many small smooth pale pebbles sprinkled sparsely at random across the whole surface, thin wisps of bright moss, small even detail everywhere, no large shapes, no mounds, no rings, no motifs, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+        "status": "SUCCEEDED",
+        "progress": 100,
+        "created_at": 1790322372351,
+        "started_at": 1790322372357,
+        "finished_at": 1790322463331,
+        "expires_at": 1790581663331,
+        "image_urls": [
+          "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d787-6ced-7230-9033-7ce50941e576_0.png"
+        ],
+        "consumed_credits": 6
+      },
+      "credits": 6,
+      "model": "nano-banana-2",
+      "prompt": "Seamless tileable top-down orthographic ground texture of wet stream bank of cool grey-green silt and pale wet sand with a soft sheen and faint water-worn streaks, many small smooth pale pebbles sprinkled sparsely at random across the whole surface, thin wisps of bright moss, small even detail everywhere, no large shapes, no mounds, no rings, no motifs, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+      "mean": "#6F7F70",
+      "finished_utc": "2026-09-25T07:47:46.203100+00:00",
+      "file": {
+        "file": "elven_3.png",
+        "bytes": 1715471,
+        "sha256": "1318edde8a82b0eaafcc6a77d5bb36aa8c4f5ed8070928282c89a83076082286"
+      },
+      "earlier_tries": [
+        {
+          "name": "stream bank",
+          "task": {
+            "id": "01a0d75c-3e0b-7138-967a-e18b18307b0d",
+            "type": "image-to-image",
+            "ai_model": "nano-banana-2",
+            "prompt": "Seamless tileable top-down orthographic ground texture of damp clear-stream bank of cool teal-grey silt with smooth round pale pebbles and a few small fern sprigs, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+            "status": "SUCCEEDED",
+            "progress": 100,
+            "created_at": 1790319542135,
+            "started_at": 1790319542140,
+            "finished_at": 1790319588740,
+            "expires_at": 1790578788740,
+            "image_urls": [
+              "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d75c-3e0b-7138-967a-e18b18307b0d_0.png"
+            ],
+            "consumed_credits": 6
+          },
+          "credits": 6,
+          "model": "nano-banana-2",
+          "prompt": "Seamless tileable top-down orthographic ground texture of damp clear-stream bank of cool teal-grey silt with smooth round pale pebbles and a few small fern sprigs, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+          "mean": "#6F7F70",
+          "finished_utc": "2026-09-25T06:59:53.603968+00:00",
+          "file": {
+            "file": "elven_3.png",
+            "bytes": 1433598,
+            "sha256": "702e1a3d54934e36ab66212816ff3c59e6e030d84f6aa45536f2e13581f2f0e1"
+          },
+          "kept_as": "D:/EmberfieldWorkingCache/fantasy-review/ground/first-try/elven_3_stream_bank_try1.png",
+          "why_redone": "ferns and pebble clusters on a regular lattice at a quarter of the tile; drew as a chequered band with pale lines along every elven stream"
+        },
+        {
+          "name": "stream bank",
+          "task": {
+            "id": "01a0d783-9562-778b-88e4-d9c36bec8e11",
+            "type": "image-to-image",
+            "ai_model": "nano-banana-2",
+            "prompt": "Seamless tileable top-down orthographic ground texture of damp clear-stream bank of cool grey-green silt and wet pale sand, smooth rounded pale pebbles scattered unevenly in loose irregular clusters with bare gaps between, a few soft patches of short bright moss, organic random placement, no ferns, no plants in rows, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+            "status": "SUCCEEDED",
+            "progress": 100,
+            "created_at": 1790322120553,
+            "started_at": 1790322120564,
+            "finished_at": 1790322180755,
+            "expires_at": 1790581380755,
+            "image_urls": [
+              "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/uploads/image_01a0d783-9562-778b-88e4-d9c36bec8e11_0.png"
+            ],
+            "consumed_credits": 6
+          },
+          "credits": 6,
+          "model": "nano-banana-2",
+          "prompt": "Seamless tileable top-down orthographic ground texture of damp clear-stream bank of cool grey-green silt and wet pale sand, smooth rounded pale pebbles scattered unevenly in loose irregular clusters with bare gaps between, a few soft patches of short bright moss, organic random placement, no ferns, no plants in rows, in the same painted game-art style and palette as the grass in the reference picture. Seen straight from above, flat even lighting, no shadows, no people, no objects, no tiles or grid lines, no border, fills the whole frame edge to edge.",
+          "mean": "#6F7F70",
+          "finished_utc": "2026-09-25T07:43:08.942417+00:00",
+          "file": {
+            "file": "elven_3.png",
+            "bytes": 1668820,
+            "sha256": "416ee6f8daeabe26d932cf93e0360e1e27588ddebda269fb590ef2af66030ebd"
+          },
+          "kept_as": "D:/EmberfieldWorkingCache/fantasy-review/ground/first-try/elven_3_stream_bank_try2.png",
+          "why_redone": "pale sand mounds ringed with pebbles on a regular grid, about 2.8 m apart along the bank; worse than try 1, and flatten up to [0.85, 24] left the rings"
+        }
+      ]
+    }
+  ]
+}

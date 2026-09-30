@@ -1,0 +1,30 @@
+﻿{
+    "utc":  "2026-09-11T09:02:52.2654575Z",
+    "protocolVersion":  2,
+    "contentVersion":  "frontiers-7b1483ced3f4969d61a706f13b37b5f5080bcdc9035f93c3fdcae77aa5c18142",
+    "contentVerified":  true,
+    "authorityBuildPassed":  true,
+    "serverTests":  {
+                        "skipped":  0,
+                        "failed":  0,
+                        "passed":  25
+                    },
+    "newCrewNativeTests":  {
+                               "report":  "TestResults/PirateCrew/simulation.json",
+                               "failed":  0,
+                               "passed":  9
+                           },
+    "captainRegression":  {
+                              "report":  "TestResults/Corsair/hero-simulation-tests.json",
+                              "failed":  0,
+                              "passed":  13
+                          },
+    "expansionRegression":  {
+                                "report":  "TestResults/PirateCrew/expansion-regression.json",
+                                "failed":  0,
+                                "passed":  44
+                            },
+    "presentationCompiledWithoutUnity":  true,
+    "playModeTestsCompiledWithoutUnity":  true,
+    "unityExecuted":  false
+}

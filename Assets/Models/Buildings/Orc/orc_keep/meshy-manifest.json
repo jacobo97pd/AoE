@@ -1,0 +1,137 @@
+{
+  "id": "orc_keep",
+  "entry": {
+    "id": "orc_keep",
+    "style": "orc",
+    "building": "keep",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.7,
+    "prompt": "Low-poly game asset for a top-down strategy game: an orc war fortress. One huge crude keep of stacked logs and black iron plates, taller than every other building, jagged spiked battlements, a massive spiked gate and red rag banners."
+  },
+  "style": {
+    "factions": [
+      "ashen"
+    ],
+    "suffix": "Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        350,
+        360
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43f-83f0-757f-b878-7ae98e226d16",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1350738840,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc war fortress. One huge crude keep of stacked logs and black iron plates, taller than every other building, jagged spiked battlements, a massive spiked gate and red rag banners. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267329065,
+        "progress": 100,
+        "started_at": 1790267329072,
+        "finished_at": 1790267338397,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-83f0-757f-b878-7ae98e226d16/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-83f0-757f-b878-7ae98e226d16/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:29:06.569632+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43f-d02e-724e-8f15-145da396b048",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1350738840,
+        "prompt": "Low-poly game asset for a top-down strategy game: an orc war fortress. One huge crude keep of stacked logs and black iron plates, taller than every other building, jagged spiked battlements, a massive spiked gate and red rag banners. Crude rough-hewn logs, stretched hides lashed with rope, black iron spikes and plates, bones and horned skulls, leaning uneven shapes. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Wood: scorched dark brown logs (#4A3A2C). Hides: tan leather (#8A6E4E) with dark stitching. Iron: black iron (#34343A). Bone and skulls: aged bone (#D8CCB0). Rags and banners: saturated blood red cloth (#9A2A22), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267347033,
+        "progress": 100,
+        "started_at": 1790267347039,
+        "finished_at": 1790267415690,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-d02e-724e-8f15-145da396b048/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-d02e-724e-8f15-145da396b048/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-d02e-724e-8f15-145da396b048/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-d02e-724e-8f15-145da396b048/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-d02e-724e-8f15-145da396b048/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-d02e-724e-8f15-145da396b048/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:30:23.902131+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "orc_keep_model.glb",
+      "bytes": 5611060,
+      "sha256": "460d1526a2adf85ee127ab7ee14875c85d93481867822301e7d173e57f7d7951"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 203357,
+      "sha256": "aab096d7962c387dcb727ad92223fc5a3fb85b66001ff68bb020ae2d20871922"
+    },
+    "texture_base_color": {
+      "file": "orc_keep_base_color.png",
+      "bytes": 4780260,
+      "sha256": "25f2896828cdb66253b9c0c66c661d267d49c6b46a98dbcb12b14049734c92d6"
+    },
+    "texture_metallic": {
+      "file": "orc_keep_metallic.png",
+      "bytes": 29612,
+      "sha256": "b2c522ab654970adbf7035c61ec359d631a1c964ebe10e53baf7a0254ce2bcf2"
+    },
+    "texture_roughness": {
+      "file": "orc_keep_roughness.png",
+      "bytes": 1410801,
+      "sha256": "b105d1fd10e30eec6ff6bb1720e26ddce2bd6645b4ed661e0ecc4e449fa15268"
+    },
+    "texture_normal": {
+      "file": "orc_keep_normal.png",
+      "bytes": 3315356,
+      "sha256": "39d23317658a91e0ab254c00e6c892de9f5c479b0799614b7d2110615afbef32"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4378,
+    "triangles": 4378,
+    "fittedMetres": [
+      3.84,
+      3.84,
+      3.113
+    ],
+    "teamMaskCoverage": 0.1387
+  }
+}

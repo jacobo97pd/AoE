@@ -1,0 +1,139 @@
+{
+  "id": "spanish_galleon",
+  "entry": {
+    "id": "spanish_galleon",
+    "role": "landmark",
+    "kind": "ship",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 7.5,
+    "footprint": 7.0,
+    "size": 1024,
+    "biome": "caribbean",
+    "teamHues": [
+      [
+        40,
+        55
+      ]
+    ],
+    "factions": [
+      "hispanos"
+    ],
+    "priority": 4,
+    "prompt": "Low-poly game asset: a Spanish galleon for a top-down strategy game. A broad hull with a tall multi-deck stern castle and a raised forecastle, three masts with square-rigged sails furled on their yards, an ornate carved stern rail. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 2.6 m wide, 7 m long, 7.5 m tall. Isolated, no ground, no water, no crew, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Dark oak hull (#4A3526) with gilt trim on the stern castle (#C9A650), cream furled sails (#EDE7D0), a saturated gold pennant (#C9922E). No text or logos.",
+    "polycount": 4000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3a7-eda6-763a-9f4c-0fdb4dabc9da",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 629132296,
+        "prompt": "Low-poly game asset: a Spanish galleon for a top-down strategy game. A broad hull with a tall multi-deck stern castle and a raised forecastle, three masts with square-rigged sails furled on their yards, an ornate carved stern rail. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 2.6 m wide, 7 m long, 7.5 m tall. Isolated, no ground, no water, no crew, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790525829921,
+        "progress": 100,
+        "started_at": 1790525829931,
+        "finished_at": 1790525839853,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a7-eda6-763a-9f4c-0fdb4dabc9da/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a7-eda6-763a-9f4c-0fdb4dabc9da/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T16:17:27.391096+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3a8-39d6-7587-b0f9-2705742a7ee3",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 629132296,
+        "prompt": "Low-poly game asset: a Spanish galleon for a top-down strategy game. A broad hull with a tall multi-deck stern castle and a raised forecastle, three masts with square-rigged sails furled on their yards, an ornate carved stern rail. Chunky low-poly shapes, hard edges, flat faces, bow points forward, waterline flat and level. About 2.6 m wide, 7 m long, 7.5 m tall. Isolated, no ground, no water, no crew, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Dark oak hull (#4A3526) with gilt trim on the stern castle (#C9A650), cream furled sails (#EDE7D0), a saturated gold pennant (#C9922E). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790525849453,
+        "progress": 100,
+        "started_at": 1790525849465,
+        "finished_at": 1790525892097,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a8-39d6-7587-b0f9-2705742a7ee3/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a8-39d6-7587-b0f9-2705742a7ee3/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a8-39d6-7587-b0f9-2705742a7ee3/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a8-39d6-7587-b0f9-2705742a7ee3/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a8-39d6-7587-b0f9-2705742a7ee3/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3a8-39d6-7587-b0f9-2705742a7ee3/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T16:18:12.344127+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 102813,
+      "sha256": "818922e6632f184934446a5acbedc5f1b83524ee47b2e0c2feb5c3df4938d484"
+    },
+    "model_glb": {
+      "file": "spanish_galleon_model.glb",
+      "bytes": 6166560,
+      "sha256": "a52ce071a5880e687b9dd70c1d7ae260dc764698d8f011bf9601a80da0c4b2a6"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 119905,
+      "sha256": "f0a6975f421a8d227c20ee7d66e7168cb2a1fafa8de502dd26f78d321bcfe876"
+    },
+    "texture_base_color": {
+      "file": "spanish_galleon_base_color.png",
+      "bytes": 4540853,
+      "sha256": "8048e06eedc1cf5b1dafd533c3c761d5d25f4fc53f348128e6d6fcad6968ee2c"
+    },
+    "texture_metallic": {
+      "file": "spanish_galleon_metallic.png",
+      "bytes": 157898,
+      "sha256": "6456fd5010479b976ce6431d859bfdd463e1238395115d1e1bdacd1b3771ba4b"
+    },
+    "texture_roughness": {
+      "file": "spanish_galleon_roughness.png",
+      "bytes": 1248851,
+      "sha256": "3cca233642f32b3c59c971ab8244bbf250178be466d13fd9ef1ef31ffa5b794b"
+    },
+    "texture_normal": {
+      "file": "spanish_galleon_normal.png",
+      "bytes": 3478473,
+      "sha256": "914fab65544c21ff09c5d90241f0cca65d535bd3cd43bdefdcabb0cf422098b5"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3531,
+    "lod0": 3499,
+    "lod1": 799,
+    "fittedMetres": [
+      1.921,
+      7.0,
+      4.785
+    ],
+    "teamMaskCoverage": 0.0078
+  }
+}

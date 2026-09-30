@@ -1,0 +1,205 @@
+{
+  "id": "kingdom_beast_lodge",
+  "entry": {
+    "id": "kingdom_beast_lodge",
+    "style": "kingdom",
+    "building": "beast_lodge",
+    "footprint": [
+      4,
+      3
+    ],
+    "height": 3.3,
+    "prompt": "Low-poly game asset for a top-down strategy game: a large medieval horse stable. One long rectangular timber barn, clearly wider than tall, with one straight gable roof whose ridge runs the full length of the building, no dome, no round shapes, two wide open stable doorways along the long front side, a small hay loft door above them and a wooden hitching rail. One royal blue cloth banner over the main doorway."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d47c-cc6f-7608-83d7-ce37dba4c610",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2455929559,
+        "prompt": "Low-poly game asset for a top-down strategy game: a large medieval horse stable. One long rectangular timber barn, clearly wider than tall, with one straight gable roof whose ridge runs the full length of the building, no dome, no round shapes, two wide open stable doorways along the long front side, a small hay loft door above them and a wooden hitching rail. One royal blue cloth banner over the main doorway. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271345642,
+        "progress": 100,
+        "started_at": 1790271345650,
+        "finished_at": 1790271356954,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47c-cc6f-7608-83d7-ce37dba4c610/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47c-cc6f-7608-83d7-ce37dba4c610/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T17:36:03.149541+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d47d-19fb-73f3-b541-eb7957af688b",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2455929559,
+        "prompt": "Low-poly game asset for a top-down strategy game: a large medieval horse stable. One long rectangular timber barn, clearly wider than tall, with one straight gable roof whose ridge runs the full length of the building, no dome, no round shapes, two wide open stable doorways along the long front side, a small hay loft door above them and a wooden hitching rail. One royal blue cloth banner over the main doorway. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271364034,
+        "progress": 100,
+        "started_at": 1790271364041,
+        "finished_at": 1790271439843,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47d-19fb-73f3-b541-eb7957af688b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47d-19fb-73f3-b541-eb7957af688b/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47d-19fb-73f3-b541-eb7957af688b/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47d-19fb-73f3-b541-eb7957af688b/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47d-19fb-73f3-b541-eb7957af688b/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d47d-19fb-73f3-b541-eb7957af688b/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:37:20.883461+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_beast_lodge_model.glb",
+      "bytes": 6765508,
+      "sha256": "21f0499342f123ec5a933f868d37256357f6d53516ecefc6639445b9feffac98"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 196603,
+      "sha256": "f8561cb0ba0344bdb0f021cd531018162c49ba12261020bc8bfbfe55f43d9881"
+    },
+    "texture_base_color": {
+      "file": "kingdom_beast_lodge_base_color.png",
+      "bytes": 4713789,
+      "sha256": "1befab62cb39e56cca22e5ee88cfd2c24a5c489d8098413a11100bd389485ed2"
+    },
+    "texture_metallic": {
+      "file": "kingdom_beast_lodge_metallic.png",
+      "bytes": 48067,
+      "sha256": "4dcff2de0fff3019d194f9e6f5dceaf815fcfb5b6efeb800120a49831486629c"
+    },
+    "texture_roughness": {
+      "file": "kingdom_beast_lodge_roughness.png",
+      "bytes": 1352771,
+      "sha256": "4989a6f7eb8ab65c50963ba49f110d49b3b77a0e2c11d82e23d71521e7929e91"
+    },
+    "texture_normal": {
+      "file": "kingdom_beast_lodge_normal.png",
+      "bytes": 3647016,
+      "sha256": "7d34874ef099015713892f4738b5e4248d4427211a711484ae2c9a75275313b3"
+    }
+  },
+  "credits": 30,
+  "finish": {
+    "sourceTriangles": 4834,
+    "triangles": 4834,
+    "fittedMetres": [
+      3.565,
+      2.569,
+      3.3
+    ],
+    "teamMaskCoverage": 0.0218
+  },
+  "history": [
+    {
+      "steps": {
+        "preview": {
+          "task": {
+            "id": "01a0d32f-af74-7583-9ed6-bf6a27c5fc8f",
+            "type": "text-to-3d-preview",
+            "mode": "preview",
+            "name": "",
+            "model_type": "smart-topology",
+            "seed": 1150309858,
+            "prompt": "Low-poly game asset: a large medieval stable for a top-down strategy game. One long, wide, low timber barn, clearly wider than it is tall, with a broad gable roof, two wide open stable doorways on the long front side and a small hay loft door above. A wooden hitching rail in front. A royal blue cloth banner over the main doorway. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+            "texture_prompt": "",
+            "texture_image_url": "",
+            "status": "SUCCEEDED",
+            "created_at": 1790249514361,
+            "progress": 100,
+            "started_at": 1790249514373,
+            "finished_at": 1790249533031,
+            "task_error": null,
+            "model_urls": {
+              "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32f-af74-7583-9ed6-bf6a27c5fc8f/output/model.glb"
+            },
+            "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32f-af74-7583-9ed6-bf6a27c5fc8f/output/preview.png",
+            "texture_urls": [],
+            "consumed_credits": 5
+          },
+          "credits": 5,
+          "balance_after": 3596,
+          "finished_utc": "2026-09-24T11:32:20.213726+00:00"
+        },
+        "refine": {
+          "task": {
+            "id": "01a0d330-202c-77eb-b00f-85214c663906",
+            "type": "text-to-3d-refine",
+            "mode": "refine",
+            "name": "",
+            "model_type": "smart-topology",
+            "seed": 1150309858,
+            "prompt": "Low-poly game asset: a large medieval stable for a top-down strategy game. One long, wide, low timber barn, clearly wider than it is tall, with a broad gable roof, two wide open stable doorways on the long front side and a small hay loft door above. A wooden hitching rail in front. A royal blue cloth banner over the main doorway. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+            "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+            "texture_image_url": "",
+            "status": "SUCCEEDED",
+            "created_at": 1790249541721,
+            "progress": 100,
+            "started_at": 1790249541728,
+            "finished_at": 1790249622257,
+            "task_error": null,
+            "model_urls": {
+              "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d330-202c-77eb-b00f-85214c663906/output/model.glb"
+            },
+            "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d330-202c-77eb-b00f-85214c663906/output/preview.png",
+            "texture_urls": [
+              {
+                "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d330-202c-77eb-b00f-85214c663906/output/texture_0.png",
+                "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d330-202c-77eb-b00f-85214c663906/output/texture_0_metallic.png",
+                "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d330-202c-77eb-b00f-85214c663906/output/texture_0_roughness.png",
+                "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d330-202c-77eb-b00f-85214c663906/output/texture_0_normal.png"
+              }
+            ],
+            "consumed_credits": 10
+          },
+          "credits": 10,
+          "balance_after": 3586,
+          "finished_utc": "2026-09-24T11:33:46.955719+00:00"
+        }
+      },
+      "reason": "silhouette missed the brief (2026-09-25)"
+    }
+  ]
+}

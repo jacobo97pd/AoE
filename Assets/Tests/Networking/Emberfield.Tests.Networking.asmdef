@@ -1,0 +1,15 @@
+{
+  "name": "Emberfield.Tests.Networking",
+  "rootNamespace": "Emberfield.Tests.Networking",
+  "references": ["Emberfield.Simulation", "Emberfield.Networking"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

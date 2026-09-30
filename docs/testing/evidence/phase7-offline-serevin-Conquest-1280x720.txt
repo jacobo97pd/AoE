@@ -1,0 +1,25 @@
+Passed: True
+Scenario: Offline
+Unity: 6000.3.23f1
+BuildGuid: d1b7b1cbc28740e994945476895e1295
+Resolution: 1280x720
+Faction: serevin
+Mode: Conquest
+Winner: 2
+Reason: Conquest
+Tick: 12184
+SimulatedSeconds: 609.2
+InitialEnemyHidden: True
+LocalGatherOrders: 59
+LocalBuildings: 11
+LocalQueuedUnits: 46
+RivalGatherOrders: 87
+PeakUnits: 71
+YieldedFrames: 122
+VisibleButtonDispatchesBeforeRestart: 2
+NaturalResult: True
+FinishedStateFrozen: True
+ScriptedLocalAi: True
+TicksAccelerated: True
+Failure:
+RestartFresh: True

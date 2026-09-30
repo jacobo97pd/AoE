@@ -1,0 +1,14 @@
+{
+  "name": "Emberfield.Networking",
+  "rootNamespace": "Emberfield.Networking",
+  "references": ["Emberfield.Simulation"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cfa1721ba145d748ad25f7a74e55175, type: 3}
+  m_Name: KingdomWorker visual
+  m_EditorClassIdentifier: Emberfield.Presentation::Emberfield.Presentation.UnitVisualDefinition
+  GameplayDefinitionId: tender
+  Faction: {fileID: 11400000, guid: f4218c0211a06e445b778c3ea7c79950, type: 2}
+  Prefab: {fileID: 4559936026869189003, guid: 704042d2f449a384ba115031d3d1ea9b, type: 3}
+  ProductionApproved: 0
+  ReviewNotes: Checkpoint 2 candidate, isolated art lab. Pending human approval and
+    mobile profiling; no gameplay stats are stored here.

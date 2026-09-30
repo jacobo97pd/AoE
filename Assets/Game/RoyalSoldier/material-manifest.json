@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 2,
+  "asset": "Royal Soldier material set",
+  "createdBy": "tools/art/royal_soldier_materials.py",
+  "source": "Original deterministic mathematical textures. No external image source.",
+  "resolution": [
+    512,
+    512
+  ],
+  "materials": [
+    {
+      "name": "RS_Steel",
+      "tint": [
+        0.57,
+        0.63,
+        0.68,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.57,
+        0.63,
+        0.68,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0.92,
+      "roughness": 0.52,
+      "smoothness": 0.48,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/steel_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/steel_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Steel_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Steel_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "steel"
+    },
+    {
+      "name": "RS_SteelDark",
+      "tint": [
+        0.255,
+        0.29,
+        0.33,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.255,
+        0.29,
+        0.33,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0.9,
+      "roughness": 0.55,
+      "smoothness": 0.44999999999999996,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/steel_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/steel_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_SteelDark_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_SteelDark_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "steel"
+    },
+    {
+      "name": "RS_SteelEdge",
+      "tint": [
+        0.61,
+        0.67,
+        0.71,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.61,
+        0.67,
+        0.71,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0.92,
+      "roughness": 0.48,
+      "smoothness": 0.52,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/steel_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/steel_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_SteelEdge_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_SteelEdge_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "steel"
+    },
+    {
+      "name": "RS_Gold",
+      "tint": [
+        0.71,
+        0.52,
+        0.265,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.71,
+        0.52,
+        0.265,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0.88,
+      "roughness": 0.39,
+      "smoothness": 0.61,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/gold_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/gold_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Gold_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Gold_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "gold"
+    },
+    {
+      "name": "RS_GoldEdge",
+      "tint": [
+        0.75,
+        0.56,
+        0.3,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.75,
+        0.56,
+        0.3,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0.88,
+      "roughness": 0.37,
+      "smoothness": 0.63,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/gold_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/gold_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_GoldEdge_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_GoldEdge_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "gold"
+    },
+    {
+      "name": "RS_BlueCloth",
+      "tint": [
+        0.105,
+        0.235,
+        0.425,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.105,
+        0.235,
+        0.425,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.86,
+      "smoothness": 0.14,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        3.0,
+        3.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/cloth_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/cloth_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_BlueCloth_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_BlueCloth_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "cloth"
+    },
+    {
+      "name": "RS_IvoryCloth",
+      "tint": [
+        0.56,
+        0.57,
+        0.545,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.56,
+        0.57,
+        0.545,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.91,
+      "smoothness": 0.08999999999999997,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        3.0,
+        3.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/cloth_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/cloth_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_IvoryCloth_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_IvoryCloth_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "cloth"
+    },
+    {
+      "name": "RS_Leather",
+      "tint": [
+        0.31,
+        0.185,
+        0.1,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.31,
+        0.185,
+        0.1,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.64,
+      "smoothness": 0.36,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.5,
+        2.5
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/leather_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/leather_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Leather_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Leather_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "leather"
+    },
+    {
+      "name": "RS_LeatherLight",
+      "tint": [
+        0.405,
+        0.26,
+        0.145,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.405,
+        0.26,
+        0.145,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.67,
+      "smoothness": 0.32999999999999996,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.5,
+        2.5
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/leather_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/leather_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_LeatherLight_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_LeatherLight_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "leather"
+    },
+    {
+      "name": "RS_Skin",
+      "tint": [
+        0.69,
+        0.465,
+        0.345,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.69,
+        0.465,
+        0.345,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.64,
+      "smoothness": 0.36,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        5.0,
+        5.0
+      ],
+      "vertexColorStrength": 1.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/skin_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/skin_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Skin_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Skin_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "skin"
+    },
+    {
+      "name": "RS_Lips",
+      "tint": [
+        0.55,
+        0.29,
+        0.25,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.55,
+        0.29,
+        0.25,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.61,
+      "smoothness": 0.39,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        5.0,
+        5.0
+      ],
+      "vertexColorStrength": 1.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/skin_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/skin_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Lips_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Lips_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "skin"
+    },
+    {
+      "name": "RS_Hair",
+      "tint": [
+        0.225,
+        0.14,
+        0.085,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.225,
+        0.14,
+        0.085,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.86,
+      "smoothness": 0.14,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/hair_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/hair_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Hair_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Hair_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "hair"
+    },
+    {
+      "name": "RS_HairDetail",
+      "tint": [
+        0.28,
+        0.18,
+        0.11,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.28,
+        0.18,
+        0.11,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.86,
+      "smoothness": 0.14,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/hair_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/hair_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_HairDetail_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_HairDetail_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "hair"
+    },
+    {
+      "name": "RS_EyeIvory",
+      "tint": [
+        0.65,
+        0.62,
+        0.55,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.65,
+        0.62,
+        0.55,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.32,
+      "smoothness": 0.6799999999999999,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        1.0,
+        1.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/plain_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/plain_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_EyeIvory_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_EyeIvory_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "plain"
+    },
+    {
+      "name": "RS_Iris",
+      "tint": [
+        0.15,
+        0.095,
+        0.038,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.15,
+        0.095,
+        0.038,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.34,
+      "smoothness": 0.6599999999999999,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        1.0,
+        1.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/plain_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/plain_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Iris_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Iris_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "plain"
+    },
+    {
+      "name": "RS_Pupil",
+      "tint": [
+        0.006,
+        0.008,
+        0.009,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.006,
+        0.008,
+        0.009,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.22,
+      "smoothness": 0.78,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        1.0,
+        1.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/plain_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/plain_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Pupil_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Pupil_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "plain"
+    },
+    {
+      "name": "RS_Wood",
+      "tint": [
+        0.335,
+        0.23,
+        0.12,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.335,
+        0.23,
+        0.12,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.79,
+      "smoothness": 0.20999999999999996,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/wood_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/wood_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Wood_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Wood_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "wood"
+    },
+    {
+      "name": "RS_ThreadGold",
+      "tint": [
+        0.66,
+        0.46,
+        0.19,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.66,
+        0.46,
+        0.19,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0.22,
+      "roughness": 0.68,
+      "smoothness": 0.31999999999999995,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/cloth_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/cloth_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_ThreadGold_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_ThreadGold_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "cloth"
+    },
+    {
+      "name": "RS_ThreadIvory",
+      "tint": [
+        0.62,
+        0.57,
+        0.46,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.62,
+        0.57,
+        0.46,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.88,
+      "smoothness": 0.12,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.0,
+        2.0
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/cloth_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/cloth_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_ThreadIvory_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_ThreadIvory_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "cloth"
+    },
+    {
+      "name": "RS_Sole",
+      "tint": [
+        0.085,
+        0.071,
+        0.055,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.085,
+        0.071,
+        0.055,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.89,
+      "smoothness": 0.10999999999999999,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        2.5,
+        2.5
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/leather_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/leather_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Sole_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_Sole_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "leather"
+    },
+    {
+      "name": "RS_ShieldBlue",
+      "tint": [
+        0.095,
+        0.215,
+        0.385,
+        1
+      ],
+      "colorSpace": "sRGB",
+      "baseColor": [
+        0.095,
+        0.215,
+        0.385,
+        1
+      ],
+      "textureMultipliesBaseColor": true,
+      "metallic": 0,
+      "roughness": 0.48,
+      "smoothness": 0.52,
+      "smoothnessMapMode": "absolute",
+      "smoothnessMultiplier": 1.0,
+      "normalConvention": "tangent +Y",
+      "normalScale": 1.0,
+      "tiling": [
+        1.5,
+        1.5
+      ],
+      "vertexColorStrength": 0.0,
+      "baseColorTexture": "Assets/Game/RoyalSoldier/Textures/paint_BaseColor.png",
+      "normalTexture": "Assets/Game/RoyalSoldier/Textures/paint_Normal.png",
+      "metallicSmoothnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_ShieldBlue_MetalSmooth.png",
+      "roughnessTexture": "Assets/Game/RoyalSoldier/Textures/RS_ShieldBlue_Roughness.png",
+      "sourceDirectory": "D:\\CodexTooling\\royal-soldier\\Textures",
+      "family": "paint"
+    }
+  ],
+  "packing": {
+    "R": "metallic",
+    "G": "unused",
+    "B": "unused",
+    "A": "absolute smoothness"
+  },
+  "edgeWear": "RS_SteelEdge and RS_GoldEdge are optional assignments to real exposed bevels. No curvature is assumed or faked by a tile.",
+  "limits": "Microdetail changes surface response only. Silhouette, plate thickness, cloth folds, seams and emblems require authored geometry.",
+  "blenderOnlyPreviewDifferences": "Skin uses mild subsurface scattering and cloth uses 0.10 sheen; Unity shader must implement these separately or omit them. Shared texture, tint and vertex color inputs otherwise match."
+}

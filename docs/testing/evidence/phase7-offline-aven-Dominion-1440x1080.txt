@@ -1,0 +1,25 @@
+Passed: True
+Scenario: Offline
+Unity: 6000.3.23f1
+BuildGuid: d1b7b1cbc28740e994945476895e1295
+Resolution: 1440x1080
+Faction: aven
+Mode: Dominion
+Winner: 1
+Reason: Dominion
+Tick: 19198
+SimulatedSeconds: 959.9
+InitialEnemyHidden: True
+LocalGatherOrders: 136
+LocalBuildings: 15
+LocalQueuedUnits: 41
+RivalGatherOrders: 97
+PeakUnits: 62
+YieldedFrames: 192
+VisibleButtonDispatchesBeforeRestart: 2
+NaturalResult: True
+FinishedStateFrozen: True
+ScriptedLocalAi: True
+TicksAccelerated: True
+Failure:
+RestartFresh: True

@@ -1,0 +1,201 @@
+{
+  "id": "mountain_keep",
+  "entry": {
+    "id": "mountain_keep",
+    "style": "mountain",
+    "building": "keep",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.7,
+    "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan stone keep. One tall square fieldstone tower, clearly much taller than it is wide, three storeys high, with a timber-framed top storey, a steep pointed turf roof, a heavy wooden door at the base, narrow slit windows and blue banners hanging from the top."
+  },
+  "style": {
+    "factions": [
+      "skeld"
+    ],
+    "suffix": "Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        200,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d479-99ee-7543-89cb-5d432faf720b",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4033083496,
+        "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan stone keep. One tall square fieldstone tower, clearly much taller than it is wide, three storeys high, with a timber-framed top storey, a steep pointed turf roof, a heavy wooden door at the base, narrow slit windows and blue banners hanging from the top. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271136102,
+        "progress": 100,
+        "started_at": 1790271136109,
+        "finished_at": 1790271147574,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d479-99ee-7543-89cb-5d432faf720b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d479-99ee-7543-89cb-5d432faf720b/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T17:32:33.604240+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d479-e761-7593-a078-d2f74e6a7b23",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 4033083496,
+        "prompt": "Low-poly game asset for a top-down strategy game: a mountain clan stone keep. One tall square fieldstone tower, clearly much taller than it is wide, three storeys high, with a timber-framed top storey, a steep pointed turf roof, a heavy wooden door at the base, narrow slit windows and blue banners hanging from the top. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790271154626,
+        "progress": 100,
+        "started_at": 1790271154634,
+        "finished_at": 1790271227905,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d479-e761-7593-a078-d2f74e6a7b23/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d479-e761-7593-a078-d2f74e6a7b23/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d479-e761-7593-a078-d2f74e6a7b23/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d479-e761-7593-a078-d2f74e6a7b23/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d479-e761-7593-a078-d2f74e6a7b23/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d479-e761-7593-a078-d2f74e6a7b23/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T17:33:51.433155+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "mountain_keep_model.glb",
+      "bytes": 6715004,
+      "sha256": "b620afca760f85f9d761524460cd5f9ca22a019e50a288167dc00dbd51286821"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 156647,
+      "sha256": "df6b03af8c023640afd19804609003b15d3a05817c665beeafea400620ad2b93"
+    },
+    "texture_base_color": {
+      "file": "mountain_keep_base_color.png",
+      "bytes": 4963184,
+      "sha256": "3b2168cd2a4207ab9a8af10c1875dd06908e5c68ffbd25cbf71de3502d35cd78"
+    },
+    "texture_metallic": {
+      "file": "mountain_keep_metallic.png",
+      "bytes": 23324,
+      "sha256": "12c3426488210533145054e4d3a91bc504cce55255b46bbfac56a87fd1ce1bf1"
+    },
+    "texture_roughness": {
+      "file": "mountain_keep_roughness.png",
+      "bytes": 1324173,
+      "sha256": "6563fa042ad75395e8f7bf3529fdab1e6648cd99a8ba86cc08fa77e1b42bc646"
+    },
+    "texture_normal": {
+      "file": "mountain_keep_normal.png",
+      "bytes": 4141621,
+      "sha256": "a9d38f3a84235c884631ff5991b662ae183a1a50ec431c843965b9ad68328ee3"
+    }
+  },
+  "credits": 30,
+  "finish": {
+    "sourceTriangles": 4876,
+    "triangles": 4876,
+    "fittedMetres": [
+      2.226,
+      2.934,
+      4.7
+    ],
+    "teamMaskCoverage": 0.0519
+  },
+  "history": [
+    {
+      "steps": {
+        "preview": {
+          "task": {
+            "id": "01a0d43f-f539-77a1-a39a-e34a90f4c2e5",
+            "type": "text-to-3d-preview",
+            "mode": "preview",
+            "name": "",
+            "model_type": "smart-topology",
+            "seed": 895765049,
+            "prompt": "Low-poly game asset for a top-down strategy game: a mountain hill-fort keep. One massive square fieldstone tower, taller than every other building, with a timber upper storey, a steep turf roof, a heavy wooden gate and blue banners on the walls. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+            "texture_prompt": "",
+            "texture_image_url": "",
+            "status": "SUCCEEDED",
+            "created_at": 1790267358476,
+            "progress": 100,
+            "started_at": 1790267358484,
+            "finished_at": 1790267372801,
+            "task_error": null,
+            "model_urls": {
+              "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-f539-77a1-a39a-e34a90f4c2e5/output/model.glb"
+            },
+            "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-f539-77a1-a39a-e34a90f4c2e5/output/preview.png",
+            "texture_urls": [],
+            "consumed_credits": 5
+          },
+          "credits": 5,
+          "finished_utc": "2026-09-24T16:29:35.983045+00:00"
+        },
+        "refine": {
+          "task": {
+            "id": "01a0d440-431d-76a6-87b4-29e2b74d430f",
+            "type": "text-to-3d-refine",
+            "mode": "refine",
+            "name": "",
+            "model_type": "smart-topology",
+            "seed": 895765049,
+            "prompt": "Low-poly game asset for a top-down strategy game: a mountain hill-fort keep. One massive square fieldstone tower, taller than every other building, with a timber upper storey, a steep turf roof, a heavy wooden gate and blue banners on the walls. Weathered dark timber, grey fieldstone footings, green turf or thatch roofs, carved crossed gable beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+            "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Timber: weathered dark brown (#5E4632) with carved paler edges (#8A6E4E). Stone: cool grey fieldstone (#8C8A82). Roofs: mossy green turf (#6B7A45) or straw thatch (#9A8656). Furs: cream and grey (#CFC5AE). Banners and cloth: saturated woad blue (#2F4E9C), no emblem. No text or logos.",
+            "texture_image_url": "",
+            "status": "SUCCEEDED",
+            "created_at": 1790267376449,
+            "progress": 100,
+            "started_at": 1790267376457,
+            "finished_at": 1790267434488,
+            "task_error": null,
+            "model_urls": {
+              "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-431d-76a6-87b4-29e2b74d430f/output/model.glb"
+            },
+            "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-431d-76a6-87b4-29e2b74d430f/output/preview.png",
+            "texture_urls": [
+              {
+                "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-431d-76a6-87b4-29e2b74d430f/output/texture_0.png",
+                "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-431d-76a6-87b4-29e2b74d430f/output/texture_0_metallic.png",
+                "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-431d-76a6-87b4-29e2b74d430f/output/texture_0_roughness.png",
+                "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d440-431d-76a6-87b4-29e2b74d430f/output/texture_0_normal.png"
+              }
+            ],
+            "consumed_credits": 10
+          },
+          "credits": 10,
+          "finished_utc": "2026-09-24T16:30:36.317368+00:00"
+        }
+      },
+      "reason": "silhouette missed the brief (2026-09-25)"
+    }
+  ]
+}

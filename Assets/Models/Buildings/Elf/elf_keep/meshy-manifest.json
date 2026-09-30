@@ -1,0 +1,133 @@
+{
+  "id": "elf_keep",
+  "entry": {
+    "id": "elf_keep",
+    "style": "elf",
+    "building": "keep",
+    "footprint": [
+      4,
+      4
+    ],
+    "height": 4.7,
+    "prompt": "Low-poly game asset for a top-down strategy game: an elven castle keep. One tall elegant pale stone keep, taller than every other building, with three slender round towers and curved spire roofs, an arched gate and blue banners."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43f-6d45-74be-a1c8-0e4556366905",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1134460016,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven castle keep. One tall elegant pale stone keep, taller than every other building, with three slender round towers and curved spire roofs, an arched gate and blue banners. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267323956,
+        "progress": 100,
+        "started_at": 1790267323964,
+        "finished_at": 1790267333992,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-6d45-74be-a1c8-0e4556366905/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-6d45-74be-a1c8-0e4556366905/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:29:01.441133+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43f-bc28-7400-b3ae-a63405c2b8c0",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1134460016,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven castle keep. One tall elegant pale stone keep, taller than every other building, with three slender round towers and curved spire roofs, an arched gate and blue banners. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267341911,
+        "progress": 100,
+        "started_at": 1790267341919,
+        "finished_at": 1790267405081,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-bc28-7400-b3ae-a63405c2b8c0/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-bc28-7400-b3ae-a63405c2b8c0/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-bc28-7400-b3ae-a63405c2b8c0/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-bc28-7400-b3ae-a63405c2b8c0/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-bc28-7400-b3ae-a63405c2b8c0/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43f-bc28-7400-b3ae-a63405c2b8c0/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:30:10.278756+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_keep_model.glb",
+      "bytes": 6523896,
+      "sha256": "af31a8f73e127f66244032d4887eb9e4fe6be52c5c7d1ec2925cf2562c4a598c"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 140341,
+      "sha256": "3bbb762a570d73c1b76103a660bf262bf10453df51429fe90d881af2bf978231"
+    },
+    "texture_base_color": {
+      "file": "elf_keep_base_color.png",
+      "bytes": 5072066,
+      "sha256": "d2fda73fec501bb7fd804fd80e3a19b6ee5a86d5e9488c20420b099db843434b"
+    },
+    "texture_metallic": {
+      "file": "elf_keep_metallic.png",
+      "bytes": 27645,
+      "sha256": "97d09cd71b8f69e09237ad75d5ba201a4ecdc0344b9dc1b90a3f28923f028740"
+    },
+    "texture_roughness": {
+      "file": "elf_keep_roughness.png",
+      "bytes": 1245861,
+      "sha256": "ca41d1d7d5c722e94262c7b59540f26663f3aeadd38c54e875b60e8b15fb8047"
+    },
+    "texture_normal": {
+      "file": "elf_keep_normal.png",
+      "bytes": 3739780,
+      "sha256": "a28586df6bd7f61a0cfdb94d16f71829dfe0ee620e1a82c68c5868dc34e0ba1d"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4651,
+    "triangles": 4651,
+    "fittedMetres": [
+      2.791,
+      2.754,
+      4.7
+    ],
+    "teamMaskCoverage": 0.0009
+  }
+}

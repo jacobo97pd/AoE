@@ -1,0 +1,130 @@
+{
+  "id": "desert_caravan",
+  "entry": {
+    "id": "desert_caravan",
+    "role": "landmark",
+    "kind": "caravan",
+    "lod0": 3500,
+    "lod1": 800,
+    "height": 2.0,
+    "footprint": 2.2,
+    "size": 1024,
+    "biome": "desert",
+    "priority": 4,
+    "prompt": "A single standing camel loaded with bulky cloth-wrapped cargo bundles and two clay jars strapped over its hump. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, one solid animal, legs straight, facing forward. About 2 m long and 2 m tall. Isolated, no ground, no rider, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Camel: sandy tan hide (#C49A6C) with lighter belly (#D9B98E). Cargo bundles: faded indigo and madder cloth (#3E4F7A, #A0483A). Jars: terracotta (#B8683E). Ropes: pale hemp (#C9B98F). No text or logos.",
+    "polycount": 3000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43c-6a91-707e-9cd1-6a784f3cf00a",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3296538257,
+        "prompt": "A single standing camel loaded with bulky cloth-wrapped cargo bundles and two clay jars strapped over its hump. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, one solid animal, legs straight, facing forward. About 2 m long and 2 m tall. Isolated, no ground, no rider, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267125925,
+        "progress": 100,
+        "started_at": 1790267125933,
+        "finished_at": 1790267145602,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-6a91-707e-9cd1-6a784f3cf00a/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-6a91-707e-9cd1-6a784f3cf00a/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:25:51.898185+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43c-d8d7-773f-8859-8f2079cc61bf",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 3296538257,
+        "prompt": "A single standing camel loaded with bulky cloth-wrapped cargo bundles and two clay jars strapped over its hump. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky shapes, hard edges, flat faces, one solid animal, legs straight, facing forward. About 2 m long and 2 m tall. Isolated, no ground, no rider, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Camel: sandy tan hide (#C49A6C) with lighter belly (#D9B98E). Cargo bundles: faded indigo and madder cloth (#3E4F7A, #A0483A). Jars: terracotta (#B8683E). Ropes: pale hemp (#C9B98F). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267154583,
+        "progress": 100,
+        "started_at": 1790267154589,
+        "finished_at": 1790267201483,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-d8d7-773f-8859-8f2079cc61bf/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-d8d7-773f-8859-8f2079cc61bf/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-d8d7-773f-8859-8f2079cc61bf/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-d8d7-773f-8859-8f2079cc61bf/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-d8d7-773f-8859-8f2079cc61bf/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43c-d8d7-773f-8859-8f2079cc61bf/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:26:46.009220+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 72119,
+      "sha256": "c23855bedba3da208801ae68d0f9c4a4d2220bbc02c45315bc5ff05668a19136"
+    },
+    "model_glb": {
+      "file": "desert_caravan_model.glb",
+      "bytes": 6905488,
+      "sha256": "57b0282598c4d5510675dc34ce1ff6cff3e06e847a409d5fcb4b34edaac5c123"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 87884,
+      "sha256": "d4e8237d945650a083f572572828cbd290526ee9d821f2f322c48d21283f310b"
+    },
+    "texture_base_color": {
+      "file": "desert_caravan_base_color.png",
+      "bytes": 6270247,
+      "sha256": "320701f21510444412fd1a880c1068f51c4b029c12c1adb95c37c0d21dce0701"
+    },
+    "texture_metallic": {
+      "file": "desert_caravan_metallic.png",
+      "bytes": 27854,
+      "sha256": "23c2c3d09c17e97ed0a51fd9910a6e000e6d401e9ddd75589b9802be4330b0fb"
+    },
+    "texture_roughness": {
+      "file": "desert_caravan_roughness.png",
+      "bytes": 1199994,
+      "sha256": "a843d5bb63b6836af80f37df5b7fb582e122778b6efe8ab046abf1c0376ce523"
+    },
+    "texture_normal": {
+      "file": "desert_caravan_normal.png",
+      "bytes": 4885963,
+      "sha256": "89765aa6bab2665fb114b794efc213fc4796d57cc5154caf2215d8fa43a9e6ee"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 3196,
+    "lod0": 3196,
+    "lod1": 800,
+    "fittedMetres": [
+      0.727,
+      1.992,
+      2.0
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

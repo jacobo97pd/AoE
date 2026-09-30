@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="33" result="Passed" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0,0800491">
+  <test-suite type="TestSuite" id="1000" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="33" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.080049" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1040" name="Emberfield.Tests.EditMode.dll" fullname="C:/Users/jacob/Documents/AoE/Library/ScriptAssemblies/Emberfield.Tests.EditMode.dll" runstate="Runnable" testcasecount="33" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.072223" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="34120" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1041" name="Emberfield" fullname="Emberfield" runstate="Runnable" testcasecount="33" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.071814" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1042" name="Tests" fullname="Emberfield.Tests" runstate="Runnable" testcasecount="33" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.071682" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1043" name="EditMode" fullname="Emberfield.Tests.EditMode" runstate="Runnable" testcasecount="33" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.071508" total="33" passed="33" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="CommandValidationTests" fullname="Emberfield.Tests.EditMode.CommandValidationTests" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.044933" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="ParameterizedMethod" id="1013" name="BuildingResourceAndInsufficientClearanceTargetsAreRejected" fullname="Emberfield.Tests.EditMode.CommandValidationTests.BuildingResourceAndInsufficientClearanceTargetsAreRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.030514" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1009" name="BuildingResourceAndInsufficientClearanceTargetsAreRejected(11500,8500)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.BuildingResourceAndInsufficientClearanceTargetsAreRejected(11500,8500)" methodname="BuildingResourceAndInsufficientClearanceTargetsAreRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="1656255964" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.024482" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1010" name="BuildingResourceAndInsufficientClearanceTargetsAreRejected(6500,6500)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.BuildingResourceAndInsufficientClearanceTargetsAreRejected(6500,6500)" methodname="BuildingResourceAndInsufficientClearanceTargetsAreRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="1334339396" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000151" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1011" name="BuildingResourceAndInsufficientClearanceTargetsAreRejected(100,1500)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.BuildingResourceAndInsufficientClearanceTargetsAreRejected(100,1500)" methodname="BuildingResourceAndInsufficientClearanceTargetsAreRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="451821036" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000189" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1012" name="BuildingResourceAndInsufficientClearanceTargetsAreRejected(9900,8500)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.BuildingResourceAndInsufficientClearanceTargetsAreRejected(9900,8500)" methodname="BuildingResourceAndInsufficientClearanceTargetsAreRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="539025253" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000078" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1017" name="CommandCopiesSelectionSoCallerCannotChangeItsOwnershipScope" fullname="Emberfield.Tests.EditMode.CommandValidationTests.CommandCopiesSelectionSoCallerCannotChangeItsOwnershipScope" methodname="CommandCopiesSelectionSoCallerCannotChangeItsOwnershipScope" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="1034520941" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.002035" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1014" name="DisconnectedDestinationDoesNotReplaceExistingOrder" fullname="Emberfield.Tests.EditMode.CommandValidationTests.DisconnectedDestinationDoesNotReplaceExistingOrder" methodname="DisconnectedDestinationDoesNotReplaceExistingOrder" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="1264721452" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000947" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="GroupOrderRejectsAtomicallyIfAnyUnitCannotReachTargetRegion" fullname="Emberfield.Tests.EditMode.CommandValidationTests.GroupOrderRejectsAtomicallyIfAnyUnitCannotReachTargetRegion" methodname="GroupOrderRejectsAtomicallyIfAnyUnitCannotReachTargetRegion" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="2082411906" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000430" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="InvalidSelectionsAndUnknownCommandTypesHaveExplicitRejections" fullname="Emberfield.Tests.EditMode.CommandValidationTests.InvalidSelectionsAndUnknownCommandTypesHaveExplicitRejections" methodname="InvalidSelectionsAndUnknownCommandTypesHaveExplicitRejections" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="1652460989" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000584" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="MixedOwnershipRejectsWholeGroupWithoutMutatingExistingOrders" fullname="Emberfield.Tests.EditMode.CommandValidationTests.MixedOwnershipRejectsWholeGroupWithoutMutatingExistingOrders" methodname="MixedOwnershipRejectsWholeGroupWithoutMutatingExistingOrders" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="280522840" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000403" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1008" name="OutOfBoundsDestinationIsRejected" fullname="Emberfield.Tests.EditMode.CommandValidationTests.OutOfBoundsDestinationIsRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.001498" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1003" name="OutOfBoundsDestinationIsRejected(-1,1500)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.OutOfBoundsDestinationIsRejected(-1,1500)" methodname="OutOfBoundsDestinationIsRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="1046361987" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000407" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1004" name="OutOfBoundsDestinationIsRejected(16000,1500)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.OutOfBoundsDestinationIsRejected(16000,1500)" methodname="OutOfBoundsDestinationIsRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="518399352" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000123" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1005" name="OutOfBoundsDestinationIsRejected(1500,12000)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.OutOfBoundsDestinationIsRejected(1500,12000)" methodname="OutOfBoundsDestinationIsRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="1531031105" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000097" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1006" name="OutOfBoundsDestinationIsRejected(1500,-1)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.OutOfBoundsDestinationIsRejected(1500,-1)" methodname="OutOfBoundsDestinationIsRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="188152344" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000080" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1007" name="OutOfBoundsDestinationIsRejected(int.MaxValue,int.MaxValue)" fullname="Emberfield.Tests.EditMode.CommandValidationTests.OutOfBoundsDestinationIsRejected(int.MaxValue,int.MaxValue)" methodname="OutOfBoundsDestinationIsRejected" classname="Emberfield.Tests.EditMode.CommandValidationTests" runstate="Runnable" seed="1926562309" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000078" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1018" name="DefinitionTests" fullname="Emberfield.Tests.EditMode.DefinitionTests" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.008246" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1020" name="DuplicateIdsAcrossEntityTypesAreRejected" fullname="Emberfield.Tests.EditMode.DefinitionTests.DuplicateIdsAcrossEntityTypesAreRejected" methodname="DuplicateIdsAcrossEntityTypesAreRejected" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="1703990176" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.002727" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1019" name="EntityLookupsReturnStableConfiguredState" fullname="Emberfield.Tests.EditMode.DefinitionTests.EntityLookupsReturnStableConfiguredState" methodname="EntityLookupsReturnStableConfiguredState" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="843372299" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.002044" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="InvalidAndDuplicateDefinitionsAreRejectedBeforeSimulationStarts" fullname="Emberfield.Tests.EditMode.DefinitionTests.InvalidAndDuplicateDefinitionsAreRejectedBeforeSimulationStarts" methodname="InvalidAndDuplicateDefinitionsAreRejectedBeforeSimulationStarts" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="800188779" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000335" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1029" name="InvalidMapDimensionsAreRejectedWithoutOverflow" fullname="Emberfield.Tests.EditMode.DefinitionTests.InvalidMapDimensionsAreRejectedWithoutOverflow" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.001003" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1025" name="InvalidMapDimensionsAreRejectedWithoutOverflow(0,12,1000)" fullname="Emberfield.Tests.EditMode.DefinitionTests.InvalidMapDimensionsAreRejectedWithoutOverflow(0,12,1000)" methodname="InvalidMapDimensionsAreRejectedWithoutOverflow" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="1495138378" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000302" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1026" name="InvalidMapDimensionsAreRejectedWithoutOverflow(16,-1,1000)" fullname="Emberfield.Tests.EditMode.DefinitionTests.InvalidMapDimensionsAreRejectedWithoutOverflow(16,-1,1000)" methodname="InvalidMapDimensionsAreRejectedWithoutOverflow" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="1825007837" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000071" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1027" name="InvalidMapDimensionsAreRejectedWithoutOverflow(16,12,0)" fullname="Emberfield.Tests.EditMode.DefinitionTests.InvalidMapDimensionsAreRejectedWithoutOverflow(16,12,0)" methodname="InvalidMapDimensionsAreRejectedWithoutOverflow" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="313675622" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000067" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1028" name="InvalidMapDimensionsAreRejectedWithoutOverflow(int.MaxValue,int.MaxValue,1000)" fullname="Emberfield.Tests.EditMode.DefinitionTests.InvalidMapDimensionsAreRejectedWithoutOverflow(int.MaxValue,int.MaxValue,1000)" methodname="InvalidMapDimensionsAreRejectedWithoutOverflow" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="862361392" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000068" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1024" name="OverlappingOrMisalignedBuildingFootprintsAreRejected" fullname="Emberfield.Tests.EditMode.DefinitionTests.OverlappingOrMisalignedBuildingFootprintsAreRejected" methodname="OverlappingOrMisalignedBuildingFootprintsAreRejected" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="1082209689" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000352" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="UnitInsideStaticObstacleIsRejected" fullname="Emberfield.Tests.EditMode.DefinitionTests.UnitInsideStaticObstacleIsRejected" methodname="UnitInsideStaticObstacleIsRejected" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="321839366" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000232" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="UnknownDefinitionAndInvalidOwnerAreRejected" fullname="Emberfield.Tests.EditMode.DefinitionTests.UnknownDefinitionAndInvalidOwnerAreRejected" methodname="UnknownDefinitionAndInvalidOwnerAreRejected" classname="Emberfield.Tests.EditMode.DefinitionTests" runstate="Runnable" seed="2075429945" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000319" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1030" name="MovementTests" fullname="Emberfield.Tests.EditMode.MovementTests" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.017418" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1033" name="FractionalSpeedPerTickDoesNotLoseMovementOverOneSecond" fullname="Emberfield.Tests.EditMode.MovementTests.FractionalSpeedPerTickDoesNotLoseMovementOverOneSecond" methodname="FractionalSpeedPerTickDoesNotLoseMovementOverOneSecond" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="2018699334" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000862" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1038" name="GroupDestinationsAreDistinctAndIndependentOfSelectionOrder" fullname="Emberfield.Tests.EditMode.MovementTests.GroupDestinationsAreDistinctAndIndependentOfSelectionOrder" methodname="GroupDestinationsAreDistinctAndIndependentOfSelectionOrder" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="833889720" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.004235" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1039" name="IdenticalCommandReplayProducesIdenticalWorldStateAtEveryTick" fullname="Emberfield.Tests.EditMode.MovementTests.IdenticalCommandReplayProducesIdenticalWorldStateAtEveryTick" methodname="IdenticalCommandReplayProducesIdenticalWorldStateAtEveryTick" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="2108855442" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.008129" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1032" name="OneSecondMovementUsesConfiguredSpeedAndArrivesExactly" fullname="Emberfield.Tests.EditMode.MovementTests.OneSecondMovementUsesConfiguredSpeedAndArrivesExactly" methodname="OneSecondMovementUsesConfiguredSpeedAndArrivesExactly" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="1734489148" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000439" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1031" name="OrdersDoNotAdvanceTimeOrMoveUnitsUntilTick" fullname="Emberfield.Tests.EditMode.MovementTests.OrdersDoNotAdvanceTimeOrMoveUnitsUntilTick" methodname="OrdersDoNotAdvanceTimeOrMoveUnitsUntilTick" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="1025711458" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000507" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1037" name="PathDetoursAroundWallWithoutEnteringBlockedCells" fullname="Emberfield.Tests.EditMode.MovementTests.PathDetoursAroundWallWithoutEnteringBlockedCells" methodname="PathDetoursAroundWallWithoutEnteringBlockedCells" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="748897777" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000733" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1035" name="RepeatingMoveEveryTickDoesNotResetProgress" fullname="Emberfield.Tests.EditMode.MovementTests.RepeatingMoveEveryTickDoesNotResetProgress" methodname="RepeatingMoveEveryTickDoesNotResetProgress" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="184807275" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000530" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1036" name="StopPreservesPositionAcrossFutureTicks" fullname="Emberfield.Tests.EditMode.MovementTests.StopPreservesPositionAcrossFutureTicks" methodname="StopPreservesPositionAcrossFutureTicks" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="512634922" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000382" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1034" name="VerySlowDiagonalMovementEventuallyArrives" fullname="Emberfield.Tests.EditMode.MovementTests.VerySlowDiagonalMovementEventuallyArrives" methodname="VerySlowDiagonalMovementEventuallyArrives" classname="Emberfield.Tests.EditMode.MovementTests" runstate="Runnable" seed="241796821" result="Passed" start-time="2026-09-09 13:45:49Z" end-time="2026-09-09 13:45:49Z" duration="0.000327" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/jacob/AppData/LocalLow/Emberfield Project/Emberfield\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

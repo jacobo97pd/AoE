@@ -1,0 +1,137 @@
+{
+  "id": "kingdom_watchtower",
+  "entry": {
+    "id": "kingdom_watchtower",
+    "style": "kingdom",
+    "building": "watchtower",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 4.0,
+    "prompt": "Low-poly game asset: a medieval watchtower for a top-down strategy game. One tall, slim, square stone tower, clearly taller than it is wide, with a covered timber lookout gallery near the top and a pointed pyramid slate roof. A narrow wooden door at the base. A royal blue pennant flies from the roof tip."
+  },
+  "style": {
+    "factions": [
+      "aven",
+      "serevin",
+      "english"
+    ],
+    "suffix": "Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d32d-711c-73dc-94cc-d7c6930187f7",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1916794384,
+        "prompt": "Low-poly game asset: a medieval watchtower for a top-down strategy game. One tall, slim, square stone tower, clearly taller than it is wide, with a covered timber lookout gallery near the top and a pointed pyramid slate roof. A narrow wooden door at the base. A royal blue pennant flies from the roof tip. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249367563,
+        "progress": 100,
+        "started_at": 1790249367574,
+        "finished_at": 1790249375398,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32d-711c-73dc-94cc-d7c6930187f7/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32d-711c-73dc-94cc-d7c6930187f7/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 3626,
+      "finished_utc": "2026-09-24T11:29:36.453030+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d32d-a09c-7083-8b01-548244d97ea7",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1916794384,
+        "prompt": "Low-poly game asset: a medieval watchtower for a top-down strategy game. One tall, slim, square stone tower, clearly taller than it is wide, with a covered timber lookout gallery near the top and a pointed pyramid slate roof. A narrow wooden door at the base. A royal blue pennant flies from the roof tip. Cream plaster walls, dark timber beams, grey stone base, grey-teal slate roof. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: pale cream plaster (#EDE7D0). Timber: warm mid-brown wood (#8E765F). Stone: pale grey-beige blocks (#D4D4C4). Roof: muted grey-teal slate (#7E9597). Windows and doorways: dark blue-grey (#4D5F61). Banners and awnings: plain saturated royal blue cloth (#2B4FB0), no emblem. No dirt, moss, rust, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790249377995,
+        "progress": 100,
+        "started_at": 1790249378003,
+        "finished_at": 1790249422027,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32d-a09c-7083-8b01-548244d97ea7/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32d-a09c-7083-8b01-548244d97ea7/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32d-a09c-7083-8b01-548244d97ea7/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32d-a09c-7083-8b01-548244d97ea7/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32d-a09c-7083-8b01-548244d97ea7/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d32d-a09c-7083-8b01-548244d97ea7/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "balance_after": 3616,
+      "finished_utc": "2026-09-24T11:30:29.355007+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "kingdom_watchtower_model.glb",
+      "bytes": 5808080,
+      "sha256": "62939e8824984a2bfeec8c100ab38d32f90973c1e0c281a15436b039bef036f2"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 83293,
+      "sha256": "bb51bf88ec21aac2bc3cdaec5888e657870d30bb4c6b86f3f43f007c7a18732b"
+    },
+    "texture_base_color": {
+      "file": "kingdom_watchtower_base_color.png",
+      "bytes": 5057321,
+      "sha256": "58d87cc49c4f6caacf1b271901280a9a10c0418c66996b8037224511e3a6d39d"
+    },
+    "texture_metallic": {
+      "file": "kingdom_watchtower_metallic.png",
+      "bytes": 24101,
+      "sha256": "6fe368dd287d2968f2c9b124aa170c5ed587b1faf9e9d635968f5d4d7e11e004"
+    },
+    "texture_roughness": {
+      "file": "kingdom_watchtower_roughness.png",
+      "bytes": 1181139,
+      "sha256": "de993041c65ef4ad9a32d9db2440db7e5b06d098e46ddbc2f8027a236dec0571"
+    },
+    "texture_normal": {
+      "file": "kingdom_watchtower_normal.png",
+      "bytes": 3823078,
+      "sha256": "d6e4995c01afc87cbef73bf3d1f99ac0318dd3f79050a96ed26288d29b10b8ae"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 5170,
+    "triangles": 5170,
+    "fittedMetres": [
+      1.742,
+      1.719,
+      4.0
+    ],
+    "teamMaskCoverage": 0.0195
+  }
+}

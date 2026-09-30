@@ -1,0 +1,133 @@
+{
+  "id": "elf_muster_hall",
+  "entry": {
+    "id": "elf_muster_hall",
+    "style": "elf",
+    "building": "muster_hall",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.4,
+    "prompt": "Low-poly game asset for a top-down strategy game: an elven training hall. One long hall of pale stone with slender pillars along an open front, a sweeping curved leaf-shaped roof, spear and bow stands along the wall and one blue banner."
+  },
+  "style": {
+    "factions": [
+      "verdant"
+    ],
+    "suffix": "Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+    "teamHues": [
+      [
+        205,
+        250
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d43b-a862-702e-b9ad-eec7df55a17b",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1139368590,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven training hall. One long hall of pale stone with slender pillars along an open front, a sweeping curved leaf-shaped roof, spear and bow stands along the wall and one blue banner. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267076737,
+        "progress": 100,
+        "started_at": 1790267076745,
+        "finished_at": 1790267088084,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-a862-702e-b9ad-eec7df55a17b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-a862-702e-b9ad-eec7df55a17b/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:24:54.200129+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d43b-f674-725e-8ad6-11fad2a73563",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1139368590,
+        "prompt": "Low-poly game asset for a top-down strategy game: an elven training hall. One long hall of pale stone with slender pillars along an open front, a sweeping curved leaf-shaped roof, spear and bow stands along the wall and one blue banner. Pale ivory stone and smooth silver-grey living wood, sweeping curved leaf-shaped roofs, slender pillars, gold trim, climbing vines. Graceful low-poly shapes, clean edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: pale ivory (#E6E0CE). Wood: silver birch grey (#BDB5A2). Roofs: soft leaf green (#6E9A55) with lighter edges (#9DBB72). Trim: muted gold (#C9A650). Vines: fresh green (#5E8A4A). Banners and cloth: saturated royal blue (#2B4FB0), no emblem. No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790267094686,
+        "progress": 100,
+        "started_at": 1790267094694,
+        "finished_at": 1790267158277,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-f674-725e-8ad6-11fad2a73563/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-f674-725e-8ad6-11fad2a73563/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-f674-725e-8ad6-11fad2a73563/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-f674-725e-8ad6-11fad2a73563/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-f674-725e-8ad6-11fad2a73563/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d43b-f674-725e-8ad6-11fad2a73563/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:26:03.082164+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "elf_muster_hall_model.glb",
+      "bytes": 6157120,
+      "sha256": "0204f43af51d2cd4e3427b63b1f216ecb335010f1ed402b5c6f28b2e28643b91"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 213504,
+      "sha256": "9020784c98ed1e7f4cd5e9e092c39ed9b9e3162e5cc8d25bc3005ce43acb2b47"
+    },
+    "texture_base_color": {
+      "file": "elf_muster_hall_base_color.png",
+      "bytes": 5354056,
+      "sha256": "37388c837b2650c72cb1e91bf26612df09140367579cbb2a588a268ed6b3081f"
+    },
+    "texture_metallic": {
+      "file": "elf_muster_hall_metallic.png",
+      "bytes": 273805,
+      "sha256": "bfc14832387110c9257fa092623906c4c6ab2892b98f20b943b4236444c24181"
+    },
+    "texture_roughness": {
+      "file": "elf_muster_hall_roughness.png",
+      "bytes": 1462509,
+      "sha256": "0958a0b3da45c85cd6474d1354b97c5ce953f821b8253d69af1bf15bf7fcec6f"
+    },
+    "texture_normal": {
+      "file": "elf_muster_hall_normal.png",
+      "bytes": 3905759,
+      "sha256": "49267dc2c9539fa5dba4eb6788ab2c100363501852a98b51672f505b1e38adb0"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4961,
+    "triangles": 4961,
+    "fittedMetres": [
+      2.88,
+      2.88,
+      1.991
+    ],
+    "teamMaskCoverage": 0.0046
+  }
+}

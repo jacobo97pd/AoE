@@ -1,0 +1,130 @@
+{
+  "id": "highland_snow_boulder",
+  "entry": {
+    "id": "highland_snow_boulder",
+    "role": "obstacle",
+    "kind": "obstacle",
+    "lod0": 400,
+    "lod1": 160,
+    "height": 0.9,
+    "footprint": 1.0,
+    "size": 512,
+    "biome": "highland",
+    "priority": 6,
+    "polycount": 600,
+    "prompt": "Snow-capped granite boulder: one fused rounded rock mass of two lumps with a thick smooth cap of snow on its flat top, the snow draping a little over the edges, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Rock: speckled grey granite (#8C8A82) with cool blue-grey shadows (#62666A). Snow cap: soft warm white (#EDEEEA) with pale blue-grey shading (#C5CDD2), matte, not glowing. A little yellow-green lichen at the foot (#8A8E55). No text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75a-fe6b-74a8-8bbb-4d97ba90e775",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1656477057,
+        "prompt": "Snow-capped granite boulder: one fused rounded rock mass of two lumps with a thick smooth cap of snow on its flat top, the snow draping a little over the edges, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319462587,
+        "progress": 100,
+        "started_at": 1790319462593,
+        "finished_at": 1790319470790,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75a-fe6b-74a8-8bbb-4d97ba90e775/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75a-fe6b-74a8-8bbb-4d97ba90e775/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:57:51.617855+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d765-0419-7580-913c-f6b4160b653f",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1656477057,
+        "prompt": "Snow-capped granite boulder: one fused rounded rock mass of two lumps with a thick smooth cap of snow on its flat top, the snow draping a little over the edges, wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 1 m wide and 0.9 m tall. Isolated, no ground, no base plate, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Rock: speckled grey granite (#8C8A82) with cool blue-grey shadows (#62666A). Snow cap: soft warm white (#EDEEEA) with pale blue-grey shading (#C5CDD2), matte, not glowing. A little yellow-green lichen at the foot (#8A8E55). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320118222,
+        "progress": 100,
+        "started_at": 1790320118228,
+        "finished_at": 1790320167479,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-0419-7580-913c-f6b4160b653f/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-0419-7580-913c-f6b4160b653f/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-0419-7580-913c-f6b4160b653f/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-0419-7580-913c-f6b4160b653f/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-0419-7580-913c-f6b4160b653f/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d765-0419-7580-913c-f6b4160b653f/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:09:29.654005+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 92963,
+      "sha256": "d37020c5d313623e098c35f47855a19efdadcc9bee70f02ff4badcb8abe58972"
+    },
+    "model_glb": {
+      "file": "highland_snow_boulder_model.glb",
+      "bytes": 3881156,
+      "sha256": "a16ed3fc47e2fb236d77be78010895ddc59741c4a883180cb76efef870898fec"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 134521,
+      "sha256": "f30afb58cda1430f4551ad47ead053819e42ec44c3390a9520719c2e90943c85"
+    },
+    "texture_base_color": {
+      "file": "highland_snow_boulder_base_color.png",
+      "bytes": 3404105,
+      "sha256": "fbcf26dbe08fffe0fa898b125d39e01d7b5862e954214c14f680e3f2247821bd"
+    },
+    "texture_metallic": {
+      "file": "highland_snow_boulder_metallic.png",
+      "bytes": 18377,
+      "sha256": "9a05f4ad0dc1046e3731bf19b9c883b9bc0bc514192d02747cb7f205566bb84f"
+    },
+    "texture_roughness": {
+      "file": "highland_snow_boulder_roughness.png",
+      "bytes": 1156136,
+      "sha256": "1385087b1a6b4091efb97cd756728389d3af27acd9a98307fd551d75bfa0e552"
+    },
+    "texture_normal": {
+      "file": "highland_snow_boulder_normal.png",
+      "bytes": 2622710,
+      "sha256": "87e432beab4b9b63a42cbbf46aab4d01a71c4ea9ae869cd3b6e72a3546ee00c3"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 609,
+    "lod0": 399,
+    "lod1": 159,
+    "fittedMetres": [
+      1.0,
+      1.0,
+      0.709
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

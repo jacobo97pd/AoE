@@ -1,0 +1,9 @@
+Passed: True
+Scenario: ArtReview
+BuildGuid: d1b7b1cbc28740e994945476895e1295
+Resolution: 1440x1080
+LodInstances: 16
+UniqueLodMeshes: 22
+SharedArtMaterials: 1
+CaptureHasPixels: True
+Method: Explicit staged gallery, both Aven teams and eleven model identities; not a starting economy or frame-rate measurement.

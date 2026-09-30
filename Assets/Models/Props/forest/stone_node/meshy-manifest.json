@@ -1,0 +1,130 @@
+{
+  "id": "stone_node",
+  "entry": {
+    "id": "stone_node",
+    "role": "resource",
+    "kind": "Stone",
+    "lod0": 1000,
+    "lod1": 250,
+    "height": 1.3,
+    "footprint": 2,
+    "size": 512,
+    "biome": "forest",
+    "priority": 1,
+    "prompt": "Broad quarry outcrop: one large pale boulder mass with a stepped cut face and three squared stone blocks split from it fused at its side, low and wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 2 m wide and 1.3 m tall. Isolated, no ground, no tools, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Weathered rock: grey-beige (#B7B3A2) with cool grey-teal shadows (#8C938E). Fresh cut faces and squared blocks: pale cream stone (#D8D2BE), clearly lighter, matching the pale stone bases of the kingdom buildings. No moss, no ore, no text or logos.",
+    "polycount": 1500
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d409-d531-775b-a8ed-d3b196f926a4",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2996029609,
+        "prompt": "Broad quarry outcrop: one large pale boulder mass with a stepped cut face and three squared stone blocks split from it fused at its side, low and wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 2 m wide and 1.3 m tall. Isolated, no ground, no tools, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263810990,
+        "progress": 100,
+        "started_at": 1790263810997,
+        "finished_at": 1790263819457,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-d531-775b-a8ed-d3b196f926a4/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d409-d531-775b-a8ed-d3b196f926a4/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:30:19.957811+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d40a-0181-75e7-a55e-4edf0b65a4c5",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 2996029609,
+        "prompt": "Broad quarry outcrop: one large pale boulder mass with a stepped cut face and three squared stone blocks split from it fused at its side, low and wider than tall. Low-poly game asset for a top-down strategy game, stylized painted realism. Chunky faceted planes, hard edges, flat faces, solid closed volume. About 2 m wide and 1.3 m tall. Isolated, no ground, no tools, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Weathered rock: grey-beige (#B7B3A2) with cool grey-teal shadows (#8C938E). Fresh cut faces and squared blocks: pale cream stone (#D8D2BE), clearly lighter, matching the pale stone bases of the kingdom buildings. No moss, no ore, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263823371,
+        "progress": 100,
+        "started_at": 1790263823381,
+        "finished_at": 1790263869041,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d40a-0181-75e7-a55e-4edf0b65a4c5/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d40a-0181-75e7-a55e-4edf0b65a4c5/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d40a-0181-75e7-a55e-4edf0b65a4c5/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d40a-0181-75e7-a55e-4edf0b65a4c5/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d40a-0181-75e7-a55e-4edf0b65a4c5/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d40a-0181-75e7-a55e-4edf0b65a4c5/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:31:14.793098+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 108965,
+      "sha256": "440b91a7f3d52986aba882d4fdc760b4d7e6f526ddfd58c837c81fe88b45aac4"
+    },
+    "model_glb": {
+      "file": "stone_node_model.glb",
+      "bytes": 4948496,
+      "sha256": "6cefbdf3a7c91f6fdad3e83336d7da49409ab697d7795d553b3d14b7d18cce91"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 133935,
+      "sha256": "8c57cb5721860ea48aa5b0e2178162ce800d3fd9f5842681c89ed4c5f14476da"
+    },
+    "texture_base_color": {
+      "file": "stone_node_base_color.png",
+      "bytes": 4496404,
+      "sha256": "85572deb51d95932449a5dc7a0e92437e9d82ae52963ebc0a2f1210880d1f55e"
+    },
+    "texture_metallic": {
+      "file": "stone_node_metallic.png",
+      "bytes": 18426,
+      "sha256": "c4c5cc8dc52796b4945131c3aae9d66ebce2b0faeca2fefbf6d9652c1e282b57"
+    },
+    "texture_roughness": {
+      "file": "stone_node_roughness.png",
+      "bytes": 1427593,
+      "sha256": "70f398f30b3f45bc2035c4acfd5a73a593deb5c7985b9ce09f05da2c71503f88"
+    },
+    "texture_normal": {
+      "file": "stone_node_normal.png",
+      "bytes": 3497530,
+      "sha256": "82361cfff534e7a1fc6bdf87788f16da7901064d80f83e6b2e0fd6b0f0addaec"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 1592,
+    "lod0": 1000,
+    "lod1": 250,
+    "fittedMetres": [
+      1.834,
+      1.594,
+      1.3
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

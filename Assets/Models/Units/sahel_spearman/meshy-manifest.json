@@ -1,0 +1,299 @@
+{
+  "id": "sahel_spearman",
+  "entry": {
+    "id": "sahel_spearman",
+    "name": "Lancero del Sahel",
+    "culture": "sahel",
+    "factions": [
+      "sahel"
+    ],
+    "unit": "reedguard",
+    "role": "spear",
+    "sheet": "Assets/Models/Units/sahel_spearman/concept.png",
+    "height": 1.9,
+    "gameHeight": 2.38,
+    "teamHues": [
+      [
+        208,
+        252
+      ]
+    ],
+    "teamSaturation": 0.22,
+    "concept": {
+      "references": [
+        "sahel_worker"
+      ],
+      "prompt": "Same style, people and cream-and-indigo cloth as this farmer: a dignified royal guard spearman, thick quilted cream cotton war-coat with indigo-blue panels, indigo-wrapped padded cap, sandals, long iron spear and tall oval pale hide shield on his back. No flags or symbols."
+    }
+  },
+  "steps": {
+    "model": {
+      "task": {
+        "id": "01a0e3ac-01a9-7059-92c2-13e273f146b8",
+        "type": "image-to-3d",
+        "name": "",
+        "art_style": "",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526097159,
+        "progress": 100,
+        "started_at": 1790526097166,
+        "finished_at": 1790526158855,
+        "expires_at": 1790785358855,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-01a9-7059-92c2-13e273f146b8/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-01a9-7059-92c2-13e273f146b8/output/model.glb",
+          "fbx": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-01a9-7059-92c2-13e273f146b8/output/model.fbx"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-01a9-7059-92c2-13e273f146b8/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-01a9-7059-92c2-13e273f146b8/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-01a9-7059-92c2-13e273f146b8/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-01a9-7059-92c2-13e273f146b8/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ac-01a9-7059-92c2-13e273f146b8/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 955,
+      "finished_utc": "2026-09-27T16:22:48.927001+00:00"
+    },
+    "rig": {
+      "task": {
+        "id": "01a0e3ad-22ce-73a7-a44e-1c936ed75bea",
+        "type": "rig",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526172893,
+        "progress": 100,
+        "started_at": 1790526172900,
+        "finished_at": 1790526213101,
+        "expires_at": 1790785413101,
+        "task_error": null,
+        "result": {
+          "rigged_character_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-22ce-73a7-a44e-1c936ed75bea/output/Character_output.fbx",
+          "rigged_character_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-22ce-73a7-a44e-1c936ed75bea/output/Character_output.glb",
+          "basic_animations": {
+            "walking_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-22ce-73a7-a44e-1c936ed75bea/output/Animation_Walking_withSkin.glb",
+            "walking_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-22ce-73a7-a44e-1c936ed75bea/output/Animation_Walking_withSkin.fbx",
+            "walking_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-22ce-73a7-a44e-1c936ed75bea/output/Animation_Walking_withSkin_armature.glb",
+            "running_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-22ce-73a7-a44e-1c936ed75bea/output/Animation_Running_withSkin.glb",
+            "running_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-22ce-73a7-a44e-1c936ed75bea/output/Animation_Running_withSkin.fbx",
+            "running_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-22ce-73a7-a44e-1c936ed75bea/output/Animation_Running_withSkin_armature.glb"
+          }
+        },
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 938,
+      "finished_utc": "2026-09-27T16:23:40.056900+00:00"
+    },
+    "animations": {
+      "task": {
+        "id": "01a0e3ad-ea86-74f0-a1a7-4a8651fe8298",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526221245,
+        "progress": 100,
+        "started_at": 1790526221252,
+        "finished_at": 1790526246100,
+        "expires_at": 1790785446100,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-ea86-74f0-a1a7-4a8651fe8298/output/merged_animations.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ad-ea86-74f0-a1a7-4a8651fe8298/output/merged_animations.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 12
+      },
+      "credits": 12,
+      "balance_after": 926,
+      "finished_utc": "2026-09-27T16:24:09.438844+00:00"
+    },
+    "climb": {
+      "task": {
+        "id": "01a0e3ae-73ae-724f-81a0-10de0eab77fb",
+        "type": "animate",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790526256290,
+        "progress": 100,
+        "started_at": 1790526256296,
+        "finished_at": 1790526263239,
+        "expires_at": 1790785463239,
+        "task_error": null,
+        "result": {
+          "animation_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-73ae-724f-81a0-10de0eab77fb/output/Animation_Ladder_Climb_Loop_withSkin.glb",
+          "animation_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3ae-73ae-724f-81a0-10de0eab77fb/output/Animation_Ladder_Climb_Loop_withSkin.fbx",
+          "processed_usdz_url": "",
+          "processed_armature_fbx_url": "",
+          "processed_animation_fps_fbx_url": ""
+        },
+        "consumed_credits": 3
+      },
+      "credits": 3,
+      "balance_after": 920,
+      "finished_utc": "2026-09-27T16:24:26.758267+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sahel_spearman_model.glb",
+      "bytes": 7502040,
+      "sha256": "5173ab0ec208f28e66d1884c2bdc3e1af9b773cece613b6d589ad261ffd6c8ae"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 95862,
+      "sha256": "9ac59dbde703bca2aa7ea93bfda1da98a33e3af91a346b0f3258bdcf2fe28269"
+    },
+    "texture_base_color": {
+      "file": "sahel_spearman_base_color.png",
+      "bytes": 6002948,
+      "sha256": "7b3e09c063facb9067563eaeb3236114795d8bbc7274248d3c3189de372b5e58"
+    },
+    "texture_metallic": {
+      "file": "sahel_spearman_metallic.png",
+      "bytes": 61005,
+      "sha256": "bac021fd6b9222ff1a25f69f57da8c173bb930491b49c356fac16dac6258f748"
+    },
+    "texture_roughness": {
+      "file": "sahel_spearman_roughness.png",
+      "bytes": 1298843,
+      "sha256": "e791883162c49098eaade503906329328e0f82fca556b31721796d897c1a5f80"
+    },
+    "texture_normal": {
+      "file": "sahel_spearman_normal.png",
+      "bytes": 5024884,
+      "sha256": "2aaae85c118ba9aad10fa0f75aad12cea1d574bc1240ccbb80e853344f5e1a6a"
+    },
+    "rigged_character_fbx": {
+      "file": "sahel_spearman_rigged_character.fbx",
+      "bytes": 6455612,
+      "sha256": "d085998b96bfd7500c495929c9d7b536951220ec0f7fdcd581fa8034aa9268bf"
+    },
+    "rigged_character_glb": {
+      "file": "sahel_spearman_rigged_character.glb",
+      "bytes": 6259388,
+      "sha256": "450f1567cc0615feb02461c7cd99e65c10f365c20d12d53a4398cd149925c3ac"
+    },
+    "walking_glb": {
+      "file": "sahel_spearman_walking.glb",
+      "bytes": 6272160,
+      "sha256": "1e084825bdcf32d586e5cea18bfe46d756ea727ac00c05bed1abd6197a8141e6"
+    },
+    "walking_fbx": {
+      "file": "sahel_spearman_walking.fbx",
+      "bytes": 6479996,
+      "sha256": "6fff1b3a0b5a5ca5a0c938c8e8028d3b8987495bc319a1066bdf515d2bfe8211"
+    },
+    "walking_armature_glb": {
+      "file": "sahel_spearman_walking_armature.glb",
+      "bytes": 65300,
+      "sha256": "77880172c4a709e652645aa127e6932b0bff8aabd80e6a87b17f020f85efa3bd"
+    },
+    "running_glb": {
+      "file": "sahel_spearman_running.glb",
+      "bytes": 6267556,
+      "sha256": "10e5a3c6f6c8737fd9065eceddc348b10153400465fe03046a4ed6073e1744d0"
+    },
+    "running_fbx": {
+      "file": "sahel_spearman_running.fbx",
+      "bytes": 6471596,
+      "sha256": "2484ff1de4f325b91c6e81b0805b01ea212bf516038b3ed6a2063ba558d9fedd"
+    },
+    "running_armature_glb": {
+      "file": "sahel_spearman_running_armature.glb",
+      "bytes": 60692,
+      "sha256": "ef1a09f89bed0307ecaf327644e5bb3227871cca0cdd0363b5a00ad6bc193b00"
+    },
+    "animation_glb": {
+      "file": "sahel_spearman_animation.glb",
+      "bytes": 6443968,
+      "sha256": "5bee2a383c773d5eb1f162f323b744771f413b534395ba59e40f2ad47d011fd3"
+    },
+    "animation_fbx": {
+      "file": "sahel_spearman_animation.fbx",
+      "bytes": 7012044,
+      "sha256": "b779fe1931917d5aa5efde0324c21926c863c5d518ec8b80b38a972afd2f043b"
+    },
+    "climb_glb": {
+      "file": "sahel_spearman_climb.glb",
+      "bytes": 6278744,
+      "sha256": "55d2005e7cd82fc7c67f2a9280582b33b467e08beb33221282f7e377c3cba2e4"
+    },
+    "climb_fbx": {
+      "file": "sahel_spearman_climb.fbx",
+      "bytes": 6491324,
+      "sha256": "4fe33df0b2f229a6f4a34bff185890704434d8bfe6756567e901951dd118b9b5"
+    }
+  },
+  "credits": 35,
+  "clips": [
+    {
+      "state": "Idle",
+      "action_id": 0
+    },
+    {
+      "state": "Attack",
+      "action_id": 240
+    },
+    {
+      "state": "Hit",
+      "action_id": 178
+    },
+    {
+      "state": "Death",
+      "action_id": 8
+    },
+    {
+      "state": "Climb",
+      "action_id": 438,
+      "step": "climb"
+    }
+  ],
+  "finish": {
+    "states": [
+      "Attack",
+      "Climb",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 4132,
+    "bones": 24,
+    "walkMetresPerSecond": 1.299,
+    "runMetresPerSecond": 3.23,
+    "climbMetresPerSecond": 0.384,
+    "heightMetres": 2.068,
+    "rigidParts": [
+      {
+        "vertices": 166,
+        "extent": 0.85
+      },
+      {
+        "vertices": 300,
+        "extent": 0.51
+      },
+      {
+        "clearedBelow": 0.5,
+        "vertices": 402
+      }
+    ],
+    "teamMaskCoverage": 0.1215
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "forest_pine_a",
+  "entry": {
+    "id": "forest_pine_a",
+    "role": "obstacle",
+    "kind": "thicket",
+    "lod0": 400,
+    "lod1": 0,
+    "height": 3.4,
+    "footprint": 1.3,
+    "size": 512,
+    "biome": "forest",
+    "priority": 1,
+    "prompt": "Tall conical fir: a straight trunk showing only at the foot, three stacked chunky cone tiers narrowing to a point, the lowest tier widest. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no needles, no thin branches, hard edges, flat faces. One tree about 3.5 m tall. Isolated, no ground, no base plate, no snow, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Cone tiers: dark blue-green (#2F5A3E) with lighter tier rims (#4F7A4F). Trunk: dark brown bark (#4E3B2A). Slightly desaturated to match grey-teal slate roofs and to read darker than harvestable trees. No snow, no cones, no text or logos.",
+    "polycount": 1000
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d407-a72b-7675-a0db-55c9f8fbac19",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 499044719,
+        "prompt": "Tall conical fir: a straight trunk showing only at the foot, three stacked chunky cone tiers narrowing to a point, the lowest tier widest. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no needles, no thin branches, hard edges, flat faces. One tree about 3.5 m tall. Isolated, no ground, no base plate, no snow, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263668180,
+        "progress": 100,
+        "started_at": 1790263668188,
+        "finished_at": 1790263676401,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d407-a72b-7675-a0db-55c9f8fbac19/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d407-a72b-7675-a0db-55c9f8fbac19/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T15:27:57.151138+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d407-d3f2-7253-a6c7-1dc21073a9ed",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 499044719,
+        "prompt": "Tall conical fir: a straight trunk showing only at the foot, three stacked chunky cone tiers narrowing to a point, the lowest tier widest. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no needles, no thin branches, hard edges, flat faces. One tree about 3.5 m tall. Isolated, no ground, no base plate, no snow, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Cone tiers: dark blue-green (#2F5A3E) with lighter tier rims (#4F7A4F). Trunk: dark brown bark (#4E3B2A). Slightly desaturated to match grey-teal slate roofs and to read darker than harvestable trees. No snow, no cones, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790263679726,
+        "progress": 100,
+        "started_at": 1790263679734,
+        "finished_at": 1790263714380,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d407-d3f2-7253-a6c7-1dc21073a9ed/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d407-d3f2-7253-a6c7-1dc21073a9ed/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d407-d3f2-7253-a6c7-1dc21073a9ed/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d407-d3f2-7253-a6c7-1dc21073a9ed/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d407-d3f2-7253-a6c7-1dc21073a9ed/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d407-d3f2-7253-a6c7-1dc21073a9ed/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T15:28:42.627695+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 90209,
+      "sha256": "b6809ae0160c3620670010922b94b55e069bbe5289375e50ed1a7305e187986a"
+    },
+    "model_glb": {
+      "file": "forest_pine_a_model.glb",
+      "bytes": 5753900,
+      "sha256": "e5fcaa103507b6adcdc74b6d84500037771e334e3be66e1c8e1799535bd42b14"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 94639,
+      "sha256": "1f94205a44f5541b9176258a3d4368a95925e245413c55657bcd6022f0c04240"
+    },
+    "texture_base_color": {
+      "file": "forest_pine_a_base_color.png",
+      "bytes": 4484905,
+      "sha256": "a24469dc9589ce16557262dcd8e551fb1be2df939cf4c4e5876e10c8b3d90851"
+    },
+    "texture_metallic": {
+      "file": "forest_pine_a_metallic.png",
+      "bytes": 33856,
+      "sha256": "70fa73c05b2b7fc38638055c7caf4db1071f83270502d4885df51ce7f1435285"
+    },
+    "texture_roughness": {
+      "file": "forest_pine_a_roughness.png",
+      "bytes": 1152906,
+      "sha256": "0156a96c34508f93ea49a29d39928bc3db75713cceaf61d28b5d7c470319ba3d"
+    },
+    "texture_normal": {
+      "file": "forest_pine_a_normal.png",
+      "bytes": 3672135,
+      "sha256": "11608fbdd5da9f7816de4442452dd6dd9afe0712fbf4dc841a5b5531b89e29c1"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 595,
+    "lod0": 399,
+    "lod1": 160,
+    "lod1Shell": true,
+    "fittedMetres": [
+      1.3,
+      1.284,
+      3.295
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "highland_larch",
+  "entry": {
+    "id": "highland_larch",
+    "role": "obstacle",
+    "kind": "thicket",
+    "lod0": 400,
+    "lod1": 160,
+    "farShell": true,
+    "height": 3.5,
+    "footprint": 1.6,
+    "size": 512,
+    "biome": "highland",
+    "priority": 6,
+    "polycount": 1000,
+    "fit": "box",
+    "prompt": "Wind-bent mountain larch: a stout trunk leaning slightly, four flat layered tiers of chunky foliage pads swept to one side by the wind, the top tier smallest, crown taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no needles, no thin branches, hard edges, flat faces. One tree about 3.5 m tall. Isolated, no ground, no base plate, no snow, no text.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Foliage pads: dark cool pine green (#35573F) with lighter sunlit pad tops (#5E8058) and a faint warm ochre tinge at the tips (#8A8A4E). Trunk: weathered grey-brown bark (#6A5646) with pale silver wind-worn patches (#9E968A). Muted and cool to sit beside grey fieldstone and turf roofs. No snow, no cones, no text or logos."
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d75a-851f-7582-a49b-8c0c68a50c79",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 349322385,
+        "prompt": "Wind-bent mountain larch: a stout trunk leaning slightly, four flat layered tiers of chunky foliage pads swept to one side by the wind, the top tier smallest, crown taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no needles, no thin branches, hard edges, flat faces. One tree about 3.5 m tall. Isolated, no ground, no base plate, no snow, no text.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790319430445,
+        "progress": 100,
+        "started_at": 1790319430450,
+        "finished_at": 1790319438302,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75a-851f-7582-a49b-8c0c68a50c79/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d75a-851f-7582-a49b-8c0c68a50c79/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-25T06:57:19.457834+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d763-7cf8-722e-86a6-c57be7f57579",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 349322385,
+        "prompt": "Wind-bent mountain larch: a stout trunk leaning slightly, four flat layered tiers of chunky foliage pads swept to one side by the wind, the top tier smallest, crown taller than wide. Low-poly game asset for a top-down strategy game, stylized painted realism that reads from above. Solid closed volumes, no needles, no thin branches, hard edges, flat faces. One tree about 3.5 m tall. Isolated, no ground, no base plate, no snow, no text.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Foliage pads: dark cool pine green (#35573F) with lighter sunlit pad tops (#5E8058) and a faint warm ochre tinge at the tips (#8A8A4E). Trunk: weathered grey-brown bark (#6A5646) with pale silver wind-worn patches (#9E968A). Muted and cool to sit beside grey fieldstone and turf roofs. No snow, no cones, no text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790320019621,
+        "progress": 100,
+        "started_at": 1790320019628,
+        "finished_at": 1790320054132,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d763-7cf8-722e-86a6-c57be7f57579/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d763-7cf8-722e-86a6-c57be7f57579/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d763-7cf8-722e-86a6-c57be7f57579/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d763-7cf8-722e-86a6-c57be7f57579/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d763-7cf8-722e-86a6-c57be7f57579/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d763-7cf8-722e-86a6-c57be7f57579/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-25T07:07:42.539445+00:00"
+    }
+  },
+  "files": {
+    "preview_thumbnail": {
+      "file": "preview.png",
+      "bytes": 90686,
+      "sha256": "6e452e6006cd05ba763d0ad834f2d95bcaf64f3bde907cd48bf2e2e8dbb4f871"
+    },
+    "model_glb": {
+      "file": "highland_larch_model.glb",
+      "bytes": 5155756,
+      "sha256": "0a4af18682b54b0d4885e9553800b5b833b84521597514fed4f8f12475d5f83a"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 98094,
+      "sha256": "04e15833889395d5eed239a2e7d7feaeb75a929743e63ad8bc8bcaafeb50515c"
+    },
+    "texture_base_color": {
+      "file": "highland_larch_base_color.png",
+      "bytes": 4371883,
+      "sha256": "496d5cc50ecbbd61b233cb8cbcbde14cbdf316b2427cdbc47f038f0afe6edf31"
+    },
+    "texture_metallic": {
+      "file": "highland_larch_metallic.png",
+      "bytes": 29591,
+      "sha256": "49b07070712205c89d075b107af1e0c6f17cc704d75a57e6d53c332e021e2304"
+    },
+    "texture_roughness": {
+      "file": "highland_larch_roughness.png",
+      "bytes": 1170777,
+      "sha256": "bb07482278ada3cb140e8395445ba014983318b636efa1c510d533a3f79fafd0"
+    },
+    "texture_normal": {
+      "file": "highland_larch_normal.png",
+      "bytes": 3298583,
+      "sha256": "19fd0541bd61967dff7c66dc9008d60b18964f0f6c6007a3e086f7f158f59b8c"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 763,
+    "lod0": 399,
+    "lod1": 160,
+    "fittedMetres": [
+      1.513,
+      1.6,
+      3.5
+    ],
+    "teamMaskCoverage": 0.0
+  }
+}

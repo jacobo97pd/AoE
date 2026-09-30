@@ -1,0 +1,25 @@
+Passed: True
+Scenario: Offline
+Unity: 6000.3.23f1
+BuildGuid: d1b7b1cbc28740e994945476895e1295
+Resolution: 1440x1080
+Faction: aven
+Mode: Conquest
+Winner: 1
+Reason: Conquest
+Tick: 8396
+SimulatedSeconds: 419.8
+InitialEnemyHidden: True
+LocalGatherOrders: 66
+LocalBuildings: 15
+LocalQueuedUnits: 45
+RivalGatherOrders: 61
+PeakUnits: 71
+YieldedFrames: 84
+VisibleButtonDispatchesBeforeRestart: 2
+NaturalResult: True
+FinishedStateFrozen: True
+ScriptedLocalAi: True
+TicksAccelerated: True
+Failure:
+RestartFresh: True

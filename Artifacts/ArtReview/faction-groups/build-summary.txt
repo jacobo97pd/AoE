@@ -1,0 +1,6 @@
+Result: Succeeded
+Errors: 0
+Warnings: 0
+Size: 819968315
+Duration: 00:01:22.6674260
+Output: D:/EmberfieldWorkingCache/AoE/FactionGroupsSourceFreeze/Builds/Windows/Emberfield.exe

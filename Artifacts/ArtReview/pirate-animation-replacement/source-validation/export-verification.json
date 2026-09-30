@@ -1,0 +1,144 @@
+{
+  "bones": 35,
+  "clips": [
+    {
+      "name": "Corsair_Attack",
+      "frames": [
+        1.0,
+        25.0
+      ],
+      "seconds": 1.0,
+      "sameTiming": true,
+      "poseSamples": [
+        {
+          "frame": 1,
+          "maximumCoordinateError": 1.1920928955078125e-06
+        },
+        {
+          "frame": 13,
+          "maximumCoordinateError": 9.5367431640625e-07
+        },
+        {
+          "frame": 25,
+          "maximumCoordinateError": 1.1920928955078125e-06
+        }
+      ]
+    },
+    {
+      "name": "Corsair_Death",
+      "frames": [
+        1.0,
+        84.0
+      ],
+      "seconds": 3.4583333333333335,
+      "sameTiming": true,
+      "poseSamples": [
+        {
+          "frame": 1,
+          "maximumCoordinateError": 9.834766387939453e-07
+        },
+        {
+          "frame": 42,
+          "maximumCoordinateError": 2.905726432800293e-06
+        },
+        {
+          "frame": 84,
+          "maximumCoordinateError": 2.86102294921875e-06
+        }
+      ]
+    },
+    {
+      "name": "Corsair_Hit",
+      "frames": [
+        1.0,
+        13.0
+      ],
+      "seconds": 0.5,
+      "sameTiming": true,
+      "poseSamples": [
+        {
+          "frame": 1,
+          "maximumCoordinateError": 1.1920928955078125e-06
+        },
+        {
+          "frame": 7,
+          "maximumCoordinateError": 1.1324882507324219e-06
+        },
+        {
+          "frame": 13,
+          "maximumCoordinateError": 1.1920928955078125e-06
+        }
+      ]
+    },
+    {
+      "name": "Corsair_Idle",
+      "frames": [
+        1.0,
+        73.0
+      ],
+      "seconds": 3.0,
+      "sameTiming": true,
+      "poseSamples": [
+        {
+          "frame": 1,
+          "maximumCoordinateError": 1.3113021850585938e-06
+        },
+        {
+          "frame": 37,
+          "maximumCoordinateError": 1.3113021850585938e-06
+        },
+        {
+          "frame": 73,
+          "maximumCoordinateError": 1.3113021850585938e-06
+        }
+      ]
+    },
+    {
+      "name": "Corsair_Run",
+      "frames": [
+        1.0,
+        16.0
+      ],
+      "seconds": 0.625,
+      "sameTiming": true,
+      "poseSamples": [
+        {
+          "frame": 1,
+          "maximumCoordinateError": 1.8551945686340332e-06
+        },
+        {
+          "frame": 8,
+          "maximumCoordinateError": 2.034008502960205e-06
+        },
+        {
+          "frame": 16,
+          "maximumCoordinateError": 1.9669532775878906e-06
+        }
+      ]
+    },
+    {
+      "name": "Corsair_Walk",
+      "frames": [
+        1.0,
+        25.0
+      ],
+      "seconds": 1.0,
+      "sameTiming": true,
+      "poseSamples": [
+        {
+          "frame": 1,
+          "maximumCoordinateError": 1.430511474609375e-06
+        },
+        {
+          "frame": 13,
+          "maximumCoordinateError": 1.7881393432617188e-06
+        },
+        {
+          "frame": 25,
+          "maximumCoordinateError": 1.430511474609375e-06
+        }
+      ]
+    }
+  ],
+  "maxCoordinateError": 2.905726432800293e-06
+}

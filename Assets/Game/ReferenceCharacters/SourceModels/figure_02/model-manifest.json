@@ -1,0 +1,112 @@
+{
+    "id": "figure_02",
+    "name": "Capitán pirata",
+    "family": "pirate",
+    "role": "hero",
+    "suggestedFaction": "pirate",
+    "realm": "naval",
+    "modelPath": "figure_02/figure_02.fbx",
+    "sourceBlendPath": "Artifacts/ArtReview/reference-characters/figure_02/figure_02.blend",
+    "heightMetres": 2.500328097259626,
+    "boundsMin": [
+        -0.8829795718193054,
+        -0.8997046947479248,
+        -0.0004999970551580191
+    ],
+    "boundsMax": [
+        0.5973445177078247,
+        0.642568826675415,
+        2.4998281002044678
+    ],
+    "locomotion": {
+        "walkMetresPerSecond": 1.7,
+        "runMetresPerSecond": 3.4
+    },
+    "clips": [
+        {
+            "name": "Corsair_Attack",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 28.0
+        },
+        {
+            "name": "Corsair_Death",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 49.0
+        },
+        {
+            "name": "Corsair_Hit",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 16.0
+        },
+        {
+            "name": "Corsair_Idle",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 91.0
+        },
+        {
+            "name": "Corsair_Run",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 21.0
+        },
+        {
+            "name": "Corsair_Walk",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 33.0
+        },
+        {
+            "name": "Idle",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 91.0
+        },
+        {
+            "name": "Run",
+            "loop": true,
+            "firstFrame": 1.0,
+            "lastFrame": 21.0
+        },
+        {
+            "name": "Fall",
+            "loop": false,
+            "firstFrame": 1.0,
+            "lastFrame": 49.0
+        }
+    ],
+    "materials": [
+        {
+            "name": "Corsair_Surface",
+            "baseColor": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "metallic": 1,
+            "smoothness": 1,
+            "baseMap": "Assets/Game/ReferenceCharacters/SourceModels/figure_02/Textures/BaseColor.png",
+            "normalMap": "Assets/Game/ReferenceCharacters/SourceModels/figure_02/Textures/Normal.png",
+            "metallicGlossMap": "Assets/Game/ReferenceCharacters/SourceModels/figure_02/Textures/MetallicSmoothness.png",
+            "normalScale": 1,
+            "tiling": [
+                1,
+                1
+            ]
+        }
+    ],
+    "triangles": 140000,
+    "lodTriangles": [
+        140000,
+        45000,
+        12000
+    ],
+    "bones": 27,
+    "referenceImage": "pirata2.png",
+    "fbxSha256": "de22ef7a7a03430f4385bb7f602f5d43270fd67cdfeb6ad7d293b9cf89a9890e",
+    "interpretationNotes": "Reuses the supplied Meshy pirate and its existing project rig, textures, mesh LODs and animations. Geometry was not simplified or replaced. Idle/Run/Fall are aliases of existing actions; this is not a newly reconstructed model from the PNG."
+}

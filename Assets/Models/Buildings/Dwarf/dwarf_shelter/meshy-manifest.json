@@ -1,0 +1,137 @@
+{
+  "id": "dwarf_shelter",
+  "entry": {
+    "id": "dwarf_shelter",
+    "style": "dwarf",
+    "building": "shelter",
+    "footprint": [
+      2,
+      2
+    ],
+    "height": 3.0,
+    "prompt": "Low-poly game asset for a top-down strategy game: a small dwarf home. One small stone hut half sunk into a grassy mound, a round heavy wooden door with iron bands, a squat stone chimney and a small round window."
+  },
+  "style": {
+    "factions": [
+      "drakeforged"
+    ],
+    "suffix": "Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+    "teamHues": [
+      [
+        345,
+        360
+      ],
+      [
+        0,
+        14
+      ]
+    ]
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0d438-a25f-771b-9c5a-28cf8f06cb8b",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 254664296,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small dwarf home. One small stone hut half sunk into a grassy mound, a round heavy wooden door with iron bands, a squat stone chimney and a small round window. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266878939,
+        "progress": 100,
+        "started_at": 1790266878947,
+        "finished_at": 1790266888882,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-a25f-771b-9c5a-28cf8f06cb8b/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-a25f-771b-9c5a-28cf8f06cb8b/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-24T16:21:36.428571+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0d438-f1cf-74b8-9f83-b155edc83cf1",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 254664296,
+        "prompt": "Low-poly game asset for a top-down strategy game: a small dwarf home. One small stone hut half sunk into a grassy mound, a round heavy wooden door with iron bands, a squat stone chimney and a small round window. Massive dark granite blocks, heavy bronze and iron fittings, carved geometric rune bands, squat and solid. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte painted colours, even lighting, no baked shadows. Stone: dark warm granite (#5E5852) with paler carved edges (#8A827A). Metal: burnished bronze (#B07A3A) and dark iron (#3E3E40). Runes: faint warm gold (#C9A04A). Banners and cloth: saturated crimson red (#A0262A), no emblem. Small warm forge glow (#E8903A). No text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790266896888,
+        "progress": 100,
+        "started_at": 1790266896895,
+        "finished_at": 1790266967597,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f1cf-74b8-9f83-b155edc83cf1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f1cf-74b8-9f83-b155edc83cf1/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f1cf-74b8-9f83-b155edc83cf1/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f1cf-74b8-9f83-b155edc83cf1/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f1cf-74b8-9f83-b155edc83cf1/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0d438-f1cf-74b8-9f83-b155edc83cf1/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-24T16:22:53.735495+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "dwarf_shelter_model.glb",
+      "bytes": 5253560,
+      "sha256": "c12c02315df8ea5e47d6059ea9314766c8588c8bf7769e7336df716c191e35ab"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 175479,
+      "sha256": "037ef1be68dc00d403b43d025674d88eaaa4995e1ab6cbcfe672c00a3d331798"
+    },
+    "texture_base_color": {
+      "file": "dwarf_shelter_base_color.png",
+      "bytes": 4461957,
+      "sha256": "694db8c3dd8beb11c62e3dedfa41d8cbb3ba174e2fc07759e9f91ee85a571ba6"
+    },
+    "texture_metallic": {
+      "file": "dwarf_shelter_metallic.png",
+      "bytes": 125730,
+      "sha256": "75b67cc63893f7fdfc0e44cf4c2ad8902fab4452259a310ea71216adb04915f8"
+    },
+    "texture_roughness": {
+      "file": "dwarf_shelter_roughness.png",
+      "bytes": 1428824,
+      "sha256": "c2a629cbe6fdfaa9ea1a0befec346e20184ec569b2a777cb5e25b5b45a9985a4"
+    },
+    "texture_normal": {
+      "file": "dwarf_shelter_normal.png",
+      "bytes": 3117963,
+      "sha256": "bb6341673d681248260aec77c2e93b6911cd2a6de14bd4d52d20d4180dbd3dea"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4822,
+    "triangles": 4822,
+    "fittedMetres": [
+      1.909,
+      1.92,
+      1.373
+    ],
+    "teamMaskCoverage": 0.0275
+  }
+}

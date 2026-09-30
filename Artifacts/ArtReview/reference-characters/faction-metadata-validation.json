@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "scope": "Faction metadata parity and unchanged FBX SHA-256, no Unity execution or new image capture.",
+  "counts": {
+    "historical": 8,
+    "fantasy": 16,
+    "naval": 2
+  },
+  "characters": [
+    {
+      "id": "figure_01",
+      "realm": "naval",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_02",
+      "realm": "naval",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_03",
+      "realm": "historical",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_04",
+      "realm": "historical",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_05",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_06",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_07",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_08",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_09",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_10",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_11",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_12",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_13",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_14",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_15",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_16",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_17",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_18",
+      "realm": "historical",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_19",
+      "realm": "historical",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_20",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_21",
+      "realm": "historical",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_22",
+      "realm": "historical",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_23",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_24",
+      "realm": "historical",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_25",
+      "realm": "historical",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    },
+    {
+      "id": "figure_26",
+      "realm": "fantasy",
+      "metadataConsistent": true,
+      "unchangedModelHash": true
+    }
+  ]
+}

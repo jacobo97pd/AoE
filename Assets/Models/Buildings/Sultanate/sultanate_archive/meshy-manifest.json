@@ -1,0 +1,136 @@
+{
+  "id": "sultanate_archive",
+  "entry": {
+    "id": "sultanate_archive",
+    "style": "sultanate",
+    "building": "archive",
+    "footprint": [
+      3,
+      3
+    ],
+    "height": 3.85,
+    "prompt": "Low-poly game asset for a top-down strategy game: a desert house of scholars. One enclosed rectangular two-storey hall with a flat roof and parapet, a shaded upper gallery of small arches along the front, carved wooden window screens, a square wind-catcher tower at one end and one turquoise cloth banner over the arched door."
+  },
+  "style": {
+    "factions": [
+      "sultanate"
+    ],
+    "suffix": "Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+    "texture": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+    "teamHues": [
+      [
+        175,
+        200
+      ]
+    ],
+    "teamSaturation": 0.3,
+    "teamWeight": 1,
+    "grade": 1.0
+  },
+  "steps": {
+    "preview": {
+      "task": {
+        "id": "01a0e3d1-6686-7300-b756-6e2b27f74f90",
+        "type": "text-to-3d-preview",
+        "mode": "preview",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1580775508,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert house of scholars. One enclosed rectangular two-storey hall with a flat roof and parapet, a shaded upper gallery of small arches along the front, carved wooden window screens, a square wind-catcher tower at one end and one turquoise cloth banner over the arched door. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528548549,
+        "progress": 100,
+        "started_at": 1790528548555,
+        "finished_at": 1790528556530,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-6686-7300-b756-6e2b27f74f90/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-6686-7300-b756-6e2b27f74f90/output/preview.png",
+        "texture_urls": [],
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "finished_utc": "2026-09-27T17:02:37.571223+00:00"
+    },
+    "refine": {
+      "task": {
+        "id": "01a0e3d1-9382-70fc-a4cf-08ef68f01631",
+        "type": "text-to-3d-refine",
+        "mode": "refine",
+        "name": "",
+        "model_type": "smart-topology",
+        "seed": 1580775508,
+        "prompt": "Low-poly game asset for a top-down strategy game: a desert house of scholars. One enclosed rectangular two-storey hall with a flat roof and parapet, a shaded upper gallery of small arches along the front, carved wooden window screens, a square wind-catcher tower at one end and one turquoise cloth banner over the arched door. Whitewashed mudbrick walls on a warm sandstone base, flat roofs with low parapets, horseshoe arches, carved timber screens and beams. Chunky low-poly shapes, hard edges, flat faces. Isolated building, no ground, no text, no characters.",
+        "texture_prompt": "Stylized matte flat colours, even lighting, no baked shadows. Walls: whitewashed render (#EDE4CE). Base, arches and trim: warm sandstone (#C9A876). Timber, screens and beams: weathered mid-brown wood (#8E765F). Domes: pale ochre plaster (#D9C39A). Windows and doorways: dark shadowed brown (#3E352E). Banners and awnings: plain saturated turquoise cloth (#1E8C8C), no emblem. No dirt, text or logos.",
+        "texture_image_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790528557997,
+        "progress": 100,
+        "started_at": 1790528558006,
+        "finished_at": 1790528605140,
+        "task_error": null,
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-9382-70fc-a4cf-08ef68f01631/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-9382-70fc-a4cf-08ef68f01631/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-9382-70fc-a4cf-08ef68f01631/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-9382-70fc-a4cf-08ef68f01631/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-9382-70fc-a4cf-08ef68f01631/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0e3d1-9382-70fc-a4cf-08ef68f01631/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 10
+      },
+      "credits": 10,
+      "finished_utc": "2026-09-27T17:03:29.361501+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "sultanate_archive_model.glb",
+      "bytes": 7160700,
+      "sha256": "1a5c1da366019e4f831c458928373b1853626a6ed0fefe52846b3e8d605d2ccd"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 171894,
+      "sha256": "6e22f8e67ee4803a945a4387cd52f37e439cc3e626749fa0b6b7eb69a5ceca0c"
+    },
+    "texture_base_color": {
+      "file": "sultanate_archive_base_color.png",
+      "bytes": 5843672,
+      "sha256": "f993e221e578074c0a665468c087d8a136000548b3dad70df50837ec5cce0ffd"
+    },
+    "texture_metallic": {
+      "file": "sultanate_archive_metallic.png",
+      "bytes": 22788,
+      "sha256": "a76a222d957176fc16758b99b9c623063c98a20fa2ed9b5f1b3f19f2f3f0559b"
+    },
+    "texture_roughness": {
+      "file": "sultanate_archive_roughness.png",
+      "bytes": 1379000,
+      "sha256": "50053cf5a3e4553f5e502ab80fb914b6f9bff857e46d7c4ea5975827eae6a27a"
+    },
+    "texture_normal": {
+      "file": "sultanate_archive_normal.png",
+      "bytes": 4268960,
+      "sha256": "85c086e51e88c09c66c7ddf8f0fbf16114ebe7aec3e95f5fb212f38ae151967a"
+    }
+  },
+  "credits": 15,
+  "finish": {
+    "sourceTriangles": 4791,
+    "triangles": 4791,
+    "fittedMetres": [
+      2.88,
+      1.789,
+      2.402
+    ],
+    "teamMaskCoverage": 0.0057
+  }
+}
