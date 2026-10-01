@@ -2,9 +2,9 @@ param(
     [Parameter(Mandatory = $true)][string]$SnapshotPath,
     [Parameter(Mandatory = $true)][string]$OutputPath,
     [string]$UnityPath = 'D:\Unity\Editors\6000.3.23f1\Editor\Unity.exe',
-    [string]$BundleId = 'com.emberfield.prototype',
-    [string]$Version = '0.3.0',
-    [int]$BuildNumber = 1,
+    [string]$BundleId = 'com.emberfield.jpedrero',
+    [string]$Version = '0.3.1',
+    [int]$BuildNumber = 2,
     [string]$ServerUrl = '',
     [int]$TimeoutSeconds = 7200
 )

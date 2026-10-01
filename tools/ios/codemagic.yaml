@@ -8,8 +8,8 @@ workflows:
     environment:
       xcode: "26.4"
       vars:
-        BUNDLE_ID: &bundle_id com.emberfield.prototype
-        BUILD_NUMBER_OFFSET: "0"
+        BUNDLE_ID: &bundle_id com.emberfield.jpedrero
+        BUILD_NUMBER_OFFSET: "1"
     scripts:
       - name: Fetch large files and prepare Xcode export
         script: |
@@ -43,7 +43,7 @@ workflows:
         bundle_identifier: *bundle_id
       vars:
         BUNDLE_ID: *bundle_id
-        BUILD_NUMBER_OFFSET: "0"
+        BUILD_NUMBER_OFFSET: "1"
     scripts:
       - name: Fetch large files and prepare Xcode export
         script: |

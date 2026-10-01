@@ -38,13 +38,13 @@ namespace Emberfield.Editor
                 throw new BuildFailedException("EMBERFIELD_IOS_OUTPUT must be an absolute, new or empty Xcode output directory.");
             output = Path.GetFullPath(output);
             if (SamePath(output, Path.GetPathRoot(output))) throw new BuildFailedException("Xcode output cannot be a filesystem root.");
-            bundleId = Default(bundleId, "com.emberfield.prototype");
+            bundleId = Default(bundleId, "com.emberfield.jpedrero");
             if (!Regex.IsMatch(bundleId, @"^[A-Za-z0-9][A-Za-z0-9-]*(\.[A-Za-z0-9][A-Za-z0-9-]*)+$"))
                 throw new BuildFailedException("EMBERFIELD_BUNDLE_ID must be an explicit reverse-domain identifier without wildcards.");
-            buildNumber = Default(buildNumber, "1");
+            buildNumber = Default(buildNumber, "2");
             if (!int.TryParse(buildNumber, NumberStyles.None, CultureInfo.InvariantCulture, out int number) || number < 1)
                 throw new BuildFailedException("EMBERFIELD_IOS_BUILD_NUMBER must be a positive integer; increment it for each TestFlight upload.");
-            version = Default(version, "0.3.0");
+            version = Default(version, "0.3.1");
             if (!Regex.IsMatch(version, @"^[0-9]+\.[0-9]+\.[0-9]+$"))
                 throw new BuildFailedException("EMBERFIELD_IOS_VERSION must contain three numeric components, for example 0.3.0.");
             serverUrl = string.IsNullOrWhiteSpace(serverUrl) ? "" : serverUrl.Trim();

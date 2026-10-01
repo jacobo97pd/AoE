@@ -26,8 +26,8 @@ namespace Emberfield.Tests.Editor
         [Test] public void DefaultsAreUnsignedPrototypeConfigurationWithOfflineEndpointUnchanged()
         {
             var config = IosBuildTools.ParseConfiguration(Path.Combine(temporary, "xcode"), null, null, null, null);
-            Assert.That(config.BundleId, Is.EqualTo("com.emberfield.prototype"));
-            Assert.That(config.BuildNumber, Is.EqualTo("1")); Assert.That(config.Version, Is.EqualTo("0.3.0"));
+            Assert.That(config.BundleId, Is.EqualTo("com.emberfield.jpedrero"));
+            Assert.That(config.BuildNumber, Is.EqualTo("2")); Assert.That(config.Version, Is.EqualTo("0.3.1"));
             Assert.That(config.ServerUrl, Is.Empty);
         }
         [Test] public void ExplicitReleaseConfigurationNormalizesOnlyTheServerOrigin()

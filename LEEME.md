@@ -24,7 +24,8 @@ se hacen en el Mac de Codemagic. El ZIP por sí solo no se instala en un iPhone.
 Necesitas una suscripción Apple Developer activa y acceso a App Store Connect.
 
 1. Registra un Bundle ID propio y crea la ficha de Emberfield en App Store Connect.
-2. Sustituye `com.emberfield.prototype` en `codemagic.yaml` por ese identificador.
+2. El identificador definitivo del proyecto es `com.emberfield.jpedrero`; debe
+   coincidir con el App ID que registres en Apple Developer.
    Está definido una sola vez, con un alias que comparten ambos workflows.
    `scripts/prepare_xcode.py` lo aplica al proyecto durante la compilación.
 3. En las integraciones de tu equipo de Codemagic, configura una clave API de
@@ -39,7 +40,7 @@ Necesitas una suscripción Apple Developer activa y acceso a App Store Connect.
 
 Los números de build son `BUILD_NUMBER + BUILD_NUMBER_OFFSET + 1`. Si el mismo
 Bundle ID ya tiene builds subidos desde otro sistema, aumenta `BUILD_NUMBER_OFFSET`
-en ambos workflows para superar el mayor número existente. La versión es 0.3.0.
+en ambos workflows para superar el mayor número existente. La versión es 0.3.1.
 Los workflows son manuales y utilizan Xcode 26.4, iOS físico ARM64 y Release.
 
 ## Alcance de esta entrega de prueba

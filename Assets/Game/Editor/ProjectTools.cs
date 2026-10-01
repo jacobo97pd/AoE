@@ -40,9 +40,11 @@ namespace Emberfield.Editor
         {
             PlayerSettings.companyName = "Emberfield Project";
             PlayerSettings.productName = "Emberfield";
-            PlayerSettings.bundleVersion = "0.3.0";
-            PlayerSettings.SetApplicationIdentifier(NamedBuildTarget.Android, "com.emberfield.prototype");
-            PlayerSettings.SetApplicationIdentifier(NamedBuildTarget.iOS, "com.emberfield.prototype");
+            PlayerSettings.bundleVersion = "0.3.1";
+            PlayerSettings.SetApplicationIdentifier(NamedBuildTarget.Android, "com.emberfield.jpedrero");
+            PlayerSettings.Android.bundleVersionCode = 2;
+            PlayerSettings.SetApplicationIdentifier(NamedBuildTarget.iOS, "com.emberfield.jpedrero");
+            PlayerSettings.iOS.buildNumber = "2";
             PlayerSettings.defaultInterfaceOrientation = UIOrientation.AutoRotation;
             PlayerSettings.allowedAutorotateToLandscapeLeft = true;
             PlayerSettings.allowedAutorotateToLandscapeRight = true;

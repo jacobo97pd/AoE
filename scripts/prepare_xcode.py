@@ -21,7 +21,7 @@ def prepare(root: Path, environment: dict[str, str]) -> dict:
     plist_path = ios / "Info.plist"
     if not project.is_file() or not plist_path.is_file():
         raise ValueError("Missing Unity Xcode export. Keep ios/ next to codemagic.yaml.")
-    bundle_id = environment.get("BUNDLE_ID", "com.emberfield.prototype")
+    bundle_id = environment.get("BUNDLE_ID", "com.emberfield.jpedrero")
     if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9-]*(?:\.[A-Za-z0-9][A-Za-z0-9-]*)+", bundle_id):
         raise ValueError("BUNDLE_ID must be an Apple bundle identifier, without wildcards.")
     # Codemagic's per-application build number starts at zero; Apple requires a positive value.
@@ -31,7 +31,7 @@ def prepare(root: Path, environment: dict[str, str]) -> dict:
     plist = plistlib.loads(plist_path.read_bytes())
     old_id = plist.get("CFBundleIdentifier", "")
     text = project.read_text(encoding="utf-8")
-    candidates = {"com.emberfield.prototype"}
+    candidates = {"com.emberfield.jpedrero", "com.emberfield.prototype"}
     if old_id and "$" not in old_id:
         candidates.add(old_id)
     summary_path = ios / "emberfield-export-summary.txt"
