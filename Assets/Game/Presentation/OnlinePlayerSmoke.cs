@@ -32,6 +32,7 @@ namespace Emberfield.Presentation
             public string StartingWorkerDefinitionId, TrainedDefinitionId;
             public int TrainingWoodSpent;
             public int DockId, ShipId, PassengerId, DockWoodSpent, ShipWoodSpent, LandingX, LandingZ;
+            public string ShipDefinitionId;
             public bool ShipTrained, ShipSailed, PassengerLanded, NavalAssetsPersisted;
             public bool KingdomResearched, WallRunVerified, TurnedBuildVerified, FortificationsPersisted;
             public bool StoneVisibleBeforeScouting, StoneScouted;

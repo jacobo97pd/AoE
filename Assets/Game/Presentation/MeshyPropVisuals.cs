@@ -144,15 +144,18 @@ namespace Emberfield.Presentation
         }
 
         /// <summary>
-        /// The hull this faction sails for this ship: its culture's own where the roster lists the faction on one (the
-        /// English frigate, the Hispanos' galleon, the orcs' bone ship, the pirates' sloop), else the shared merchant ship
-        /// the coast has always moored.
+        /// The hull this faction sails for this ship. A warship named after its model (the navies' English frigate and
+        /// Spanish galleon) is that model for whoever owns it. Otherwise its culture's own where the roster lists the
+        /// faction on one (the English frigate, the Hispanos' galleon, the orcs' bone ship, the pirates' sloop), else the
+        /// shared merchant ship the coast has always moored.
         /// </summary>
         public static Entry ResolveShip(string unitId, FactionKind faction)
         {
             if (!MeshyUnitVisuals.Enabled) return null;
             string id = MeshyUnitVisuals.FactionId(faction);
             Entry shared = null;
+            foreach (var entry in Entries)
+                if (entry.role == "ship" && entry.id == unitId) return entry;
             foreach (var entry in Entries)
             {
                 if (entry.role != "ship" || entry.kind != unitId) continue;

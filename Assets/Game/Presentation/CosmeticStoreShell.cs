@@ -35,7 +35,7 @@ namespace Emberfield.Presentation
             for (int slot = 0; slot < 6 && catalogPage * 6 + slot < available.Count; slot++)
             {
                 var item = available[catalogPage * 6 + slot]; float x = slot % 2 * .31f, y = .493f - slot / 2 * .181f;
-                var button = Action(content, "Inspect " + item.id, item.displayName + "\n" + (item.slot == "architecture" ? "Architecture collection" : "Army appearance"), () => { cosmeticSelection = item.id; Navigate("store"); }, item.id == cosmeticSelection);
+                var button = Action(content, "Inspect " + item.id, item.displayName + "\n" + (item.slot == "architecture" ? "Architecture collection" : item.slot == CosmeticLoadout.CharacterSlot ? "Character skin" : "Army appearance"), () => { cosmeticSelection = item.id; Navigate("store"); }, item.id == cosmeticSelection);
                 Place((RectTransform)button.transform, new Vector2(x,y), new Vector2(x+.293f,y+.155f));
                 var color = Rect("Collection color", button.transform); Place(color, Vector2.zero, new Vector2(.025f,1)); color.gameObject.AddComponent<Image>().color = CosmeticLoadout.Style(item.styleId).Accent;
             }

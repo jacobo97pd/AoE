@@ -40,7 +40,7 @@ Necesitas una suscripción Apple Developer activa y acceso a App Store Connect.
 
 Los números de build son `BUILD_NUMBER + BUILD_NUMBER_OFFSET + 1`. Si el mismo
 Bundle ID ya tiene builds subidos desde otro sistema, aumenta `BUILD_NUMBER_OFFSET`
-en ambos workflows para superar el mayor número existente. La versión es 0.3.1.
+en ambos workflows para superar el mayor número existente. La versión es 0.3.2.
 Los workflows son manuales y utilizan Xcode 26.4, iOS físico ARM64 y Release.
 
 ## Alcance de esta entrega de prueba

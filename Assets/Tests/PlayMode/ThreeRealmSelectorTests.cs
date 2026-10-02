@@ -45,14 +45,16 @@ namespace Emberfield.Tests.PlayMode
                 }
                 yield return null;
             }
-            Assert.AreEqual("pirates", Selection(match.Shell, "faction"));
+            // The naval roster ends with the Spanish navy; the Skeleton Fleet alone stays locked.
+            Assert.AreEqual("spanish_navy", Selection(match.Shell, "faction"));
             Assert.AreEqual("sapphire_coast", Selection(match.Shell, "mapId"));
             Assert.IsFalse(Find(match.Shell.Root, "Choose map amber_crossing").interactable);
             Assert.IsFalse(Find(match.Shell.Root, "Choose map sunscar_basin").interactable);
+            CollectionAssert.AreEqual(new[] { "skeleton_fleet" }, FrontierCodex.PlannedNavalFactions);
             foreach (string id in FrontierCodex.PlannedNavalFactions)
             {
                 var locked = Find(match.Shell.Root, "Select " + id); Assert.IsFalse(locked.interactable);
-                locked.onClick.Invoke(); Assert.AreEqual("pirates", Selection(match.Shell, "faction"));
+                locked.onClick.Invoke(); Assert.AreEqual("spanish_navy", Selection(match.Shell, "faction"));
                 StringAssert.Contains("faltan", FrontierCodex.Description(id));
             }
             Assert.AreEqual(tick, match.World.TickIndex); Assert.AreEqual(before, JsonUtility.ToJson(match.World.Definition));
@@ -71,9 +73,9 @@ namespace Emberfield.Tests.PlayMode
             Find(panel, "Next faction pair ›").onClick.Invoke();
             Assert.IsTrue(Find(panel, "Choose aven").interactable); Assert.IsTrue(Find(panel, "Choose serevin").interactable);
             Find(panel, "Faction realm naval").onClick.Invoke();
-            Assert.IsTrue(Find(panel, "Choose pirates").interactable); Assert.IsFalse(Find(panel, "Choose english_navy").interactable);
+            Assert.IsTrue(Find(panel, "Choose pirates").interactable); Assert.IsTrue(Find(panel, "Choose english_navy").interactable);
             Find(panel, "Next faction pair ›").onClick.Invoke();
-            Assert.IsFalse(Find(panel, "Choose spanish_navy").interactable); Assert.IsFalse(Find(panel, "Choose skeleton_fleet").interactable);
+            Assert.IsTrue(Find(panel, "Choose spanish_navy").interactable); Assert.IsFalse(Find(panel, "Choose skeleton_fleet").interactable);
             Find(panel, "Next faction pair ›").onClick.Invoke(); Assert.IsTrue(Find(panel, "Choose pirates").interactable);
         }
 
@@ -85,9 +87,11 @@ namespace Emberfield.Tests.PlayMode
             controls.ChooseRealm(); Assert.AreEqual("fantasy", controls.ChosenRealm);
             controls.ChooseRealm(); Assert.AreEqual("naval", controls.ChosenRealm);
             Assert.AreEqual("pirates", controls.ChosenFaction); Assert.AreEqual("sapphire_coast", controls.ChosenMap);
-            for (int i = 0; i < 4; i++) { controls.NextFaction(); controls.ChooseMap(); }
-            Assert.AreEqual("pirates", controls.ChosenFaction); Assert.AreEqual("sapphire_coast", controls.ChosenMap);
-            foreach (string id in new[] { "miraj", "solar", "english_navy", "spanish_navy", "skeleton_fleet" })
+            // The three fleets in turn, always on the coast.
+            foreach (string next in new[] { "english_navy", "spanish_navy", "pirates", "english_navy" })
+            { controls.NextFaction(); controls.ChooseMap(); Assert.AreEqual(next, controls.ChosenFaction); Assert.AreEqual("sapphire_coast", controls.ChosenMap); }
+            controls.ChooseFaction("pirates"); Assert.AreEqual("pirates", controls.ChosenFaction);
+            foreach (string id in new[] { "miraj", "solar", "skeleton_fleet" })
             { controls.ChooseFaction(id); Assert.AreEqual("pirates", controls.ChosenFaction); }
             controls.ChooseRealm(); Assert.AreEqual("historical", controls.ChosenRealm);
             Assert.AreEqual("aven", controls.ChosenFaction);
@@ -144,7 +148,7 @@ namespace Emberfield.Tests.PlayMode
             var fields = Array.ConvertAll(names, name => typeof(MatchController).GetField(name, BindingFlags.Static | BindingFlags.NonPublic));
             var before = Array.ConvertAll(fields, field => field.GetValue(null));
             var scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().handle;
-            foreach (string id in new[] { "miraj", "solar", "english_navy", "spanish_navy", "skeleton_fleet", "unknown", null })
+            foreach (string id in new[] { "miraj", "solar", "skeleton_fleet", "unknown", null })
             {
                 Assert.Throws<ArgumentException>(() => match.StartOfflineMatch(id, VictoryMode.Conquest), id);
                 Assert.Throws<ArgumentException>(() => match.StartFactionDrill(id), id);

@@ -15,10 +15,15 @@ namespace Emberfield.Presentation
     /// a play-distance still are taken of the formed rows, then let go; one more still follows the fight. Then it quits.
     /// On another map the rows, player 1's town and a wall-gate-wall stretch stand on the nearest clear ground around
     /// player 1's Hearth, and the walls get a still of their own. Ordinary play never touches it.
+    ///
+    /// -emberfieldReviewSkin &lt;store item&gt; (with the flag above) reviews a character skin instead: a mirror match on
+    /// amber_crossing with just the skin's unit twice, side by side. Player 1 wears the skin for the stills (in memory,
+    /// never saved), the rival's unit is the faction's own model, and three stills of the pair are taken.
     /// </summary>
     public static class MeshyUnitReview
     {
         public const string Flag = "-emberfieldMeshyReview";
+        public const string SkinFlag = "-emberfieldReviewSkin";
         private static readonly string[] Roles = { "tender", "reedguard", "stringwarden", "strider" };
         private const int Row = 29500, RivalRow = 31500, FirstColumn = 19000, Spacing = 2000, FirstId = 600;
         // Player 1's town on amber_crossing, on sites the siege showcase proved clear; SceneryStills builds it too.
@@ -45,9 +50,38 @@ namespace Emberfield.Presentation
             world = null;
             if (!Debug.isDebugBuild && !Application.isEditor) return false;
             if (Array.IndexOf(Environment.GetCommandLineArgs(), Flag) < 0) return false;
-            world = CreateWorld(Argument(2) ?? "aven", Argument(3) ?? "amber_crossing");
+            var skin = SkinUnderReview();
+            if (skin != null) { world = CreateSkinWorld(skin); CosmeticLoadout.EquipTransientPreview(skin.id); }
+            else world = CreateWorld(Argument(2) ?? "aven", Argument(3) ?? "amber_crossing");
             HoldsSimulation = Argument(1) != null;
             return true;
+        }
+
+        private static CosmeticCatalogItem SkinUnderReview()
+        {
+            var args = Environment.GetCommandLineArgs();
+            int index = Array.IndexOf(args, SkinFlag);
+            var item = index >= 0 && index + 1 < args.Length ? CosmeticLoadout.Find(args[index + 1]) : null;
+            return item != null && item.slot == CosmeticLoadout.CharacterSlot ? item : null;
+        }
+
+        /// <summary>
+        /// The skin's faction against itself with one unit each, two metres apart on the strip the rows use: player 1's
+        /// is the one that wears the skin, player 2's keeps the faction's default model.
+        /// </summary>
+        private static World CreateSkinWorld(CosmeticCatalogItem skin)
+        {
+            var baseline = DefinitionLoader.CreateOfflineWorld(skin.factionId, VictoryMode.Conquest);
+            armyCentre = townCentre = wallCentre = null;
+            var map = baseline.Map;
+            foreach (var seat in map.PlayerFactions) seat.FactionId = skin.factionId;
+            var units = new List<UnitSpawnDefinition>(map.UnitSpawns);
+            int x = FirstColumn + Spacing * 2;
+            units.Add(new UnitSpawnDefinition { Id = FirstId, OwnerId = 1, DefinitionId = skin.targetId, Position = new SimPoint(x, Row) });
+            units.Add(new UnitSpawnDefinition { Id = FirstId + 1, OwnerId = 2, DefinitionId = skin.targetId, Position = new SimPoint(x + Spacing, Row) });
+            map.UnitSpawns = units.ToArray();
+            armyCentre = new Vector3((x + Spacing / 2) * .001f, 0, Row * .001f);
+            return new World(baseline.Definition, map);
         }
 
         /// <summary>The shipped offline match for <paramref name="faction"/>, plus both players' lines. Ids start at 600, player 1 first.</summary>
@@ -212,6 +246,19 @@ namespace Emberfield.Presentation
             match.ClearSelection();
             bool ok = true;
             match.Rig.MinimumZoom = 2.2f;
+            if (SkinUnderReview() is CosmeticCatalogItem skin)
+            {
+                foreach (var (name, zoom) in new[] { ("pair-close", 2.2f), ("pair-near", 3.4f), ("pair-play", 8f) })
+                {
+                    match.Rig.SetHome(centre, zoom);
+                    match.SyncPresentation(1);
+                    yield return new WaitForEndOfFrame();
+                    ok &= PlayerSmoke.Capture(match, Path.Combine(folder, skin.id + "-" + name + ".png"));
+                }
+                Debug.Log("EMBERFIELD_MESHY_REVIEW " + ok + " " + folder);
+                if (!Application.isEditor) Application.Quit(ok ? 0 : 1);
+                yield break;
+            }
             foreach (var (name, zoom) in new[] { ("close", 2.6f), ("medium", 5f), ("play", 8f) })
             {
                 match.Rig.SetHome(centre, zoom);

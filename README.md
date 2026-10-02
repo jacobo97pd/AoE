@@ -2,22 +2,22 @@
 
 ## iPhone / Codemagic
 
-Este repositorio incluye el proyecto Unity completo y el export Xcode en `ios/`.
+Este repositorio incluye el proyecto Unity completo y el export Xcode en `ios/` (versión 0.3.2, build 3).
 Conecta esta rama a Codemagic y ejecuta primero **ios-compile-check**.
 Para instalar mediante TestFlight, sigue [LEEME.md](LEEME.md): configura el Bundle ID,
 la cuenta Apple y la firma, y ejecuta **ios-testflight**. La prueba inicial es offline.
 La exportación Unity pasó; la compilación nativa en Codemagic y la prueba en iPhone
 siguen pendientes. Los archivos grandes usan Git LFS: `git lfs install` y `git lfs pull`.
 
-La copia de publicación conserva el estado local `ba3ae3f` y las herramientas iOS.
-El historial de desarrollo original permanece en el repositorio local. Las secciones
-de arte y alpha más abajo son documentación histórica; el tramo naval terminado está
-descrito en [su informe](docs/technical/naval-slice-20260928.md).
+La copia de publicación conserva el estado de desarrollo `2e47d58` (versión 0.3.2): marinas inglesa y
+española jugables con fragatas y galeones, y tres aspectos de personaje en la tienda. El historial de
+desarrollo original permanece en el repositorio local. Las secciones de arte y alpha más abajo son
+documentación histórica; el estado naval está descrito en [su informe](docs/technical/naval-fleets-20261002.md).
 
 
 The current art review focuses on **one Kingdom infantry soldier**, rebuilt for visual inspection in a compact courtyard. Open [the soldier gallery](Artifacts/ArtReview/royal-soldier/index.html), launch `Builds/RoyalSoldier/RoyalSoldier.exe`, or open `Assets/Game/Scenes/RoyalSoldier.unity` and press Play. [The review](docs/art/royal-soldier-review.md) and [asset guide](Assets/Game/RoyalSoldier/README.md) record its scope and reproduction. The earlier [three-character slice](Artifacts/ArtReview/kingdom-premium/index.html) remains available for comparison; these art reviews do not replace the playable alpha below.
 
-An original tablet-first RTS in Unity with ten active factions, four playable maps, trainable creature armies, functional siege, a native frontend and HUD, and authoritative online 1v1. **Historical, Fantasy and Naval are separate PvP realms with their own opponents, rankings and history.** The Quartermaster contains 12 cosmetic appearances, with free offline previews and a separate server-owned wardrobe.
+An original tablet-first RTS in Unity with twelve active factions, four playable maps, trainable creature armies, functional siege, a native frontend and HUD, and authoritative online 1v1. **Historical, Fantasy and Naval are separate PvP realms with their own opponents, rankings and history.** The Quartermaster contains 12 cosmetic appearances, with free offline previews and a separate server-owned wardrobe.
 
 The September 14 faction update is recorded in the [current roster](docs/design/FACTION_GROUPS.md) and [realm verification report](docs/technical/faction-realms-review.md). Alpha 0.3 extends the completed Alpha 0.2 and original Phases 0-13. Its earlier [verification report](docs/testing/ALPHA_03_VERIFICATION.md), [evidence](docs/testing/evidence/alpha03/) and [visual gallery](docs/testing/evidence/alpha03/gallery.html) retain results for their own source and package versions; they do not establish acceptance of a newer build.
 
@@ -29,13 +29,13 @@ Launch `Builds/Windows/Emberfield.exe`. A normal launch opens **Home**. Choose *
 | --- | --- |
 | Históricas | Franceses, Hispanos, Ingleses, Sultanato, Confederación del Sahel |
 | Fantasía | Orcos, Enanos, Hombres de las montañas, Elfos |
-| Navales | Piratas |
+| Navales | Piratas, Marina inglesa, Marina española |
 
-Marina inglesa, Marina española and Flota esquelética are planned, locked entries. Naval currently means land battles on the Caribbean coast, including Pirates versus Pirates. Miraj and Solar remain legacy definitions/history only. This classification adds no ships and does not claim finished national or orc character collections.
+The three naval fleets build docks on Sapphire Coast and sail their own warships: the pirates' light sloop, the English frigate and the Spanish galleon. The sloop beats the frigate, the frigate beats the galleon and the galleon beats the sloop; ships fight ships, shell the shore and carry troops to landings ([naval design](docs/design/NAVAL_SLICE.md)). The two navies field the kingdom armies of the English and the Hispanos. The Flota esquelética stays locked until its skeleton crews exist. Miraj and Solar remain legacy definitions/history only. This classification does not claim finished national or orc character collections.
 
-**Amber Crossing** is temperate forest with river crossings and wooded approaches. **Sapphire Coast** is Caribbean terrain with palms, coves and coastal passages. **Sunscar Basin** has desert approaches, oases and sandstone ruins. **Tierras de Leyenda** dresses each fantasy army's starting land for its culture around a neutral highland centre. Each map has authored navigation/resource placement and its own environment, resource presentation, lighting and ambience. Decorative ships do not introduce naval warfare.
+**Amber Crossing** is temperate forest with river crossings and wooded approaches. **Sapphire Coast** is Caribbean terrain with palms, coves and coastal passages. **Sunscar Basin** has desert approaches, oases and sandstone ruins. **Tierras de Leyenda** dresses each fantasy army's starting land for its culture around a neutral highland centre. Each map has authored navigation/resource placement and its own environment, resource presentation, lighting and ambience. Naval matches load a variant of Sapphire Coast whose sea is connected for ships.
 
-**Conquest** destroys the rival's Hearths. **Dominion** holds two of three beacons with military units for eight uninterrupted minutes; contested beacons interrupt the hold. Both sides start with a Hearth, four workers and equal resources. Pirates use Treasure Seekers and cannot recruit Tenders. Offline AI uses ordinary gathering, construction, research, scouting and combat commands.
+**Conquest** destroys the rival's Hearths. **Dominion** holds two of three beacons with military units for eight uninterrupted minutes; contested beacons interrupt the hold. Both sides start with a Hearth, four workers and equal resources. Pirates use Treasure Seekers and cannot recruit Tenders; each naval fleet sails only its own hull. Offline AI uses ordinary gathering, construction, research, scouting and combat commands.
 
 **Menu** pauses a local match and offers resume, surrender and restart. **Main menu** preserves an unfinished local skirmish for **Resume your skirmish**. Online matches continue under server authority while menus are open. **Learn to play** retains the optional practice guide. **Settings** offers saved sound and camera controls, text contrast and an optional performance overlay. Local diagnostics are opt-in, bounded and manually exported; nothing uploads automatically.
 
@@ -112,6 +112,6 @@ The [current realm review](docs/technical/faction-realms-review.md) records this
 
 Human balance, readability and touch comfort need playtesting. No physical Android/iOS, battery, thermal or target-device FPS qualification is claimed; the audited workstation has no installed Android SDK/NDK/JDK support. Previous dense-choke/cold-order findings remain relevant until measured again for the expanded armies. Old desktop/offscreen timings must not be presented as Alpha 0.3 or mobile FPS.
 
-There is no campaign, full naval warfare, large-team PvP, offline save/load or live payment provider. The temporary HTTPS tunnel is not a durable production deployment. Finished faction art, production hosting operations and platform store integration remain open.
+There is no campaign, large-team PvP, offline save/load or live payment provider. The temporary HTTPS tunnel is not a durable production deployment. Finished faction art, production hosting operations and platform store integration remain open.
 
 Start with [current status](docs/tasks/CURRENT_PHASE.md), the [faction roster](docs/design/FACTION_GROUPS.md), the [realm verification report](docs/technical/faction-realms-review.md), and the [documentation index](docs/README.md). The [Alpha 0.3 expansion](docs/tasks/ALPHA_03_EXPANSION.md), [Alpha 0.2 report](docs/tasks/ALPHA_02_REPORT.md) and original Phase 0-13 reports retain their own evidence. The September biome/fantasy plan expands that history; its phase numbering does not restart the project. Supplied references remain unchanged. No paid service has been activated.

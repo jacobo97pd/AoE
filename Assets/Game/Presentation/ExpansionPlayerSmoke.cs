@@ -79,6 +79,16 @@ namespace Emberfield.Presentation
                 yield return Click(match,"Inspect " + item);
                 yield return Capture(match,"store-" + item + ".png");
             }
+            // Page three: the character skins, each shown as its own animated model rather than a recoloured one.
+            yield return Click(match,"Next collection page");
+            foreach (string item in new[] { "char_mountain_guard", "char_forest_archer", "char_wandering_ranger" })
+            {
+                yield return Click(match,"Inspect " + item);
+                bool animated = false;
+                foreach (var preview in match.GetComponentsInChildren<CosmeticModelPreview>()) animated |= preview.Character != null;
+                Require(animated,"The character skin " + item + " was not shown with its own model.");
+                yield return Capture(match,"store-" + item + ".png");
+            }
             yield return LoadCase(match);
         }
         private static IEnumerator LoadCase(MatchController match)

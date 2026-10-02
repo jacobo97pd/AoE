@@ -107,11 +107,14 @@ namespace Emberfield.Simulation
         private int ordersThisThink, recruitmentIndex, placementCursor;
         private SimPoint home;
         private bool ExpandedArmy => player.FactionId != null && player.FactionId != "aven" && player.FactionId != "serevin";
-        // A faction whose own soldier trains at the Muster Hall (the Frostguard, the desert cavalry) has no use for a
-        // Beast Lodge; one with a creature, or with no soldier of its own, still raises one.
-        private bool UniqueTrainsAtMusterHall => world.factionCatalog.Definitions.TryGetValue(player.FactionId ?? "", out var faction) &&
-            !string.IsNullOrEmpty(faction.UniqueUnitId) && buildingDefinitions.TryGetValue("muster_hall", out var hall) &&
-            Array.IndexOf(hall.TrainableUnitIds ?? Array.Empty<string>(), faction.UniqueUnitId) >= 0;
+        // A Beast Lodge only for a faction with a creature to raise there. The Frostguard's clans, the desert riders, the
+        // English, the pirates and the navies have none, so they never pay for an empty lodge.
+        private bool LodgeTrainsForUs()
+        {
+            if (!buildingDefinitions.TryGetValue("beast_lodge", out var lodge)) return false;
+            foreach (string id in lodge.TrainableUnitIds ?? Array.Empty<string>()) if (world.ValidateUnitRecruitment(PlayerId, id).Accepted) return true;
+            return false;
+        }
         // Placement, regroup and scouting searches run in a frame mirrored through the map centre for
         // a seat that starts beyond it, so mirrored starts produce exact mirror images, rounding and
         // tie-breaks included, instead of favouring one side of the map.
@@ -314,7 +317,7 @@ namespace Emberfield.Simulation
             else if (BuildingCount("muster_hall") == 0 && workers.Count >= 5) wanted = "muster_hall";
             else if (naval && BuildingCount("dock") == 0 && workers.Count >= 6) wanted = "dock";
             else if (player.EraTier >= 2 && BuildingCount("archive") == 0 && army.Count >= 4) wanted = "archive";
-            else if (ExpandedArmy && player.EraTier >= 2 && BuildingCount("beast_lodge") == 0 && !UniqueTrainsAtMusterHall && army.Count >= 5) wanted = "beast_lodge";
+            else if (ExpandedArmy && player.EraTier >= 2 && BuildingCount("beast_lodge") == 0 && army.Count >= 5 && LodgeTrainsForUs()) wanted = "beast_lodge";
             else if ((ExpandedArmy || ObservedFortifications) && player.EraTier >= 2 && BuildingCount("siege_workshop") == 0 && army.Count >= 10) wanted = "siege_workshop";
             else if (ExpandedArmy && player.EraTier >= 2 && BuildingCount("watchtower") == 0 && army.Count >= 8 && player.Resources.Stone >= 160) wanted = "watchtower";
             // Further halls follow the army; the first one comes from the worker threshold above.
@@ -842,13 +845,17 @@ namespace Emberfield.Simulation
             return x >= 0 && z >= 0 && x < world.Map.WidthCells && z < world.Map.HeightCells && world.IsSailable(new SimPoint(x * cell + cell / 2, z * cell + cell / 2));
         }
 
-        // Hulls afloat or on the slips, up to the fleet and one transport more for landings.
+        // Hulls afloat or on the slips, up to the fleet and one transport more for landings, and one warship more for each
+        // enemy hull seen in the last three minutes, up to the fleet again: ships are answered with ships.
         private UnitDefinition RecruitShip(BuildingState site)
         {
             int afloat = fleet.Count;
             foreach (var building in Observation.OwnedBuildings)
                 foreach (var entry in building.ProductionQueue) if (unitDefinitions[entry.UnitDefinitionId].Domain == MovementDomain.Water) afloat++;
-            if (afloat >= tuning.FleetTarget + 1 || workers.Count < 6) return null;
+            int enemyHulls = 0;
+            foreach (var enemy in Observation.KnownEnemies)
+                if ((enemy.Tags & CombatTags.Naval) != 0 && world.TickIndex - enemy.LastSeenTick <= World.TickRate * 180L) enemyHulls++;
+            if (afloat >= tuning.FleetTarget + 1 + Math.Min(enemyHulls, tuning.FleetTarget) || workers.Count < 6) return null;
             UnitDefinition best = null;
             foreach (var id in buildingDefinitions[site.DefinitionId].TrainableUnitIds)
             {
@@ -861,8 +868,9 @@ namespace Emberfield.Simulation
         }
 
         /// <summary>
-        /// The fleet: hulls turn on any enemy ship in view; once the fleet is assembled (or the army attacks) it sails to
-        /// the enemy's shore and shells whatever stands within reach of the water there. One transport ferries a landing
+        /// The fleet: hulls turn on any enemy ship in view; while a transport sails a landing party to the enemy's shore
+        /// the warships escort it and cover the beach; once the fleet is assembled (or the army attacks) it sails to the
+        /// enemy's shore and shells whatever stands within reach of the water there. One transport ferries a landing
         /// party to the shore nearest the enemy once the army is committed.
         /// </summary>
         private void DirectFleet()
@@ -881,6 +889,8 @@ namespace Emberfield.Simulation
                 if (!enemy.Visible || failedNavalTargets.Contains(enemy.Id)) continue;
                 bool hull = (enemy.Tags & CombatTags.Naval) != 0;
                 if (!hull && (!raiding || !Coastal(enemy.Position))) continue;
+                // An escort fights for the beach it covers, not for shore elsewhere.
+                if (!hull && escortPoint.HasValue && DistanceSquared(enemy.Position, escortPoint.Value) > EscortReach * EscortReach) continue;
                 long score = DistanceSquared(centre, enemy.Position) - (hull ? 4000000000L : 0);
                 if (score < nearest) { nearest = score; target = enemy; }
             }
@@ -893,11 +903,15 @@ namespace Emberfield.Simulation
                 else failedNavalTargets.Add(target.Id);
                 return;
             }
+            if (escortPoint.HasValue) { MoveSquad(free, escortPoint.Value, "Fleet escorting the landing", 4000); return; }
             if (!raiding) return;
             raidPoint ??= NearestWater(new SimPoint(world.Map.WidthCells * world.Map.CellSizeMillimetres - home.X, world.Map.HeightCells * world.Map.CellSizeMillimetres - home.Z));
             if (raidPoint.HasValue) MoveSquad(free, raidPoint.Value, "Fleet raiding the enemy shore", 4000);
         }
         private readonly HashSet<int> failedNavalTargets = new HashSet<int>();
+        // The water off the beach a loaded transport is sailing to, while it sails there: the escort's goal.
+        private SimPoint? escortPoint;
+        private const long EscortReach = 10000;
 
         private void Landing()
         {
@@ -906,7 +920,7 @@ namespace Emberfield.Simulation
             foreach (var hull in fleet) if (hull.Id == landingShipId) ship = hull;
             if (ship == null)
             {
-                landingShipId = 0;
+                landingShipId = 0; escortPoint = null;
                 if (!assaultCommitted) return;
                 long nearest = long.MaxValue;
                 foreach (var hull in fleet)
@@ -916,15 +930,19 @@ namespace Emberfield.Simulation
                 landingShipId = ship.Id; landingStarted = world.TickIndex;
             }
             if (ship.IsUnloading) return;
+            // The landing is over (landed, refused or called off): the escort is released.
+            escortPoint = null;
             int boarding = 0;
             foreach (var unit in Observation.OwnedUnits) if (unit.EmbarkShipId == ship.Id) boarding++;
-            int wanted = Math.Min(ship.CargoCapacity, 6);
+            // A full hold, up to ten: a galleon lands a larger party than a sloop or a frigate.
+            int wanted = Math.Min(ship.CargoCapacity, 10);
             long waited = world.TickIndex - landingStarted;
             if (ship.CargoCount > 0 && (ship.CargoCount >= wanted || boarding == 0 && waited > 600))
             {
                 var landing = LandingPoint();
                 if (!landing.HasValue) { landingShipId = 0; return; }
-                if (Send(new DisembarkCommand(PlayerId, ship.Id, landing.Value)).Accepted) Status = "Landing troops on the enemy shore";
+                if (Send(new DisembarkCommand(PlayerId, ship.Id, landing.Value)).Accepted)
+                { Status = "Landing troops on the enemy shore"; escortPoint = NearestWater(landing.Value); }
                 // Ground found taken (a building, a resource): the next shore along is tried at the next order.
                 else { failedLandings.Add(landing.Value); nextLandingOrder = world.TickIndex + 20; }
                 return;

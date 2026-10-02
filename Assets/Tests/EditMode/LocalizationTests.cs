@@ -79,6 +79,9 @@ namespace Emberfield.Tests.EditMode
         [TestCase("Camel Archers", "Arqueros de camello")]
         [TestCase("Train Quilted Lancer", "Entrenar Jinete acolchado")]
         [TestCase("Quilted Lancers gain two armor.", "Los Jinetes acolchados ganan dos puntos de armadura.")]
+        [TestCase("Train Spanish Galleon", "Entrenar Galeón español")]
+        [TestCase("English Frigates", "Fragatas inglesas")]
+        [TestCase("This navy sails its own warship instead of the galley.", "Esta marina navega en su propio buque de guerra, no en la galera.")]
         [TestCase("Zorblax", "Zorblax")]
         public void SpanishReadsComposedScreens(string source, string expected) => Assert.AreEqual(expected, Spanish.Translate(source));
 
@@ -91,6 +94,9 @@ namespace Emberfield.Tests.EditMode
         [TestCase("Workers", "Workers")]
         [TestCase("Play Confederación del Sahel", "Play Sahel Confederation")]
         [TestCase("SABANA & CABALLERÍA PESADA", "SAVANNA & HEAVY CAVALRY")]
+        [TestCase("Play Marina española", "Play Spanish Navy")]
+        [TestCase("GALEONES & TERCIOS", "GALLEONS & TERCIOS")]
+        [TestCase("La balandra vence a la fragata, la fragata al galeón y el galeón a la balandra.", "The sloop beats the frigate, the frigate beats the galleon and the galleon beats the sloop.")]
         public void EnglishCoversTextWrittenInSpanish(string source, string expected) => Assert.AreEqual(expected, English.Translate(source));
     }
 }

@@ -54,6 +54,29 @@ therefore neither "close enough" nor "still moving", so the order was re-issued 
 contested beacon had its attacks cancelled repeatedly. `MoveSquad` now takes an `arrival` argument and
 `DirectDominion` passes the beacon radius, because standing anywhere inside the ring holds the beacon.
 
+## The naval realm (2026-10-02)
+
+Only a match of the naval realm on a map with deep water runs the fleet code; every other match keeps the land plan,
+and the six tick scenarios hash identically with it.
+
+- **Dock and hull.** The dock comes after the first Muster Hall, at six workers; the AI trains the one hull its
+  faction may sail (sloop, frigate or galleon).
+- **Ships answer ships.** The fleet is `FleetTarget` warships (2/3/4 by difficulty) and one transport, plus one
+  warship for each enemy hull seen in the last three minutes, up to `FleetTarget` more.
+- **Escort.** While the loaded transport sails to its landing, the free warships sail to the water off that beach
+  (`NearestWater` of the landing point) and fight only enemy hulls or what stands within ten metres of the beach; the
+  escort ends with the landing. Enemy hulls in view still come first.
+- **Landing party.** The transport fills its hold up to ten, so a galleon carries ten, a sloop six and a frigate five.
+- **Beast Lodge.** A faction raises one only when the lodge trains something it may recruit. This reproduces every
+  earlier decision for the creature factions, the mountain clans and the desert pair, and stops the English, the
+  pirates and the navies paying for an empty lodge.
+
+Measured on Hard (`tools/Verify-SimulationTicks.ps1 --scenario naval-pirates-english,naval-english-spanish,naval-spanish-pirates`):
+the three pairings end in Conquest at 9.5, 7.8 and 11.9 minutes, and repeated runs hash identically. Escorts formed in
+every pairing. Across three difficulties and both seat orders (18 matches) every match ended in Conquest within 20
+minutes; the pirates won 7 of 12 against the navies and the navies split 3–3. The land armies still decide Conquest;
+the fleets decide the coast. See [NAVAL_SLICE.md](../design/NAVAL_SLICE.md).
+
 ## Known, deliberate, not defects
 
 - `workerDestinations` is written before the gather is sent and cleared on success. This reads like an

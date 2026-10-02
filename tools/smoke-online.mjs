@@ -1,5 +1,5 @@
 import { spawn, execFile } from 'node:child_process';
-import { createWriteStream } from 'node:fs';
+import { createWriteStream, readFileSync } from 'node:fs';
 import { mkdir, readFile, writeFile, unlink, access, readdir } from 'node:fs/promises';
 import { createHash, randomBytes } from 'node:crypto';
 import { createServer, isIP } from 'node:net';
@@ -11,6 +11,9 @@ import { CONTENT_VERSION, PROTOCOL_VERSION } from '../Server/content-version.mjs
 
 const execFileAsync = promisify(execFile);
 const project = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+// The naval drill's paid costs come from the shipped rules, so retuning a hull cannot fail the drill.
+const rules = JSON.parse(readFileSync(resolve(project, 'Assets/Game/Resources/Definitions/greybox.json'), 'utf8'));
+const hullWood = (id, collection) => rules[collection].find(item => item.Id === id)?.Cost?.Wood;
 const args = process.argv.slice(2);
 function option(name, fallback) {
   const i = args.indexOf(name); if (i < 0) return fallback;
@@ -21,7 +24,9 @@ const width = Number(option('--width', '1280')), height = Number(option('--heigh
 const navalSlice = args.includes('--naval-slice');
 const seconds = Number(option('--timeout', navalSlice ? '360' : '240'));
 const realmId = option('--realm', 'historical'), mapId = option('--map', defaultMapForRealm(realmId));
-const expectedFactions = realmId === 'fantasy' ? ['verdant', 'ashen'] : realmId === 'naval' ? ['pirates', 'pirates'] : ['aven', 'serevin'];
+// The naval pair is the realm's first two fleets: the pirates' sloop against the English frigate.
+const expectedFactions = realmId === 'fantasy' ? ['verdant', 'ashen'] : realmId === 'naval' ? ['pirates', 'english_navy'] : ['aven', 'serevin'];
+const expectedHulls = { pirates: 'pirate_sloop', english_navy: 'english_frigate', spanish_navy: 'spanish_galleon' };
 function loopback(host) { return host === 'localhost' || host === '[::1]' || isIP(host) === 4 && host.split('.')[0] === '127'; }
 function serverAddress(value) {
   if (!value) return '';
@@ -155,7 +160,8 @@ try {
   check(guestReport.ReconnectedTick > beforeRestart.BeforeRestartTick, 'Authority tick did not advance while the guest process was absent.');
   if (navalSlice) {
     check([hostReport, guestReport].every(report => report.ShipTrained && report.ShipSailed && report.PassengerLanded && report.NavalAssetsPersisted &&
-      report.DockId > 0 && report.ShipId > 0 && report.PassengerId > 0 && report.DockWoodSpent === 150 && report.ShipWoodSpent === 130),
+      report.DockId > 0 && report.ShipId > 0 && report.PassengerId > 0 && report.DockWoodSpent === hullWood('dock', 'Buildings') &&
+      report.ShipDefinitionId === expectedHulls[report.LocalFactionId] && report.ShipWoodSpent === hullWood(report.ShipDefinitionId, 'Units')),
       'Both native clients must build and pay for a dock/ship, transport a worker and preserve cargo across restart.');
     check(guestReport.DockId === beforeRestart.DockId && guestReport.ShipId === beforeRestart.ShipId && guestReport.PassengerId === beforeRestart.PassengerId,
       'Guest dock, ship or passenger identity changed during reconnect.');

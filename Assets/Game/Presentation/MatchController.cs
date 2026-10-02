@@ -76,6 +76,7 @@ namespace Emberfield.Presentation
             else if (ArmyFilm.TryCreateWorld(out var filmWorld)) World = filmWorld;
             else if (LegendLandsFilm.TryCreateWorld(out var legendFilmWorld)) World = legendFilmWorld;
             else if (SiegeFilm.TryCreateWorld(out var siegeFilmWorld)) World = siegeFilmWorld;
+            else if (NavalBattleFilm.TryCreateWorld(out var navalFilmWorld)) World = navalFilmWorld;
             else if (SceneryStills.TryCreateWorld(out var stillsWorld)) World = stillsWorld;
             else if (PirateCrewScenario.TryCreateWorld(out var crewWorld)) World = crewWorld;
             else if (CorsairHeroScenario.TryCreateWorld(out var corsairWorld)) World = corsairWorld;
@@ -157,7 +158,7 @@ namespace Emberfield.Presentation
             if (Stress == null && (World.Match != null || World.IsNetworkReplica)) View.Prewarm();
         }
 
-        private void Start() { PirateCrewScenario.PreparePresentation(this); CorsairHeroScenario.PreparePresentation(this); PirateCrewGameSmoke.TryStart(this); CorsairGameSmoke.TryStart(this); PlayerSmoke.TryStart(this); OnlinePlayerSmoke.TryStart(this); ProductShellSmoke.TryStart(this); ExpansionPlayerSmoke.TryStart(this); FullMatchRecording.TryStart(this); SiegeShowcase.TryStart(this); ImportedBuildingVisuals.TryStartCapture(this); MeshyUnitReview.TryStartCapture(this); ArmyFilm.TryStart(this); LegendLandsFilm.TryStart(this); SiegeFilm.TryStart(this); SceneryStills.TryStart(this); VoiceSmoke.TryStart(this); }
+        private void Start() { PirateCrewScenario.PreparePresentation(this); CorsairHeroScenario.PreparePresentation(this); PirateCrewGameSmoke.TryStart(this); CorsairGameSmoke.TryStart(this); PlayerSmoke.TryStart(this); OnlinePlayerSmoke.TryStart(this); ProductShellSmoke.TryStart(this); ExpansionPlayerSmoke.TryStart(this); FullMatchRecording.TryStart(this); SiegeShowcase.TryStart(this); ImportedBuildingVisuals.TryStartCapture(this); MeshyUnitReview.TryStartCapture(this); ArmyFilm.TryStart(this); LegendLandsFilm.TryStart(this); SiegeFilm.TryStart(this); NavalBattleFilm.TryStart(this); SceneryStills.TryStart(this); VoiceSmoke.TryStart(this); }
 
         // The frame this match was made in loads the scene and draws it for the first time. That time is the loading
         // screen's, not a frame anyone played through, and it reaches unscaledDeltaTime in one long interval: at the next
@@ -436,7 +437,7 @@ namespace Emberfield.Presentation
             else if (IsFactionDrill) StartFactionDrill(Factions.LocalDefinition.Id);
             else SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        private void OnApplicationFocus(bool focused) { Voice?.SetFocused(focused); if (!focused && !OfflineRenderProbe.IsRunning && !SiegeShowcase.IsRunning && !ArmyFilm.IsRunning && !LegendLandsFilm.IsRunning && !SiegeFilm.IsRunning && !SceneryStills.IsRunning) { input?.Cancel(); accumulator = 0; OfflineControls?.PauseForFocus(); } }
+        private void OnApplicationFocus(bool focused) { Voice?.SetFocused(focused); if (!focused && !OfflineRenderProbe.IsRunning && !SiegeShowcase.IsRunning && !ArmyFilm.IsRunning && !LegendLandsFilm.IsRunning && !SiegeFilm.IsRunning && !NavalBattleFilm.IsRunning && !SceneryStills.IsRunning) { input?.Cancel(); accumulator = 0; OfflineControls?.PauseForFocus(); } }
         private void OnApplicationPause(bool paused) { if (paused && !OfflineRenderProbe.IsRunning) { input?.Cancel(); accumulator = 0; OfflineControls?.PauseForFocus(); } }
         private void OnDestroy() { Shell?.Dispose(); Online?.Dispose(); input?.Dispose(); OfflineControls?.Dispose(); Economy?.Dispose(); Factions?.Dispose(); View?.Dispose(); Voice?.Dispose(); Hud?.Dispose(); }
     }

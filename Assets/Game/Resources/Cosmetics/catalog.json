@@ -131,6 +131,45 @@
       "styleId": "bronze_tide",
       "priceMinor": 199,
       "currency": "EUR"
+    },
+    {
+      "id": "char_mountain_guard",
+      "displayName": "Mountain Guard",
+      "description": "A braided red-bearded dwarf in riveted leather and dark steel. Dresses the Drakeforged Reedguard.",
+      "slot": "character",
+      "targetId": "reedguard",
+      "factionId": "drakeforged",
+      "modelId": "skin_mountain_guard",
+      "realmId": "fantasy",
+      "styleId": "forge_copper",
+      "priceMinor": 499,
+      "currency": "EUR"
+    },
+    {
+      "id": "char_forest_archer",
+      "displayName": "Forest Archer",
+      "description": "A fair-haired elf in a leaf-embroidered green cloak. Dresses the Verdant Stringwarden.",
+      "slot": "character",
+      "targetId": "stringwarden",
+      "factionId": "verdant",
+      "modelId": "skin_forest_archer",
+      "realmId": "fantasy",
+      "styleId": "forest_leaf",
+      "priceMinor": 499,
+      "currency": "EUR"
+    },
+    {
+      "id": "char_wandering_ranger",
+      "displayName": "Wandering Ranger",
+      "description": "A weathered ranger in a grey-green cloak with bedroll and canteen. Dresses the Skeld Reedguard.",
+      "slot": "character",
+      "targetId": "reedguard",
+      "factionId": "skeld",
+      "modelId": "skin_wandering_ranger",
+      "realmId": "fantasy",
+      "styleId": "wanderer_grey",
+      "priceMinor": 499,
+      "currency": "EUR"
     }
   ]
 }

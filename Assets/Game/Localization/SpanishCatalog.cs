@@ -111,7 +111,10 @@ namespace Emberfield.Localization
                 "Frost Troll", "Trol de escarcha", "Sapphire armor and icy pale skin accents.", "Armadura zafiro y piel pálida y helada.",
                 "Bloom Guardian", "Guardián florido", "Spring-green bark and rose-colored canopy accents.", "Corteza verde primavera y copa con toques rosados.",
                 "Golden Dawn", "Alba dorada", "Ivory sun lion with golden ceremonial armor.", "León solar marfil con armadura ceremonial dorada.",
-                "Tidebound Guard", "Guardia de la marea", "Bronze armor and sea-colored northern cloth.", "Armadura de bronce y tela norteña del color del mar.");
+                "Tidebound Guard", "Guardia de la marea", "Bronze armor and sea-colored northern cloth.", "Armadura de bronce y tela norteña del color del mar.",
+                "Mountain Guard", "Guerrero de la Montaña", "A braided red-bearded dwarf in riveted leather and dark steel. Dresses the Drakeforged Reedguard.", "Un enano de barba roja trenzada, con cuero remachado y acero oscuro. Viste al Lancero de los Clanes Forjadracos.",
+                "Forest Archer", "Arquero del Bosque", "A fair-haired elf in a leaf-embroidered green cloak. Dresses the Verdant Stringwarden.", "Un elfo de pelo claro con capa verde bordada de hojas. Viste al Arquero de la Alianza Verdeante.",
+                "Wandering Ranger", "Explorador Errante", "A weathered ranger in a grey-green cloak with bedroll and canteen. Dresses the Skeld Reedguard.", "Un explorador curtido con capa gris verdosa, petate y cantimplora. Viste al Lancero de los Clanes de Skeld.");
         }
 
         // Messages the rules return when an order is rejected.
@@ -418,6 +421,7 @@ namespace Emberfield.Localization
                 "The ship has room for {n:int} more troops.", "Al barco le caben {n} tropas más.");
             P(t,
                 "Galley", "Galera", "Galleys", "Galeras", "Pirate Sloop", "Balandra pirata", "Pirate Sloops", "Balandras piratas",
+                "English Frigate", "Fragata inglesa", "English Frigates", "Fragatas inglesas", "Spanish Galleon", "Galeón español", "Spanish Galleons", "Galeones españoles",
                 "Dock", "Muelle", "Docks", "Muelles", "Ship", "Barco", "Naval", "Barcos",
                 "Board ship", "Embarcar", "Tap one of your ships", "Toca uno de tus barcos",
                 "Land troops", "Desembarcar", "Tap the shore", "Toca la orilla", "Cancel ship order", "Cancelar orden naval",
@@ -445,7 +449,8 @@ namespace Emberfield.Localization
                 "Ships sail only on open water.", "Los barcos solo navegan por aguas abiertas.",
                 "A dock must stand on the shore, beside open water.", "El muelle debe estar en la orilla, junto a aguas abiertas.",
                 "Only ranged attacks reach a ship.", "Solo los ataques a distancia alcanzan a un barco.",
-                "Pirates sail their own sloops instead of the galley.", "Los piratas navegan en sus balandras, no en la galera.");
+                "Pirates sail their own sloops instead of the galley.", "Los piratas navegan en sus balandras, no en la galera.",
+                "This navy sails its own warship instead of the galley.", "Esta marina navega en su propio buque de guerra, no en la galera.");
         }
 
         // Tactical HUD: action bar, context buttons, selection details, resources and objective strip.
@@ -569,7 +574,7 @@ namespace Emberfield.Localization
                 "Choose your world. Claim your frontier.", "Elige tu mundo. Conquista tu frontera.",
                 "RESUME YOUR SKIRMISH    ›", "REANUDAR ESCARAMUZA    ›", "PLAY A SKIRMISH    ›", "JUGAR UNA ESCARAMUZA    ›",
                 "MULTIPLAYER", "MULTIJUGADOR", "LEARN TO PLAY", "APRENDER A JUGAR", "EXPLORE THE FRONTIER", "EXPLORA LA FRONTERA",
-                "Realms & Frontiers", "Reinos y fronteras", "TEN FACTIONS. FOUR BATTLEFIELDS.", "DIEZ FACCIONES. CUATRO CAMPOS DE BATALLA.",
+                "Realms & Frontiers", "Reinos y fronteras", "TWELVE FACTIONS. FOUR BATTLEFIELDS.", "DOCE FACCIONES. CUATRO CAMPOS DE BATALLA.",
                 "The Quartermaster", "El Intendente", "APPEARANCE ONLY", "SOLO APARIENCIA",
                 "Easy rival: a small economy that only attacks from the last Era.", "Rival fácil: una economía pequeña que solo ataca en la última era.",
                 "Hard rival: a larger economy, quicker reactions and three halls; attacks from minute six.", "Rival difícil: una economía mayor, reacciones más rápidas y tres cuarteles; ataca desde el minuto seis.",
@@ -765,7 +770,7 @@ namespace Emberfield.Localization
             P(t,
                 "Free alpha previews are for offline play. Listed prices are provisional.", "Las pruebas gratuitas de la alfa son para jugar sin conexión. Los precios son provisionales.",
                 "Make your army your own. Every item changes appearance only.", "Haz tuyo tu ejército. Cada objeto solo cambia la apariencia.",
-                "Architecture collection", "Colección de arquitectura", "Army appearance", "Apariencia del ejército",
+                "Architecture collection", "Colección de arquitectura", "Army appearance", "Apariencia del ejército", "Character skin", "Aspecto de personaje",
                 "Offline army appearance restored.", "Apariencia del ejército sin conexión restablecida.",
                 "RESET OFFLINE APPEARANCE", "RESTABLECER APARIENCIA SIN CONEXIÓN", "SYNCING…", "SINCRONIZANDO…", "SYNC ONLINE WARDROBE", "SINCRONIZAR VESTUARIO EN LÍNEA",
                 "OFFLINE PREVIEW EQUIPPED", "PRUEBA SIN CONEXIÓN EQUIPADA", "TRY FREE IN OFFLINE PLAY", "PROBAR GRATIS SIN CONEXIÓN",

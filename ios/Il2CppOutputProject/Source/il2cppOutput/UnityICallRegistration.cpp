@@ -538,6 +538,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AnimationClip_Internal_CreateAnimationClip();
 		Register_UnityEngine_AnimationClip_Internal_CreateAnimationClip();
 
+		//System.Void UnityEngine.AnimationClip::SampleAnimation_Injected(System.IntPtr,System.IntPtr,System.Single,UnityEngine.WrapMode)
+		void Register_UnityEngine_AnimationClip_SampleAnimation_Injected();
+		Register_UnityEngine_AnimationClip_SampleAnimation_Injected();
+
+		//UnityEngine.WrapMode UnityEngine.AnimationClip::get_wrapMode_Injected(System.IntPtr)
+		void Register_UnityEngine_AnimationClip_get_wrapMode_Injected();
+		Register_UnityEngine_AnimationClip_get_wrapMode_Injected();
+
 	//End Registrations for type : UnityEngine.AnimationClip
 
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -685,6 +693,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Animator::set_speed_Injected(System.IntPtr,System.Single)
 		void Register_UnityEngine_Animator_set_speed_Injected();
 		Register_UnityEngine_Animator_set_speed_Injected();
+
+		//System.Void UnityEngine.Animator::set_updateMode_Injected(System.IntPtr,UnityEngine.AnimatorUpdateMode)
+		void Register_UnityEngine_Animator_set_updateMode_Injected();
+		Register_UnityEngine_Animator_set_updateMode_Injected();
 
 		//UnityEngine.AnimatorCullingMode UnityEngine.Animator::get_cullingMode_Injected(System.IntPtr)
 		void Register_UnityEngine_Animator_get_cullingMode_Injected();

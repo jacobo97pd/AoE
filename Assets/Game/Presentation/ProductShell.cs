@@ -61,7 +61,7 @@ namespace Emberfield.Presentation
             var rule = Rect("Masthead rule", safe); Place(rule, new Vector2(.045f, .861f), new Vector2(.955f, .862f));
             rule.gameObject.AddComponent<Image>().color = new Color(AlphaTheme.Gold.r, AlphaTheme.Gold.g, AlphaTheme.Gold.b, .4f);
             content = Rect("Frontend content", safe); Place(content, new Vector2(.045f, .13f), new Vector2(.955f, .83f));
-            footer = Label("Footer", safe, "REALMS & FRONTIERS     /     TEN FACTIONS. FOUR BATTLEFIELDS.", 14, AlphaTheme.Muted);
+            footer = Label("Footer", safe, "REALMS & FRONTIERS     /     TWELVE FACTIONS. FOUR BATTLEFIELDS.", 14, AlphaTheme.Muted);
             Place(footer.rectTransform, new Vector2(.045f, .035f), new Vector2(.76f, .078f));
             var quit = Action(safe, "Quit game", "EXIT GAME", () => SafeQuit.Request(0));
             Place((RectTransform)quit.transform, new Vector2(.835f, .03f), new Vector2(.955f, .09f));
@@ -92,7 +92,7 @@ namespace Emberfield.Presentation
             for (int i = content.childCount - 1; i >= 0; i--) { var child = content.GetChild(i).gameObject; child.SetActive(false); UnityEngine.Object.Destroy(child); }
             footer.text = page == "store" ? "THE QUARTERMASTER     /     APPEARANCE ONLY"
                 : page == "challenges" ? "THE TRAINING GROUND     /     FIVE SHORT EXERCISES"
-                : "REALMS & FRONTIERS     /     TEN FACTIONS. FOUR BATTLEFIELDS.";
+                : "REALMS & FRONTIERS     /     TWELVE FACTIONS. FOUR BATTLEFIELDS.";
             if (page == "home") Home(); else if (page == "skirmish") Skirmish(); else if (page == "challenges") Challenges(); else if (page == "store") Store(); else Settings();
         }
         public void ReturnFromMatch()

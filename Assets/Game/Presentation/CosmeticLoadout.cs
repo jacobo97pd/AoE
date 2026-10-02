@@ -7,6 +7,9 @@ namespace Emberfield.Presentation
     [Serializable] public sealed class CosmeticCatalogItem
     {
         public string id, displayName, description, slot, targetId, realmId, styleId, currency;
+        // Character skins only: the faction whose targetId unit wears the skin, and the MeshyUnitVisuals model that
+        // replaces the unit's default one. The other slots leave both empty.
+        public string factionId, modelId;
         public int priceMinor;
     }
     [Serializable] public sealed class CosmeticEquippedItem { public string slot, targetId, itemId; }
@@ -47,7 +50,14 @@ namespace Emberfield.Presentation
         }
         public static CosmeticCatalogItem Find(string id)
         { foreach (var item in Catalog) if (item.id == id) return item; return null; }
-        private static string Key(CosmeticCatalogItem item) => item.realmId + ":" + item.slot + ":" + item.targetId;
+        /// <summary>The slot that swaps one faction's unit model for a skin's own.</summary>
+        public const string CharacterSlot = "character";
+        /// <summary>
+        /// What an equipped item occupies, as the server's wardrobe reports it: the target for most slots, and the faction
+        /// with the unit for a character skin, so the dwarves' and the clans' reedguard skins are worn together.
+        /// </summary>
+        public static string EquipmentTarget(CosmeticCatalogItem item) => item.slot == CharacterSlot ? item.factionId + ":" + item.targetId : item.targetId;
+        private static string Key(CosmeticCatalogItem item) => item.realmId + ":" + item.slot + ":" + EquipmentTarget(item);
         private static void LoadPreviews()
         {
             string root = NativeSmokeStorage.Root;
@@ -63,6 +73,12 @@ namespace Emberfield.Presentation
             LoadPreviews(); var item = Find(id); if (item == null) return false;
             previews[Key(item)] = id; SavePreviews(); return true;
         }
+        /// <summary>Wears an item as a local preview without saving it, for review fixtures: the player's own previews are untouched.</summary>
+        public static bool EquipTransientPreview(string id)
+        {
+            LoadPreviews(); var item = Find(id); if (item == null) return false;
+            previews[Key(item)] = id; Revision++; return true;
+        }
         public static void ClearPreviews() { LoadPreviews(); previews.Clear(); SavePreviews(); }
         private static void SavePreviews()
         {
@@ -77,7 +93,7 @@ namespace Emberfield.Presentation
             foreach (var entry in equipped ?? Array.Empty<CosmeticEquippedItem>())
             {
                 var item = Find(entry?.itemId);
-                if (item != null && item.slot == entry.slot && item.targetId == entry.targetId) next[Key(item)] = item.id;
+                if (item != null && item.slot == entry.slot && EquipmentTarget(item) == entry.targetId) next[Key(item)] = item.id;
             }
             bool changed = next.Count != target.Count;
             foreach (var entry in next) if (!target.TryGetValue(entry.Key, out string old) || old != entry.Value) changed = true;
@@ -93,13 +109,32 @@ namespace Emberfield.Presentation
             foreach (string id in equipped.Values)
             {
                 var item = Find(id);
-                if (item == null || item.realmId != "shared" && item.realmId != realmId) continue;
+                // A character skin swaps the model instead of painting it: ResolveCharacter answers for it.
+                if (item == null || item.slot == CharacterSlot || item.realmId != "shared" && item.realmId != realmId) continue;
                 int score = item.targetId == definitionId ? 100 : item.targetId == "*" && item.slot == "architecture" && IsBuilding(definitionId) ? 10 : 0;
                 if (score == 0) continue;
                 if (item.realmId == realmId) score++;
                 if (score > priority || score == priority && string.CompareOrdinal(item.id,fallback?.id) < 0) { fallback = item; priority = score; }
             }
             return fallback == null ? default : Style(fallback.styleId);
+        }
+        /// <summary>
+        /// The character skin this owner's units of <paramref name="definitionId"/> wear while fielded by
+        /// <paramref name="factionId"/> in a <paramref name="realmId"/> match, or null. Equipment is read as Resolve reads it:
+        /// local previews offline, the account's wardrobe for owner 1 and the opponent's for owner 2 online.
+        /// </summary>
+        public static CosmeticCatalogItem ResolveCharacter(string definitionId, string factionId, string realmId, int ownerId)
+        {
+            if (string.IsNullOrEmpty(factionId) || ownerId != 1 && (!IsOnlineSession || ownerId != 2)) return null;
+            LoadPreviews(); var equipped = IsOnlineSession ? (ownerId == 1 ? online : opponent) : previews;
+            CosmeticCatalogItem found = null;
+            foreach (string id in equipped.Values)
+            {
+                var item = Find(id);
+                if (item == null || item.slot != CharacterSlot || item.realmId != realmId || item.factionId != factionId || item.targetId != definitionId) continue;
+                if (found == null || string.CompareOrdinal(item.id, found.id) < 0) found = item;
+            }
+            return found;
         }
         public static bool IsBuilding(string id) => id == "hearth" || id == "shelter" || id == "muster_hall" || id == "storeyard" || id == "archive" || id == "supply_outpost" || id == "wall" || id == "gate" || id == "watchtower" || id == "keep" || id == "beast_lodge" || id == "siege_workshop";
         public static CosmeticVisualStyle Style(string id)
@@ -114,6 +149,10 @@ namespace Emberfield.Presentation
                 case "void_scale": return new CosmeticVisualStyle(id, new Color(.21f,.14f,.32f), new Color(.84f,.47f,.95f), .1f);
                 case "luminous_ward": return new CosmeticVisualStyle(id, new Color(.9f,.87f,.73f), new Color(1,.77f,.35f), .08f);
                 case "verdant_bloom": return new CosmeticVisualStyle(id, new Color(.27f,.55f,.31f), new Color(.98f,.66f,.76f), .05f);
+                // Character skins paint nothing: these name the accent beside them in the store.
+                case "forge_copper": return new CosmeticVisualStyle(id, new Color(.30f,.30f,.34f), new Color(.82f,.42f,.17f));
+                case "forest_leaf": return new CosmeticVisualStyle(id, new Color(.27f,.42f,.22f), new Color(.52f,.76f,.36f));
+                case "wanderer_grey": return new CosmeticVisualStyle(id, new Color(.38f,.42f,.36f), new Color(.45f,.60f,.82f));
                 default: return default;
             }
         }

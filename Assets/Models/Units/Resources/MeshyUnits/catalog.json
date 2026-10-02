@@ -11,7 +11,8 @@
                 "serevin",
                 "english"
             ],
-            "triangles": 4086
+            "triangles": 4086,
+            "cosmetic": false
         },
         {
             "id": "kingdom_worker",
@@ -24,7 +25,8 @@
                 "serevin",
                 "english"
             ],
-            "triangles": 4072
+            "triangles": 4072,
+            "cosmetic": false
         },
         {
             "id": "mountain_worker",
@@ -35,7 +37,8 @@
             "factions": [
                 "skeld"
             ],
-            "triangles": 4024
+            "triangles": 4024,
+            "cosmetic": false
         },
         {
             "id": "mountain_warrior",
@@ -46,7 +49,8 @@
             "factions": [
                 "skeld"
             ],
-            "triangles": 3964
+            "triangles": 3964,
+            "cosmetic": false
         },
         {
             "id": "mountain_archer",
@@ -57,7 +61,8 @@
             "factions": [
                 "skeld"
             ],
-            "triangles": 4018
+            "triangles": 4018,
+            "cosmetic": false
         },
         {
             "id": "mountain_pikeman",
@@ -68,7 +73,8 @@
             "factions": [
                 "skeld"
             ],
-            "triangles": 4182
+            "triangles": 4182,
+            "cosmetic": false
         },
         {
             "id": "dwarf_warrior",
@@ -79,7 +85,8 @@
             "factions": [
                 "drakeforged"
             ],
-            "triangles": 3994
+            "triangles": 3994,
+            "cosmetic": false
         },
         {
             "id": "dwarf_miner",
@@ -90,7 +97,8 @@
             "factions": [
                 "drakeforged"
             ],
-            "triangles": 4036
+            "triangles": 4036,
+            "cosmetic": false
         },
         {
             "id": "elf_archer",
@@ -101,7 +109,8 @@
             "factions": [
                 "verdant"
             ],
-            "triangles": 3930
+            "triangles": 3930,
+            "cosmetic": false
         },
         {
             "id": "elf_sentinel",
@@ -112,7 +121,8 @@
             "factions": [
                 "verdant"
             ],
-            "triangles": 4138
+            "triangles": 4138,
+            "cosmetic": false
         },
         {
             "id": "orc_warrior",
@@ -123,7 +133,8 @@
             "factions": [
                 "ashen"
             ],
-            "triangles": 4059
+            "triangles": 4059,
+            "cosmetic": false
         },
         {
             "id": "orc_troll",
@@ -134,7 +145,8 @@
             "factions": [
                 "ashen"
             ],
-            "triangles": 4175
+            "triangles": 4175,
+            "cosmetic": false
         },
         {
             "id": "kingdom_archer",
@@ -147,7 +159,8 @@
                 "serevin",
                 "english"
             ],
-            "triangles": 4236
+            "triangles": 4236,
+            "cosmetic": false
         },
         {
             "id": "orc_worker",
@@ -158,7 +171,8 @@
             "factions": [
                 "ashen"
             ],
-            "triangles": 4104
+            "triangles": 4104,
+            "cosmetic": false
         },
         {
             "id": "orc_archer",
@@ -169,7 +183,8 @@
             "factions": [
                 "ashen"
             ],
-            "triangles": 4139
+            "triangles": 4139,
+            "cosmetic": false
         },
         {
             "id": "elf_worker",
@@ -180,7 +195,8 @@
             "factions": [
                 "verdant"
             ],
-            "triangles": 4241
+            "triangles": 4241,
+            "cosmetic": false
         },
         {
             "id": "dwarf_crossbowman",
@@ -191,7 +207,8 @@
             "factions": [
                 "drakeforged"
             ],
-            "triangles": 4167
+            "triangles": 4167,
+            "cosmetic": false
         },
         {
             "id": "kingdom_threadkeeper",
@@ -202,7 +219,8 @@
             "factions": [
                 "aven"
             ],
-            "triangles": 4120
+            "triangles": 4120,
+            "cosmetic": false
         },
         {
             "id": "elf_grove_guardian",
@@ -213,7 +231,8 @@
             "factions": [
                 "verdant"
             ],
-            "triangles": 4213
+            "triangles": 4213,
+            "cosmetic": false
         },
         {
             "id": "kingdom_knight",
@@ -226,7 +245,8 @@
                 "serevin",
                 "english"
             ],
-            "triangles": 5277
+            "triangles": 5277,
+            "cosmetic": false
         },
         {
             "id": "kingdom_ashrunner",
@@ -237,7 +257,8 @@
             "factions": [
                 "serevin"
             ],
-            "triangles": 5250
+            "triangles": 5250,
+            "cosmetic": false
         },
         {
             "id": "mountain_rider",
@@ -248,7 +269,8 @@
             "factions": [
                 "skeld"
             ],
-            "triangles": 5149
+            "triangles": 5149,
+            "cosmetic": false
         },
         {
             "id": "dwarf_rider",
@@ -259,7 +281,8 @@
             "factions": [
                 "drakeforged"
             ],
-            "triangles": 5194
+            "triangles": 5194,
+            "cosmetic": false
         },
         {
             "id": "elf_rider",
@@ -270,7 +293,8 @@
             "factions": [
                 "verdant"
             ],
-            "triangles": 5283
+            "triangles": 5283,
+            "cosmetic": false
         },
         {
             "id": "orc_rider",
@@ -281,7 +305,8 @@
             "factions": [
                 "ashen"
             ],
-            "triangles": 4757
+            "triangles": 4757,
+            "cosmetic": false
         },
         {
             "id": "dwarf_ember_drake",
@@ -292,7 +317,8 @@
             "factions": [
                 "drakeforged"
             ],
-            "triangles": 5290
+            "triangles": 5290,
+            "cosmetic": false
         },
         {
             "id": "sultanate_warrior",
@@ -303,7 +329,8 @@
             "factions": [
                 "sultanate"
             ],
-            "triangles": 4072
+            "triangles": 4072,
+            "cosmetic": false
         },
         {
             "id": "sultanate_worker",
@@ -314,7 +341,8 @@
             "factions": [
                 "sultanate"
             ],
-            "triangles": 3963
+            "triangles": 3963,
+            "cosmetic": false
         },
         {
             "id": "sultanate_archer",
@@ -325,7 +353,8 @@
             "factions": [
                 "sultanate"
             ],
-            "triangles": 4306
+            "triangles": 4306,
+            "cosmetic": false
         },
         {
             "id": "sultanate_camel_rider",
@@ -336,7 +365,8 @@
             "factions": [
                 "sultanate"
             ],
-            "triangles": 5427
+            "triangles": 5427,
+            "cosmetic": false
         },
         {
             "id": "sultanate_camel_archer",
@@ -347,7 +377,8 @@
             "factions": [
                 "sultanate"
             ],
-            "triangles": 5257
+            "triangles": 5257,
+            "cosmetic": false
         },
         {
             "id": "sahel_worker",
@@ -358,7 +389,8 @@
             "factions": [
                 "sahel"
             ],
-            "triangles": 4176
+            "triangles": 4176,
+            "cosmetic": false
         },
         {
             "id": "sahel_spearman",
@@ -369,7 +401,8 @@
             "factions": [
                 "sahel"
             ],
-            "triangles": 4132
+            "triangles": 4132,
+            "cosmetic": false
         },
         {
             "id": "sahel_archer",
@@ -380,7 +413,8 @@
             "factions": [
                 "sahel"
             ],
-            "triangles": 4203
+            "triangles": 4203,
+            "cosmetic": false
         },
         {
             "id": "sahel_horse_rider",
@@ -391,7 +425,8 @@
             "factions": [
                 "sahel"
             ],
-            "triangles": 5456
+            "triangles": 5456,
+            "cosmetic": false
         },
         {
             "id": "sahel_quilted_lancer",
@@ -402,7 +437,44 @@
             "factions": [
                 "sahel"
             ],
-            "triangles": 5293
+            "triangles": 5293,
+            "cosmetic": false
+        },
+        {
+            "id": "skin_mountain_guard",
+            "name": "Guerrero de la Montaña",
+            "culture": "dwarf",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/skin_mountain_guard",
+            "factions": [
+                "drakeforged"
+            ],
+            "triangles": 5674,
+            "cosmetic": true
+        },
+        {
+            "id": "skin_forest_archer",
+            "name": "Arquero del Bosque",
+            "culture": "elf",
+            "unit": "stringwarden",
+            "prefab": "MeshyUnits/skin_forest_archer",
+            "factions": [
+                "verdant"
+            ],
+            "triangles": 5586,
+            "cosmetic": true
+        },
+        {
+            "id": "skin_wandering_ranger",
+            "name": "Explorador Errante",
+            "culture": "mountain",
+            "unit": "reedguard",
+            "prefab": "MeshyUnits/skin_wandering_ranger",
+            "factions": [
+                "skeld"
+            ],
+            "triangles": 5705,
+            "cosmetic": true
         }
     ]
 }

@@ -69,6 +69,18 @@ The pirates are a shared company of the historical realm, not a fifth faction. T
 
 At an equal 720-resource budget, the raiders narrowly beat Reedguards and beat gunners, but lose to Striders and Stringwardens. Gunners beat Reedguards and lose to Stringwardens and Striders. The Captain defeats three Reedguards, Striders or Stringwardens. The offline AI rotates through every trainable soldier, so the company appears in AI armies; it trains one Treasure Seeker once six workers are gathering. The [pirate integration notes](../art/pirate-crew-integration.md) record the measurements.
 
+## Naval hulls (2 October 2026)
+
+Each naval faction launches one hull from the shared Dock, and the three hulls form the realm's counter triangle: the sloop beats the frigate, the frigate beats the galleon and the galleon beats the sloop. All three are 1 m discs on the water grid; only their rules differ. The duels, the AI and the locked Skeleton Fleet are in [NAVAL_SLICE.md](NAVAL_SLICE.md).
+
+| Hull / faction | Health / armor | Damage / interval | Edge range | Speed | Bonus | Cost / population | Troops |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Pirate Sloop / Piratas | 240 / 1 | 8 / 0.8 s | 3.5 m | 4.8 m/s | ×1.8 against Naval (boarding), ×1.3 against structures | 20 Food + 130 Wood / 2 | 6 |
+| English Frigate / Marina inglesa | 380 / 0 | 18 / 2.0 s | 6.5 m | 4.0 m/s | ×3.4 against Heavy, ×1.2 against structures | 40 Food + 200 Wood / 3 | 5 |
+| Spanish Galleon / Marina española | 600 / 10 | 32 / 2.4 s | 5.5 m | 2.8 m/s | ×1.5 against structures | 60 Food + 280 Wood / 4 | 10 |
+
+The navies' land armies are the shared kingdom roster (Tender, Reedguard, Stringwarden, Strider and the siege engines); the English navy's ranged troops and the Spanish navy's infantry gain one armor. The pirates' Treasure Seekers carry two extra resources per trip, twelve in all.
+
 ## Later bounded roster
 
 | Working name | Role | Roster rule / decision | Earliest phase |

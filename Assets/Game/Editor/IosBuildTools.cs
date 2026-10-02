@@ -41,10 +41,10 @@ namespace Emberfield.Editor
             bundleId = Default(bundleId, "com.emberfield.jpedrero");
             if (!Regex.IsMatch(bundleId, @"^[A-Za-z0-9][A-Za-z0-9-]*(\.[A-Za-z0-9][A-Za-z0-9-]*)+$"))
                 throw new BuildFailedException("EMBERFIELD_BUNDLE_ID must be an explicit reverse-domain identifier without wildcards.");
-            buildNumber = Default(buildNumber, "2");
+            buildNumber = Default(buildNumber, "3");
             if (!int.TryParse(buildNumber, NumberStyles.None, CultureInfo.InvariantCulture, out int number) || number < 1)
                 throw new BuildFailedException("EMBERFIELD_IOS_BUILD_NUMBER must be a positive integer; increment it for each TestFlight upload.");
-            version = Default(version, "0.3.1");
+            version = Default(version, "0.3.2");
             if (!Regex.IsMatch(version, @"^[0-9]+\.[0-9]+\.[0-9]+$"))
                 throw new BuildFailedException("EMBERFIELD_IOS_VERSION must contain three numeric components, for example 0.3.0.");
             serverUrl = string.IsNullOrWhiteSpace(serverUrl) ? "" : serverUrl.Trim();

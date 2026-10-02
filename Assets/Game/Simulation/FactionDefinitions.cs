@@ -6,7 +6,8 @@ namespace Emberfield.Simulation
     public enum FactionKind { AvenCompact = 0, SerevinMarch = 1, MirajSultanate = 2, SkeldClans = 3,
         SolarKingdom = 4, VerdantCovenant = 5, AshenDominion = 6, DrakeforgedClans = 7,
         EnglishKingdom = 8, PirateBrotherhood = 9,
-        // 10-12 stay free for the three planned naval factions.
+        // The naval realm's two navies. 12 stays free for the Skeleton Fleet, locked until its crews exist.
+        EnglishNavy = 10, SpanishNavy = 11,
         DesertSultanate = 13, SahelConfederation = 14 }
     public enum StoreyardCharter { None = 0, Logistics = 1, Muster = 2 }
     public enum RelocationStage { None = 0, Packing = 1, Packed = 2, Deploying = 3 }

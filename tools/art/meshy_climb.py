@@ -25,7 +25,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from meshy_unit import ROOT, api_key, balance, call, download, save, strip, urls, wait  # noqa: E402
+from meshy_unit import ROOT, api_key, balance, call, download, save, start, strip, urls, wait  # noqa: E402
 
 CLIMB = ('Climb', 438, 'Ladder_Climb_Loop')
 PRICE = 3
@@ -86,8 +86,9 @@ def main():
         raw = Path(os.path.expandvars(os.path.expanduser(roster['raw']))) / unit
         raw.mkdir(parents=True, exist_ok=True)
         try:
-            task_id = call('POST', '/v1/animations', key, {'rig_task_id': manifest['steps']['rig']['task']['id'],
-                                                          'action_id': CLIMB[1]})['result']
+            # Noted in the manifest before the wait, so a dropped connection resumes this task instead of paying again.
+            task_id = start(manifest, manifest_path, 'climb', key, '/v1/animations',
+                            {'rig_task_id': manifest['steps']['rig']['task']['id'], 'action_id': CLIMB[1]})
         except RuntimeError as error:
             # An expired rig task or a refused call costs nothing; report it and go on with the others.
             print('%s: refused: %s' % (unit, error), flush=True)
@@ -123,6 +124,7 @@ def main():
         manifest['credits'] = (manifest.get('credits') or 0) + PRICE
         manifest['steps']['climb'] = {'task': strip(task), 'credits': PRICE, 'balance_after': balance(key),
                                       'finished_utc': datetime.now(timezone.utc).isoformat()}
+        manifest.get('pending', {}).pop('climb', None)
         save(manifest, manifest_path)
         done.append(unit)
         print('  %s climb cost %d credits; run total %d' % (unit, PRICE, spent), flush=True)

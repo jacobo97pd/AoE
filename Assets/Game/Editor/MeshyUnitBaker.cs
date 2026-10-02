@@ -28,7 +28,7 @@ namespace Emberfield.Editor
         private static readonly string[] States = { "Idle", "Walk", "Run", "Attack", "Hit", "Death", "Work", "Aim", "Climb" };
 
         [Serializable] private sealed class Roster { public RosterUnit[] units; }
-        [Serializable] private sealed class RosterUnit { public string id, name, culture, unit, role; public string[] factions; public float gameHeight; }
+        [Serializable] private sealed class RosterUnit { public string id, name, culture, unit, role; public string[] factions; public float gameHeight; public bool cosmetic; }
         [Serializable] private sealed class Manifest { public Finish finish; }
         [Serializable] private sealed class Finish { public float walkMetresPerSecond, runMetresPerSecond, heightMetres; public int triangles; }
         [Serializable] private sealed class BuildingRoster { public string output; public BuildingStyleMap styles; public RosterBuilding[] buildings; }
@@ -238,7 +238,7 @@ namespace Emberfield.Editor
                 if (!prefab.GetComponent<CorsairAnimationDriver>().HasValidRig) throw new InvalidOperationException("rig does not validate");
                 Debug.Log("EMBERFIELD_MESHY_UNIT " + unit.id + " triangles=" + triangles + " clips=" + string.Join(",", animations.Select(c => c.name)) +
                     " height=" + height.ToString("0.00") + " fit=" + fit.ToString("0.000") + " walk=" + driver.WalkMetresPerSecond.ToString("0.00") + " run=" + driver.RunMetresPerSecond.ToString("0.00"));
-                return new MeshyUnitVisuals.Entry { id = unit.id, name = unit.name, culture = unit.culture, unit = unit.unit, factions = unit.factions, prefab = "MeshyUnits/" + unit.id, triangles = triangles };
+                return new MeshyUnitVisuals.Entry { id = unit.id, name = unit.name, culture = unit.culture, unit = unit.unit, factions = unit.factions, prefab = "MeshyUnits/" + unit.id, triangles = triangles, cosmetic = unit.cosmetic };
             }
             finally { Object.DestroyImmediate(model); }
         }

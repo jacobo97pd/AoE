@@ -43,11 +43,13 @@ namespace Emberfield.Presentation
             {
                 var faction = FactionFor(player.Id);
                 if (faction == null) continue;
+                // A navy's army and town are its kingdom's (AlphaWorldArt.Culture).
+                var culture = AlphaWorldArt.Culture(faction.Kind);
                 foreach (var unit in world.Definition.Units)
                 {
-                    var entry = MeshyUnitVisuals.Enabled ? MeshyUnitVisuals.Resolve(unit.Id, faction.Kind) : null;
+                    var entry = MeshyUnitVisuals.Enabled ? MeshyUnitVisuals.ResolveFor(unit.Id, culture, realm, player.Id) : null;
                     if (entry != null) { if (seen.Add(entry.id + "/" + player.Id) && MeshyUnitVisuals.Create(entry, player.Id, prewarm) != null) PrewarmedModels++; continue; }
-                    string reference = ReferenceCharacterVisuals.Resolve(unit.Id, faction.Kind, realm);
+                    string reference = ReferenceCharacterVisuals.Resolve(unit.Id, culture, realm);
                     var character = reference != null ? ReferenceCharacterVisuals.Find(reference) : null;
                     if (character != null && character.realm == realm)
                     {
@@ -55,19 +57,19 @@ namespace Emberfield.Presentation
                         if (prefab) { UnityEngine.Object.Instantiate(prefab, prewarm, false); PrewarmedModels++; }
                         continue;
                     }
-                    if (alphaEnabled && MeshyPropVisuals.ResolveSiege(unit.Id, faction.Kind) is MeshyPropVisuals.Entry siege && seen.Add(siege.id + "/" + player.Id) &&
-                        MeshyPropVisuals.TrySiege(unit.Id, player.Id, faction.Kind, prewarm) != null) PrewarmedModels++;
+                    if (alphaEnabled && MeshyPropVisuals.ResolveSiege(unit.Id, culture) is MeshyPropVisuals.Entry siege && seen.Add(siege.id + "/" + player.Id) &&
+                        MeshyPropVisuals.TrySiege(unit.Id, player.Id, culture, prewarm) != null) PrewarmedModels++;
                     // A sea to sail: the hull this player can launch.
                     if (alphaEnabled && unit.Domain == MovementDomain.Water && world.HasDeepWater && world.ValidateUnitRecruitment(player.Id, unit.Id).Accepted &&
-                        MeshyPropVisuals.ResolveShip(unit.Id, faction.Kind) is MeshyPropVisuals.Entry ship && seen.Add(ship.id + "/" + player.Id) &&
-                        MeshyPropVisuals.TryShip(unit.Id, player.Id, faction.Kind, prewarm) != null) PrewarmedModels++;
+                        MeshyPropVisuals.ResolveShip(unit.Id, culture) is MeshyPropVisuals.Entry ship && seen.Add(ship.id + "/" + player.Id) &&
+                        MeshyPropVisuals.TryShip(unit.Id, player.Id, culture, prewarm) != null) PrewarmedModels++;
                 }
                 foreach (var building in world.Definition.Buildings)
                 {
-                    var entry = MeshyBuildingVisuals.Resolve(building.Id, faction.Kind);
+                    var entry = MeshyBuildingVisuals.Resolve(building.Id, culture);
                     if (entry == null || !seen.Add(entry.id + "/" + player.Id)) continue;
                     float cell = world.Map.CellSizeMillimetres * .001f;
-                    if (MeshyBuildingVisuals.TryCreate(building.Id, player.Id, faction.Kind, prewarm, building.WidthCells * cell, building.DepthCells * cell) != null) PrewarmedModels++;
+                    if (MeshyBuildingVisuals.TryCreate(building.Id, player.Id, culture, prewarm, building.WidthCells * cell, building.DepthCells * cell) != null) PrewarmedModels++;
                 }
             }
             // What every match shows sooner or later: a selection ring, an owner ring, the health and research bars and a hit.

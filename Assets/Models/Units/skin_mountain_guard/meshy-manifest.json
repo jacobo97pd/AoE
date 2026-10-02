@@ -1,0 +1,239 @@
+{
+  "id": "skin_mountain_guard",
+  "entry": {
+    "id": "skin_mountain_guard",
+    "name": "Guerrero de la Montaña",
+    "culture": "dwarf",
+    "factions": [
+      "drakeforged"
+    ],
+    "cosmetic": true,
+    "unit": "reedguard",
+    "role": "heavy",
+    "multi": {
+      "images": [
+        "D:/EmberfieldWorkingCache/cosmetics-refs/crops/dwarf_front_clean.png",
+        "D:/EmberfieldWorkingCache/cosmetics-refs/crops/dwarf_back_clean.png"
+      ],
+      "ai_model": "meshy-6-lite",
+      "polycount": 5500
+    },
+    "groundIdle": true,
+    "clipsFrom": "D:/EmberfieldWorkingCache/meshy-units-prev/skin_mountain_guard",
+    "height": 1.35,
+    "gameHeight": 1.84,
+    "teamBoxes": [
+      [
+        -0.15,
+        -0.04,
+        -0.3,
+        0.3,
+        0.25,
+        0.47
+      ],
+      [
+        0.04,
+        0.15,
+        -0.3,
+        0.3,
+        0.25,
+        0.47
+      ]
+    ],
+    "teamWeight": 0.7
+  },
+  "steps": {
+    "model": {
+      "task": {
+        "id": "01a0fbc1-f1dc-703c-be69-93450c842ca1",
+        "type": "multi-image-to-3d",
+        "name": "",
+        "art_style": "",
+        "object_prompt": "",
+        "style_prompt": "",
+        "negative_prompt": "",
+        "texture_prompt": "",
+        "texture_image_url": "",
+        "text_style_prompt": "",
+        "image_style_url": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790930187744,
+        "progress": 100,
+        "started_at": 1790930187753,
+        "finished_at": 1790930285224,
+        "expires_at": 1791189485224,
+        "task_error": null,
+        "model_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc1-f1dc-703c-be69-93450c842ca1/output/model.glb",
+        "model_urls": {
+          "glb": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc1-f1dc-703c-be69-93450c842ca1/output/model.glb"
+        },
+        "thumbnail_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc1-f1dc-703c-be69-93450c842ca1/output/preview.png",
+        "texture_urls": [
+          {
+            "base_color": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc1-f1dc-703c-be69-93450c842ca1/output/texture_0.png",
+            "metallic": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc1-f1dc-703c-be69-93450c842ca1/output/texture_0_metallic.png",
+            "roughness": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc1-f1dc-703c-be69-93450c842ca1/output/texture_0_roughness.png",
+            "normal": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc1-f1dc-703c-be69-93450c842ca1/output/texture_0_normal.png"
+          }
+        ],
+        "consumed_credits": 15
+      },
+      "credits": 15,
+      "balance_after": 63,
+      "finished_utc": "2026-10-02T08:38:13.201156+00:00"
+    },
+    "rig": {
+      "task": {
+        "id": "01a0fbc4-c5ea-746d-8f6b-819866501139",
+        "type": "rig",
+        "name": "",
+        "status": "SUCCEEDED",
+        "created_at": 1790930375385,
+        "progress": 100,
+        "started_at": 1790930375394,
+        "finished_at": 1790930387377,
+        "expires_at": 1791189587377,
+        "task_error": null,
+        "result": {
+          "rigged_character_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc4-c5ea-746d-8f6b-819866501139/output/Character_output.fbx",
+          "rigged_character_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc4-c5ea-746d-8f6b-819866501139/output/Character_output.glb",
+          "basic_animations": {
+            "walking_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc4-c5ea-746d-8f6b-819866501139/output/Animation_Walking_withSkin.glb",
+            "walking_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc4-c5ea-746d-8f6b-819866501139/output/Animation_Walking_withSkin.fbx",
+            "walking_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc4-c5ea-746d-8f6b-819866501139/output/Animation_Walking_withSkin_armature.glb",
+            "running_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc4-c5ea-746d-8f6b-819866501139/output/Animation_Running_withSkin.glb",
+            "running_fbx_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc4-c5ea-746d-8f6b-819866501139/output/Animation_Running_withSkin.fbx",
+            "running_armature_glb_url": "https://assets.meshy.ai/3fb686bd-1ba4-4a03-8176-3265d2a0b034/tasks/01a0fbc4-c5ea-746d-8f6b-819866501139/output/Animation_Running_withSkin_armature.glb"
+          }
+        },
+        "consumed_credits": 5
+      },
+      "credits": 5,
+      "balance_after": 58,
+      "finished_utc": "2026-10-02T08:39:57.747638+00:00"
+    }
+  },
+  "files": {
+    "model_glb": {
+      "file": "skin_mountain_guard_model.glb",
+      "bytes": 10031372,
+      "sha256": "0cb9013485b330593456e100b0e9fc7c9e0243f7dff1a3f3019491317fa1ef4b"
+    },
+    "thumbnail": {
+      "file": "thumbnail.png",
+      "bytes": 102778,
+      "sha256": "d4dd8083225846e5c3efe4ec19be723f3503b0d177b27a925db38e5a0bfb385b"
+    },
+    "texture_base_color": {
+      "file": "skin_mountain_guard_base_color.png",
+      "bytes": 4503153,
+      "sha256": "2c4fcbd6a925343399078350dab2a92e1d03cf99efc0b9a6d793b8a04cb6dd0f"
+    },
+    "texture_metallic": {
+      "file": "skin_mountain_guard_metallic.png",
+      "bytes": 33260,
+      "sha256": "128f15b9c57ed679fb704b2e0a87ddad6a911c85784bf4408d4528d0db2d33c0"
+    },
+    "texture_roughness": {
+      "file": "skin_mountain_guard_roughness.png",
+      "bytes": 1440138,
+      "sha256": "9e97b049796751a5a712c925320d43bfd22b10cdacabd1cc009026d8af1e4c04"
+    },
+    "texture_normal": {
+      "file": "skin_mountain_guard_normal.png",
+      "bytes": 5319398,
+      "sha256": "beb12b5c27899cf8e1e72bf385e34cc5743b5969b88d1e78c3adde35dffeef06"
+    },
+    "rigged_character_fbx": {
+      "file": "skin_mountain_guard_rigged_character.fbx",
+      "bytes": 3040572,
+      "sha256": "0cc2f3f4c67b03fd22a349b973d531ecedad5bc31580b6ac03d695000a936b0b"
+    },
+    "rigged_character_glb": {
+      "file": "skin_mountain_guard_rigged_character.glb",
+      "bytes": 10454500,
+      "sha256": "6a995a0a530d12080417bc531c9ae7cb56613a783396eab3e4e3123d5b04e139"
+    },
+    "walking_glb": {
+      "file": "skin_mountain_guard_walking.glb",
+      "bytes": 10434724,
+      "sha256": "2b7a4dab5d1f689777ef3a695c7f0b83b8dc351496c345a2cfc3a749ba4e0525"
+    },
+    "walking_fbx": {
+      "file": "skin_mountain_guard_walking.fbx",
+      "bytes": 3078476,
+      "sha256": "934e630f916eae5d15503908e5d558c0857f3c5c0119c007b850c3be59db0c53"
+    },
+    "walking_armature_glb": {
+      "file": "skin_mountain_guard_walking_armature.glb",
+      "bytes": 90016,
+      "sha256": "33fa0d8e1fc993df65bdcbabe5d23bc3593b596faf783949eb36ffa59cb5465d"
+    },
+    "running_glb": {
+      "file": "skin_mountain_guard_running.glb",
+      "bytes": 10424100,
+      "sha256": "7e6f98c46ba340a88ec860f7d19f84c0541ecda28ab1ac971beb71a93606286f"
+    },
+    "running_fbx": {
+      "file": "skin_mountain_guard_running.fbx",
+      "bytes": 3061340,
+      "sha256": "07aa1c67cdfa8b1338fa64c8d2c2ccdda38a8f62ba798ec5ba0cb069dab54fc4"
+    },
+    "running_armature_glb": {
+      "file": "skin_mountain_guard_running_armature.glb",
+      "bytes": 79380,
+      "sha256": "6783294de1561d497e87d5b4df9bae0c5a6ecbeec8de2ec0b70fc8ccad6612d6"
+    }
+  },
+  "credits": 20,
+  "inputs": [
+    {
+      "file": "dwarf_front_clean.png",
+      "width": 1092,
+      "height": 920,
+      "bytes": 186475,
+      "sha256": "358cdd73e6c264eb4196dcf67c5250e7ca9e638faef4cf343c04d2400c37a6a1"
+    },
+    {
+      "file": "dwarf_back_clean.png",
+      "width": 1092,
+      "height": 920,
+      "bytes": 186592,
+      "sha256": "ad28e34091adf4f70cd74fcc5db8ad63f2af6f5fe37ba9bb92d953b4618d2b8a"
+    }
+  ],
+  "request": {
+    "endpoint": "/v1/multi-image-to-3d",
+    "ai_model": "meshy-6-lite",
+    "should_texture": true,
+    "enable_pbr": true,
+    "should_remesh": true,
+    "topology": "triangle",
+    "target_polycount": 5500,
+    "pose_mode": "t-pose",
+    "target_formats": [
+      "glb"
+    ]
+  },
+  "pending": {},
+  "finish": {
+    "states": [
+      "Attack",
+      "Climb",
+      "Death",
+      "Hit",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "triangles": 5674,
+    "bones": 24,
+    "walkMetresPerSecond": 1.014,
+    "runMetresPerSecond": 2.611,
+    "climbMetresPerSecond": 0.194,
+    "heightMetres": 1.329,
+    "groundLiftMetres": 0.0653,
+    "toneGamma": 0.914,
+    "teamMaskCoverage": 0.0605
+  }
+}

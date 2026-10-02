@@ -88,7 +88,7 @@ namespace Emberfield.Presentation
             factionChoice.text = FrontierCodex.Name(controls.ChosenFaction);
             mapChoice.text = FrontierCodex.MapName(controls.ChosenMap);
             difficultyChoice.text = "Rival: " + controls.ChosenDifficulty;
-            if (!playing && controls.ChosenRealm == "naval") description.text = "Piratas contra piratas en Sapphire Coast: muelles, balandras y desembarcos.\nMarina inglesa, Marina española y Flota esquelética siguen bloqueadas; faltan ejércitos y reglas propias.\nConquest: destruye los Hearths. Dominion: controla los faros.";
+            if (!playing && controls.ChosenRealm == "naval") description.text = FrontierCodex.NavalBriefing + "\n" + FrontierCodex.NavalCounters + "\nConquest: destruye los Hearths. Dominion: controla los faros.";
             conquest.text = (controls.ChosenMode == VictoryMode.Conquest ? "✓  " : "") + "Conquest / destroy the Hearths";
             dominion.text = (controls.ChosenMode == VictoryMode.Dominion ? "✓  " : "") + "Dominion / hold the beacons";
             start.gameObject.SetActive(!playing); close.gameObject.SetActive(!finished);

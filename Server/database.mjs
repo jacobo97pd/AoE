@@ -3,6 +3,7 @@ import { mkdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { acquireDatabaseLock } from './database-lock.mjs';
 import { ratingKey } from './content-realms.mjs';
+import { equipmentTarget } from './cosmetics.mjs';
 
 export const RANK_BANDS = Object.freeze([
   [0, 'Bronze'], [100, 'Silver'], [250, 'Gold'], [450, 'Platinum'],
@@ -169,7 +170,7 @@ export class AccountDatabase {
     });
   }
   equipCosmetic(accountId, item) {
-    this.db.prepare('INSERT INTO cosmetic_equipment VALUES(?,?,?,?) ON CONFLICT(account_id,slot,target_id) DO UPDATE SET item_id=excluded.item_id').run(accountId, item.slot, item.targetId, item.id);
+    this.db.prepare('INSERT INTO cosmetic_equipment VALUES(?,?,?,?) ON CONFLICT(account_id,slot,target_id) DO UPDATE SET item_id=excluded.item_id').run(accountId, item.slot, equipmentTarget(item), item.id);
   }
   history(accountId, limit = 25, realmId = null) {
     return this.db.prepare(`SELECT m.*,p.slot,p.faction_id,p.statistics_json,p.rank_points_before,p.rank_points_after,

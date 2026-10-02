@@ -31,7 +31,9 @@ Unity -batchmode -executeMethod Emberfield.Editor.MeshyUnitBaker.Run -quit
 - optionally `rigidParts` (`{"bone": "Spine02", "minSize": 0.5, "clearBelow": 0.5}`), for a spear, bow or shield
   slung on the back that Meshy's auto-rig spread over the arms, neck and legs. Every separate piece of surface other
   than the body whose longest side reaches `minSize` of the height rides that bone rigidly, and `clearBelow` strips
-  arm, neck and head weights from the coat hem below that share of the height. The three sahel bipeds carry it.
+  arm, neck and head weights from the coat hem below that share of the height. The three sahel bipeds carry it;
+- optionally `teamBoxes`, `teamValue` and `teamWeight`, which mark the owner-colour cloth by where it is and how bright
+  it is when its hue is no different from the rest of the figure (the store skins, below).
 
 The paid script records each step in `meshy-manifest.json` before starting the next, so a rerun resumes instead of
 paying twice. Meshy's own downloads stay outside the repository, in `D:/EmberfieldWorkingCache/meshy-units`. They are
@@ -201,6 +203,87 @@ python tools/art/meshy_concept.py <id>    # paid: 6 credits with nano-banana-2
 The roster entry carries a `concept` block with the prompt and the units whose crops set the style. The picture lands
 at `Assets/Models/Units/<id>/concept.png`, and the entry's `sheet` points there. Nothing is modelled until someone has
 looked at the picture. After that, `meshy_unit.py` models it exactly as it models a figure cut from the user's sheets.
+
+## Character skins (store cosmetics)
+
+Three figures from the user's own pictures are sold in the store as appearance-only skins: the Mountain Guard
+(`skin_mountain_guard`, the Drakeforged reedguard), the Forest Archer (`skin_forest_archer`, the Verdant stringwarden)
+and the Wandering Ranger (`skin_wandering_ranger`, the Skeld reedguard). They are modelled **from the user's pictures
+themselves**, with no restyling in between: the first set went through `meshy_concept.py` (image-to-image), which changed
+faces and details, and the user answered that the characters were not the ones they had given. That set is gone; these
+replace it under the same ids, so the store, the server catalogue and the code did not change.
+
+The roster entry (`tools/art/meshy_units.json`) differs from an ordinary unit's:
+
+- `"cosmetic": true`. Its `unit`, `role`, `height`, `gameHeight` and `factions` are those of the default it dresses (the
+  clips are the default's, climb included), but `MeshyUnitVisuals.Resolve` skips it: a skin is never a faction's default
+  model. The baker copies the flag into `Resources/MeshyUnits/catalog.json`.
+- `"multi": {"images": [front, back], "ai_model": "meshy-6-lite", "polycount": 5500}`: the pictures Meshy is shown.
+  `meshy_unit.py` sends two or more to **Multi-Image to 3D** (one goes to Image to 3D), with PBR, a triangle mesh at that
+  polycount (`MeshyUnitBaker` refuses more than 6,000) and `pose_mode` T-pose, and no prompt. `"compare"` names the
+  front and back pictures for the review and the tone match when Meshy was shown fewer. `reference.png` beside the model
+  is the pictures Meshy was shown, side by side.
+- `"clipsFrom"`: the raw folder of the rig these skins replace. No animation clips are bought (3 credits each).
+  `meshy_unit_finish.py` copies that rig's library clips (idle, attack, aim, hit, death) and its ladder climb onto the new
+  rig with `meshy_retarget_blender.py`; the walking and running are the new rig's own, which come with the 5-credit rig.
+- `"groundIdle": true`, `"teamBoxes"`, `"teamValue"`, `"teamHues"`, `"teamWeight"`: see below.
+
+The pictures (outside the repository, in `D:/EmberfieldWorkingCache/cosmetics-refs`) are prepared by
+`tools/art/skin_reference_crops.py`: the dwarf's title and its "VISTA FRONTAL / VISTA TRASERA" labels are cut away, the cut
+is padded back out with the picture's own backdrop, front and back share one canvas with 6% of margin, and the dwarf's
+512-pixel pictures are doubled. Not a pixel of a figure is touched.
+
+```
+python tools/art/skin_reference_crops.py                                   # the six pictures -> crops/<name>_<side>_clean.png
+python tools/art/meshy_unit.py skin_mountain_guard --max-credits 15 --stop-after model   # 15 credits: Meshy 6 Lite, textured
+python tools/art/meshy_unit.py skin_mountain_guard --max-credits 5                       # 5 credits: auto-rig (+ walking, running)
+python tools/art/meshy_unit_finish.py skin_mountain_guard                  # free: retarget the clips, FBX, 1024 textures
+python tools/art/review_faithful_sheet.py skin_mountain_guard              # free: the user's pictures against the model, then the clips
+Unity -batchmode -executeMethod Emberfield.Editor.MeshyUnitBaker.RunUnitsFromCommandLine -meshyUnits skin_mountain_guard,skin_forest_archer,skin_wandering_ranger -quit
+```
+
+**Cost and model.** Multi-Image to 3D costs 15 credits with Meshy 6 Lite and 30 with Meshy 6 or 7.1
+(docs.meshy.ai/api/pricing); Lite is what fits three skins into a budget of 75. It gives a 2K texture and PBR maps without
+the emission map, and no `image_enhancement` or `remove_lighting`. Each skin cost 20 credits (model 15, rig 5). The
+Wandering Ranger cost 15 more: the first try, from the front and the back picture, pulled the back picture's hood up over
+the head (the front picture has long hair and the hood down on the shoulders) and dropped the bedroll; the second, from the
+front picture alone, kept the hair and the shoulder cape. The back of a figure Meshy is shown from the front only is
+its own invention (no bedroll or canteen), and a back picture can mislead as well as help, so look at the model before
+paying for the rig. The task ids are in each `meshy-manifest.json`; the discarded try is recorded in the ranger's.
+
+**What the finish does for a figure made from pictures.**
+
+- *Retargeting* (`meshy_retarget_blender.py`). Meshy's rigs share bone names and hierarchy but not rest poses, so copying
+  local rotations would bend one rig's arms by the other's limb angles. Each bone's turn from its rest is copied in
+  armature space; the arms are then swung until each segment points where the source's does (the old rig stood in an
+  A-pose, the new one in a T-pose). Not the spine, hips, legs or head: Meshy's fitter puts those joints wherever suits the
+  body (a thick dwarf's spine joints sit a hand's breadth off the midline), and aiming such a link along the source's
+  straight one stretches the figure to a giant. The hips' travel is scaled by the ratio of the hip heights. A rig onto
+  itself reproduces its own clips to 0.001 cm.
+- *Slots.* Every take gets the slot name of the armature: the FBX exporter hands each action to the armature through
+  the slot it used last, and takes under another name (a second import beside the rig is "Armature.001") baked as one
+  still pose as soon as retargeted takes, which carry the armature's own name, were among them.
+- *Ground* (`groundIdle`). Every take rises by the one amount that stands Idle's soles on the floor: the fitted rig puts
+  them 3 to 7 cm below the toe joints the clips plant (6.5 cm on the dwarf). `heightMetres` in the manifest is the body's
+  height at the first frame of Idle, the pose `MeshyUnitBaker` measures, instead of whatever pose the script last
+  evaluated.
+- *Tone.* Meshy's albedo comes out darker than the lit pictures it was made from. One gamma on the luminance (0.91 to
+  0.94, `toneGamma` in the manifest) puts its median on the pictures' median; black, white and hue stay. `"matchTone": false`
+  turns it off.
+- *Owner colour.* The pictures have no cloth in a hue of its own (brown on brown, olive on olive), so `teamHues` cannot
+  mark it. `"teamBoxes": [[x0, x1, y0, y1, z0, z1], ...]` marks the surface inside boxes given in fractions of the
+  figure's height (x across, y front to back with the front at -y, z up from the soles): the UV triangles whose centre is
+  inside are filled into the texture's alpha. `"teamValue": [low, high]` narrows it to the cloth's own brightness (the
+  elf's dark olive cloak against blonde hair and a pale tunic), `teamHues` still applies inside the boxes when given, and
+  `teamWeight` tints instead of replacing: the dwarf's red tabard panels at 70%, the elf's mantle and upper cloak and the
+  ranger's shoulder cape at 60% and 50%. `review_faithful_sheet.py` shows both owners' colours on the T-pose.
+
+The three have 5,674, 5,586 and 5,705 triangles. In the game, the catalogue item (`Resources/Cosmetics/catalog.json`, slot
+`character`, with `factionId` and `modelId`) is resolved by `CosmeticLoadout.ResolveCharacter` and drawn by
+`MeshyUnitVisuals.TryCreate` for the owner who wears it, offline for the local player's previews and online for owners 1
+and 2 from the account's wardrobe and the opponent's. `WorldView` draws a dressed unit again when the loadout changes.
+`CosmeticModelPreview` shows the store's skin as its own model in its idle. `-emberfieldMeshyReview <folder>
+-emberfieldReviewSkin <item id>` (development player) takes stills of a skin beside the default model in a mirror match.
 
 ## Buildings
 

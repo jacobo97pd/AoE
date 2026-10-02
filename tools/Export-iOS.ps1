@@ -3,8 +3,8 @@ param(
     [Parameter(Mandatory = $true)][string]$OutputPath,
     [string]$UnityPath = 'D:\Unity\Editors\6000.3.23f1\Editor\Unity.exe',
     [string]$BundleId = 'com.emberfield.jpedrero',
-    [string]$Version = '0.3.1',
-    [int]$BuildNumber = 2,
+    [string]$Version = '0.3.2',
+    [int]$BuildNumber = 3,
     [string]$ServerUrl = '',
     [int]$TimeoutSeconds = 7200
 )

@@ -36,6 +36,8 @@ namespace Emberfield.Presentation
             public SiegeLadderVisuals.Climb Climb;
             public CorsairAnimationDriver ImportedCharacter;
             public bool IsReferenceCharacter;
+            // The character skin (MeshyUnitVisuals) the model was drawn with, null for a default model.
+            public string SkinId;
             public double FacingTime = -1;
             // Readability rim (SetOnDarkGround): a Meshy character's own renderers, cached once, and whether the
             // lift is on, so a still figure standing on volcanic ash costs nothing past its first frame there.
@@ -169,6 +171,10 @@ namespace Emberfield.Presentation
                     if (useReference != existing.IsReferenceCharacter)
                     { existing.Root.gameObject.SetActive(false); UnityEngine.Object.Destroy(existing.Root.gameObject); visuals.Remove(u.Id); }
                 }
+                // Equipping or removing a character skin redraws the units it dresses, and only those.
+                if (visuals.TryGetValue(u.Id, out var dressed) && dressed.CosmeticRevision != CosmeticLoadout.Revision && dressed.ImportedCharacter != null &&
+                    MeshyUnitVisuals.Skin(u.DefinitionId, dressed.FactionKind, world.Map.RealmId, u.OwnerId)?.id != dressed.SkinId)
+                { dressed.Root.gameObject.SetActive(false); UnityEngine.Object.Destroy(dressed.Root.gameObject); visuals.Remove(u.Id); }
                 if (u.Domain == MovementDomain.Water && !visuals.ContainsKey(u.Id)) NewShipVisual(u);
                 if (!visuals.TryGetValue(u.Id, out var v))
                 {
@@ -180,17 +186,18 @@ namespace Emberfield.Presentation
                     v.Model.localScale = Vector3.one * AlphaWorldArt.UnitScale;
                     v.OwnerId = u.OwnerId;
                     var faction = FactionFor(u.OwnerId);
-                    v.FactionKind = faction?.Kind ?? FactionKind.AvenCompact;
+                    // A navy's soldiers are its kingdom's (AlphaWorldArt.Culture).
+                    v.FactionKind = AlphaWorldArt.Culture(faction?.Kind ?? FactionKind.AvenCompact);
                     // Meshy models come first where the catalogue has one for this faction and unit; they fit the
                     // health bar to their own bounds like the reference figures they replace.
-                    v.ImportedCharacter = MeshyUnitVisuals.TryCreate(world, u, v.FactionKind, v.Model);
+                    v.ImportedCharacter = MeshyUnitVisuals.TryCreate(world, u, v.FactionKind, v.Model, out v.SkinId);
                     v.IsReferenceCharacter = v.ImportedCharacter != null;
                     if (v.ImportedCharacter == null) v.ImportedCharacter = ImportedCharacterVisuals.TryCreate(world, u, v.Model);
                     if (v.ImportedCharacter == null)
                     { v.ImportedCharacter = ReferenceCharacterVisuals.TryCreate(world, u, v.FactionKind, v.Model); v.IsReferenceCharacter = v.ImportedCharacter != null; }
                     if (v.ImportedCharacter != null) AddOwnerMarker(v);
                     // Siege engines have a Meshy model for every faction (the ladder in its culture's style); AlphaWorldArt.Unit stays the procedural build its tests pin.
-                    v.IsArt = v.ImportedCharacter != null || (alphaEnabled ? (MeshyPropVisuals.TrySiege(u.DefinitionId, u.OwnerId, v.FactionKind, v.Model) ?? AlphaWorldArt.Unit(u.DefinitionId, faction?.Kind ?? FactionKind.AvenCompact, v.Model, u.OwnerId)) != null
+                    v.IsArt = v.ImportedCharacter != null || (alphaEnabled ? (MeshyPropVisuals.TrySiege(u.DefinitionId, u.OwnerId, v.FactionKind, v.Model) ?? AlphaWorldArt.Unit(u.DefinitionId, v.FactionKind, v.Model, u.OwnerId)) != null
                         : sliceEnabled && faction?.Kind == FactionKind.AvenCompact && ArtKit.CreateUnit(u.DefinitionId, v.Model, u.OwnerId) != null);
                     if (!v.IsArt) { BuildUnit(v, u); BuildFactionUnit(v, u); }
                     else if (alphaEnabled) BuildAlphaFactionUnit(v, u);
@@ -322,12 +329,13 @@ namespace Emberfield.Presentation
                     v.OwnerId = b.OwnerId;
                     v.Root.position = DefinitionLoader.ToWorld(b.Position);
                     var faction = FactionFor(b.OwnerId);
-                    v.FactionKind = faction?.Kind ?? FactionKind.AvenCompact;
+                    // A navy builds its kingdom's town (AlphaWorldArt.Culture).
+                    v.FactionKind = AlphaWorldArt.Culture(faction?.Kind ?? FactionKind.AvenCompact);
                     // A Meshy model takes precedence where the catalogue has one for this faction and building; the
                     // flag-gated test barracks is the older, local-player-only form of the same thing.
                     var imported = MeshyBuildingVisuals.TryCreate(b, v.FactionKind, v.Model, width, depth) ?? ImportedBuildingVisuals.TryCreate(b, v.Model, width, depth);
                     var artBuilding = imported != null ? imported
-                        : alphaEnabled ? AlphaWorldArt.Building(b.DefinitionId, faction?.Kind ?? FactionKind.AvenCompact, v.Model, b.OwnerId, width, depth)
+                        : alphaEnabled ? AlphaWorldArt.Building(b.DefinitionId, v.FactionKind, v.Model, b.OwnerId, width, depth)
                         : sliceEnabled && faction?.Kind == FactionKind.AvenCompact ? ArtKit.CreateBuilding(b.DefinitionId, v.Model, b.OwnerId, width, depth) : null;
                     // A dock is the coast's harbour quay, whatever culture built it.
                     bool dock = artBuilding == null && sliceEnabled && BuildingDefinitionFor(b.DefinitionId)?.RequiresShore == true;

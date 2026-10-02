@@ -452,6 +452,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral41D7D721EB92533F364B02AAC885BBC1473C5589
 IL2CPP_EXTERN_C String_t* _stringLiteral42DDE56B5BE2C0050898B5118C7492500FC2C8E1;
 IL2CPP_EXTERN_C String_t* _stringLiteral43BCCD99B3AC471A696854D4BD793E3D19E958E7;
 IL2CPP_EXTERN_C String_t* _stringLiteral461408FE61DA8805DEFE34289490772737C0B2B9;
+IL2CPP_EXTERN_C String_t* _stringLiteral498FC13C3A371BE2AFFC6FC0C85B0745341BDA42;
 IL2CPP_EXTERN_C String_t* _stringLiteral4B3E39B9514984B5BE0555027A1BB15546A3438E;
 IL2CPP_EXTERN_C String_t* _stringLiteral4BBA0FA9F6BF589D2B9099BA7B7038ABE71DAF59;
 IL2CPP_EXTERN_C String_t* _stringLiteral4CB001C8D712EA25BDF21A2DA95464C3AF3B2526;
@@ -488,6 +489,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral919452C6CAF85C32AF842C522DB4F0E2A333BB3E
 IL2CPP_EXTERN_C String_t* _stringLiteral91EABC919E48AAD7331BDBE21DBB8D4C623A4A25;
 IL2CPP_EXTERN_C String_t* _stringLiteral937A737C723E7D09681DCD1F7860744418EE2F5D;
 IL2CPP_EXTERN_C String_t* _stringLiteral93CF0AB65E46B48510DE25D913D60276940325B5;
+IL2CPP_EXTERN_C String_t* _stringLiteral9537099C6F46D869D9C5FD4144142A9BB38F8FCA;
 IL2CPP_EXTERN_C String_t* _stringLiteral955D60878AB63EB1C854781AA60985BB9B9551DE;
 IL2CPP_EXTERN_C String_t* _stringLiteral99566FE119AE522CFFC8A29B3FF986042412B916;
 IL2CPP_EXTERN_C String_t* _stringLiteral99BBD3875CB9CA89761BCEA88C6D75CA46F8A4BC;
@@ -10380,7 +10382,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AlphaWorldArt_IsShip_mBCF9507A57D20C1323
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral461408FE61DA8805DEFE34289490772737C0B2B9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral498FC13C3A371BE2AFFC6FC0C85B0745341BDA42);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral919452C6CAF85C32AF842C522DB4F0E2A333BB3E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9537099C6F46D869D9C5FD4144142A9BB38F8FCA);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -10389,19 +10393,68 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AlphaWorldArt_IsShip_mBCF9507A57D20C1323
 		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteral461408FE61DA8805DEFE34289490772737C0B2B9, NULL);
 		if (L_1)
 		{
-			goto IL_0019;
+			goto IL_0033;
 		}
 	}
 	{
 		String_t* L_2 = ___0_id;
 		bool L_3;
 		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_2, _stringLiteral919452C6CAF85C32AF842C522DB4F0E2A333BB3E, NULL);
-		return L_3;
+		if (L_3)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		String_t* L_4 = ___0_id;
+		bool L_5;
+		L_5 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_4, _stringLiteral9537099C6F46D869D9C5FD4144142A9BB38F8FCA, NULL);
+		if (L_5)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		String_t* L_6 = ___0_id;
+		bool L_7;
+		L_7 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, _stringLiteral498FC13C3A371BE2AFFC6FC0C85B0745341BDA42, NULL);
+		return L_7;
 	}
 
-IL_0019:
+IL_0033:
 	{
 		return (bool)1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AlphaWorldArt_Culture_mE63C5087568EABFE76D6633DF3A8CE90EB269276 (int32_t ___0_faction, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_faction;
+		if ((((int32_t)L_0) == ((int32_t)((int32_t)10))))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		int32_t L_1 = ___0_faction;
+		if ((((int32_t)L_1) == ((int32_t)((int32_t)11))))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		int32_t L_2 = ___0_faction;
+		return L_2;
+	}
+
+IL_000c:
+	{
+		return (int32_t)(1);
+	}
+
+IL_000e:
+	{
+		return (int32_t)(8);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AlphaWorldArt_AuthoredUnitHeight_m5DE3207450255AD1D8A3C6DD29E6B1AB20515FB9 (String_t* ___0_id, const RuntimeMethod* method) 

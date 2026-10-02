@@ -1324,8 +1324,8 @@
     {
       "Id": "pirate_sloop",
       "DisplayName": "Pirate Sloop",
-      "MaxHealth": 300,
-      "MoveSpeedMillimetresPerSecond": 4400,
+      "MaxHealth": 240,
+      "MoveSpeedMillimetresPerSecond": 4800,
       "RadiusMillimetres": 500,
       "IsWorker": false,
       "Cost": {
@@ -1342,15 +1342,15 @@
       "Tags": 528,
       "Armor": 1,
       "Attack": {
-        "Damage": 14,
-        "RangeMillimetres": 5000,
+        "Damage": 8,
+        "RangeMillimetres": 3500,
         "AcquireRangeMillimetres": 7000,
-        "CooldownTicks": 36,
-        "ProjectileSpeedMillimetresPerSecond": 14000,
+        "CooldownTicks": 16,
+        "ProjectileSpeedMillimetresPerSecond": 16000,
         "Bonuses": [
           {
             "TargetTags": 512,
-            "MultiplierPermille": 1500
+            "MultiplierPermille": 1800
           },
           {
             "TargetTags": 64,
@@ -1363,6 +1363,88 @@
       "VisionCells": 9,
       "Domain": 1,
       "CargoCapacity": 6
+    },
+    {
+      "Id": "english_frigate",
+      "DisplayName": "English Frigate",
+      "MaxHealth": 380,
+      "MoveSpeedMillimetresPerSecond": 4000,
+      "RadiusMillimetres": 500,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 40,
+        "Wood": 200,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 3,
+      "TrainTicks": 360,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 1,
+      "Tags": 512,
+      "Armor": 0,
+      "Attack": {
+        "Damage": 18,
+        "RangeMillimetres": 6500,
+        "AcquireRangeMillimetres": 8000,
+        "CooldownTicks": 40,
+        "ProjectileSpeedMillimetresPerSecond": 18000,
+        "Bonuses": [
+          {
+            "TargetTags": 32,
+            "MultiplierPermille": 3400
+          },
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 1200
+          }
+        ]
+      },
+      "RequiredFactionId": "english_navy",
+      "RequiredRealmId": "naval",
+      "VisionCells": 10,
+      "Domain": 1,
+      "CargoCapacity": 5
+    },
+    {
+      "Id": "spanish_galleon",
+      "DisplayName": "Spanish Galleon",
+      "MaxHealth": 600,
+      "MoveSpeedMillimetresPerSecond": 2800,
+      "RadiusMillimetres": 500,
+      "IsWorker": false,
+      "Cost": {
+        "Food": 60,
+        "Wood": 280,
+        "Metal": 0,
+        "Stone": 0
+      },
+      "PopulationCost": 4,
+      "TrainTicks": 480,
+      "CarryCapacity": 10,
+      "GatherIntervalTicks": 10,
+      "GatherAmount": 1,
+      "Tags": 544,
+      "Armor": 10,
+      "Attack": {
+        "Damage": 32,
+        "RangeMillimetres": 5500,
+        "AcquireRangeMillimetres": 7000,
+        "CooldownTicks": 48,
+        "ProjectileSpeedMillimetresPerSecond": 14000,
+        "Bonuses": [
+          {
+            "TargetTags": 64,
+            "MultiplierPermille": 1500
+          }
+        ]
+      },
+      "RequiredFactionId": "spanish_navy",
+      "RequiredRealmId": "naval",
+      "VisionCells": 9,
+      "Domain": 1,
+      "CargoCapacity": 10
     }
   ],
   "Buildings": [
@@ -1681,7 +1763,9 @@
       "CanDropOff": true,
       "TrainableUnitIds": [
         "war_galley",
-        "pirate_sloop"
+        "pirate_sloop",
+        "english_frigate",
+        "spanish_galleon"
       ],
       "Tags": 64,
       "Armor": 2,
@@ -1848,8 +1932,9 @@
       "DisplayName": "Piratas",
       "Kind": 9,
       "RealmId": "naval",
-      "Description": "Capitán caribeño, saqueadores de abordaje, corsarios de pólvora y buscadoras de tesoros. Construye muelles para entrenar balandras, combatir en el mar y transportar tropas entre orillas.",
-      "UniqueUnitId": "crimson_corsair"
+      "Description": "Capitán caribeño, saqueadores de abordaje, corsarios de pólvora y buscadoras de tesoros, que cargan dos recursos más por viaje. La balandra, la más barata y rápida, aborda fragatas; los galeones la hunden. Construye muelles para entrenar balandras, combatir en el mar y transportar tropas entre orillas.",
+      "UniqueUnitId": "crimson_corsair",
+      "WorkerCarryBonus": 2
     },
     {
       "Id": "sultanate",
@@ -1873,6 +1958,26 @@
       "UniqueTechnologyId": "sahel_quilted_barding",
       "BonusGatherResource": 0,
       "ResourceGatherBonus": 1,
+      "ArmorBonusTags": 2,
+      "ArmorBonus": 1
+    },
+    {
+      "Id": "english_navy",
+      "DisplayName": "Marina inglesa",
+      "Kind": 10,
+      "RealmId": "naval",
+      "Description": "Fragatas y ejército del reino. La fragata inglesa, rápida y de largo alcance, desarbola galeones; las balandras piratas la alcanzan y la abordan. Sus tropas a distancia reciben un punto de armadura.",
+      "UniqueUnitId": "english_frigate",
+      "ArmorBonusTags": 8,
+      "ArmorBonus": 1
+    },
+    {
+      "Id": "spanish_navy",
+      "DisplayName": "Marina española",
+      "Kind": 11,
+      "RealmId": "naval",
+      "Description": "Galeones y tercios del reino. El galeón español, lento y de casco pesado, dispara la andanada más fuerte, hunde balandras y transporta diez soldados; las fragatas lo superan en alcance. Su infantería recibe un punto de armadura.",
+      "UniqueUnitId": "spanish_galleon",
       "ArmorBonusTags": 2,
       "ArmorBonus": 1
     }

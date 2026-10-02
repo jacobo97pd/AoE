@@ -18,6 +18,8 @@ namespace Emberfield.Tests.PlayMode
         [TestCase("skeld", "fantasy")]
         [TestCase("verdant", "fantasy")]
         [TestCase("pirates", "naval")]
+        [TestCase("english_navy", "naval")]
+        [TestCase("spanish_navy", "naval")]
         public void PlayableFactionStartsWithCompatibleRivalAndWorkers(string faction, string realm)
         {
             var world = DefinitionLoader.CreateOfflineWorld(faction, VictoryMode.Conquest, ContentRealms.DefaultMapForRealm(realm));
@@ -25,14 +27,15 @@ namespace Emberfield.Tests.PlayMode
             Assert.That(ContentRealms.IsPlayableFactionInRealm(world.Map.PlayerFactions[1].FactionId, realm), Is.True);
             foreach (int owner in new[] { 1, 2 })
             {
+                // Each seat's own faction: the pirates recruit their crew, everyone else (the navies included) the tender.
+                string seatFaction = world.Map.PlayerFactions[owner - 1].FactionId;
                 var units = world.Units.Where(u => u.OwnerId == owner).ToArray();
                 Assert.That(units, Is.Not.Empty);
-                Assert.That(units.All(u => u.DefinitionId == ContentRealms.StartingWorkerForFaction(world.Map.PlayerFactions[owner - 1].FactionId)), Is.True);
-                string worker = ContentRealms.StartingWorkerForFaction(faction);
-                Assert.That(world.ValidateUnitRecruitment(owner, worker).Accepted, Is.True);
-                Assert.That(world.ValidateUnitRecruitment(owner, "tender").Accepted, Is.EqualTo(realm != ContentRealms.Naval));
+                Assert.That(units.All(u => u.DefinitionId == ContentRealms.StartingWorkerForFaction(seatFaction)), Is.True);
+                Assert.That(world.ValidateUnitRecruitment(owner, ContentRealms.StartingWorkerForFaction(seatFaction)).Accepted, Is.True);
+                Assert.That(world.ValidateUnitRecruitment(owner, "tender").Accepted, Is.EqualTo(seatFaction != "pirates"));
                 foreach (string pirate in new[] { "crimson_corsair", "boarding_raider", "gunpowder_corsair", "treasure_seeker" })
-                    Assert.That(world.ValidateUnitRecruitment(owner, pirate).Accepted, Is.EqualTo(realm == ContentRealms.Naval), pirate);
+                    Assert.That(world.ValidateUnitRecruitment(owner, pirate).Accepted, Is.EqualTo(seatFaction == "pirates"), pirate);
             }
             for (int i = 0; i < 20; i++) world.Tick();
             Assert.That(world.TickIndex, Is.EqualTo(20));
@@ -55,8 +58,6 @@ namespace Emberfield.Tests.PlayMode
             Assert.Throws<ArgumentException>(() => new World(source.Definition, source.Map));
         }
 
-        [TestCase("english_navy")]
-        [TestCase("spanish_navy")]
         [TestCase("skeleton_fleet")]
         [TestCase("miraj")]
         [TestCase("solar")]
@@ -68,18 +69,20 @@ namespace Emberfield.Tests.PlayMode
         }
 
         [Test]
-        public void NavalReplicaUsesPirateWorkersAndKeepsTheMirroredSeatIdentity()
+        public void NavalReplicaUsesEachFleetsWorkersAndKeepsTheSeatIdentity()
         {
+            // The pirates' offline rival is the English navy: treasure seekers on one seat, the kingdom's tenders on the other.
             var source = DefinitionLoader.CreateOfflineWorld("pirates", VictoryMode.Conquest, "sapphire_coast");
+            string[] factions = { "pirates", "english_navy" }, workers = { "treasure_seeker", "tender" };
             foreach (int seat in new[] { 1, 2 })
             {
                 var snapshot = NetworkObservation.Export(source, seat, 1);
                 var replica = World.CreateNetworkReplica(source.Definition, source.Map, snapshot);
                 Assert.That(replica.Map.RealmId, Is.EqualTo(ContentRealms.Naval));
                 Assert.That(replica.NetworkServerPlayerId, Is.EqualTo(seat));
-                Assert.That(replica.Units.Where(u => u.OwnerId == 1).All(u => u.DefinitionId == "treasure_seeker"), Is.True);
-                Assert.That(snapshot.OpponentFactionId, Is.EqualTo("pirates"));
-                Assert.That(snapshot.LocalPlayer.FactionId, Is.EqualTo("pirates"));
+                Assert.That(replica.Units.Where(u => u.OwnerId == 1).Select(u => u.DefinitionId).Distinct(), Is.EqualTo(new[] { workers[seat - 1] }));
+                Assert.That(snapshot.OpponentFactionId, Is.EqualTo(factions[2 - seat]));
+                Assert.That(snapshot.LocalPlayer.FactionId, Is.EqualTo(factions[seat - 1]));
             }
         }
 

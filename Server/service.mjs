@@ -262,7 +262,7 @@ export class EmberfieldService {
     if (this.authority.dead && !this.authority.canRecover) throw errorResponse(503, 'authority_unavailable');
   }
   newPlayer(account, factionId, slot) {
-    return { accountId: account.id, username: account.username, factionId, playerId: slot, ready: false, cosmetics: this.db.wardrobe(account.id).equipped.filter(e => { const item = this.cosmetics.find(c => c.id === e.itemId); return item && (item.realmId === 'shared' || item.realmId === FACTION_REALMS[factionId]); }),
+    return { accountId: account.id, username: account.username, factionId, playerId: slot, ready: false, cosmetics: this.db.wardrobe(account.id).equipped.filter(e => { const item = this.cosmetics.find(c => c.id === e.itemId); return item && (item.realmId === 'shared' || item.realmId === FACTION_REALMS[factionId]) && (item.slot !== 'character' || item.factionId === factionId); }),
       lastSeen: this.now(), lastCommand: this.now(), sequence: 0, recentRequestIds: new Set(), commandBusy: false, snapshotPromise: null, snapshotAt: 0, cachedObservation: null };
   }
   createRoom(account, input) {

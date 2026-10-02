@@ -180,8 +180,12 @@ internal static class SimulationTicks
             case "battle": return Battle();
             case "mass-order": return MassOrder();
             case "siege": return Siege();
-            // Not in "all": the naval realm's own match, pirate fleets on the ringed sea. Run it by name.
+            // Not in "all": the naval realm's own matches on the ringed sea. Run them by name. The three fleet pairings
+            // play a whole Conquest (an hour at most): sloops against frigates, frigates against galleons, galleons against sloops.
             case "match-coast": return Natural("sapphire_coast", "pirates", "pirates", VictoryMode.Conquest, 14400);
+            case "naval-pirates-english": return Natural("sapphire_coast", "pirates", "english_navy", VictoryMode.Conquest, 72000);
+            case "naval-english-spanish": return Natural("sapphire_coast", "english_navy", "spanish_navy", VictoryMode.Conquest, 72000);
+            case "naval-spanish-pirates": return Natural("sapphire_coast", "spanish_navy", "pirates", VictoryMode.Conquest, 72000);
         }
         throw new ArgumentException("Unknown scenario " + name);
     }

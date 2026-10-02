@@ -101,6 +101,8 @@ namespace Emberfield.Editor
                 }
                 foreach(var item in CosmeticLoadout.Catalog)
                 {
+                    // A character skin is a Meshy model, not a style on the procedural art this atlas draws.
+                    if(item.slot==CosmeticLoadout.CharacterSlot) continue;
                     bool architecture=item.targetId=="*"; string target=architecture?"keep":item.targetId;
                     var faction=FactionForUnit(target,item.realmId);
                     Export(new Entry { key="cosmetic-"+item.id,id=item.id,name=item.displayName,category="cosmetics",realm=item.realmId,canonical=true,

@@ -208,7 +208,7 @@ namespace Emberfield.Tests.PlayMode
         public IEnumerator PlannedAndLegacyFactionRequestsAreRejectedBeforeAnyHttpMutation()
         {
             yield return Login(); CreateControls();
-            foreach (string id in new[] { "miraj", "solar", "english_navy", "spanish_navy", "skeleton_fleet" })
+            foreach (string id in new[] { "miraj", "solar", "skeleton_fleet" })
             {
                 typeof(OnlineControls).GetField("<Faction>k__BackingField", Instance).SetValue(online, id);
                 online.Host(); yield return Complete(Operation);

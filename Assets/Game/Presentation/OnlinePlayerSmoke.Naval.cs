@@ -17,9 +17,13 @@ namespace Emberfield.Presentation
             var workers = OwnedWorkers(); report.PassengerId = workers[2];
             var dock = match.Economy.BuildingDefinition("dock");
             var house = match.Economy.BuildingDefinition("shelter");
+            // Each seat launches its own faction's hull: the pirates' sloop, the English frigate or the Spanish galleon.
             UnitDefinition shipDefinition = null;
-            foreach (var definition in match.World.Definition.Units) if (definition.Id == "pirate_sloop") shipDefinition = definition;
-            Check(dock != null && shipDefinition != null, "Playable dock or pirate ship definition missing.");
+            foreach (var definition in match.World.Definition.Units)
+                if (definition.Domain == MovementDomain.Water && dock != null && Array.IndexOf(dock.TrainableUnitIds ?? Array.Empty<string>(), definition.Id) >= 0 &&
+                    match.World.ValidateUnitRecruitment(1, definition.Id).Accepted) shipDefinition = definition;
+            Check(dock != null && shipDefinition != null, "Playable dock or the faction's ship definition missing.");
+            report.ShipDefinitionId = shipDefinition.Id;
             foreach (int worker in workers) if (worker != report.PassengerId) AssignGather(worker, ResourceKind.Wood);
             var coast = CoastalSites(dock, hearth.Position);
             Check(coast.Count > 0, "Public terrain has no suitable shoreline dock site.");
@@ -75,7 +79,7 @@ namespace Emberfield.Presentation
             yield return Wait(() => match.World.TryGetBuilding(report.DockId, out var built) && built.IsComplete, "Dock did not finish construction.", 45);
             match.Select(new[] { report.DockId });
             wood = LocalResources().Wood;
-            Check(match.Economy.Train(shipDefinition.Id).Accepted, "Dock could not queue its pirate sloop.");
+            Check(match.Economy.Train(shipDefinition.Id).Accepted, "Dock could not queue its ship.");
             yield return Wait(() => FindOwnedShip() != null, "Authority did not launch the trained ship.", 35);
             var ship = FindOwnedShip(); report.ShipId = ship.Id; report.ShipWoodSpent = wood - LocalResources().Wood;
             report.ShipTrained = ship.Domain == MovementDomain.Water && match.World.IsSailable(ship.Position) && report.ShipWoodSpent == shipDefinition.Cost.Wood;
@@ -168,7 +172,7 @@ namespace Emberfield.Presentation
         private BuildingState OwnedDock(SimPoint site)
         { foreach (var b in match.World.Buildings) if (b.OwnerId == 1 && b.DefinitionId == "dock" && b.Position == site) return b; return null; }
         private UnitState FindOwnedShip()
-        { foreach (var u in match.World.Units) if (u.OwnerId == 1 && u.DefinitionId == "pirate_sloop") return u; return null; }
+        { foreach (var u in match.World.Units) if (u.OwnerId == 1 && u.Domain == MovementDomain.Water) return u; return null; }
         private bool PassengerAboard() => match.World.TryGetPassenger(report.PassengerId, out var passenger) && passenger.CarrierId == report.ShipId &&
             match.World.TryGetUnit(report.ShipId, out var ship) && ship.CargoCount == 1;
         private void VerifyPersistentAssets()

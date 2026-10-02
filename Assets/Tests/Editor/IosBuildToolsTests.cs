@@ -27,7 +27,7 @@ namespace Emberfield.Tests.Editor
         {
             var config = IosBuildTools.ParseConfiguration(Path.Combine(temporary, "xcode"), null, null, null, null);
             Assert.That(config.BundleId, Is.EqualTo("com.emberfield.jpedrero"));
-            Assert.That(config.BuildNumber, Is.EqualTo("2")); Assert.That(config.Version, Is.EqualTo("0.3.1"));
+            Assert.That(config.BuildNumber, Is.EqualTo("3")); Assert.That(config.Version, Is.EqualTo("0.3.2"));
             Assert.That(config.ServerUrl, Is.Empty);
         }
         [Test] public void ExplicitReleaseConfigurationNormalizesOnlyTheServerOrigin()

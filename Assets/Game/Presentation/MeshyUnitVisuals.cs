@@ -12,11 +12,15 @@ namespace Emberfield.Presentation
     /// The model's painted cloth takes the owner's colour through its own material copy, one per model and owner,
     /// so two players of the same faction never field identical armies. Equipped cosmetics keep their own models.
     /// -emberfieldProceduralUnits turns the whole catalogue off, to compare against the art it replaces.
+    ///
+    /// A character skin is an entry with <c>cosmetic</c> set: the store sells it, and the faction's default model never
+    /// resolves to it. It draws in the default's place only for the owner who wears it (CosmeticLoadout), and only for
+    /// the unit and faction it was made for. Colour, rings, animation states and phone detail work as for any model.
     /// </summary>
     public static class MeshyUnitVisuals
     {
         public const string DisableFlag = "-emberfieldProceduralUnits";
-        [Serializable] public sealed class Entry { public string id, name, culture, unit, prefab; public string[] factions; public int triangles; }
+        [Serializable] public sealed class Entry { public string id, name, culture, unit, prefab; public string[] factions; public int triangles; public bool cosmetic; }
         [Serializable] public sealed class Document { public Entry[] entries; }
 
         private static Entry[] entries;
@@ -56,20 +60,48 @@ namespace Emberfield.Presentation
             _ => null,
         };
 
+        /// <summary>The faction's default model for a unit. Character skins are never the default.</summary>
         public static Entry Resolve(string unit, FactionKind faction)
         {
             string id = FactionId(faction);
             if (id == null) return null;
             foreach (var entry in Entries)
-                if (entry.unit == unit && entry.factions != null && Array.IndexOf(entry.factions, id) >= 0) return entry;
+                if (!entry.cosmetic && entry.unit == unit && entry.factions != null && Array.IndexOf(entry.factions, id) >= 0) return entry;
             return null;
         }
 
-        public static CorsairAnimationDriver TryCreate(World world, UnitState unit, FactionKind faction, Transform parent)
+        /// <summary>A character skin by its model id, if it was made for this unit and faction.</summary>
+        public static Entry ResolveSkin(string modelId, string unit, string factionId)
         {
+            if (string.IsNullOrEmpty(modelId) || factionId == null) return null;
+            foreach (var entry in Entries)
+                if (entry.cosmetic && entry.id == modelId && entry.unit == unit && entry.factions != null && Array.IndexOf(entry.factions, factionId) >= 0) return entry;
+            return null;
+        }
+
+        /// <summary>The skin <paramref name="ownerId"/> wears on this faction's unit, or null for the default model.</summary>
+        public static Entry Skin(string unit, FactionKind faction, string realmId, int ownerId)
+        {
+            string id = FactionId(faction);
+            var item = id == null ? null : CosmeticLoadout.ResolveCharacter(unit, id, realmId, ownerId);
+            return item == null ? null : ResolveSkin(item.modelId, unit, id);
+        }
+
+        /// <summary>The model the owner's unit is drawn with: its skin where it wears one, else the faction's default.</summary>
+        public static Entry ResolveFor(string unit, FactionKind faction, string realmId, int ownerId) => Skin(unit, faction, realmId, ownerId) ?? Resolve(unit, faction);
+
+        public static CorsairAnimationDriver TryCreate(World world, UnitState unit, FactionKind faction, Transform parent) => TryCreate(world, unit, faction, parent, out _);
+
+        /// <param name="skinId">The character skin that was drawn, or null for a default model.</param>
+        public static CorsairAnimationDriver TryCreate(World world, UnitState unit, FactionKind faction, Transform parent, out string skinId)
+        {
+            skinId = null;
             if (!Enabled || world == null || unit == null) return null;
-            if (!CosmeticLoadout.Resolve(unit.DefinitionId, world.Map.RealmId, unit.OwnerId).IsDefault) return null;
-            var driver = Create(Resolve(unit.DefinitionId, faction), unit.OwnerId, parent);
+            var skin = Skin(unit.DefinitionId, faction, world.Map.RealmId, unit.OwnerId);
+            // A colour style (CosmeticLoadout.Resolve) paints the procedural model; a character skin is a model of its own.
+            if (skin == null && !CosmeticLoadout.Resolve(unit.DefinitionId, world.Map.RealmId, unit.OwnerId).IsDefault) return null;
+            var driver = Create(skin ?? Resolve(unit.DefinitionId, faction), unit.OwnerId, parent);
+            if (driver && skin != null) skinId = skin.id;
             // On a phone tier the unit draws a lighter level of its mesh when zoomed out.
             if (driver) UnitMeshDetail.Register(driver.transform, AlphaWorldArt.UnitHeight(unit.DefinitionId));
             return driver;

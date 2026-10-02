@@ -1,9 +1,9 @@
 // Only playable factions belong here. Legacy history retains its original IDs;
-// planned naval factions have no authoritative gameplay entry yet.
+// the planned Skeleton Fleet has no authoritative gameplay entry yet.
 export const REALM_FACTIONS = Object.freeze({
   historical: Object.freeze(['aven', 'serevin', 'english', 'sultanate', 'sahel']),
   fantasy: Object.freeze(['ashen', 'drakeforged', 'skeld', 'verdant']),
-  naval: Object.freeze(['pirates']),
+  naval: Object.freeze(['pirates', 'english_navy', 'spanish_navy']),
 });
 export const REALMS = Object.freeze(Object.keys(REALM_FACTIONS));
 export const FACTION_REALMS = Object.freeze(Object.fromEntries(

@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 export const PROTOCOL_VERSION = 2;
-export const CONTENT_VERSION = 'frontiers-73e9ff1c4465fab8de3c93ec06ff2f354131166454fd88b1fe038a5f1db7a17f';
+export const CONTENT_VERSION = 'frontiers-9c7e44558027b01361399113d1b2b4686c833370fe9c9eb69c08769453332b75';
 export function calculateContent(repository) {
   const hash = createHash('sha256');
   const paths = ['Assets/Game/Resources/Definitions/greybox.json'];

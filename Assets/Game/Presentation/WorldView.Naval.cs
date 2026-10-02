@@ -8,6 +8,8 @@ namespace Emberfield.Presentation
         // Bow to stern on screen, whichever culture's hull it is: long enough to read as a ship beside a 1.3 m soldier,
         // short enough that a harbour of them stays legible. The rules' hull is a one-metre disc (World: half a cell).
         private const float ShipLength = 3.3f;
+        // The hull classes read apart at a glance: the light sloop shorter, the galleon longer. The rules' discs are equal.
+        private static float HullLength(string id) => id == "pirate_sloop" ? 3.0f : id == "english_frigate" ? 3.5f : id == "spanish_galleon" ? 3.8f : ShipLength;
         // The water sheet sits a little under the ground plane (AlphaEnvironment.BuildWaterSheet) and a hull sits in it.
         private const float WaterLine = -.02f, Draft = .09f;
         private const float ShipTurnDegreesPerSecond = 150;
@@ -17,13 +19,13 @@ namespace Emberfield.Presentation
             var v = NewVisual(u.Id, u.DefinitionId, AlphaWorldArt.UnitSelectionRadius(u.DefinitionId), true);
             v.IsUnit = true; v.IsShip = true; v.OwnerId = u.OwnerId;
             var faction = FactionFor(u.OwnerId);
-            v.FactionKind = faction?.Kind ?? FactionKind.AvenCompact;
+            v.FactionKind = AlphaWorldArt.Culture(faction?.Kind ?? FactionKind.AvenCompact);
             float height = 2.4f;
             var hull = sliceEnabled ? MeshyPropVisuals.TryShip(u.DefinitionId, u.OwnerId, v.FactionKind, v.Model) : null;
             if (hull != null && MeshBounds(hull, out var bounds))
             {
-                // Fitted by its own bounds, so any culture's model reads the same length; it floats with its keel under water.
-                float scale = ShipLength / Mathf.Max(.1f, Mathf.Max(bounds.size.z, bounds.size.x));
+                // Fitted by its own bounds to its class's length; it floats with its keel under water.
+                float scale = HullLength(u.DefinitionId) / Mathf.Max(.1f, Mathf.Max(bounds.size.z, bounds.size.x));
                 hull.localScale = Vector3.one * scale;
                 hull.localPosition = new Vector3(-bounds.center.x * scale, -(bounds.min.y + bounds.size.y * Draft) * scale, -bounds.center.z * scale);
                 height = bounds.size.y * scale;

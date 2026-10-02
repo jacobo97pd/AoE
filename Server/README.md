@@ -79,7 +79,9 @@ Schema migration 3 only prefixes the four recognized pre-realm `casual/ranked:Co
 
 ## Cosmetic catalog and ownership
 
-`Assets/Game/Resources/Cosmetics/catalog.json` contains appearance metadata only. The service validates fields, supported targets and styles at startup; combat/movement/hitbox fields and unknown appearances reject the catalog. Cosmetic metadata is excluded from the competitive content hash and never sent into the authoritative World. A room freezes each participant's entitled equipment at join, filters it by realm, and publishes it in `state.players[].cosmetics`; the client applies its own and opponent appearances separately.
+`Assets/Game/Resources/Cosmetics/catalog.json` contains appearance metadata only. The service validates fields, supported targets and styles at startup; combat/movement/hitbox fields and unknown appearances reject the catalog. Cosmetic metadata is excluded from the competitive content hash and never sent into the authoritative World. A room freezes each participant's entitled equipment at join, filters it by realm (and a character skin by the faction played), and publishes it in `state.players[].cosmetics`; the client applies its own and opponent appearances separately.
+
+A `character` item swaps one faction's unit model for a model of its own (appearance only, like every slot). Besides the common fields it carries `factionId`, which must be a playable faction of the item's realm, and `modelId`, the client's skin model; its `targetId` must be a soldier, rider or worker unit, and `styleId` only names the accent the store draws beside it. The other slots reject both extra fields. An equipped character skin is stored, and listed in `equipped`, under the target `<factionId>:<targetId>` (for example `drakeforged:reedguard`), so one account wears a skin for each faction and unit at once; equipping another skin for the same faction and unit replaces the first.
 
 | Method and route | Contract |
 | --- | --- |

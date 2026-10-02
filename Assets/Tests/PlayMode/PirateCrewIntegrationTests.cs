@@ -125,7 +125,8 @@ namespace Emberfield.Tests.PlayMode
         {
             var world = PirateCrewScenario.CreateReviewWorld();
             Assert.That(world.Map.RealmId, Is.EqualTo(ContentRealms.Naval));
-            Assert.That(world.Map.PlayerFactions.All(player => player.FactionId == "pirates"), Is.True);
+            // The review crew is the local pirates'; their offline rival is the next fleet.
+            Assert.That(world.Map.PlayerFactions.Select(player => player.FactionId), Is.EqualTo(new[] { "pirates", ContentRealms.OpponentFaction("pirates") }));
             var expected = ImportedCharacterVisuals.Descriptors.Select(d => d.DefinitionId).ToArray();
             CollectionAssert.AreEquivalent(expected, world.Units.Where(u => u.OwnerId == 1).Select(u => u.DefinitionId));
             world.TryGetPlayer(1, out var player);

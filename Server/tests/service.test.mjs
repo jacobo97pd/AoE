@@ -374,8 +374,8 @@ test('the same accounts have independent ranks, results and scoped history in al
   assert.equal((await f.api('/v1/history/hybrid', 'GET', undefined, one.token)).status, 404);
 });
 
-test('only the 5 historical, 4 fantasy and 1 naval active factions can select their allowed maps', async t => {
-  assert.deepEqual(REALM_FACTIONS, { historical: ['aven', 'serevin', 'english', 'sultanate', 'sahel'], fantasy: ['ashen', 'drakeforged', 'skeld', 'verdant'], naval: ['pirates'] });
+test('only the 5 historical, 4 fantasy and 3 naval active factions can select their allowed maps', async t => {
+  assert.deepEqual(REALM_FACTIONS, { historical: ['aven', 'serevin', 'english', 'sultanate', 'sahel'], fantasy: ['ashen', 'drakeforged', 'skeld', 'verdant'], naval: ['pirates', 'english_navy', 'spanish_navy'] });
   const f = await fixture(t); const one = await f.register('CatalogPlayer');
   for (const realmId of REALMS) for (const factionId of REALM_FACTIONS[realmId]) for (const mapId of Object.keys(MAPS)) {
     const room = await f.api('/v1/rooms', 'POST', { realmId, factionId, mapId, mode: 'Conquest' }, one.token);
@@ -417,12 +417,38 @@ test('the desert factions queue as historical, meet on their home desert, and ar
   assert.equal(room.status, 200); assert.equal(room.data.realmId, 'historical');
 });
 
+test('the English and Spanish navies queue as naval, meet on Sapphire Coast, and are ranked and recorded there', async t => {
+  const f = await fixture(t); const [one, two] = await f.accounts();
+  for (const [realmId, factionId] of [['historical', 'english_navy'], ['fantasy', 'spanish_navy'], ['naval', 'english']])
+    for (const path of ['/v1/rooms', '/v1/queue'])
+      assert.equal((await f.api(path, 'POST', { realmId, factionId, mapId: 'sapphire_coast', queue: 'ranked', mode: 'Conquest' }, one.token)).status, 400, `${realmId}/${factionId}`);
+  assert.equal((await f.api('/v1/queue', 'POST', { realmId: 'naval', factionId: 'spanish_navy', mapId: 'amber_crossing', queue: 'ranked', mode: 'Conquest' }, one.token)).status, 400);
+  for (const [account, factionId] of [[one, 'english_navy'], [two, 'spanish_navy']])
+    assert.equal((await f.api('/v1/queue', 'POST', { realmId: 'naval', factionId, mapId: 'sapphire_coast', queue: 'ranked', mode: 'Conquest' }, account.token)).status, 200);
+  await f.service.maintenance();
+  const creation = f.authority.requests.find(r => r.op === 'create');
+  assert.equal(creation.realmId, 'naval'); assert.equal(creation.mapId, 'sapphire_coast');
+  assert.deepEqual(creation.players.map(p => p.factionId).sort(), ['english_navy', 'spanish_navy']);
+  await f.api('/v1/surrender', 'POST', {}, two.token);
+  assert.equal(f.service.db.rating(one.profile.accountId, 'naval:ranked:Conquest').wins, 1);
+  for (const [account, factionId, outcome] of [[one, 'english_navy', 'win'], [two, 'spanish_navy', 'loss']]) {
+    const history = await f.api('/v1/history/naval', 'GET', undefined, account.token);
+    assert.equal(history.status, 200); assert.equal(history.data.matches.length, 1);
+    const [match] = history.data.matches;
+    assert.equal(match.realmId, 'naval'); assert.equal(match.mapId, 'sapphire_coast');
+    assert.equal(match.factionId, factionId); assert.equal(match.outcome, outcome);
+    assert.equal((await f.api('/v1/history/historical', 'GET', undefined, account.token)).data.matches.length, 0);
+  }
+  const room = await f.api('/v1/rooms', 'POST', { realmId: 'naval', factionId: 'spanish_navy', mode: 'Dominion' }, one.token);
+  assert.equal(room.status, 200); assert.equal(room.data.realmId, 'naval'); assert.equal(room.data.mapId, 'sapphire_coast');
+});
+
 test('legacy and planned factions cannot create, join or queue; naval mirror rooms preserve authoritative choices', async t => {
   const f = await fixture(t); const [one, two] = await f.accounts();
   const room = await f.api('/v1/rooms', 'POST', { realmId: 'naval', factionId: 'pirates', mode: 'Dominion' }, one.token);
   assert.equal(room.status, 200); assert.equal(room.data.mapId, 'sapphire_coast');
   for (const [realmId, factionId] of [['historical', 'miraj'], ['fantasy', 'solar'], ['historical', 'skeld'],
-    ['naval', 'english_navy'], ['naval', 'spanish_navy'], ['naval', 'skeleton_fleet']]) {
+    ['naval', 'skeleton_fleet'], ['historical', 'english_navy'], ['fantasy', 'spanish_navy']]) {
     for (const path of ['/v1/rooms', '/v1/queue'])
       assert.equal((await f.api(path, 'POST', { realmId, factionId, queue: 'casual', mode: 'Conquest' }, two.token)).status, 400);
     const joined = await f.api('/v1/rooms/join', 'POST', { code: room.data.roomCode, realmId, factionId }, two.token);
@@ -526,6 +552,55 @@ test('cosmetic catalogs reject gameplay fields and unrecognized appearances befo
     assert.throws(() => new EmberfieldService({ authority: new FakeAuthority(), cosmeticCatalog: { items: [{ ...cosmeticCatalog.items[0], ...patch }] }, maintenance: false }), /Invalid cosmetic item/);
 });
 
+
+// Character skins swap a faction's unit model: appearance only, keyed by realm, faction and unit.
+const characterItem = { id: 'mountain_guard_skin', displayName: 'Mountain Guard', description: 'Appearance only', slot: 'character', targetId: 'reedguard',
+  factionId: 'drakeforged', modelId: 'skin_mountain_guard', realmId: 'fantasy', styleId: 'forge_copper', priceMinor: 499, currency: 'EUR' };
+const rangerItem = { ...characterItem, id: 'wandering_ranger_skin', displayName: 'Wandering Ranger', factionId: 'skeld', modelId: 'skin_wandering_ranger', styleId: 'wanderer_grey' };
+const archerItem = { ...characterItem, id: 'forest_archer_skin', displayName: 'Forest Archer', targetId: 'stringwarden', factionId: 'verdant', modelId: 'skin_forest_archer', styleId: 'forest_leaf' };
+const dwarfAlternative = { ...characterItem, id: 'mountain_guard_alternative', displayName: 'Mountain Guard II', modelId: 'skin_mountain_guard_alternative' };
+
+test('character skins validate against their realm, faction and unit, and only the character slot carries a model', () => {
+  const build = item => new EmberfieldService({ authority: new FakeAuthority(), cosmeticCatalog: { items: [item] }, maintenance: false });
+  for (const item of [characterItem, rangerItem, archerItem]) assert.doesNotThrow(() => build(item));
+  for (const patch of [{ factionId: 'aven' }, { factionId: 'pirates' }, { factionId: 'nobody' }, { factionId: undefined }, { modelId: undefined }, { modelId: 'Not A Token' },
+    { targetId: 'ember_drake' }, { targetId: 'unknown_unit' }, { targetId: '*' }, { realmId: 'shared' }, { realmId: 'historical' }, { hitbox: 3 }, { styleId: 'unknown_style' }])
+    assert.throws(() => build({ ...characterItem, ...patch }), /Invalid cosmetic item/, JSON.stringify(patch));
+  assert.throws(() => build({ ...cosmeticCatalog.items[0], factionId: 'drakeforged' }), /Invalid cosmetic item/);
+  assert.throws(() => build({ ...cosmeticCatalog.items[0], modelId: 'skin_mountain_guard' }), /Invalid cosmetic item/);
+});
+
+test('character skins of two factions are worn together, one per faction and unit, and a room carries only the faction played', async t => {
+  const f = await fixture(t, { cosmeticCatalog: { items: [characterItem, rangerItem, archerItem, dwarfAlternative] }, sandboxCosmetics: true });
+  const [one, two] = await f.accounts();
+  const claim = async id => (await f.api('/v1/cosmetics/sandbox-claim', 'POST', { itemId: id, idempotencyKey: `sandbox-${id}` }, one.token)).status;
+  const equip = async (id, token = one.token) => f.api('/v1/cosmetics/equip', 'POST', { itemId: id }, token);
+  for (const item of [characterItem, rangerItem, archerItem, dwarfAlternative]) assert.equal(await claim(item.id), 200);
+  for (const item of [characterItem, rangerItem, archerItem]) assert.equal((await equip(item.id)).status, 200);
+  assert.equal((await equip(characterItem.id, two.token)).status, 403);
+  const targets = wardrobe => wardrobe.equipped.map(e => `${e.slot}/${e.targetId}=${e.itemId}`).sort();
+  assert.deepEqual(targets((await f.api('/v1/cosmetics', 'GET', undefined, one.token)).data), [
+    'character/drakeforged:reedguard=mountain_guard_skin', 'character/skeld:reedguard=wandering_ranger_skin', 'character/verdant:stringwarden=forest_archer_skin']);
+  // A second skin for the same faction and unit takes the place of the first; the other factions keep theirs.
+  assert.equal((await equip(dwarfAlternative.id)).status, 200);
+  assert.deepEqual(targets((await f.api('/v1/cosmetics', 'GET', undefined, one.token)).data), [
+    'character/drakeforged:reedguard=mountain_guard_alternative', 'character/skeld:reedguard=wandering_ranger_skin', 'character/verdant:stringwarden=forest_archer_skin']);
+  const room = await f.api('/v1/rooms', 'POST', { realmId: 'fantasy', factionId: 'skeld', mode: 'Conquest' }, one.token);
+  await f.api('/v1/rooms/join', 'POST', { code: room.data.roomCode, realmId: 'fantasy', factionId: 'ashen' }, two.token);
+  assert.deepEqual(f.service.state(one.profile.accountId).players[0].cosmetics.map(e => e.itemId), ['wandering_ranger_skin']);
+  assert.equal(f.service.state(two.profile.accountId).players[1].cosmetics.length, 0);
+  // Appearance never reaches the authority's inputs.
+  await f.api('/v1/rooms/ready', 'POST', { ready: true }, one.token); await f.api('/v1/rooms/ready', 'POST', { ready: true }, two.token);
+  const creation = f.authority.requests.find(r => r.op === 'create');
+  assert.ok(!JSON.stringify(creation).includes('skin')); assert.deepEqual(creation.players, [{ slot: 1, factionId: 'skeld' }, { slot: 2, factionId: 'ashen' }]);
+});
+
+test('the shipped catalog carries three valid character skins, each for one faction\'s unit', () => {
+  const skins = loadCatalog().filter(item => item.slot === 'character');
+  assert.deepEqual(skins.map(item => `${item.factionId}/${item.targetId}/${item.modelId}`).sort(),
+    ['drakeforged/reedguard/skin_mountain_guard', 'skeld/reedguard/skin_wandering_ranger', 'verdant/stringwarden/skin_forest_archer']);
+  for (const item of skins) assert.equal(item.realmId, 'fantasy');
+});
 
 test('legacy ratings and matches migrate to historical while ownership persists across restart', () => {
   const folder = mkdtempSync(join(tmpdir(), 'emberfield-migration-')); const path = join(folder, 'accounts.sqlite');

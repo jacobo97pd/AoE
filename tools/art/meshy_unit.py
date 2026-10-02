@@ -12,6 +12,16 @@ paying again:
 The roster names the sheet, the crop box around one figure, the unit's height and its clips. The crop is saved beside
 the model as reference.png, so what Meshy was shown stays with what it made.
 
+A roster entry with a "multi" block is modelled from the user's own front and back pictures instead, with Multi-Image
+to 3D (no restyling in between, so faces, costume and colours follow the pictures; one picture only goes to Image to 3D):
+
+    "multi": {"images": ["<front>", "<back>"], "ai_model": "meshy-6-lite", "polycount": 5500}
+
+That is 15 credits for the textured model (30 with Meshy 6 or 7.1; docs.meshy.ai/api/pricing), then the 5-credit rig,
+whose walking and running come with it. An entry with "clipsFrom" (the raw folder of a figure rigged earlier with the
+same Meshy skeleton) buys no animation clips: meshy_unit_finish.py retargets that figure's clips onto the new rig.
+reference.png then holds the pictures Meshy was shown, side by side.
+
 The key is read ONLY from MESHY_API_KEY (process first, then the Windows user environment) and is never printed or
 written to disk. Signed download URLs are stored without their query string.
 """
@@ -41,6 +51,8 @@ ROLE_CLIPS = {
     'worker': [('Idle', 0), ('Work', 237), ('Attack', 4), ('Hit', 178), ('Death', 8)],
 }
 COST = {'model': 15, 'rig': 5, 'clip': 3}
+# Multi-Image to 3D with a 2K texture, per ai_model (docs.meshy.ai/api/pricing). Meshy 6 Lite is the 15-credit one.
+MULTI_COST = {'meshy-6-lite': 15, 'meshy-6': 30, 'meshy-7.1': 30, 'latest': 30}
 
 
 def api_key():
@@ -61,12 +73,19 @@ def call(method, path, key, body=None):
     data = json.dumps(body).encode() if body is not None else None
     request = urllib.request.Request(API + path, data=data, method=method, headers={
         'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json'})
-    try:
-        with urllib.request.urlopen(request, timeout=120) as response:
-            return json.loads(response.read().decode() or '{}')
-    except urllib.error.HTTPError as error:
-        # The body explains the refusal; the request headers, which carry the key, are never echoed.
-        raise RuntimeError('%s %s -> HTTP %d: %s' % (method, path, error.code, error.read().decode()[:600])) from None
+    # A dropped connection (SSL included) is retried for reads only: repeating a POST could pay twice.
+    for attempt in range(6 if method == 'GET' else 1):
+        try:
+            with urllib.request.urlopen(request, timeout=120) as response:
+                return json.loads(response.read().decode() or '{}')
+        except urllib.error.HTTPError as error:
+            # The body explains the refusal; the request headers, which carry the key, are never echoed.
+            raise RuntimeError('%s %s -> HTTP %d: %s' % (method, path, error.code, error.read().decode()[:600])) from None
+        except (urllib.error.URLError, OSError) as error:
+            if method != 'GET' or attempt == 5:
+                raise
+            print('  network error (%s); retrying' % type(error).__name__, flush=True)
+            time.sleep(3 * 2 ** attempt)
 
 
 def balance(key):
@@ -115,8 +134,17 @@ def strip(node):
 
 
 def download(url, target):
-    with urllib.request.urlopen(url, timeout=600) as response, open(target, 'wb') as handle:
-        handle.write(response.read())
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(url, timeout=600) as response:
+                data = response.read()
+            break
+        except (urllib.error.URLError, OSError) as error:
+            if attempt == 5:
+                raise
+            print('  download error (%s); retrying' % type(error).__name__, flush=True)
+            time.sleep(3 * 2 ** attempt)
+    target.write_bytes(data)
     return {'file': target.name, 'bytes': target.stat().st_size,
             'sha256': hashlib.sha256(target.read_bytes()).hexdigest()}
 
@@ -153,8 +181,53 @@ def crop(entry, out):
     return target
 
 
+def multi_inputs(entry, out):
+    """The pictures of a "multi" entry as JPEG data (quality 95, no chroma subsampling: the size of a request stays
+    small and the picture is as good as untouched), and reference.png beside the model: the pictures side by side."""
+    from PIL import Image
+    pictures, inputs = [], []
+    for source in entry['multi']['images']:
+        path = Path(os.path.expandvars(os.path.expanduser(source)))
+        if not path.is_absolute():
+            path = ROOT / path
+        picture = Image.open(path).convert('RGB')
+        buffer = io.BytesIO()
+        picture.save(buffer, 'JPEG', quality=95, subsampling=0, optimize=True)
+        data = buffer.getvalue()
+        pictures.append((picture, data))
+        inputs.append({'file': path.name, 'width': picture.width, 'height': picture.height, 'bytes': len(data),
+                       'sha256': hashlib.sha256(data).hexdigest()})
+    height = max(p.height for p, _ in pictures)
+    side = Image.new('RGB', (sum(p.width * height // p.height for p, _ in pictures), height))
+    left = 0
+    for picture, _ in pictures:
+        shown = picture.resize((picture.width * height // picture.height, height), Image.LANCZOS)
+        side.paste(shown, (left, 0))
+        left += shown.width
+    if side.width > 2400:
+        side = side.resize((2400, side.height * 2400 // side.width), Image.LANCZOS)
+    reference = out / 'reference.png'
+    side.save(reference)
+    return [data for _, data in pictures], inputs
+
+
 def save(manifest, path):
     path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+
+def start(manifest, path, step, key, endpoint, body):
+    """The task id of a paid step. It is written down before anyone waits on it, so a run that dies while waiting
+    (a dropped connection) finds the same task again instead of starting, and paying for, another."""
+    pending = manifest.setdefault('pending', {})
+    if step in pending:
+        # A task that failed is refunded and asked for again; one still running or finished is picked up.
+        status = call('GET', endpoint + '/' + pending[step], key).get('status')
+        if status not in ('FAILED', 'CANCELED', 'EXPIRED'):
+            print('Resuming %s task %s (%s)' % (step, pending[step], status), flush=True)
+            return pending[step]
+    pending[step] = call('POST', endpoint, key, body)['result']
+    save(manifest, path)
+    return pending[step]
 
 
 def main():
@@ -180,13 +253,22 @@ def main():
     manifest = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else {
         'id': entry['id'], 'entry': entry, 'steps': {}, 'files': {}, 'credits': 0}
     clips = ROLE_CLIPS[entry['role']]
-    planned = (0 if 'model' in manifest['steps'] else COST['model']) + (0 if 'rig' in manifest['steps'] else COST['rig']) + \
-        (0 if 'animations' in manifest['steps'] else COST['clip'] * len(clips))
-    reference = out / 'reference.png'
-    if not reference.exists():
-        reference = crop(entry, out)
+    multi = entry.get('multi')
+    # A figure whose clips are retargeted from another rig of the same skeleton buys none of its own.
+    buys_clips = 'clipsFrom' not in entry
+    model_cost = MULTI_COST[multi.get('ai_model', 'meshy-6-lite')] if multi else COST['model']
+    planned = (0 if 'model' in manifest['steps'] else model_cost) + (0 if 'rig' in manifest['steps'] else COST['rig']) + \
+        (0 if 'animations' in manifest['steps'] or not buys_clips else COST['clip'] * len(clips))
+    pictures = []
+    if multi:
+        pictures, manifest['inputs'] = multi_inputs(entry, out) if 'model' not in manifest['steps'] else ([], manifest.get('inputs', []))
+    else:
+        reference = out / 'reference.png'
+        if not reference.exists():
+            reference = crop(entry, out)
     print('%s: %s, clips %s, still to spend about %d credits (cap %d)'
-          % (entry['id'], entry['role'], ', '.join(name for name, _ in clips), planned, args.max_credits))
+          % (entry['id'], entry['role'], ', '.join(name for name, _ in clips) if buys_clips else 'retargeted from ' + entry['clipsFrom'],
+             planned, args.max_credits))
     if args.dry_run:
         return
     key = api_key()
@@ -205,23 +287,40 @@ def main():
         used = price
         spent += used
         manifest['credits'] += used or 0
+        manifest.get('pending', {}).pop(step, None)
         manifest['steps'][step] = {'task': strip(task), 'credits': used, 'balance_after': after,
                                    'finished_utc': datetime.now(timezone.utc).isoformat()}
         save(manifest, manifest_path)
-        print('  %s cost %s credits; balance %s' % (step, used, after), flush=True)
+        print('  %s cost %s credits (Meshy reports %s consumed); balance %s' % (step, used, task.get('consumed_credits'), after), flush=True)
 
     if 'model' not in manifest['steps']:
-        charge('model', COST['model'])
-        data = base64.b64encode(reference.read_bytes()).decode()
-        body = {'image_url': 'data:image/png;base64,' + data, 'model_type': 'smart-topology', 'ai_model': 'meshy-t2',
-                'target_polycount': entry.get('polycount', 4000), 'pose_mode': 't-pose', 'should_texture': True,
-                'enable_pbr': True, 'target_formats': ['glb', 'fbx']}
-        if entry.get('texture_prompt'):
-            body['texture_prompt'] = entry['texture_prompt']
+        charge('model', model_cost)
+        if multi:
+            # No prompt and no texture prompt: the pictures alone decide the figure. Triangles, because the game
+            # budget counts them; T-pose, because the pictures are in it and the rig wants it. Two or more pictures go
+            # to Multi-Image to 3D; a lone picture (a back that misleads the generator can be left out) to Image to 3D.
+            shown = ['data:image/jpeg;base64,' + base64.b64encode(data).decode() for data in pictures]
+            common = {'ai_model': multi.get('ai_model', 'meshy-6-lite'), 'should_texture': True, 'enable_pbr': True,
+                      'should_remesh': True, 'topology': 'triangle', 'target_polycount': multi.get('polycount', 5500),
+                      'pose_mode': 't-pose', 'target_formats': ['glb']}
+            if len(shown) > 1:
+                endpoint, body = '/v1/multi-image-to-3d', {'image_urls': shown, **common}
+            else:
+                endpoint, body = '/v1/image-to-3d', {'image_url': shown[0], 'model_type': 'standard', **common}
+            manifest['request'] = {'endpoint': endpoint, **{k: v for k, v in body.items() if k not in ('image_urls', 'image_url')}}
+        else:
+            endpoint = '/v1/image-to-3d'
+            data = base64.b64encode(reference.read_bytes()).decode()
+            body = {'image_url': 'data:image/png;base64,' + data, 'model_type': 'smart-topology', 'ai_model': 'meshy-t2',
+                    'target_polycount': entry.get('polycount', 4000), 'pose_mode': 't-pose', 'should_texture': True,
+                    'enable_pbr': True, 'target_formats': ['glb', 'fbx']}
+            if entry.get('texture_prompt'):
+                body['texture_prompt'] = entry['texture_prompt']
         before = balance(key)
-        task_id = call('POST', '/v1/image-to-3d', key, body)['result']
+        print('Balance before the model: %s' % before, flush=True)
+        task_id = start(manifest, manifest_path, 'model', key, endpoint, body)
         print('Model task %s' % task_id, flush=True)
-        task = wait(key, '/v1/image-to-3d/' + task_id, 'model')
+        task = wait(key, endpoint + '/' + task_id, 'model')
         for where, url in urls(task):
             name = url.split('?', 1)[0].rsplit('/', 1)[-1]
             if where.startswith('model_urls.') and name.endswith('.glb'):
@@ -238,8 +337,8 @@ def main():
     if 'rig' not in manifest['steps']:
         charge('rig', COST['rig'])
         before = balance(key)
-        task_id = call('POST', '/v1/rigging', key, {'input_task_id': manifest['steps']['model']['task']['id'],
-                                                   'height_meters': entry.get('height', 1.75)})['result']
+        task_id = start(manifest, manifest_path, 'rig', key, '/v1/rigging', {
+            'input_task_id': manifest['steps']['model']['task']['id'], 'height_meters': entry.get('height', 1.75)})
         print('Rig task %s' % task_id, flush=True)
         task = wait(key, '/v1/rigging/' + task_id, 'rig')
         for where, url in urls(task):
@@ -252,11 +351,14 @@ def main():
     if args.stop_after == 'rig':
         return
 
+    if not buys_clips:
+        print('MESHY_UNIT_OK %s credits=%s (clips retargeted from %s)' % (entry['id'], manifest['credits'], entry['clipsFrom']))
+        return
     if 'animations' not in manifest['steps']:
         charge('animations', COST['clip'] * len(clips))
         before = balance(key)
-        task_id = call('POST', '/v1/animations', key, {'rig_task_id': manifest['steps']['rig']['task']['id'],
-                                                      'action_ids': [clip for _, clip in clips]})['result']
+        task_id = start(manifest, manifest_path, 'animations', key, '/v1/animations', {
+            'rig_task_id': manifest['steps']['rig']['task']['id'], 'action_ids': [clip for _, clip in clips]})
         print('Animation task %s' % task_id, flush=True)
         task = wait(key, '/v1/animations/' + task_id, 'animations')
         for where, url in urls(task):

@@ -24,6 +24,11 @@ Shader "Emberfield/Meshy Unit"
             float4 _BaseMap_ST, _TeamColor, _Grade;
             float _BumpScale, _Metallic, _Smoothness, _TeamStrength, _RimStrength;
         CBUFFER_END
+        // Set to 1 by the store's wardrobe preview around its own render only (CosmeticModelPreview), 0 on the
+        // battlefield. A global in a buffer of its own, so every material stays SRP-batched.
+        CBUFFER_START(EmberfieldStudio)
+            float _EmberfieldStudio;
+        CBUFFER_END
         TEXTURE2D(_BaseMap); SAMPLER(sampler_BaseMap);
         TEXTURE2D(_BumpMap); SAMPLER(sampler_BumpMap);
         TEXTURE2D(_MaskMap); SAMPLER(sampler_MaskMap);
@@ -78,6 +83,15 @@ Shader "Emberfield/Meshy Unit"
                 half luminance = dot(base.rgb, half3(.2126, .7152, .0722));
                 half3 owner = _TeamColor.rgb * saturate(.35 + luminance * 1.9);
                 albedo = lerp(albedo, owner, saturate(base.a * _TeamStrength));
+                if (_EmberfieldStudio > .5)
+                {
+                    // The wardrobe preview: a fixed key and fill, no scene lights, shadows or fog, so a model reads the
+                    // same whatever the match behind the menu is doing (the procedural art's studio, as in FacetedTeam).
+                    half key = saturate(dot(n, normalize(half3(-.45, .80, -.56))));
+                    half fill = saturate(dot(n, normalize(half3(.65, .30, .55))));
+                    half studioRim = pow(1 - saturate(dot(n, GetWorldSpaceNormalizeViewDir(i.positionWS))), 3) * .07;
+                    return half4(albedo * (half3(.78, .82, .90) + key * 1.0 + fill * .32) + studioRim, 1);
+                }
 
                 SurfaceData s = (SurfaceData)0;
                 s.albedo = albedo; s.metallic = saturate(mask.r * _Metallic);

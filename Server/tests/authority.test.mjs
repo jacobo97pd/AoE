@@ -184,8 +184,8 @@ test('real authority enforces all three active rosters, rejects legacy/planned f
     ['fantasy', 'amber_crossing', 'ashen', 'aven'], ['historical', 'amber_crossing', 'english', 'skeld'],
     ['hybrid', 'amber_crossing', 'ashen', 'verdant'], ['fantasy', '../Definitions/greybox', 'ashen', 'verdant'],
     ['fantasy', 'amber_crossing', 'unknown', 'verdant'], ['historical', 'amber_crossing', 'miraj', 'aven'],
-    ['fantasy', 'amber_crossing', 'solar', 'ashen'], ['naval', 'sapphire_coast', 'english_navy', 'pirates'],
-    ['naval', 'sapphire_coast', 'spanish_navy', 'pirates'], ['naval', 'sapphire_coast', 'skeleton_fleet', 'pirates'],
+    ['fantasy', 'amber_crossing', 'solar', 'ashen'], ['naval', 'sapphire_coast', 'skeleton_fleet', 'pirates'],
+    ['naval', 'sapphire_coast', 'english_navy', 'skeleton_fleet'], ['historical', 'sapphire_coast', 'english_navy', 'english'],
     ['naval', 'amber_crossing', 'pirates', 'pirates'], ['naval', 'sunscar_basin', 'pirates', 'pirates'],
     ['historical', 'sapphire_coast', 'pirates', 'english'], ['naval', 'sapphire_coast', 'pirates', 'english']
   ]) assert.equal((await create('invalid-' + first + '-' + realm, realm, map, first, second)).ok, false);
@@ -202,11 +202,13 @@ test('real authority enforces all three active rosters, rejects legacy/planned f
         assert.equal(observation.OpponentFactionId, playerId === 1 ? second : first);
         const hearth = observation.Buildings.find(b => b.OwnerId === 1 && b.DefinitionId === 'hearth');
         if (realmId === 'naval') {
+          // The pirates start with treasure seekers and may not train tenders; the navies the other way round.
+          const pirates = observation.LocalPlayer.FactionId === 'pirates';
           const workers = observation.Units.filter(unit => unit.OwnerId === 1 && unit.CarryCapacity > 0 && unit.GatherAmount > 0);
-          assert.ok(workers.length > 0); assert.ok(workers.every(unit => unit.DefinitionId === 'treasure_seeker'));
+          assert.ok(workers.length > 0); assert.ok(workers.every(unit => unit.DefinitionId === (pirates ? 'treasure_seeker' : 'tender')));
           const forbidden = await f.authority.request({ op: 'command', matchId, playerId, command: {
-            Version: PROTOCOL_VERSION, Sequence: 1, IssuedTick: observation.Tick, RequestId: `forbidden-tender-${playerId}`,
-            Kind: 7, EntityId: hearth.Id, DefinitionId: 'tender' } });
+            Version: PROTOCOL_VERSION, Sequence: 1, IssuedTick: observation.Tick, RequestId: `forbidden-worker-${playerId}`,
+            Kind: 7, EntityId: hearth.Id, DefinitionId: pirates ? 'tender' : 'treasure_seeker' } });
           assert.equal(forbidden.accepted, false, `${matchId}/seat${playerId} must reject a worker outside its roster`);
           const unchanged = (await f.authority.request({ op: 'snapshot', matchId, playerId })).observation;
           assert.deepEqual(unchanged.LocalPlayer.Resources, observation.LocalPlayer.Resources);
@@ -216,7 +218,7 @@ test('real authority enforces all three active rosters, rejects legacy/planned f
         const result = await f.authority.request({ op: 'command', matchId, playerId, command: {
           Version: PROTOCOL_VERSION, Sequence: realmId === 'naval' ? 2 : 1, IssuedTick: observation.Tick, RequestId: `recruit-${playerId}`, Kind: 7,
           EntityId: hearth.Id,
-          DefinitionId: realmId === 'naval' ? 'treasure_seeker' : 'tender' } });
+          DefinitionId: observation.LocalPlayer.FactionId === 'pirates' ? 'treasure_seeker' : 'tender' } });
         assert.equal(result.accepted, true, `${matchId}/seat${playerId}: ${result.error}`);
       }
       await f.authority.request({ op: 'close', matchId });

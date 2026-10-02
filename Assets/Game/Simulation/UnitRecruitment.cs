@@ -12,8 +12,8 @@ namespace Emberfield.Simulation
             if (definitionId == null || !unitDefinitions.TryGetValue(definitionId, out var definition))
                 return CommandResult.Reject(CommandRejection.UnknownDefinition, "Unit definition does not exist.");
             if (!ContentRealms.IsUnitInFactionRoster(definitionId, player.FactionId))
-                return CommandResult.Reject(CommandRejection.WrongFaction, definition.Domain == MovementDomain.Water
-                    ? "Pirates sail their own sloops instead of the galley." : "Pirates recruit treasure seekers as their workers.");
+                return CommandResult.Reject(CommandRejection.WrongFaction, definition.Domain != MovementDomain.Water ? "Pirates recruit treasure seekers as their workers."
+                    : player.FactionId == "pirates" ? "Pirates sail their own sloops instead of the galley." : "This navy sails its own warship instead of the galley.");
             if (!string.IsNullOrEmpty(definition.RequiredRealmId) && definition.RequiredRealmId != Map.RealmId)
                 return CommandResult.Reject(CommandRejection.WrongFaction, "This unit belongs to the " + definition.RequiredRealmId + " realm.");
             var faction = ValidateFactionRequirement(playerId, definition.RequiredFactionId);

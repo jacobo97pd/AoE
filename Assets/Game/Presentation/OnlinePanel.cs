@@ -49,13 +49,13 @@ namespace Emberfield.Presentation
             faction = Button("Faction", homeGroup.transform, match.Online.ChooseFaction).GetComponentInChildren<Text>();
             mode = Button("Mode", homeGroup.transform, match.Online.ChooseMode).GetComponentInChildren<Text>();
             plannedNaval = Group("Planned naval factions", homeGroup.transform);
-            TextRow(FrontierCodex.Availability("pirates"), plannedNaval.transform, 90);
+            TextRow(FrontierCodex.NavalBriefing + "\n" + FrontierCodex.NavalCounters, plannedNaval.transform, 90);
             foreach (string id in FrontierCodex.PlannedNavalFactions)
             {
                 var unavailable = Button(FrontierCodex.Name(id) + " / NO DISPONIBLE", plannedNaval.transform, () => { });
                 unavailable.name = "Planned faction " + id; unavailable.interactable = false;
             }
-            TextRow("Faltan ejércitos y reglas propias de estas flotas.", plannedNaval.transform, 68);
+            TextRow(FrontierCodex.Availability("skeleton_fleet"), plannedNaval.transform, 68);
             Button("Host private 1v1", homeGroup.transform, match.Online.Host);
             room = Input("Private room code", "", homeGroup.transform, false); room.characterLimit = 12;
             Button("Join private room", homeGroup.transform, () => match.Online.Join(room.text));

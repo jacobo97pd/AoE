@@ -54,7 +54,14 @@ namespace Emberfield.Presentation
         public static float UnitHeight(string id) => AuthoredUnitHeight(id) * UnitScale;
         public static float UnitSelectionRadius(string id) => AuthoredUnitSelectionRadius(id) * UnitScale;
         // Ships (WorldView.NewShipVisual) are fitted to their own length; these are their hull and sail, and a ring round the hull.
-        public static bool IsShip(string id) => id == "war_galley" || id == "pirate_sloop";
+        public static bool IsShip(string id) => id == "war_galley" || id == "pirate_sloop" || id == "english_frigate" || id == "spanish_galleon";
+        /// <summary>
+        /// The culture a faction's soldiers and town are drawn in. Each navy fields its kingdom's army and builds its
+        /// kingdom's town, in its owner's colours: the English navy the English kingdom's, the Spanish navy the Hispanos'.
+        /// Every other faction is drawn as itself.
+        /// </summary>
+        public static FactionKind Culture(FactionKind faction) =>
+            faction == FactionKind.EnglishNavy ? FactionKind.EnglishKingdom : faction == FactionKind.SpanishNavy ? FactionKind.SerevinMarch : faction;
         private static float AuthoredUnitHeight(string id) => IsShip(id) ? 4.0f : id == "crimson_corsair" ? 2.8f : id == "boarding_raider" || id == "gunpowder_corsair" || id == "treasure_seeker" ? 2.35f : id == "siege_tower" ? 4.9f : id == "dune_elephant" || id == "grove_guardian" || id == "siege_ladder" ? 3.8f : id == "frostguard" || id == "war_troll" ? 3.4f : id == "ember_drake" ? 3.0f : id == "camel_archer" ? 3.4f : id == "quilted_lancer" ? 3.3f : id == "strider" || id == "ashrunner" ? 3.1f : id == "reedguard" || id == "threadkeeper" ? 2.65f : id == "supply_cart" ? 1.65f : 2.2f;
         private static float AuthoredUnitSelectionRadius(string id) => IsShip(id) ? 2.6f : id == "dune_elephant" || id == "siege_tower" ? 1.15f : id == "ember_drake" || id == "siege_ram" ? 1.0f : id == "sun_lion" || id == "grove_guardian" || id == "war_troll" || id == "frostguard" || Mounted(id) ? .90f : .70f;
         /// <summary>The riders: the procedural figure sits them on a horse, and their selection ring is as wide as a creature's.</summary>

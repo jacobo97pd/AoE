@@ -73,7 +73,7 @@ namespace Emberfield.Tests.PlayMode
             {
                 Assert.IsTrue(seen.Add(item.id)); Assert.IsFalse(CosmeticLoadout.Style(item.styleId).IsDefault,item.id);
                 CollectionAssert.Contains(new[] { "shared","historical","fantasy","naval" },item.realmId);
-                CollectionAssert.Contains(new[] { "architecture","creature","banner" },item.slot);
+                CollectionAssert.Contains(new[] { "architecture","creature","banner","character" },item.slot);
             }
         }
 
